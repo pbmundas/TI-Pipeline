@@ -40,6 +40,7 @@ import yaml
 cfg = yaml.safe_load(open("config.yaml"))
 print(f'DASHBOARD_REPO={cfg["paths"]["dashboard_repo"]!r}')
 print(f'OUTPUT_REL_PATH={cfg["paths"]["output_relative_path"]!r}')
+print(f'ARTICLES_REL_PATH={cfg["paths"]["articles_file"]!r}')
 print(f'GIT_ENABLED={str(cfg["git"].get("enabled", True)).lower()!r}')
 print(f'GIT_BRANCH={cfg["git"]["branch"]!r}')
 print(f'GIT_REMOTE={cfg["git"]["remote"]!r}')
@@ -78,7 +79,7 @@ fi
 echo "--- Step 3: pushing to GitHub Pages repo ($DASHBOARD_REPO) ---"
 cd "$DASHBOARD_REPO"
 
-git add "$OUTPUT_REL_PATH"
+git add "$OUTPUT_REL_PATH" "$ARTICLES_REL_PATH"
 
 if git diff --cached --quiet; then
     echo "No changes to publish - dashboard data is already up to date."

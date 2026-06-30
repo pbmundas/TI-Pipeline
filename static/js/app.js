@@ -69,7 +69,33 @@ var app = createApp({
             var self = this;
             self.loading = true;
             self.error = null;
-            fetch('./data/articles.json')
+            // Prefer the fully Ollama-enriched report if it's been published.
+            // Falls back to the raw article cache (sources only, no AI
+            // sections) so the dashboard still works before the first
+            // enrichment run.
+            fetch('./gui/unified_report.json')
+                .then(function (res) {
+                    if (!res.ok) throw new Error('no enriched report');
+                    return res.json();
+                })
+                .then(function (data) {
+                    self.report = data;
+                })
+                .catch(function () {
+                    return self.loadFromRawArticles();
+                })
+                .catch(function (e) {
+                    console.error('Failed to load articles:', e);
+                    self.error = 'Failed to load articles. Please try again.';
+                })
+                .finally(function () {
+                    self.loading = false;
+                });
+        },
+
+        loadFromRawArticles: function () {
+            var self = this;
+            return fetch('./data/articles.json')
                 .then(function (res) {
                     if (!res.ok) throw new Error('Failed to load articles: ' + res.status);
                     return res.json();
@@ -99,7 +125,7 @@ var app = createApp({
                             format: 'raw_articles',
                             documents_analyzed: sources.length,
                             time_period_days: null,
-                            generated_by: 'data/articles.json (no LLM enrichment)'
+                            generated_by: 'data/articles.json (no LLM enrichment yet)'
                         },
                         sources: sources,
                         executive_brief: '',
@@ -115,13 +141,6 @@ var app = createApp({
                             key_changes: ''
                         }
                     };
-                })
-                .catch(function (e) {
-                    console.error('Failed to load articles:', e);
-                    self.error = 'Failed to load articles. Please try again.';
-                })
-                .finally(function () {
-                    self.loading = false;
                 });
         },
 
