@@ -1,0 +1,65 @@
+# ===========================================================================
+# TI Pipeline configuration
+# ===========================================================================
+
+ollama:
+  host: "http://localhost:11434"   # change if Ollama runs elsewhere (e.g. http://ollama:11434 in Docker)
+  model: "qwen2.5:7b"
+  temperature: 0.2
+  request_timeout_seconds: 600   # per-call timeout; the REDUCE phase now makes several
+                                  # small calls instead of one giant one, but slow/CPU-only
+                                  # machines still benefit from headroom here
+  # How many source articles to feed the model per extraction batch.
+  # qwen2.5:7b has a usable context window, but smaller batches = more reliable JSON.
+  batch_size: 6
+
+report:
+  # Only articles published within this many days are included in the report
+  time_period_days: 7
+  max_threat_stories: 5
+  max_actor_profiles: 5
+  max_critical_vulnerabilities: 8
+  max_hunting_leads: 5
+
+paths:
+  # Local working data (article cache, dedup state) - not published
+  data_dir: "data"
+  articles_file: "data/articles.json"
+  # Path to your cloned tidashboar.github.io repo. The pipeline writes
+  # gui/unified_report.json there and (optionally) commits + pushes it.
+  dashboard_repo: "../tidashboar.github.io"
+  output_relative_path: "gui/unified_report.json"
+
+git:
+  enabled: true
+  branch: "master"
+  commit_message_prefix: "Automated TI update"
+  remote: "origin"
+
+# RSS feeds to poll. Add/remove freely - title/url/published date are
+# extracted automatically via feedparser.
+feeds:
+  - url: "https://feeds.feedburner.com/TheHackersNews"
+    source_type: "news"
+  - url: "https://www.bleepingcomputer.com/feed/"
+    source_type: "news"
+  - url: "https://www.darkreading.com/rss.xml"
+    source_type: "news"
+  - url: "https://krebsonsecurity.com/feed/"
+    source_type: "news"
+  - url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    source_type: "advisory"
+  - url: "https://www.cisa.gov/news.xml"
+    source_type: "advisory"
+  - url: "https://www.securityweek.com/feed/"
+    source_type: "news"
+  - url: "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml"
+    source_type: "vulnerability"
+  - url: "https://www.welivesecurity.com/en/rss/feed/"
+    source_type: "research"
+  - url: "https://unit42.paloaltonetworks.com/feed/"
+    source_type: "research"
+  - url: "https://blog.talosintelligence.com/rss/"
+    source_type: "research"
+  - url: "https://msrc.microsoft.com/blog/feed"
+    source_type: "vendor"
