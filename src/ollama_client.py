@@ -9,6 +9,7 @@ requires touching this file.
 import json
 import logging
 import re
+import time
 
 import requests
 
@@ -28,6 +29,8 @@ class OllamaClient:
 
     def _post(self, payload):
         url = f"{self.host}/api/chat"
+        log.info("Calling Ollama (%s)... this can take 30s-several minutes on CPU", self.model)
+        start = time.monotonic()
         try:
             resp = requests.post(url, json=payload, timeout=self.timeout)
         except requests.exceptions.ConnectionError as e:
@@ -35,6 +38,8 @@ class OllamaClient:
                 f"Could not reach Ollama at {self.host}. Is `ollama serve` running "
                 f"and is the model pulled (`ollama pull {self.model}`)?"
             ) from e
+        elapsed = time.monotonic() - start
+        log.info("Ollama responded in %.1fs", elapsed)
         if resp.status_code != 200:
             raise OllamaError(f"Ollama returned HTTP {resp.status_code}: {resp.text[:500]}")
         return resp.json()

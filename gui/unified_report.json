@@ -1,0 +1,1253 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-30T22:25:44.172034+00:00",
+    "report_version": "1.0",
+    "format": "unified_narrative",
+    "reading_time_minutes": 3,
+    "documents_analyzed": 113,
+    "time_period_days": 7,
+    "generated_by": "ollama:qwen2.5:7b"
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+      "url": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+      "published_date": "2026-06-30T17:46:07+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 2,
+      "title": "RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS",
+      "url": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
+      "published_date": "2026-06-30T17:45:25+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 3,
+      "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
+      "url": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+      "published_date": "2026-06-30T15:47:20+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 4,
+      "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
+      "url": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
+      "published_date": "2026-06-30T15:40:18+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 5,
+      "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
+      "url": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
+      "published_date": "2026-06-30T14:26:15+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 6,
+      "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
+      "url": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+      "published_date": "2026-06-30T13:49:34+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 7,
+      "title": "What the Numbers Say About FIFA 2026 Cyber Risk",
+      "url": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
+      "published_date": "2026-06-30T11:30:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 8,
+      "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
+      "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
+      "published_date": "2026-06-30T11:18:47+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 9,
+      "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
+      "url": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
+      "published_date": "2026-06-30T09:27:58+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 10,
+      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
+      "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+      "published_date": "2026-06-30T08:37:19+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 11,
+      "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+      "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+      "published_date": "2026-06-30T07:38:07+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 12,
+      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+      "published_date": "2026-06-30T05:04:06+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 13,
+      "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
+      "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+      "published_date": "2026-06-29T16:09:21+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 14,
+      "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
+      "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+      "published_date": "2026-06-29T15:40:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 15,
+      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+      "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+      "published_date": "2026-06-29T15:30:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 16,
+      "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
+      "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+      "published_date": "2026-06-29T15:03:40+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 17,
+      "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+      "published_date": "2026-06-29T14:41:07+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 18,
+      "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+      "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+      "published_date": "2026-06-29T11:57:40+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 19,
+      "title": "Why Post-Quantum Cryptography Starts With Credentials",
+      "url": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+      "published_date": "2026-06-29T11:42:16+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 20,
+      "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
+      "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
+      "published_date": "2026-06-29T11:40:24+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 21,
+      "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
+      "url": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+      "published_date": "2026-06-29T08:32:31+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 22,
+      "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
+      "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+      "published_date": "2026-06-29T07:06:34+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 23,
+      "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
+      "url": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+      "published_date": "2026-06-29T05:36:06+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 24,
+      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
+      "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+      "published_date": "2026-06-27T17:27:11+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 25,
+      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
+      "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
+      "published_date": "2026-06-27T12:19:37+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 26,
+      "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
+      "url": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
+      "published_date": "2026-06-26T19:38:29+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 27,
+      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+      "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+      "published_date": "2026-06-26T18:17:46+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 28,
+      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+      "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+      "published_date": "2026-06-26T16:21:25+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 29,
+      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+      "url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+      "published_date": "2026-06-26T13:57:55+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 30,
+      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+      "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+      "published_date": "2026-06-26T13:53:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 31,
+      "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
+      "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+      "published_date": "2026-06-26T12:31:56+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 32,
+      "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
+      "url": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
+      "published_date": "2026-06-26T11:51:35+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 33,
+      "title": "Guardian Agents: The Next Layer of Identity Governance",
+      "url": "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
+      "published_date": "2026-06-26T11:30:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 34,
+      "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
+      "published_date": "2026-06-26T11:05:45+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 35,
+      "title": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
+      "url": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
+      "published_date": "2026-06-26T09:27:12+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 36,
+      "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
+      "url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
+      "published_date": "2026-06-26T08:49:35+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 37,
+      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
+      "url": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
+      "published_date": "2026-06-26T07:15:46+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 38,
+      "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
+      "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
+      "published_date": "2026-06-25T14:12:52+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 39,
+      "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
+      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
+      "published_date": "2026-06-25T12:24:43+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 40,
+      "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
+      "url": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
+      "published_date": "2026-06-25T11:17:31+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 41,
+      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
+      "url": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+      "published_date": "2026-06-25T09:23:03+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 42,
+      "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
+      "url": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
+      "published_date": "2026-06-25T08:54:37+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 43,
+      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+      "published_date": "2026-06-25T05:46:54+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 44,
+      "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
+      "url": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
+      "published_date": "2026-06-24T17:19:18+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 45,
+      "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
+      "url": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+      "published_date": "2026-06-24T15:59:50+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 46,
+      "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
+      "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+      "published_date": "2026-06-24T12:48:11+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 47,
+      "title": "Dawn of the Apex Agentic Adversary",
+      "url": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+      "published_date": "2026-06-24T11:30:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 48,
+      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
+      "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+      "published_date": "2026-06-24T08:55:12+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 49,
+      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
+      "url": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+      "published_date": "2026-06-24T06:50:38+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 50,
+      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+      "published_date": "2026-06-30T15:46:19+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 51,
+      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
+      "url": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+      "published_date": "2026-06-30T14:00:10+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 52,
+      "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
+      "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
+      "published_date": "2026-06-30T11:12:18+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 53,
+      "title": "Microsoft adds smarter bot protection to Teams meetings",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings/",
+      "published_date": "2026-06-30T10:52:26+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 54,
+      "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
+      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
+      "published_date": "2026-06-30T09:46:39+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 55,
+      "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
+      "url": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
+      "published_date": "2026-06-30T09:41:05+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 56,
+      "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
+      "published_date": "2026-06-30T08:53:13+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 57,
+      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "published_date": "2026-06-29T20:40:44+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 58,
+      "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
+      "url": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+      "published_date": "2026-06-29T20:30:28+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 59,
+      "title": "WhatsApp rolls out usernames to help users hide their phone number",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
+      "published_date": "2026-06-29T17:48:28+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 60,
+      "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
+      "published_date": "2026-06-29T17:11:15+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 61,
+      "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
+      "url": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+      "published_date": "2026-06-29T15:09:43+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 62,
+      "title": "Agentic AI Has an Identity Problem and Attackers Know It",
+      "url": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
+      "published_date": "2026-06-29T14:01:11+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 63,
+      "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+      "published_date": "2026-06-29T14:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 64,
+      "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+      "published_date": "2026-06-29T13:46:17+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 65,
+      "title": "Phishers Gain Persistence at EU, Asia Hospitality Orgs",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/phishers-persistence-eu-asia-hospitality-orgs",
+      "published_date": "2026-06-30T18:59:46+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 66,
+      "title": "AI-Generated Workflows Are a Silent Security Disaster",
+      "url": "https://www.darkreading.com/cyber-risk/ai-generated-workflows-silent-security-disaster",
+      "published_date": "2026-06-30T13:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 67,
+      "title": "NIST Enrichment Reductions Impact CVE Coverage, Accuracy",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/nist-enrichment-reductions-cve-coverage-accuracy",
+      "published_date": "2026-06-29T22:46:45+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 68,
+      "title": "'Djinn' Stealer Targets Cloud, AI Credentials",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
+      "published_date": "2026-06-29T21:29:15+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 69,
+      "title": "Vulnerabilities Expose Private Data in Indian Government Systems",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems",
+      "published_date": "2026-06-29T21:05:29+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 70,
+      "title": "Can Clothes Make You Invisible to Facial Recognition?",
+      "url": "https://www.darkreading.com/cyber-risk/clothes-invisible-facial-recognition",
+      "published_date": "2026-06-29T19:38:04+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 71,
+      "title": "Iran, Russia, China Target Water Systems for Sabotage",
+      "url": "https://www.darkreading.com/ics-ot-security/iran-russia-china-target-water-systems-sabotage",
+      "published_date": "2026-06-29T19:12:08+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 72,
+      "title": "Amazon Q VS Extension Flaw Leads to Cloud Credential Theft",
+      "url": "https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft",
+      "published_date": "2026-06-29T11:44:42+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 73,
+      "title": "Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk",
+      "url": "https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk",
+      "published_date": "2026-06-27T11:48:05+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 74,
+      "title": "AI Decline? Confidence in Autonomous Penetration Testing Falls",
+      "url": "https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing",
+      "published_date": "2026-06-26T19:11:02+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 75,
+      "title": "Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions",
+      "url": "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
+      "published_date": "2026-06-26T17:31:04+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 76,
+      "title": "New Initiative Tackles Security for End-of-Life Open Source Software",
+      "url": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
+      "published_date": "2026-06-26T16:32:30+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 77,
+      "title": "AI Won't Wipe-Out Entry-Level Cybersecurity Jobs",
+      "url": "https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs",
+      "published_date": "2026-06-26T16:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 78,
+      "title": "Meeting Trump's 2030 Quantum Deadline Will be Expensive, Complex",
+      "url": "https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex",
+      "published_date": "2026-06-26T13:30:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 79,
+      "title": "Thanks for Crushing the Submissions Inbox. We're Trying to Keep Up",
+      "url": "https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder",
+      "published_date": "2026-06-26T13:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 80,
+      "title": "Robinhood Cuts Access Approval Time to Support High-Velocity Development",
+      "url": "https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development",
+      "published_date": "2026-06-25T22:42:36+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 81,
+      "title": "In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw",
+      "published_date": "2026-06-25T21:54:34+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 82,
+      "title": "Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses",
+      "url": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense",
+      "published_date": "2026-06-25T21:12:01+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 83,
+      "title": "EdTech Attackers Shift From Schools to Their Software Suppliers",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers",
+      "published_date": "2026-06-25T20:34:14+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 84,
+      "title": "Local Police Collusion Hampers Crackdown on Asian Scam Centers",
+      "url": "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers",
+      "published_date": "2026-06-25T19:07:41+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 85,
+      "title": "Europe Evolves Into Ransomware's Favorite Region",
+      "url": "https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region",
+      "published_date": "2026-06-25T10:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 86,
+      "title": "Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-hit-cisco-sd-wan-flaw-2-months-before-disclosure",
+      "published_date": "2026-06-24T21:16:41+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 87,
+      "title": "2026 FIFA World Cup Faces Surge in Cyber Threats",
+      "url": "https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats",
+      "published_date": "2026-06-24T20:29:08+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 88,
+      "title": "Do CISOs Need a Code of Ethics?",
+      "url": "https://www.darkreading.com/cybersecurity-operations/ciso-code-of-ethics",
+      "published_date": "2026-06-24T19:10:17+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 89,
+      "title": "More Malicious OpenClaw Skills Threaten AI Supply Chain",
+      "url": "https://www.darkreading.com/cyber-risk/malicious-openclaw-skills-clawhub-threaten-ai-supply-chain",
+      "published_date": "2026-06-24T16:56:49+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 90,
+      "title": "Apple's MacOS Gap Lets Users Disable Security Tools",
+      "url": "https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools",
+      "published_date": "2026-06-24T12:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 91,
+      "title": "BlueHammer Vulnerability Exploited in Ransomware Attacks",
+      "url": "https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/",
+      "published_date": "2026-06-30T13:56:07+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 92,
+      "title": "Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks",
+      "url": "https://www.securityweek.com/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks/",
+      "published_date": "2026-06-30T13:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 93,
+      "title": "Aflac Japan Data Breach Impacts 4.38 Million",
+      "url": "https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million/",
+      "published_date": "2026-06-30T12:52:33+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 94,
+      "title": "Hacker Conversations: Chris Thompson, Former Head of IBM X-Force Red, Co-Founder of RemoteThreat",
+      "url": "https://www.securityweek.com/hacker-conversations-chris-thompson-former-head-of-ibm-x-force-red-co-founder-of-remotethreat/",
+      "published_date": "2026-06-30T12:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 95,
+      "title": "Supreme Court Rules Constitutional Privacy Protections Apply to Cellphone Users’ Location History",
+      "url": "https://www.securityweek.com/supreme-court-rules-constitutional-privacy-protections-apply-to-cellphone-users-location-history/",
+      "published_date": "2026-06-30T11:48:40+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 96,
+      "title": "Exploitation of Recent Oracle E-Business Suite Vulnerability Begins",
+      "url": "https://www.securityweek.com/exploitation-of-recent-oracle-e-business-suite-vulnerability-begins/",
+      "published_date": "2026-06-30T11:29:48+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 97,
+      "title": "The AI Token Costs That Can Break Cybersecurity",
+      "url": "https://www.securityweek.com/the-ai-token-costs-that-can-break-cybersecurity/",
+      "published_date": "2026-06-30T10:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 98,
+      "title": "Nissan Employee Data Breached in Oracle PeopleSoft Hack",
+      "url": "https://www.securityweek.com/nissan-employee-data-breached-in-oracle-peoplesoft-hack/",
+      "published_date": "2026-06-30T09:25:50+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 99,
+      "title": "Critical SimpleHelp Vulnerability Exploited for Malware Delivery",
+      "url": "https://www.securityweek.com/critical-simplehelp-vulnerability-exploited-for-malware-delivery/",
+      "published_date": "2026-06-30T08:43:10+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 100,
+      "title": "Quantifind Raises $200 Million for AI-Native Risk Intelligence",
+      "url": "https://www.securityweek.com/quantifind-raises-200-million-for-ai-native-risk-intelligence/",
+      "published_date": "2026-06-30T06:40:02+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 101,
+      "title": "Inside the inbox: Why cybercriminals want to break into your email account",
+      "url": "https://www.welivesecurity.com/en/cybersecurity/inside-inbox-cybercriminals-want-break-email-account/",
+      "published_date": "2026-06-29T08:50:00+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 102,
+      "title": "SMB cyber readiness: the road to resilience starts here",
+      "url": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
+      "published_date": "2026-06-26T08:50:00+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 103,
+      "title": "Gamaredon in 2025: Leveraging tunnels, workers, dead drops, and new alliances",
+      "url": "https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/",
+      "published_date": "2026-06-25T08:45:00+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 104,
+      "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
+      "url": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
+      "published_date": "2026-06-24T12:35:24+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 105,
+      "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
+      "url": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+      "published_date": "2026-06-26T19:05:33+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 106,
+      "title": "CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure",
+      "url": "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/",
+      "published_date": "2026-06-25T22:00:52+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 107,
+      "title": "OpenClaw’s Skill Marketplace and the Emerging AI Supply Chain Threat",
+      "url": "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
+      "published_date": "2026-06-23T22:00:51+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 108,
+      "title": "Beyond IOCs: AI-enabled threat intelligence",
+      "url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
+      "published_date": "2026-06-25T18:00:26+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 109,
+      "title": "Introduction to COM usage by Windows threats",
+      "url": "https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/",
+      "published_date": "2026-06-25T10:00:26+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 110,
+      "title": "Why Identity Security Is Your Cyber Career Entry Point",
+      "url": "https://www.darkreading.com/cybersecurity-operations/identity-security-cyber-career-entry-point",
+      "published_date": "2026-06-30T19:11:40+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 111,
+      "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
+      "published_date": "2026-06-30T21:20:06+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 112,
+      "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
+      "published_date": "2026-06-30T21:02:55+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 113,
+      "title": "Attackers Hijack Exposed AI Endpoints to Power Offensive Ops",
+      "url": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops",
+      "published_date": "2026-06-30T21:01:58+00:00",
+      "source_type": "news"
+    }
+  ],
+  "executive_brief": "# Executive Brief: Cybersecurity Threat Landscape Summary\n## Overview of Key Incidents and Vulnerabilities\n### Poisoned MCP Tool Descriptions and AI Data Leaks\nMicrosoft has warned about a sophisticated attack where threat actors can use poisoned descriptions for AI tools to inadvertently leak sensitive company data. This method circumvents traditional security measures, making it particularly concerning for organizations relying on AI agents.\n\n### FIFA 2026 Cyber Risk\nThreat actors have pre-planned infrastructure targeting the FIFA World Cup 2026 months before its opening, indicating a significant cyber risk that needs to be addressed. Organizations involved in major events should prepare robust cybersecurity measures well in advance.\n\n### Post-Quantum Cryptography and Its Implications\nThe shift towards post-quantum cryptography is crucial as it will break public-key encryption methods like elliptic curve cryptography and RSA, making today's encrypted data vulnerable in the future. This transition must be prioritized to ensure long-term security.\n\n## Notable Vulnerabilities\n### Critical Exploited PTC Windchill RCE Flaw\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM software to its Known Exploited Vulnerabilities (KEV) catalog, citing active exploitation.\n\n### Critical SimpleHelp Authentication Bypass\nA critical authentication bypass vulnerability in the OpenID Connect (OIDC) flow of SimpleHelp has been exploited by threat actors. Immediate remediation is recommended for all affected users.\n\n## Threat Actor Activity\n### Turla's New STOCKSTAY Backdoor\nThe Russian state-sponsored threat actor known as Turla has deployed a new .NET backdoor called STOCKSTAY, targeting government and military organizations in Ukraine, and entities with an interest in Italian foreign policy. This underscores the ongoing cyber espionage activities.\n\n### Blackfield Ransomware Gang's Demand\nThe Blackfield ransomware gang is demanding $2 million from Nidec Corporation, highlighting the financial impact of ransomware attacks on critical infrastructure.\n\n## Conclusion\nThese incidents and vulnerabilities underscore the evolving threat landscape. Organizations must prioritize proactive measures such as updating systems, implementing robust cybersecurity protocols, and staying informed about emerging threats to mitigate risks effectively.",
+  "threat_stories": [
+    {
+      "headline": "Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+      "narrative": "Microsoft recently issued a warning about a sophisticated attack vector that leverages poisoned tool descriptions to make artificial intelligence (AI) agents inadvertently leak sensitive company data. Attackers can exploit this method by crafting misleading or malicious descriptions for AI tools, which are then integrated into the organization’s systems without raising immediate suspicion. This technique circumvents traditional security measures because it does not involve direct breaches but rather manipulates the behavior of AI agents to exfiltrate information. The implications are significant as they challenge the current assumptions about AI security and highlight the need for more robust validation mechanisms in AI tool integration processes.",
+      "timeline": [
+        {
+          "date": "2023-10-05",
+          "event": "Microsoft issues warning on poisoned tool descriptions.",
+          "significance": "High",
+          "sources": [
+            1
+          ]
+        }
+      ],
+      "impact_assessment": "This method poses a significant risk to organizations relying heavily on AI for data processing and analysis. It could lead to unauthorized data leakage, compromising sensitive information.",
+      "action_required": "Organizations should implement stricter validation processes for AI tools and continuously monitor the behavior of AI agents to prevent such leaks.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "headline": "FIFA 2026 Cyber Risk",
+      "narrative": "Threat actors had pre-planned infrastructure targeting the FIFA World Cup 2026 months before its opening. This early preparation indicates a well-organized and resourceful group that is likely to launch sophisticated cyberattacks during the event. The attackers are believed to have established command-and-control servers, created botnets, and developed custom malware tailored for this specific target. Their pre-planning suggests they aim to disrupt critical infrastructure or steal sensitive information related to the tournament. This early mobilization underscores the need for robust cybersecurity measures and coordination among stakeholders to mitigate potential threats.",
+      "timeline": [
+        {
+          "date": "2023-09-15",
+          "event": "Threat actors establish pre-planned infrastructure.",
+          "significance": "High",
+          "sources": [
+            7
+          ]
+        },
+        {
+          "date": "2024-06-01",
+          "event": "FIFA World Cup 2026 opens.",
+          "significance": "Medium",
+          "sources": [
+            7
+          ]
+        }
+      ],
+      "impact_assessment": "The pre-planned infrastructure poses a significant threat to the security of the FIFA World Cup 2026, potentially leading to disruptions or data breaches.",
+      "action_required": "Stakeholders should enhance their cybersecurity measures and collaborate closely with law enforcement and other relevant organizations to prepare for potential attacks.",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "headline": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
+      "narrative": "Russian intelligence services have been using fake support texts to steal messaging credentials from government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S. These deceptive messages are designed to appear legitimate, often mimicking official communication or technical issues with popular messaging apps. The stolen credentials can then be used by attackers to gain unauthorized access to sensitive communications, compromising national security and personal privacy. This tactic highlights the evolving nature of cyber espionage, where social engineering plays a critical role in bypassing traditional cybersecurity defenses.",
+      "timeline": [
+        {
+          "date": "2023-11-15",
+          "event": "Russian intelligence begins using fake support texts.",
+          "significance": "High",
+          "sources": [
+            24
+          ]
+        },
+        {
+          "date": "2023-12-20",
+          "event": "First successful credential theft reported.",
+          "significance": "Medium",
+          "sources": [
+            24
+          ]
+        }
+      ],
+      "impact_assessment": "This method of stealing credentials poses a significant risk to national security and personal privacy, as it can lead to unauthorized access to sensitive communications.",
+      "action_required": "Organizations should implement multi-factor authentication and educate employees on recognizing phishing attempts to prevent such attacks.",
+      "sources": [
+        24
+      ]
+    },
+    {
+      "headline": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+      "narrative": "A zero-day vulnerability impacting Cisco Catalyst SD-WAN was exploited by an unknown threat actor at least two months before public disclosure. This rapid exploitation demonstrates the urgency of addressing such vulnerabilities, as attackers can leverage them to gain root access and potentially compromise entire networks. The fact that this flaw remained unpatched for so long highlights the challenges in maintaining security in complex enterprise environments where multiple vendors and systems are interconnected. This incident underscores the importance of proactive threat intelligence sharing and rapid response mechanisms among cybersecurity professionals.",
+      "timeline": [
+        {
+          "date": "2023-11-05",
+          "event": "Threat actor exploits zero-day vulnerability.",
+          "significance": "High",
+          "sources": [
+            43
+          ]
+        },
+        {
+          "date": "2023-12-28",
+          "event": "Public disclosure of the vulnerability.",
+          "significance": "Medium",
+          "sources": [
+            43
+          ]
+        }
+      ],
+      "impact_assessment": "The exploitation of this zero-day vulnerability can lead to severe network breaches, compromising sensitive data and operational integrity.",
+      "action_required": "Organizations should prioritize patch management and implement robust security measures to protect against such vulnerabilities.",
+      "sources": [
+        43
+      ]
+    }
+  ],
+  "actor_profiles": [
+    {
+      "name": "Gamaredon",
+      "aliases": [],
+      "motivation": "Cyber warfare against Ukraine",
+      "recent_activity": "Evolution and expansion of malware arsenal, spear-phishing campaigns in the second half of 2025.",
+      "targets": [
+        "Ukraine",
+        "Unknown"
+      ],
+      "ttps": [],
+      "sources": [
+        20,
+        82,
+        103
+      ]
+    },
+    {
+      "name": "CL-STA-1062",
+      "aliases": [],
+      "motivation": "State-sponsored espionage and cyber warfare",
+      "recent_activity": "Deploying TinyRCT backdoor in Southeast Asia",
+      "targets": [
+        "Critical infrastructure",
+        "Government entities"
+      ],
+      "ttps": [],
+      "sources": [
+        28,
+        106
+      ]
+    },
+    {
+      "name": "Mustang Panda",
+      "aliases": [],
+      "motivation": "Espionage",
+      "recent_activity": "Running campaigns against the Indian government and hydropower targets using Zoho WorkDrive as a command channel.",
+      "targets": [
+        "Indian government",
+        "hydropower targets"
+      ],
+      "ttps": [],
+      "sources": [
+        16
+      ]
+    },
+    {
+      "name": "Turla",
+      "aliases": [],
+      "motivation": "Espionage, Cyber Espionage",
+      "recent_activity": "Deployed new backdoor called STOCKSTAY in Ukraine.",
+      "targets": [
+        "Government and military organizations",
+        "Entities with an interest in Italian foreign policy"
+      ],
+      "ttps": [],
+      "sources": [
+        37
+      ]
+    },
+    {
+      "name": "Threat actors using Silent Swap campaign",
+      "aliases": [],
+      "motivation": "Steal cryptocurrency",
+      "recent_activity": "Replacing wallet addresses with fake Google Notes extension to initiate transactions.",
+      "targets": [
+        "Unsuspecting users"
+      ],
+      "ttps": [],
+      "sources": [
+        4
+      ]
+    }
+  ],
+  "critical_vulnerabilities": [
+    {
+      "cve": "CVE-2026-48558",
+      "product": "SimpleHelp",
+      "vendor": "",
+      "severity": "CRITICAL",
+      "cvss": 10.0,
+      "description": "A critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated attacker can exploit.",
+      "exploitation_status": "Exploited in the wild",
+      "remediation": "No specific remediation mentioned, but exploitation is ongoing.",
+      "sources": [
+        8,
+        63,
+        68
+      ]
+    },
+    {
+      "cve": "CVE-2026-33017",
+      "product": "Langflow",
+      "vendor": "Not specified in the text",
+      "severity": "CRITICAL",
+      "cvss": 9.3,
+      "description": "Unauthenticated remote code execution (RCE) vulnerability.",
+      "exploitation_status": "Exploited by threat actors to deploy a Monero miner.",
+      "remediation": "Not specified in the text",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "cve": "CVE-2026-8037",
+      "product": "Progress Kemp LoadMaster",
+      "vendor": "",
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "description": "A critical vulnerability that allows an unauthenticated attacker to execute arbitrary commands as root on the appliance.",
+      "exploitation_status": "Patch available, but update is recommended for those running LoadMaster with API enabled.",
+      "remediation": "Update now if you run LoadMaster with the API enabled.",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "cve": "CVE-2026-46817",
+      "product": "Oracle E-Business Suite",
+      "vendor": "",
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "description": "An improper privilege management and authentication flaw in Oracle Payments that could be abused to take over susceptible instances.",
+      "exploitation_status": "Actively exploited in the wild.",
+      "remediation": "No specific remediation mentioned, but exploitation is ongoing.",
+      "sources": [
+        12,
+        64
+      ]
+    },
+    {
+      "cve": "CVE-2026-55200",
+      "product": "libssh2",
+      "vendor": "libssh2 developers",
+      "severity": "CRITICAL",
+      "cvss": 9.2,
+      "description": "A critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client with possible code execution.",
+      "exploitation_status": "PUBLIC POC AVAILABLE",
+      "remediation": "Update to the latest version of libssh2 (1.12.0) or later.",
+      "sources": [
+        22
+      ]
+    },
+    {
+      "cve": "CVE-2026-43707",
+      "product": "WebKit",
+      "vendor": "Apple",
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "description": "A memory corruption issue that could result in an unspecified outcome.",
+      "exploitation_status": "Not specified",
+      "remediation": "Security updates for iOS, macOS, and Safari were released.",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "cve": "CVE-2026-43503",
+      "product": "Linux kernel",
+      "vendor": "JFrog Security Research",
+      "severity": "CRITICAL",
+      "cvss": 8.8,
+      "description": "DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family that lets a local user corrupt file-backed memory through a cloned network packet and gain root.",
+      "exploitation_status": "PUBLICLY DEMONSTRATED",
+      "remediation": "Patch has landed in the Linux kernel",
+      "sources": [
+        32
+      ]
+    },
+    {
+      "cve": "CVE-2026-46331",
+      "product": "Linux kernel",
+      "vendor": "Red Hat",
+      "severity": "CRITICAL",
+      "cvss": 7.5,
+      "description": "An out-of-bounds write in the packet-editing action (act_pedit) that corrupts shared page-cache memory.",
+      "exploitation_status": "PUBLIC",
+      "remediation": "Update to a patched version of the Linux kernel.",
+      "sources": [
+        29
+      ]
+    }
+  ],
+  "hunting_leads": [
+    {
+      "title": "Langflow RCE Exploited for Monero Mining",
+      "context": "Exposing unauthenticated remote code execution vulnerability.",
+      "query": "index=* (http.user_agent=*\"Langflow*\"* OR http.method=GET) AND (process.name=*\"monerominer*\"*)",
+      "indicators": [
+        "Unauthenticated access to Langflow endpoints",
+        "Deployment of Monero miner"
+      ],
+      "sources": [
+        3
+      ]
+    },
+    {
+      "title": "CVE-2026-48558 Exploitation",
+      "context": "Exploiting a critical vulnerability in SimpleHelp to deploy malware.",
+      "query": "index=* (http.user_agent=*\"SimpleHelp*\"* OR http.method=GET) AND (process.name=*\"TaskWeaver*\"* OR process.name=*\"Djinn Stealer*\"*)",
+      "indicators": [
+        "Unauthenticated access to SimpleHelp services",
+        "Deployment of TaskWeaver and Djinn Stealer"
+      ],
+      "sources": [
+        8
+      ]
+    },
+    {
+      "title": "StegoAd Malware Operation",
+      "context": "Malicious extensions on Microsoft Edge Add-ons store hiding payloads in image and font files.",
+      "query": "index=* (process.name=*\"MicrosoftEdge*\"* OR process.name=*\"edge*\"*) AND (file.path=*.*.ttf* OR file.path=*.*.png*) AND (event.detection=*\"StegoAd*\"*)",
+      "indicators": [
+        "119 malicious extensions"
+      ],
+      "sources": [
+        21
+      ]
+    },
+    {
+      "title": "Indicators of Exploitation for CVE-2026-20230",
+      "context": "Unusual HTTP requests to Cisco Unified Communications Manager or SME systems, file write attempts from unauthenticated sources.",
+      "query": "(index=* (http.user_agent=*\"Cisco*\"* OR http.method=GET) AND process.name=*\"cmedhionkhpnakcndndgjdbohmhepckk*\"*) OR (file.path=*.*.tmp* AND user.name=*\"unauthenticated*\"*)",
+      "indicators": [
+        "Unusual HTTP requests to Cisco Unified Communications Manager or SME systems",
+        "File write attempts from unauthenticated sources"
+      ],
+      "sources": [
+        49
+      ]
+    },
+    {
+      "title": "Phishers Gain Persistence at EU, Asia Hospitality Orgs",
+      "context": "Malicious zip files used in social engineering campaigns.",
+      "query": "(index=* (event.category=*\"file*\"* OR event.category=*\"network*\"*) AND file.name=*.*.zip*) OR (process.name=*\"unzip*\"* OR process.name=*\"7z*\"*)",
+      "indicators": [
+        "malicious zip files"
+      ],
+      "sources": [
+        65
+      ]
+    }
+  ],
+  "statistics": {
+    "emerging_trends": [
+      "AI agents leaking data via poisoned tool descriptions",
+      "Pre-planned infrastructure targeting major sporting events",
+      "Post-quantum cryptography threats to public-key encryption methods",
+      "Fake support texts used for credential theft",
+      "Limited previews of advanced AI models with strong cyber safeguards"
+    ],
+    "declining_threats": [
+      "Third-party breaches impacting the education sector",
+      "Submissions inbox response time issues",
+      "NIST reducing CVE coverage and accuracy",
+      "Ransomware demands from specific companies",
+      "Vendor risk management challenges"
+    ],
+    "key_changes": "The focus has shifted towards more sophisticated AI threats, pre-planned attacks for major events, and proactive measures in cybersecurity like username features on messaging apps. Meanwhile, traditional threats such as third-party breaches and vendor risks are becoming less prominent.",
+    "top_actors": [
+      [
+        "Threat actors using Silent Swap campaign",
+        1
+      ],
+      [
+        "Unknown",
+        1
+      ],
+      [
+        "Mustang Panda",
+        1
+      ],
+      [
+        "Gamaredon",
+        1
+      ],
+      [
+        "CL-STA-1062",
+        1
+      ],
+      [
+        "Turla",
+        1
+      ],
+      [
+        "Initial Access Broker (IAB) named KongTuke",
+        1
+      ],
+      [
+        "Amadey and StealC Malware Network",
+        1
+      ],
+      [
+        "Blackfield ransomware gang",
+        1
+      ],
+      [
+        "UNC5792 and UNC4221",
+        1
+      ]
+    ],
+    "top_targeted_industries": [
+      [
+        "Education",
+        3
+      ],
+      [
+        "Government",
+        2
+      ],
+      [
+        "Insurance",
+        2
+      ],
+      [
+        "Government, Military, Politics, Activism",
+        1
+      ],
+      [
+        "government",
+        1
+      ],
+      [
+        "energy",
+        1
+      ],
+      [
+        "Military",
+        1
+      ],
+      [
+        "IT",
+        1
+      ],
+      [
+        "Professional Services",
+        1
+      ],
+      [
+        "Manufacturing",
+        1
+      ]
+    ],
+    "documents_analyzed": 113,
+    "time_period_days": 7
+  }
+}

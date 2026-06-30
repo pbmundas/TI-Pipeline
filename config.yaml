@@ -25,14 +25,15 @@ paths:
   # Local working data (article cache, dedup state) - not published
   data_dir: "data"
   articles_file: "data/articles.json"
-  # Path to your cloned tidashboar.github.io repo. The pipeline writes
-  # gui/unified_report.json there and (optionally) commits + pushes it.
-  dashboard_repo: "../tidashboar.github.io"
+  # Dashboard UI now lives in this same repo (merged), so the pipeline
+  # writes gui/unified_report.json relative to the repo root and
+  # (optionally) commits + pushes it on this same repo's remote.
+  dashboard_repo: "."
   output_relative_path: "gui/unified_report.json"
 
 git:
   enabled: true
-  branch: "master"
+  branch: "main"
   commit_message_prefix: "Automated TI update"
   remote: "origin"
 

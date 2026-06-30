@@ -3,5 +3,6 @@ __pycache__/
 .venv/
 venv/
 .env
-data/articles.json
+# data/articles.json is now fetched directly by the dashboard (static/js/app.js)
+# and must be committed/published, so it is intentionally NOT ignored here.
 data/*.log
