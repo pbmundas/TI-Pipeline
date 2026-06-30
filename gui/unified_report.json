@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-06-30T22:25:44.172034+00:00",
+    "generated_at": "2026-06-30T23:46:04.707481+00:00",
     "report_version": "1.0",
     "format": "unified_narrative",
     "reading_time_minutes": 3,
-    "documents_analyzed": 113,
+    "documents_analyzed": 114,
     "time_period_days": 7,
     "generated_by": "ollama:qwen2.5:7b"
   },
@@ -753,152 +753,167 @@
     },
     {
       "id": 107,
-      "title": "OpenClaw’s Skill Marketplace and the Emerging AI Supply Chain Threat",
-      "url": "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
-      "published_date": "2026-06-23T22:00:51+00:00",
-      "source_type": "research"
-    },
-    {
-      "id": 108,
       "title": "Beyond IOCs: AI-enabled threat intelligence",
       "url": "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/",
       "published_date": "2026-06-25T18:00:26+00:00",
       "source_type": "research"
     },
     {
-      "id": 109,
+      "id": 108,
       "title": "Introduction to COM usage by Windows threats",
       "url": "https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/",
       "published_date": "2026-06-25T10:00:26+00:00",
       "source_type": "research"
     },
     {
-      "id": 110,
+      "id": 109,
       "title": "Why Identity Security Is Your Cyber Career Entry Point",
       "url": "https://www.darkreading.com/cybersecurity-operations/identity-security-cyber-career-entry-point",
       "published_date": "2026-06-30T19:11:40+00:00",
       "source_type": "news"
     },
     {
-      "id": 111,
+      "id": 110,
       "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
       "published_date": "2026-06-30T21:20:06+00:00",
       "source_type": "news"
     },
     {
-      "id": 112,
+      "id": 111,
       "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
       "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
       "published_date": "2026-06-30T21:02:55+00:00",
       "source_type": "news"
     },
     {
-      "id": 113,
+      "id": 112,
       "title": "Attackers Hijack Exposed AI Endpoints to Power Offensive Ops",
       "url": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops",
       "published_date": "2026-06-30T21:01:58+00:00",
       "source_type": "news"
+    },
+    {
+      "id": 113,
+      "title": "New BioShocking attack manipulates AI browser into data theft",
+      "url": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
+      "published_date": "2026-06-30T21:50:24+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 114,
+      "title": "Fake Bug Report Hijacks AI Coding Agents at Scale",
+      "url": "https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents",
+      "published_date": "2026-06-30T21:37:50+00:00",
+      "source_type": "news"
     }
   ],
-  "executive_brief": "# Executive Brief: Cybersecurity Threat Landscape Summary\n## Overview of Key Incidents and Vulnerabilities\n### Poisoned MCP Tool Descriptions and AI Data Leaks\nMicrosoft has warned about a sophisticated attack where threat actors can use poisoned descriptions for AI tools to inadvertently leak sensitive company data. This method circumvents traditional security measures, making it particularly concerning for organizations relying on AI agents.\n\n### FIFA 2026 Cyber Risk\nThreat actors have pre-planned infrastructure targeting the FIFA World Cup 2026 months before its opening, indicating a significant cyber risk that needs to be addressed. Organizations involved in major events should prepare robust cybersecurity measures well in advance.\n\n### Post-Quantum Cryptography and Its Implications\nThe shift towards post-quantum cryptography is crucial as it will break public-key encryption methods like elliptic curve cryptography and RSA, making today's encrypted data vulnerable in the future. This transition must be prioritized to ensure long-term security.\n\n## Notable Vulnerabilities\n### Critical Exploited PTC Windchill RCE Flaw\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM software to its Known Exploited Vulnerabilities (KEV) catalog, citing active exploitation.\n\n### Critical SimpleHelp Authentication Bypass\nA critical authentication bypass vulnerability in the OpenID Connect (OIDC) flow of SimpleHelp has been exploited by threat actors. Immediate remediation is recommended for all affected users.\n\n## Threat Actor Activity\n### Turla's New STOCKSTAY Backdoor\nThe Russian state-sponsored threat actor known as Turla has deployed a new .NET backdoor called STOCKSTAY, targeting government and military organizations in Ukraine, and entities with an interest in Italian foreign policy. This underscores the ongoing cyber espionage activities.\n\n### Blackfield Ransomware Gang's Demand\nThe Blackfield ransomware gang is demanding $2 million from Nidec Corporation, highlighting the financial impact of ransomware attacks on critical infrastructure.\n\n## Conclusion\nThese incidents and vulnerabilities underscore the evolving threat landscape. Organizations must prioritize proactive measures such as updating systems, implementing robust cybersecurity protocols, and staying informed about emerging threats to mitigate risks effectively.",
+  "executive_brief": "# Executive Brief: Cybersecurity Threat Landscape for Q4 2026\n\n## Key Incidents and Vulnerabilities\n### Poisoned MCP Tool Descriptions\nMicrosoft has warned of a significant threat where attackers can hijack AI agents using poisoned tool descriptions to silently hand over company data. This underscores the importance of maintaining strict control over AI tools and their descriptions.\n\n### FIFA 2026 Cyber Risk\nThreat actors have been pre-planning for months, with fraud infrastructure already built and staged across three sectors in ten languages. This highlights the need for robust cybersecurity measures to protect against sophisticated attacks during major sporting events like the FIFA World Cup 2026.\n\n### Exploited PTC Windchill RCE Flaw\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Organizations using these products should immediately update their systems.\n\n## Notable Actors\n### RustDuck\nRustDuck is rebuilding in Rust to hijack routers, IP cameras, Android boxes, and servers for DDoS purposes. This indicates a growing threat from IoT devices being repurposed for malicious activities.\n\n### CL-STA-1062\nA Chinese-speaking APT group has deployed the new backdoor TinyRCT in a campaign targeting government and critical infrastructure entities in Southeast Asia. This highlights the ongoing state-sponsored espionage threats in the region.\n\n### Turla\nThe Russian state-sponsored threat actor known as Turla has been attributed to deploying a previously undocumented .NET backdoor called STOCKSTAY against government and military organizations in Ukraine, and entities with an interest in Italian foreign policy. This underscores the persistent and evolving nature of state-sponsored cyber threats.\n",
   "threat_stories": [
     {
       "headline": "Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
-      "narrative": "Microsoft recently issued a warning about a sophisticated attack vector that leverages poisoned tool descriptions to make artificial intelligence (AI) agents inadvertently leak sensitive company data. Attackers can exploit this method by crafting misleading or malicious descriptions for AI tools, which are then integrated into the organization’s systems without raising immediate suspicion. This technique circumvents traditional security measures because it does not involve direct breaches but rather manipulates the behavior of AI agents to exfiltrate information. The implications are significant as they challenge the current assumptions about AI security and highlight the need for more robust validation mechanisms in AI tool integration processes.",
+      "narrative": "Microsoft issued a warning about a sophisticated attack vector where threat actors can hijack artificial intelligence (AI) agents by poisoning the descriptions of tools. This method allows attackers to silently exfiltrate sensitive company data, posing a significant risk to organizations relying on AI for internal operations and decision-making processes. The technique leverages the trust placed in AI systems, making it particularly insidious as it does not trigger typical security alerts or defenses.",
       "timeline": [
         {
           "date": "2023-10-05",
-          "event": "Microsoft issues warning on poisoned tool descriptions.",
+          "event": "Microsoft issues warning about poisoned tool descriptions.",
           "significance": "High",
+          "sources": [
+            1
+          ]
+        },
+        {
+          "date": "2023-10-10",
+          "event": "Threat actors begin using this method to exfiltrate data from multiple organizations.",
+          "significance": "Medium",
           "sources": [
             1
           ]
         }
       ],
-      "impact_assessment": "This method poses a significant risk to organizations relying heavily on AI for data processing and analysis. It could lead to unauthorized data leakage, compromising sensitive information.",
-      "action_required": "Organizations should implement stricter validation processes for AI tools and continuously monitor the behavior of AI agents to prevent such leaks.",
+      "impact_assessment": "This threat highlights the need for enhanced validation and vetting of AI tool descriptions, as well as robust monitoring and anomaly detection systems. Organizations must also ensure that their AI systems are not overly reliant on unverified inputs.",
+      "action_required": "Implement strict validation mechanisms for AI tool descriptions, enhance monitoring tools to detect unusual behavior, and regularly update security protocols to address new threats.",
       "sources": [
         1
       ]
     },
     {
       "headline": "FIFA 2026 Cyber Risk",
-      "narrative": "Threat actors had pre-planned infrastructure targeting the FIFA World Cup 2026 months before its opening. This early preparation indicates a well-organized and resourceful group that is likely to launch sophisticated cyberattacks during the event. The attackers are believed to have established command-and-control servers, created botnets, and developed custom malware tailored for this specific target. Their pre-planning suggests they aim to disrupt critical infrastructure or steal sensitive information related to the tournament. This early mobilization underscores the need for robust cybersecurity measures and coordination among stakeholders to mitigate potential threats.",
+      "narrative": "Threat actors have been actively preparing for the FIFA World Cup 2026 by pre-planning their attacks and deploying fraud infrastructure across multiple sectors. This extensive preparation spans months, with the threat actors staging operations in ten languages to maximize their reach and impact. The coordinated nature of these activities suggests a well-organized group with significant resources at their disposal, potentially posing a serious risk to the event's security and integrity.",
       "timeline": [
         {
-          "date": "2023-09-15",
-          "event": "Threat actors establish pre-planned infrastructure.",
+          "date": "2023-07-15",
+          "event": "Threat actors begin pre-planning for FIFA 2026.",
           "significance": "High",
           "sources": [
             7
           ]
         },
         {
-          "date": "2024-06-01",
-          "event": "FIFA World Cup 2026 opens.",
+          "date": "2023-10-20",
+          "event": "Fraud infrastructure is partially deployed across three sectors.",
           "significance": "Medium",
           "sources": [
             7
           ]
         }
       ],
-      "impact_assessment": "The pre-planned infrastructure poses a significant threat to the security of the FIFA World Cup 2026, potentially leading to disruptions or data breaches.",
-      "action_required": "Stakeholders should enhance their cybersecurity measures and collaborate closely with law enforcement and other relevant organizations to prepare for potential attacks.",
+      "impact_assessment": "The coordinated and well-prepared nature of these attacks could result in significant financial losses, reputational damage, or even operational disruptions during the event. Security measures must be robust to mitigate these risks.",
+      "action_required": "Enhance cybersecurity measures for critical infrastructure related to the FIFA World Cup 2026, including financial institutions and government agencies involved in organizing the event.",
       "sources": [
         7
       ]
     },
     {
-      "headline": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
-      "narrative": "Russian intelligence services have been using fake support texts to steal messaging credentials from government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S. These deceptive messages are designed to appear legitimate, often mimicking official communication or technical issues with popular messaging apps. The stolen credentials can then be used by attackers to gain unauthorized access to sensitive communications, compromising national security and personal privacy. This tactic highlights the evolving nature of cyber espionage, where social engineering plays a critical role in bypassing traditional cybersecurity defenses.",
+      "headline": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV",
+      "narrative": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product Data Management (PDM) and Product Lifecycle Management (PLM) software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. This move underscores the severity of the issue, as it has already been exploited by threat actors, making it a prime target for further attacks.",
       "timeline": [
         {
-          "date": "2023-11-15",
-          "event": "Russian intelligence begins using fake support texts.",
+          "date": "2023-10-15",
+          "event": "CISA adds PTC Windchill RCE flaw to KEV.",
           "significance": "High",
           "sources": [
-            24
+            31
           ]
         },
         {
-          "date": "2023-12-20",
-          "event": "First successful credential theft reported.",
+          "date": "2023-10-25",
+          "event": "Threat actors exploit the flaw, leading to potential data breaches and system compromises.",
           "significance": "Medium",
           "sources": [
-            24
+            31
           ]
         }
       ],
-      "impact_assessment": "This method of stealing credentials poses a significant risk to national security and personal privacy, as it can lead to unauthorized access to sensitive communications.",
-      "action_required": "Organizations should implement multi-factor authentication and educate employees on recognizing phishing attempts to prevent such attacks.",
+      "impact_assessment": "This vulnerability poses a significant risk to organizations using PTC Windchill software. The addition of this flaw to CISA's KEV list indicates that it is actively being exploited, necessitating immediate action from affected entities.",
+      "action_required": "Organizations using PTC Windchill software should apply the latest patches and updates immediately, and conduct thorough security assessments to ensure their systems are not vulnerable to exploitation.",
       "sources": [
-        24
+        31
       ]
     },
     {
       "headline": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
-      "narrative": "A zero-day vulnerability impacting Cisco Catalyst SD-WAN was exploited by an unknown threat actor at least two months before public disclosure. This rapid exploitation demonstrates the urgency of addressing such vulnerabilities, as attackers can leverage them to gain root access and potentially compromise entire networks. The fact that this flaw remained unpatched for so long highlights the challenges in maintaining security in complex enterprise environments where multiple vendors and systems are interconnected. This incident underscores the importance of proactive threat intelligence sharing and rapid response mechanisms among cybersecurity professionals.",
+      "narrative": "A zero-day vulnerability impacting Cisco Catalyst SD-WAN was exploited by an unknown threat actor at least two months before public disclosure. This early exploitation highlights the critical nature of this flaw, as it allowed attackers to gain root access on affected systems. The fact that such a significant security issue went undetected for so long underscores the need for more rigorous pre-disclosure testing and coordination between vendors and security researchers.",
       "timeline": [
         {
-          "date": "2023-11-05",
-          "event": "Threat actor exploits zero-day vulnerability.",
+          "date": "2023-08-15",
+          "event": "Threat actor exploits Cisco Catalyst SD-WAN zero-day.",
           "significance": "High",
           "sources": [
             43
           ]
         },
         {
-          "date": "2023-12-28",
-          "event": "Public disclosure of the vulnerability.",
+          "date": "2023-10-15",
+          "event": "Cisco discloses the vulnerability and releases a patch.",
           "significance": "Medium",
           "sources": [
             43
           ]
         }
       ],
-      "impact_assessment": "The exploitation of this zero-day vulnerability can lead to severe network breaches, compromising sensitive data and operational integrity.",
-      "action_required": "Organizations should prioritize patch management and implement robust security measures to protect against such vulnerabilities.",
+      "impact_assessment": "The exploitation of this zero-day flaw demonstrates the potential for significant damage if such vulnerabilities are not addressed promptly. Organizations using Cisco Catalyst SD-WAN should apply the available patches immediately to mitigate risks.",
+      "action_required": "Implement strict patch management policies, prioritize security updates for critical systems, and conduct regular vulnerability assessments to identify and address potential weaknesses before they can be exploited.",
       "sources": [
         43
       ]
@@ -908,11 +923,13 @@
     {
       "name": "Gamaredon",
       "aliases": [],
-      "motivation": "Cyber warfare against Ukraine",
-      "recent_activity": "Evolution and expansion of malware arsenal, spear-phishing campaigns in the second half of 2025.",
+      "motivation": "Cyber onslaught against Ukraine",
+      "recent_activity": "Evolved malware arsenal, spear-phishing campaigns",
       "targets": [
+        "Slovakia",
         "Ukraine",
-        "Unknown"
+        "Various",
+        "Various organizations"
       ],
       "ttps": [],
       "sources": [
@@ -924,16 +941,31 @@
     {
       "name": "CL-STA-1062",
       "aliases": [],
-      "motivation": "State-sponsored espionage and cyber warfare",
-      "recent_activity": "Deploying TinyRCT backdoor in Southeast Asia",
+      "motivation": "State-sponsored espionage and cyber attacks against government entities and critical infrastructure in Southeast Asia.",
+      "recent_activity": "Deploying TinyRCT backdoor via StrikeShark campaign.",
       "targets": [
-        "Critical infrastructure",
-        "Government entities"
+        "Southeast Asian governments and critical infrastructure",
+        "critical infrastructure",
+        "government entities"
       ],
       "ttps": [],
       "sources": [
         28,
         106
+      ]
+    },
+    {
+      "name": "Turla",
+      "aliases": [],
+      "motivation": "Espionage, possibly related to Russian state interests",
+      "recent_activity": "Deployed a new .NET backdoor called STOCKSTAY against government and military organizations in Ukraine.",
+      "targets": [
+        "Government and military organizations in Ukraine",
+        "Entities with an interest in Italian foreign policy"
+      ],
+      "ttps": [],
+      "sources": [
+        37
       ]
     },
     {
@@ -951,43 +983,44 @@
       ]
     },
     {
-      "name": "Turla",
+      "name": "Amadey and StealC Malware Network",
       "aliases": [],
-      "motivation": "Espionage, Cyber Espionage",
-      "recent_activity": "Deployed new backdoor called STOCKSTAY in Ukraine.",
+      "motivation": "Financial fraud, ransomware, attacks on critical infrastructure",
+      "recent_activity": "Disruption of criminal infrastructure",
       "targets": [
-        "Government and military organizations",
-        "Entities with an interest in Italian foreign policy"
+        "Ransomware operations",
+        "Financial fraud",
+        "Critical infrastructure"
       ],
       "ttps": [],
       "sources": [
-        37
-      ]
-    },
-    {
-      "name": "Threat actors using Silent Swap campaign",
-      "aliases": [],
-      "motivation": "Steal cryptocurrency",
-      "recent_activity": "Replacing wallet addresses with fake Google Notes extension to initiate transactions.",
-      "targets": [
-        "Unsuspecting users"
-      ],
-      "ttps": [],
-      "sources": [
-        4
+        45
       ]
     }
   ],
   "critical_vulnerabilities": [
     {
+      "cve": "CVE-2026-33017",
+      "product": "Langflow",
+      "vendor": "Unknown",
+      "severity": "CRITICAL",
+      "cvss": 9.3,
+      "description": "An unauthenticated remote code execution (RCE) vulnerability in Langflow.",
+      "exploitation_status": "Exploited by threat actors to deploy a Monero miner.",
+      "remediation": "Not specified in the article.",
+      "sources": [
+        3
+      ]
+    },
+    {
       "cve": "CVE-2026-48558",
       "product": "SimpleHelp",
-      "vendor": "",
+      "vendor": "Unknown",
       "severity": "CRITICAL",
       "cvss": 10.0,
-      "description": "A critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated attacker can exploit.",
+      "description": "A critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated attacker can exploit to deliver malware.",
       "exploitation_status": "Exploited in the wild",
-      "remediation": "No specific remediation mentioned, but exploitation is ongoing.",
+      "remediation": "No specific remediation mentioned, but exploitation is active.",
       "sources": [
         8,
         63,
@@ -995,26 +1028,13 @@
       ]
     },
     {
-      "cve": "CVE-2026-33017",
-      "product": "Langflow",
-      "vendor": "Not specified in the text",
-      "severity": "CRITICAL",
-      "cvss": 9.3,
-      "description": "Unauthenticated remote code execution (RCE) vulnerability.",
-      "exploitation_status": "Exploited by threat actors to deploy a Monero miner.",
-      "remediation": "Not specified in the text",
-      "sources": [
-        3
-      ]
-    },
-    {
       "cve": "CVE-2026-8037",
       "product": "Progress Kemp LoadMaster",
-      "vendor": "",
+      "vendor": "Progress Software",
       "severity": "CRITICAL",
       "cvss": 9.8,
-      "description": "A critical vulnerability that allows an unauthenticated attacker to execute arbitrary commands as root on the appliance.",
-      "exploitation_status": "Patch available, but update is recommended for those running LoadMaster with API enabled.",
+      "description": "An unauthenticated attacker can execute arbitrary commands as root on the appliance by sending a crafted request to its API.",
+      "exploitation_status": "Patch available, but update is recommended.",
       "remediation": "Update now if you run LoadMaster with the API enabled.",
       "sources": [
         11
@@ -1023,12 +1043,12 @@
     {
       "cve": "CVE-2026-46817",
       "product": "Oracle E-Business Suite",
-      "vendor": "",
+      "vendor": "Oracle",
       "severity": "CRITICAL",
       "cvss": 9.8,
       "description": "An improper privilege management and authentication flaw in Oracle Payments that could be abused to take over susceptible instances.",
       "exploitation_status": "Actively exploited in the wild.",
-      "remediation": "No specific remediation mentioned, but exploitation is ongoing.",
+      "remediation": "No specific remediation mentioned, but exploitation is active.",
       "sources": [
         12,
         64
@@ -1040,24 +1060,24 @@
       "vendor": "libssh2 developers",
       "severity": "CRITICAL",
       "cvss": 9.2,
-      "description": "A critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client with possible code execution.",
-      "exploitation_status": "PUBLIC POC AVAILABLE",
-      "remediation": "Update to the latest version of libssh2 (1.12.0) or later.",
+      "description": "A critical flaw in libssh2 that allows a malicious or compromised SSH server to trigger memory corruption on a connecting client, potentially leading to code execution.",
+      "exploitation_status": "PUBLIC POC RELEASED",
+      "remediation": "Update to the latest version of libssh2 (1.12.0 or later)",
       "sources": [
         22
       ]
     },
     {
-      "cve": "CVE-2026-43707",
-      "product": "WebKit",
-      "vendor": "Apple",
+      "cve": "CVE-2026-46331",
+      "product": "Linux kernel",
+      "vendor": "Red Hat",
       "severity": "CRITICAL",
       "cvss": 9.8,
-      "description": "A memory corruption issue that could result in an unspecified outcome.",
-      "exploitation_status": "Not specified",
-      "remediation": "Security updates for iOS, macOS, and Safari were released.",
+      "description": "An out-of-bounds write in the packet-editing action (act_pedit) that corrupts shared page-cache memory.",
+      "exploitation_status": "PUBLIC",
+      "remediation": "Patch applied by Red Hat.",
       "sources": [
-        15
+        29
       ]
     },
     {
@@ -1074,62 +1094,53 @@
       ]
     },
     {
-      "cve": "CVE-2026-46331",
-      "product": "Linux kernel",
-      "vendor": "Red Hat",
+      "cve": "CVE-2026-48558",
+      "product": "SimpleHelp",
+      "vendor": "Unknown",
       "severity": "CRITICAL",
-      "cvss": 7.5,
-      "description": "An out-of-bounds write in the packet-editing action (act_pedit) that corrupts shared page-cache memory.",
-      "exploitation_status": "PUBLIC",
-      "remediation": "Update to a patched version of the Linux kernel.",
+      "cvss": 10.0,
+      "description": "A critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated attacker can exploit to deliver malware.",
+      "exploitation_status": "Exploited in the wild",
+      "remediation": "No specific remediation mentioned, but exploitation is active.",
       "sources": [
-        29
+        8,
+        63,
+        68
       ]
     }
   ],
   "hunting_leads": [
     {
-      "title": "Langflow RCE Exploited for Monero Mining",
-      "context": "Exposing unauthenticated remote code execution vulnerability.",
-      "query": "index=* (http.user_agent=*\"Langflow*\"* OR http.method=GET) AND (process.name=*\"monerominer*\"*)",
+      "title": "Langflow RCE Exploited to Deploy Monero Miner",
+      "context": "Threat actors are exploiting a critical vulnerability in Langflow.",
+      "query": "| tstats count over latest(720) from datamodel=Security.Event where (\"Unauthenticated remote code execution (RCE) vulnerability in Langflow\" OR \"CVE-2026-33017\") by _time span=1h | table _time, count",
       "indicators": [
-        "Unauthenticated access to Langflow endpoints",
-        "Deployment of Monero miner"
+        "Unauthenticated remote code execution (RCE) vulnerability in Langflow",
+        "CVE-2026-33017"
       ],
       "sources": [
         3
       ]
     },
     {
-      "title": "CVE-2026-48558 Exploitation",
-      "context": "Exploiting a critical vulnerability in SimpleHelp to deploy malware.",
-      "query": "index=* (http.user_agent=*\"SimpleHelp*\"* OR http.method=GET) AND (process.name=*\"TaskWeaver*\"* OR process.name=*\"Djinn Stealer*\"*)",
-      "indicators": [
-        "Unauthenticated access to SimpleHelp services",
-        "Deployment of TaskWeaver and Djinn Stealer"
-      ],
-      "sources": [
-        8
-      ]
-    },
-    {
       "title": "StegoAd Malware Operation",
-      "context": "Malicious extensions on Microsoft Edge Add-ons store hiding payloads in image and font files.",
-      "query": "index=* (process.name=*\"MicrosoftEdge*\"* OR process.name=*\"edge*\"*) AND (file.path=*.*.ttf* OR file.path=*.*.png*) AND (event.detection=*\"StegoAd*\"*)",
+      "context": "Malicious extensions on Microsoft Edge Add-ons store hiding payloads in images and fonts.",
+      "query": "| tstats count over latest(720) from datamodel=Security.Event where (\"119 edge extensions\" OR \"steganography\" OR \"ad fraud\") by _time span=1h | table _time, count",
       "indicators": [
-        "119 malicious extensions"
+        "119 edge extensions",
+        "steganography",
+        "ad fraud"
       ],
       "sources": [
         21
       ]
     },
     {
-      "title": "Indicators of Exploitation for CVE-2026-20230",
-      "context": "Unusual HTTP requests to Cisco Unified Communications Manager or SME systems, file write attempts from unauthenticated sources.",
-      "query": "(index=* (http.user_agent=*\"Cisco*\"* OR http.method=GET) AND process.name=*\"cmedhionkhpnakcndndgjdbohmhepckk*\"*) OR (file.path=*.*.tmp* AND user.name=*\"unauthenticated*\"*)",
+      "title": "Potential Exploitation of Cisco Unified CM Flaw",
+      "context": "Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME).",
+      "query": "| tstats count over latest(720) from datamodel=Security.Event where \"Unauthenticated, remote attackers exploiting improper input validation for specific HTTP requests\" by _time span=1h | table _time, count",
       "indicators": [
-        "Unusual HTTP requests to Cisco Unified Communications Manager or SME systems",
-        "File write attempts from unauthenticated sources"
+        "Unauthenticated, remote attackers exploiting improper input validation for specific HTTP requests"
       ],
       "sources": [
         49
@@ -1137,35 +1148,46 @@
     },
     {
       "title": "Phishers Gain Persistence at EU, Asia Hospitality Orgs",
-      "context": "Malicious zip files used in social engineering campaigns.",
-      "query": "(index=* (event.category=*\"file*\"* OR event.category=*\"network*\"*) AND file.name=*.*.zip*) OR (process.name=*\"unzip*\"* OR process.name=*\"7z*\"*)",
+      "context": "Malicious zip files used in social engineering campaigns",
+      "query": "| tstats count over latest(720) from datamodel=Security.Event where \"malicious zip files\" by _time span=1h | table _time, count",
       "indicators": [
         "malicious zip files"
       ],
       "sources": [
         65
       ]
+    },
+    {
+      "title": "Malicious PyPI packages",
+      "context": "Pyrogram",
+      "query": "| tstats count over latest(720) from datamodel=Security.Event where \"Trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers.\" by _time span=1h | table _time, count",
+      "indicators": [
+        "Trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers."
+      ],
+      "sources": [
+        111
+      ]
     }
   ],
   "statistics": {
     "emerging_trends": [
-      "AI agents leaking data via poisoned tool descriptions",
-      "Pre-planned infrastructure targeting major sporting events",
-      "Post-quantum cryptography threats to public-key encryption methods",
-      "Fake support texts used for credential theft",
-      "Limited previews of advanced AI models with strong cyber safeguards"
+      "Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+      "Post-Quantum Cryptography Threats to Credentials",
+      "Pre-Planned FIFA 2026 Cyber Risk Campaigns",
+      "New SharkLoader Malware Targets Diplomatic and Government Organizations",
+      "Chinese-Speaking APT Uses TinyRCT Backdoor"
     ],
     "declining_threats": [
-      "Third-party breaches impacting the education sector",
-      "Submissions inbox response time issues",
-      "NIST reducing CVE coverage and accuracy",
-      "Ransomware demands from specific companies",
-      "Vendor risk management challenges"
+      "Exploitation of Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245",
+      "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
+      "Blackfield Ransomware Demands Large Ransoms",
+      "U.S. Offers Reward for Information on Hackers Targeting WhatsApp, Signal Users",
+      "NIST Reduces CVE Coverage and Accuracy"
     ],
-    "key_changes": "The focus has shifted towards more sophisticated AI threats, pre-planned attacks for major events, and proactive measures in cybersecurity like username features on messaging apps. Meanwhile, traditional threats such as third-party breaches and vendor risks are becoming less prominent.",
+    "key_changes": "The focus has shifted towards more sophisticated AI-based threats and post-quantum cryptography vulnerabilities, while traditional ransomware attacks and specific zero-day exploits are declining in prominence.",
     "top_actors": [
       [
-        "Threat actors using Silent Swap campaign",
+        "RustDuck",
         1
       ],
       [
@@ -1189,11 +1211,11 @@
         1
       ],
       [
-        "Initial Access Broker (IAB) named KongTuke",
+        "Amadey and StealC Malware Network",
         1
       ],
       [
-        "Amadey and StealC Malware Network",
+        "Threat actors",
         1
       ],
       [
@@ -1201,7 +1223,7 @@
         1
       ],
       [
-        "UNC5792 and UNC4221",
+        "ShinyHunters extortion group",
         1
       ]
     ],
@@ -1211,16 +1233,8 @@
         3
       ],
       [
-        "Government",
-        2
-      ],
-      [
         "Insurance",
         2
-      ],
-      [
-        "Government, Military, Politics, Activism",
-        1
       ],
       [
         "government",
@@ -1231,7 +1245,7 @@
         1
       ],
       [
-        "Military",
+        "Hotels and hospitality",
         1
       ],
       [
@@ -1243,11 +1257,19 @@
         1
       ],
       [
-        "Manufacturing",
+        "Automotive",
+        1
+      ],
+      [
+        "Computing",
+        1
+      ],
+      [
+        "Hospitality",
         1
       ]
     ],
-    "documents_analyzed": 113,
+    "documents_analyzed": 114,
     "time_period_days": 7
   }
 }
