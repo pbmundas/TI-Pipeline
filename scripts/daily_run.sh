@@ -55,7 +55,22 @@ if [ "$GIT_ENABLED" == "true" ]; then
         exit 1
     fi
     echo "--- Step 1: syncing dashboard repo ($DASHBOARD_REPO) ---"
-    (cd "$DASHBOARD_REPO" && git pull --rebase "$GIT_REMOTE" "$GIT_BRANCH")
+    cd "$DASHBOARD_REPO"
+
+    # If there are any local changes already sitting in the working tree
+    # (leftover generated output from a previous run that never got pushed,
+    # or manual edits), commit them FIRST so `git pull --rebase` never fails
+    # with "you have unstaged changes." The whole point of this script is to
+    # run unattended - it should never require a human to manually resolve
+    # git state before it can proceed.
+    git add -A
+    if ! git diff --cached --quiet; then
+        echo "Found pre-existing local changes - committing them before syncing..."
+        git commit -m "$COMMIT_PREFIX (pre-sync) $(date -u '+%Y-%m-%d %H:%M UTC')"
+    fi
+
+    git pull --rebase "$GIT_REMOTE" "$GIT_BRANCH"
+    cd "$SCRIPT_DIR"
 fi
 
 # ---------------------------------------------------------------------------
@@ -79,14 +94,44 @@ fi
 echo "--- Step 3: pushing to GitHub Pages repo ($DASHBOARD_REPO) ---"
 cd "$DASHBOARD_REPO"
 
-git add "$OUTPUT_REL_PATH" "$ARTICLES_REL_PATH"
+# Stage EVERYTHING changed in the working tree (respecting .gitignore), not
+# just the two known output files - so any other local edits get published
+# too, not only data/articles.json and gui/unified_report.json.
+git add -A
 
 if git diff --cached --quiet; then
     echo "No changes to publish - dashboard data is already up to date."
 else
     COMMIT_MSG="$COMMIT_PREFIX $(date -u '+%Y-%m-%d %H:%M UTC')"
     git commit -m "$COMMIT_MSG"
-    git push "$GIT_REMOTE" "$GIT_BRANCH"
+
+    # NOTE: under `set -e`, a plain failing command aborts the script
+    # immediately at that line - `$?` on the NEXT line never runs. To catch
+    # the failure without aborting, we use `command || VAR=$?`, which lets
+    # `set -e` treat the failure as "handled" while still capturing the
+    # real exit code.
+    PUSH_STATUS=0
+    git push "$GIT_REMOTE" "$GIT_BRANCH" || PUSH_STATUS=$?
+
+    if [ "$PUSH_STATUS" -ne 0 ]; then
+        echo "WARNING: push rejected (exit $PUSH_STATUS), likely remote has commits we don't. Retrying once with rebase..."
+        REBASE_STATUS=0
+        git pull --rebase "$GIT_REMOTE" "$GIT_BRANCH" || REBASE_STATUS=$?
+        if [ "$REBASE_STATUS" -ne 0 ]; then
+            echo "ERROR: rebase failed, likely a real conflict. Manual intervention required."
+            echo "===== Run finished (FAILED): $(date -u '+%Y-%m-%dT%H:%M:%SZ') ====="
+            exit 1
+        fi
+        PUSH_STATUS=0
+        git push "$GIT_REMOTE" "$GIT_BRANCH" || PUSH_STATUS=$?
+    fi
+
+    if [ "$PUSH_STATUS" -ne 0 ]; then
+        echo "ERROR: push failed after retry (exit $PUSH_STATUS). Dashboard was NOT updated."
+        echo "===== Run finished (FAILED): $(date -u '+%Y-%m-%dT%H:%M:%SZ') ====="
+        exit 1
+    fi
+
     echo "Pushed update to $GIT_REMOTE/$GIT_BRANCH - GitHub Pages will redeploy automatically."
 fi
 
