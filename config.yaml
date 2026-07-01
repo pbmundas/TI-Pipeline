@@ -20,11 +20,20 @@ report:
   max_actor_profiles: 5
   max_critical_vulnerabilities: 8
   max_hunting_leads: 5
+  # How long an article's LLM-enriched findings stay in findings_cache.json
+  # after it ages out of the report window. Keep this >= time_period_days
+  # so nothing gets pruned and re-enriched while it could still appear in
+  # a future report. Defaults to time_period_days * 2 if omitted.
+  findings_cache_retention_days: 14
 
 paths:
   # Local working data (article cache, dedup state) - not published
   data_dir: "data"
   articles_file: "data/articles.json"
+  # Per-article LLM findings cache, keyed by article URL. This is what lets
+  # daily runs skip re-enriching articles they've already processed - only
+  # articles not yet in this file get sent to Ollama.
+  findings_cache_file: "data/findings_cache.json"
   # Dashboard UI now lives in this same repo (merged), so the pipeline
   # writes gui/unified_report.json relative to the repo root and
   # (optionally) commits + pushes it on this same repo's remote.

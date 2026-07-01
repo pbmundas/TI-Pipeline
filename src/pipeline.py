@@ -77,14 +77,31 @@ def run_pipeline(config):
     sourced = assign_source_ids(recent)
     log.info("Building report from %d articles (of %d cached total)", len(sourced), len(all_articles))
 
-    # 3. LLM enrichment via local Ollama
+    # 3. LLM enrichment via local Ollama, incrementally - articles already
+    #    enriched in a previous run are read back from data/findings_cache.json
+    #    instead of being re-sent to the model, so daily runs only pay for
+    #    genuinely new articles.
+    findings_cache_path = config["paths"].get("findings_cache_file", "data/findings_cache.json")
+    findings_cache = enrich.load_findings_cache(findings_cache_path)
+
     client = OllamaClient(
         host=config["ollama"]["host"],
         model=config["ollama"]["model"],
         temperature=config["ollama"].get("temperature", 0.2),
         timeout=config["ollama"].get("request_timeout_seconds", 300),
     )
-    findings = enrich.extract_findings(client, sourced, config["ollama"]["batch_size"])
+    findings, findings_cache = enrich.extract_findings(
+        client, sourced, config["ollama"]["batch_size"], cache=findings_cache
+    )
+
+    # Bound the cache's growth: only keep entries for articles that could
+    # still land inside a *future* reporting window, then persist right
+    # away so this progress survives even if synthesis below fails.
+    retention_days = report_cfg.get("findings_cache_retention_days", report_cfg["time_period_days"] * 2)
+    keep_urls = {a["url"] for a in all_articles if within_window(a, retention_days)}
+    enrich.prune_findings_cache(findings_cache, keep_urls)
+    enrich.save_findings_cache(findings_cache_path, findings_cache)
+
     synthesized = enrich.synthesize_report(client, findings, report_cfg)
 
     # 4. Fallback statistics if the model under-delivers
