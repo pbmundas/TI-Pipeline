@@ -2166,5 +2166,157 @@
     "source_type": "news",
     "summary": "&quot;Agentjacking&quot; is the latest demonstration of how easily attackers can exploit an AI agent's inability to differentiate between content and instructions.",
     "feed_source": "https://www.darkreading.com/rss.xml"
+  },
+  {
+    "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+    "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+    "published_date": "2026-07-01T07:20:51+00:00",
+    "source_type": "news",
+    "summary": "Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way.\n\nPalo Alto Networks'&nbsp;Unit 42&nbsp;calls the trick phantom squatting, and its new research shows it is already happening in the wild.\n\nThe reason it matters is",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
+    "url": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+    "published_date": "2026-07-01T06:46:17+00:00",
+    "source_type": "news",
+    "summary": "Anthropic is putting Claude Fable 5 back online worldwide. On&nbsp;June 30, the U.S. Commerce Department lifted the export controls it had imposed on Fable and its more tightly controlled sibling Mythos 5 about two and a half weeks earlier.\n\nFable 5 returns to users on Wednesday, July 1, across Claude.ai, the Claude Platform, Claude Code, and Claude Cowork.\n\nExport controls restrict who can",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
+    "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
+    "published_date": "2026-07-01T05:46:03+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have warned of a \"massive, ongoing, automated password spray attack\" aimed at Microsoft's Azure command-line interface (CLI), compromising dozens of accounts in the process.\n\nThe activity, per Huntress, originates from an IPv6 address range (2a0a:d683::/32) controlled by internet infrastructure provider LSHIY LLC (AS32167).\n\n\"Between June 12 and June 26, the threat",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
+    "url": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+    "published_date": "2026-07-01T05:32:12+00:00",
+    "source_type": "news",
+    "summary": "ClickFix, the trick that fools people into running malware by hand, has quietly grown a back office.\n\nNew research shows the malicious commands behind its fake \"prove you're human\" pages are now handed out by API-driven servers that give each visitor the same malware in a different disguise. The same research also turned up a new delivery method built to slip past Windows' script scanning.",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
+    "url": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
+    "published_date": "2026-07-01T03:54:22+00:00",
+    "source_type": "news",
+    "summary": "Citrix on Tuesday released security updates to address multiple flaws in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway) that could be exploited by an attacker to facilitate arbitrary file reads or trigger a denial-of-service (DoS) condition.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-8451 (CVSS score: 8.8) - An insufficient input validation",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Amazon fined $2.25M for withholding evidence from fraud victims",
+    "url": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
+    "published_date": "2026-07-01T09:43:27+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Federal Trade Commission (FTC) says Amazon will pay a $2.25 million civil penalty to settle charges that it blocked identity theft victims' access to transaction records. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Adobe patches seven max severity ColdFusion, Campaign flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
+    "published_date": "2026-07-01T07:34:52+00:00",
+    "source_type": "news",
+    "summary": "Adobe has released security patches for seven maximum-severity vulnerabilities in the ColdFusion web app development platform and the Campaign Classic marketing automation platform. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Anthropic to restore Claude Fable access on Wednesday",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
+    "published_date": "2026-07-01T00:35:14+00:00",
+    "source_type": "news",
+    "summary": "Anthropic has confirmed that the Department of Commerce has lifted export controls on Claude's two most powerful models, Fable 5 and Mythos 5. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/",
+    "published_date": "2026-06-30T23:13:07+00:00",
+    "source_type": "news",
+    "summary": "Anthropic is now rolling out Sonnet 5, and it's almost as good as the Opus range, but it is designed to be cheaper than the company's flagship model. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "China-Linked Group Targets Southeast Asia Critical Systems",
+    "url": "https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems",
+    "published_date": "2026-07-01T01:00:01+00:00",
+    "source_type": "news",
+    "summary": "The group compromised at least 10 regional organizations, including two state-owned entities, and deployed a new backdoor.",
+    "feed_source": "https://www.darkreading.com/rss.xml"
+  },
+  {
+    "title": "Frontier AI: Six Questions Every Enterprise Should Ask Security Vendors",
+    "url": "https://www.securityweek.com/frontier-ai-six-questions-every-enterprise-should-ask-security-vendors/",
+    "published_date": "2026-07-01T10:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>From model selection and automation to validation and measurable results, the right questions can help enterprises separate genuine AI capabilities from marketing hype.</p>\n<p>The post <a href=\"https://www.securityweek.com/frontier-ai-six-questions-every-enterprise-should-ask-security-vendors/\">Frontier AI: Six Questions Every Enterprise Should Ask Security Vendors</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari",
+    "url": "https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-across-ios-macos-and-safari/",
+    "published_date": "2026-07-01T09:30:00+00:00",
+    "source_type": "news",
+    "summary": "<p>The updates fix vulnerabilities in WebKit, the kernel, WebRTC, Web Extensions, and other components affecting iPhone, iPad, Mac, and Safari users.</p>\n<p>The post <a href=\"https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-across-ios-macos-and-safari/\">Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Dawnguard Raises $6.3 Million for Security Architecture Automation Platform",
+    "url": "https://www.securityweek.com/dawnguard-raises-6-3-million-for-security-architecture-automation-platform/",
+    "published_date": "2026-07-01T08:55:35+00:00",
+    "source_type": "news",
+    "summary": "<p>The company has publicly launched its solution to help organizations design, build, and operate secure cloud systems.</p>\n<p>The post <a href=\"https://www.securityweek.com/dawnguard-raises-6-3-million-for-security-architecture-automation-platform/\">Dawnguard Raises $6.3 Million for Security Architecture Automation Platform</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Massive Password Spray Campaign Targeting Azure CLI",
+    "url": "https://www.securityweek.com/massive-password-spray-campaign-targeting-azure-cli/",
+    "published_date": "2026-07-01T07:46:33+00:00",
+    "source_type": "news",
+    "summary": "<p>Hackers were seen making over 81 million login attempts originating from systems associated with hosting provider LSHIY.</p>\n<p>The post <a href=\"https://www.securityweek.com/massive-password-spray-campaign-targeting-azure-cli/\">Massive Password Spray Campaign Targeting Azure CLI</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Google Patches 382 Chrome Vulnerabilities",
+    "url": "https://www.securityweek.com/google-patches-382-chrome-vulnerabilities/",
+    "published_date": "2026-07-01T06:14:41+00:00",
+    "source_type": "news",
+    "summary": "<p>Fifteen of the newly patched flaws have been rated ‘critical’ and 67 have been rated ‘high severity’.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-patches-382-chrome-vulnerabilities/\">Google Patches 382 Chrome Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "This month in security with Tony Anscombe – June 2026 edition",
+    "url": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-june-2026/",
+    "published_date": "2026-06-30T14:39:37+00:00",
+    "source_type": "research",
+    "summary": "Three-day patching deadlines, exposed fuel-tank systems, scams costing billions of dollars, and social media bans for children all gave Tony plenty to unpack in June 2026",
+    "feed_source": "https://www.welivesecurity.com/en/rss/feed/"
+  },
+  {
+    "title": "Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector",
+    "url": "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
+    "published_date": "2026-07-01T01:00:11+00:00",
+    "source_type": "research",
+    "summary": "<p>Attackers can exploit LLM domain hallucinations through phantom squatting to target supply chains. Read the analysis to learn more. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/\">Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/"
+  },
+  {
+    "title": "Martin Lee: Running through the Arctic (and the threat landscape)",
+    "url": "https://blog.talosintelligence.com/martin-lee-running-through-the-arctic-and-the-threat-landscape/",
+    "published_date": "2026-07-01T10:00:57+00:00",
+    "source_type": "research",
+    "summary": "Ever wonder how someone goes from studying human viruses to leading cybersecurity teams? In this Humans of Talos, we’re joined by Martin Lee, EMEA Lead, to talk about his journey into the industry.",
+    "feed_source": "https://blog.talosintelligence.com/rss/"
+  },
+  {
+    "title": "ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365",
+    "url": "https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/",
+    "published_date": "2026-07-01T10:00:38+00:00",
+    "source_type": "research",
+    "summary": "<!--kg-card-begin: html-->\n<ul>\n  <li>Cisco Talos identified a fully-featured phishing-as-a-service (PhaaS) operator panel, branded &quot;ARToken,&quot; that shares infrastructure, API contracts, and operational patterns with the EvilTokens platform documented by Sekoia and Microsoft in early 2026.</li>\n  <li>The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh</li></ul>",
+    "feed_source": "https://blog.talosintelligence.com/rss/"
   }
 ]
