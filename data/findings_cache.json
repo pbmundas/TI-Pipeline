@@ -4875,5 +4875,463 @@
     "actors": [],
     "hunting_indicators": [],
     "industries": []
+  },
+  "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html": {
+    "enriched_at": "2026-07-02T10:25:43.139217+00:00",
+    "incidents": [
+      {
+        "headline": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
+        "summary": "Sysdig reports the first ransomware attack fully automated by an AI agent, named JADEPUFFER.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "JADEPUFFER",
+        "aliases": [],
+        "motivation": "Automated ransomware attack",
+        "recent_activity": "Exploiting Langflow RCE to automate database ransomware attacks.",
+        "targets": [
+          "Companies with production databases"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html": {
+    "enriched_at": "2026-07-02T10:25:43.139217+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "INC and Lynx ransomware operators",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Using FortiBleed campaign credentials for follow-on intrusions.",
+        "targets": [
+          "FortiGate users"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260701.html#1": {
+    "enriched_at": "2026-07-02T10:25:43.139217+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Red Hat Ansible Automation Platform",
+        "vendor": "Red Hat",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Privilege check missing vulnerability in Red Hat Ansible Automation Platform.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260701.html#1"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260701.html#2": {
+    "enriched_at": "2026-07-02T10:25:43.139217+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Google Chrome",
+        "vendor": "Google",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Multiple vulnerabilities in Google Chrome.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260701.html#2"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260701.html#3": {
+    "enriched_at": "2026-07-02T10:25:43.139217+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Jenkins plugins",
+        "vendor": null,
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Multiple vulnerabilities in Jenkins plugins.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260701.html#3"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260701.html#4": {
+    "enriched_at": "2026-07-02T10:25:43.139217+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "GitLab",
+        "vendor": null,
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Multiple vulnerabilities in GitLab.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260701.html#4"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260701.html#5": {
+    "enriched_at": "2026-07-02T10:26:17.513871+00:00",
+    "incidents": [
+      {
+        "headline": "pgAdminに複数の脆弱性",
+        "summary": "pgAdminに複数の脆弱性が報告されました。",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260701.html#5"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "pgAdmin",
+        "vendor": null,
+        "severity": "LOW",
+        "cvss": null,
+        "description": "pgAdminに複数の脆弱性が報告されました。",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260701.html#5"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260701.html#6": {
+    "enriched_at": "2026-07-02T10:26:17.513871+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/": {
+    "enriched_at": "2026-07-02T10:26:17.513871+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/": {
+    "enriched_at": "2026-07-02T10:26:17.513871+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/06/30/whats-new-in-microsoft-security-june-2026/": {
+    "enriched_at": "2026-07-02T10:26:17.513871+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/": {
+    "enriched_at": "2026-07-02T10:26:17.513871+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/": {
+    "enriched_at": "2026-07-02T10:26:59.833630+00:00",
+    "incidents": [
+      {
+        "headline": "Chromium extension uses AI-related branding to redirect browser search",
+        "summary": "A malicious Chromium-based extension that spoofs the AI-powered answer engine Perplexity AI redirects browser search traffic using MV3 APIs and intermediary infrastructure.",
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Hospitality"
+    ]
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/": {
+    "enriched_at": "2026-07-02T10:26:59.833630+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Delivering Node.js implant via photo-themed ZIP archives to hospitality industry targets in Europe and Asia.",
+        "targets": [
+          "Hospitality industry"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Hospitality"
+    ]
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/06/25/microsoft-a-leader-in-the-forrester-wave-for-endpoint-management-platforms/": {
+    "enriched_at": "2026-07-02T10:26:59.833630+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Hospitality"
+    ]
+  },
+  "https://redcanary.com/blog/threat-detection/phishing-ai-agent/": {
+    "enriched_at": "2026-07-02T10:26:59.833630+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Hospitality"
+    ]
+  },
+  "https://thedfirreport.com/2026/06/29/from-bing-search-to-ransomware-bumblebee-and-adaptixc2-deliver-akira-3/": {
+    "enriched_at": "2026-07-02T10:26:59.833630+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Hospitality"
+    ]
+  },
+  "https://www.emsisoft.com/en/blog/47767/emsisoft-blocks-all-360-threats-in-may-avlab-test/": {
+    "enriched_at": "2026-07-02T10:26:59.833630+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Hospitality"
+    ]
+  },
+  "https://github.com/fleetdm/fleet/releases/tag/v4.88.0": {
+    "enriched_at": "2026-07-02T10:28:01.662075+00:00",
+    "incidents": [
+      {
+        "headline": "v4.88.0: For 4.88 RC: Fix S3 file carve cleanup hang and rework reconciliation",
+        "summary": "This release includes bug fixes for Apple MDM enrollment, Windows MDM enrollment issues, and other minor improvements.",
+        "source_urls": [
+          "https://github.com/fleetdm/fleet/releases/tag/v4.88.0"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.88.0": {
+    "enriched_at": "2026-07-02T10:28:01.662075+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/fleetdm/fleet/releases/tag/v4.87.1": {
+    "enriched_at": "2026-07-02T10:28:01.662075+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.87.1": {
+    "enriched_at": "2026-07-02T10:28:01.662075+00:00",
+    "incidents": [
+      {
+        "headline": "fleet-v4.87.1",
+        "summary": "This version addresses bugs related to SCEP certificate profiles, GitOps runs, and URL parameters in the software tab.",
+        "source_urls": [
+          "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.87.1"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/osquery/osquery/releases/tag/5.23.1": {
+    "enriched_at": "2026-07-02T10:28:01.662075+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "osquery",
+        "vendor": "osquery",
+        "severity": "CRITICAL",
+        "cvss": 7.5,
+        "description": "Heap buffer overflow vulnerabilities in the Windows processes and authenticode tables, as well as a use-after-free issue in the Linux process_file_events implementation.",
+        "exploitation_status": "LIKELY",
+        "remediation": "Update to osquery v5.23.1 or later.",
+        "source_urls": [
+          "https://github.com/osquery/osquery/releases/tag/5.23.1"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/wazuh/wazuh/releases/tag/v4.14.6": {
+    "enriched_at": "2026-07-02T10:28:01.662075+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/wazuh/wazuh/releases/tag/v4.14.6-rc2": {
+    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
+    "incidents": [
+      {
+        "headline": "Wazuh v4.14.6-rc2",
+        "summary": "This release of Wazuh includes several bug fixes and improvements, including enhanced security measures for cluster file synchronization.",
+        "source_urls": [
+          "https://github.com/wazuh/wazuh/releases/tag/v4.14.6-rc2"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.nextron-systems.com/2026/06/26/anatomy-of-a-whql-signed-windows-filtering-platform-wfp-kernel-resident-network-backdoor/": {
+    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/arkime/arkime/releases/tag/last-commit7": {
+    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/arkime/arkime/releases/tag/last-commit6": {
+    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/best-cloud-aggregators-for-solution-providers/": {
+    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/funded-crypto-trading-accounts-and-the-prop-firm-market/": {
+    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/can-a-low-speed-vehicle-still-cause-a-serious-pedestrian-injury-claim/": {
+    "enriched_at": "2026-07-02T10:28:54.635271+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/the-importance-of-reporting-a-slip-and-fall-incident-immediately-in-lakewood-ranch-fl/": {
+    "enriched_at": "2026-07-02T10:28:54.635271+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/navigating-personal-injury-claims-your-guide-after-a-san-antonio-tx-accident/": {
+    "enriched_at": "2026-07-02T10:28:54.635271+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/how-to-protect-images-on-your-blog-without-hurting-the-user-experience/": {
+    "enriched_at": "2026-07-02T10:28:54.635271+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
   }
 }
