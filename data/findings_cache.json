@@ -5977,5 +5977,80 @@
     "actors": [],
     "hunting_indicators": [],
     "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/": {
+    "enriched_at": "2026-07-03T14:41:16.010610+00:00",
+    "incidents": [
+      {
+        "headline": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+        "summary": "A new PhaaS platform called ARToken is operating as an affiliate of the EvilTokens phishing platform, providing insights into a comprehensive toolkit for compromising Microsoft 365.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government",
+      "Power"
+    ]
+  },
+  "https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/": {
+    "enriched_at": "2026-07-03T14:41:16.010610+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government",
+      "Power"
+    ]
+  },
+  "https://thehackernews.com/2026/07/armored-likho-targets-government.html": {
+    "enriched_at": "2026-07-03T14:41:16.010610+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Armored Likho",
+        "aliases": [],
+        "motivation": "Financially motivated campaigns and targeted cyber espionage",
+        "recent_activity": "Attacks targeting government agencies and the electric power sector in Russia, Brazil, and Kazakhstan.",
+        "targets": [
+          "Government agencies",
+          "Electric power sector"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/armored-likho-targets-government.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Government",
+      "Power"
+    ]
+  },
+  "https://thehackernews.com/2026/07/european-parliament-member.html": {
+    "enriched_at": "2026-07-03T14:41:16.010610+00:00",
+    "incidents": [
+      {
+        "headline": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
+        "summary": "A report from the Citizen Lab revealed that Stelios Kouloglou, a former Member of the European Parliament who was investigating commercial surveillance tools, had his mobile device repeatedly hacked with Pegasus spyware.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/european-parliament-member.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government",
+      "Power"
+    ]
   }
 }
