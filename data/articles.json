@@ -11734,5 +11734,517 @@
     "source_type": "github",
     "summary": "<p>We would like to thank Siavash Tahmureszadeh for their contribution to this release.</p>\n<p>This release fixes the following security issues:</p>\n<ul>\n<li>Zeek's HTTP analyzer can be tricked into interpreting <code>Transfer-Encoding</code> or<br />\n<code>Content-Length</code> headers set in MIME entities within HTTP bodies and change the<br />\nanalyzer behavior. This can be used to hide HTTP requests from analysis. Due to the fact<br />\nthat these packets can be received from remote hosts, this is an evasion risk. The fix<br />\nis to only process the headers from the outermost MIME entity, which causes all internal<br />\nentities to be parsed.</li>\n</ul>\n<p>This release fixes the following bugs:</p>\n<ul>\n<li>\n<p>A missing state check was added to the <code>finalize_redis</code> hook in the Redis<br />\nanalyzer. This was needed for rare cases where that hook got called and the rest of the<br />\nanalyzer had never been invoked, leading to Zeek throwing an error because the state<br />\ndidn't exist yet.</p>\n</li>\n<li>\n<p>A bug was fixed when attempting to append a <code>vector</code> to itself that would cause an<br />\ninfinite loop.</p>\n</li>\n<li>\n<p>A minor update was added to th",
     "feed_source": "https://github.com/zeek/zeek/releases.atom"
+  },
+  {
+    "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
+    "published_date": "2026-07-03T01:37:09+00:00",
+    "source_type": "news",
+    "summary": "Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan soon. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Claude Fable relaunch disappoints users with nerfed performance",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
+    "published_date": "2026-07-03T00:48:30+00:00",
+    "source_type": "news",
+    "summary": "Claude Fable, the company's most powerful model, is now available to all users, but early impressions are disappointing, as it appears to be nowhere near the original release. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Google loses final appeal to overturn €4.1 billion EU fine",
+    "url": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
+    "published_date": "2026-07-02T15:18:51+00:00",
+    "source_type": "news",
+    "summary": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a €4.1 billion ($4.7 billion) antitrust fine over the company's use of Android to promote its Chrome browser and search service. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
+    "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
+    "published_date": "2026-07-02T14:00:10+00:00",
+    "source_type": "news",
+    "summary": "ConsentFix and ClickFix attacks steal Microsoft 365 tokens in seconds using fake prompts and OAuth flows. Learn how these MFA bypass tactics work and how to defend against them. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Microsoft fixes bug that removed Copilot buttons in Outlook",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
+    "published_date": "2026-07-02T12:15:47+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has fixed a known issue causing the Copilot Chat or Copilot buttons in Classic Outlook to disappear for Windows users with the Copilot Chat (Basic) license. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
+    "published_date": "2026-07-02T11:35:25+00:00",
+    "source_type": "news",
+    "summary": "Cisco confirmed that attackers are now exploiting a Unified Communications Manager (Unified CM) vulnerability patched in early June. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "CISA: Microsoft SharePoint RCE flaw now actively exploited",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
+    "published_date": "2026-07-02T10:52:43+00:00",
+    "source_type": "news",
+    "summary": "CISA warned on Wednesday that attackers have begun exploiting a high-severity Microsoft SharePoint remote code execution vulnerability patched in May. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Opera rolls out Paste Protect feature to fight ClickFix attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
+    "published_date": "2026-07-02T10:46:58+00:00",
+    "source_type": "news",
+    "summary": "Opera has introduced Paste Protect, a security feature designed to block ClickFix-style attacks that trick users into executing malicious commands through social engineering. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Spyware found on phone of European Parliament member probing it",
+    "url": "https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member",
+    "published_date": "2026-07-03T05:00:00+00:00",
+    "source_type": "news",
+    "summary": "Stelios Kouloglou, formerly a member of the European Parliament's committee investigation abuses of commercial spyware, was twice infected with Pegasus while serving, researchers said.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "Launch of UK's National Cyber Action Plan delayed amid Labour leadership crisis",
+    "url": "https://therecord.media/launch-of-uk-national-cyber-action-plan-delayed",
+    "published_date": "2026-07-02T20:32:00+00:00",
+    "source_type": "news",
+    "summary": "The plan had been due for publication on Monday, the sources said. It has been postponed amid the uncertainty over the governing Labour Party’s leadership contest, which opens July 9.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "Supreme Court decision threatens EU-US data transfer agreement",
+    "url": "https://therecord.media/supreme-court-decision-threatens-eu-us-data-sharing",
+    "published_date": "2026-07-02T16:50:00+00:00",
+    "source_type": "news",
+    "summary": "In a Tuesday letter, Max Schrems, the founder of the Vienna-based privacy advocacy organization noyb, told European officials he plans to sue to invalidate the EU-U.S. Data Privacy Framework (DPF) that allows for the transfer of personal data from the EU to U.S. companies.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "Intezer helps SOC teams automate custom security tasks",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/intezer-helps-soc-teams-automate-custom-security-tasks/",
+    "published_date": "2026-07-03T06:39:50+00:00",
+    "source_type": "news",
+    "summary": "<p>Intezer has announced Custom Agents, a new capability that lets security teams build their own AI agents directly inside the Intezer platform. The launch builds on Intezer’s core approach, that lets autonomous agents do the security work and humans supervise it. Security teams can no longer rely on manual alert handling or one-off automation to keep up with the volume and complexity of modern threats. Intezer’s core platform already uses autonomous agents to triage, investigate, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/intezer-helps-soc-teams-automate-custom-security-tasks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/intezer-helps-soc-teams-automate-custom-security-tasks/\">Intezer helps SOC teams automate custom security tasks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Non-interactive SSH attacks dominate after login",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/",
+    "published_date": "2026-07-03T05:30:42+00:00",
+    "source_type": "news",
+    "summary": "<p>Anyone who runs a server with SSH exposed to the internet sees the same pattern in the logs. A steady stream of automated scanners tries to log in, hour after hour, from addresses all over the world. The common picture of what comes next has an attacker landing a shell, looking around the system, and typing commands. The reality recorded across eleven research honeypots looks almost nothing like that. Eleven SSH honeypots ran on cloud &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/\">Non-interactive SSH attacks dominate after login</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Geopolitical cyber threats are turning HR into a security front line",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/geopolitical-cyber-threats-video/",
+    "published_date": "2026-07-03T05:00:36+00:00",
+    "source_type": "news",
+    "summary": "<p>In this Help Net Security video, Roman Sannikov, Global Research Coordinator at iCOUNTER, explains why geopolitics belongs in every security team&#8217;s threat model. With open and simmering conflicts around the world, attacks can come from actors that would never have targeted your company before. He walks through various cases. Many of these threats sit two or three steps beyond your usual list of adversaries. The lesson is to widen your scope. Watch traffic heading to &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/geopolitical-cyber-threats-video/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/geopolitical-cyber-threats-video/\">Geopolitical cyber threats are turning HR into a security front line</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Organizations struggle to prioritize known cyber risks",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/cyber-risk-exposure-report/",
+    "published_date": "2026-07-03T04:30:36+00:00",
+    "source_type": "news",
+    "summary": "<p>Organizations collect more cyber risk data than ever, with many still struggling to build a unified view of their exposure. The latest State of Threat Management report from Filigran found that security teams continue to work across disconnected tools, leaving important context spread across multiple systems. Cloud infrastructure, on-premises environments, third-party services, vulnerability scanners, threat intelligence feeds, and attack surface management platforms all generate information about potential risk. 93% of organizations experience challenges maintaining an &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/cyber-risk-exposure-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/cyber-risk-exposure-report/\">Organizations struggle to prioritize known cyber risks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "New infosec products of the week: July 3, 2026",
+    "url": "https://www.helpnetsecurity.com/2026/07/03/new-infosec-products-of-the-week-july-3-2026/",
+    "published_date": "2026-07-03T04:00:21+00:00",
+    "source_type": "news",
+    "summary": "<p>Here’s a look at the most interesting products from the past week, featuring releases from Digi International, iboss, Jamf, and Netzilo. Digi International’s DANI automates network diagnostics and device management Digi International has announced the launch of DANI, the Digi Artificial Network Intelligence agent, a purpose-built AI network operations agent natively embedded in a networking device management platform, Digi Remote Manager (DRM). Embedded directly within DRM as a value-added service, DANI enables network operators and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/03/new-infosec-products-of-the-week-july-3-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/03/new-infosec-products-of-the-week-july-3-2026/\">New infosec products of the week: July 3, 2026</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Scattered Spider suspect extradited over $8 million ransom scheme",
+    "url": "https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/",
+    "published_date": "2026-07-02T13:43:51+00:00",
+    "source_type": "news",
+    "summary": "<p>A suspected Scattered Spider member has been extradited to the United States to face charges linked to cyberattacks against U.S. companies, including the breach of a luxury jewelry retailer that led to an $8 million cryptocurrency ransom demand after attackers stole company data. The retailer&#8217;s security team removed the attackers from its network before any ransom was paid. The company still incurred at least $2 million in losses from business disruption, incident response, and recovery &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/\">Scattered Spider suspect extradited over $8 million ransom scheme</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "New iboss platform gives organizations instant visibility into AI tools and usage",
+    "url": "https://www.helpnetsecurity.com/2026/07/02/iboss-ai-security-platform/",
+    "published_date": "2026-07-02T12:52:57+00:00",
+    "source_type": "news",
+    "summary": "<p>iboss has launched the AI Security Platform, a new service that gives any organization visibility into the AI tools its people are using, free of charge. Signup is instant, deployment takes an afternoon, and a complete AI footprint appears within hours. Organizations that want to go beyond visibility can upgrade on the same platform to enforce AI policy, prevent data leaks, and govern AI agents. As AI adoption accelerates, security teams have struggled to keep &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/iboss-ai-security-platform/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/iboss-ai-security-platform/\">New iboss platform gives organizations instant visibility into AI tools and usage</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Cloudflare changes AI crawler access rules",
+    "url": "https://www.helpnetsecurity.com/2026/07/02/cloudflare-ai-crawler-controls/",
+    "published_date": "2026-07-02T12:21:19+00:00",
+    "source_type": "news",
+    "summary": "<p>Cloudflare introduced new controls that let website owners manage AI traffic across three categories: Search, Agent, and Training. The feature is available to all Cloudflare customers, including those on the Free plan, and gives website owners more control over how different types of AI crawlers access their content. &#8220;Content owners still want to be able to protect their content, and they should be compensated for the original content that they work hard to create, curate, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/02/cloudflare-ai-crawler-controls/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/02/cloudflare-ai-crawler-controls/\">Cloudflare changes AI crawler access rules</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Medtronic Data Breach Impacts 3.8 Million People",
+    "url": "https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/",
+    "published_date": "2026-07-03T10:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>In April, ShinyHunters accessed the company’s corporate IT systems and stole patients’ personal and medical information.</p>\n<p>The post <a href=\"https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/\">Medtronic Data Breach Impacts 3.8 Million People</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Alleged Scattered Spider Hacker Extradited to US",
+    "url": "https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/",
+    "published_date": "2026-07-03T09:30:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Prosecutors say 19-year-old Peter Stokes was a member of Scattered Spider, the hacking group linked to more than 100 network intrusions and over $100 million in ransom payments.</p>\n<p>The post <a href=\"https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/\">Alleged Scattered Spider Hacker Extradited to US</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices",
+    "url": "https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/",
+    "published_date": "2026-07-03T08:13:22+00:00",
+    "source_type": "news",
+    "summary": "<p>NetNut rented access to millions of compromised devices, allowing cybercriminals and nation-state actors to mask their identities during attacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/\">Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution",
+    "url": "https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/",
+    "published_date": "2026-07-03T07:57:53+00:00",
+    "source_type": "news",
+    "summary": "<p>The DuneSlide vulnerabilities enable zero-click prompt injection attacks that escape Cursor's sandbox and execute arbitrary code on the underlying operating system.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/\">Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure",
+    "url": "https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/",
+    "published_date": "2026-07-02T15:04:22+00:00",
+    "source_type": "news",
+    "summary": "<p>Hackers are targeting NetScaler appliances using public PoC code to retrieve arbitrary memory content in the HTTP response.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/\">New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "How to Conduct a Successful Audit of AI-Driven Software Development",
+    "url": "https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/",
+    "published_date": "2026-07-02T13:15:00+00:00",
+    "source_type": "news",
+    "summary": "<p>As AI-generated code becomes commonplace, CISOs need new audit strategies to measure developer practices, govern AI tool usage, and identify software risks before they reach production.</p>\n<p>The post <a href=\"https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/\">How to Conduct a Successful Audit of AI-Driven Software Development</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks",
+    "url": "https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/",
+    "published_date": "2026-07-02T12:34:29+00:00",
+    "source_type": "news",
+    "summary": "<p>Researchers say credentials harvested from hundreds of thousands of FortiGate firewalls are being used to facilitate ransomware attacks by the INC and Lynx operations.</p>\n<p>The post <a href=\"https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/\">FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Trump Administration Lifts Restrictions on Anthropic’s Claude Models After Cybersecurity Alarm",
+    "url": "https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/",
+    "published_date": "2026-07-02T11:01:48+00:00",
+    "source_type": "news",
+    "summary": "<p>Anthropic said Tuesday night that its AI model called Claude Fable 5 is now widely available.</p>\n<p>The post <a href=\"https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/\">Trump Administration Lifts Restrictions on Anthropic’s Claude Models After Cybersecurity Alarm</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability",
+    "url": "https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/",
+    "published_date": "2026-07-02T10:48:43+00:00",
+    "source_type": "news",
+    "summary": "<p>A PoC exploit has been available since public disclosure, and the first exploitation attempts were observed last week.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/\">Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials",
+    "url": "https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/",
+    "published_date": "2026-07-02T10:45:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Researchers show how context manipulation can cause agentic browsers to abandon safety guardrails and exfiltrate sensitive credentials.</p>\n<p>The post <a href=\"https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/\">&#8216;BioShocking&#8217; Attack Tricks AI Browsers Into Stealing Credentials</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Improving security posture across the Microsoft partner ecosystem",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
+    "published_date": "2026-07-02T16:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Read how Microsoft strengthens partner ecosystem security with CSP vetting, least privilege access, monitoring, and risk management best practices.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/\">Improving security posture across the Microsoft partner ecosystem</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/"
+  },
+  {
+    "title": "Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture",
+    "url": "https://www.rapid7.com/blog/post/so-red-teaming-offensive-methodology-multi-agent-ai-architecture",
+    "published_date": "2026-07-02T13:32:24+00:00",
+    "source_type": "research",
+    "summary": "<p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Threat actors are integrating AI into their exploit chains, accelerating reconnaissance, automating vulnerability discovery, and scaling social engineering in ways that compress the timeline between initial access and impact. The barrier to sophisticated offensive operations is dropping fast.</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Rapid7's Red Team is doing the same. Over the past year we formalized our approach into a structured multi-agent system that follows our penetration testing methodology end-to-end from scoping an engagement to validating findings to generating reports. We built it as a production system, not a proof of concept, and the process of designing and operating it taught us as much about defending against AI-enhanced attacks as it did about conducting them.</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">The system also proved its value as part of Anthropic's </span><a href=\"/blog/post/ai-rapid7-accesses-anthropics-project-glasswing-exploring-frontier-artificial-cybersecurity-intelligence/\" target=\"_self\"><span style=\"font-size: undefined;\">Pr",
+    "feed_source": "https://www.rapid7.com/blog/rss/"
+  },
+  {
+    "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
+    "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+    "published_date": "2026-07-03T08:03:37+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data.\n\nThe stealer, discovered by Jamf Threat Labs, is distributed as a compiled AppleScript (.scpt) file impersonating Maccy, a legitimate open-source clipboard manager. It has been codenamed PamStealer owing to its ability to",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
+    "url": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
+    "published_date": "2026-07-02T18:54:06+00:00",
+    "source_type": "news",
+    "summary": "Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic.\n\nWorking with the FBI, Lumen, and others, Google's Threat Intelligence Group (GTIG)&nbsp;said this week&nbsp;it had reduced the network's pool of usable devices by millions.\n\nGoogle identifies NetNut, also tracked as Popa, as a network spread across home",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+    "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+    "published_date": "2026-07-02T18:30:33+00:00",
+    "source_type": "news",
+    "summary": "Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access.\n\n\"Although tactics differ between affiliates, common patterns emerged in tradecraft through use of legitimate Remote Management and Monitoring (RMM) tooling, credential access, and hands-on-keyboard procedures used for lateral",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
+    "url": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+    "published_date": "2026-07-02T15:24:18+00:00",
+    "source_type": "news",
+    "summary": "This week’s security news is mostly about weak spots.\n\nBrowsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone tests a small gap and finds a way through.\n\nThis is not one big break. It is small permissions, weak checks, open systems, and normal tools doing things they were allowed to do. That same pattern runs",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
+    "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+    "published_date": "2026-07-02T13:04:13+00:00",
+    "source_type": "news",
+    "summary": "The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API.\n\n\"In this campaign, the attackers focused their attention on corporate email communications hosted on Gmail, targeting access compromise via APIs,\" Kaspersky said in a detailed report published this week. \"",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
+    "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
+    "published_date": "2026-07-02T11:30:00+00:00",
+    "source_type": "news",
+    "summary": "Identity lifecycle management was architected around a person with an employment record, a manager, and a departure date. AI agents have none of those. As autonomous principals proliferate across enterprise environments, the governance model built for humans develops structural blind spots that traditional IGA tools weren't designed to detect. This guide covers where that model breaks, what it",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Armored Likho digging a snake pit: inside the covert BusySnake Stealer campaign",
+    "url": "https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/",
+    "published_date": "2026-07-03T10:00:33+00:00",
+    "source_type": "research",
+    "summary": "An inside look at the active Armored Likho APT campaign. The attackers are using spear-phishing, AI-generated loaders, and a new Python-based tool, BusySnake Stealer, to target organizations in Russia, Kazakhstan, and Brazil.",
+    "feed_source": "https://securelist.com/feed/"
+  },
+  {
+    "title": "How We Added WebAuthn to a Browser-Based RDP Client",
+    "url": "https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/",
+    "published_date": "2026-07-02T22:00:39+00:00",
+    "source_type": "research",
+    "summary": "<p>A look inside the reverse-engineering journey of building the first RDP client outside of Windows to support WebAuthn redirection.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/\">How We Added WebAuthn to a Browser-Based RDP Client</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/"
+  },
+  {
+    "title": "FreeBSD-EN-26:07.pkgbase",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-26:07.pkgbase.asc",
+    "published_date": "2026-04-21T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-EN-26:06.timerfd",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-26:06.timerfd.asc",
+    "published_date": "2026-04-21T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-EN-26:05.vm",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-26:05.vm.asc",
+    "published_date": "2026-04-21T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-EN-26:04.arm64",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-26:04.arm64.asc",
+    "published_date": "2026-02-10T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-EN-26:03.vm",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-26:03.vm.asc",
+    "published_date": "2026-01-27T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-EN-26:02.arm64",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-26:02.arm64.asc",
+    "published_date": "2026-01-27T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-EN-26:01.devinfo",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-26:01.devinfo.asc",
+    "published_date": "2026-01-27T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-EN-25:20.vmm",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-25:20.vmm.asc",
+    "published_date": "2025-12-16T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-EN-25:19.zfs",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-25:19.zfs.asc",
+    "published_date": "2025-12-16T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-EN-25:18.freebsd-update",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-EN-25:18.freebsd-update.asc",
+    "published_date": "2025-09-30T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:39.execve",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:39.execve.asc",
+    "published_date": "2026-06-30T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:38.jail",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:38.jail.asc",
+    "published_date": "2026-06-30T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:37.vm",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:37.vm.asc",
+    "published_date": "2026-06-30T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:36.ldns",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:36.ldns.asc",
+    "published_date": "2026-06-09T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:35.openssl",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:35.openssl.asc",
+    "published_date": "2026-06-09T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:34.vt",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:34.vt.asc",
+    "published_date": "2026-06-09T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:33.unbound",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:33.unbound.asc",
+    "published_date": "2026-06-09T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:32.elf",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:32.elf.asc",
+    "published_date": "2026-06-09T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:31.arm64",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:31.arm64.asc",
+    "published_date": "2026-06-09T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "FreeBSD-SA-26:30.linux",
+    "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:30.linux.asc",
+    "published_date": "2026-06-09T00:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "",
+    "feed_source": "https://security.freebsd.org/feed.xml"
+  },
+  {
+    "title": "Chrome Beta for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update.html",
+    "published_date": "2026-07-02T15:28:32.279000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 151 (151.0.7922.6) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/150.0.7871.46..151.0.7922.6?pretty=fuller&amp;n=10000\">Git log</a>. For details on new features, check out the <a href=\"https://blog.chromium.org\">Chromium blog</a>, and for details on web platform updates, check <a href=\"https://www.chromestatus.com/features#milestone%3D151\">here</a>.</p><p>If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default"
+  },
+  {
+    "title": "How to Host the Ultimate Football Watch Party at Home",
+    "url": "https://www.socinvestigation.com/how-to-host-the-ultimate-football-watch-party-at-home/",
+    "published_date": "2026-07-03T06:16:40+00:00",
+    "source_type": "detection",
+    "summary": "<p>If you’ve made the decision to throw a party for a soccer match, why take it easy? After all, you’re doing it to have fun. There are a million ways to knock the party up ten notches. Read all about how to have the match party of your life with your pals right here.</p>\n<p>The post <a href=\"https://www.socinvestigation.com/how-to-host-the-ultimate-football-watch-party-at-home/\">How to Host the Ultimate Football Watch Party at Home</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/"
+  },
+  {
+    "title": "7 Best OT & ICS Incident Response Companies for Critical Infrastructure",
+    "url": "https://www.socinvestigation.com/7-best-ot-ics-incident-response-companies-for-critical-infrastructure/",
+    "published_date": "2026-07-03T05:36:59+00:00",
+    "source_type": "detection",
+    "summary": "<p>Ransomware has shifted from office files to factory floors. In 2023, industrial companies endured 1,484 attacks—32 percent of all known ransomware incidents worldwide, according to NCC Group. Dragos counted 605 OT-specific strikes in 2022—an 87 percent jump year over year—and warns the curve is still climbing. When seconds of downtime can burn six-figure sums or [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/7-best-ot-ics-incident-response-companies-for-critical-infrastructure/\">7 Best OT & ICS Incident Response Companies for Critical Infrastructure</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/"
+  },
+  {
+    "title": "Wazuh v5.0.0 Beta 3",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/v5.0.0-beta3",
+    "published_date": "2026-07-02T15:48:47+00:00",
+    "source_type": "github",
+    "summary": "<h2>What's Changed</h2>\n<ul>\n<li>Improve cluster file synchronization error handling by <a class=\"user-mention notranslate\" href=\"https://github.com/TomasTurina\">@TomasTurina</a> in <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/36129\">#36129</a></li>\n<li>Update trojan signatures to avoid false positives on modern distros by <a class=\"user-mention notranslate\" href=\"https://github.com/Miguevrgo\">@Miguevrgo</a> in <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/35927\">#35927</a></li>\n<li>Improve cluster merged file parameter validation by <a class=\"user-mention notranslate\" href=\"https://github.com/vikman90\">@vikman90</a> in <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/36204\">#36204</a></li>\n<li>Create a backup of local_rules.xml during execution of IT analysisd tier 0 1 by <a class=\"user-mention notranslate\" href=\"https://github.com/Antoniogm03\">@Antoniogm03</a> in <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/36201\">#36201</a></li>\n<li>Improve tmp_file path validation in cluster DAPI by <a class=\"user-mention notranslate\" href=\"https://github.com/vikman90\">",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom"
+  },
+  {
+    "title": "coverity-w27-4.14.7: Merge pull request #37358 from wazuh/merge-4.14.6-into-4.14.7",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/coverity-w27-4.14.7",
+    "published_date": "2026-07-02T09:26:08+00:00",
+    "source_type": "github",
+    "summary": "<p>Merge 4.14.6 into 4.14.7</p>",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom"
   }
 ]

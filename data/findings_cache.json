@@ -5333,5 +5333,649 @@
     "actors": [],
     "hunting_indicators": [],
     "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/": {
+    "enriched_at": "2026-07-03T10:31:02.874732+00:00",
+    "incidents": [
+      {
+        "headline": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
+        "summary": "Anthropic announced Claude Fable 5 will not be accessible via Claude subscriptions after July 7 but expects the model to return outside usage-based plans soon.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/": {
+    "enriched_at": "2026-07-03T10:31:02.874732+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/": {
+    "enriched_at": "2026-07-03T10:31:02.874732+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/": {
+    "enriched_at": "2026-07-03T10:31:02.874732+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/": {
+    "enriched_at": "2026-07-03T10:31:02.874732+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/": {
+    "enriched_at": "2026-07-03T10:31:02.874732+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "headline": "Cisco finally confirms attackers exploiting Unified CM flaw",
+        "summary": "Cisco confirmed that attackers are now exploiting a Unified Communications Manager (Unified CM) vulnerability patched in early June.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/": {
+    "enriched_at": "2026-07-03T10:31:37.882719+00:00",
+    "incidents": [
+      {
+        "headline": "CISA: Microsoft SharePoint RCE flaw now actively exploited",
+        "summary": "CISA warned that attackers have begun exploiting a high-severity Microsoft SharePoint remote code execution vulnerability patched in May.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Microsoft SharePoint",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A high-severity Microsoft SharePoint remote code execution vulnerability has been actively exploited.",
+        "exploitation_status": "ACTIVELY EXPLOITED",
+        "remediation": "Patch applied in May, but attackers are still exploiting it.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/": {
+    "enriched_at": "2026-07-03T10:31:37.882719+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member": {
+    "enriched_at": "2026-07-03T10:31:37.882719+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/launch-of-uk-national-cyber-action-plan-delayed": {
+    "enriched_at": "2026-07-03T10:31:37.882719+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/supreme-court-decision-threatens-eu-us-data-sharing": {
+    "enriched_at": "2026-07-03T10:31:37.882719+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/03/intezer-helps-soc-teams-automate-custom-security-tasks/": {
+    "enriched_at": "2026-07-03T10:31:37.882719+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/": {
+    "enriched_at": "2026-07-03T10:32:24.542043+00:00",
+    "incidents": [
+      {
+        "headline": "Non-interactive SSH attacks dominate after login",
+        "summary": "Research honeypots show that automated scanners are frequently attempting to log in via SSH, but the subsequent actions differ from typical attacker behavior.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/03/research-non-interactive-ssh-attacks/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/03/geopolitical-cyber-threats-video/": {
+    "enriched_at": "2026-07-03T10:32:24.542043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/03/cyber-risk-exposure-report/": {
+    "enriched_at": "2026-07-03T10:32:24.542043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/03/new-infosec-products-of-the-week-july-3-2026/": {
+    "enriched_at": "2026-07-03T10:32:24.542043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/": {
+    "enriched_at": "2026-07-03T10:32:24.542043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Scattered Spider",
+        "aliases": [],
+        "motivation": "Financial gain through ransom schemes",
+        "recent_activity": "Extradition of a suspected member for charges related to cyberattacks against U.S. companies, including a luxury jewelry retailer.",
+        "targets": [
+          "U.S. companies"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/02/iboss-ai-security-platform/": {
+    "enriched_at": "2026-07-03T10:32:24.542043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/02/cloudflare-ai-crawler-controls/": {
+    "enriched_at": "2026-07-03T10:33:49.255664+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/": {
+    "enriched_at": "2026-07-03T10:33:49.255664+00:00",
+    "incidents": [
+      {
+        "headline": "Medtronic Data Breach Impacts 3.8 Million People",
+        "summary": "ShinyHunters accessed Medtronic’s corporate IT systems and stole patients’ personal and medical information.",
+        "source_urls": [
+          "https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": null,
+        "aliases": [
+          "ShinyHunters"
+        ],
+        "motivation": "Financial gain through ransom payments",
+        "recent_activity": "Accessed Medtronic’s corporate IT systems and stole patients’ personal and medical information.",
+        "targets": [
+          "Medtronic"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/": {
+    "enriched_at": "2026-07-03T10:33:49.255664+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Scattered Spider",
+        "aliases": [],
+        "motivation": "Financial gain through ransom payments",
+        "recent_activity": "Linked to more than 100 network intrusions and over $100 million in ransom payments.",
+        "targets": [
+          "Various"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/": {
+    "enriched_at": "2026-07-03T10:33:49.255664+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": null,
+        "context": "NetNut Residential Proxy Network",
+        "indicators": [
+          "Access to millions of compromised devices"
+        ],
+        "source_urls": [
+          "https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/"
+        ]
+      }
+    ],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/": {
+    "enriched_at": "2026-07-03T10:33:49.255664+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Cursor AI Code Editor",
+        "vendor": "Cursor",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "DuneSlide vulnerabilities enable zero-click prompt injection attacks that escape Cursor's sandbox and execute arbitrary code on the underlying operating system.",
+        "exploitation_status": "Not specified in text",
+        "remediation": "Not specified in text",
+        "source_urls": [
+          "https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/": {
+    "enriched_at": "2026-07-03T10:33:49.255664+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "NetScaler appliances",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Hackers are targeting NetScaler appliances using public PoC code to retrieve arbitrary memory content in the HTTP response.",
+        "exploitation_status": "Exploited immediately after public disclosure",
+        "remediation": "Not specified in text",
+        "source_urls": [
+          "https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/how-to-conduct-a-successful-audit-of-ai-driven-software-development/": {
+    "enriched_at": "2026-07-03T10:34:44.821389+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/": {
+    "enriched_at": "2026-07-03T10:34:44.821389+00:00",
+    "incidents": [
+      {
+        "headline": "FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks",
+        "summary": "Credentials harvested from FortiGate firewalls are being used by the INC and Lynx operations for ransomware attacks.",
+        "source_urls": [
+          "https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "INC and Lynx",
+        "aliases": [],
+        "motivation": "Ransomware attacks, credential harvesting",
+        "recent_activity": "Using harvested credentials from FortiGate firewalls for ransomware attacks.",
+        "targets": [
+          "FortiGate firewalls"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/trump-administration-lifts-restrictions-on-anthropics-claude-models-after-cybersecurity-alarm/": {
+    "enriched_at": "2026-07-03T10:34:44.821389+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/": {
+    "enriched_at": "2026-07-03T10:34:44.821389+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Unified CM",
+        "vendor": "Cisco",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A vulnerability in Cisco Unified CM has been exploited in the wild.",
+        "exploitation_status": "IN-THE-WILD",
+        "remediation": null,
+        "source_urls": [
+          "https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/": {
+    "enriched_at": "2026-07-03T10:34:44.821389+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "BioShocking Attack",
+        "context": "Tricking AI Browsers into Stealing Credentials",
+        "indicators": [
+          "Context manipulation",
+          "Agentic browsers abandoning safety guardrails"
+        ],
+        "source_urls": [
+          "https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/"
+        ]
+      }
+    ],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/": {
+    "enriched_at": "2026-07-03T10:34:44.821389+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.rapid7.com/blog/post/so-red-teaming-offensive-methodology-multi-agent-ai-architecture": {
+    "enriched_at": "2026-07-03T10:35:40.547607+00:00",
+    "incidents": [
+      {
+        "headline": "Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture",
+        "summary": "Rapid7's Red Team has formalized their approach into a structured multi-agent system that automates various stages of penetration testing, including reconnaissance and vulnerability discovery.",
+        "source_urls": [
+          "https://www.rapid7.com/blog/post/so-red-teaming-offensive-methodology-multi-agent-ai-architecture"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html": {
+    "enriched_at": "2026-07-03T10:35:40.547607+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
+        "context": "Malware distribution through fake software",
+        "indicators": [
+          "Fake Maccy sites"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html"
+        ]
+      }
+    ],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html": {
+    "enriched_at": "2026-07-03T10:35:40.547607+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html": {
+    "enriched_at": "2026-07-03T10:35:40.547607+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2025-5777",
+        "product": "Citrix",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Ransomware groups are exploiting the Citrix Bleed 2 vulnerability for initial access.",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Not specified in text",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html": {
+    "enriched_at": "2026-07-03T10:35:40.547607+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html": {
+    "enriched_at": "2026-07-03T10:35:40.547607+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "ToddyCat",
+        "aliases": [
+          "Umbrij"
+        ],
+        "motivation": "Access corporate email communications via Gmail API",
+        "recent_activity": "Exploiting OAuth for access compromise",
+        "targets": [
+          "Corporate email systems"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/identity-lifecycle-management.html": {
+    "enriched_at": "2026-07-03T10:36:11.894800+00:00",
+    "incidents": [
+      {
+        "headline": "Identity Lifecycle Management Wasn't Built for AI Agents",
+        "summary": "The traditional identity governance model developed for human employees is inadequate for managing autonomous principals like AI agents.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/identity-lifecycle-management.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/": {
+    "enriched_at": "2026-07-03T10:36:11.894800+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Armored Likho APT",
+        "aliases": [],
+        "motivation": "Stealing sensitive information from targeted organizations",
+        "recent_activity": "Using spear-phishing, AI-generated loaders, and a new Python-based tool called BusySnake Stealer.",
+        "targets": [
+          "Organizations in Russia, Kazakhstan, and Brazil"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://unit42.paloaltonetworks.com/webauthn-added-to-browser-based-rdp/": {
+    "enriched_at": "2026-07-03T10:36:11.894800+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:39.execve.asc": {
+    "enriched_at": "2026-07-03T10:36:11.894800+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:38.jail.asc": {
+    "enriched_at": "2026-07-03T10:36:11.894800+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:37.vm.asc": {
+    "enriched_at": "2026-07-03T10:36:11.894800+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update.html": {
+    "enriched_at": "2026-07-03T10:36:34.586730+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/how-to-host-the-ultimate-football-watch-party-at-home/": {
+    "enriched_at": "2026-07-03T10:36:34.586730+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/7-best-ot-ics-incident-response-companies-for-critical-infrastructure/": {
+    "enriched_at": "2026-07-03T10:36:34.586730+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/wazuh/wazuh/releases/tag/v5.0.0-beta3": {
+    "enriched_at": "2026-07-03T10:36:34.586730+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/wazuh/wazuh/releases/tag/coverity-w27-4.14.7": {
+    "enriched_at": "2026-07-03T10:36:34.586730+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
   }
 }
