@@ -6052,5 +6052,155 @@
       "Government",
       "Power"
     ]
+  },
+  "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/": {
+    "enriched_at": "2026-07-04T10:32:04.922062+00:00",
+    "incidents": [
+      {
+        "headline": "NetNut proxy network disrupted, 2 million infected devices cut off",
+        "summary": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html": {
+    "enriched_at": "2026-07-04T10:32:04.922062+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "FatFs",
+        "vendor": "runZero",
+        "severity": "HIGH",
+        "cvss": null,
+        "description": "Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html": {
+    "enriched_at": "2026-07-04T10:32:04.922062+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-46242",
+        "product": "Linux kernel",
+        "vendor": "Various",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html": {
+    "enriched_at": "2026-07-04T10:32:04.922062+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html": {
+    "enriched_at": "2026-07-04T10:32:04.922062+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "North Korea-Linked Threat Actors",
+        "aliases": [],
+        "motivation": "Steal developer secrets and facilitate remote access and data theft.",
+        "recent_activity": "Linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling.",
+        "targets": [
+          "Developers"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [
+      {
+        "title": "Rollup Polyfill Tooling Mimicry",
+        "context": "Malicious npm packages masquerading as Rollup polyfills to steal secrets.",
+        "indicators": [
+          "rollup-packages-polyfill-core",
+          "rollup-runtime-polyfill-core"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html"
+        ]
+      }
+    ],
+    "industries": []
+  },
+  "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/": {
+    "enriched_at": "2026-07-04T10:32:04.922062+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/": {
+    "enriched_at": "2026-07-04T10:32:35.101619+00:00",
+    "incidents": [
+      {
+        "headline": "Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting",
+        "summary": "A Canadian hacker was jailed, zero-days were released in open source projects, and two individuals from Venezuela were sentenced in the US over ATM jackpotting.",
+        "source_urls": [
+          "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-desktop-update.html": {
+    "enriched_at": "2026-07-04T10:32:35.101619+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-android-update.html": {
+    "enriched_at": "2026-07-04T10:32:35.101619+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/top-courier-service-platforms-compared-for-2026/": {
+    "enriched_at": "2026-07-04T10:32:35.101619+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
   }
 }

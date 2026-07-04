@@ -12278,5 +12278,85 @@
     "source_type": "news",
     "summary": "A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving on a committee that was tasked with investigating the abuse of such commercial surveillance tools in the bloc.\n\n\"Through forensic analysis of his device, we found that the attackers could have had",
     "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
+    "url": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
+    "published_date": "2026-07-03T17:50:04+00:00",
+    "source_type": "news",
+    "summary": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
+    "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+    "published_date": "2026-07-03T20:19:31+00:00",
+    "source_type": "news",
+    "summary": "Security firm runZero has&nbsp;disclosed seven vulnerabilities&nbsp;in&nbsp;FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards.\n\nThe flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+    "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+    "published_date": "2026-07-03T19:40:01+00:00",
+    "source_type": "news",
+    "summary": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out.\n\nBad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug.\n\nThe AI caught one flaw and missed",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+    "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+    "published_date": "2026-07-03T18:55:24+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls.\n\nAvalon combines credential collection, lateral movement, remote access, recovery disruption, and ransomware execution, bringing together diverse functions under one",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
+    "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
+    "published_date": "2026-07-03T16:07:15+00:00",
+    "source_type": "news",
+    "summary": "Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data theft.\n\nAccording to JFrog, the packages \"rollup-packages-polyfill-core\" and \"rollup-runtime-polyfill-core\" mimic the legitimate \"rollup-plugin-polyfill-node\" project, down to the description, repository metadata, and",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
+    "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
+    "published_date": "2026-07-03T22:11:22+00:00",
+    "source_type": "research",
+    "summary": "<h2>It's Time to Upgrade Your SMB Session</h2><p>This week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load the module with use <span>windows/manage/smb_to_meterpreter</span> and specify the session number they wish to upgrade. This functionality is also available with the command <span>sessions -u &lt;session_id&gt;</span>. This work is part of an overarching effort to enable a variety of session types to be upgraded to Meterpreter when possible.</p><h2>New module content (3)</h2><h3>Peyara Remote Mouse 1.0.1 Unauthenticated Remote Code Execution</h3><p>Author: tmrswrr</p><p>Type: Exploit</p><p>Pull request: <a href=\"https://github.com/rapid7/metasploit-framework/pull/21491\">#21491</a> contributed by <a href=\"https://github.com/capture0x\">capture0x</a></p><p>Path: <span>windows/misc/peyara_remote_mouse_rce</span></p><p>Description: Adds an exploit module for Peyara Remote Mouse v1.0.1 unauthenticated RCE.</p><h3>Linux Execute Command</h3><p>Authors: bcoles <a href=\"mailto:bcoles@gmail.com\">bcoles@gmail.com</a> and modexp</p><p>Type: Payload (Single)</p><p>Pull request: <a href=\"https",
+    "feed_source": "https://www.rapid7.com/blog/rss/"
+  },
+  {
+    "title": "In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting",
+    "url": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/",
+    "published_date": "2026-07-03T15:10:42+00:00",
+    "source_type": "news",
+    "summary": "<p>Noteworthy stories that might have slipped under the radar: Anonymous-linked Canadian hacker jailed, researcher drops zero-days in open source projects, Venezuelans sentenced in the US over ATM jackpotting. </p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/\">In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Chrome Beta for Desktop Update",
+    "url": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-desktop-update.html",
+    "published_date": "2026-07-03T15:43:33.936000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>The Chrome team is excited to announce the promotion of Chrome 151 to the Beta channel for Windows, Mac and Linux. Chrome 151.0.7922.10 contains our usual under-the-hood performance and stability tweaks, but there are also some cool new features to explore - please head to the <a href=\"https://blog.chromium.org/\">Chromium blog</a> to learn more!</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/150.0.7871.46..151.0.7922.10?pretty=fuller&amp;n=10000\">Git log</a>. Interested in <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">switching</a> release channels? Find out <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">how</a>. If you find a new issue, please let us know by <a href=\"https://crbug.com/\">filing a bug</a>. The <a href=\"https://productforums.google.com/forum/#!forum/chrome\">community help forum</a> is also a great place to reach out for help or learn about common issues.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default"
+  },
+  {
+    "title": "Chrome Dev for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-android-update.html",
+    "published_date": "2026-07-03T15:28:46.696000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Dev 152 (152.0.7924.0) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7910.0..152.0.7924.0?pretty=fuller&amp;n=10000\">Git log</a>. For details on new features, check out the <a href=\"https://blog.chromium.org\">Chromium blog</a>, and for details on web platform updates, check <a href=\"https://www.chromestatus.com/features#milestone%3D152\">here</a>.</p><p>If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default"
+  },
+  {
+    "title": "Top Courier Service Platforms Compared for 2026",
+    "url": "https://www.socinvestigation.com/top-courier-service-platforms-compared-for-2026/",
+    "published_date": "2026-07-04T03:41:56+00:00",
+    "source_type": "detection",
+    "summary": "<p>If you run deliveries and still plan routes by hand or use a basic spreadsheet to track drivers, you are leaving time and money on the table. In 2026, the best courier platforms do a lot more than show dots on a map. They plan smarter routes, keep customers updated without you lifting a finger, [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/top-courier-service-platforms-compared-for-2026/\">Top Courier Service Platforms Compared for 2026</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/"
   }
 ]
