@@ -6202,5 +6202,199 @@
     "actors": [],
     "hunting_indicators": [],
     "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/": {
+    "enriched_at": "2026-07-06T08:38:42.152036+00:00",
+    "incidents": [
+      {
+        "headline": "Flipper Zero firmware development continues with community help",
+        "summary": "Flipper Devices is continuing the development of Flipper Zero firmware but with a smaller internal team and increased reliance on community contributions.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/": {
+    "enriched_at": "2026-07-06T08:38:42.152036+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "JadePuffer",
+        "aliases": [],
+        "motivation": "Ransomware attack",
+        "recent_activity": "Used AI agent to automate the entire attack",
+        "targets": [
+          "Unknown"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/06/prioritize-ai-agent-security-business-impact/": {
+    "enriched_at": "2026-07-06T08:38:42.152036+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/06/ciso-email-security-strategy/": {
+    "enriched_at": "2026-07-06T08:38:42.152036+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/06/omnigent-open-source-ai-agent-framework/": {
+    "enriched_at": "2026-07-06T08:38:42.152036+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/06/product-showcase-malwarebytes-mobile-security-ios/": {
+    "enriched_at": "2026-07-06T08:38:42.152036+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/06/flipper-zero-firmware-development-update/": {
+    "enriched_at": "2026-07-06T08:39:32.950399+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/06/saas-environments-security-risks-report/": {
+    "enriched_at": "2026-07-06T08:39:32.950399+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/06/key-payment-fraud-trends-report/": {
+    "enriched_at": "2026-07-06T08:39:32.950399+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/": {
+    "enriched_at": "2026-07-06T08:39:32.950399+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "ClamAV",
+        "vendor": "Cisco's Talos group",
+        "severity": "CRITICAL",
+        "cvss": 8.5,
+        "description": "Seven security flaws were patched in ClamAV, including Packer and PE parsing bugs.",
+        "exploitation_status": "PATCHED",
+        "remediation": "Apply the latest patch versions (1.5.3 and 1.4.5) to mitigate risks.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/05/week-in-review-simplehelp-vulnerability-exploited-oracle-ebs-payments-flaw-under-attack/": {
+    "enriched_at": "2026-07-06T08:39:32.950399+00:00",
+    "incidents": [
+      {
+        "headline": "SimpleHelp vulnerability exploited, Oracle EBS Payments flaw under attack",
+        "summary": "Companies are facing high-risk vulnerabilities in AI features added to their products, with these flaws taking longer to fix.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/05/week-in-review-simplehelp-vulnerability-exploited-oracle-ebs-payments-flaw-under-attack/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html": {
+    "enriched_at": "2026-07-06T08:39:32.950399+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html": {
+    "enriched_at": "2026-07-06T08:40:06.343911+00:00",
+    "incidents": [
+      {
+        "headline": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
+        "summary": "Researchers from the Hong Kong University of Science and Technology have developed a method to evade static malware scanners by making small changes to malicious AI coding agent skills.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html": {
+    "enriched_at": "2026-07-06T08:40:06.343911+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Kairos",
+        "aliases": [],
+        "motivation": "Data-theft extortion",
+        "recent_activity": "$1 million ransom payment for stolen data",
+        "targets": [
+          "U.S. government entity"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html": {
+    "enriched_at": "2026-07-06T08:40:06.343911+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/Yamato-Security/hayabusa/releases/tag/v3.10.0": {
+    "enriched_at": "2026-07-06T08:40:06.343911+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
   }
 }
