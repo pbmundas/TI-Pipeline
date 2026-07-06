@@ -12486,5 +12486,29 @@
     "source_type": "github",
     "summary": "<h1>Anti-Virus False Positives</h1>\n<p><strong>Warning:</strong> You will get false positives from certain anti-virus programs like Windows Defender and Web Browsers saying they have detected malicious files. They are detecting on Sigma <code>.yml</code> files that are not executable and just contain certain signatures from malware. They are not malicious. If you are running Hayabusa for live analysis and do not want to cause any anti-virus alerts, be sure to use the live response packages that use encoded Sigma rules.</p>\n<h1>3.10.0 [2026/07/04] - Independence Day Release</h1>\n<p><strong>New Features:</strong></p>\n<ul>\n<li>Added support for the <code>|neq</code> and <code>|fieldref|neq</code> field modifiers from the Sigma 2.1 specification. <code>|neq</code> negates a comparison and can be combined with other modifiers (<code>|contains|neq</code>, <code>|startswith|neq</code>, <code>|endswith|neq</code>, <code>|fieldref|neq</code>, ...). (<a class=\"issue-link js-issue-link\" href=\"https://github.com/Yamato-Security/hayabusa/issues/1684\">#1684</a>) (<a class=\"user-mention notranslate\" href=\"https://github.com/YamatoSecurity\">@YamatoSecurity</a>)</li>\n<li>Added unique and total aler",
     "feed_source": "https://github.com/Yamato-Security/hayabusa/releases.atom"
+  },
+  {
+    "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
+    "url": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
+    "published_date": "2026-07-06T08:50:54+00:00",
+    "source_type": "news",
+    "summary": "Researchers at&nbsp;Shandong University&nbsp;have shown a fast new way to pull data off computers that are cut off from every network. The technique, called&nbsp;TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode.\n\nBut TrojPix works only once malware is already on the target machine, so it",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
+    "url": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
+    "published_date": "2026-07-06T08:13:33+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments.\n\nAccording to LevelBlue, the cross-platform malware is advertised under a malware-as-a-service (MaaS) model, costing anywhere between $150 for one month to $1,200 for lifetime access. Other subscription tiers include $300 for",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "When checking the URL isn’t enough: a Device Code Phishing attack via a Microsoft website",
+    "url": "https://securelist.com/microsoft-device-code-phishing-attack/120350/",
+    "published_date": "2026-07-06T09:00:43+00:00",
+    "source_type": "research",
+    "summary": "The OAuth 2.0 Device Authorization Grant specification was designed to streamline authentication for Smart TVs, IoT devices, and printers. Today, threat actors are weaponizing it.",
+    "feed_source": "https://securelist.com/feed/"
   }
 ]
