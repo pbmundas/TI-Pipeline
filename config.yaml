@@ -67,7 +67,19 @@ feeds:
 
   - url: "https://www.helpnetsecurity.com/feed/"
     source_type: "news"
+    
+  - url: "https://www.darkreading.com/rss/all.xml"
+    source_type: "news"
+    note: "Direct native XML payload endpoint bypassing web portal views."
 
+  - url: "https://krebsonsecurity.com"
+    source_type: "news"
+    note: "Direct WordPress RSS2 schema format. Requires a standard custom User-Agent."
+
+  - url: "https://cyberscoop.com"
+    source_type: "news"
+    note: "Direct cloud-hosted native ATOM/RSS ecosystem feed."
+    
   # ===========================
   # Government / CERT
   # ===========================
@@ -76,6 +88,18 @@ feeds:
 
   - url: "https://www.jpcert.or.jp/rss/jpcert.rdf"
     source_type: "advisory"
+    
+  - url: "https://cisa.gov"
+    source_type: "advisory"
+    note: "CISA official national unified security advisory XML stream."
+
+  - url: "https://cyber.gc.ca"
+    source_type: "advisory"
+    note: "Canadian Centre for Cyber Security public incident warning system feed."
+
+  - url: "https://ssi.gouv.fr"
+    source_type: "advisory"
+    note: "French national agency CERT-FR direct RSS syndication pipeline."
 
   # ===========================
   # Vulnerabilities
@@ -88,6 +112,14 @@ feeds:
 
   - url: "https://www.zerodayinitiative.com/rss/published/"
     source_type: "vulnerability"
+    
+  - url: "https://cvefeed.io"
+    source_type: "vulnerability"
+    note: "Direct public global repository aggregator feed for tracking fresh CVEs."
+
+  - url: "https://nist.gov"
+    source_type: "vulnerability"
+    note: "Official low-overhead NIST vulnerability definition tracking updates."
 
   # ===========================
   # Threat Research
@@ -122,6 +154,21 @@ feeds:
   - url: "https://www.cybereason.com/blog/rss.xml"
     source_type: "research"
 
+  # =========================================================================
+  # Operational Infrastructure & Indicators of Compromise (IoCs)
+  # =========================================================================
+  - url: "https://sans.edu"
+    source_type: "operational"
+    note: "Direct SANS Institute global sensor and threat tracker dashboard XML."
+
+  - url: "https://openphish.com"
+    source_type: "ioc"
+    note: "Active structured telemetry tracking live active malicious phishing targets."
+
+  - url: "https://spamhaus.org"
+    source_type: "ioc"
+    note: "Direct feed tracking active malicious networks, command nodes, and rogue ASNs."
+
   # ===========================
   # Vendors
   # ===========================
@@ -149,6 +196,22 @@ feeds:
   - url: "https://thedfirreport.com/feed/"
     source_type: "dfir"
 
+  - url: "https://google.com"
+    source_type: "research"
+    note: "Direct Google Threat Intelligence and Mandiant deep research feed."
+
+  - url: "https://talosintelligence.com"
+    source_type: "research"
+    note: "Direct Cisco Talos global infrastructure research and intelligence hub."
+
+  - url: "https://thedfirreport.com"
+    source_type: "research"
+    note: "Direct live digital forensics pipeline tracking real timeline host telemetry."
+
+  - url: "https://sentinelone.com"
+    source_type: "research"
+    note: "Direct active campaign analytics"
+    
   # ===========================
   # Malware
   # ===========================
