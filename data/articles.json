@@ -12950,5 +12950,621 @@
     "source_type": "github",
     "summary": "<p>Thank you to Jan Grashöfer (<a class=\"user-mention notranslate\" href=\"https://github.com/J-Gras\">@J-Gras</a>), h4r4kIR1, Javid Khan (<a class=\"user-mention notranslate\" href=\"https://github.com/dxbjavid\">@dxbjavid</a>), <a class=\"user-mention notranslate\" href=\"https://github.com/jmestwa-coder\">@jmestwa-coder</a>,<br />\nand <a class=\"user-mention notranslate\" href=\"https://github.com/uwezkhan\">@uwezkhan</a> for their contributions to this release.</p>\n<p>This release fixes the following security issues:</p>\n<ul>\n<li>\n<p>HIGH: The NVT, Rlogin, and RSH analyzers have received fixes to avoid unbounded state<br />\ngrowth. Due to the fact that these packets can be received from remote hosts, these are<br />\nconsidered DoS risks. The fixes include additional length-checking when processing<br />\npackets, as well as a new set of weirds for when the standard Content-Line limits are<br />\nexceeded.</p>\n</li>\n<li>\n<p>HIGH: A specially crafted WebSocket payload can cause the Spicy WebSocket analyzer to<br />\nuse excessive memory when processing close, ping, and pong frames. Due to the fact that<br />\nthese packets can be received from remote hosts, these are considered a DoS risk. The<br /",
     "feed_source": "https://github.com/zeek/zeek/releases.atom"
+  },
+  {
+    "title": "Weekly Report: Rancherに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#1",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "Rancherに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: 複数のUbiquiti製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#2",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のUbiquiti製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: セイコーソリューションズ製SkyBridge MB-A100/MB-A110にOSコマンドインジェクションの脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#3",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "セイコーソリューションズ製SkyBridge MB-A100/MB-A110にOSコマンドインジェクションの脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Apache Tomcatに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#4",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "Apache Tomcatに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Citrix NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#5",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "Citrix NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Google Chromeに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#6",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "Google Chromeに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: 複数のアドビ製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#7",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のアドビ製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: 複数のMozilla製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#8",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のMozilla製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: リコー製Web Image Monitorを実装している複数のレーザープリンタおよび複合機（MFP）に反射型クロスサイトスクリプティングの脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#9",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "リコー製Web Image Monitorを実装している複数のレーザープリンタおよび複合機（MFP）に反射型クロスサイトスクリプティングの脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: 複数のApple製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#10",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のApple製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Fluentdに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#11",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "Fluentdに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: JPCERT/CC 感謝状 2026",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#12",
+    "published_date": "2026-07-08T00:21:00+00:00",
+    "source_type": "advisory",
+    "summary": "JPCERT/CC 感謝状 2026",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+    "published_date": "2026-07-08T09:58:11+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
+    "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
+    "published_date": "2026-07-08T08:15:20+00:00",
+    "source_type": "news",
+    "summary": "Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
+    "published_date": "2026-07-08T07:16:55+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Accenture confirms breach after hacker offers stolen data for sale",
+    "url": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
+    "published_date": "2026-07-07T22:06:07+00:00",
+    "source_type": "news",
+    "summary": "IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other data from the company. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
+    "published_date": "2026-07-07T18:52:19+00:00",
+    "source_type": "news",
+    "summary": "Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet-facing networking devices, primarily unpatched Ruckus routers. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Hidden backdoor in Tenda router firmware grants admin access",
+    "url": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
+    "published_date": "2026-07-07T17:27:22+00:00",
+    "source_type": "news",
+    "summary": "A hidden authentication backdoor has been found in multiple Tenda router firmware versions, potentially allowing an attacker to gain administrative access to the device's web management panel. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
+    "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
+    "published_date": "2026-07-07T15:21:21+00:00",
+    "source_type": "news",
+    "summary": "The National Police in Spain have arrested a man who is suspected of being an active member of the CyberArmy of Russia Reborn (CARR) and Z-Pentest, both pro-Russian hacktivist groups. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
+    "url": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
+    "published_date": "2026-07-07T14:01:11+00:00",
+    "source_type": "news",
+    "summary": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeline, and how organizations can better govern their CI/CD workflows. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+    "published_date": "2026-07-07T12:12:20+00:00",
+    "source_type": "news",
+    "summary": "Tomorrow's webinar explores how behavioral AI can help organizations detect sophisticated phishing, business email compromise, and account takeover attacks while reducing alert fatigue through automated investigation and response workflows. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "New Januscape Linux flaw allows VM escape on Intel, AMD devices",
+    "url": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/",
+    "published_date": "2026-07-07T12:06:09+00:00",
+    "source_type": "news",
+    "summary": "A 16-year-old Linux kernel vulnerability, dubbed Januscape, allows attackers to escape a virtual machine and execute arbitrary code on the host. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Crusoe brings serverless fine-tuning to AI model development",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/crusoe-serverless-fine-tuning/",
+    "published_date": "2026-07-08T09:31:57+00:00",
+    "source_type": "news",
+    "summary": "<p>Crusoe has announced Serverless Fine-Tuning and Self-Serve Deployments in Crusoe Intelligence Foundry, the managed AI platform for Crusoe Cloud. These capabilities give data scientists and ML engineers a complete path from proprietary data to production-ready models, on purpose-built AI infrastructure, without the overhead of managing it. Fine-tuning is now a standard part of building with open-source AI models, and as open-weight models catch up to proprietary models, more teams are choosing to customize with their &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/crusoe-serverless-fine-tuning/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/crusoe-serverless-fine-tuning/\">Crusoe brings serverless fine-tuning to AI model development</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Automox MCP Server adds visual reviews and AI-driven patch policy creation",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/automox-mcp-server-2-2/",
+    "published_date": "2026-07-08T09:21:45+00:00",
+    "source_type": "news",
+    "summary": "<p>Automox has released Automox MCP Server 2.2, adding interactive review surfaces, first-class Patch by Severity policy creation, and live capability discovery to its governed agentic interface for endpoint operations. The release advances Automox MCP beyond natural-language access alone, giving IT teams new ways to review, approve, and act on endpoint operations in context. &#8220;AI agents are only as useful as the platform coverage and governance behind them,&#8221; said Jason Kikta, CTO at Automox. &#8220;MCP 2.2 &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/automox-mcp-server-2-2/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/automox-mcp-server-2-2/\">Automox MCP Server adds visual reviews and AI-driven patch policy creation</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Thousands of malicious AI skills found capable of stealing data, running malware",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/eset-ai-threat-trends-report/",
+    "published_date": "2026-07-08T09:00:08+00:00",
+    "source_type": "news",
+    "summary": "<p>AI agents can browse the web, use external tools, execute commands, and perform tasks on behalf of users. Many rely on skills that define how they interact with services and data. Malicious skills can abuse those capabilities to steal data, execute malware, or manipulate an agent&#8217;s behavior, according to the H1 2026 ESET Threat Report. Malicious AI skills expand the attack surface An analysis of nearly 900,000 AI skills identified more than 25,000 suspicious skills &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/eset-ai-threat-trends-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/eset-ai-threat-trends-report/\">Thousands of malicious AI skills found capable of stealing data, running malware</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "ScienceLogic adds geographic service visibility to Skylar One",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/sciencelogic-adds-geographic-service-visibility-to-skylar-one/",
+    "published_date": "2026-07-08T08:56:13+00:00",
+    "source_type": "news",
+    "summary": "<p>ScienceLogic has released the &#8220;Kyoto&#8221; update for Skylar One, the core observability offering in its AI Platform. The release adds geographic service visibility, simplified location and device management, enhanced relationship mapping, and platform updates aimed at improving observability across hybrid IT environments. The Kyoto update is designed for organizations managing hybrid infrastructure, cloud environments, and AI workloads. It introduces features for investigating service issues, managing locations and access, and improving platform scalability and resilience. Highlights &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/sciencelogic-adds-geographic-service-visibility-to-skylar-one/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/sciencelogic-adds-geographic-service-visibility-to-skylar-one/\">ScienceLogic adds geographic service visibility to Skylar One</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Codenotary launches AI security platform that learns from AI agent behavior",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/codenotary-launches-ai-security-platform-that-learns-from-ai-agent-behavior/",
+    "published_date": "2026-07-08T08:33:38+00:00",
+    "source_type": "news",
+    "summary": "<p>Codenotary has announced AgentMon 3, the latest generation of its enterprise AI security platform, introducing adaptive runtime security policies. These continuously evolve as AI agents operate across an organization by learning from customer-specific workflows, observed behavioral patterns, and newly emerging threats. The company also announced that AgentMon is now available through AWS Marketplace, making enterprise deployment significantly easier for organizations already operating on Amazon Web Services. AgentMon has matured into one of the largest enterprise &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/codenotary-launches-ai-security-platform-that-learns-from-ai-agent-behavior/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/codenotary-launches-ai-security-platform-that-learns-from-ai-agent-behavior/\">Codenotary launches AI security platform that learns from AI agent behavior</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Claude Cowork turns your phone into a remote control for AI work",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/claude-cowork-phone-mobile-web/",
+    "published_date": "2026-07-08T07:22:50+00:00",
+    "source_type": "news",
+    "summary": "<p>Anthropic started rolling out Claude Cowork, an AI agent that completes multi-step tasks, in beta for Max users on mobile and the web. They describe a goal, and Claude plans the work, uses the required tools, and produces outputs such as documents, spreadsheets, presentations, and reports. Remote Cowork session Tasks continue running in the background, even after a laptop is closed, and scheduled tasks can run without a device online. When a task requires user &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/claude-cowork-phone-mobile-web/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/claude-cowork-phone-mobile-web/\">Claude Cowork turns your phone into a remote control for AI work</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Orbia CISO Miranda Ritchie on building security into sustainable infrastructure",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/miranda-ritchie-orbia-industrial-cybersecurity/",
+    "published_date": "2026-07-08T06:00:52+00:00",
+    "source_type": "news",
+    "summary": "<p>In this interview with Help Net Security, Miranda Ritchie, CISO at Orbia, talks about protecting industrial systems where software runs water, chemical and manufacturing processes. She explains why a cyber incident in these settings can harm people, equipment and the environment, and how spread-out sites and aging control hardware widen the risk. Ritchie describes tying security to safety culture, embedding cyber teams early in new projects, and treating nothing as trusted just because it sits &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/miranda-ritchie-orbia-industrial-cybersecurity/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/miranda-ritchie-orbia-industrial-cybersecurity/\">Orbia CISO Miranda Ritchie on building security into sustainable infrastructure</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "20 open-source cybersecurity tools to keep your team ready for anything",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/20-latest-open-source-cybersecurity-tools/",
+    "published_date": "2026-07-08T05:30:52+00:00",
+    "source_type": "news",
+    "summary": "<p>AI is changing how security teams find vulnerabilities, analyze code, test applications, and protect infrastructure. Developers are building tools to secure AI systems themselves, from coding agents and memory protection to model exposure discovery. This roundup covers recent open-source releases for vulnerability research, application security testing, container security, endpoint protection, AI security, and penetration testing. AIMap: Open-source tool finds and tests exposed AI endpoints Public-facing Ollama servers, MCP endpoints, and inference proxies have multiplied across &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/20-latest-open-source-cybersecurity-tools/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/20-latest-open-source-cybersecurity-tools/\">20 open-source cybersecurity tools to keep your team ready for anything</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "macOS is becoming a proving ground for AI agents",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/macos-ai-agents-automation/",
+    "published_date": "2026-07-08T05:00:59+00:00",
+    "source_type": "news",
+    "summary": "<p>Somewhere right now, a Mac Mini is sitting on a shelf doing someone&#8217;s chores. Nobody&#8217;s watching it. It reads a version number out of Terminal, hops over to Safari, digs up a release year, then quietly files a reminder, the kind of dull three-app errand a human would grumble through in ninety seconds. The machine just works, hour after hour, an AI agent with hands on the keyboard and no one in the room. That &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/macos-ai-agents-automation/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/macos-ai-agents-automation/\">macOS is becoming a proving ground for AI agents</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "How to implement a continuous offensive security testing program",
+    "url": "https://www.helpnetsecurity.com/2026/07/08/picus-continuous-offensive-security-testing-program/",
+    "published_date": "2026-07-08T04:30:31+00:00",
+    "source_type": "news",
+    "summary": "<p>The hard part was never finding the exposure. It was deciding what to do about it: whether to patch, mitigate, monitor, or accept, and banking that that decision would still hold tomorrow. A penetration test answers this question for the day it runs, then quietly expires. The environment shifts, a control drifts, a new technique lands, and the report now describes a network that no longer exists. That gap, between finding an exposure and trusting &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/08/picus-continuous-offensive-security-testing-program/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/08/picus-continuous-offensive-security-testing-program/\">How to implement a continuous offensive security testing program</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Supreme Court allows Texas app law requiring age verification to take effect",
+    "url": "https://therecord.media/supreme-court-allows-texas-app-law-age-verification-to-take-effect",
+    "published_date": "2026-07-07T16:05:00+00:00",
+    "source_type": "news",
+    "summary": "A student advocacy organization and tech trade group had appealed to the high court to stay the Texas App Store Accountability Act on an emergency basis until the lower court rules.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "Britain plans to build autonomous AI 'Cyber Shield' to defend nation",
+    "url": "https://therecord.media/britain-plans-autonomous-ai-cyber-shield",
+    "published_date": "2026-07-07T15:31:00+00:00",
+    "source_type": "news",
+    "summary": "The capability, called Cyber Shield, is designed to counter a threat the National Cyber Security Centre (NCSC) said could see attackers “move at machine speed and greater scale, reducing opportunities for detection and response.”",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "Major Japanese telco says cyberattack exposed 12 million emails",
+    "url": "https://therecord.media/major-japanese-telco-cyberattack-12-million-emails",
+    "published_date": "2026-07-07T14:45:00+00:00",
+    "source_type": "news",
+    "summary": "The company said the breach affected an email system used to manage customer email accounts, webmail services and email storage for five Japanese internet service providers.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "UK cyber pledge draws only a handful of top firms despite ministerial appeal",
+    "url": "https://therecord.media/uk-cyber-pledge-draws-limited-partners-despite-ministerial-appeal",
+    "published_date": "2026-07-07T13:10:00+00:00",
+    "source_type": "news",
+    "summary": "Those that did sign include large firms such as Aviva, the London Stock Exchange Group and Marks & Spencer, which lost hundreds of millions of pounds in a cyberattack last year, as well as  small cybersecurity consultancies.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "[webapps] MCPJam Inspector - Remote Code Execution",
+    "url": "https://www.exploit-db.com/exploits/52625",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "MCPJam Inspector - Remote Code Execution",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[local] ProtonVPN v4.4.1 - Unquoted Service Path",
+    "url": "https://www.exploit-db.com/exploits/52624",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "ProtonVPN v4.4.1 - Unquoted Service Path",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[webapps] Flowise  3.1.3 - arbitrary code execution",
+    "url": "https://www.exploit-db.com/exploits/52623",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Flowise  3.1.3 - arbitrary code execution",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[remote] Hydra - Stack Buffer Overflow",
+    "url": "https://www.exploit-db.com/exploits/52622",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Hydra - Stack Buffer Overflow",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[webapps] Discuz! X5.0 - Authentication Bypass",
+    "url": "https://www.exploit-db.com/exploits/52621",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Discuz! X5.0 - Authentication Bypass",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[webapps] Tenable Nessus 10.12.1 - SQL Injection",
+    "url": "https://www.exploit-db.com/exploits/52620",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Tenable Nessus 10.12.1 - SQL Injection",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[webapps] WordPress Bricks Builder Theme  -  RCE",
+    "url": "https://www.exploit-db.com/exploits/52619",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "WordPress Bricks Builder Theme  -  RCE",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+    "url": "https://www.exploit-db.com/exploits/52618",
+    "published_date": "2026-07-07T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[webapps] Joomla Extension 4.1.4 - PHP Object injection",
+    "url": "https://www.exploit-db.com/exploits/52617",
+    "published_date": "2026-07-06T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Joomla Extension 4.1.4 - PHP Object injection",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[webapps] Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
+    "url": "https://www.exploit-db.com/exploits/52616",
+    "published_date": "2026-07-06T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[local] MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
+    "url": "https://www.exploit-db.com/exploits/52615",
+    "published_date": "2026-07-06T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[webapps] KeepInMind 0.8.4.2 -  Stored XSS",
+    "url": "https://www.exploit-db.com/exploits/52614",
+    "published_date": "2026-07-06T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "KeepInMind 0.8.4.2 -  Stored XSS",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[webapps] KNX visualisering - Broken Access Control",
+    "url": "https://www.exploit-db.com/exploits/52613",
+    "published_date": "2026-07-06T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "KNX visualisering - Broken Access Control",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[local] Windows Defender (MsMpEng.exe) - Race Condition",
+    "url": "https://www.exploit-db.com/exploits/52612",
+    "published_date": "2026-07-06T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Windows Defender (MsMpEng.exe) - Race Condition",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "[webapps] WordPress Plugin WPZOOM Portfolio 1.4.21 -  Reflected Cross-Site Scripting (XSS)",
+    "url": "https://www.exploit-db.com/exploits/52611",
+    "published_date": "2026-07-06T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "WordPress Plugin WPZOOM Portfolio 1.4.21 -  Reflected Cross-Site Scripting (XSS)",
+    "feed_source": "https://www.exploit-db.com/rss.xml"
+  },
+  {
+    "title": "County Government Reportedly Paid $1 Million to Cyber Extortion Group",
+    "url": "https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/",
+    "published_date": "2026-07-07T17:31:54+00:00",
+    "source_type": "news",
+    "summary": "<p>The alleged victim, believed to be a small Ohio county, reportedly paid the extortion group to prevent the public release of sensitive stolen data.</p>\n<p>The post <a href=\"https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/\">County Government Reportedly Paid $1 Million to Cyber Extortion Group</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Critical Gitea Flaw Under Active Exploitation, Researchers Warn",
+    "url": "https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/",
+    "published_date": "2026-07-07T17:17:19+00:00",
+    "source_type": "news",
+    "summary": "<p>Attackers are exploiting the critical Gitea vulnerability CVE-2026-20896 to bypass authentication with a single HTTP header and access vulnerable repositories and secrets.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/\">Critical Gitea Flaw Under Active Exploitation, Researchers Warn</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws",
+    "url": "https://www.securityweek.com/cisa-reportedly-using-anthropics-mythos-to-scan-government-software-for-flaws/",
+    "published_date": "2026-07-07T13:13:02+00:00",
+    "source_type": "news",
+    "summary": "<p>The audits are reportedly being spearheaded by CISA’s Attack Surface Evaluation team, a specialized unit tasked with conducting digital defense assessments and simulated hacking exercises.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-reportedly-using-anthropics-mythos-to-scan-government-software-for-flaws/\">CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Critical Adobe ColdFusion Vulnerability Exploited in Attacks",
+    "url": "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/",
+    "published_date": "2026-07-07T12:38:34+00:00",
+    "source_type": "news",
+    "summary": "<p>Hackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion that carries a CVSS score of 10/10.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/\">Critical Adobe ColdFusion Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks",
+    "url": "https://www.securityweek.com/iran-linked-hackers-using-modular-cc-framework-in-cyberattacks/",
+    "published_date": "2026-07-07T12:21:56+00:00",
+    "source_type": "news",
+    "summary": "<p>Researchers say the Iran-linked threat actor used an adaptable modular malware framework and compromised IT service providers to reach high-value targets in Israel.</p>\n<p>The post <a href=\"https://www.securityweek.com/iran-linked-hackers-using-modular-cc-framework-in-cyberattacks/\">Iran-Linked Hackers Using Modular C&amp;C Framework in Cyberattacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "CISO Conversations: Tarah Wheeler, Cybersecurity Leader, Thought Leader and Original Thinker",
+    "url": "https://www.securityweek.com/ciso-conversations-tarah-wheeler-cybersecurity-leader-thought-leader-and-original-thinker/",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Tarah Wheeler is CISO at TPO Group, a firm that provides cybersecurity consultancy for high-stakes organizations. But despite this elevated position, her journey was far from typical.</p>\n<p>The post <a href=\"https://www.securityweek.com/ciso-conversations-tarah-wheeler-cybersecurity-leader-thought-leader-and-original-thinker/\">CISO Conversations: Tarah Wheeler, Cybersecurity Leader, Thought Leader and Original Thinker</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
+    "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
+    "published_date": "2026-07-08T09:04:33+00:00",
+    "source_type": "news",
+    "summary": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices.\n\nAccording to findings from Cisco Talos, UAT-7810 is an advanced persistent threat (APT) actor that's responsible for maintaining and proliferating LapDogs, an ORB network that first came to light in June 2025.",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+    "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+    "published_date": "2026-07-08T06:16:44+00:00",
+    "source_type": "news",
+    "summary": "Researchers at&nbsp;Nebula Security&nbsp;have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full&nbsp;root&nbsp;control of a machine that has not been patched.\n\nThe vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+    "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+    "published_date": "2026-07-08T05:33:12+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+    "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+    "published_date": "2026-07-07T17:10:15+00:00",
+    "source_type": "news",
+    "summary": "A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time codes that protect their accounts.\n\nZimperium's zLabs, which found the operation, says it looks like a new variant of Oblivion, a $300-a-month rent-a-malware tool",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+    "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+    "published_date": "2026-07-07T16:37:33+00:00",
+    "source_type": "news",
+    "summary": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project.\n\nFrom there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password.\n\nSecurity firm Varonis found it",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+    "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+    "published_date": "2026-07-07T15:14:14+00:00",
+    "source_type": "news",
+    "summary": "A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC.\n\n\"The campaign did not depend on a fake Microsoft password page. It used a malicious collaboration-style lure to push users into the legitimate Microsoft device login experience,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+    "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+    "published_date": "2026-07-07T14:04:50+00:00",
+    "source_type": "news",
+    "summary": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown.\n\nThe attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the organization. If that organization has given the agent read access across its repositories, private ones",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+    "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+    "published_date": "2026-07-07T13:27:20+00:00",
+    "source_type": "news",
+    "summary": "U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint.\n\nMicrosoft records tied that ID first to the account the attackers used to keep access during the May 2025 intrusion, then to online accounts prosecutors say belong to 19-year-old Peter Stokes.\n\nStokes is",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+    "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+    "published_date": "2026-07-07T13:27:09+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise.\n\nThe one-click vulnerability has been codenamed WriteOut by the Sand Security Research team.\n\n\"An outsider could go from having no access to taking over any Writer AI",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
+    "url": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
+    "published_date": "2026-07-07T11:30:00+00:00",
+    "source_type": "news",
+    "summary": "Software supply chain security was hard enough. Then AI joined the build pipeline.\n\nFor five years, \"software supply chain security\" meant one question: what's in your code? Which open-source packages, which versions, which transitive dependencies three layers deep that nobody chose on purpose? \n\nSolarWinds, Log4Shell, and XZ Utils all taught the same lesson: the risk lives less in the code a",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
+    "url": "https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/",
+    "published_date": "2026-07-07T22:00:21+00:00",
+    "source_type": "research",
+    "summary": "<p>A cybercrime campaign combined a loader-as-a-service framework and DLL sideloading via a Go-compiled fake MpClient.dll, a novel evasion layer combination.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/\">Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/"
+  },
+  {
+    "title": "CrowdStrike Uncovers New Prompt Injection Techniques",
+    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/",
+    "published_date": "2026-07-07T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/"
+  },
+  {
+    "title": "OMB M-26-14: Why federal agencies must fix asset visibility first",
+    "url": "https://www.tenable.com/blog/omb-m-26-14-asset-visibility-logging-maturity-model-compliance",
+    "published_date": "2026-07-07T18:30:00+00:00",
+    "source_type": "research",
+    "summary": "<p>The new OMB logging directive raises the bar on log collection and explicitly ties every maturity milestone to how well agencies know what’s on their networks. Learn why asset visibility is the first problem to solve.</p><div class=\"blog-see-also\"><div class=\"col-sm-12\"><h2>Key takeaways</h2><ol><li>M-26-14 rescinds M-21-31 and replaces blanket data-retention mandates with a five-element logging maturity model (levels 0-4) that agencies must progress through on a strict timeline after CISA publishes the logging reference architecture (LRA).</li><li>Every maturity level is gated by inventory visibility. Specifically, agencies must demonstrate 70%, 80%, 90%, and 95% IT/OT/IoT asset capture at levels 1 through 4, respectively. After all, you can’t claim log coverage for assets you haven’t discovered.</li><li>OT and IoT devices are explicitly in scope, including systems without native logging capability. This inclusion makes passive asset discovery tools a necessity rather than an add-on.</li><li>The clock starts when CISA publishes the LRA within 90 days of the memo. Agencies that close asset-inventory gaps now will be positioned to hit the required deadlines, such as reaching leve",
+    "feed_source": "https://www.tenable.com/blog/feed"
+  },
+  {
+    "title": "CVE-2026-14904 - Improper Link Resolution in Auth.GetUserPrivateKey in AWS Research and Engineering Studio",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-053-aws/",
+    "published_date": "2026-07-07T21:39:56+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-053-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/07/2026 09:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS Research and Engineering Studio (RES) is an open-source solution that enables researchers and engineers to create and manage secure virtual desktops and computing resources on AWS.</p> \n<p>We identified an improper link resolution before file access issue (CWE-59) in the Auth.GetUserPrivateKey API. An authenticated remote user could read arbitrary files on the cluster-manager EC2 instance by replacing their SSH private key file (~/.ssh/id_rsa) with a symbolic link targeting any file on the host. Because the cluster-manager process runs as root, any file readable by root is exposed, including other users' SSH private keys and application configuration secrets.</p> \n<p><b>Impacted versions:</b> &lt;=2026.03</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/"
+  },
+  {
+    "title": "Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies",
+    "url": "https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/",
+    "published_date": "2026-07-07T18:18:52+00:00",
+    "source_type": "vendor",
+    "summary": "With the introduction of models that require data sharing with third-party providers—such as Claude Fable 5—organizations need a way to centrally enforce data retention policies. Amazon Bedrock gives you control over whether your prompts and model outputs are retained after an inference request completes. You might need a way to enforce your retention settings across […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/"
+  },
+  {
+    "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
+    "url": "http://chromereleases.googleblog.com/2026/07/dev-channel-update-for-chromeos.html",
+    "published_date": "2026-07-07T20:40:39.660000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;<span color=\"rgba(0, 0, 0, 0.87)\">The ChromeOS Dev channel is being updated to OS version </span><span color=\"rgba(0, 0, 0, 0.87)\">16733.12.0</span><span color=\"rgba(0, 0, 0, 0.87)\"> (Browser version </span><span color=\"rgba(0, 0, 0, 0.87)\">151.0.7922.14</span><span color=\"rgba(0, 0, 0, 0.87)\">) for most ChromeOS devices.</span></p><div><span><span style=\"font-family: arial;\">If you find new issues, please let us know one of the following ways:</span></span></div><ol><li style=\"line-height: 32px; margin: 0px 0px 0.25em; padding: 0px;\"><span style=\"vertical-align: baseline;\"><span style=\"color: black;\"><a href=\"https://bugs.chromium.org/p/chromium/issues/list\" style=\"color: #4184f3; text-decoration: none;\"><span style=\"font-family: arial;\">File a bug</span></a></span></span></li><li style=\"line-height: 32px; margin: 0px 0px 0.25em; padding: 0px; vertical-align: baseline; white-space: pre;\"><p style=\"background-color: white; line-height: 2.21538; margin-bottom: 0pt; margin-top: 0pt;\"><span style=\"background-color: transparent; vertical-align: baseline;\"><span style=\"font-family: arial;\">Visit our ChromeOS communities</span></span></p></li><ol style=\"margin: 0px; padding-inli",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default"
+  },
+  {
+    "title": "Stable Channel Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop.html",
+    "published_date": "2026-07-07T17:38:52.410000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;<span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 150.0.7871.100/.101 for Windows and</span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\"> </span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">Mac and&nbsp;</span></span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\"><span style=\"color: #666666;\">150.0.7871.100&nbsp;for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is available in the </span><a href=\"https://chromium.googlesource.com/chromium/src/+log/150.0.7871.47..150.0.7871.101?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\">Log</a></span></p><p><br /></p><div><p style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><span style=\"font-family: arial; font-size: large;\"><span style=\"color: #666666;\">Interested in switching release channels? Find out how<span> </span></span><a href=\"https://www.chromium.org/getting-involved/dev-channel\" style=\"color: #4184f3; text-decoratio",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default"
+  },
+  {
+    "title": "8.0.6",
+    "url": "https://github.com/OISF/suricata/releases/tag/suricata-8.0.6",
+    "published_date": "2026-07-07T19:26:37+00:00",
+    "source_type": "github",
+    "summary": "<h2>Release Notes</h2>\n<p><a href=\"https://forum.suricata.io/t/suricata-8-0-6-and-7-0-17-released/\" rel=\"nofollow\">https://forum.suricata.io/t/suricata-8-0-6-and-7-0-17-released/</a></p>\n<h2>Redmine Tracker</h2>\n<p><a href=\"https://redmine.openinfosecfoundation.org/versions/234\" rel=\"nofollow\">https://redmine.openinfosecfoundation.org/versions/234</a></p>\n<h2>Download</h2>\n<p><a href=\"https://www.openinfosecfoundation.org/download/suricata-8.0.6.tar.gz\" rel=\"nofollow\">https://www.openinfosecfoundation.org/download/suricata-8.0.6.tar.gz</a><br />\n<a href=\"https://www.openinfosecfoundation.org/download/suricata-8.0.6.tar.gz.sig\" rel=\"nofollow\">https://www.openinfosecfoundation.org/download/suricata-8.0.6.tar.gz.sig</a></p>\n<h2>Documentation</h2>\n<p><a href=\"https://docs.suricata.io/en/suricata-8.0.6\" rel=\"nofollow\">https://docs.suricata.io/en/suricata-8.0.6</a></p>",
+    "feed_source": "https://github.com/OISF/suricata/releases.atom"
+  },
+  {
+    "title": "7.0.17",
+    "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.17",
+    "published_date": "2026-07-07T19:25:07+00:00",
+    "source_type": "github",
+    "summary": "<h2>Release Notes</h2>\n<p><a href=\"https://forum.suricata.io/t/suricata-8-0-6-and-7-0-17-released/\" rel=\"nofollow\">https://forum.suricata.io/t/suricata-8-0-6-and-7-0-17-released/</a></p>\n<h2>Redmine Tracker</h2>\n<p><a href=\"https://redmine.openinfosecfoundation.org/versions/232\" rel=\"nofollow\">https://redmine.openinfosecfoundation.org/versions/232</a></p>\n<h2>Download</h2>\n<p><a href=\"https://www.openinfosecfoundation.org/download/suricata-7.0.17.tar.gz\" rel=\"nofollow\">https://www.openinfosecfoundation.org/download/suricata-7.0.17.tar.gz</a><br />\n<a href=\"https://www.openinfosecfoundation.org/download/suricata-7.0.17.tar.gz.sig\" rel=\"nofollow\">https://www.openinfosecfoundation.org/download/suricata-7.0.17.tar.gz.sig</a></p>\n<h2>Documentation</h2>\n<p><a href=\"https://docs.suricata.io/en/suricata-7.0.17\" rel=\"nofollow\">https://docs.suricata.io/en/suricata-7.0.17</a></p>",
+    "feed_source": "https://github.com/OISF/suricata/releases.atom"
+  },
+  {
+    "title": "Every Laptop Is a Credential Store: Where Secrets Hide",
+    "url": "https://blog.gitguardian.com/laptop-as-credential-store/",
+    "published_date": "2026-07-07T15:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "Cloud keys, shell history, SSH keys, AI agent caches: a complete inventory of where credentials hide on a developer's machine, and why infostealers go looking there.",
+    "feed_source": "https://blog.gitguardian.com/rss/"
   }
 ]
