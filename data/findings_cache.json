@@ -686,144 +686,6 @@
       "Hotels and Hospitality"
     ]
   },
-  "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html": {
-    "enriched_at": "2026-07-01T11:04:10.739500+00:00",
-    "incidents": [
-      {
-        "headline": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
-        "summary": "An active phishing campaign has been targeting hotel and other hospitality organizations across Europe and Asia since April 2026, using photo-themed ZIP files to drop a Node.js implant and dig into front-desk machines, Microsoft says. The company has not attributed the activity to a known threat actor, and the operators' end goal is still unclear.",
-        "source_urls": [
-          "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": null,
-        "context": "Microsoft warns of a phishing campaign targeting hotels with Node.js implants.",
-        "indicators": [
-          "Photo-themed ZIP files",
-          "Node.js implant"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html"
-        ]
-      }
-    ],
-    "industries": [
-      "Hotels and Hospitality"
-    ]
-  },
-  "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html": {
-    "enriched_at": "2026-07-01T11:04:10.739500+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Hotels and Hospitality"
-    ]
-  },
-  "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html": {
-    "enriched_at": "2026-07-01T11:05:55.578652+00:00",
-    "incidents": [
-      {
-        "headline": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
-        "summary": "The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government and military organizations in Ukraine, and entities with an interest in Italian foreign policy.",
-        "source_urls": [
-          "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Turla",
-        "aliases": [],
-        "motivation": "Espionage, likely state-sponsored",
-        "recent_activity": "Deployment of the STOCKSTAY backdoor in Ukraine and related regions.",
-        "targets": [
-          "Government",
-          "Military organizations",
-          "Entities with an interest in Italian foreign policy"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Government",
-      "Military",
-      "Insurance",
-      "Education",
-      "IT",
-      "Professional services"
-    ]
-  },
-  "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html": {
-    "enriched_at": "2026-07-01T11:05:55.578652+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Adblock for YouTube Chrome Extension",
-        "vendor": "Island",
-        "severity": "MEDIUM",
-        "cvss": null,
-        "description": "An analysis of a popular Google Chrome ad block extension for YouTube has uncovered the ability to execute arbitrary JavaScript code.",
-        "exploitation_status": "DISCOVERED BUT NOT EXPLOITED",
-        "remediation": "Update or uninstall the extension if it is no longer needed or trust its developers.",
-        "source_urls": [
-          "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government",
-      "Military",
-      "Insurance",
-      "Education",
-      "IT",
-      "Professional services"
-    ]
-  },
-  "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html": {
-    "enriched_at": "2026-07-01T11:05:55.578652+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government",
-      "Military",
-      "Insurance",
-      "Education",
-      "IT",
-      "Professional services"
-    ]
-  },
-  "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html": {
-    "enriched_at": "2026-07-01T11:05:55.578652+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government",
-      "Military",
-      "Insurance",
-      "Education",
-      "IT",
-      "Professional services"
-    ]
-  },
   "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/": {
     "enriched_at": "2026-07-01T11:07:07.918442+00:00",
     "incidents": [],
@@ -1278,90 +1140,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development": {
-    "enriched_at": "2026-07-01T11:10:44.020833+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw": {
-    "enriched_at": "2026-07-01T11:11:36.193252+00:00",
-    "incidents": [
-      {
-        "headline": "In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw",
-        "summary": "A flaw in Cisco Unified CM and Unified CM SME deployments enables SSRF and privilege escalation to root.",
-        "source_urls": [
-          "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Cisco Unified CM and Unified CM SME",
-        "vendor": "Cisco",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A flaw enables SSRF and privilege escalation to root.",
-        "exploitation_status": "Exploited in the wild",
-        "remediation": "No specific remediation mentioned",
-        "source_urls": [
-          "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Education"
-    ]
-  },
-  "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense": {
-    "enriched_at": "2026-07-01T11:11:36.193252+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Russian APT 'Gamaredon'",
-        "aliases": [],
-        "motivation": "State-sponsored espionage and operations",
-        "recent_activity": "Improving malware loading and server hiding capabilities",
-        "targets": [
-          "Various targets"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Education"
-    ]
-  },
-  "https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers": {
-    "enriched_at": "2026-07-01T11:11:36.193252+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Education"
-    ]
-  },
-  "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers": {
-    "enriched_at": "2026-07-01T11:11:36.193252+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Education"
-    ]
-  },
   "https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/": {
     "enriched_at": "2026-07-01T11:12:28.057920+00:00",
     "incidents": [],
@@ -1525,14 +1303,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/": {
-    "enriched_at": "2026-07-01T11:13:55.707962+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/": {
     "enriched_at": "2026-07-01T11:14:37.966969+00:00",
     "incidents": [
@@ -1544,37 +1314,6 @@
         ]
       }
     ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/": {
-    "enriched_at": "2026-07-01T11:14:37.966969+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "CL-STA-1062",
-        "aliases": [],
-        "motivation": "Espionage",
-        "recent_activity": "Targeted Southeast Asian governments and critical infrastructure with a hybrid toolkit including custom TinyRCT backdoor.",
-        "targets": [
-          "Southeast Asian governments",
-          "critical infrastructure"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/": {
-    "enriched_at": "2026-07-01T11:14:37.966969+00:00",
-    "incidents": [],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -2746,48 +2485,6 @@
       "Defense, aerospace, automotive, medical, electronics, industrial machinery, consumer goods"
     ]
   },
-  "https://www.csoonline.com/article/4189605/what-cisos-need-to-tell-the-board-about-zero-trust-in-ot-a-90-day-communication-and-action-plan.html": {
-    "enriched_at": "2026-07-02T09:20:59.756481+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Defense, aerospace, automotive, medical, electronics, industrial machinery, consumer goods"
-    ]
-  },
-  "https://www.csoonline.com/article/4189908/proposed-us-law-would-make-ai-risk-reporting-a-legal-obligation.html": {
-    "enriched_at": "2026-07-02T09:21:41.558980+00:00",
-    "incidents": [
-      {
-        "headline": "US lawmakers introduce AI Incident Reporting Act",
-        "summary": "A bill has been proposed in the US that would require developers of advanced AI models to report major safety and security incidents within seven days, with expedited reporting for imminent risks.",
-        "source_urls": [
-          "https://www.csoonline.com/article/4189908/proposed-us-law-would-make-ai-risk-reporting-a-legal-obligation.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.csoonline.com/article/4189600/mythos-is-a-signal-not-a-siren-what-frontier-ai-should-change-for-cisos.html": {
-    "enriched_at": "2026-07-02T09:21:41.558980+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.csoonline.com/article/4180915/10-years-of-the-gdpr-a-summary.html": {
-    "enriched_at": "2026-07-02T09:21:41.558980+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/": {
     "enriched_at": "2026-07-02T09:21:41.558980+00:00",
     "incidents": [],
@@ -3420,14 +3117,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.rapid7.com/blog/post/it-experts-video-series-ai-compliance-force-new-security-operating-models": {
-    "enriched_at": "2026-07-02T09:27:56.958737+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://isc.sans.edu/diary/rss/33120": {
     "enriched_at": "2026-07-02T09:27:56.958737+00:00",
     "incidents": [],
@@ -3586,22 +3275,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html": {
-    "enriched_at": "2026-07-02T09:29:37.097728+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html": {
-    "enriched_at": "2026-07-02T09:29:37.097728+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://blog.cloudflare.com/attribution-business-insights/": {
     "enriched_at": "2026-07-02T09:29:37.097728+00:00",
     "incidents": [],
@@ -3749,53 +3422,6 @@
     ],
     "industries": []
   },
-  "https://www.malwarebytes.com/blog/scams/2026/06/beware-of-parcel-expert-job-offers-theyre-parcel-mule-scams": {
-    "enriched_at": "2026-07-02T09:31:18.134718+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": null,
-        "aliases": [],
-        "motivation": "Financial gain through account hijacking and domain fraud",
-        "recent_activity": "Phishing campaign, fake job offers, fake domain renewal emails",
-        "targets": [
-          "Users",
-          "Website owners"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.malwarebytes.com/blog/news/2026/06/malware-steals-chrome-session-cookies-to-take-over-your-accounts",
-          "https://www.malwarebytes.com/blog/scams/2026/06/beware-of-parcel-expert-job-offers-theyre-parcel-mule-scams",
-          "https://www.malwarebytes.com/blog/threat-intel/2026/06/fake-domain-renewal-emails-trick-website-owners-into-paying-scammers"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.malwarebytes.com/blog/news/2026/06/update-chrome-to-patch-critical-browser-security-flaws": {
-    "enriched_at": "2026-07-02T09:31:18.134718+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Chrome",
-        "vendor": "Google",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "Two WebGL bugs could allow attackers to escape the browser's security sandbox.",
-        "exploitation_status": "POC",
-        "remediation": "Update Chrome to version 150 or later.",
-        "source_urls": [
-          "https://www.malwarebytes.com/blog/news/2026/06/update-chrome-to-patch-critical-browser-security-flaws"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-ios-update.html": {
     "enriched_at": "2026-07-02T09:31:18.134718+00:00",
     "incidents": [],
@@ -3831,54 +3457,6 @@
   "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-desktop-update_01770796539.html": {
     "enriched_at": "2026-07-02T09:31:58.392230+00:00",
     "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://chromereleases.googleblog.com/2026/06/chrome-for-android-update_0266309606.html": {
-    "enriched_at": "2026-07-02T09:31:58.392230+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://chromereleases.googleblog.com/2026/06/long-term-support-channel-update-for_0509660942.html": {
-    "enriched_at": "2026-07-02T09:31:58.392230+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01245939337.html": {
-    "enriched_at": "2026-07-02T09:33:16.595790+00:00",
-    "incidents": [
-      {
-        "headline": "Stable Channel Update for Desktop",
-        "summary": "The Stable channel has been updated to version 149.0.7827.200/201 for Windows, Mac, and Linux.",
-        "source_urls": [
-          "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01245939337.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-android-update_0407803975.html": {
-    "enriched_at": "2026-07-02T09:33:16.595790+00:00",
-    "incidents": [
-      {
-        "headline": "Chrome Dev for Android Update",
-        "summary": "Chrome Dev 151 (151.0.7910.0) has been released for Android.",
-        "source_urls": [
-          "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-android-update_0407803975.html"
-        ]
-      }
-    ],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -4782,40 +4360,6 @@
       "Hospitality"
     ]
   },
-  "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/": {
-    "enriched_at": "2026-07-02T10:26:59.833630+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "",
-        "aliases": [],
-        "motivation": "Financial gain",
-        "recent_activity": "Delivering Node.js implant via photo-themed ZIP archives to hospitality industry targets in Europe and Asia.",
-        "targets": [
-          "Hospitality industry"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Hospitality"
-    ]
-  },
-  "https://www.microsoft.com/en-us/security/blog/2026/06/25/microsoft-a-leader-in-the-forrester-wave-for-endpoint-management-platforms/": {
-    "enriched_at": "2026-07-02T10:26:59.833630+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Hospitality"
-    ]
-  },
   "https://redcanary.com/blog/threat-detection/phishing-ai-agent/": {
     "enriched_at": "2026-07-02T10:26:59.833630+00:00",
     "incidents": [],
@@ -4827,16 +4371,6 @@
     ]
   },
   "https://thedfirreport.com/2026/06/29/from-bing-search-to-ransomware-bumblebee-and-adaptixc2-deliver-akira-3/": {
-    "enriched_at": "2026-07-02T10:26:59.833630+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Hospitality"
-    ]
-  },
-  "https://www.emsisoft.com/en/blog/47767/emsisoft-blocks-all-360-threats-in-may-avlab-test/": {
     "enriched_at": "2026-07-02T10:26:59.833630+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -4919,22 +4453,6 @@
   "https://github.com/wazuh/wazuh/releases/tag/v4.14.6": {
     "enriched_at": "2026-07-02T10:28:01.662075+00:00",
     "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/wazuh/wazuh/releases/tag/v4.14.6-rc2": {
-    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
-    "incidents": [
-      {
-        "headline": "Wazuh v4.14.6-rc2",
-        "summary": "This release of Wazuh includes several bug fixes and improvements, including enhanced security measures for cluster file synchronization.",
-        "source_urls": [
-          "https://github.com/wazuh/wazuh/releases/tag/v4.14.6-rc2"
-        ]
-      }
-    ],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -9500,6 +9018,635 @@
         ]
       }
     ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware": {
+    "enriched_at": "2026-07-10T10:31:51.778981+00:00",
+    "incidents": [
+      {
+        "headline": "Latvian forestry company still restoring systems weeks after ransomware attack",
+        "summary": "A foreign, financially motivated group was responsible for a cyberattack on state-owned forestry company Latvijas Valsts Mezi (LVM). The company is still in the process of restoring its systems.",
+        "source_urls": [
+          "https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/nsa-revives-tao-name-for-elite-hacking-unit": {
+    "enriched_at": "2026-07-10T10:31:51.778981+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Tailored Access Operations",
+        "aliases": [],
+        "motivation": "",
+        "recent_activity": "NSA changed the name of its Office of Computer Network Operations back to Tailored Access Operations (TAO).",
+        "targets": [],
+        "ttps": [],
+        "source_urls": [
+          "https://therecord.media/nsa-revives-tao-name-for-elite-hacking-unit"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/eu-cyber-filing-ireland-spain-france-netherlands-nis2": {
+    "enriched_at": "2026-07-10T10:31:51.778981+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/10/july-2026-patch-tuesday-forecast/": {
+    "enriched_at": "2026-07-10T10:31:51.778981+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/10/workato-headless-api-agent-guardrails/": {
+    "enriched_at": "2026-07-10T10:31:51.778981+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/10/open-source-software-library-types/": {
+    "enriched_at": "2026-07-10T10:31:51.778981+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/10/trouble-with-data-broker-deletion-requests/": {
+    "enriched_at": "2026-07-10T10:32:48.263842+00:00",
+    "incidents": [
+      {
+        "headline": "Most data brokers won’t tell you what happened to your deletion request",
+        "summary": "A team at UC Irvine found that most data brokers do not provide clear information about the outcome of a consumer's request for their personal records to be deleted or stopped from being sold and shared.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/10/trouble-with-data-broker-deletion-requests/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/10/microsoft-windows-update-deployment-timelines/": {
+    "enriched_at": "2026-07-10T10:32:48.263842+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Windows",
+        "vendor": "Microsoft",
+        "severity": "HIGH",
+        "cvss": null,
+        "description": "Microsoft is advising organizations to shorten the deployment timelines for Windows security updates due to reduced time attackers need to identify and exploit vulnerabilities after updates are released, driven by advances in AI.",
+        "exploitation_status": "LIKELY",
+        "remediation": "Shorten update deployment windows",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/10/microsoft-windows-update-deployment-timelines/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/10/software-supply-chain-security-video/": {
+    "enriched_at": "2026-07-10T10:32:48.263842+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/10/aws-agentic-ai-erp-automation/": {
+    "enriched_at": "2026-07-10T10:32:48.263842+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/10/financial-identity-security-trends-report/": {
+    "enriched_at": "2026-07-10T10:32:48.263842+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/10/new-infosec-products-of-the-week-july-10-2026/": {
+    "enriched_at": "2026-07-10T10:32:48.263842+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/09/microsoft-365-fake-passkey-setup-enrollment/": {
+    "enriched_at": "2026-07-10T10:34:08.305647+00:00",
+    "incidents": [
+      {
+        "headline": "Extortion crew hijacks Microsoft 365 accounts via fake passkey setup",
+        "summary": "The Pink cyber extortion crew is tricking employees into giving them access to their Microsoft 365 accounts by faking Entra passkey enrollment requests.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/09/microsoft-365-fake-passkey-setup-enrollment/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Pink cyber extortion crew",
+        "aliases": [],
+        "motivation": "Financial gain through extortion",
+        "recent_activity": "Tricking employees into giving access to their Microsoft 365 accounts via fake passkey setup requests.",
+        "targets": [
+          "Microsoft 365 users"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/09/microsoft-365-fake-passkey-setup-enrollment/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html": {
+    "enriched_at": "2026-07-10T10:34:08.305647+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "crypto wallet software",
+        "vendor": "various",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A crypto wallet flaw called Ill Bloom, where the recovery phrase is generated with weak randomness allowing attackers to work it out and take control of the wallet.",
+        "exploitation_status": "Confirmed exploitation by attackers",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html": {
+    "enriched_at": "2026-07-10T10:34:08.305647+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Martino",
+        "aliases": [],
+        "motivation": "Financial gain through ransomware operations",
+        "recent_activity": "Aiding BlackCat ransomware attacks and conspiring with other cybersecurity professionals to target additional victims.",
+        "targets": [
+          "various victims"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html": {
+    "enriched_at": "2026-07-10T10:34:08.305647+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Dormant GitHub Accounts Used for Reconnaissance",
+        "context": "Operators use old or compromised accounts to map corporate organizations through the GitHub API.",
+        "indicators": [
+          "Years-old dormant GitHub accounts",
+          "Custom or legitimate-sounding user agents",
+          "Compromised OAuth tokens and personal access tokens"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html"
+        ]
+      }
+    ],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html": {
+    "enriched_at": "2026-07-10T10:34:08.305647+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html": {
+    "enriched_at": "2026-07-10T10:34:08.305647+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html": {
+    "enriched_at": "2026-07-10T10:34:53.381031+00:00",
+    "incidents": [
+      {
+        "headline": "Most security mess starts as admin work.",
+        "summary": "Small gaps in security practices lead to significant issues, often due to overlooked or loosely managed settings.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html": {
+    "enriched_at": "2026-07-10T10:34:53.381031+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "AI attackers",
+        "aliases": [],
+        "motivation": "Speed and efficiency in launching attacks",
+        "recent_activity": "Using AI to automate attack processes, reducing the time from initial target selection to exploitation.",
+        "targets": [
+          "various"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/summer-of-clearinghouses.html": {
+    "enriched_at": "2026-07-10T10:34:53.381031+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html": {
+    "enriched_at": "2026-07-10T10:34:53.381031+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/": {
+    "enriched_at": "2026-07-10T10:34:53.381031+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/": {
+    "enriched_at": "2026-07-10T10:34:53.381031+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "HalluSquatting Turns AI Hallucinations Into Botnet Delivery Mechanism",
+        "context": "Adversarial hallucination squatting against popular AI assistants for remote code execution.",
+        "indicators": [
+          "AI hallucinations",
+          "remote code execution"
+        ],
+        "source_urls": [
+          "https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/"
+        ]
+      }
+    ],
+    "industries": []
+  },
+  "https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/": {
+    "enriched_at": "2026-07-10T10:35:34.411705+00:00",
+    "incidents": [
+      {
+        "headline": "Network of 200 GitHub Repositories Used for Malware Infection",
+        "summary": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware.",
+        "source_urls": [
+          "https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/qiz-security-raises-17-million-for-cryptographic-governance-platform/": {
+    "enriched_at": "2026-07-10T10:35:34.411705+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/uk-government-rolls-out-agentic-ai-defense-plan-alongside-industry-pledge/": {
+    "enriched_at": "2026-07-10T10:35:34.411705+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/palo-alto-networks-patches-13-vulnerabilities/": {
+    "enriched_at": "2026-07-10T10:35:34.411705+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "PAN-OS software",
+        "vendor": "Palo Alto Networks",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Buffer overflow, DoS, command injection, SSRF, authentication bypass, and other types of vulnerabilities have been found in PAN-OS software.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.securityweek.com/palo-alto-networks-patches-13-vulnerabilities/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/12-million-impacted-by-data-breach-at-japanese-telco-kddi/": {
+    "enriched_at": "2026-07-10T10:35:34.411705+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/15-year-old-linux-vulnerability-ghostlock-earns-researchers-92k-from-google/": {
+    "enriched_at": "2026-07-10T10:35:34.411705+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/": {
+    "enriched_at": "2026-07-10T10:36:06.987378+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/": {
+    "enriched_at": "2026-07-10T10:36:06.987378+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/": {
+    "enriched_at": "2026-07-10T10:36:06.987378+00:00",
+    "incidents": [
+      {
+        "headline": "Former ransomware negotiator gets 4 years for BlackCat attacks",
+        "summary": "A former employee of DigitalMint was sentenced to prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/": {
+    "enriched_at": "2026-07-10T10:36:06.987378+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/": {
+    "enriched_at": "2026-07-10T10:36:06.987378+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/": {
+    "enriched_at": "2026-07-10T10:36:06.987378+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Helix vishing group",
+        "aliases": [],
+        "motivation": "Data extortion",
+        "recent_activity": "Using identity-focused tactics such as voice phishing, device code phishing, and MFA abuse to steal data from SharePoint environments.",
+        "targets": [
+          "SharePoint users"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/": {
+    "enriched_at": "2026-07-10T10:36:37.590064+00:00",
+    "incidents": [
+      {
+        "headline": "Microsoft expects more Windows security updates from AI-discovered flaws",
+        "summary": "Microsoft will increase the number of security updates for Windows due to AI-assisted vulnerability discovery.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/": {
+    "enriched_at": "2026-07-10T10:36:37.590064+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Forg365",
+        "aliases": [],
+        "motivation": "Financial gain through phishing attacks.",
+        "recent_activity": "Using AI to generate phishing lures and target Microsoft 365 accounts.",
+        "targets": [
+          "Microsoft 365 users"
+        ],
+        "ttps": [
+          "T1190"
+        ],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/": {
+    "enriched_at": "2026-07-10T10:36:37.590064+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/": {
+    "enriched_at": "2026-07-10T10:36:37.590064+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.gitguardian.com/gitguardian-power-amazon-kiro/": {
+    "enriched_at": "2026-07-10T10:36:37.590064+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/blogs/security/introducing-oauth-support-for-aws-mcp-server/": {
+    "enriched_at": "2026-07-10T10:36:37.590064+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-desktop-update_01249279669.html": {
+    "enriched_at": "2026-07-10T10:37:02.840727+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update_01237781108.html": {
+    "enriched_at": "2026-07-10T10:37:02.840727+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-ios-update_0893252442.html": {
+    "enriched_at": "2026-07-10T10:37:02.840727+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/best-quantum-resistant-crypto-wallets/": {
+    "enriched_at": "2026-07-10T10:37:02.840727+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/making-idling-xrp-more-active/": {
+    "enriched_at": "2026-07-10T10:37:02.840727+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/sprite-sheet-bottleneck-is-real-this-workflow-cuts-it-to-minutes/": {
+    "enriched_at": "2026-07-10T10:37:02.840727+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/SigmaHQ/sigma/releases/tag/r2026-07-01": {
+    "enriched_at": "2026-07-10T10:37:41.394812+00:00",
+    "incidents": [
+      {
+        "headline": "New Rules Added in Release r2026-07-01",
+        "summary": "A new release of the antivirus and security rules has been published, including signatures for APT malware, remote access tools, and other indicators.",
+        "source_urls": [
+          "https://github.com/SigmaHQ/sigma/releases/tag/r2026-07-01"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-41089",
+        "product": "Linux",
+        "vendor": null,
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "LSASS crash via Netlogon stack buffer overflow.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://github.com/SigmaHQ/sigma/releases/tag/r2026-07-01"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/arkime/arkime/releases/tag/v6.6.0": {
+    "enriched_at": "2026-07-10T10:37:41.394812+00:00",
+    "incidents": [],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
