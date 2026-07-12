@@ -2763,14 +2763,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://isc.sans.edu/diary/rss/33106": {
-    "enriched_at": "2026-07-02T09:28:22.155164+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html": {
     "enriched_at": "2026-07-02T09:29:10.444107+00:00",
     "incidents": [
@@ -9785,5 +9777,83 @@
     "actors": [],
     "hunting_indicators": [],
     "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/": {
+    "enriched_at": "2026-07-12T10:31:26.170380+00:00",
+    "incidents": [
+      {
+        "headline": "Accenture data breach",
+        "summary": "A data breach at Accenture required working with DMARC partners for setting up DMARC and BIMI, then using a trusted Certificate Authority to purchase a Mark Certificate.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Law enforcement"
+    ]
+  },
+  "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html": {
+    "enriched_at": "2026-07-12T10:31:26.170380+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "jscrambler npm package",
+        "vendor": "Socket Security",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A compromised version of the jscrambler npm package, 8.14.0, includes a preinstall hook that drops and executes a native binary upon installation.",
+        "exploitation_status": "Exploited in the wild",
+        "remediation": "Avoid installing the affected version or use a different package.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": null,
+        "context": "Compromised jscrambler npm package",
+        "indicators": [
+          "preinstall hook",
+          "native binary execution"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+        ]
+      }
+    ],
+    "industries": [
+      "Law enforcement"
+    ]
+  },
+  "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html": {
+    "enriched_at": "2026-07-12T10:31:26.170380+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": null,
+        "aliases": [],
+        "motivation": "Espionage, possibly related to geopolitical tensions between China and India",
+        "recent_activity": "Sustained cyber espionage campaign against Pakistani law enforcement organizations from February 2024 to April 2026.",
+        "targets": [
+          "Pakistani law enforcement organizations"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Law enforcement"
+    ]
   }
 }
