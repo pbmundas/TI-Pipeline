@@ -405,71 +405,6 @@
       "Activists"
     ]
   },
-  "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html": {
-    "enriched_at": "2026-07-01T11:00:55.273547+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "StegoAd Malware Operation",
-        "context": "Malicious extensions on Microsoft Edge Add-ons store",
-        "indicators": [
-          "119 edge extensions",
-          "Hid malware in images and fonts"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html"
-        ]
-      }
-    ],
-    "industries": [
-      "Government",
-      "Military",
-      "Politicians",
-      "Activists"
-    ]
-  },
-  "https://thehackernews.com/2026/06/public-poc-released-for-critical.html": {
-    "enriched_at": "2026-07-01T11:00:55.273547+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-55200",
-        "product": "libssh2",
-        "vendor": "libssh2 developers",
-        "severity": "CRITICAL",
-        "cvss": 9.2,
-        "description": "A critical flaw in libssh2 allows a malicious or compromised SSH server to trigger memory corruption and potentially execute code on the client.",
-        "exploitation_status": "POC released",
-        "remediation": "Update to versions after 1.11.1",
-        "source_urls": [
-          "https://thehackernews.com/2026/06/public-poc-released-for-critical.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government",
-      "Military",
-      "Politicians",
-      "Activists"
-    ]
-  },
-  "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html": {
-    "enriched_at": "2026-07-01T11:00:55.273547+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government",
-      "Military",
-      "Politicians",
-      "Activists"
-    ]
-  },
   "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/": {
     "enriched_at": "2026-07-01T11:07:07.918442+00:00",
     "incidents": [],
@@ -1016,14 +951,6 @@
     "industries": []
   },
   "https://www.securityweek.com/quantifind-raises-200-million-for-ai-native-risk-intelligence/": {
-    "enriched_at": "2026-07-01T11:13:55.707962+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.welivesecurity.com/en/cybersecurity/inside-inbox-cybercriminals-want-break-email-account/": {
     "enriched_at": "2026-07-01T11:13:55.707962+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -2329,14 +2256,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.cybersecuritydive.com/spons/from-mythos-to-reality-why-the-2026-state-of-pentesting-report-proves-the/823726/": {
-    "enriched_at": "2026-07-02T09:24:06.817121+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://securityaffairs.com/194613/security/alleged-scattered-spider-hacker-extradited-to-u-s-to-face-cybercrime-charges.html": {
     "enriched_at": "2026-07-02T09:25:02.562615+00:00",
     "incidents": [
@@ -2581,24 +2500,6 @@
       "SMBs"
     ]
   },
-  "https://securelist.com/the-gentlemen-raas/120447/": {
-    "enriched_at": "2026-07-02T09:26:48.968705+00:00",
-    "incidents": [
-      {
-        "headline": "The Gentlemen are knocking: сustom backdoors and evolving tactics",
-        "summary": "Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.",
-        "source_urls": [
-          "https://securelist.com/the-gentlemen-raas/120447/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "SMBs"
-    ]
-  },
   "https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/": {
     "enriched_at": "2026-07-02T09:26:48.968705+00:00",
     "incidents": [],
@@ -2607,17 +2508,6 @@
     "hunting_indicators": [],
     "industries": [
       "SMBs"
-    ]
-  },
-  "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/": {
-    "enriched_at": "2026-07-02T09:27:31.540051+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government",
-      "Finance"
     ]
   },
   "https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/": {
@@ -2748,14 +2638,6 @@
     "industries": []
   },
   "https://isc.sans.edu/diary/rss/33110": {
-    "enriched_at": "2026-07-02T09:28:22.155164+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://isc.sans.edu/diary/rss/33108": {
     "enriched_at": "2026-07-02T09:28:22.155164+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -2905,14 +2787,6 @@
   },
   "https://www.malwarebytes.com/blog/news/2026/06/119-edge-extensions-promised-useful-tools-instead-downloaded-malware": {
     "enriched_at": "2026-07-02T09:30:07.899748+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.malwarebytes.com/blog/news/2026/06/a-week-in-security-june-22-june-28": {
-    "enriched_at": "2026-07-02T09:31:18.134718+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],
@@ -9854,6 +9728,286 @@
     "hunting_indicators": [],
     "industries": [
       "Law enforcement"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/07/13/fastnetmon-netomics/": {
+    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/13/claude-code-weekly-limits-promotion-extended/": {
+    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/": {
+    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/13/cynative-open-source-deep-research-agent/": {
+    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/13/how-microsoft-windows-updates-work/": {
+    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/13/hardware-security-ai-assistant-hidden-backdoors/": {
+    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/": {
+    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
+    "incidents": [
+      {
+        "headline": "99.9% of fixable AI vulnerabilities remain unpatched",
+        "summary": "Orca Security’s report highlights that despite deploying and operating AI in the cloud, organizations often neglect basic cybersecurity hygiene.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "AI packages",
+        "vendor": "Various companies running AI",
+        "severity": "MEDIUM",
+        "cvss": null,
+        "description": "81.2% of companies running AI packages have at least one known vulnerability, and 99.9% of these remain unpatched.",
+        "exploitation_status": null,
+        "remediation": "Patch vulnerabilities as they are identified",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/13/colocation-for-ai-workloads-report/": {
+    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/13/debian-13-6-security-update-released/": {
+    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/": {
+    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": null,
+        "aliases": [],
+        "motivation": "Unknown, but likely state-sponsored due to the nature of the warning.",
+        "recent_activity": "Targeting vulnerable and poorly configured routers to infiltrate critical infrastructure networks.",
+        "targets": [
+          "Critical infrastructure"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/": {
+    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/": {
+    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/": {
+    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
+    "incidents": [
+      {
+        "headline": "RedHook Android malware now uses Wireless ADB for shell access",
+        "summary": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism to gain shell-level privileges.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/": {
+    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Zimbra",
+        "vendor": "Zimbra",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Malicious code embedded in crafted emails is executed when the emails are opened.",
+        "exploitation_status": "EXPLOITED_IN_THE_WILD",
+        "remediation": "Patched by vendor",
+        "source_urls": [
+          "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/eu-targets-russian-intelligence-officers-accused-of-running-a-yearslong-cyber-spying-campaign/": {
+    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/": {
+    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/progress-prompts-sharefile-storage-zone-controller-shutdown-amid-security-concerns/": {
+    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/": {
+    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "WorldLeaks extortion group",
+        "aliases": [],
+        "motivation": "Financial gain through data theft and extortion",
+        "recent_activity": "Stole 720 GB of data from a healthcare provider",
+        "targets": [
+          "Healthcare"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html": {
+    "enriched_at": "2026-07-13T10:33:29.671231+00:00",
+    "incidents": [
+      {
+        "headline": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
+        "summary": "A misconfiguration led to the exposure of a live Microsoft 365 phishing operation, revealing three Evilginx operations.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Microsoft 365 users"
+    ]
+  },
+  "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html": {
+    "enriched_at": "2026-07-13T10:33:29.671231+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-48939",
+        "product": "iCagenda and Balbooa extensions for Joomla",
+        "vendor": "Not specified in the text",
+        "severity": "CRITICAL",
+        "cvss": 10.0,
+        "description": "A vulnerability rated 10.0 on the CVSS scoring system impacting iCagenda and Balbooa extensions for Joomla.",
+        "exploitation_status": "Reportedly exploited as zero-days in the wild",
+        "remediation": "Not specified in the text",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Microsoft 365 users"
+    ]
+  },
+  "https://blog.gitguardian.com/cisa-github-leak-incident-response-lessons/": {
+    "enriched_at": "2026-07-13T10:33:29.671231+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Microsoft 365 users"
     ]
   }
 }
