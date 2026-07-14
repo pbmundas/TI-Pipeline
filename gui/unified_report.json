@@ -1,2495 +1,2332 @@
 {
   "metadata": {
-    "generated_at": "2026-07-13T10:45:15.492606+00:00",
+    "generated_at": "2026-07-14T10:48:55.052330+00:00",
     "report_version": "1.0",
     "format": "unified_narrative",
     "reading_time_minutes": 3,
-    "documents_analyzed": 315,
+    "documents_analyzed": 303,
     "time_period_days": 7,
     "generated_by": "ollama:qwen2.5:7b"
   },
   "sources": [
     {
       "id": 1,
-      "title": "Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments",
-      "url": "https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/",
-      "published_date": "2026-07-06T11:19:47+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 2,
-      "title": "Canadian spy agency reports hacking three criminal groups in 2025",
-      "url": "https://therecord.media/canada-cse-2025-cyber-operations-ransomware-drugs-extremism",
-      "published_date": "2026-07-06T20:55:00+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 3,
-      "title": "Attackers vote themselves $20 million in BONK cryptocurrency",
-      "url": "https://therecord.media/attackers-vote-themselves-20-million-bonk-crypto",
-      "published_date": "2026-07-06T20:35:00+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 4,
-      "title": "Major medical device manufacturer notifies nearly 4 million of breach",
-      "url": "https://therecord.media/medical-device-maker-notifies-nearly-4-million-of-breach",
-      "published_date": "2026-07-06T18:03:00+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 5,
-      "title": "Japanese teen arrested over cyberattack that disrupted anime streaming service",
-      "url": "https://therecord.media/japanese-teen-arrested-over-attack-disrupted-streaming-service",
-      "published_date": "2026-07-06T16:40:00+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 6,
-      "title": "Ukrainian media outlets now among 'priority targets' for Russian hackers",
-      "url": "https://therecord.media/ukraine-media-organizations-priority-hacking-targets-russia",
-      "published_date": "2026-07-06T13:20:00+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 7,
-      "title": "Microsoft to enable Windows settings backup by default for orgs",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
-      "published_date": "2026-07-07T09:41:19+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 8,
-      "title": "BeyondTrust warns of critical flaws in remote access software",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
-      "published_date": "2026-07-07T08:12:10+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 9,
-      "title": "Microsoft testing new Cloud Rebuild Windows 11 recovery feature",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/",
-      "published_date": "2026-07-07T07:37:38+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 10,
-      "title": "Phishing poses as big-brand job interview to steal Google accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-      "published_date": "2026-07-06T20:27:37+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 11,
-      "title": "Fake IT support calls on Microsoft Teams push EtherRAT malware",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
-      "published_date": "2026-07-06T20:23:45+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 12,
-      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
-      "url": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
-      "published_date": "2026-07-06T18:25:06+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 13,
-      "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
-      "url": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
-      "published_date": "2026-07-06T14:00:10+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 14,
-      "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
-      "published_date": "2026-07-06T13:18:37+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 15,
-      "title": "Researchers make the case for a cybersecurity AI scientist",
-      "url": "https://www.helpnetsecurity.com/2026/07/07/cybersecurity-ai-scientist-research/",
-      "published_date": "2026-07-07T06:30:18+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 16,
-      "title": "Review: Building Machine Learning Systems with a Feature Store",
-      "url": "https://www.helpnetsecurity.com/2026/07/07/review-building-machine-learning-systems-with-a-feature-store/",
-      "published_date": "2026-07-07T06:00:27+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 17,
-      "title": "Your company already adopted AI and nobody is governing access",
-      "url": "https://www.helpnetsecurity.com/2026/07/07/ai-attack-surface-video/",
-      "published_date": "2026-07-07T05:30:27+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 18,
-      "title": "Apple Container: Open-source tool for Linux containers on the Mac",
-      "url": "https://www.helpnetsecurity.com/2026/07/07/apple-container-open-source-linux-mac/",
-      "published_date": "2026-07-07T05:00:58+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 19,
-      "title": "Microsoft wants to keep your AI agents from going rogue",
-      "url": "https://www.helpnetsecurity.com/2026/07/07/microsoft-execution-containers-ai-agents-constraints/",
-      "published_date": "2026-07-07T04:45:37+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 20,
-      "title": "Power shortages could slow AI data center expansion",
-      "url": "https://www.helpnetsecurity.com/2026/07/07/ai-data-centers-demand-expansion/",
-      "published_date": "2026-07-07T04:30:49+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 21,
-      "title": "Cybersecurity jobs available right now: July 7, 2026",
-      "url": "https://www.helpnetsecurity.com/2026/07/07/cybersecurity-jobs-available-right-now-july-7-2026/",
-      "published_date": "2026-07-07T04:00:21+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 22,
-      "title": "Criminal IP integrates threat intelligence with OpenCTI for automated indicator enrichment",
-      "url": "https://www.helpnetsecurity.com/2026/07/06/criminal-ip-integrates-threat-intelligence-with-opencti-for-automated-indicator-enrichment/",
-      "published_date": "2026-07-06T13:34:55+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 23,
-      "title": "LTM’s BlueVerse RightLogic combines AI risk assessment with cyber remediation planning",
-      "url": "https://www.helpnetsecurity.com/2026/07/06/ltm-blueverse-rightlogic/",
-      "published_date": "2026-07-06T13:15:52+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 24,
-      "title": "OpenSSH 10.4 arrives with security fixes and a post-quantum signature option",
-      "url": "https://www.helpnetsecurity.com/2026/07/06/openssh-10-4-released/",
-      "published_date": "2026-07-06T13:05:55+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 25,
-      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-      "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
-      "published_date": "2026-07-07T09:10:51+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 26,
-      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
-      "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
-      "published_date": "2026-07-07T06:40:47+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 27,
-      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
-      "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
-      "published_date": "2026-07-07T05:16:51+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 28,
-      "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
-      "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
-      "published_date": "2026-07-06T18:34:26+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 29,
-      "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
-      "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-      "published_date": "2026-07-06T17:37:01+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 30,
-      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-      "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-      "published_date": "2026-07-06T16:28:59+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 31,
-      "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
-      "url": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-      "published_date": "2026-07-06T13:01:14+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 32,
-      "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
-      "url": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
-      "published_date": "2026-07-06T11:30:02+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 33,
-      "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
-      "url": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
-      "published_date": "2026-07-06T10:58:16+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 34,
-      "title": "Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems",
-      "url": "https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/",
-      "published_date": "2026-07-07T10:00:00+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 35,
-      "title": "Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security",
-      "url": "https://www.securityweek.com/keyfactor-scores-1-billion-investment-for-ai-post-quantum-security/",
-      "published_date": "2026-07-07T09:30:00+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 36,
-      "title": "Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks",
-      "url": "https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/",
-      "published_date": "2026-07-06T19:14:08+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 37,
-      "title": "The Shift Toward Business-Aligned Risk Management",
-      "url": "https://www.securityweek.com/the-shift-toward-business-aligned-risk-management/",
-      "published_date": "2026-07-06T15:20:42+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 38,
-      "title": "Armored Likho APT Targeting Government, Electric Power Entities",
-      "url": "https://www.securityweek.com/armored-likho-apt-targeting-government-electric-power-entities/",
-      "published_date": "2026-07-06T15:10:39+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 39,
-      "title": "North Korean Hackers Target Open Source Developers in Supply Chain Attacks",
-      "url": "https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/",
-      "published_date": "2026-07-06T13:11:16+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 40,
-      "title": "Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability",
-      "url": "https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/",
-      "published_date": "2026-07-06T12:48:01+00:00",
-      "source_type": "news"
-    },
-    {
-      "id": 41,
-      "title": "Threat landscape for industrial automation systems. Q1 2026",
-      "url": "https://securelist.com/industrial-threat-report-q1-2026/120643/",
-      "published_date": "2026-07-07T10:00:11+00:00",
-      "source_type": "research"
-    },
-    {
-      "id": 42,
-      "title": "Cavern Manticore: Exposing Iran-Linked Modular C2 Framework",
-      "url": "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/",
-      "published_date": "2026-07-06T12:25:02+00:00",
-      "source_type": "research"
-    },
-    {
-      "id": 43,
-      "title": "6th July – Threat Intelligence Report",
-      "url": "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
-      "published_date": "2026-07-06T12:01:54+00:00",
-      "source_type": "research"
-    },
-    {
-      "id": 44,
-      "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
-      "published_date": "2026-07-06T16:00:00+00:00",
-      "source_type": "research"
-    },
-    {
-      "id": 45,
-      "title": "A Day With Your Vector Command Red Team Pod",
-      "url": "https://www.rapid7.com/blog/post/so-ditl-day-with-your-vector-command-red-team-pod",
-      "published_date": "2026-07-06T14:26:46+00:00",
-      "source_type": "research"
-    },
-    {
-      "id": 46,
-      "title": "CVE-2026-14471 - Authenticated SQL injection in the metrics-service retention policy subsystem of mcp-gateway-registry",
-      "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-052-aws/",
-      "published_date": "2026-07-06T20:50:20+00:00",
-      "source_type": "vendor"
-    },
-    {
-      "id": 47,
-      "title": "Enforce least-privilege authorization in multi-agent AI chains using Cedar",
-      "url": "https://aws.amazon.com/blogs/security/enforce-least-privilege-authorization-in-multi-agent-ai-chains-using-cedar/",
-      "published_date": "2026-07-06T16:52:23+00:00",
-      "source_type": "vendor"
-    },
-    {
-      "id": 48,
-      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-      "url": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-chromeos.html",
-      "published_date": "2026-07-06T21:42:02.677000+00:00",
-      "source_type": "vendor"
-    },
-    {
-      "id": 49,
-      "title": "Chrome Dev for Desktop Update",
-      "url": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-desktop-update.html",
-      "published_date": "2026-07-06T14:58:33.427000+00:00",
-      "source_type": "vendor"
-    },
-    {
-      "id": 50,
-      "title": "Possible Software RAID Issue With Recent mdadm Package",
-      "url": "https://blog.securityonion.net/2026/07/possible-software-raid-issue-with.html",
-      "published_date": "2026-07-06T18:58:31.334000+00:00",
-      "source_type": "threat_hunting"
-    },
-    {
-      "id": 51,
-      "title": "v8.2.1",
-      "url": "https://github.com/zeek/zeek/releases/tag/v8.2.1",
-      "published_date": "2026-07-06T21:19:21+00:00",
-      "source_type": "github"
-    },
-    {
-      "id": 52,
-      "title": "v8.0.9",
-      "url": "https://github.com/zeek/zeek/releases/tag/v8.0.9",
-      "published_date": "2026-07-06T21:49:41+00:00",
-      "source_type": "github"
-    },
-    {
-      "id": 53,
       "title": "Weekly Report: Rancherに複数の脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#1",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 54,
+      "id": 2,
       "title": "Weekly Report: 複数のUbiquiti製品に脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#2",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 55,
+      "id": 3,
       "title": "Weekly Report: セイコーソリューションズ製SkyBridge MB-A100/MB-A110にOSコマンドインジェクションの脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#3",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 56,
+      "id": 4,
       "title": "Weekly Report: Apache Tomcatに複数の脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#4",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 57,
+      "id": 5,
       "title": "Weekly Report: Citrix NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#5",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 58,
+      "id": 6,
       "title": "Weekly Report: Google Chromeに複数の脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#6",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 59,
+      "id": 7,
       "title": "Weekly Report: 複数のアドビ製品に脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#7",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 60,
+      "id": 8,
       "title": "Weekly Report: 複数のMozilla製品に脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#8",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 61,
+      "id": 9,
       "title": "Weekly Report: リコー製Web Image Monitorを実装している複数のレーザープリンタおよび複合機（MFP）に反射型クロスサイトスクリプティングの脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#9",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 62,
+      "id": 10,
       "title": "Weekly Report: 複数のApple製品に脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#10",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 63,
+      "id": 11,
       "title": "Weekly Report: Fluentdに複数の脆弱性",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#11",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 64,
+      "id": 12,
       "title": "Weekly Report: JPCERT/CC 感謝状 2026",
       "url": "https://www.jpcert.or.jp/wr/2026/wr260708.html#12",
       "published_date": "2026-07-08T00:21:00+00:00",
       "source_type": "advisory"
     },
     {
-      "id": 65,
+      "id": 13,
       "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
       "published_date": "2026-07-08T09:58:11+00:00",
       "source_type": "news"
     },
     {
-      "id": 66,
+      "id": 14,
       "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
       "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
       "published_date": "2026-07-08T08:15:20+00:00",
       "source_type": "news"
     },
     {
-      "id": 67,
+      "id": 15,
       "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
       "published_date": "2026-07-08T07:16:55+00:00",
       "source_type": "news"
     },
     {
-      "id": 68,
+      "id": 16,
       "title": "Accenture confirms breach after hacker offers stolen data for sale",
       "url": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
       "published_date": "2026-07-07T22:06:07+00:00",
       "source_type": "news"
     },
     {
-      "id": 69,
+      "id": 17,
       "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
       "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
       "published_date": "2026-07-07T18:52:19+00:00",
       "source_type": "news"
     },
     {
-      "id": 70,
+      "id": 18,
       "title": "Hidden backdoor in Tenda router firmware grants admin access",
       "url": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
       "published_date": "2026-07-07T17:27:22+00:00",
       "source_type": "news"
     },
     {
-      "id": 71,
+      "id": 19,
       "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
       "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
       "published_date": "2026-07-07T15:21:21+00:00",
       "source_type": "news"
     },
     {
-      "id": 72,
+      "id": 20,
       "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
       "url": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
       "published_date": "2026-07-07T14:01:11+00:00",
       "source_type": "news"
     },
     {
-      "id": 73,
+      "id": 21,
       "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
       "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
       "published_date": "2026-07-07T12:12:20+00:00",
       "source_type": "news"
     },
     {
-      "id": 74,
+      "id": 22,
       "title": "New Januscape Linux flaw allows VM escape on Intel, AMD devices",
       "url": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/",
       "published_date": "2026-07-07T12:06:09+00:00",
       "source_type": "news"
     },
     {
-      "id": 75,
+      "id": 23,
       "title": "Crusoe brings serverless fine-tuning to AI model development",
       "url": "https://www.helpnetsecurity.com/2026/07/08/crusoe-serverless-fine-tuning/",
       "published_date": "2026-07-08T09:31:57+00:00",
       "source_type": "news"
     },
     {
-      "id": 76,
+      "id": 24,
       "title": "Automox MCP Server adds visual reviews and AI-driven patch policy creation",
       "url": "https://www.helpnetsecurity.com/2026/07/08/automox-mcp-server-2-2/",
       "published_date": "2026-07-08T09:21:45+00:00",
       "source_type": "news"
     },
     {
-      "id": 77,
+      "id": 25,
       "title": "Thousands of malicious AI skills found capable of stealing data, running malware",
       "url": "https://www.helpnetsecurity.com/2026/07/08/eset-ai-threat-trends-report/",
       "published_date": "2026-07-08T09:00:08+00:00",
       "source_type": "news"
     },
     {
-      "id": 78,
+      "id": 26,
       "title": "ScienceLogic adds geographic service visibility to Skylar One",
       "url": "https://www.helpnetsecurity.com/2026/07/08/sciencelogic-adds-geographic-service-visibility-to-skylar-one/",
       "published_date": "2026-07-08T08:56:13+00:00",
       "source_type": "news"
     },
     {
-      "id": 79,
+      "id": 27,
       "title": "Codenotary launches AI security platform that learns from AI agent behavior",
       "url": "https://www.helpnetsecurity.com/2026/07/08/codenotary-launches-ai-security-platform-that-learns-from-ai-agent-behavior/",
       "published_date": "2026-07-08T08:33:38+00:00",
       "source_type": "news"
     },
     {
-      "id": 80,
+      "id": 28,
       "title": "Claude Cowork turns your phone into a remote control for AI work",
       "url": "https://www.helpnetsecurity.com/2026/07/08/claude-cowork-phone-mobile-web/",
       "published_date": "2026-07-08T07:22:50+00:00",
       "source_type": "news"
     },
     {
-      "id": 81,
+      "id": 29,
       "title": "Orbia CISO Miranda Ritchie on building security into sustainable infrastructure",
       "url": "https://www.helpnetsecurity.com/2026/07/08/miranda-ritchie-orbia-industrial-cybersecurity/",
       "published_date": "2026-07-08T06:00:52+00:00",
       "source_type": "news"
     },
     {
-      "id": 82,
+      "id": 30,
       "title": "20 open-source cybersecurity tools to keep your team ready for anything",
       "url": "https://www.helpnetsecurity.com/2026/07/08/20-latest-open-source-cybersecurity-tools/",
       "published_date": "2026-07-08T05:30:52+00:00",
       "source_type": "news"
     },
     {
-      "id": 83,
+      "id": 31,
       "title": "macOS is becoming a proving ground for AI agents",
       "url": "https://www.helpnetsecurity.com/2026/07/08/macos-ai-agents-automation/",
       "published_date": "2026-07-08T05:00:59+00:00",
       "source_type": "news"
     },
     {
-      "id": 84,
+      "id": 32,
       "title": "How to implement a continuous offensive security testing program",
       "url": "https://www.helpnetsecurity.com/2026/07/08/picus-continuous-offensive-security-testing-program/",
       "published_date": "2026-07-08T04:30:31+00:00",
       "source_type": "news"
     },
     {
-      "id": 85,
+      "id": 33,
       "title": "Supreme Court allows Texas app law requiring age verification to take effect",
       "url": "https://therecord.media/supreme-court-allows-texas-app-law-age-verification-to-take-effect",
       "published_date": "2026-07-07T16:05:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 86,
+      "id": 34,
       "title": "Britain plans to build autonomous AI 'Cyber Shield' to defend nation",
       "url": "https://therecord.media/britain-plans-autonomous-ai-cyber-shield",
       "published_date": "2026-07-07T15:31:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 87,
+      "id": 35,
       "title": "Major Japanese telco says cyberattack exposed 12 million emails",
       "url": "https://therecord.media/major-japanese-telco-cyberattack-12-million-emails",
       "published_date": "2026-07-07T14:45:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 88,
+      "id": 36,
       "title": "UK cyber pledge draws only a handful of top firms despite ministerial appeal",
       "url": "https://therecord.media/uk-cyber-pledge-draws-limited-partners-despite-ministerial-appeal",
       "published_date": "2026-07-07T13:10:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 89,
-      "title": "[webapps] MCPJam Inspector - Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52625",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source_type": "vulnerability"
-    },
-    {
-      "id": 90,
-      "title": "[local] ProtonVPN v4.4.1 - Unquoted Service Path",
-      "url": "https://www.exploit-db.com/exploits/52624",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source_type": "vulnerability"
-    },
-    {
-      "id": 91,
-      "title": "[webapps] Flowise  3.1.3 - arbitrary code execution",
-      "url": "https://www.exploit-db.com/exploits/52623",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source_type": "vulnerability"
-    },
-    {
-      "id": 92,
-      "title": "[remote] Hydra - Stack Buffer Overflow",
-      "url": "https://www.exploit-db.com/exploits/52622",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source_type": "vulnerability"
-    },
-    {
-      "id": 93,
-      "title": "[webapps] Discuz! X5.0 - Authentication Bypass",
-      "url": "https://www.exploit-db.com/exploits/52621",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source_type": "vulnerability"
-    },
-    {
-      "id": 94,
-      "title": "[webapps] Tenable Nessus 10.12.1 - SQL Injection",
-      "url": "https://www.exploit-db.com/exploits/52620",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source_type": "vulnerability"
-    },
-    {
-      "id": 95,
-      "title": "[webapps] WordPress Bricks Builder Theme  -  RCE",
-      "url": "https://www.exploit-db.com/exploits/52619",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source_type": "vulnerability"
-    },
-    {
-      "id": 96,
-      "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-      "url": "https://www.exploit-db.com/exploits/52618",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source_type": "vulnerability"
-    },
-    {
-      "id": 97,
+      "id": 37,
       "title": "County Government Reportedly Paid $1 Million to Cyber Extortion Group",
       "url": "https://www.securityweek.com/county-government-reportedly-paid-1-million-to-cyber-extortion-group/",
       "published_date": "2026-07-07T17:31:54+00:00",
       "source_type": "news"
     },
     {
-      "id": 98,
+      "id": 38,
       "title": "Critical Gitea Flaw Under Active Exploitation, Researchers Warn",
       "url": "https://www.securityweek.com/critical-gitea-flaw-under-active-exploitation-researchers-warn/",
       "published_date": "2026-07-07T17:17:19+00:00",
       "source_type": "news"
     },
     {
-      "id": 99,
+      "id": 39,
       "title": "CISA Reportedly Using Anthropic’s Mythos to Scan Government Software for Flaws",
       "url": "https://www.securityweek.com/cisa-reportedly-using-anthropics-mythos-to-scan-government-software-for-flaws/",
       "published_date": "2026-07-07T13:13:02+00:00",
       "source_type": "news"
     },
     {
-      "id": 100,
+      "id": 40,
       "title": "Critical Adobe ColdFusion Vulnerability Exploited in Attacks",
       "url": "https://www.securityweek.com/critical-adobe-coldfusion-vulnerability-exploited-in-attacks/",
       "published_date": "2026-07-07T12:38:34+00:00",
       "source_type": "news"
     },
     {
-      "id": 101,
+      "id": 41,
       "title": "Iran-Linked Hackers Using Modular C&C Framework in Cyberattacks",
       "url": "https://www.securityweek.com/iran-linked-hackers-using-modular-cc-framework-in-cyberattacks/",
       "published_date": "2026-07-07T12:21:56+00:00",
       "source_type": "news"
     },
     {
-      "id": 102,
+      "id": 42,
       "title": "CISO Conversations: Tarah Wheeler, Cybersecurity Leader, Thought Leader and Original Thinker",
       "url": "https://www.securityweek.com/ciso-conversations-tarah-wheeler-cybersecurity-leader-thought-leader-and-original-thinker/",
       "published_date": "2026-07-07T12:00:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 103,
+      "id": 43,
       "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
       "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
       "published_date": "2026-07-08T09:04:33+00:00",
       "source_type": "news"
     },
     {
-      "id": 104,
+      "id": 44,
       "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
       "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
       "published_date": "2026-07-08T06:16:44+00:00",
       "source_type": "news"
     },
     {
-      "id": 105,
+      "id": 45,
       "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
       "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
       "published_date": "2026-07-08T05:33:12+00:00",
       "source_type": "news"
     },
     {
-      "id": 106,
+      "id": 46,
       "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
       "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
       "published_date": "2026-07-07T17:10:15+00:00",
       "source_type": "news"
     },
     {
-      "id": 107,
+      "id": 47,
       "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
       "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
       "published_date": "2026-07-07T16:37:33+00:00",
       "source_type": "news"
     },
     {
-      "id": 108,
+      "id": 48,
       "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
       "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
       "published_date": "2026-07-07T15:14:14+00:00",
       "source_type": "news"
     },
     {
-      "id": 109,
+      "id": 49,
       "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
       "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
       "published_date": "2026-07-07T14:04:50+00:00",
       "source_type": "news"
     },
     {
-      "id": 110,
+      "id": 50,
       "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
       "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
       "published_date": "2026-07-07T13:27:20+00:00",
       "source_type": "news"
     },
     {
-      "id": 111,
+      "id": 51,
       "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
       "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
       "published_date": "2026-07-07T13:27:09+00:00",
       "source_type": "news"
     },
     {
-      "id": 112,
+      "id": 52,
       "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
       "url": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
       "published_date": "2026-07-07T11:30:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 113,
+      "id": 53,
       "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
       "url": "https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/",
       "published_date": "2026-07-07T22:00:21+00:00",
       "source_type": "research"
     },
     {
-      "id": 114,
-      "title": "CrowdStrike Uncovers New Prompt Injection Techniques",
-      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/",
-      "published_date": "2026-07-07T05:00:00+00:00",
-      "source_type": "research"
-    },
-    {
-      "id": 115,
+      "id": 54,
       "title": "OMB M-26-14: Why federal agencies must fix asset visibility first",
       "url": "https://www.tenable.com/blog/omb-m-26-14-asset-visibility-logging-maturity-model-compliance",
       "published_date": "2026-07-07T18:30:00+00:00",
       "source_type": "research"
     },
     {
-      "id": 116,
+      "id": 55,
       "title": "CVE-2026-14904 - Improper Link Resolution in Auth.GetUserPrivateKey in AWS Research and Engineering Studio",
       "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-053-aws/",
       "published_date": "2026-07-07T21:39:56+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 117,
+      "id": 56,
       "title": "Enforce zero data retention on Amazon Bedrock with Bedrock Projects and service control policies",
       "url": "https://aws.amazon.com/blogs/security/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/",
       "published_date": "2026-07-07T18:18:52+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 118,
+      "id": 57,
       "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
       "url": "http://chromereleases.googleblog.com/2026/07/dev-channel-update-for-chromeos.html",
       "published_date": "2026-07-07T20:40:39.660000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 119,
+      "id": 58,
       "title": "Stable Channel Update for Desktop",
       "url": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop.html",
       "published_date": "2026-07-07T17:38:52.410000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 120,
+      "id": 59,
       "title": "8.0.6",
       "url": "https://github.com/OISF/suricata/releases/tag/suricata-8.0.6",
       "published_date": "2026-07-07T19:26:37+00:00",
       "source_type": "github"
     },
     {
-      "id": 121,
+      "id": 60,
       "title": "7.0.17",
       "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.17",
       "published_date": "2026-07-07T19:25:07+00:00",
       "source_type": "github"
     },
     {
-      "id": 122,
+      "id": 61,
       "title": "Every Laptop Is a Credential Store: Where Secrets Hide",
       "url": "https://blog.gitguardian.com/laptop-as-credential-store/",
       "published_date": "2026-07-07T15:00:00+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 123,
+      "id": 62,
       "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
       "url": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
       "published_date": "2026-07-09T09:47:28+00:00",
       "source_type": "news"
     },
     {
-      "id": 124,
+      "id": 63,
       "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
       "url": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
       "published_date": "2026-07-09T07:47:16+00:00",
       "source_type": "news"
     },
     {
-      "id": 125,
+      "id": 64,
       "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
       "published_date": "2026-07-09T05:42:49+00:00",
       "source_type": "news"
     },
     {
-      "id": 126,
+      "id": 65,
       "title": "Mount Royal University confirms breach as hackers claim attack",
       "url": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
       "published_date": "2026-07-08T21:26:59+00:00",
       "source_type": "news"
     },
     {
-      "id": 127,
+      "id": 66,
       "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
       "url": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
       "published_date": "2026-07-08T19:54:59+00:00",
       "source_type": "news"
     },
     {
-      "id": 128,
+      "id": 67,
       "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
       "published_date": "2026-07-08T18:56:02+00:00",
       "source_type": "news"
     },
     {
-      "id": 129,
+      "id": 68,
       "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
       "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
       "published_date": "2026-07-08T16:47:25+00:00",
       "source_type": "news"
     },
     {
-      "id": 130,
+      "id": 69,
       "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
       "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
       "published_date": "2026-07-08T14:01:11+00:00",
       "source_type": "news"
     },
     {
-      "id": 131,
+      "id": 70,
       "title": "DuckDuckGo browser now blocks YouTube video ads",
       "url": "https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/",
       "published_date": "2026-07-08T12:00:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 132,
+      "id": 71,
       "title": "Telco giant KDDI says data breach affects over 12 million people",
       "url": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
       "published_date": "2026-07-08T11:24:16+00:00",
       "source_type": "news"
     },
     {
-      "id": 133,
+      "id": 72,
       "title": "Greek victims file lawsuit against Intellexa over Predator spyware",
       "url": "https://therecord.media/greek-victims-file-lawsuit-against-intellexa-spyware",
       "published_date": "2026-07-08T20:20:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 134,
+      "id": 73,
       "title": "Cash App owner to pay $45 million to settle allegations of lax security",
       "url": "https://therecord.media/cash-app-owner-to-pay-45-million-security-allegations",
       "published_date": "2026-07-08T20:14:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 135,
+      "id": 74,
       "title": "Taiwan charges two businessmen over alleged role in Chinese espionage campaign",
       "url": "https://therecord.media/taiwan-charges-businessmen-china-cyber-espionage-campaign",
       "published_date": "2026-07-08T16:55:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 136,
+      "id": 75,
       "title": "Former UK privacy chief preparing legal action against woman who reported him, minister says",
       "url": "https://therecord.media/former-uk-privacy-chief-preparing-legal-action-against-woman-who-reported-him",
       "published_date": "2026-07-08T14:20:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 137,
+      "id": 76,
       "title": "Spain arrests alleged supporter of pro-Russian hacktivist groups after FBI tip",
       "url": "https://therecord.media/spain-arrest-alleged-supporter-noname-carr-zpentest",
       "published_date": "2026-07-08T13:45:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 138,
+      "id": 77,
       "title": "AWS centralizes access, spending, and governance for Claude",
       "url": "https://www.helpnetsecurity.com/2026/07/09/aws-claude-apps-gateway-governance/",
       "published_date": "2026-07-09T08:37:07+00:00",
       "source_type": "news"
     },
     {
-      "id": 139,
+      "id": 78,
       "title": "NetSPI pairs AI pentesting with expert-validated security findings",
       "url": "https://www.helpnetsecurity.com/2026/07/09/netspi-expands-continuous-pentesting-platform/",
       "published_date": "2026-07-09T08:13:43+00:00",
       "source_type": "news"
     },
     {
-      "id": 140,
+      "id": 79,
       "title": "Malicious AI agent skills can slip past the scanners built to stop them",
       "url": "https://www.helpnetsecurity.com/2026/07/09/malicious-ai-agent-skills-scan/",
       "published_date": "2026-07-09T06:00:33+00:00",
       "source_type": "news"
     },
     {
-      "id": 141,
+      "id": 80,
       "title": "The fake report message that ends with a stolen Reddit account",
       "url": "https://www.helpnetsecurity.com/2026/07/09/reddit-false-report-scam-direct-message/",
       "published_date": "2026-07-09T05:30:10+00:00",
       "source_type": "news"
     },
     {
-      "id": 142,
+      "id": 81,
       "title": "Open-source collaboration is growing worldwide and putting pressure on maintainers",
       "url": "https://www.helpnetsecurity.com/2026/07/09/github-open-source-collaboration/",
       "published_date": "2026-07-09T05:10:05+00:00",
       "source_type": "news"
     },
     {
-      "id": 143,
+      "id": 82,
       "title": "Product showcase: Protect your iPhone with McAfee Mobile Security",
       "url": "https://www.helpnetsecurity.com/2026/07/09/product-showcase-mcafee-mobile-security-ios/",
       "published_date": "2026-07-09T05:00:52+00:00",
       "source_type": "news"
     },
     {
-      "id": 144,
+      "id": 83,
       "title": "Wireshark 4.6.7 patches a dozen security flaws",
       "url": "https://www.helpnetsecurity.com/2026/07/09/wireshark-4-6-7-released/",
       "published_date": "2026-07-09T04:45:16+00:00",
       "source_type": "news"
     },
     {
-      "id": 145,
+      "id": 84,
       "title": "Messaging fraud trends point to smarter attacks, stronger blocking",
       "url": "https://www.helpnetsecurity.com/2026/07/09/infobip-messaging-fraud-trends/",
       "published_date": "2026-07-09T04:30:49+00:00",
       "source_type": "news"
     },
     {
-      "id": 146,
+      "id": 85,
       "title": "A single malware file can outweigh an entire AI dataset",
       "url": "https://www.helpnetsecurity.com/2026/07/09/research-ai-in-cybersecurity/",
       "published_date": "2026-07-09T04:00:18+00:00",
       "source_type": "news"
     },
     {
-      "id": 147,
+      "id": 86,
       "title": "Attackers using Langflow flaw for credential harvesting (CVE-2026-55255)",
       "url": "https://www.helpnetsecurity.com/2026/07/08/langflow-vulnerability-cve-2026-55255-exploited/",
       "published_date": "2026-07-08T14:03:04+00:00",
       "source_type": "news"
     },
     {
-      "id": 148,
+      "id": 87,
       "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
       "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
       "published_date": "2026-07-09T08:48:48+00:00",
       "source_type": "news"
     },
     {
-      "id": 149,
+      "id": 88,
       "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
       "url": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
       "published_date": "2026-07-09T07:21:06+00:00",
       "source_type": "news"
     },
     {
-      "id": 150,
+      "id": 89,
       "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
       "url": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
       "published_date": "2026-07-09T05:15:02+00:00",
       "source_type": "news"
     },
     {
-      "id": 151,
+      "id": 90,
       "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
       "url": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
       "published_date": "2026-07-09T04:27:18+00:00",
       "source_type": "news"
     },
     {
-      "id": 152,
+      "id": 91,
       "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
       "url": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
       "published_date": "2026-07-09T04:01:49+00:00",
       "source_type": "news"
     },
     {
-      "id": 153,
+      "id": 92,
       "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
       "url": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
       "published_date": "2026-07-08T17:02:12+00:00",
       "source_type": "news"
     },
     {
-      "id": 154,
+      "id": 93,
       "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
       "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
       "published_date": "2026-07-08T15:07:24+00:00",
       "source_type": "news"
     },
     {
-      "id": 155,
+      "id": 94,
       "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
       "url": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
       "published_date": "2026-07-08T14:38:05+00:00",
       "source_type": "news"
     },
     {
-      "id": 156,
+      "id": 95,
       "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
       "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
       "published_date": "2026-07-08T13:00:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 157,
+      "id": 96,
       "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
       "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
       "published_date": "2026-07-08T12:52:15+00:00",
       "source_type": "news"
     },
     {
-      "id": 158,
+      "id": 97,
       "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
       "url": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
       "published_date": "2026-07-08T11:51:24+00:00",
       "source_type": "news"
     },
     {
-      "id": 159,
+      "id": 98,
       "title": "The Verification Step Is the New ATO Battleground in 2026",
       "url": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
       "published_date": "2026-07-08T11:30:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 160,
+      "id": 99,
       "title": "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
       "url": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
       "published_date": "2026-07-08T11:21:07+00:00",
       "source_type": "news"
     },
     {
-      "id": 161,
+      "id": 100,
       "title": "[webapps] Krayin CRM v2.2.x - Authenticated Remote Code Execution",
       "url": "https://www.exploit-db.com/exploits/52629",
       "published_date": "2026-07-08T00:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 162,
+      "id": 101,
       "title": "[webapps] Atarim WordPress Plugin  4.2.2 - Sensitive Information Exposure",
       "url": "https://www.exploit-db.com/exploits/52628",
       "published_date": "2026-07-08T00:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 163,
+      "id": 102,
       "title": "[webapps] Langflow 1.9.0 - RCE",
       "url": "https://www.exploit-db.com/exploits/52627",
       "published_date": "2026-07-08T00:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 164,
+      "id": 103,
       "title": "[webapps] Joomla Page Builder CK  3.5.10 -  Arbitrary File Upload",
       "url": "https://www.exploit-db.com/exploits/52626",
       "published_date": "2026-07-08T00:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 165,
+      "id": 104,
       "title": "Microsoft Patches Defender ‘RoguePlanet’ Vulnerability",
       "url": "https://www.securityweek.com/microsoft-patches-defender-rogueplanet-vulnerability/",
       "published_date": "2026-07-09T10:28:35+00:00",
       "source_type": "news"
     },
     {
-      "id": 166,
+      "id": 105,
       "title": "Mount Royal University Confirms Data Stolen in Ransomware Attack",
       "url": "https://www.securityweek.com/mount-royal-university-confirms-data-stolen-in-ransomware-attack/",
       "published_date": "2026-07-09T10:06:18+00:00",
       "source_type": "news"
     },
     {
-      "id": 167,
+      "id": 106,
       "title": "AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique",
       "url": "https://www.securityweek.com/ai-coding-tools-tricked-into-hacking-developer-machine-via-decades-old-technique/",
       "published_date": "2026-07-09T08:52:21+00:00",
       "source_type": "news"
     },
     {
-      "id": 168,
+      "id": 107,
       "title": "Chrome 150 Update Patches 27 Vulnerabilities",
       "url": "https://www.securityweek.com/chrome-150-update-patches-27-vulnerabilities/",
       "published_date": "2026-07-09T07:27:59+00:00",
       "source_type": "news"
     },
     {
-      "id": 169,
+      "id": 108,
       "title": "8Layers Raises $2.9 Million for Identity Security Platform",
       "url": "https://www.securityweek.com/8layers-raises-2-9-million-for-identity-security-platform/",
       "published_date": "2026-07-09T06:45:22+00:00",
       "source_type": "news"
     },
     {
-      "id": 170,
+      "id": 109,
       "title": "Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices",
       "url": "https://www.securityweek.com/unpatched-backdoor-in-tenda-firmware-grants-admin-access-to-devices/",
       "published_date": "2026-07-09T05:00:41+00:00",
       "source_type": "news"
     },
     {
-      "id": 171,
+      "id": 110,
       "title": "Accenture Confirms Data Breach After Hacker Claims Source Code Theft",
       "url": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
       "published_date": "2026-07-08T16:09:15+00:00",
       "source_type": "news"
     },
     {
-      "id": 172,
+      "id": 111,
       "title": "China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors",
       "url": "https://www.securityweek.com/china-linked-apt-expands-arsenal-with-new-leash-backdoors/",
       "published_date": "2026-07-08T15:42:11+00:00",
       "source_type": "news"
     },
     {
-      "id": 173,
+      "id": 112,
       "title": "Webinar Today: Why Email Security Keeps Failing",
       "url": "https://www.securityweek.com/webinar-today-why-email-security-keeps-failing/",
       "published_date": "2026-07-08T13:16:28+00:00",
       "source_type": "news"
     },
     {
-      "id": 174,
+      "id": 113,
       "title": "Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations",
       "url": "https://www.securityweek.com/google-dialogflow-cx-bug-allowed-attackers-to-hijack-ai-conversations/",
       "published_date": "2026-07-08T12:15:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 175,
+      "id": 114,
       "title": "Falcon Secure Access Sets the Standard for Zero Trust Browser Security",
       "url": "https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/",
       "published_date": "2026-07-08T05:00:00+00:00",
       "source_type": "research"
     },
     {
-      "id": 176,
+      "id": 115,
       "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
       "url": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
       "published_date": "2026-07-08T13:00:00+00:00",
       "source_type": "research"
     },
     {
-      "id": 177,
+      "id": 116,
       "title": "ZDI-26-403: (0Day) Ollama downloadBlob Improper Validation of Array Index Denial-of-Service Vulnerability",
       "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-403/",
       "published_date": "2026-07-08T05:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 178,
+      "id": 117,
       "title": "ZDI-26-402: (0Day) Glarysoft Glary Utilities Link Following Local Privilege Escalation Vulnerability",
       "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-402/",
       "published_date": "2026-07-08T05:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 179,
+      "id": 118,
       "title": "ZDI-26-401: (0Day) AnyDesk Support Information Link Following Denial-of-Service Vulnerability",
       "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-401/",
       "published_date": "2026-07-08T05:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 180,
+      "id": 119,
       "title": "ZDI-26-400: (0Day) AnyDesk Screen Recording Link Following Denial-of-Service Vulnerability",
       "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-400/",
       "published_date": "2026-07-08T05:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 181,
+      "id": 120,
       "title": "ZDI-26-399: (0Day) (Pwn2Own) Lorex 2K Indoor Wi-Fi Security Camera Device Management Server Improper Certificate Validation Vulnerability",
       "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-399/",
       "published_date": "2026-07-08T05:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 182,
+      "id": 121,
       "title": "ZDI-26-398: (0Day) (Pwn2Own) Lorex 2K Indoor Wi-Fi Security Camera CDeviceOperator Format String Remote Code Execution Vulnerability",
       "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-398/",
       "published_date": "2026-07-08T05:00:00+00:00",
       "source_type": "vulnerability"
     },
     {
-      "id": 183,
+      "id": 122,
       "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
       "published_date": "2026-07-08T17:00:00+00:00",
       "source_type": "research"
     },
     {
-      "id": 184,
+      "id": 123,
       "title": "Long Term Support Channel Update for ChromeOS",
       "url": "http://chromereleases.googleblog.com/2026/07/long-term-support-channel-update-for.html",
       "published_date": "2026-07-09T04:04:34.456000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 185,
+      "id": 124,
       "title": "Chrome for Android Update",
       "url": "http://chromereleases.googleblog.com/2026/07/chrome-for-android-update.html",
       "published_date": "2026-07-08T22:42:39.494000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 186,
+      "id": 125,
       "title": "Stable Channel Update for Desktop",
       "url": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01162222768.html",
       "published_date": "2026-07-08T22:28:48.399000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 187,
+      "id": 126,
       "title": "Chrome Stable for iOS Update",
       "url": "http://chromereleases.googleblog.com/2026/07/chrome-stable-for-ios-update.html",
       "published_date": "2026-07-08T16:43:32.252000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 188,
+      "id": 127,
       "title": "Designing for the inevitable: System prompt leakage and mitigations in generative AI applications",
       "url": "https://aws.amazon.com/blogs/security/designing-for-the-inevitable-system-prompt-leakage-and-mitigations-in-generative-ai-applications/",
       "published_date": "2026-07-08T18:58:42+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 189,
+      "id": 128,
       "title": "The CISO’s guide to post-quantum mandates and migrations",
       "url": "https://aws.amazon.com/blogs/security/the-cisos-guide-to-post-quantum-mandates-and-migrations/",
       "published_date": "2026-07-08T15:00:05+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 190,
+      "id": 129,
       "title": "Best AI agent software for enterprise customer support teams automating at scale",
       "url": "https://www.socinvestigation.com/best-ai-agent-software-for-enterprise-customer-support-teams/",
       "published_date": "2026-07-09T05:46:36+00:00",
       "source_type": "detection"
     },
     {
-      "id": 191,
+      "id": 130,
       "title": "Emsisoft Anti-Malware Achieves Grade A in Latest VB100 Test",
       "url": "https://www.emsisoft.com/en/blog/47796/emsisoft-anti-malware-achieves-grade-a-in-latest-vb100-test/",
       "published_date": "2026-07-08T14:45:54+00:00",
       "source_type": "malware"
     },
     {
-      "id": 192,
+      "id": 131,
       "title": "Wazuh v4.14.7-rc1",
       "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.7-rc1",
       "published_date": "2026-07-09T09:04:12+00:00",
       "source_type": "github"
     },
     {
-      "id": 193,
+      "id": 132,
       "title": "coverity-w28-4.14.7: Merge pull request #37523 from wazuh/enhancement/wqa8102-bump-4.14.7",
       "url": "https://github.com/wazuh/wazuh/releases/tag/coverity-w28-4.14.7",
       "published_date": "2026-07-08T17:08:29+00:00",
       "source_type": "github"
     },
     {
-      "id": 194,
+      "id": 133,
       "title": "v2.16.2",
       "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.2",
       "published_date": "2026-07-09T08:18:02+00:00",
       "source_type": "github"
     },
     {
-      "id": 195,
+      "id": 134,
       "title": "v2.16.1",
       "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.1",
       "published_date": "2026-07-09T08:19:06+00:00",
       "source_type": "github"
     },
     {
-      "id": 196,
+      "id": 135,
       "title": "Latvian forestry company still restoring systems weeks after ransomware attack",
       "url": "https://therecord.media/latvia-state-owned-foresty-company-lvm-ransomware",
       "published_date": "2026-07-09T14:20:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 197,
+      "id": 136,
       "title": "NSA revives 'Tailored Access Operations' name for elite hacking unit",
       "url": "https://therecord.media/nsa-revives-tao-name-for-elite-hacking-unit",
       "published_date": "2026-07-09T13:20:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 198,
+      "id": 137,
       "title": "EU takes member states to court over unimplemented cybersecurity law",
       "url": "https://therecord.media/eu-cyber-filing-ireland-spain-france-netherlands-nis2",
       "published_date": "2026-07-09T13:10:02+00:00",
       "source_type": "news"
     },
     {
-      "id": 199,
+      "id": 138,
       "title": "July 2026 Patch Tuesday forecast: Is CVE tracking still practical?",
       "url": "https://www.helpnetsecurity.com/2026/07/10/july-2026-patch-tuesday-forecast/",
       "published_date": "2026-07-10T07:30:26+00:00",
       "source_type": "news"
     },
     {
-      "id": 200,
+      "id": 139,
       "title": "Workato expands Agent Studio with Headless API, AI guardrails",
       "url": "https://www.helpnetsecurity.com/2026/07/10/workato-headless-api-agent-guardrails/",
       "published_date": "2026-07-10T07:02:12+00:00",
       "source_type": "news"
     },
     {
-      "id": 201,
+      "id": 140,
       "title": "The open source library holding up your stack might have one maintainer",
       "url": "https://www.helpnetsecurity.com/2026/07/10/open-source-software-library-types/",
       "published_date": "2026-07-10T07:00:16+00:00",
       "source_type": "news"
     },
     {
-      "id": 202,
+      "id": 141,
       "title": "Most data brokers won’t tell you what happened to your deletion request",
       "url": "https://www.helpnetsecurity.com/2026/07/10/trouble-with-data-broker-deletion-requests/",
       "published_date": "2026-07-10T06:30:46+00:00",
       "source_type": "news"
     },
     {
-      "id": 203,
+      "id": 142,
       "title": "Microsoft is rewriting Windows patch guidance because of AI",
       "url": "https://www.helpnetsecurity.com/2026/07/10/microsoft-windows-update-deployment-timelines/",
       "published_date": "2026-07-10T06:00:26+00:00",
       "source_type": "news"
     },
     {
-      "id": 204,
+      "id": 143,
       "title": "Turning software supply chain security into a daily habit",
       "url": "https://www.helpnetsecurity.com/2026/07/10/software-supply-chain-security-video/",
       "published_date": "2026-07-10T05:30:03+00:00",
       "source_type": "news"
     },
     {
-      "id": 205,
+      "id": 144,
       "title": "AWS gives its ERP agent deny-by-default rules and a separate identity",
       "url": "https://www.helpnetsecurity.com/2026/07/10/aws-agentic-ai-erp-automation/",
       "published_date": "2026-07-10T05:00:52+00:00",
       "source_type": "news"
     },
     {
-      "id": 206,
+      "id": 145,
       "title": "Only 28% of financial workforce MFA is phishing-resistant",
       "url": "https://www.helpnetsecurity.com/2026/07/10/financial-identity-security-trends-report/",
       "published_date": "2026-07-10T04:30:59+00:00",
       "source_type": "news"
     },
     {
-      "id": 207,
+      "id": 146,
       "title": "New infosec products of the week: July 10, 2026",
       "url": "https://www.helpnetsecurity.com/2026/07/10/new-infosec-products-of-the-week-july-10-2026/",
       "published_date": "2026-07-10T04:00:55+00:00",
       "source_type": "news"
     },
     {
-      "id": 208,
+      "id": 147,
       "title": "Extortion crew hijacks Microsoft 365 accounts via fake passkey setup",
       "url": "https://www.helpnetsecurity.com/2026/07/09/microsoft-365-fake-passkey-setup-enrollment/",
       "published_date": "2026-07-09T14:22:35+00:00",
       "source_type": "news"
     },
     {
-      "id": 209,
+      "id": 148,
       "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
       "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
       "published_date": "2026-07-10T09:00:05+00:00",
       "source_type": "news"
     },
     {
-      "id": 210,
+      "id": 149,
       "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
       "url": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
       "published_date": "2026-07-10T08:10:12+00:00",
       "source_type": "news"
     },
     {
-      "id": 211,
+      "id": 150,
       "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
       "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
       "published_date": "2026-07-09T18:38:49+00:00",
       "source_type": "news"
     },
     {
-      "id": 212,
+      "id": 151,
       "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
       "url": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
       "published_date": "2026-07-09T18:08:07+00:00",
       "source_type": "news"
     },
     {
-      "id": 213,
+      "id": 152,
       "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
       "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
       "published_date": "2026-07-09T16:49:02+00:00",
       "source_type": "news"
     },
     {
-      "id": 214,
+      "id": 153,
       "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
       "url": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
       "published_date": "2026-07-09T15:09:28+00:00",
       "source_type": "news"
     },
     {
-      "id": 215,
+      "id": 154,
       "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
       "url": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
       "published_date": "2026-07-09T12:26:58+00:00",
       "source_type": "news"
     },
     {
-      "id": 216,
+      "id": 155,
       "title": "Summer of Clearinghouses",
       "url": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
       "published_date": "2026-07-09T11:00:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 217,
+      "id": 156,
       "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
       "url": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
       "published_date": "2026-07-09T10:43:09+00:00",
       "source_type": "news"
     },
     {
-      "id": 218,
+      "id": 157,
       "title": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
       "url": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/",
       "published_date": "2026-07-10T09:12:08+00:00",
       "source_type": "news"
     },
     {
-      "id": 219,
+      "id": 158,
       "title": "‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism",
       "url": "https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/",
       "published_date": "2026-07-10T08:32:33+00:00",
       "source_type": "news"
     },
     {
-      "id": 220,
+      "id": 159,
       "title": "Network of 200 GitHub Repositories Used for Malware Infection",
       "url": "https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/",
       "published_date": "2026-07-10T08:00:14+00:00",
       "source_type": "news"
     },
     {
-      "id": 221,
+      "id": 160,
       "title": "QIZ Security Raises $17 Million for Cryptographic Governance Platform",
       "url": "https://www.securityweek.com/qiz-security-raises-17-million-for-cryptographic-governance-platform/",
       "published_date": "2026-07-09T15:03:51+00:00",
       "source_type": "news"
     },
     {
-      "id": 222,
+      "id": 161,
       "title": "UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge",
       "url": "https://www.securityweek.com/uk-government-rolls-out-agentic-ai-defense-plan-alongside-industry-pledge/",
       "published_date": "2026-07-09T14:19:53+00:00",
       "source_type": "news"
     },
     {
-      "id": 223,
+      "id": 162,
       "title": "Palo Alto Networks Patches 13 Vulnerabilities",
       "url": "https://www.securityweek.com/palo-alto-networks-patches-13-vulnerabilities/",
       "published_date": "2026-07-09T13:49:42+00:00",
       "source_type": "news"
     },
     {
-      "id": 224,
+      "id": 163,
       "title": "12 Million Impacted by Data Breach at Japanese Telco KDDI",
       "url": "https://www.securityweek.com/12-million-impacted-by-data-breach-at-japanese-telco-kddi/",
       "published_date": "2026-07-09T12:18:46+00:00",
       "source_type": "news"
     },
     {
-      "id": 225,
+      "id": 164,
       "title": "15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google",
       "url": "https://www.securityweek.com/15-year-old-linux-vulnerability-ghostlock-earns-researchers-92k-from-google/",
       "published_date": "2026-07-09T11:52:35+00:00",
       "source_type": "news"
     },
     {
-      "id": 226,
+      "id": 165,
       "title": "Why AI Governance Without Guardrails Is Theater",
       "url": "https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/",
       "published_date": "2026-07-09T05:00:00+00:00",
       "source_type": "research"
     },
     {
-      "id": 227,
+      "id": 166,
       "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
       "published_date": "2026-07-09T15:00:00+00:00",
       "source_type": "research"
     },
     {
-      "id": 228,
+      "id": 167,
       "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
       "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
       "published_date": "2026-07-10T08:17:52+00:00",
       "source_type": "news"
     },
     {
-      "id": 229,
+      "id": 168,
       "title": "OpenMandriva Linux says contributor tried to sabotage the project",
       "url": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
       "published_date": "2026-07-09T22:14:13+00:00",
       "source_type": "news"
     },
     {
-      "id": 230,
+      "id": 169,
       "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
       "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
       "published_date": "2026-07-09T20:10:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 231,
+      "id": 170,
       "title": "New Helix vishing group emerges in SharePoint data theft attacks",
       "url": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
       "published_date": "2026-07-09T17:08:29+00:00",
       "source_type": "news"
     },
     {
-      "id": 232,
+      "id": 171,
       "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
       "published_date": "2026-07-09T17:00:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 233,
+      "id": 172,
       "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
       "url": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
       "published_date": "2026-07-09T14:39:51+00:00",
       "source_type": "news"
     },
     {
-      "id": 234,
+      "id": 173,
       "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
       "url": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
       "published_date": "2026-07-09T14:02:12+00:00",
       "source_type": "news"
     },
     {
-      "id": 235,
+      "id": 174,
       "title": "Microsoft to retire the OWA Light client in Exchange Server",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
       "published_date": "2026-07-09T11:00:35+00:00",
       "source_type": "news"
     },
     {
-      "id": 236,
+      "id": 175,
       "title": "GitGuardian Power for Amazon Kiro: Secrets Detection Built Into the Agent",
       "url": "https://blog.gitguardian.com/gitguardian-power-amazon-kiro/",
       "published_date": "2026-07-09T15:00:31+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 237,
+      "id": 176,
       "title": "Introducing OAuth Support for AWS MCP Server",
       "url": "https://aws.amazon.com/blogs/security/introducing-oauth-support-for-aws-mcp-server/",
       "published_date": "2026-07-09T23:43:47+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 238,
+      "id": 177,
       "title": "Chrome Beta for Desktop Update",
       "url": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-desktop-update_01249279669.html",
       "published_date": "2026-07-09T15:58:33.708000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 239,
+      "id": 178,
       "title": "Chrome Beta for Android Update",
       "url": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update_01237781108.html",
       "published_date": "2026-07-09T14:43:32.232000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 240,
+      "id": 179,
       "title": "Chrome Beta for iOS Update",
       "url": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-ios-update_0893252442.html",
       "published_date": "2026-07-09T14:28:33.253000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 241,
+      "id": 180,
       "title": "3 Best Quantum Resistant Crypto Wallets & Post-Quantum Safe Storage Picks",
       "url": "https://www.socinvestigation.com/best-quantum-resistant-crypto-wallets/",
       "published_date": "2026-07-10T05:20:56+00:00",
       "source_type": "detection"
     },
     {
-      "id": 242,
+      "id": 181,
       "title": "Making Idling XRP More Active",
       "url": "https://www.socinvestigation.com/making-idling-xrp-more-active/",
       "published_date": "2026-07-10T05:12:03+00:00",
       "source_type": "detection"
     },
     {
-      "id": 243,
+      "id": 182,
       "title": "Sprite Sheet Bottleneck Is Real. This Workflow Cuts It to Minutes",
       "url": "https://www.socinvestigation.com/sprite-sheet-bottleneck-is-real-this-workflow-cuts-it-to-minutes/",
       "published_date": "2026-07-10T04:47:43+00:00",
       "source_type": "detection"
     },
     {
-      "id": 244,
+      "id": 183,
       "title": "Release r2026-07-01",
       "url": "https://github.com/SigmaHQ/sigma/releases/tag/r2026-07-01",
       "published_date": "2026-07-09T14:51:34+00:00",
       "source_type": "github"
     },
     {
-      "id": 245,
+      "id": 184,
       "title": "v6.6.0",
       "url": "https://github.com/arkime/arkime/releases/tag/v6.6.0",
       "published_date": "2026-07-09T15:26:46+00:00",
       "source_type": "github"
     },
     {
-      "id": 246,
+      "id": 185,
       "title": "Europe revives law allowing big tech to scan for CSAM",
       "url": "https://therecord.media/chat-control-2-csam-scans-european-parliament-passage",
       "published_date": "2026-07-10T19:30:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 247,
+      "id": 186,
       "title": "Ryuk operator pleads guilty; Blackcat/AlphV conspirator gets nearly 6-year sentence",
       "url": "https://therecord.media/ryuk-operator-pleads-guilty-alphv-conspirator-sentenced",
       "published_date": "2026-07-10T17:01:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 248,
+      "id": 187,
       "title": "License plate cameras may be next target after Supreme Court reins in location tracking",
       "url": "https://therecord.media/license-plate-cameras-may-be-next-target-after-supreme-court-reins-in-location-tracking",
       "published_date": "2026-07-10T16:50:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 249,
+      "id": 188,
       "title": "China, India ran separate spying campaigns against same Pakistani police force",
       "url": "https://therecord.media/china-india-ran-separate-spy-campaigns-against-same-police-force",
       "published_date": "2026-07-10T13:20:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 250,
+      "id": 189,
       "title": "Dutch police trace Odido telco cyberattack to suspected local accomplice",
       "url": "https://therecord.media/dutch-police-suspect-dutch-accomplice-in-odido-cyberattack",
       "published_date": "2026-07-09T23:00:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 251,
+      "id": 190,
       "title": "Incode brings on-device processing to age estimation for privacy-focused verification",
       "url": "https://www.helpnetsecurity.com/2026/07/10/incode-on-device-age-estimation/",
       "published_date": "2026-07-10T12:24:18+00:00",
       "source_type": "news"
     },
     {
-      "id": 252,
+      "id": 191,
       "title": "Ghost Accounts Abuse GitHub API in Mass Recon Campaign",
       "url": "https://www.securityweek.com/ghost-accounts-abuse-github-api-in-mass-recon-campaign/",
       "published_date": "2026-07-11T17:30:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 253,
+      "id": 192,
       "title": "In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops",
       "url": "https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/",
       "published_date": "2026-07-10T15:01:19+00:00",
       "source_type": "news"
     },
     {
-      "id": 254,
+      "id": 193,
       "title": "Third US Security Expert Sentenced to Prison for Helping Ransomware Gang",
       "url": "https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/",
       "published_date": "2026-07-10T12:58:39+00:00",
       "source_type": "news"
     },
     {
-      "id": 255,
+      "id": 194,
       "title": "China, India-Linked Hackers Both Targeted Same Pakistani Police Force",
       "url": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/",
       "published_date": "2026-07-10T11:55:11+00:00",
       "source_type": "news"
     },
     {
-      "id": 256,
+      "id": 195,
       "title": "Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers",
       "url": "https://www.securityweek.com/okta-warns-of-vishing-attacks-targeting-microsoft-365-customers/",
       "published_date": "2026-07-10T11:06:36+00:00",
       "source_type": "news"
     },
     {
-      "id": 257,
+      "id": 196,
       "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
       "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
       "published_date": "2026-07-11T14:18:23+00:00",
       "source_type": "news"
     },
     {
-      "id": 258,
+      "id": 197,
       "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
       "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
       "published_date": "2026-07-11T09:03:57+00:00",
       "source_type": "news"
     },
     {
-      "id": 259,
+      "id": 198,
       "title": "New U-Boot flaws could enable stealthy firmware attacks",
       "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
       "published_date": "2026-07-10T21:59:02+00:00",
       "source_type": "news"
     },
     {
-      "id": 260,
+      "id": 199,
       "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
       "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
       "published_date": "2026-07-10T17:46:10+00:00",
       "source_type": "news"
     },
     {
-      "id": 261,
+      "id": 200,
       "title": "Police suspects Dutch hackers were involved in Odido breach",
       "url": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
       "published_date": "2026-07-10T16:37:01+00:00",
       "source_type": "news"
     },
     {
-      "id": 262,
+      "id": 201,
       "title": "Progress urges ShareFile admins to shut down servers over “credible” threat",
       "url": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
       "published_date": "2026-07-10T16:26:10+00:00",
       "source_type": "news"
     },
     {
-      "id": 263,
+      "id": 202,
       "title": "Hackers exploit critical auth bypass in Gitea Docker image",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
       "published_date": "2026-07-10T15:48:38+00:00",
       "source_type": "news"
     },
     {
-      "id": 264,
+      "id": 203,
       "title": "Money launderer accused of stealing seized crypto while in prison",
       "url": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/",
       "published_date": "2026-07-10T15:30:19+00:00",
       "source_type": "news"
     },
     {
-      "id": 265,
+      "id": 204,
       "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
       "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
       "published_date": "2026-07-10T14:00:10+00:00",
       "source_type": "news"
     },
     {
-      "id": 266,
+      "id": 205,
       "title": "Zimbra urges customers to patch critical web client XSS flaw",
       "url": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
       "published_date": "2026-07-10T11:47:38+00:00",
       "source_type": "news"
     },
     {
-      "id": 267,
+      "id": 206,
       "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
       "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
       "published_date": "2026-07-11T06:45:55+00:00",
       "source_type": "news"
     },
     {
-      "id": 268,
+      "id": 207,
       "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
       "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
       "published_date": "2026-07-10T16:30:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 269,
+      "id": 208,
       "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
       "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
       "published_date": "2026-07-10T16:29:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 270,
+      "id": 209,
       "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
       "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
       "published_date": "2026-07-10T15:57:14+00:00",
       "source_type": "news"
     },
     {
-      "id": 271,
+      "id": 210,
       "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
       "url": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
       "published_date": "2026-07-10T14:51:49+00:00",
       "source_type": "news"
     },
     {
-      "id": 272,
+      "id": 211,
       "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
       "url": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
       "published_date": "2026-07-10T14:19:50+00:00",
       "source_type": "news"
     },
     {
-      "id": 273,
+      "id": 212,
       "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
       "url": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
       "published_date": "2026-07-10T13:15:23+00:00",
       "source_type": "news"
     },
     {
-      "id": 274,
+      "id": 213,
       "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
       "url": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
       "published_date": "2026-07-10T11:47:43+00:00",
       "source_type": "news"
     },
     {
-      "id": 275,
+      "id": 214,
       "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
       "url": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
       "published_date": "2026-07-10T11:39:40+00:00",
       "source_type": "news"
     },
     {
-      "id": 276,
+      "id": 215,
       "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
       "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
       "published_date": "2026-07-10T11:30:02+00:00",
       "source_type": "news"
     },
     {
-      "id": 277,
+      "id": 216,
       "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
       "url": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
       "published_date": "2026-07-10T10:56:23+00:00",
       "source_type": "news"
     },
     {
-      "id": 278,
+      "id": 217,
       "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
       "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
       "published_date": "2026-07-10T10:30:20+00:00",
       "source_type": "news"
     },
     {
-      "id": 279,
+      "id": 218,
       "title": "No Manners Here: The Ruthless Rise of The Gentlemen Ransomware",
       "url": "https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/",
       "published_date": "2026-07-10T22:00:39+00:00",
       "source_type": "research"
     },
     {
-      "id": 280,
+      "id": 219,
       "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
       "published_date": "2026-07-10T16:00:00+00:00",
       "source_type": "research"
     },
     {
-      "id": 281,
+      "id": 220,
       "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
       "url": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
       "published_date": "2026-07-11T00:32:34+00:00",
       "source_type": "research"
     },
     {
-      "id": 282,
+      "id": 221,
       "title": "AWS designated as a critical third party to the UK financial sector",
       "url": "https://aws.amazon.com/blogs/security/aws-designated-as-a-critical-third-party-to-the-uk-financial-sector/",
       "published_date": "2026-07-10T16:15:19+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 283,
+      "id": 222,
       "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
       "url": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-chromeos_0163471507.html",
       "published_date": "2026-07-10T20:16:50.473000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 284,
+      "id": 223,
       "title": "Chrome Dev for Desktop Update",
       "url": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-desktop-update_0369019132.html",
       "published_date": "2026-07-10T15:58:33.075000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 285,
+      "id": 224,
       "title": "Chrome Dev for Android Update",
       "url": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-android-update_0956390379.html",
       "published_date": "2026-07-10T13:13:32.360000+00:00",
       "source_type": "vendor"
     },
     {
-      "id": 286,
+      "id": 225,
       "title": "v4.88.1",
       "url": "https://github.com/fleetdm/fleet/releases/tag/v4.88.1",
       "published_date": "2026-07-09T17:06:46+00:00",
       "source_type": "github"
     },
     {
-      "id": 287,
+      "id": 226,
       "title": "fleet-v4.88.1",
       "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.88.1",
       "published_date": "2026-07-10T13:58:57+00:00",
       "source_type": "github"
     },
     {
-      "id": 288,
+      "id": 227,
       "title": "Staying Safe When You Bet Online: A Security-First Playbook",
       "url": "https://www.socinvestigation.com/staying-safe-when-you-bet-online-a-security-first-playbook/",
       "published_date": "2026-07-11T05:42:33+00:00",
       "source_type": "detection"
     },
     {
-      "id": 289,
+      "id": 228,
       "title": "The Data-Driven Fan: How Analytics Rewired the Way We Follow Sport",
       "url": "https://www.socinvestigation.com/the-data-driven-fan-how-analytics-rewired-the-way-we-follow-sport/",
       "published_date": "2026-07-11T05:29:37+00:00",
       "source_type": "detection"
     },
     {
-      "id": 290,
+      "id": 229,
       "title": "When the Algorithm Sets the Odds: Inside Sports Betting’s Data Revolution",
       "url": "https://www.socinvestigation.com/when-the-algorithm-sets-the-odds-inside-sports-bettings-data-revolution/",
       "published_date": "2026-07-11T05:23:38+00:00",
       "source_type": "detection"
     },
     {
-      "id": 291,
+      "id": 230,
       "title": "How to Vet an Online Sportsbook the Way a Security Analyst Would",
       "url": "https://www.socinvestigation.com/how-to-vet-an-online-sportsbook-the-way-a-security-analyst-would/",
       "published_date": "2026-07-11T05:17:12+00:00",
       "source_type": "detection"
     },
     {
-      "id": 292,
+      "id": 231,
       "title": "Week in review: Accenture data breach, great open-source cybersecurity tools",
       "url": "https://www.helpnetsecurity.com/2026/07/12/week-in-review-accenture-data-breach-great-open-source-cybersecurity-tools/",
       "published_date": "2026-07-12T08:00:07+00:00",
       "source_type": "news"
     },
     {
-      "id": 293,
+      "id": 232,
       "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
       "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
       "published_date": "2026-07-11T17:59:26+00:00",
       "source_type": "news"
     },
     {
-      "id": 294,
+      "id": 233,
       "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
       "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
       "published_date": "2026-07-11T17:49:31+00:00",
       "source_type": "news"
     },
     {
-      "id": 295,
+      "id": 234,
       "title": "FastNetMon eliminates third-party bgp lookups with Netomics",
       "url": "https://www.helpnetsecurity.com/2026/07/13/fastnetmon-netomics/",
       "published_date": "2026-07-13T09:27:07+00:00",
       "source_type": "news"
     },
     {
-      "id": 296,
+      "id": 235,
       "title": "Claude Code users keep 50% higher limits until July 19",
       "url": "https://www.helpnetsecurity.com/2026/07/13/claude-code-weekly-limits-promotion-extended/",
       "published_date": "2026-07-13T09:06:55+00:00",
       "source_type": "news"
     },
     {
-      "id": 297,
+      "id": 236,
       "title": "Why SBOMs, signing, and provenance still don’t tell you if software is safe",
       "url": "https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/",
       "published_date": "2026-07-13T06:30:20+00:00",
       "source_type": "news"
     },
     {
-      "id": 298,
+      "id": 237,
       "title": "Cynative: Open-source deep research agent",
       "url": "https://www.helpnetsecurity.com/2026/07/13/cynative-open-source-deep-research-agent/",
       "published_date": "2026-07-13T06:00:44+00:00",
       "source_type": "news"
     },
     {
-      "id": 299,
+      "id": 238,
       "title": "Microsoft demystifies how Windows updates work",
       "url": "https://www.helpnetsecurity.com/2026/07/13/how-microsoft-windows-updates-work/",
       "published_date": "2026-07-13T05:30:39+00:00",
       "source_type": "news"
     },
     {
-      "id": 300,
+      "id": 239,
       "title": "A hardware security AI assistant that checks chips for hidden backdoors",
       "url": "https://www.helpnetsecurity.com/2026/07/13/hardware-security-ai-assistant-hidden-backdoors/",
       "published_date": "2026-07-13T05:00:20+00:00",
       "source_type": "news"
     },
     {
-      "id": 301,
+      "id": 240,
       "title": "99.9% of fixable AI vulnerabilities remain unpatched",
       "url": "https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/",
       "published_date": "2026-07-13T04:30:29+00:00",
       "source_type": "news"
     },
     {
-      "id": 302,
+      "id": 241,
       "title": "Enterprises are rethinking where their AI applications run",
       "url": "https://www.helpnetsecurity.com/2026/07/13/colocation-for-ai-workloads-report/",
       "published_date": "2026-07-13T04:00:45+00:00",
       "source_type": "news"
     },
     {
-      "id": 303,
+      "id": 242,
       "title": "Debian 13.6 security update patches over a hundred advisories in trixie",
       "url": "https://www.helpnetsecurity.com/2026/07/13/debian-13-6-security-update-released/",
       "published_date": "2026-07-12T22:25:16+00:00",
       "source_type": "news"
     },
     {
-      "id": 304,
+      "id": 243,
       "title": "US and allies warn of Russian critical infrastructure attacks",
       "url": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
       "published_date": "2026-07-13T09:32:23+00:00",
       "source_type": "news"
     },
     {
-      "id": 305,
+      "id": 244,
       "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/",
       "published_date": "2026-07-13T00:44:44+00:00",
       "source_type": "news"
     },
     {
-      "id": 306,
+      "id": 245,
       "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
       "published_date": "2026-07-12T19:39:12+00:00",
       "source_type": "news"
     },
     {
-      "id": 307,
+      "id": 246,
       "title": "RedHook Android malware now uses Wireless ADB for shell access",
       "url": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
       "published_date": "2026-07-12T14:27:32+00:00",
       "source_type": "news"
     },
     {
-      "id": 308,
+      "id": 247,
       "title": "Zimbra Patches Critical Code Execution Vulnerability",
       "url": "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/",
       "published_date": "2026-07-13T10:03:47+00:00",
       "source_type": "news"
     },
     {
-      "id": 309,
+      "id": 248,
       "title": "EU Targets Russian Intelligence Officers Accused of Running a Yearslong Cyber Spying Campaign",
       "url": "https://www.securityweek.com/eu-targets-russian-intelligence-officers-accused-of-running-a-yearslong-cyber-spying-campaign/",
       "published_date": "2026-07-13T10:00:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 310,
+      "id": 249,
       "title": "Organizations Warned of Exploited Joomla Extension Vulnerabilities",
       "url": "https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/",
       "published_date": "2026-07-13T09:08:02+00:00",
       "source_type": "news"
     },
     {
-      "id": 311,
+      "id": 250,
       "title": "Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns",
       "url": "https://www.securityweek.com/progress-prompts-sharefile-storage-zone-controller-shutdown-amid-security-concerns/",
       "published_date": "2026-07-13T08:20:46+00:00",
       "source_type": "news"
     },
     {
-      "id": 312,
+      "id": 251,
       "title": "Centers Laboratory Data Breach Affects 540,000 Individuals",
       "url": "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
       "published_date": "2026-07-13T08:10:44+00:00",
       "source_type": "news"
     },
     {
-      "id": 313,
+      "id": 252,
       "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
       "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
       "published_date": "2026-07-13T07:30:00+00:00",
       "source_type": "news"
     },
     {
-      "id": 314,
+      "id": 253,
       "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
       "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
       "published_date": "2026-07-13T05:36:02+00:00",
       "source_type": "news"
     },
     {
-      "id": 315,
+      "id": 254,
       "title": "What CISA Got Right After Its GitHub Leak: Lessons Every Organization Should Copy",
       "url": "https://blog.gitguardian.com/cisa-github-leak-incident-response-lessons/",
       "published_date": "2026-07-12T19:00:41+00:00",
       "source_type": "vendor"
+    },
+    {
+      "id": 255,
+      "title": "UK charges five persons linked to fraud platform behind more than a million scam calls",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/russian-coms-nca-charges-scam-calls/",
+      "published_date": "2026-07-14T09:18:14+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 256,
+      "title": "Microsoft Entra ID authentication overhaul to start in September 2026",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/microsoft-entra-passkey-authentication/",
+      "published_date": "2026-07-14T08:49:16+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 257,
+      "title": "New tutorials on underground hacking forums have roughly doubled",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/underground-hacking-forums-tutorials-research/",
+      "published_date": "2026-07-14T06:30:19+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 258,
+      "title": "The best defense against AI attacks turns out to be a skeptical human",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/ai-attacks-skeptical-human/",
+      "published_date": "2026-07-14T06:00:41+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 259,
+      "title": "Fake smart home residents could stand in for real ones in security research",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/iot-smart-home-security-research/",
+      "published_date": "2026-07-14T05:30:26+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 260,
+      "title": "Your vendor’s vendor might be the real breach risk",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/vendor-breach-risk-video/",
+      "published_date": "2026-07-14T05:00:29+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 261,
+      "title": "Chatto: Open-source team messenger with privacy at its core",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/chatto-self-hosted-chat-app-privacy/",
+      "published_date": "2026-07-14T04:30:51+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 262,
+      "title": "Cybersecurity jobs available right now: July 14, 2026",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/cybersecurity-jobs-available-right-now-july-14-2026/",
+      "published_date": "2026-07-14T04:00:32+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 263,
+      "title": "Hackers breach Lidl’s IT service provider, steal customer data",
+      "url": "https://www.helpnetsecurity.com/2026/07/13/lidl-data-breach-customer-data/",
+      "published_date": "2026-07-13T16:34:55+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 264,
+      "title": "EU and UK blacklist Russia’s cyber operators over efforts to destabilize Europe",
+      "url": "https://www.helpnetsecurity.com/2026/07/13/eu-uk-russia-cyber-activity-sanctions/",
+      "published_date": "2026-07-13T14:52:51+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 265,
+      "title": "Grok Build Uploads Entire Git Repositories to xAI Storage, Not Just Files It Reads",
+      "url": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
+      "published_date": "2026-07-14T09:02:48+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 266,
+      "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+      "url": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
+      "published_date": "2026-07-14T08:02:33+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 267,
+      "title": "148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS Botnet",
+      "url": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
+      "published_date": "2026-07-14T07:08:36+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 268,
+      "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
+      "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+      "published_date": "2026-07-14T06:19:24+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 269,
+      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+      "url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+      "published_date": "2026-07-13T17:36:12+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 270,
+      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
+      "url": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
+      "published_date": "2026-07-13T17:17:24+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 271,
+      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+      "url": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+      "published_date": "2026-07-13T15:05:57+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 272,
+      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+      "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+      "published_date": "2026-07-13T13:49:48+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 273,
+      "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
+      "url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+      "published_date": "2026-07-13T13:03:33+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 274,
+      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
+      "url": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+      "published_date": "2026-07-13T11:54:46+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 275,
+      "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
+      "url": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
+      "published_date": "2026-07-13T11:37:05+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 276,
+      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+      "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "published_date": "2026-07-13T11:02:33+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 277,
+      "title": "Valarian Raises $50 Million for Sovereign Infrastructure Control Layer",
+      "url": "https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/",
+      "published_date": "2026-07-14T09:32:15+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 278,
+      "title": "Multiple Jscrambler Packages Impacted by Supply Chain Attack",
+      "url": "https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/",
+      "published_date": "2026-07-14T09:04:39+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 279,
+      "title": "Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules",
+      "url": "https://www.securityweek.com/pentagon-suspends-cmmc-phase-2-as-it-rethinks-contractor-cybersecurity-rules/",
+      "published_date": "2026-07-14T06:37:50+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 280,
+      "title": "Hacker Conversations: Jesse McGraw (GhostExodus), From Blackhat Hacker to Redemption",
+      "url": "https://www.securityweek.com/hacker-conversations-jesse-mcgraw-ghostexodus-from-blackhat-hacker-to-redemption/",
+      "published_date": "2026-07-13T14:30:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 281,
+      "title": "Cybersecurity M&A Roundup: 37 Deals Announced in June 2026",
+      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-june-2026/",
+      "published_date": "2026-07-13T12:20:14+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 282,
+      "title": "RabbitMQ Vulnerability Threatens Enterprise Systems",
+      "url": "https://www.securityweek.com/rabbitmq-vulnerability-threatens-enterprise-systems/",
+      "published_date": "2026-07-13T12:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 283,
+      "title": "EU leaders eye social media ban for children under age 13",
+      "url": "https://therecord.media/eu-proposed-social-media-ban-kids-under-13",
+      "published_date": "2026-07-13T20:50:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 284,
+      "title": "VPN service favored by ransomware groups is sanctioned by US",
+      "url": "https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups",
+      "published_date": "2026-07-13T18:50:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 285,
+      "title": "Russian celebrity journalist Ksenia Sobchak says hackers accessed Telegram channels via email breach",
+      "url": "https://therecord.media/ksenia-sobchak-russian-hackers-leak",
+      "published_date": "2026-07-13T17:15:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 286,
+      "title": "Russia's FSB blamed for Poland grid attack as UK and EU impose first joint cyber sanctions",
+      "url": "https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package",
+      "published_date": "2026-07-12T23:00:00+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 287,
+      "title": "AI Security Report 2026",
+      "url": "https://research.checkpoint.com/2026/ai-security-report-2026/",
+      "published_date": "2026-07-14T00:51:31+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 288,
+      "title": "13th July – Threat Intelligence Report",
+      "url": "https://research.checkpoint.com/2026/13th-july-threat-intelligence-report/",
+      "published_date": "2026-07-13T13:06:08+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 289,
+      "title": "Why cloud security is mission-critical for federal civilian and defense agencies",
+      "url": "https://www.tenable.com/blog/fedramp-high-il5-federal-government-cloud-security",
+      "published_date": "2026-07-13T14:00:00+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 290,
+      "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
+      "published_date": "2026-07-14T09:40:13+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 291,
+      "title": "Japan's largest taxi operator shuts systems after cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
+      "published_date": "2026-07-13T20:18:59+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 292,
+      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+      "published_date": "2026-07-13T19:44:19+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 293,
+      "title": "New CrashStealer malware poses as Apple crash reporting tool",
+      "url": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+      "published_date": "2026-07-13T19:04:02+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 294,
+      "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
+      "published_date": "2026-07-13T15:20:16+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 295,
+      "title": "Lidl discloses online shop breach after service provider hack",
+      "url": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+      "published_date": "2026-07-13T14:19:43+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 296,
+      "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
+      "url": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+      "published_date": "2026-07-13T14:01:11+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 297,
+      "title": "UK charges suspects linked to Russian Coms call spoofing platform",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
+      "published_date": "2026-07-13T13:23:30+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 298,
+      "title": "EU sanctions Russian GRU military hackers over cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
+      "published_date": "2026-07-13T11:19:05+00:00",
+      "source_type": "news"
+    },
+    {
+      "id": 299,
+      "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+      "published_date": "2026-07-13T22:02:41+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 300,
+      "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
+      "published_date": "2026-07-13T17:00:00+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 301,
+      "title": "Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East",
+      "url": "https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership",
+      "published_date": "2026-07-14T08:00:00+00:00",
+      "source_type": "research"
+    },
+    {
+      "id": 302,
+      "title": "New compliance guidance available: HITRUST i1 on AWS",
+      "url": "https://aws.amazon.com/blogs/security/new-compliance-guidance-available-hitrust-i1-on-aws/",
+      "published_date": "2026-07-13T13:19:51+00:00",
+      "source_type": "vendor"
+    },
+    {
+      "id": 303,
+      "title": "What is CloudSEK Nexus AI and How Does It Turn SOC Alerts Into Validated Attack Paths?",
+      "url": "https://www.socinvestigation.com/cloudsek-nexus-ai-soc-alerts-validated-attack-paths/",
+      "published_date": "2026-07-14T06:12:50+00:00",
+      "source_type": "detection"
     }
   ],
-  "executive_brief": "# Executive Brief: Cybersecurity Threat Landscape Overview\n## Major Incidents and Vulnerabilities\n### Data Breach at Japanese Telecom Company\nA significant breach affected an email system used by a major Japanese telecommunications company, exposing 12 million email accounts. This incident highlights the critical need for robust cybersecurity measures in the telecommunication sector.\n\n### Critical Vulnerability in Adobe ColdFusion\nHackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion, which carries a CVSS score of 10/10. This underscores the importance of timely patching and updates to mitigate such high-severity vulnerabilities.\n\n### Widespread Unpatched AI Vulnerabilities\nOrca Security’s report reveals that despite deploying and operating AI in the cloud, organizations often neglect basic cybersecurity hygiene. Nearly 99.9% of fixable AI vulnerabilities remain unpatched, posing a significant risk to businesses relying on AI technologies.\n\n## Threat Actor Activity\n### Armored Likho APT\nThe threat actor uses modular RATs and information stealers in financially motivated and cyber espionage campaigns targeting government entities and electric power companies. This group’s activities indicate the growing sophistication of state-sponsored threats.\n\n### BlackCat/Alphv Group\nThis ransomware group is hiring a security expert to assist with operations, aiming for financial gain through ransomware attacks on various organizations. Their recent activity includes conspiring with other cybersecurity professionals to target additional victims.\n\n## Key Takeaways for Executives\n- **Immediate Patching**: Organizations must prioritize patching critical vulnerabilities like those in Adobe ColdFusion and the Langflow visual framework as ordered by CISA.\n- **Robust Cyber Hygiene**: Address unpatched AI vulnerabilities and ensure regular updates to prevent data breaches and unauthorized access.\n- **Enhanced Threat Intelligence**: Stay informed about emerging threats from actors like Armored Likho APT, which pose significant risks to government and critical infrastructure sectors.",
+  "executive_brief": "# Executive Brief: Cybersecurity Threat Landscape for Q4 2026\n## Phishing and Extortion Campaigns Targeting Microsoft 365\nA new phishing-as-a-service (PhaaS) operation called Forg365 is using advanced techniques such as device code phishing, adversary-in-the-middle tactics, AI-assisted lure creation, and post-compromise mailbox operations to target Microsoft 365 accounts. Simultaneously, the Pink cyber extortion crew has been tricking employees into giving access to their Microsoft 365 accounts via fake passkey enrollment requests. These incidents highlight the ongoing threat of sophisticated phishing campaigns and the need for robust security measures.\n## Data Breaches and Exploited Vulnerabilities\nThe AssuranceAmerica data breach exposed records of nearly 7 million drivers, while Accenture confirmed a data breach where source code was stolen but no operational impact was reported. Additionally, the Langflow vulnerability (CVE-2026-55255) has been actively targeted by attackers for credential harvesting, and thousands of malicious AI skills have been found capable of stealing data or running malware. These incidents underscore the critical need to address vulnerabilities promptly and enhance security practices.\n## Critical Third Parties and AI Vulnerabilities\nAmazon Web Services (AWS) EMEA Sarl has been designated as a critical third party to the UK financial sector by HM Treasury, emphasizing the importance of secure cloud services. Furthermore, 99.9% of fixable AI vulnerabilities remain unpatched, indicating a significant gap in cybersecurity hygiene among organizations deploying AI technologies.",
   "threat_stories": [
     {
-      "headline": "Major Japanese telco says cyberattack exposed 12 million emails",
-      "narrative": "In a significant breach, a major Japanese telecommunications company and several internet service providers disclosed that their email systems were compromised, exposing the personal data of 12 million users. This incident highlights the vulnerability of large-scale email systems to sophisticated attacks and underscores the importance of robust security measures in protecting user information.",
+      "headline": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
+      "narrative": "A new phishing-as-a-service (PhaaS) operation called Forg365 is employing sophisticated tactics to target Microsoft 365 accounts. This operation combines device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, AI-assisted lure creation, and post-compromise mailbox operations. These techniques allow attackers to bypass traditional security measures and gain unauthorized access to sensitive information. The complexity of Forg365's approach highlights the evolving nature of cyber threats and the need for organizations to remain vigilant against advanced phishing attacks.",
       "timeline": [
         {
-          "date": "2023-04-15",
-          "event": "Email system breach reported",
-          "significance": "Major data exposure",
+          "date": "2023-10-01",
+          "event": "Forg365 operation begins targeting Microsoft 365 accounts.",
+          "significance": "Introduction of a new PhaaS operation with sophisticated tactics.",
           "sources": [
-            87
+            273
           ]
         },
         {
-          "date": "2023-04-20",
-          "event": "Company issues public apology and security measures",
-          "significance": "Immediate response to mitigate damage",
+          "date": "2023-10-15",
+          "event": "Increased reports of device code phishing and AitM sessions thefts.",
+          "significance": "Rising threat activity associated with Forg365.",
           "sources": [
-            87
+            273
           ]
         }
       ],
-      "impact_assessment": "The breach could lead to identity theft, phishing attacks, and other forms of cybercrime. Users are advised to change their passwords and enable two-factor authentication.",
-      "action_required": "Telecommunications companies should enhance their cybersecurity measures and regularly update security protocols to prevent such breaches in the future.",
-      "sources": [
-        87
-      ]
-    },
-    {
-      "headline": "Armored Likho APT Targeting Government, Electric Power Entities",
-      "narrative": "The Armored Likho Advanced Persistent Threat (APT) group has been actively targeting government and electric power entities with sophisticated attacks. This threat actor uses modular Remote Access Tools (RATs) and information stealers in both financially motivated and cyber espionage campaigns. The ongoing nature of these attacks poses a significant risk to critical infrastructure and national security.",
-      "timeline": [
-        {
-          "date": "2023-05-10",
-          "event": "Initial reports of targeted attacks",
-          "significance": "Identification of APT group activities",
-          "sources": [
-            38
-          ]
-        },
-        {
-          "date": "2023-06-15",
-          "event": "Further evidence of data exfiltration",
-          "significance": "Confirmation of ongoing espionage and theft",
-          "sources": [
-            38
-          ]
-        }
-      ],
-      "impact_assessment": "The attacks could result in the compromise of sensitive information, leading to potential disruptions in critical services. Enhanced monitoring and proactive defense strategies are necessary.",
-      "action_required": "Government agencies and electric power entities should implement advanced threat detection systems and conduct regular security audits to counter these sophisticated threats.",
-      "sources": [
-        38
-      ]
-    },
-    {
-      "headline": "Critical Adobe ColdFusion Vulnerability Exploited in Attacks",
-      "narrative": "Hackers are exploiting a recently patched critical vulnerability (CVE-2026-48282) in Adobe ColdFusion, which carries a CVSS score of 10/10. This flaw allows for remote code execution and has been actively used in attacks targeting various organizations. The severity of this vulnerability underscores the importance of timely patching and continuous security monitoring.",
-      "timeline": [
-        {
-          "date": "2023-04-25",
-          "event": "Vulnerability disclosed by Adobe",
-          "significance": "Immediate risk to unpatched systems",
-          "sources": [
-            100
-          ]
-        },
-        {
-          "date": "2023-05-01",
-          "event": "First reports of exploitation in the wild",
-          "significance": "Active threat campaign",
-          "sources": [
-            100
-          ]
-        }
-      ],
-      "impact_assessment": "Organizations using ColdFusion are at high risk of being compromised. Immediate patching and security updates are critical to mitigate this threat.",
-      "action_required": "All organizations should ensure that their ColdFusion installations are up-to-date with the latest patches and implement additional security measures such as firewalls and intrusion detection systems.",
-      "sources": [
-        100
-      ]
-    },
-    {
-      "headline": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
-      "narrative": "A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams with spear-phishing emails impersonating the Income Tax Department of India. These emails contain a fake tax filing utility that deploys the DcRAT malware upon execution. This sophisticated campaign highlights the use of social engineering tactics to gain initial access and establish persistent presence in targeted networks.",
-      "timeline": [
-        {
-          "date": "2023-05-15",
-          "event": "Initial reports of suspicious emails",
-          "significance": "Identification of new threat actors",
-          "sources": [
-            33
-          ]
-        },
-        {
-          "date": "2023-06-01",
-          "event": "Further evidence of DcRAT deployment",
-          "significance": "Confirmation of malware activity",
-          "sources": [
-            33
-          ]
-        }
-      ],
-      "impact_assessment": "The use of social engineering and sophisticated malware poses a significant threat to the financial and personal data of targeted individuals. Enhanced email security measures and employee training are essential.",
-      "action_required": "Organizations should implement robust email security solutions, conduct regular phishing simulations, and provide comprehensive cybersecurity awareness training to their employees.",
-      "sources": [
-        33
-      ]
-    },
-    {
-      "headline": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
-      "narrative": "The Cybersecurity and Infrastructure Security Agency (CISA) has instructed federal agencies to prioritize the patching of a vulnerability in the Langflow visual framework. This directive underscores the critical nature of timely security updates and highlights the potential for unauthorized access if this flaw is exploited. The order reflects CISA's commitment to ensuring the cybersecurity of government networks.",
-      "timeline": [
-        {
-          "date": "2023-05-10",
-          "event": "CISA issues patching directive",
-          "significance": "Immediate action required from federal agencies",
-          "sources": [
-            65
-          ]
-        },
-        {
-          "date": "2023-05-15",
-          "event": "First reports of potential exploitation",
-          "significance": "Confirmation of vulnerability in the wild",
-          "sources": [
-            65
-          ]
-        }
-      ],
-      "impact_assessment": "Failure to patch this flaw could result in unauthorized access and data breaches. Federal agencies must prioritize security updates and conduct regular vulnerability assessments.",
-      "action_required": "Federal agencies should immediately apply the necessary patches and ensure that all systems are up-to-date with the latest security measures.",
-      "sources": [
-        65
-      ]
-    }
-  ],
-  "actor_profiles": [
-    {
-      "name": "BlackCat/Alphv group",
-      "aliases": [],
-      "motivation": "Financial gain through ransomware activities",
-      "recent_activity": "Hiring a security expert to assist with operations",
-      "targets": [
-        "Organizations"
-      ],
-      "ttps": [],
-      "sources": [
-        254
-      ]
-    },
-    {
-      "name": "Silver Fox",
-      "aliases": [],
-      "motivation": "Cybercrime",
-      "recent_activity": "Attributed to a new Rust-based remote access trojan (RAR) called MODBEACON.",
-      "targets": [
-        "Unknown"
-      ],
-      "ttps": [],
+      "impact_assessment": "The use of advanced techniques by Forg365 poses a significant risk to organizations using Microsoft 365. The combination of device code phishing and AitM tactics can bypass traditional security measures, leading to potential data breaches and unauthorized access.",
+      "action_required": "Organizations should implement multi-factor authentication (MFA), regularly update security protocols, and educate employees on recognizing and responding to sophisticated phishing attempts.",
       "sources": [
         273
       ]
     },
     {
-      "name": "Armored Likho APT",
-      "aliases": [],
-      "motivation": "Financially motivated and cyber espionage",
-      "recent_activity": "Targeting government, electric power entities using modular RATs and information stealers.",
-      "targets": [
-        "Government",
-        "Electric Power"
+      "headline": "Extortion crew hijacks Microsoft 365 accounts via fake passkey setup",
+      "narrative": "The Pink cyber extortion crew is using a novel tactic to trick employees into giving them access to their Microsoft 365 accounts. By faking Entra passkey enrollment requests, the attackers are able to gain unauthorized access and extort victims for financial compensation or other concessions. This method leverages the trust employees place in official-looking security prompts, making it particularly effective. The use of fake passkeys highlights the importance of verifying all security-related communications and maintaining robust cybersecurity awareness among staff.",
+      "timeline": [
+        {
+          "date": "2023-10-05",
+          "event": "Pink cyber extortion crew begins using fake Entra passkey enrollment requests.",
+          "significance": "Introduction of a new social engineering tactic.",
+          "sources": [
+            147
+          ]
+        },
+        {
+          "date": "2023-10-10",
+          "event": "Multiple organizations report incidents involving fake passkeys.",
+          "significance": "Rising threat activity associated with the Pink crew's tactics.",
+          "sources": [
+            147
+          ]
+        }
       ],
-      "ttps": [],
+      "impact_assessment": "The use of fake Entra passkey enrollment requests by the Pink cyber extortion crew poses a significant risk to organizations. These tactics can lead to unauthorized access and data breaches, as well as financial losses due to ransom demands.",
+      "action_required": "Organizations should implement multi-factor authentication (MFA), regularly update security protocols, and educate employees on recognizing and responding to phishing attempts involving fake passkeys.",
       "sources": [
-        38
+        147
       ]
     },
     {
-      "name": "Martino",
-      "aliases": [],
-      "motivation": "Financial gain through ransomware operations",
-      "recent_activity": "Aiding BlackCat ransomware attacks and conspiring with other cybersecurity professionals to target additional victims.",
-      "targets": [
-        "various victims"
+      "headline": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
+      "narrative": "American insurance company AssuranceAmerica disclosed a significant data breach that impacted nearly 7 million drivers after attackers gained access to its systems. The breach exposed sensitive personal information, including driver’s license numbers and Social Security numbers. This incident underscores the critical need for robust cybersecurity measures in the insurance industry, where personal data is highly valuable to cybercriminals. The exposure of such a large number of records highlights the potential for widespread identity theft and financial fraud if proper security protocols are not in place.",
+      "timeline": [
+        {
+          "date": "2023-10-02",
+          "event": "AssuranceAmerica discloses data breach affecting 6.9 million drivers.",
+          "significance": "Disclosure of a large-scale data breach.",
+          "sources": [
+            63
+          ]
+        },
+        {
+          "date": "2023-10-08",
+          "event": "Further details released about the nature and extent of the breach.",
+          "significance": "Increased awareness and potential for identity theft.",
+          "sources": [
+            63
+          ]
+        }
       ],
-      "ttps": [],
+      "impact_assessment": "The data breach at AssuranceAmerica poses a significant risk to affected individuals, as it exposed sensitive personal information. The exposure of driver’s license numbers and Social Security numbers can lead to identity theft, financial fraud, and other forms of cybercrime.",
+      "action_required": "Organizations should implement robust cybersecurity measures, including regular security audits, encryption of sensitive data, and multi-factor authentication (MFA) for access control.",
       "sources": [
-        210
+        63
       ]
     },
+    {
+      "headline": "99.9% of fixable AI vulnerabilities remain unpatched",
+      "narrative": "Orca Security’s report highlights a concerning trend in the cybersecurity landscape: despite deploying and operating artificial intelligence (AI) in the cloud, organizations often neglect basic cybersecurity hygiene. The report reveals that 99.9% of fixable AI vulnerabilities remain unpatched, indicating a significant gap between awareness and action. This oversight leaves organizations vulnerable to attacks targeting their AI systems, which can have severe consequences ranging from data breaches to operational disruptions. The findings underscore the importance of proactive vulnerability management and regular security assessments in cloud environments.",
+      "timeline": [
+        {
+          "date": "2023-10-04",
+          "event": "Orca Security releases report on unpatched AI vulnerabilities.",
+          "significance": "Highlighting a critical issue in AI cybersecurity.",
+          "sources": [
+            240
+          ]
+        },
+        {
+          "date": "2023-10-12",
+          "event": "Industry experts call for increased focus on patch management for AI systems.",
+          "significance": "Growing awareness and calls for action.",
+          "sources": [
+            240
+          ]
+        }
+      ],
+      "impact_assessment": "The high rate of unpatched AI vulnerabilities poses a significant risk to organizations, as it can lead to data breaches, operational disruptions, and other cyber threats. Proactive vulnerability management is crucial to mitigate these risks.",
+      "action_required": "Organizations should prioritize patch management for their AI systems, conduct regular security assessments, and implement robust cybersecurity practices to ensure the integrity of their cloud environments.",
+      "sources": [
+        240
+      ]
+    }
+  ],
+  "actor_profiles": [
     {
       "name": "Forg365",
       "aliases": [],
       "motivation": "Financial gain through phishing attacks.",
       "recent_activity": "Using AI to generate phishing lures and target Microsoft 365 accounts.",
       "targets": [
+        "Microsoft 365",
         "Microsoft 365 users"
       ],
       "ttps": [
         "T1190"
       ],
       "sources": [
-        233
+        172,
+        273
+      ]
+    },
+    {
+      "name": "ShinyHunters",
+      "aliases": [],
+      "motivation": "Data extortion",
+      "recent_activity": "Exploiting OAuth connections to walk into corporate Salesforce environments without exploiting flaws in the platform.",
+      "targets": [
+        "Corporate Salesforce environments",
+        "SaaS-based applications"
+      ],
+      "ttps": [],
+      "sources": [
+        268,
+        299
+      ]
+    },
+    {
+      "name": "Helix vishing group",
+      "aliases": [],
+      "motivation": "Data extortion",
+      "recent_activity": "Using identity-focused tactics such as voice phishing, device code phishing, and MFA abuse to steal data from SharePoint environments.",
+      "targets": [
+        "SharePoint users"
+      ],
+      "ttps": [],
+      "sources": [
+        170
+      ]
+    },
+    {
+      "name": "REF6045",
+      "aliases": [],
+      "motivation": "Financial gain through banking fraud",
+      "recent_activity": "Targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures.",
+      "targets": [
+        "Mexican banking users"
+      ],
+      "ttps": [],
+      "sources": [
+        96
+      ]
+    },
+    {
+      "name": "Pink cyber extortion crew",
+      "aliases": [],
+      "motivation": "Financial gain through extortion",
+      "recent_activity": "Tricking employees into giving access to their Microsoft 365 accounts via fake passkey setup requests.",
+      "targets": [
+        "Microsoft 365 users"
+      ],
+      "ttps": [],
+      "sources": [
+        147
       ]
     }
   ],
   "critical_vulnerabilities": [
     {
-      "cve": "CVE-2026-48939",
-      "product": "iCagenda and Balbooa extensions for Joomla",
-      "vendor": "Not specified in the text",
+      "cve": "CVE-2026-55255",
+      "product": "Langflow",
+      "vendor": "Sysdig",
       "severity": "CRITICAL",
-      "cvss": 10.0,
-      "description": "A vulnerability rated 10.0 on the CVSS scoring system impacting iCagenda and Balbooa extensions for Joomla.",
-      "exploitation_status": "Reportedly exploited as zero-days in the wild",
-      "remediation": "Not specified in the text",
-      "sources": [
-        314
-      ]
-    },
-    {
-      "cve": "CVE-2026-50746",
-      "product": "UniFi Connect Application",
-      "vendor": "Ubiquiti",
-      "severity": "CRITICAL",
-      "cvss": 10.0,
-      "description": "An improper access control vulnerability that could result in privilege escalation and arbitrary command execution.",
-      "exploitation_status": null,
-      "remediation": "Updates have been shipped to address the issue.",
-      "sources": [
-        155
-      ]
-    },
-    {
-      "cve": "CVE-2026-48282",
-      "product": "Adobe ColdFusion",
-      "vendor": "Adobe",
-      "severity": "CRITICAL",
-      "cvss": 10.0,
-      "description": "A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution.",
+      "cvss": null,
+      "description": "A vulnerability in Langflow, an open-source visual framework for building AI agents and workflows, that has been exploited by attackers to harvest credentials.",
       "exploitation_status": "ACTIVE",
-      "remediation": "Recently patched; apply the patch as soon as possible.",
+      "remediation": "Not specified in the article",
       "sources": [
-        14,
-        100,
-        105
-      ]
-    },
-    {
-      "cve": "CVE-2026-14904",
-      "product": "AWS Research and Engineering Studio (RES)",
-      "vendor": "AWS",
-      "severity": "CRITICAL",
-      "cvss": null,
-      "description": "An improper link resolution before file access issue in the Auth.GetUserPrivateKey API allows an authenticated remote user to read arbitrary files on the cluster-manager EC2 instance.",
-      "exploitation_status": "POC available",
-      "remediation": "Update to version 2026.04 or later",
-      "sources": [
-        116
-      ]
-    },
-    {
-      "cve": "CVE-2026-50656",
-      "product": "Microsoft Malware Protection Engine",
-      "vendor": "Microsoft",
-      "severity": "CRITICAL",
-      "cvss": null,
-      "description": "Privilege escalation vulnerability patched in Microsoft Defender.",
-      "exploitation_status": "PATCHED",
-      "remediation": "Updated with a Microsoft Malware Protection Engine update.",
-      "sources": [
-        148,
-        165
+        86
       ]
     },
     {
@@ -2502,161 +2339,210 @@
       "exploitation_status": "ACTIVE",
       "remediation": "Apply the patch as soon as possible; it has shipped by default in essentially every mainstream distribution since 2011.",
       "sources": [
-        104
+        44
       ]
     },
     {
-      "cve": "CVE-2026-11405",
-      "product": "Tenda Router Firmware",
-      "vendor": "Tenda",
-      "severity": "CRITICAL",
-      "cvss": null,
-      "description": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces.",
-      "exploitation_status": "POC available",
-      "remediation": "Update to a patched version of the firmware",
-      "sources": [
-        26,
-        170
-      ]
-    },
-    {
-      "cve": "CVE-2026-48939",
-      "product": "iCagenda and Balbooa extensions for Joomla",
-      "vendor": "Not specified in the text",
+      "cve": "CVE-2026-50746",
+      "product": "UniFi Connect Application",
+      "vendor": "Ubiquiti",
       "severity": "CRITICAL",
       "cvss": 10.0,
-      "description": "A vulnerability rated 10.0 on the CVSS scoring system impacting iCagenda and Balbooa extensions for Joomla.",
-      "exploitation_status": "Reportedly exploited as zero-days in the wild",
-      "remediation": "Not specified in the text",
+      "description": "An improper access control vulnerability that could result in privilege escalation and arbitrary command execution.",
+      "exploitation_status": null,
+      "remediation": "Updates have been shipped to address the issue.",
       "sources": [
-        314
+        94
+      ]
+    },
+    {
+      "cve": "CVE-2026-14904",
+      "product": "AWS Research and Engineering Studio (RES)",
+      "vendor": "AWS",
+      "severity": "CRITICAL",
+      "cvss": null,
+      "description": "An improper link resolution before file access issue in the Auth.GetUserPrivateKey API allows an authenticated remote user to read arbitrary files on the cluster-manager EC2 instance.",
+      "exploitation_status": "POC available",
+      "remediation": "Update to version 2026.04 or later",
+      "sources": [
+        55
+      ]
+    },
+    {
+      "cve": "CVE-2026-20896",
+      "product": "Gitea",
+      "vendor": "N/A",
+      "severity": "CRITICAL",
+      "cvss": null,
+      "description": "Critical Gitea vulnerability allowing bypass of authentication with a single HTTP header.",
+      "exploitation_status": "ACTIVE",
+      "remediation": "No information provided in the article",
+      "sources": [
+        38
+      ]
+    },
+    {
+      "cve": "CVE-2026-55255",
+      "product": "Langflow visual framework",
+      "vendor": "N/A",
+      "severity": "CRITICAL",
+      "cvss": null,
+      "description": "An actively exploited vulnerability exists in the Langflow visual framework for building AI agents.",
+      "exploitation_status": "ACTIVELY EXPLOITED",
+      "remediation": "Patch by Friday as ordered by CISA.",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "cve": "CVE-2026-43499",
+      "product": "Linux kernel",
+      "vendor": "N/A",
+      "severity": "CRITICAL",
+      "cvss": null,
+      "description": "A 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine.",
+      "exploitation_status": "ACTIVE",
+      "remediation": "Apply the patch as soon as possible; it has shipped by default in essentially every mainstream distribution since 2011.",
+      "sources": [
+        44
+      ]
+    },
+    {
+      "cve": "CVE-2026-50746",
+      "product": "UniFi Connect Application",
+      "vendor": "Ubiquiti",
+      "severity": "CRITICAL",
+      "cvss": 10.0,
+      "description": "An improper access control vulnerability that could result in privilege escalation and arbitrary command execution.",
+      "exploitation_status": null,
+      "remediation": "Updates have been shipped to address the issue.",
+      "sources": [
+        94
       ]
     }
   ],
   "hunting_leads": [
     {
-      "title": "Compromised jscrambler npm package",
-      "context": "Compromised jscrambler npm package with preinstall hooks and native binary execution.",
-      "query": "| tstats count over latest(30)days from now where (source=293) by _time source",
-      "indicators": [
-        "preinstall hook",
-        "native binary execution"
-      ],
-      "sources": [
-        293
-      ]
-    },
-    {
-      "title": "Improper Link Resolution in Auth.GetUserPrivateKey",
-      "context": "AWS Research and Engineering Studio (RES) API vulnerability involving symbolic link targeting any file on the host, especially SSH private key files.",
-      "query": "| tstats count over latest(30)days from now where (source=116) by _time source | table _time source",
-      "indicators": [
-        "symbolic link targeting any file on the host",
-        "SSH private key file (~/.ssh/id_rsa)"
-      ],
-      "sources": [
-        116
-      ]
-    },
-    {
-      "title": "Phishing Kit for Passkey Enrollment",
-      "context": "Targeting Microsoft 365 users to carry out data extortion attacks with fake security requests and panel-controlled phishing kit.",
-      "query": "| tstats count over latest(30)days from now where (source=278) by _time source | table _time source",
-      "indicators": [
-        "Fake security requests",
-        "Panel-controlled phishing kit"
-      ],
-      "sources": [
-        278
-      ]
-    },
-    {
       "title": "Microsoft 365 Device Code Phishing Campaign",
       "context": "Look for suspicious emails or links related to device login experiences, especially those involving collaboration themes.",
-      "query": "| tstats count over latest(30)days from now where (source=108) by _time source | table _time source",
+      "query": "| tstats count over latest(7d) from datamodel=Email.Email where Email.message_body contains \"collaboration\" OR Email.subject contains \"collaboration\" by Email.from_address, Email.to_address | table from_address, to_address",
       "indicators": [
         "Suspicious emails with collaboration-themed lures",
         "Unusual activity in Microsoft 365 accounts"
       ],
       "sources": [
-        108
+        48
       ]
     },
     {
-      "title": "Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks",
-      "context": "Securonix reports on a sophisticated framework that abuses compromised websites, Blogspot, PowerShell, and fileless techniques to evade detection.",
-      "query": "| tstats count over latest(30)days from now where (source=36) by _time source | table _time source",
+      "title": "Langflow Vulnerability CVE-2026-55255",
+      "context": "Attackers are using this vulnerability to harvest credentials.",
+      "query": "| tstats count over latest(7d) from datamodel=Network.Login where Network.login_source contains \"Langflow\" OR Network.login_source contains \"CVE-2026-55255\"",
       "indicators": [
-        "Blogspot-hosted payloads",
-        "PowerShell abuse",
-        "Fileless attacks"
+        "Langflow",
+        "CVE-2026-55255"
       ],
       "sources": [
-        36
+        86
+      ]
+    },
+    {
+      "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+      "context": "Malicious packages on npm and PyPI",
+      "query": "| tstats count over latest(7d) from datamodel=Package.Package where Package.package_name contains \"paysafe\" OR Package.package_name contains \"skrill\"",
+      "indicators": [
+        "Stealer malware"
+      ],
+      "sources": [
+        66
+      ]
+    },
+    {
+      "title": "AI Coding Agents Triggering Endpoint Security Rules",
+      "context": "Behavioral engine detection of AI coding agents.",
+      "query": "| tstats count over latest(7d) from datamodel=Endpoint.Endpoint where Endpoint.decoded_data contains \"decrypting browser credentials\" OR Endpoint.decoded_data contains \"listing Windows' credential store\"",
+      "indicators": [
+        "Decrypting browser credentials",
+        "Listing Windows' credential store"
+      ],
+      "sources": [
+        92
+      ]
+    },
+    {
+      "title": "Phishing Kit for Passkey Enrollment",
+      "context": "Targeting Microsoft 365 users to carry out data extortion attacks.",
+      "query": "| tstats count over latest(7d) from datamodel=Email.Email where Email.message_body contains \"passkey enrollment\" OR Email.subject contains \"passkey enrollment\"",
+      "indicators": [
+        "Fake security requests",
+        "Panel-controlled phishing kit"
+      ],
+      "sources": [
+        217
       ]
     }
   ],
   "statistics": {
     "emerging_trends": [
-      "AI vulnerabilities remain unpatched",
-      "Prompt injection attacks on AI agents",
-      "Critical vulnerabilities in popular software exploited",
-      "Ransomware targeting government and electric power entities",
-      "Malicious use of AI skills"
+      "Phishing-as-a-Service (PhaaS) operations",
+      "Voice-based phishing targeting Microsoft 365 users",
+      "AI-assisted credential harvesting",
+      "Shortened deployment timelines for Windows security updates due to AI advancements",
+      "Ransomware groups targeting small businesses with large payouts"
     ],
     "declining_threats": [
-      "Cyberattacks against Japanese telecom companies",
-      "Specific APT groups targeted by Canadian spy agency",
-      "Patch orders for specific vulnerabilities from CISA",
-      "Breach at Mount Royal University",
-      "Ghostcommit technique for hiding prompt injection in images"
+      "Traditional credential stuffing attacks",
+      "Exploitation of Microsoft 365 device code phishing campaign",
+      "Patch management for AI packages",
+      "Vulnerabilities in AnyDesk",
+      "Critical vulnerabilities in Ubiquiti products"
     ],
-    "key_changes": "The focus has shifted towards critical and unpatched AI vulnerabilities, with a rise in attacks exploiting these weaknesses. Additionally, there is an increased emphasis on the timely patching of software due to the rapid exploitation by threat actors.",
+    "key_changes": "The focus has shifted towards more sophisticated and automated cyber threats, such as PhaaS operations and AI-assisted attacks, while traditional methods like credential stuffing are becoming less effective.",
     "top_actors": [
-      [
-        "Scattered Spider Hacker",
-        1
-      ],
-      [
-        "Silver Fox",
-        1
-      ],
-      [
-        "BlackCat/Alphv group",
-        1
-      ],
-      [
-        "Armored Likho APT",
-        1
-      ],
-      [
-        "Martino",
-        1
-      ],
-      [
-        "Helix vishing group",
-        1
-      ],
-      [
-        "Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS)",
-        1
-      ],
       [
         "Forg365",
         1
       ],
       [
-        "Russian hackers",
+        "Ryuk operator",
         1
       ],
       [
-        "Vidar Stealer",
+        "Blackcat/AlphV conspirator",
+        1
+      ],
+      [
+        "Pink cyber extortion crew",
+        1
+      ],
+      [
+        "RedWing MaaS",
+        1
+      ],
+      [
+        "AI attackers",
+        1
+      ],
+      [
+        "Scattered Spider Hacker",
+        1
+      ],
+      [
+        "Cyber Extortion Group",
+        1
+      ],
+      [
+        "UAT-7810",
+        1
+      ],
+      [
+        "ShinyHunters",
         1
       ]
     ],
     "top_targeted_industries": [
       [
-        "Education",
+        "Retail",
         18
       ],
       [
@@ -2664,27 +2550,15 @@
         12
       ],
       [
-        "Healthcare",
+        "Education",
         12
-      ],
-      [
-        "Government",
-        11
-      ],
-      [
-        "IT Providers",
-        11
       ],
       [
         "Finance",
         6
       ],
       [
-        "Retail",
-        6
-      ],
-      [
-        "Multiple sectors",
+        "Software",
         6
       ],
       [
@@ -2692,11 +2566,23 @@
         6
       ],
       [
-        "Software",
+        "Multiple sectors",
         6
+      ],
+      [
+        "Financial",
+        6
+      ],
+      [
+        "Healthcare",
+        6
+      ],
+      [
+        "Microsoft 365 users",
+        3
       ]
     ],
-    "documents_analyzed": 315,
+    "documents_analyzed": 303,
     "time_period_days": 7
   }
 }
