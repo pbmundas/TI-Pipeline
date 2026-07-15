@@ -1,12 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-gif-functionality-in-the-windows-emoji-panel/": {
-    "enriched_at": "2026-07-01T11:18:28.869452+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html": {
     "enriched_at": "2026-07-02T09:14:14.004898+00:00",
     "incidents": [
@@ -97,140 +89,6 @@
   },
   "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html": {
     "enriched_at": "2026-07-02T09:14:14.004898+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html": {
-    "enriched_at": "2026-07-02T09:16:04.293348+00:00",
-    "incidents": [
-      {
-        "headline": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
-        "summary": "A Brazilian banking trojan called Ousaban targets Windows users in Spain and Portugal through a phishing PDF.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Ousaban",
-        "aliases": [],
-        "motivation": "Financial gain through stealing banking logins",
-        "recent_activity": "Phishing campaign targeting Iberian bank users with fake PDF lures.",
-        "targets": [
-          "Iberian banks"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html": {
-    "enriched_at": "2026-07-02T09:16:04.293348+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html": {
-    "enriched_at": "2026-07-02T09:16:04.293348+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-50548",
-        "product": "Cursor AI code editor",
-        "vendor": "Cato AI Labs",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "A flaw in Cursor could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer.",
-        "exploitation_status": "Not specified",
-        "remediation": "No specific remediation provided; users should update to latest version.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html"
-        ]
-      },
-      {
-        "cve": "CVE-2026-50549",
-        "product": "Cursor AI code editor",
-        "vendor": "Cato AI Labs",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "A flaw in Cursor could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer.",
-        "exploitation_status": "Not specified",
-        "remediation": "No specific remediation provided; users should update to latest version.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "Cursor AI Code Editor Flaws",
-        "context": "Potential for code execution and command injection.",
-        "indicators": [
-          "CVE-2026-50548",
-          "CVE-2026-50549"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html"
-        ]
-      }
-    ],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html": {
-    "enriched_at": "2026-07-02T09:16:04.293348+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-8037",
-        "product": "Progress Kemp LoadMaster",
-        "vendor": "eSentire's Threat Response Unit (TRU)",
-        "severity": "CRITICAL",
-        "cvss": 9.6,
-        "description": "A critical security flaw in Progress Kemp LoadMaster is being actively exploited.",
-        "exploitation_status": "Active exploitation attempts identified.",
-        "remediation": "No specific remediation provided; users should update to latest version.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "Progress Kemp LoadMaster RCE Flaw",
-        "context": "Potential for remote code execution.",
-        "indicators": [
-          "CVE-2026-8037"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html"
-        ]
-      }
-    ],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html": {
-    "enriched_at": "2026-07-02T09:16:04.293348+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html": {
-    "enriched_at": "2026-07-02T09:16:04.293348+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],
@@ -358,40 +216,6 @@
       "Federal, State, Local, Private-Sector"
     ]
   },
-  "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/": {
-    "enriched_at": "2026-07-02T09:17:18.761462+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Federal, State, Local, Private-Sector"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/": {
-    "enriched_at": "2026-07-02T09:17:18.761462+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Oracle E-Business Suite",
-        "vendor": "Oracle",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Over 900 Oracle E-Business Suite (EBS) instances have been found exposed online amid ongoing attacks exploiting a critical security flaw.",
-        "exploitation_status": "ONGOING",
-        "remediation": "Not specified in the article",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Federal, State, Local, Private-Sector"
-    ]
-  },
   "https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/": {
     "enriched_at": "2026-07-02T09:17:18.761462+00:00",
     "incidents": [],
@@ -400,60 +224,6 @@
     "hunting_indicators": [],
     "industries": [
       "Federal, State, Local, Private-Sector"
-    ]
-  },
-  "https://www.securityweek.com/adobe-patches-critical-coldfusion-campaign-classic-vulnerabilities/": {
-    "enriched_at": "2026-07-02T09:18:20.423257+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "ColdFusion, Campaign Classic",
-        "vendor": "Adobe",
-        "severity": "CRITICAL",
-        "cvss": 10.0,
-        "description": "Seven security defects with a maximum severity rating of 10/10 that could lead to arbitrary code execution.",
-        "exploitation_status": null,
-        "remediation": "Patch the affected software.",
-        "source_urls": [
-          "https://www.securityweek.com/adobe-patches-critical-coldfusion-campaign-classic-vulnerabilities/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "insurance",
-      "brewing",
-      "manufacturing",
-      "telecommunications"
-    ]
-  },
-  "https://www.securityweek.com/citrix-patches-netscaler-vulnerabilities-including-new-http-2-bomb-attack/": {
-    "enriched_at": "2026-07-02T09:18:20.423257+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "NetScaler",
-        "vendor": "Citrix",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "Six vulnerabilities, including the HTTP/2 Bomb flaw and a high-severity CitrixBleed-style information disclosure bug.",
-        "exploitation_status": null,
-        "remediation": "Patch the affected software.",
-        "source_urls": [
-          "https://www.securityweek.com/citrix-patches-netscaler-vulnerabilities-including-new-http-2-bomb-attack/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "insurance",
-      "brewing",
-      "manufacturing",
-      "telecommunications"
     ]
   },
   "https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us": {
@@ -477,40 +247,6 @@
         ]
       }
     ],
-    "hunting_indicators": [],
-    "industries": [
-      "insurance",
-      "brewing",
-      "manufacturing",
-      "telecommunications"
-    ]
-  },
-  "https://therecord.media/us-lifts-export-controls-anthropic-cyber-models": {
-    "enriched_at": "2026-07-02T09:18:20.423257+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "insurance",
-      "brewing",
-      "manufacturing",
-      "telecommunications"
-    ]
-  },
-  "https://therecord.media/japan-cyber-breaches-aflac-sapporo-nidec-kddi": {
-    "enriched_at": "2026-07-02T09:18:20.423257+00:00",
-    "incidents": [
-      {
-        "headline": "Japanese insurer, brewer, manufacturer and telecom disclose cyber breaches",
-        "summary": "Aflac's Tokyo arm and Sapporo among major Japanese companies to notify the public about data breaches.",
-        "source_urls": [
-          "https://therecord.media/japan-cyber-breaches-aflac-sapporo-nidec-kddi"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
     "hunting_indicators": [],
     "industries": [
       "insurance",
@@ -546,44 +282,6 @@
         ]
       }
     ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://hackread.com/fake-interpol-investigation-emails-ransomware-small-businesses/": {
-    "enriched_at": "2026-07-02T09:18:49.460949+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Fake Interpol Investigation Scammers",
-        "aliases": [],
-        "motivation": "Financial gain through ransomware payments",
-        "recent_activity": "Sending fake emails to small businesses with malicious links.",
-        "targets": [
-          "Small Businesses"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://hackread.com/fake-interpol-investigation-emails-ransomware-small-businesses/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://hackread.com/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/": {
-    "enriched_at": "2026-07-02T09:18:49.460949+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://hackread.com/mitigating-attacks-before-they-impact-infrastructure-link11-provides-next-generation-network-ddos-protection/": {
-    "enriched_at": "2026-07-02T09:19:28.484756+00:00",
-    "incidents": [],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -681,74 +379,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.helpnetsecurity.com/2026/07/01/netzilo-adds-runtime-governance-for-ai-agents-across-major-platforms/": {
-    "enriched_at": "2026-07-02T09:22:36.228385+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/01/dawnguard-security-architecture-automation-platform/": {
-    "enriched_at": "2026-07-02T09:22:36.228385+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/01/intruder-offers-free-security-plan-for-lean-it-and-security-teams/": {
-    "enriched_at": "2026-07-02T09:23:38.899649+00:00",
-    "incidents": [
-      {
-        "headline": "Intruder offers Free security plan for lean IT and security teams",
-        "summary": "Intruder has launched a free security plan to provide ongoing access to professional-grade vulnerability management, cloud security, and attack surface management at no cost.",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/07/01/intruder-offers-free-security-plan-for-lean-it-and-security-teams/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "life-sciences"
-    ]
-  },
-  "https://www.cybersecuritydive.com/news/critical-flaw-oracle-e-business-suite-threat/824230/": {
-    "enriched_at": "2026-07-02T09:23:38.899649+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Oracle E-Business Suite",
-        "vendor": "Oracle",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A critical flaw in Oracle E-Business Suite is under immediate threat, potentially allowing an attacker to compromise Oracle Payments.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.cybersecuritydive.com/news/critical-flaw-oracle-e-business-suite-threat/824230/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "life-sciences"
-    ]
-  },
-  "https://www.cybersecuritydive.com/news/anthropic-ai-mythos-fable-reenable/824214/": {
-    "enriched_at": "2026-07-02T09:23:38.899649+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "life-sciences"
-    ]
-  },
   "https://securityaffairs.com/194613/security/alleged-scattered-spider-hacker-extradited-to-u-s-to-face-cybercrime-charges.html": {
     "enriched_at": "2026-07-02T09:25:02.562615+00:00",
     "incidents": [
@@ -801,33 +431,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://securityaffairs.com/194588/uncategorized/azure-cli-targeted-in-lshiy-password-spray-campaign-across-64-orgs.html": {
-    "enriched_at": "2026-07-02T09:25:02.562615+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "LSHIY Password Spray Campaign Against Azure CLI",
-        "context": "Huntress researchers tracking a large-scale automated password spray campaign.",
-        "indicators": [
-          "81 million login attempts, 78 compromised accounts"
-        ],
-        "source_urls": [
-          "https://securityaffairs.com/194588/uncategorized/azure-cli-targeted-in-lshiy-password-spray-campaign-across-64-orgs.html"
-        ]
-      }
-    ],
-    "industries": []
-  },
-  "https://securityaffairs.com/194577/security/cisa-warns-bluehammer-flaw-is-now-exploited-in-ransomware-attacks.html": {
-    "enriched_at": "2026-07-02T09:25:02.562615+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://securelist.com/compromise-assessment-findings-2025/120542/": {
     "enriched_at": "2026-07-02T09:26:03.788239+00:00",
     "incidents": [],
@@ -838,55 +441,9 @@
       "Insurance"
     ]
   },
-  "https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/": {
-    "enriched_at": "2026-07-02T09:27:31.540051+00:00",
-    "incidents": [
-      {
-        "headline": "Texas Parks and Wildlife Department Data Breach",
-        "summary": "The Texas Parks and Wildlife Department experienced a data breach involving its license system vendor, exposing sensitive personal information.",
-        "source_urls": [
-          "https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government",
-      "Finance"
-    ]
-  },
-  "https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths": {
-    "enriched_at": "2026-07-02T09:27:31.540051+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government",
-      "Finance"
-    ]
-  },
   "https://isc.sans.edu/diary/rss/33120": {
     "enriched_at": "2026-07-02T09:27:56.958737+00:00",
     "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html": {
-    "enriched_at": "2026-07-02T09:29:10.444107+00:00",
-    "incidents": [
-      {
-        "headline": "Papa Johns Surveillance-Based Advertising",
-        "summary": "Papa Johns is using data from NBCUniversal, Instacart, and Carat to predict when consumers are low on groceries and serve them targeted ads.",
-        "source_urls": [
-          "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html"
-        ]
-      }
-    ],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -900,61 +457,7 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.malwarebytes.com/blog/ai/2026/07/bioshocking-when-gaming-ai-agents-is-no-longer-a-game": {
-    "enriched_at": "2026-07-02T09:29:37.097728+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.malwarebytes.com/blog/bugs/2026/07/chrome-needs-another-whopper-update-to-fix-382-security-fixes": {
-    "enriched_at": "2026-07-02T09:30:07.899748+00:00",
-    "incidents": [
-      {
-        "headline": "Chrome needs another whopper update to fix 382 security bugs",
-        "summary": "Google released a major update addressing 382 security issues, including 15 critical ones.",
-        "source_urls": [
-          "https://www.malwarebytes.com/blog/bugs/2026/07/chrome-needs-another-whopper-update-to-fix-382-security-fixes"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Chrome",
-        "vendor": "Google",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Critical security bugs were fixed in the latest Chrome update.",
-        "exploitation_status": null,
-        "remediation": "Update to the latest version of Chrome.",
-        "source_urls": [
-          "https://www.malwarebytes.com/blog/bugs/2026/07/chrome-needs-another-whopper-update-to-fix-382-security-fixes"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-ios-update.html": {
-    "enriched_at": "2026-07-02T09:31:18.134718+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://aws.amazon.com/blogs/security/secure-amazon-container-workloads-using-container-attribute-based-rules-in-aws-network-firewall/": {
-    "enriched_at": "2026-07-02T09:33:16.595790+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/blogs/security/how-to-use-the-aws-workload-credentials-provider-for-cross-account-secret-retrieval-and-prefetching-secrets/": {
     "enriched_at": "2026-07-02T09:33:16.595790+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -1102,148 +605,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://ubuntu.com/security/notices/USN-8488-1": {
-    "enriched_at": "2026-07-02T09:39:39.104795+00:00",
-    "incidents": [
-      {
-        "headline": "USN-8488-1: Linux kernel vulnerabilities",
-        "summary": "Several security issues were discovered in the Linux kernel, affecting various subsystems and potentially allowing attackers to compromise the system.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8488-1"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2025-54505",
-        "product": "Linux kernel",
-        "vendor": "Vendor",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "AMD processors did not properly clear data in the floating point divider unit during speculative execution.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to a patched version of the Linux kernel.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8488-1"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "OEMs",
-      "Linux users"
-    ]
-  },
-  "https://ubuntu.com/security/notices/USN-8491-1": {
-    "enriched_at": "2026-07-02T09:39:39.104795+00:00",
-    "incidents": [
-      {
-        "headline": "USN-8491-1: Linux kernel (OEM) vulnerabilities",
-        "summary": "Several security issues were found in the Linux kernel, impacting multiple subsystems and possibly allowing an attacker to compromise the system.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8491-1"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-22984",
-        "product": "Linux kernel",
-        "vendor": "Vendor",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Various security issues in the Linux kernel.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to a patched version of the Linux kernel.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8490-1",
-          "https://ubuntu.com/security/notices/USN-8491-1"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "OEMs",
-      "Linux users"
-    ]
-  },
-  "https://ubuntu.com/security/notices/USN-8490-1": {
-    "enriched_at": "2026-07-02T09:39:39.104795+00:00",
-    "incidents": [
-      {
-        "headline": "USN-8490-1: Linux kernel vulnerabilities",
-        "summary": "Multiple security flaws were discovered in the Linux kernel affecting various subsystems and potentially enabling attackers to compromise the system.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8490-1"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-22984",
-        "product": "Linux kernel",
-        "vendor": "Vendor",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Various security issues in the Linux kernel.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to a patched version of the Linux kernel.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8490-1",
-          "https://ubuntu.com/security/notices/USN-8491-1"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "OEMs",
-      "Linux users"
-    ]
-  },
-  "https://ubuntu.com/security/notices/USN-8489-1": {
-    "enriched_at": "2026-07-02T09:39:39.104795+00:00",
-    "incidents": [
-      {
-        "headline": "USN-8489-1: Linux kernel (OEM) vulnerabilities",
-        "summary": "Several security issues were identified in the Linux kernel, impacting multiple subsystems and possibly allowing an attacker to escalate privileges or cause a denial of service.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8489-1"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-43284",
-        "product": "Linux kernel",
-        "vendor": "Vendor",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "The Linux kernel did not properly handle shared page fragments during socket buffer operations.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to a patched version of the Linux kernel.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8489-1"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "OEMs",
-      "Linux users"
-    ]
-  },
-  "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/": {
-    "enriched_at": "2026-07-02T09:41:45.958447+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html": {
     "enriched_at": "2026-07-02T10:25:43.139217+00:00",
     "incidents": [
@@ -1293,14 +654,6 @@
         ]
       }
     ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/": {
-    "enriched_at": "2026-07-02T10:26:17.513871+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
     "hunting_indicators": [],
     "industries": []
   },
@@ -9595,6 +8948,1001 @@
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/dutch-police-dismantle-global-crypto-investment-scam": {
+    "enriched_at": "2026-07-15T16:09:23.413658+00:00",
+    "incidents": [
+      {
+        "headline": "Dutch police dismantle global crypto investment scam, arrest alleged mastermind",
+        "summary": "The Dutch police dismantled a global crypto investment scam that operated since at least 2021 with over 700 employees posing as financial advisers.",
+        "source_urls": [
+          "https://therecord.media/dutch-police-dismantle-global-crypto-investment-scam"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/lapd-halts-flock-safety-alpr-contract": {
+    "enriched_at": "2026-07-15T16:09:23.413658+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/microsoft-vulnerabilities-patch-tuesday-release": {
+    "enriched_at": "2026-07-15T16:09:23.413658+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html": {
+    "enriched_at": "2026-07-15T16:09:23.413658+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-15718",
+        "product": "Firefox",
+        "vendor": "Mozilla",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "An invalid pointer in the JavaScript: WebAssembly component.",
+        "exploitation_status": "PUBLIC",
+        "remediation": "Update to the latest version of Firefox.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html"
+        ]
+      },
+      {
+        "cve": "CVE-2026-15719",
+        "product": "Firefox",
+        "vendor": "Mozilla",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A site isolation in the DOM: Navigation component.",
+        "exploitation_status": "PUBLIC",
+        "remediation": "Update to the latest version of Firefox.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html": {
+    "enriched_at": "2026-07-15T16:09:23.413658+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html": {
+    "enriched_at": "2026-07-15T16:09:23.413658+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Chaotic Eclipse (aka Nightmare-Eclipse)",
+        "aliases": [],
+        "motivation": "Unknown from provided text",
+        "recent_activity": "Released a new proof-of-concept exploit called LegacyHive for a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability.",
+        "targets": [
+          "Windows"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [
+      {
+        "title": "LegacyHive Exploit Details",
+        "context": "Proof-of-concept exploit for a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability.",
+        "indicators": [
+          "Windows User Profile Service (ProfSvc) arbitrary hive load"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html"
+        ]
+      }
+    ],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html": {
+    "enriched_at": "2026-07-15T16:11:37.919343+00:00",
+    "incidents": [
+      {
+        "headline": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
+        "summary": "A single approved marketing tag can load fourth-party code, granting full access to forms, customer data, and checkout pages.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html": {
+    "enriched_at": "2026-07-15T16:11:37.919343+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers": {
+    "enriched_at": "2026-07-15T16:11:37.919343+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog": {
+    "enriched_at": "2026-07-15T16:11:37.919343+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-15409",
+        "product": "SonicWall SMA1000 Appliances",
+        "vendor": "SonicWall",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Server-Side Request Forgery Vulnerability",
+        "exploitation_status": "ACTIVE EXPLOITATION",
+        "remediation": "Not specified in the text",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        ]
+      },
+      {
+        "cve": "CVE-2026-15410",
+        "product": "SonicWall SMA1000 Appliances",
+        "vendor": "SonicWall",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Code Injection Vulnerability",
+        "exploitation_status": "ACTIVE EXPLOITATION",
+        "remediation": "Not specified in the text",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        ]
+      },
+      {
+        "cve": "CVE-2026-56155",
+        "product": "Microsoft Active Directory Federation Services",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Insufficient Granularity of Access Control Vulnerability",
+        "exploitation_status": "ACTIVE EXPLOITATION",
+        "remediation": "Not specified in the text",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        ]
+      },
+      {
+        "cve": "CVE-2026-56164",
+        "product": "Microsoft SharePoint Server",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Missing Authentication for Critical Function Vulnerability",
+        "exploitation_status": "ACTIVE EXPLOITATION",
+        "remediation": "Not specified in the text",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02": {
+    "enriched_at": "2026-07-15T16:11:37.919343+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-31431",
+        "product": "ABB Ability Edgenius",
+        "vendor": "ABB",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Linux kernel vulnerability that may allow a locally authenticated user or compromised container workload to gain elevated (root) privileges.",
+        "exploitation_status": "ACTIVE EXPLOITATION",
+        "remediation": "An update is available that resolves the publicly reported vulnerability.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01": {
+    "enriched_at": "2026-07-15T16:11:37.919343+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2025-13162",
+        "product": "ABB Advant Master Online Builder",
+        "vendor": "ABB",
+        "severity": "CRITICAL",
+        "cvss": 4.4,
+        "description": "Uncontrolled Search Path Element",
+        "exploitation_status": "ACTIVE EXPLOITATION",
+        "remediation": "An update is available that resolves the vulnerability.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03": {
+    "enriched_at": "2026-07-15T16:14:13.423521+00:00",
+    "incidents": [
+      {
+        "headline": "ABB T-MAC Plus Vulnerabilities",
+        "summary": "ABB became aware of a vulnerability in ABB T-MAC Plus versions that could be exploited to compromise the system.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2025-14771",
+        "product": "ABB T-MAC Plus",
+        "vendor": "ABB",
+        "severity": "CRITICAL",
+        "cvss": 9.9,
+        "description": "Files or Directories Accessible to External Parties, Authorization Bypass Through User-Controlled Key",
+        "exploitation_status": "Exploited in the wild",
+        "remediation": "An update is available that resolves the reported vulnerabilities.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Energy",
+      "Water and Wastewater",
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations": {
+    "enriched_at": "2026-07-15T16:14:13.423521+00:00",
+    "incidents": [
+      {
+        "headline": "CISA Urges SharePoint Hardening After New Exploitations",
+        "summary": "CISA is aware of active exploitation of vulnerabilities enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server instances.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Energy",
+      "Water and Wastewater",
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04": {
+    "enriched_at": "2026-07-15T16:14:13.423521+00:00",
+    "incidents": [
+      {
+        "headline": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter Vulnerability",
+        "summary": "A vulnerability in Rockwell Automation 1715-AENTR EtherNet/IP Adapter versions could allow an attacker to read or delete files, stop tasks, modify memory, and change I/O states.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Energy",
+      "Water and Wastewater",
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog": {
+    "enriched_at": "2026-07-15T16:14:13.423521+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "CISA Known Exploited Vulnerabilities Catalog",
+        "context": "CVE-2008-4128 - Cisco IOS Cross-Site Request Forgery Vulnerability, CVE-2026-48939 - iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability, CVE-2026-56291 - Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "indicators": [
+          "CVE-2008-4128",
+          "CVE-2026-48939",
+          "CVE-2026-56291"
+        ],
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog"
+        ]
+      }
+    ],
+    "industries": [
+      "Energy",
+      "Water and Wastewater",
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a": {
+    "enriched_at": "2026-07-15T16:14:13.423521+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": null,
+        "aliases": [
+          "Russian Federal Security Service (FSB) Center 16"
+        ],
+        "motivation": "Targeting poorly configured and vulnerable devices",
+        "recent_activity": "Exploiting poorly configured and vulnerable networking devices worldwide, compromising multiple critical infrastructure sector networks.",
+        "targets": [
+          "Critical Infrastructure Sectors: Energy, Water and Wastewater, Critical Manufacturing"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Energy",
+      "Water and Wastewater",
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog": {
+    "enriched_at": "2026-07-15T16:14:13.423521+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-48939",
+        "product": "iCagenda",
+        "vendor": null,
+        "severity": "CRITICAL",
+        "cvss": 10.0,
+        "description": "Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "exploitation_status": "Exploited in the wild",
+        "remediation": "Not specified.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        ]
+      },
+      {
+        "cve": "CVE-2026-56291",
+        "product": "Balbooa Forms",
+        "vendor": null,
+        "severity": "CRITICAL",
+        "cvss": 10.0,
+        "description": "Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "exploitation_status": "Exploited in the wild",
+        "remediation": "Not specified.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "CISA Known Exploited Vulnerabilities Catalog",
+        "context": "CVE-2008-4128 - Cisco IOS Cross-Site Request Forgery Vulnerability, CVE-2026-48939 - iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability, CVE-2026-56291 - Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "indicators": [
+          "CVE-2008-4128",
+          "CVE-2026-48939",
+          "CVE-2026-56291"
+        ],
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog"
+        ]
+      }
+    ],
+    "industries": [
+      "Energy",
+      "Water and Wastewater",
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01": {
+    "enriched_at": "2026-07-15T16:16:45.276548+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "OpenPLC v3",
+        "vendor": "OpenPLC",
+        "severity": "CRITICAL",
+        "cvss": 9.9,
+        "description": "External Control of File Name or Path vulnerability that could allow an authenticated attacker to write arbitrary files and potentially execute code as the OpenPLC runtime user.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Energy",
+      "Transportation Systems",
+      "Water and Wastewater"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03": {
+    "enriched_at": "2026-07-15T16:16:45.276548+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Schneider Electric Easergy MiCOM Px40 Series",
+        "vendor": "Schneider Electric",
+        "severity": "HIGH",
+        "cvss": null,
+        "description": "Vulnerability in the Easergy MiCOM Px40 Series products that could allow unauthorized exposure of basic device identification through the SNMP protocol.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Energy",
+      "Transportation Systems",
+      "Water and Wastewater"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02": {
+    "enriched_at": "2026-07-15T16:16:45.276548+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Schneider Electric PowerChute Serial Shutdown",
+        "vendor": "Schneider Electric",
+        "severity": "MEDIUM",
+        "cvss": 6.1,
+        "description": "Vulnerabilities in the Schneider Electric PowerChute Serial Shutdown that could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger denial-of-service conditions, truncate or alter logging information, reset user credentials, or expose sensitive information.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Energy",
+      "Transportation Systems",
+      "Water and Wastewater"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/labubarat-rust-malware-nvidia-disguise/": {
+    "enriched_at": "2026-07-15T16:16:45.276548+00:00",
+    "incidents": [
+      {
+        "headline": "LabubaRAT malware infiltrates Windows systems while posing as NVIDIA software",
+        "summary": "LabubaRAT, a Rust-based remote access tool (RAT) masquerading as NVIDIA software, has been discovered by Blackpoint Cyber. It can profile the host, identify installed security tools, receive operator commands, transfer files, capture screenshots, and proxy network traffic.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/15/labubarat-rust-malware-nvidia-disguise/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "LabubaRAT",
+        "aliases": [],
+        "motivation": "Financially motivated",
+        "recent_activity": "Infiltrating Windows systems by posing as NVIDIA software.",
+        "targets": [
+          "Windows systems"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/15/labubarat-rust-malware-nvidia-disguise/"
+        ]
+      }
+    ],
+    "hunting_indicators": [
+      {
+        "title": "LabubaRAT Indicators",
+        "context": "Remote Access Tool (RAT) masquerading as NVIDIA software.",
+        "indicators": [
+          "LabubaPanel",
+          "NVIDIA software"
+        ],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/15/labubarat-rust-malware-nvidia-disguise/"
+        ]
+      }
+    ],
+    "industries": [
+      "Critical Manufacturing",
+      "Energy",
+      "Transportation Systems",
+      "Water and Wastewater"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/impersonated-brands-github-infostealer-download/": {
+    "enriched_at": "2026-07-15T16:16:45.276548+00:00",
+    "incidents": [
+      {
+        "headline": "Threat actor impersonated hundreds of brands on GitHub to push infostealer malware",
+        "summary": "A financially motivated threat actor is impersonating hundreds of brands on GitHub to distribute a smash-and-grab infostealer. The repositories span various categories including security tools, fintech, cryptocurrency wallets, developer and productivity tools, secure email providers, macOS utilities, and gaming software.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/15/impersonated-brands-github-infostealer-download/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Threat actor impersonating brands on GitHub",
+        "aliases": [],
+        "motivation": "Financially motivated",
+        "recent_activity": "Impersonating hundreds of brands to distribute infostealer malware.",
+        "targets": [
+          "Users downloading software from GitHub"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/15/impersonated-brands-github-infostealer-download/"
+        ]
+      }
+    ],
+    "hunting_indicators": [
+      {
+        "title": "Infostealer Malware Indicators on GitHub",
+        "context": "Impersonating brands to distribute infostealer malware.",
+        "indicators": [
+          "Smash-and-grab infostealer",
+          "292 impersonated repositories"
+        ],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/15/impersonated-brands-github-infostealer-download/"
+        ]
+      }
+    ],
+    "industries": [
+      "Critical Manufacturing",
+      "Energy",
+      "Transportation Systems",
+      "Water and Wastewater"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/socure-rolls-out-remote-verifier-for-higher-risk-identity-checks/": {
+    "enriched_at": "2026-07-15T16:16:45.276548+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Energy",
+      "Transportation Systems",
+      "Water and Wastewater"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/xint-pulse/": {
+    "enriched_at": "2026-07-15T16:17:24.941000+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/f5-insight-for-adsp/": {
+    "enriched_at": "2026-07-15T16:17:24.941000+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/radware-defensepro-x-cloud-augmented-protection/": {
+    "enriched_at": "2026-07-15T16:17:24.941000+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/latticeflow-ai-platform/": {
+    "enriched_at": "2026-07-15T16:17:24.941000+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/cybercrime-network-investment-fraud-spain/": {
+    "enriched_at": "2026-07-15T16:17:24.941000+00:00",
+    "incidents": [
+      {
+        "headline": "Spanish police dismantle €140 million cybercrime network",
+        "summary": "Spanish National Police have dismantled a cybercrime network accused of stealing and laundering about €140 million through fake investment platforms, CEO fraud, invoice fraud, and man-in-the-middle attacks. Four people were arrested as part of the operation.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/15/cybercrime-network-investment-fraud-spain/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/nudge-security-agentic-capabilities/": {
+    "enriched_at": "2026-07-15T16:17:24.941000+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/15/binary-defenses-nightbeacon-cmd-helps-enterprise-soc-teams-automate-threat-investigations/": {
+    "enriched_at": "2026-07-15T16:18:50.663015+00:00",
+    "incidents": [
+      {
+        "headline": "Binary Defense’s NightBeacon CMD helps enterprise SOC teams automate threat investigations",
+        "summary": "Binary Defense has announced NightBeacon CMD, a standalone AI-driven SOC workbench that gives customers the same operating platform Binary Defense's own analysts use every day.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/15/binary-defenses-nightbeacon-cmd-helps-enterprise-soc-teams-automate-threat-investigations/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/": {
+    "enriched_at": "2026-07-15T16:18:50.663015+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "AsyncAPI npm packages",
+        "vendor": "N/A",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities.",
+        "exploitation_status": "Exploited",
+        "remediation": "N/A",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/": {
+    "enriched_at": "2026-07-15T16:18:50.663015+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "WordPress plugin",
+        "vendor": "Intruder",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "An AI-powered 'vulnerability vending machine' found and exploited a previously unknown WordPress plugin zero-day.",
+        "exploitation_status": "Exploited",
+        "remediation": "N/A",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/": {
+    "enriched_at": "2026-07-15T16:18:50.663015+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "UEFI shim bootloaders",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot.",
+        "exploitation_status": "Exploited",
+        "remediation": "N/A",
+        "source_urls": [
+          "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/": {
+    "enriched_at": "2026-07-15T16:18:50.663015+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Cursor application",
+        "vendor": "N/A",
+        "severity": "HIGH",
+        "cvss": null,
+        "description": "An unpatched Cursor vulnerability exposes users to code execution.",
+        "exploitation_status": "Exploited",
+        "remediation": "Patching is advised.",
+        "source_urls": [
+          "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/": {
+    "enriched_at": "2026-07-15T16:18:50.663015+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "SharePoint",
+        "vendor": "N/A",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "CISA urges immediate patching of exploited SharePoint vulnerabilities that are actively targeted as zero-days.",
+        "exploitation_status": "Exploited",
+        "remediation": "Immediate patching is advised.",
+        "source_urls": [
+          "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/": {
+    "enriched_at": "2026-07-15T16:19:33.745539+00:00",
+    "incidents": [
+      {
+        "headline": "Windows Bind Link Attacks Can Hide Malware From EDR Tools",
+        "summary": "Bitdefender researchers have demonstrated how Windows bind links can be used to create conflicting filesystem views, thereby hiding malware from endpoint detection and response (EDR) tools.",
+        "source_urls": [
+          "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/": {
+    "enriched_at": "2026-07-15T16:19:33.745539+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/us-charges-russian-individuals-and-firms-for-running-cybercrime-services/": {
+    "enriched_at": "2026-07-15T16:19:33.745539+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/vulnerabilities-patched-by-fortinet-ivanti-servicenow/": {
+    "enriched_at": "2026-07-15T16:19:33.745539+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "ServiceNow AI platform",
+        "vendor": "ServiceNow",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A critical security defect in the ServiceNow AI platform could allow remote attackers to execute arbitrary code.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.securityweek.com/vulnerabilities-patched-by-fortinet-ivanti-servicenow/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.tenable.com/blog/claude-tag-slack-access-model": {
+    "enriched_at": "2026-07-15T16:19:33.745539+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.tenable.com/blog/application-security-data-exposure-management-integration": {
+    "enriched_at": "2026-07-15T16:19:33.745539+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/": {
+    "enriched_at": "2026-07-15T16:20:16.836416+00:00",
+    "incidents": [
+      {
+        "headline": "TuxBot v3: Inside an IoT Botnet Framework With LLM-Assisted Development",
+        "summary": "An analysis of TuxBot v3, an IoT botnet framework developed with the assistance of LLMs. The report covers cross-compiled binaries and C2 architecture.",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-404/": {
+    "enriched_at": "2026-07-15T16:20:16.836416+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-12578",
+        "product": "Delta Electronics DTM Soft",
+        "vendor": "Delta Electronics",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "A remote code execution vulnerability allowing attackers to execute arbitrary code on affected installations of Delta Electronics DTM Soft.",
+        "exploitation_status": "User interaction required (target must visit a malicious page or open a malicious file)",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-404/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/": {
+    "enriched_at": "2026-07-15T16:20:16.836416+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/": {
+    "enriched_at": "2026-07-15T16:20:16.836416+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/": {
+    "enriched_at": "2026-07-15T16:20:16.836416+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.talosintelligence.com/wolfssl-vulnerabilities/": {
+    "enriched_at": "2026-07-15T16:20:16.836416+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.talosintelligence.com/winning-54-of-the-time/": {
+    "enriched_at": "2026-07-15T16:20:41.111837+00:00",
+    "incidents": [
+      {
+        "headline": "Winning 54% of the time",
+        "summary": "Hazel argues against the myth that attackers only need to be right once, while defenders must always be correct.",
+        "source_urls": [
+          "https://blog.talosintelligence.com/winning-54-of-the-time/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms": {
+    "enriched_at": "2026-07-15T16:20:41.111837+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Persistence Mechanisms in AWS",
+        "context": "AWS environment security",
+        "indicators": [
+          "IAM user creation or modification"
+        ],
+        "source_urls": [
+          "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms"
+        ]
+      }
+    ],
     "industries": []
   }
 }

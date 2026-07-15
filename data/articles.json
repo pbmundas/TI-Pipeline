@@ -16142,5 +16142,815 @@
     "source_type": "detection",
     "summary": "<p>A rideshare trip does not begin the second a passenger sits inside the vehicle. It often begins while the driver is searching for the pickup point and the passenger is trying to find the right car. Those first few minutes can be full of rushed decisions, unexpected stops, and changing traffic. A simple pickup can [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/why-do-so-many-rideshare-accidents-happen-before-the-trip-really-begins/\">Why Do So Many Rideshare Accidents Happen Before the Trip Really Begins</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
     "feed_source": "https://www.socinvestigation.com/feed/"
+  },
+  {
+    "title": "Dutch police dismantle global crypto investment scam, arrest alleged mastermind",
+    "url": "https://therecord.media/dutch-police-dismantle-global-crypto-investment-scam",
+    "published_date": "2026-07-15T14:14:00+00:00",
+    "source_type": "news",
+    "summary": "Authorities said Wednesday that the group operated like a legitimate international business since at least 2021, running about two dozen call centers across several countries and employing more than 700 people who posed as professional financial advisers.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "LAPD sidelines relationship with license-plate reader company Flock Safety",
+    "url": "https://therecord.media/lapd-halts-flock-safety-alpr-contract",
+    "published_date": "2026-07-15T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "The Los Angeles Police Department is the latest U.S. municipal agency to rethink its relationship to ALPR company Flock Safety.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft smashes Patch Tuesday record for second successive month",
+    "url": "https://therecord.media/microsoft-vulnerabilities-patch-tuesday-release",
+    "published_date": "2026-07-15T12:15:00+00:00",
+    "source_type": "news",
+    "summary": "Vulnerability counts have been surging this year, and Microsoft's mammoth disclosure this week of 622 bugs is larger than the three previous months combined.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
+    "url": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
+    "published_date": "2026-07-15T13:18:53+00:00",
+    "source_type": "news",
+    "summary": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-15718, an invalid pointer in the JavaScript: WebAssembly component\n  CVE-2026-15719, a site isolation in the DOM: Navigation component\n\n\"We are aware that exploit code for this is public, however we are not aware of",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
+    "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+    "published_date": "2026-07-15T11:50:01+00:00",
+    "source_type": "news",
+    "summary": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up.\n\nEnterprise workflows now live across SaaS applications, browsers, and an expanding ecosystem of generative AI tools, unsanctioned browser extensions, and autonomous agents. Employees routinely paste intellectual property into",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
+    "url": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
+    "published_date": "2026-07-15T11:07:07+00:00",
+    "source_type": "news",
+    "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive.\n\nIt has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments.\n\n\"The PoC requires",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
+    "url": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
+    "published_date": "2026-07-15T11:06:57+00:00",
+    "source_type": "news",
+    "summary": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages.\n\nThis on-demand webinar reveals how this Approval Gap forms, and gives your team the blueprint to close it before an auditor, regulator, or attacker finds it first.\n\nThe Reality of the Approval Gap\n\nIt's a pattern every",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
+    "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
+    "published_date": "2026-07-15T10:55:22+00:00",
+    "source_type": "news",
+    "summary": "Open a repository in Cursor&nbsp;on Windows and, if a file named&nbsp;git.exe&nbsp;is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute.\n\nWhatever that binary does, it does as you, with your source, your SSH keys and your cloud tokens. Cursor keeps re-running it for as long as the project stays open.\n\nNo prompt",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers",
+    "url": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
+    "published_date": "2026-07-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>Developed by CISA, the National Security Agency (NSA) and international partners, this joint guidance contains best practices for software manufacturers and online service providers to design and implement a coordinated vulnerability disclosure (CVD) program for working with external security researchers that includes a clear vulnerability disclosure policy (VDP) and process for triaging, remediating and assigning Common Vulnerabilities and Exposures (CVE) identifiers to reported vulnerabilities. The guidance also provides considerations for leveraging third-party intermediaries, like CISA or other national computer security incident response teams, to substitute or supplement a CVD program. By implementing a robust CVD program aligned with this guidance, organizations can work transparently and collaboratively with security researchers to remediate vulnerabilities, build constructive relationships, enhance product security while improving vulnerability management processes, and demonstrate their dedication to protecting customers.</p>",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "published_date": "2026-07-14T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"square\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-15409\" target=\"_blank\">CVE-2026-15409</a> SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-15410\" target=\"_blank\">CVE-2026-15410</a> SonicWall SMA1000 Appliances Code Injection Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-56155\" target=\"_blank\">CVE-2026-56155</a> Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-56164\" target=\"_blank\">CVE-2026-56164</a> Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "ABB Ability Edgenius",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
+    "published_date": "2026-07-14T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-02_drupal.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑31431 (Copy Fail) is a Linux kernel vulnerability that may allow a locally authenticated user or compromised container workload to gain elevated (root) privileges on affected systems. Once root access is obtained, the attacker can effectively gain complete control of the system</strong></p>\n<p>The following versions of ABB Ability Edgenius are affected:</p>\n<ul>\n<li>Ability Edgenius &gt;=3.2.0.0|&lt;3.2.4.1 installed on ABB Ability Edgenius Gateway - bE100, &gt;=3.2.0.0|&lt;3.2.4.1 installed on ABB Ability Edgenius Gateway - E3100C, &gt;=3.2.0.0|&lt;3.2.4.1 installed on ABB Ability Edgenius Server - vE1000 (CVE-2026-31431, CVE-2026-31431, CVE-2026-31431)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vuln",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "ABB Advant Master Online Builder",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
+    "published_date": "2026-07-14T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-01_drupal.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>ABB became aware of vulnerability in the products versions listed as affected in the advisory, where an incorrect version of Online Builder (ONB) was included in the media. An update is available that resolves the vulnerability, see details in Recommended immediate actions.</strong></p>\n<p>The following versions of ABB Advant Master Online Builder are affected:</p>\n<ul>\n<li>Control Builder A &lt;=1.4/4 (CVE-2025-13162)</li>\n<li>800xA for Advant Master &lt;=6.0.3-1, &lt;=6.1.1-1, 6.1.1-3, 6.2.0-1 (CVE-2025-13162, CVE-2025-13162, CVE-2025-13162, CVE-2025-13162)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 4.4</td>\n<td>ABB</td>\n<td>ABB Advant Master Online Builder</td>\n<td>Uncontrolled Search Path Element</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing</li>\n<li><strong>Countri",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "ABB T-MAC Plus",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
+    "published_date": "2026-07-14T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-03_drupal.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>ABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves the reported vulnerabilities. An attacker who successfully exploited any of these vulnerabilities could potentially compromise the system in different ways.</strong></p>\n<p>The following versions of ABB T-MAC Plus are affected:</p>\n<ul>\n<li>T-MAC Plus 4.0-24 (CVE-2025-14771, CVE-2025-14772, CVE-2025-14773, CVE-2025-14774)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.9</td>\n<td>ABB</td>\n<td>ABB T-MAC Plus</td>\n<td>Files or Directories Accessible to External Parties, Authorization Bypass Through User-Controlled Key, Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'), Incorrect Authorization</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </st",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Urges SharePoint Hardening After New Exploitations",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
+    "published_date": "2026-07-14T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA is aware of active exploitation of vulnerabilities <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-32201\" target=\"_blank\">CVE-2026-32201</a>, <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-45659\" target=\"_blank\">CVE-2026-45659</a>, and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-56164\" target=\"_blank\">CVE-2026-56164</a>, enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server instances. These vulnerabilities affect all supported on-premises SharePoint Server versions (Subscription Edition, 2019, and 2016) and involve establishing remote code execution (RCE) and post-exploitation activities, such as stealing Internet Information Services (IIS) machine keys and performing deserialization techniques, to gain persistence and deploy malware. Organizations should monitor affected SharePoint Servers closely for any signs of exploitation or unusual activity.&nbsp;</p>\n<p>Additionally, the following newly disclosed CVEs are not yet known to have been exploited, but Microsoft has identified them as posing a potential risk if left unpatched:</p>\n<ul type=\"square\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-55040\" target=\"_bla",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
+    "published_date": "2026-07-14T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-04.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an attacker to read or delete files, stop tasks, modify memory, and change I/O states, potentially impacting the confidentiality, integrity, and availability of the device.</strong></p>\n<p>The following versions of Rockwell Automation 1715-AENTR EtherNet/IP Adapter are affected:</p>\n<ul>\n<li>1715-AENTR EtherNet/IP Adapter &lt;=3.003 (CVE-2026-10577)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 10</td>\n<td>Rockwell Automation</td>\n<td>Rockwell Automation 1715-AENTR EtherNet/IP Adapter</td>\n<td>Missing Authentication for Critical Function</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Energy, Water and Wastewater, Critical Manufacturing</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published_date": "2026-07-13T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul type=\"square\">\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2008-4128\" target=\"_blank\">CVE-2008-4128</a> Cisco IOS Cross-Site Request Forgery Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation,",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
+    "published_date": "2026-07-13T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>Russian Government-Sponsored Activity Targets Poorly Configured and Vulnerable Devices Across Critical Sectors</p>\n<h2><strong>Executive summary</strong></h2>\n<p>Russian Federal Security Service (FSB) Center 16 cyber actors continue to exploit poorly configured and vulnerable networking devices worldwide, opportunistically compromising multiple critical infrastructure sector networks. This joint Cybersecurity Advisory (CSA) builds on FBI’s <a href=\"https://www.ic3.gov/PSA/2025/PSA250820\" target=\"_blank\">Russian Government Cyber Actors Targeting Networking Devices, Critical Infrastructure</a> Public Service Announcement of the decade-plus FSB Center 16 cyber activity by providing additional tactics, techniques, and procedures (TTPs) to enable defenders to more fully understand and counter the threat. [<a href=\"https://www.cisa.gov/#Work1\">1</a>]&nbsp;</p>\n<p>This CSA is being released by the following authoring and co-sealing agencies:&nbsp;</p>\n<ul type=\"square\">\n<li>United States National Security Agency (NSA)</li>\n<li>United States Cybersecurity and Infrastructure Security Agency (CISA)</li>\n<li>United States Federal Bureau of Investigation (FBI)</li>\n<li>United States Departm",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "published_date": "2026-07-10T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48939\" target=\"_blank\">CVE-2026-48939</a> iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-56291\" target=\"_blank\">CVE-2026-56291</a> Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "OpenPLC v3",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
+    "published_date": "2026-07-09T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an authenticated attacker to write arbitrary files to the filesystem and escalate this into arbitrary native code execution through the normal OpenPLC program compilation process, potentially resulting in code execution as the OpenPLC runtime user.</strong></p>\n<p>The following versions of OpenPLC v3 are affected:</p>\n<ul>\n<li>OpenPLC v3</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.9</td>\n<td>OpenPLC</td>\n<td>OpenPLC v3</td>\n<td>External Control of File Name or Path</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing, Energy, Transportation Systems, Water and Wastewater</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>United States</li>\n</ul>\n<hr />\n<h2>Vul",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Schneider Electric Easergy MiCOM Px40 Series",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
+    "published_date": "2026-07-09T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Schneider Electric is aware of a vulnerability in its Easergy MiCOM Px40 Series products. The [Easergy MiCOM Px40](https://www.se.com/ww/en/product-subcategory/4725-easergy-micom-px40-series/?filter=business-6-medium-voltage-distribution-and-grid-automation) is a protection relay series for Medium Voltage, High Voltage and Extra High Voltage protection. Failure to apply the mitigations provided below may risk unauthorized exposure of basic device identification through the SNMP protocol.</strong></p>\n<p>The following versions of Schneider Electric Easergy MiCOM Px40 Series are affected:</p>\n<ul>\n<li>Easergy MiCOM P14x All versions prior to B4A</li>\n<li>Easergy MiCOM P24x All versions prior to D3A</li>\n<li>Easergy MiCOM P341 All versions prior to E3F</li>\n<li>Easergy MiCOM P342, P343, P344, P345 All versions prior to B3F</li>\n<li>Easergy MiCOM P442, P444 All versions prior to E3A</li>\n<li>Easergy MiCOM P443, P445, P446, P543, P544, P545, P546 All versions prior to H6A</li>\n<li>Easergy MiCOM P841 All versions prior to G6",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Schneider Electric PowerChute Serial Shutdown",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
+    "published_date": "2026-07-09T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow attackers to overwrite critical files, forge or inject malicious log data, gain unauthorized account access, trigger denial‑of‑service conditions, truncate or alter logging information, reset user credentials, or expose sensitive information.</strong></p>\n<p>The following versions of Schneider Electric PowerChute Serial Shutdown are affected:</p>\n<ul>\n<li>PowerChute Serial Shutdown &lt;=1.4&nbsp;</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 6.1</td>\n<td>SuSE, Schneider Electric, Red Hat, Microsoft</td>\n<td>Schneider Electric PowerChute Serial Shutdown</td>\n<td>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Improper Encoding or Escaping of Output, Improper Restriction of Excessive Authentication Attempts, Uncontrolled Resource Consumption, Improper Validation of Specified Quant",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48282\" target=\"_blank\">CVE-2026-48282</a> Adobe ColdFusion Path Traversal Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring a",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added three new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-48908\" target=\"_blank\">CVE-2026-48908</a> JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-55255\" target=\"_blank\">CVE-2026-55255</a> Langflow Authorization Bypass Through User-Controlled Key Vulnerability &nbsp;</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-56290\" target=\"_blank\">CVE-2026-56290</a> Joomlack Page Builder Improper Access Control Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civ",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Hitachi Energy PROMOD V",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Hitachi Energy is aware of insecure HTTP transmission vulnerability in PROMOD V product versions listed in this document. This vulnerability could allow attackers to intercept or manipulate sensitive data in transit, potentially leading to credential theft, session hijacking, or unauthorized access.</strong></p>\n<p>The following versions of Hitachi Energy PROMOD V are affected:</p>\n<ul>\n<li>PROMOD V vers:PROMOD_V/&lt;=1.0.10</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.1</td>\n<td>Hitachi Energy</td>\n<td>Hitachi Energy PROMOD V</td>\n<td>Reliance on HTTP instead of HTTPS</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Energy</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>Switzerland</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div cl",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Siemens SINEC OS",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-05",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-05.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>SINEC OS before V4.0 contains multiple vulnerabilities. Siemens has released a new version for RUGGEDCOM RST2428P and recommends to update to the latest version.</strong></p>\n<p>The following versions of Siemens SINEC OS are affected:</p>\n<ul>\n<li>RUGGEDCOM RST2428P (6GK6242-6PA00) vers:intdot/&lt;4.0&nbsp;</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>Siemens</td>\n<td>Siemens SINEC OS</td>\n<td>Improper Restriction of Operations within the Bounds of a Memory Buffer, Improper Resource Shutdown or Release, Integer Overflow or Wraparound, Stack-based Buffer Overflow, Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Uncontrolled Recursion, Out-of-bounds Read, Covert Timing Channel, Improper Input Validation, Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'), Improper Update of Reference Coun",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Hitachi Energy e-mesh EMS",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Hitachi Energy is aware of a buffer overflow vulnerability that affects e-mesh EMS product versions listed in this document. Successful exploitation of this vulnerability could lead to a buffer overflow condition, potentially resulting in application outages (denial of service) and possible arbitrary code execution. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation.</strong></p>\n<p>The following versions of Hitachi Energy e-mesh EMS are affected:</p>\n<ul>\n<li>Hitachi Energy e-mesh EMS 4.1.6, 4.4.2, 4.7.0</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 8.1</td>\n<td>Hitachi Energy</td>\n<td>Hitachi Energy e-mesh EMS</td>\n<td>Heap-based Buffer Overflow</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Energy</li>\n<li><strong>Countries/Areas Deployed: </strong>Worl",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Siemens Mendix Studio Pro",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-04.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Mendix Studio Pro versions before V11.12 are affected by a file parsing vulnerability that could be triggered when the application reads specially crafted malicious project during the build pipeline. This could allow an attacker to execute arbitrary code in the context of that user. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends countermeasures for products where fixes are not, or not yet available.</strong></p>\n<p>The following versions of Siemens Mendix Studio Pro are affected:</p>\n<ul>\n<li>Mendix Studio Pro 10.11 vers:all/*</li>\n<li>Mendix Studio Pro 10.12 vers:all/*&nbsp;</li>\n<li>Mendix Studio Pro 10.13 vers:all/*</li>\n<li>Mendix Studio Pro 10.14 vers:all/*&nbsp;</li>\n<li>Mendix Studio Pro 10.15 vers:all/*&nbsp;</li>\n<li>Mendix Studio Pro 10.16 vers:all/*&nbsp;</li>\n<li>Mendix Studio Pro 10.17 vers:all/*&nbsp;</li>\n<li>Mendix Studio Pro 10.18 vers:all/*&nbsp;</li>\n<li>Mendix Studio Pro 10.19 v",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Hydro-Québec Le Circuit Electrique charging station backend",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-01",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could lead to privilege escalation, or result in a denial-of-service attack.</strong></p>\n<p>The following versions of Hydro-Québec Le Circuit Electrique charging station backend are affected:</p>\n<ul>\n<li>Le Circuit Electrique charging station backend</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>Hydro-Québec</td>\n<td>Hydro-Québec Le Circuit Electrique charging station backend</td>\n<td>Improper Access Control, Improper Restriction of Excessive Authentication Attempts, Insufficient Session Expiration</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Transportation Systems</li>\n<li><strong>Countries/Areas Deployed: </strong>Canada</li>\n<li><strong>Company Headquarters Location: </strong>Canada</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Digi International PortServer TS, Digi One SP IA",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-07.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and gain access to restricted resources, obtain credentials, and inject malicious scripts.</strong></p>\n<p>The following versions of Digi International PortServer TS, Digi One SP IA are affected:</p>\n<ul>\n<li>PortServer TS</li>\n<li>Digi One SP</li>\n<li>Digi One SP IA</li>\n<li>Digi One IA</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 5.9</td>\n<td>Digi International</td>\n<td>Digi International PortServer TS, Digi One SP IA</td>\n<td>Incorrect Authorization, Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing, Communications, Information Technology, Transportation Systems</li>\n<li><strong>Countries/Areas Deplo",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Labcenter Proteus 9",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
+    "published_date": "2026-07-07T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-06.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could disclose information and allow a malicious user to execute arbitrary code on affected installations.</strong></p>\n<p>The following versions of Labcenter Proteus 9 are affected:</p>\n<ul>\n<li>Proteus 9.1_SP4_Build_42914</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.8</td>\n<td>Labcenter Electronics</td>\n<td>Labcenter Proteus 9</td>\n<td>Out-of-bounds Write, Stack-based Buffer Overflow, Use After Free</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Communications, Critical Manufacturing, Defense Industrial Base, Energy, Healthcare and Public Health, Transportation Systems, Water and Wastewater</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>United Kingdom</li>\n</ul>\n<hr />\n<h2>Vulner",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "ST Engineering iDirect iQ-Series Terminals",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
+    "published_date": "2026-07-02T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.</strong></p>\n<p>The following versions of ST Engineering iDirect iQ-Series Terminals are affected:</p>\n<ul>\n<li>Evolution iQ‑Series terminals &lt;=4.5.2.1 (CVE-2026-38059, CVE-2026-38057)</li>\n<li>3315‑Series terminals &lt;=4.5.2.1 (CVE-2026-38059, CVE-2026-38057)</li>\n<li>9‑Series terminals &lt;=4.5.2.1 (CVE-2026-38059, CVE-2026-38057)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 8.1</td>\n<td>ST Engineering iDirect</td>\n<td>ST Engineering iDirect iQ-Series Terminals</td>\n<td>Missing Authentication for Critical Function, Cross-Site Request Forgery (CSRF)</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Communications, Defense Industrial Base, E",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Gardyn IoT Hub",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
+    "published_date": "2026-07-02T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow unauthenticated users to access and control IoT Hub managed devices.</strong></p>\n<p>The following versions of Gardyn IoT Hub are affected:</p>\n<ul>\n<li>Home Firmware</li>\n<li>Studio Firmware</li>\n<li>Cloud API &lt;2.12.2026 (CVE-2026-13768, CVE-2026-55726, CVE-2026-54477)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 10</td>\n<td>Gardyn</td>\n<td>Gardyn IoT Hub</td>\n<td>Use of Hard-coded Credentials, Exposure of Sensitive System Information to an Unauthorized Control Sphere, Improper Neutralization of HTTP Headers for Scripting Syntax</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Food and Agriculture</li>\n<li><strong>Countries/Areas Deployed: </strong>United States</li>\n<li><strong>Company Headquarters Location: </strong>United States</li>\n</u",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CubeSpace CW0057 Reaction Wheel",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
+    "published_date": "2026-07-02T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device.</strong></p>\n<p>The following versions of CubeSpace CW0057 Reaction Wheel are affected:</p>\n<ul>\n<li>CW0057 Reaction Wheel</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 6.1</td>\n<td>CubeSpace</td>\n<td>CubeSpace CW0057 Reaction Wheel</td>\n<td>Improper Verification of Cryptographic Signature</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Communications</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>South Africa</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"https://www.cisa.gov/\">Expand All +</a></p>\n<div class=\"csaf-accordion-item\">\n<h3><a cl",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published_date": "2026-07-01T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-45659\" target=\"_blank\">CVE-2026-45659</a> Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-e",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "XZ Utils vulnerability impacting B&R Products",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
+    "published_date": "2026-06-30T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-05.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>An update is available that resolves vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the product to stop or corrupt memory data.</strong></p>\n<p>The following versions of XZ Utils vulnerability impacting B&amp;R Products are affected:</p>\n<ul>\n<li>PPC3100 &lt;1.8.1, 1.8.1 (CVE-2025-31115)</li>\n<li>C50 &lt;1.8.0, 1.8.0 (CVE-2025-31115)</li>\n<li>C80 &lt;1.8.0, 1.8.0 (CVE-2025-31115)</li>\n<li>FT50 &lt;1.8.1, 1.8.1 (CVE-2025-31115)</li>\n<li>MT50 &lt;1.8.1, 1.8.1 (CVE-2025-31115)</li>\n<li>T30 &lt;1.8.0, 1.8.0 (CVE-2025-31115)</li>\n<li>T80 &lt;1.8.0, 1.8.0 (CVE-2025-31115)</li>\n<li>T50 &lt;1.8.1, 1.8.1 (CVE-2025-31115)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.5</td>\n<td>B&amp;R Industrial Automation GmbH</td>\n<td>XZ Utils vulnerability impacting B&amp;R Products</td>\n<td>Rac",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Delta Electronics DVP12SE PLC",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
+    "published_date": "2026-06-30T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-07.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to remotely issue commands, modify operational values, interfere with control logic, and alter device behavior without authentication or privilege enforcement.</strong></p>\n<p>The following versions of Delta Electronics DVP12SE PLC are affected:</p>\n<ul>\n<li>DVP12SE PLC vers:all/* (CVE-2026-12819, CVE-2026-12818)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>Delta Electronics</td>\n<td>Delta Electronics DVP12SE PLC</td>\n<td>Missing Authentication for Critical Function, Allocation of Resources Without Limits or Throttling</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>Taiwan</li>\n<",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Frangoteam FUXA SCADA/HMI",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
+    "published_date": "2026-06-30T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to enumerate all user accounts and role assignments on a FUXA SCADA/HMI instance.</strong></p>\n<p>The following versions of Frangoteam FUXA SCADA/HMI are affected:</p>\n<ul>\n<li>FUXA SCADA/HMI &lt;=1.3.1 (CVE-2026-13207)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.5</td>\n<td>Frangoteam</td>\n<td>Frangoteam FUXA SCADA/HMI</td>\n<td>Authentication Bypass by Spoofing</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing, Energy, Water and Wastewater</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>Switzerland</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"http",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "OFFIS DCMTK Toolkit",
+    "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
+    "published_date": "2026-06-30T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-181-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to write files, access unauthorized information, exhaust memory, or crash affected DCMTK client or server processes.</strong></p>\n<p>The following versions of OFFIS DCMTK Toolkit are affected:</p>\n<ul>\n<li>DCMTK &lt;=3.7.0 (CVE-2026-50003, CVE-2026-50254, CVE-2026-35505, CVE-2026-52868, CVE-2026-44628)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>OFFIS</td>\n<td>OFFIS DCMTK Toolkit</td>\n<td>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Missing Release of Memory after Effective Lifetime, Access of Resource Using Incompatible Type ('Type Confusion')</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Healthcare and Public Health</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "LabubaRAT malware infiltrates Windows systems while posing as NVIDIA software",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/labubarat-rust-malware-nvidia-disguise/",
+    "published_date": "2026-07-15T14:43:44+00:00",
+    "source_type": "news",
+    "summary": "<p>LabubaRAT, a previously undocumented Rust-based remote access tool (RAT) masquerading as NVIDIA software that enables post-compromise operations on Windows systems, has been uncovered by Blackpoint Cyber. According to researchers, LabubaRAT creates &#8220;a reusable foothold for hands-on activity.&#8221; Once deployed, it can profile the host, identify installed security tools, receive operator commands, transfer files, capture screenshots, and proxy network traffic through the affected system. Blackpoint Cyber named the malware LabubaRAT after discovering a &#8220;LabubaPanel&#8221; title and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/labubarat-rust-malware-nvidia-disguise/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/labubarat-rust-malware-nvidia-disguise/\">LabubaRAT malware infiltrates Windows systems while posing as NVIDIA software</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Threat actor impersonated hundreds of brands on GitHub to push infostealer malware",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/impersonated-brands-github-infostealer-download/",
+    "published_date": "2026-07-15T13:52:39+00:00",
+    "source_type": "news",
+    "summary": "<p>A financially motivated threat actor is impersonating hundreds of brands on GitHub and pushing a smash-and-grab infostealer masquerading as legitimate downloads of popular software, Arctic Wolf threat researchers have warned. &#8220;The 292 impersonated repositories span security tooling, fintech and personal finance, cryptocurrency wallets and exchanges, developer and productivity tools, secure email providers, macOS utilities, and gaming software, including &#8216;cheat&#8217; tools,&#8221; they said. How the attack works Among these repositories was one impersonating Arctic Wolf, which &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/impersonated-brands-github-infostealer-download/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/impersonated-brands-github-infostealer-download/\">Threat actor impersonated hundreds of brands on GitHub to push infostealer malware</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Socure rolls out Remote Verifier for higher-risk identity checks",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/socure-rolls-out-remote-verifier-for-higher-risk-identity-checks/",
+    "published_date": "2026-07-15T13:51:39+00:00",
+    "source_type": "news",
+    "summary": "<p>Socure has launched Remote Verifier in RiskOS, a new identity verification tool that helps organizations verify identities requiring additional review while reducing manual effort. Socure’s AI-powered document verification solution instantly verifies more than 99% of identities on the first try, compared to an industry average of 64%. The Remote Verifier is designed for individuals who do not initially pass Socure’s document verification check. With verification accuracy, the company anticipates fewer than 1% of individuals will &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/socure-rolls-out-remote-verifier-for-higher-risk-identity-checks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/socure-rolls-out-remote-verifier-for-higher-risk-identity-checks/\">Socure rolls out Remote Verifier for higher-risk identity checks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Xint Pulse offers on-demand black-box penetration testing for web applications",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/xint-pulse/",
+    "published_date": "2026-07-15T13:45:05+00:00",
+    "source_type": "news",
+    "summary": "<p>Xint.io has launched Xint Pulse, a black-box autonomous penetration testing tool that provides product security teams with on-demand security assessments of their applications. Unlike the company&#8217;s enterprise platform, which is designed for continuous testing, Xint Pulse is intended for timely, one-off penetration tests. But with Xint Pulse, organizations of all sizes, from startups to large enterprises, can now perform a scan of their applications with the same Xint technology that was named Best Automated Pentesting &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/xint-pulse/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/xint-pulse/\">Xint Pulse offers on-demand black-box penetration testing for web applications</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "F5 Insight for ADSP enhances BIG-IP operations with guided updates and AI audit trails",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/f5-insight-for-adsp/",
+    "published_date": "2026-07-15T13:33:41+00:00",
+    "source_type": "news",
+    "summary": "<p>F5 has announced new fleet management capabilities for F5 Insight for ADSP that help enterprises reduce risk exposure across F5 BIG-IP environments as frontier AI compresses vulnerability response timelines. The new F5 Insight workflows give security and operations teams fleet-wide visibility, guided update management, enterprise authentication, role-based access controls, and a tamper-evident AI audit trail. This enables customers to move from identifying risk to taking accountable action across large, distributed application delivery and security fleets. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/f5-insight-for-adsp/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/f5-insight-for-adsp/\">F5 Insight for ADSP enhances BIG-IP operations with guided updates and AI audit trails</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Radware adds cloud intelligence to DefensePro X for web DDoS defense",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/radware-defensepro-x-cloud-augmented-protection/",
+    "published_date": "2026-07-15T12:16:27+00:00",
+    "source_type": "news",
+    "summary": "<p>Radware has announced a new cloud-augmented protection architecture for DefensePro X, extending the platform with new AI-powered cloud algorithms while keeping traffic inspection and mitigation locally within customer premises. The first such service released is Cloud Web DDoS Protection for DefensePro X designed to improve characterization and real time footprint generation of sophisticated application-layer distributed denial-of-service (DDoS) attacks without requiring organizations to reroute traffic through the cloud. Web DDoS attacks continue to evolve as attackers &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/radware-defensepro-x-cloud-augmented-protection/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/radware-defensepro-x-cloud-augmented-protection/\">Radware adds cloud intelligence to DefensePro X for web DDoS defense</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "LatticeFlow AI connects governance frameworks with continuous AI risk monitoring",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/latticeflow-ai-platform/",
+    "published_date": "2026-07-15T12:04:56+00:00",
+    "source_type": "news",
+    "summary": "<p>LatticeFlow AI has announced a platform for managing AI risk across agentic systems. Organizations are deploying autonomous AI in critical business processes, while governance approaches based on documentation and point-in-time assessments struggle to keep up with evolving risks. The LatticeFlow AI Platform links AI governance frameworks with technical controls to continuously generate evidence and translate evaluation results into risk insights, helping organizations assess AI systems and support governance decisions. The platform combines AI discovery, evaluation, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/latticeflow-ai-platform/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/latticeflow-ai-platform/\">LatticeFlow AI connects governance frameworks with continuous AI risk monitoring</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Spanish police dismantle €140 million cybercrime network",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/cybercrime-network-investment-fraud-spain/",
+    "published_date": "2026-07-15T11:55:13+00:00",
+    "source_type": "news",
+    "summary": "<p>Spanish National Police have dismantled a cybercrime network accused of stealing and laundering about €140 million through fake investment platforms, CEO fraud, invoice fraud, and man-in-the-middle attacks. Four people were arrested as part of the operation: two in Portugal, one in Spain, and one in Panama. The investigation began after officers identified 19 companies whose financial activity appeared consistent with money laundering rather than legitimate business activity. Officers reviewed bank records, examined company registrations and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/cybercrime-network-investment-fraud-spain/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/cybercrime-network-investment-fraud-spain/\">Spanish police dismantle €140 million cybercrime network</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Nudge Security automates detection of risky OAuth grants and browser extensions",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/nudge-security-agentic-capabilities/",
+    "published_date": "2026-07-15T11:51:27+00:00",
+    "source_type": "news",
+    "summary": "<p>Nudge Security has announced new agentic capabilities to help security and IT teams find and remediate malicious and high-risk OAuth grants and browser extensions, two of the fastest-growing and hardest to manage attack surfaces in the enterprise. The new agents continuously analyze OAuth grants and browser extensions discovered by Nudge Security, flag what&#8217;s risky, and automate remediation with human-in-the-loop decisions. The new agents join Nudge Security&#8217;s Vendor Risk Analyst agent, which automatically builds vendor security &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/nudge-security-agentic-capabilities/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/nudge-security-agentic-capabilities/\">Nudge Security automates detection of risky OAuth grants and browser extensions</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Binary Defense’s NightBeacon CMD helps enterprise SOC teams automate threat investigations",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/binary-defenses-nightbeacon-cmd-helps-enterprise-soc-teams-automate-threat-investigations/",
+    "published_date": "2026-07-15T11:37:31+00:00",
+    "source_type": "news",
+    "summary": "<p>Binary Defense has announced NightBeacon CMD, a standalone AI-driven SOC workbench that enterprise security teams can deploy in their own environments. Built and hardened inside Binary Defense&#8217;s live 24/7 Security Operations Center (SOC), NightBeacon CMD gives customers the same operating platform Binary Defense&#8217;s own analysts use every day, without requiring a managed service. Rather than simply adding another AI layer to existing security tools, NightBeacon CMD fundamentally changes how a SOC operates. The platform delivers &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/binary-defenses-nightbeacon-cmd-helps-enterprise-soc-teams-automate-threat-investigations/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/binary-defenses-nightbeacon-cmd-helps-enterprise-soc-teams-automate-threat-investigations/\">Binary Defense’s NightBeacon CMD helps enterprise SOC teams automate threat investigations</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "​    ​AsyncAPI npm packages infected with credential-stealing malware",
+    "url": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+    "published_date": "2026-07-15T15:37:27+00:00",
+    "source_type": "news",
+    "summary": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+    "url": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+    "published_date": "2026-07-15T14:01:11+00:00",
+    "source_type": "news",
+    "summary": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found and exploited a previously unknown WordPress plugin zero-day, with additional discoveries already under responsible disclosure. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Forgotten UEFI shims undermining Secure Boot",
+    "url": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
+    "published_date": "2026-07-14T08:53:00+00:00",
+    "source_type": "research",
+    "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
+    "feed_source": "https://feeds.feedburner.com/eset/blog",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "ESET Threat Report H1 2026",
+    "url": "https://www.welivesecurity.com/en/eset-research/eset-threat-report-h1-2026/",
+    "published_date": "2026-07-08T08:45:00+00:00",
+    "source_type": "research",
+    "summary": "A view of the H1 2026 threat landscape as seen by ESET telemetry and from the perspective of ESET threat detection and research experts.",
+    "feed_source": "https://feeds.feedburner.com/eset/blog",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "Cyber readiness for SMBs: Getting the basics right",
+    "url": "https://www.welivesecurity.com/en/business-security/cyber-readiness-smbs-getting-basics-right/",
+    "published_date": "2026-07-03T12:36:41+00:00",
+    "source_type": "research",
+    "summary": "AI is changing cybercrime, but SMB cyber readiness still largely depends on closing the familiar gaps",
+    "feed_source": "https://feeds.feedburner.com/eset/blog",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "2026-008: Critical vulnerabilities in Ivanti Sentry",
+    "url": "https://cert.europa.eu/publications/security-advisories/2026-008/",
+    "published_date": "2026-06-10T13:55:39+00:00",
+    "source_type": "advisory",
+    "summary": "On 9 June 2026, Ivanti released a security advisory addressing two critical vulnerabilities in their Sentry products[1]. An attacker could exploit those flaws to achieve unauthenticated remote code execution on the vulnerable device.<br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "2026-007: Critical Vulnerability in Windows Netlogon",
+    "url": "https://cert.europa.eu/publications/security-advisories/2026-007/",
+    "published_date": "2026-06-10T08:47:08+00:00",
+    "source_type": "advisory",
+    "summary": "On 12 May 2026, Microsoft published a security advisory addressing a critical vulnerability affecting Windows Server when acting as a domain controller. This vulnerability allows an unauthenticated attacker to execute arbitrary code over a network.<br />\nAccording to The Centre for Cybersecurity Belgium (CCB), this vulnerability is currently exploited by threat actors. It is strongly recommended updating affected Windows servers as soon as possible. <br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "2026-006: Critical Vulnerability in PAN-OS",
+    "url": "https://cert.europa.eu/publications/security-advisories/2026-006/",
+    "published_date": "2026-05-06T10:44:32+00:00",
+    "source_type": "advisory",
+    "summary": "On 6 May 2026, Palo Alto published a security advisory addressing a critical vulnerability affecting PAN-OS. This vulnerability allows an unauthenticated attacker to execute arbitrary code with root privileges.<br />\nPalo Alto observed limited exploitation of this vulnerability. It is strongly recommended updating affected appliances as soon as patches will be available, and to apply workarounds and mitigation in the meantime.<br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "2026-005: High Vulnerability in the Linux Kernel (\"Copy Fail\")",
+    "url": "https://cert.europa.eu/publications/security-advisories/2026-005/",
+    "published_date": "2026-04-30T11:25:30+00:00",
+    "source_type": "advisory",
+    "summary": "On 29 April 2026, a high local privilege escalation vulnerability in the Linux kernel, tracked as CVE-2026-31431 and named \"Copy Fail\", was publicly disclosed.<br />\nThe vulnerability affects every mainstream Linux distributions shipping a kernel built since 2017. A public proof-of-concept exploit has been released.<br />\nAs of the date of this advisory, no distribution has shipped a fixed kernel package. The mainline fix was committed on 1 April 2026, but vendor updates are still pending across all major distributions. CERT-EU strongly recommends applying the interim mitigation immediately, prioritising Kubernetes nodes, and CI/CD runners exposed to untrusted workloads.<br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "2026-004: Critical Vulnerability in SharePoint Exploited",
+    "url": "https://cert.europa.eu/publications/security-advisories/2026-004/",
+    "published_date": "2026-03-25T08:51:39+00:00",
+    "source_type": "advisory",
+    "summary": "On 17 March 2026, Microsoft updated one of its January 2026 security advisories related to a remote code execution vulnerability in Microsoft SharePoint. Specifically, Microsoft raised the CVSS score and changed the FAQ section to indicate that the vulnerability could be exploited by an unauthenticated attacker. This vulnerability was added in the CISA's Known Exploited Vulnerabilities (KEV) catalogue on 18 March 2026.<br />\nAdditionally, three further RCE flaws affecting Microsoft SharePoint were addressed in the March 2026 release.<br />\nCERT-EU strongly recommends updating SharePoint servers as soon as possible, prioritising internet-facing assets. CERT-EU also encourages IT administrators to take necessary remediation actions.<br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "2026-003: Multiple Vulnerabilities in Citrix NetScaler and Citrix ADC",
+    "url": "https://cert.europa.eu/publications/security-advisories/2026-003/",
+    "published_date": "2026-03-23T19:03:59+00:00",
+    "source_type": "advisory",
+    "summary": "On 23 March 2026, Citrix published a security advisory addressing multiple vulnerabilities affecting NetScaler ADC and NetScaler Gateway. These vulnerabilities may lead to sensitive information disclosure and user session mix-up under specific configurations.<br />\nAt the time of writing, there is no public evidence of active exploitation. It is strongly recommended updating affected gateways, prioritising internet-facing assets. It is also recommended to preserve evidence for further investigation.<br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "2026-002: Multiple Vulnerabilities in Cisco Products",
+    "url": "https://cert.europa.eu/publications/security-advisories/2026-002/",
+    "published_date": "2026-02-26T19:38:52+00:00",
+    "source_type": "advisory",
+    "summary": "On 25 February 2026, Cisco released security advisories addressing multiple high and critical severity vulnerabilities in Cisco Catalyst SD-WAN controllers and Cisco SD-WAN Manager. If exploited, these vulnerabilities could allow attackers to gain administrative access to compromised systems. <br />\nIt is recommended to capture forensic evidence, hunt for indicators of compromise, and apply updates as soon as possible.<br />\nOne of the vulnerabilities, CVE-2026-20127, is exploited in the wild since 2023.<br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "2026-001: Critical vulnerabilities in Ivanti EPMM",
+    "url": "https://cert.europa.eu/publications/security-advisories/2026-001/",
+    "published_date": "2026-01-30T10:09:06+00:00",
+    "source_type": "advisory",
+    "summary": "On 29 January 2026, Ivanti released a security advisory addressing two critical vulnerabilities in their EPMM products. An attacker could exploit those flaws to achieve unauthenticated remote code execution on the vulnerable device. One of these vulnerabilities have been exploited in a limited number of cases.<br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "2025-042: Critical Vulnerability in Cisco Secure Email and Web Manager",
+    "url": "https://cert.europa.eu/publications/security-advisories/2025-042/",
+    "published_date": "2025-12-18T10:08:41+00:00",
+    "source_type": "advisory",
+    "summary": "On December 17, 2025, Cisco released a security advisory for a critical vulnerability affecting Cisco Secure Email Gateway and Cisco Secure Email and Web Manager products. <br />\nIt is recommended to follow Cisco's recommendations to check whether vulnerable appliances have been compromised, and to remediate the issue. There is no patch available for this vulnerability yet.<br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "2025-041: Critical Security Vulnerability in React Server Components",
+    "url": "https://cert.europa.eu/publications/security-advisories/2025-041/",
+    "published_date": "2025-12-04T14:50:51+00:00",
+    "source_type": "advisory",
+    "summary": "On December 3, 2025, the React Team publicly disclosed a critical security vulnerability affecting React Server Components (RSC) and related packages. The vulnerability allows for unauthenticated remote code execution (RCE) via maliciously crafted HTTP requests.<br />\nIt is recommended to update all affected component packages and any frameworks that integrate them.<br />",
+    "feed_source": "https://cert.europa.eu/publications/security-advisories-rss",
+    "publisher": "Latest publications of type Security Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "Unpatched Cursor Vulnerability Exposes Users to Code Execution",
+    "url": "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/",
+    "published_date": "2026-07-15T14:37:13+00:00",
+    "source_type": "news",
+    "summary": "<p>An attacker can create a malicious repository containing a git.exe in the project root, and Cursor executes it automatically.</p>\n<p>The post <a href=\"https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/\">Unpatched Cursor Vulnerability Exposes Users to Code Execution</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities",
+    "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/",
+    "published_date": "2026-07-15T14:07:44+00:00",
+    "source_type": "news",
+    "summary": "<p>Three vulnerabilities are actively exploited in attacks, including two that have been targeted as zero-days.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/\">CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Windows Bind Link Attacks Can Hide Malware From EDR Tools",
+    "url": "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/",
+    "published_date": "2026-07-15T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Bitdefender researchers show how Windows bind links can create conflicting filesystem views to hide malware from endpoint security products.</p>\n<p>The post <a href=\"https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/\">Windows Bind Link Attacks Can Hide Malware From EDR Tools</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Virtual Event Today: Cloud & Data Security Summit",
+    "url": "https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/",
+    "published_date": "2026-07-15T12:52:10+00:00",
+    "source_type": "news",
+    "summary": "<p>Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments.</p>\n<p>The post <a href=\"https://www.securityweek.com/virtual-event-today-cloud-data-security-summit/\">Virtual Event Today: Cloud &amp; Data Security Summit</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "US Charges Russian Individuals and Firms for Running Cybercrime Services",
+    "url": "https://www.securityweek.com/us-charges-russian-individuals-and-firms-for-running-cybercrime-services/",
+    "published_date": "2026-07-15T11:58:05+00:00",
+    "source_type": "news",
+    "summary": "<p>The suspects and their companies were previously sanctioned by the United States and its allies.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-charges-russian-individuals-and-firms-for-running-cybercrime-services/\">US Charges Russian Individuals and Firms for Running Cybercrime Services</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow",
+    "url": "https://www.securityweek.com/vulnerabilities-patched-by-fortinet-ivanti-servicenow/",
+    "published_date": "2026-07-15T11:02:57+00:00",
+    "source_type": "news",
+    "summary": "<p>A critical security defect in the ServiceNow AI platform could allow remote attackers to execute arbitrary code.</p>\n<p>The post <a href=\"https://www.securityweek.com/vulnerabilities-patched-by-fortinet-ivanti-servicenow/\">Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Understanding Claude Tag’s access model in Slack and how to configure it securely",
+    "url": "https://www.tenable.com/blog/claude-tag-slack-access-model",
+    "published_date": "2026-07-15T15:08:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Anthropic’s new AI agent for Slack acts under an admin-configured access bundle rather than each user’s own credentials. Here’s how that model works, what admins should understand and how to securely configure it.</p><div class=\"blog-see-also\"><div class=\"col-sm-12\"><h2>Key takeaways</h2><ol><li>Claude Tag, Anthropic’s newly launched AI agent for Slack, acts on connected services using shared credentials an admin configures for a workspace or for a specific private channel, not the credentials of the user tagging it.</li><li>Claude Tag uses the service-identity pattern, like deploy bots, workflow automations, and incoming webhooks, rather than per-user OAuth delegation. As a result, one admin-configured bundle serves everyone in the channel.</li><li>Inviting someone to a channel where Claude Tag is present lets them converse with Claude and see its output there. What Claude can access is fixed by the admin-configured bundle, and organizations can require claude.ai login and role-based access control before a user may interact with Claude at all. Channel invitations do not confer new permissions on the invitee.</li><li>As part of Tenable’s ongoing partnership with Anthropic, Tena",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "5 reasons to bring application security data into your exposure management platform",
+    "url": "https://www.tenable.com/blog/application-security-data-exposure-management-integration",
+    "published_date": "2026-07-15T12:45:00+00:00",
+    "source_type": "research",
+    "summary": "<p>When you incorporate data from application security scanners into your exposure management platform, you can assess the threat from formerly isolated code flaws using a broader risk context, which illuminates hidden exposures that your security and development teams can eliminate together.</p><div class=\"blog-see-also\"><div class=\"col-sm-12\"><h2>Key takeaways</h2><ol><li>Break application security silos and obtain full code-to-runtime visibility by integrating standalone code scanner data with your exposure management platform.</li><li>By contextualizing application security findings, filtering out alert noise, and automating patches, exposure management helps organizations pinpoint and fix<strong> </strong>the riskiest coding flaws to your organization.</li><li>Leveraging exposure management, CISOs can transform technical application-security metrics into clear insights on business resilience that the board and the C-suite can understand, as well as enforce risk-based SLAs, and benchmark against industry peers.</li></ol></div></div><p>Securing the code that enterprise developers write, assemble, and deploy has been a perennial challenge for security teams. As a result, code con",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "TuxBot v3: Inside an IoT Botnet Framework With LLM-Assisted Development",
+    "url": "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/",
+    "published_date": "2026-07-15T10:00:54+00:00",
+    "source_type": "research",
+    "summary": "<p>TuxBot v3 Evolution, an IoT botnet framework built with LLMs. Read our analysis of its cross-compiled binaries, C2 architecture and bugs.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/\">TuxBot v3: Inside an IoT Botnet Framework With LLM-Assisted Development</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/",
+    "publisher": "Unit 42",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-404: Delta Electronics DTM Soft Project File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-404/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics DTM Soft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-12578.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities",
+    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
+    "published_date": "2026-07-14T20:27:33+00:00",
+    "source_type": "research",
+    "summary": "Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as \"critical.\"",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "[Video] Where protection starts: Cisco Talos Intelligence Integrations",
+    "url": "https://blog.talosintelligence.com/video-where-protection-starts-cisco-talos-intelligence-integrations/",
+    "published_date": "2026-07-14T10:47:18+00:00",
+    "source_type": "research",
+    "summary": "Every day, defenders make high-consequence decisions with incomplete information. Learn how Cisco Talos Intelligence Integrations help reduce uncertainty by turning the latest threat intelligence into proactive protections across Cisco technologies.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "The serpent’s tongue: Luring the Python out of its den",
+    "url": "https://blog.talosintelligence.com/the-serpents-tongue-luring-the-python-out-of-its-den/",
+    "published_date": "2026-07-14T10:00:06+00:00",
+    "source_type": "research",
+    "summary": "This blog examines the full lifecycle of a Python package, from hosting on repositories such as PyPI or custom web servers, through source and wheel distribution formats, to the final installation into virtual or system-wide Python environments.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "WolfSSL, GeoVision, VTK vulnerabilities",
+    "url": "https://blog.talosintelligence.com/wolfssl-vulnerabilities/",
+    "published_date": "2026-07-09T18:52:29+00:00",
+    "source_type": "research",
+    "summary": "<p>Cisco Talos&#x2019; Vulnerability Discovery &amp; Research team recently disclosed three vulnerabilities in WolfSSF, fourteen in GeoVision, and one vulnerability in VTK-DICOM.</p><p>The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to<a href=\"https://sec.cloudapps.cisco.com/security/center/resources/vendor_vulnerability_policy.html\"><u> Cisco&#x2019;s third-party vulnerability disclosure policy</u></a>.&#xa0;</p><p>For</p>",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Winning 54% of the time",
+    "url": "https://blog.talosintelligence.com/winning-54-of-the-time/",
+    "published_date": "2026-07-09T18:00:06+00:00",
+    "source_type": "research",
+    "summary": "With Wimbledon's help, Hazel argues against the popular myth that \"Attackers only need to be right once, but defenders need to be right 100% of the time.\"",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "UAT-7810 continues building ORB networks using new malware",
+    "url": "https://blog.talosintelligence.com/uat-7810/",
+    "published_date": "2026-07-07T10:00:05+00:00",
+    "source_type": "research",
+    "summary": "Talos’ latest findings on UAT-7810 indicate that the threat actor continues to develop their custom-made malware.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Catan and Mouse",
+    "url": "https://blog.talosintelligence.com/catan-and-mouse/",
+    "published_date": "2026-07-02T18:00:34+00:00",
+    "source_type": "research",
+    "summary": "What do board games and cybersecurity have in common? Pattern recognition. Strategy. Adaptation. In this week’s Threat Source Bill explores why curiosity may be a defender’s most valuable skill.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Investigating Persistence Mechanisms in AWS",
+    "url": "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
+    "published_date": "2026-07-15T13:00:00+00:00",
+    "source_type": "research",
+    "summary": "<h2>Overview</h2><p>In the cloud, your infrastructure may be short-lived, but an attacker’s persistence doesn't have to be. While your environment scales and changes in seconds, adversaries are embedding themselves into your IAM policies, Lambda functions, and federated sessions, creating invisible footholds that survive long after you believe an incident is closed.</p><p>Persistence in AWS is not just a technical oversight; it is a fundamental business risk. If you cannot see how an attacker has rooted themselves in your environment, you cannot contain them. This article moves beyond theory to provide the critical detection logic, investigation workflows, and actionable response steps required to hunt down hidden persistence and reclaim your AWS environment. This reference enables Rapid7 <a href=\"/products/siem\" target=\"_self\">Incident Command</a> customers to investigate and understand AWS alert behaviors.</p><h2>Persistence technique: IAM user</h2><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">One of the most common persistence techniques is maintaining access by creating or modifying Identity and Access Management (IAM) users. An attacker can issue the </span><s",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
   }
 ]
