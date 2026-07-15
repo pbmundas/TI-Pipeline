@@ -1,6 +1,7 @@
 # TI Pipeline (Ollama edition)
 
-Generates the `gui/unified_report.json` file consumed by
+Generates the current `gui/unified_report.json` file plus date-stamped daily
+snapshots and shareable HTML permalinks under `reports/`, consumed by
 [tidashboar.github.io](https://github.com/JouniMi/tidashboar.github.io),
 using **local Ollama + qwen2.5:7b** instead of a hosted OpenAI API.
 
@@ -28,7 +29,10 @@ RSS feeds  -->  fetch_feeds.py  -->  local article cache (data/articles.json)
 
 The output JSON matches the exact shape the dashboard's Vue app expects:
 `metadata`, `sources`, `executive_brief`, `threat_stories`, `actor_profiles`,
-`critical_vulnerabilities`, `hunting_leads`, `statistics`.
+`critical_vulnerabilities`, `hunting_leads`, `statistics`. Every successful
+run also updates `reports/index.json`; the dashboard uses it to render a
+blog-style Archive tab beside Statistics. Re-running on the same UTC date
+updates that day's entry, while later dates create new permanent reports.
 
 ## 1. Prerequisites
 
@@ -64,6 +68,7 @@ Edit `config.yaml`:
 - `feeds` - add/remove RSS sources
 - `ollama.model` - change if you use a different local model/tag
 - `report.time_period_days` - reporting window (default 7 days)
+- `paths.archive_relative_dir` - daily snapshot, permalink, and index directory (default `reports`)
 
 Make sure `git push` works non-interactively from that dashboard repo clone
 (SSH key with no passphrase prompt, or a credential helper / PAT configured

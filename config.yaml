@@ -39,6 +39,8 @@ paths:
   # (optionally) commits + pushes it on this same repo's remote.
   dashboard_repo: "."
   output_relative_path: "gui/unified_report.json"
+  # Date-stamped reports and the Archive tab's index are written here.
+  archive_relative_dir: "reports"
 
 git:
   enabled: true
@@ -49,6 +51,9 @@ git:
 # RSS feeds to poll. Add/remove freely - title/url/published date are
 # extracted automatically via feedparser.
 feeds:
+
+  # Prefer direct RSS/Atom endpoints. Each feed can include publisher and a
+  # short note; both are retained as source context in generated reports.
 
   # ===========================
   # News
@@ -67,6 +72,14 @@ feeds:
 
   - url: "https://www.helpnetsecurity.com/feed/"
     source_type: "news"
+
+  - url: "https://feeds.feedburner.com/eset/blog"
+    source_type: "research"
+    publisher: "ESET Research"
+
+  - url: "https://www.welivesecurity.com/en/rss/feed/"
+    source_type: "research"
+    publisher: "WeLiveSecurity"
     
   - url: "https://www.darkreading.com/rss/all.xml"
     source_type: "news"
@@ -85,6 +98,15 @@ feeds:
   # ===========================
   - url: "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml"
     source_type: "advisory"
+
+  - url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    source_type: "advisory"
+    publisher: "CISA"
+    note: "Primary-source US government cybersecurity advisories."
+
+  - url: "https://cert.europa.eu/publications/security-advisories-rss"
+    source_type: "advisory"
+    publisher: "CERT-EU"
 
   - url: "https://www.jpcert.or.jp/rss/jpcert.rdf"
     source_type: "advisory"
@@ -148,6 +170,14 @@ feeds:
   - url: "https://www.microsoft.com/en-us/security/blog/feed/"
     source_type: "research"
 
+  - url: "https://blog.talosintelligence.com/rss/"
+    source_type: "research"
+    publisher: "Cisco Talos"
+
+  - url: "https://www.mandiant.com/resources/blog/rss.xml"
+    source_type: "research"
+    publisher: "Mandiant"
+
   - url: "https://redcanary.com/blog/feed/"
     source_type: "research"
 
@@ -160,6 +190,10 @@ feeds:
   - url: "https://sans.edu"
     source_type: "operational"
     note: "Direct SANS Institute global sensor and threat tracker dashboard XML."
+
+  - url: "https://isc.sans.edu/rssfeed.xml"
+    source_type: "operational"
+    publisher: "SANS Internet Storm Center"
 
   - url: "https://openphish.com"
     source_type: "ioc"
