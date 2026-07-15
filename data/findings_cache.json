@@ -87,14 +87,6 @@
     ],
     "industries": []
   },
-  "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html": {
-    "enriched_at": "2026-07-02T09:14:14.004898+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/": {
     "enriched_at": "2026-07-02T09:16:41.865403+00:00",
     "incidents": [],
@@ -178,34 +170,6 @@
       "Healthcare"
     ]
   },
-  "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/": {
-    "enriched_at": "2026-07-02T09:17:18.761462+00:00",
-    "incidents": [
-      {
-        "headline": "DHS confirms hackers breached HSIN info-sharing platform",
-        "summary": "The Department of Homeland Security is investigating a cyberattack that compromised the Homeland Security Information Network (HSIN), a sensitive information-sharing platform used by federal, state, local, and private-sector partners.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Federal, State, Local, Private-Sector"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/": {
-    "enriched_at": "2026-07-02T09:17:18.761462+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Federal, State, Local, Private-Sector"
-    ]
-  },
   "https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/": {
     "enriched_at": "2026-07-02T09:17:18.761462+00:00",
     "incidents": [],
@@ -256,22 +220,6 @@
   "https://hackread.com/ransomware-proof-backup-strategies-enterprise-it-teams/": {
     "enriched_at": "2026-07-02T09:18:49.460949+00:00",
     "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://hackread.com/fake-google-notes-browser-extension-swap-crypto-wallets/": {
-    "enriched_at": "2026-07-02T09:18:49.460949+00:00",
-    "incidents": [
-      {
-        "headline": "Fake “Google Notes” Browser Extension Caught Swapping Crypto Wallet Addresses",
-        "summary": "McAfee reports a fake Google Notes browser extension that swaps crypto wallet addresses, posing risks to users of Chrome, Brave, and Edge.",
-        "source_urls": [
-          "https://hackread.com/fake-google-notes-browser-extension-swap-crypto-wallets/"
-        ]
-      }
-    ],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -551,50 +499,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://ubuntu.com/security/notices/USN-8493-1": {
-    "enriched_at": "2026-07-02T09:36:41.387419+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2022-48816, CVE-2023-53673, CVE-2025-37778, CVE-2025-37822, CVE-2025-37924, CVE-2025-38201, CVE-2025-40082, CVE-2025-68214, CVE-2025-68263, CVE-2025-71089, CVE-2025-71220, CVE-2025-71222, CVE-2025-71224, CVE-2026-23176",
-        "product": "Linux kernel",
-        "vendor": "Linux",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Multiple security issues in the Linux kernel that could allow an attacker to compromise the system.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to the latest version of the Linux kernel.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8493-1"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://ubuntu.com/security/notices/USN-8492-1": {
-    "enriched_at": "2026-07-02T09:36:41.387419+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2022-48816, CVE-2023-53673, CVE-2025-37778, CVE-2025-37822, CVE-2025-37924, CVE-2025-38201, CVE-2025-40082, CVE-2025-68214, CVE-2025-68263, CVE-2025-71089, CVE-2025-71220, CVE-2025-71222, CVE-2025-71224, CVE-2026-23176",
-        "product": "Linux kernel",
-        "vendor": "Linux",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Multiple security issues in the Linux kernel that could allow an attacker to compromise the system.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to the latest version of the Linux kernel.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8492-1"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html": {
     "enriched_at": "2026-07-02T10:25:43.139217+00:00",
     "incidents": [
@@ -667,28 +571,6 @@
     "enriched_at": "2026-07-02T10:28:01.662075+00:00",
     "incidents": [],
     "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/osquery/osquery/releases/tag/5.23.1": {
-    "enriched_at": "2026-07-02T10:28:01.662075+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "osquery",
-        "vendor": "osquery",
-        "severity": "CRITICAL",
-        "cvss": 7.5,
-        "description": "Heap buffer overflow vulnerabilities in the Windows processes and authenticode tables, as well as a use-after-free issue in the Linux process_file_events implementation.",
-        "exploitation_status": "LIKELY",
-        "remediation": "Update to osquery v5.23.1 or later.",
-        "source_urls": [
-          "https://github.com/osquery/osquery/releases/tag/5.23.1"
-        ]
-      }
-    ],
     "actors": [],
     "hunting_indicators": [],
     "industries": []
@@ -9974,6 +9856,57 @@
         ]
       }
     ],
+    "industries": []
+  },
+  "https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410": {
+    "enriched_at": "2026-07-15T17:35:04.341533+00:00",
+    "incidents": [
+      {
+        "headline": "New SonicWall SMA1000 Zero Days being Actively Exploited",
+        "summary": "SonicWall published a security advisory addressing two critical vulnerabilities in the SMA1000 Series remote access appliances, including CVE-2026-15409 and CVE-2026-15410. The vulnerabilities are being actively exploited.",
+        "source_urls": [
+          "https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-15409",
+        "product": "SMA1000 Series remote access appliances",
+        "vendor": "SonicWall",
+        "severity": "CRITICAL",
+        "cvss": 10.0,
+        "description": "Server-side request forgery (SSRF) vulnerability that permits an unauthenticated attacker to open a websocket-based tunnel to arbitrary localhost-only services.",
+        "exploitation_status": "ACTIVELY EXPLOITED",
+        "remediation": "Apply the latest platform hotfix releases immediately.",
+        "source_urls": [
+          "https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410"
+        ]
+      },
+      {
+        "cve": "CVE-2026-15410",
+        "product": "SMA1000 Series remote access appliances",
+        "vendor": "SonicWall",
+        "severity": "HIGH",
+        "cvss": null,
+        "description": "Code injection vulnerability.",
+        "exploitation_status": "ACTIVELY EXPLOITED",
+        "remediation": "Apply the latest platform hotfix releases immediately.",
+        "source_urls": [
+          "https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/": {
+    "enriched_at": "2026-07-15T17:35:04.341533+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
     "industries": []
   }
 }
