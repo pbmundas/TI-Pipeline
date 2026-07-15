@@ -15502,5 +15502,645 @@
     "source_type": "detection",
     "summary": "<p>Nexus AI is CloudSEK's attack path intelligence layer. It correlates signals from five products into validated attack paths, ranked by what to disrupt first.</p>\n<p>The post <a href=\"https://www.socinvestigation.com/cloudsek-nexus-ai-soc-alerts-validated-attack-paths/\">What is CloudSEK Nexus AI and How Does It Turn SOC Alerts Into Validated Attack Paths?</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
     "feed_source": "https://www.socinvestigation.com/feed/"
+  },
+  {
+    "title": "CISA warns admins to patch actively exploited SharePoint flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
+    "published_date": "2026-07-15T09:44:52+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server instances. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
+    "published_date": "2026-07-15T08:26:48+00:00",
+    "source_type": "news",
+    "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "US charges alleged operators of Russian bulletproof hosting service",
+    "url": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
+    "published_date": "2026-07-15T07:45:50+00:00",
+    "source_type": "news",
+    "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+    "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+    "published_date": "2026-07-14T21:23:24+00:00",
+    "source_type": "news",
+    "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
+    "url": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
+    "published_date": "2026-07-14T20:23:09+00:00",
+    "source_type": "news",
+    "summary": "The Spanish Police dismantled a cybercrime and money-laundering organization that made €140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Nearly 300 GitHub repos pose as legit software to push malware",
+    "url": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
+    "published_date": "2026-07-14T19:15:17+00:00",
+    "source_type": "news",
+    "summary": "A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Microsoft releases Windows 10 KB5099539 extended security update",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
+    "published_date": "2026-07-14T18:49:28+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
+    "published_date": "2026-07-14T18:01:36+00:00",
+    "source_type": "news",
+    "summary": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Windows 11 KB5101650 & KB5099414 cumulative updates released",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
+    "published_date": "2026-07-14T17:41:16+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has released Windows 11's June 2026 Update for version 25H2, 24H2, and 23H2, bringing fixes for over 570 security issues. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+    "url": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
+    "published_date": "2026-07-14T16:08:47+00:00",
+    "source_type": "news",
+    "summary": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "LastPass, Bitwarden users targeted with fake security alerts",
+    "url": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
+    "published_date": "2026-07-14T15:31:52+00:00",
+    "source_type": "news",
+    "summary": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+    "url": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+    "published_date": "2026-07-14T14:00:10+00:00",
+    "source_type": "news",
+    "summary": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organizations determine exploitability by validating the attack techniques an exploit depends on, without launching the exploit itself. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "Microsoft Entra ID gets passkeys default authentication starting September",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
+    "published_date": "2026-07-14T12:49:56+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
+    "url": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+    "published_date": "2026-07-14T12:49:00+00:00",
+    "source_type": "news",
+    "summary": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-factor authentication (MFA). [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
+    "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
+    "published_date": "2026-07-14T11:42:21+00:00",
+    "source_type": "news",
+    "summary": "SAP has addressed 16 vulnerabilities across multiple products as part of its July 2026 security updates, including three critical flaws in NetWeaver, Commerce Cloud, and AppRouter. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "title": "注意喚起: 2026年7月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (公開)",
+    "url": "https://www.jpcert.or.jp/at/2026/at260020.html",
+    "published_date": "2026-07-15T04:25:00+00:00",
+    "source_type": "advisory",
+    "summary": "",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Microsoft Edgeに脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#1",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "Microsoft Edgeに脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Wiresharkに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#2",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "Wiresharkに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: MOVEit Transferに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#3",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "MOVEit Transferに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Roundcube Webmailに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#4",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "Roundcube Webmailに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: OPNsenseに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#5",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "OPNsenseに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Foxit PDF ReaderとFoxit PDF Editorに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#6",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "Foxit PDF ReaderとFoxit PDF Editorに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: 複数のJuniper Networks製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#7",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のJuniper Networks製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Google Chromeに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#8",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "Google Chromeに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: 複数のPalo Alto Networks製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#9",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のPalo Alto Networks製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: GitLabに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#10",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "GitLabに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: PleskのPlesk XML APIにローカル権限昇格の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#11",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "PleskのPlesk XML APIにローカル権限昇格の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Joomla!に複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#12",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "Joomla!に複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: BeyondTrust Remote SupportとPrivileged Remote Accessに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#13",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "BeyondTrust Remote SupportとPrivileged Remote Accessに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: PostgreSQL JDBC Driverに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#14",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "PostgreSQL JDBC Driverに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: ModSecurityに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#15",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "ModSecurityに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Apache Camelに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#16",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "Apache Camelに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "Weekly Report: Linuxカーネルのx86向けKVMに解放済みメモリの使用の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260715.html#17",
+    "published_date": "2026-07-15T00:15:00+00:00",
+    "source_type": "advisory",
+    "summary": "Linuxカーネルのx86向けKVMに解放済みメモリの使用の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf"
+  },
+  {
+    "title": "AI-driven bug hunting fuels record Microsoft Patch Tuesday",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/microsoft-patch-tuesday-sharepoint-cve-2026-56164/",
+    "published_date": "2026-07-15T10:20:43+00:00",
+    "source_type": "news",
+    "summary": "<p>Microsoft has released patches for 570+ vulnerabilities on July 2026 Patch Tuesday, including two that are being leveraged by attackers (CVE-2026-56155 and CVE-2026-56164), and one that was previouly disclosed (CVE-2026-50661). The release was once again followed by Nightmare Eclipse publishing a stripped down proof-of-concept exploit for an unpatched Windows elevation of privilege (EoP) vulnerability, which the researcher dubbed LegacyHive. Vulnerabilities of note CVE-2026-56155 is an EoP flaw affecting Active Directory Federation Services (ADFS), and has &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/microsoft-patch-tuesday-sharepoint-cve-2026-56164/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/microsoft-patch-tuesday-sharepoint-cve-2026-56164/\">AI-driven bug hunting fuels record Microsoft Patch Tuesday</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "AWS retools Security Hub for AI and multicloud threats",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/aws-security-hub-ai-workload-protection/",
+    "published_date": "2026-07-15T08:56:09+00:00",
+    "source_type": "news",
+    "summary": "<p>AWS added AI workload protection and Microsoft Azure security monitoring to Security Hub, its centralized security platform for collecting and prioritizing security findings across cloud environments. Support for additional cloud platforms will follow. &#8220;Collecting findings was never the hard part. The hard part is understanding them, connecting them, and acting before an attacker does, and doing it at the speed attacks now move. The programs that win from here will be the ones that see &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/aws-security-hub-ai-workload-protection/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/aws-security-hub-ai-workload-protection/\">AWS retools Security Hub for AI and multicloud threats</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "FreeRDP 3.29.0 security update resolves 22 advisories",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/freerdp-3-29-0-security-update/",
+    "published_date": "2026-07-15T08:42:29+00:00",
+    "source_type": "news",
+    "summary": "<p>FreeRDP is a free implementation of the Remote Desktop Protocol, released under the Apache license, and it runs on a large share of workstations and servers through the many tools built on it. The 3.29.0 version is a security, bugfix, and maintenance update that resolves 22 advisories. What the fixes address The commits read as hardening work spread across the codebase. Several patches add bounds and length checks to media and channel code, including AV1 &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/freerdp-3-29-0-security-update/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/freerdp-3-29-0-security-update/\">FreeRDP 3.29.0 security update resolves 22 advisories</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Fortinet adds AI controls and data loss prevention to FortiEndpoint",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/fortinet-fortiai-assist/",
+    "published_date": "2026-07-15T07:47:57+00:00",
+    "source_type": "news",
+    "summary": "<p>Fortinet has announced new capabilities for its unified endpoint platform, FortiEndpoint, designed to help organizations securely adopt AI, protect sensitive data, and reduce risk. By bringing AI visibility and control, native data security, endpoint risk scoring, and FortiAI-assisted operations into FortiEndpoint, Fortinet enables security teams to better govern AI usage, reduce sensitive data exposure, enforce risk-aware access, and simplify security operations across distributed environments. “Organizations need a simpler and more effective way to manage security &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/fortinet-fortiai-assist/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/fortinet-fortiai-assist/\">Fortinet adds AI controls and data loss prevention to FortiEndpoint</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "Product showcase: Trust Chain TPRM turns vendor compliance evidence into verified assurance",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/product-showcase-strike-graph-trust-chain-tprm/",
+    "published_date": "2026-07-15T07:30:16+00:00",
+    "source_type": "news",
+    "summary": "<p>Trust Chain is an AI-native third-party risk management (TPRM) solution by Strike Graph that replaces the security questionnaire model with validated evidence of compliance. Rather than asking vendors to self-report their security posture, Trust Chain requires vendors to submit evidence, which is then evaluated using Strike Graph&#8217;s patent-pending Verify AI technology. The evaluation tests each submission against the requesting organization&#8217;s speciﬁc requirements. The result is veriﬁed assurance rather than vendor attestation, delivered in a fraction &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/product-showcase-strike-graph-trust-chain-tprm/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/product-showcase-strike-graph-trust-chain-tprm/\">Product showcase: Trust Chain TPRM turns vendor compliance evidence into verified assurance</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "SingGuard-NSFA: Open-source guardrails for agentic AI",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/singguard-nsfa-open-source-agentic-ai-guardrails/",
+    "published_date": "2026-07-15T05:30:57+00:00",
+    "source_type": "news",
+    "summary": "<p>SingGuard-NSFA is an open-source guardrail framework aimed at operational threats in agent workflows. Four models ship at 0.8B, 2B, 4B, and 9B parameters, all built on Qwen3.5 base backbones. Risk taxonomy The NSFA risk taxonomy organizes threats along the CIA triad of confidentiality, integrity, and availability. It defines 185 risk variants grouped under a smaller set of top-level domains and mid-level categories, cross-validated against three OWASP guidelines. Five top-level domains cover query-side threats: prompt injection &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/singguard-nsfa-open-source-agentic-ai-guardrails/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/singguard-nsfa-open-source-agentic-ai-guardrails/\">SingGuard-NSFA: Open-source guardrails for agentic AI</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "The MDR renewal question: What changes when AI can handle the alerts",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/prophet-security-managed-detection-response-alternatives/",
+    "published_date": "2026-07-15T05:00:27+00:00",
+    "source_type": "news",
+    "summary": "<p>For most of the past decade, the managed detection and response (MDR) decision was a simple one: teams that couldn&#8217;t staff a 24/7 SOC outsourced detection and response to a provider who could. It solved a resources problem, and the alternatives (hiring a team you couldn&#8217;t afford or keeping a functional set of SOAR playbooks across an expanding alert surface) were worse. But a growing number of security leaders are looking at their next MDR &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/prophet-security-managed-detection-response-alternatives/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/prophet-security-managed-detection-response-alternatives/\">The MDR renewal question: What changes when AI can handle the alerts</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "An AI overthinking attack can tie a robot up for over a minute",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/robot-ai-overthinking-attack/",
+    "published_date": "2026-07-15T04:30:29+00:00",
+    "source_type": "news",
+    "summary": "<p>Robots that read the world through cameras now lean on large vision-language models to interpret what they see and decide what to do next. These models handle images and text together, so any words that fall inside the camera frame become part of the input. A stop sign, a street name, a sticker on a wall. The overthinking behavior at the center of the attack Researchers at Michigan Technological University have shown that this reading &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/robot-ai-overthinking-attack/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/robot-ai-overthinking-attack/\">An AI overthinking attack can tie a robot up for over a minute</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "AI used to help plan the break-in, now it’s doing the break-in",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/check-point-ai-security-report-2026/",
+    "published_date": "2026-07-15T04:00:32+00:00",
+    "source_type": "news",
+    "summary": "<p>Over the past twelve months, researchers documented intrusions in which AI ran exploitation workflows autonomously, generating thousands of commands across dozens of sessions with minimal human direction, according to Check Point’s AI Security Report 2026. AI-powered cyber attacks The attackers posing the greatest risk are those orchestrating AI across multiple stages of the attack chain without requiring human intervention. They achieve this by obtaining capable AI models and removing their safety controls. Attackers gain AI &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/15/check-point-ai-security-report-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/15/check-point-ai-security-report-2026/\">AI used to help plan the break-in, now it&#8217;s doing the break-in</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "SonicWall SMA appliances targeted in zero-day attacks (CVE-2026-15409, CVE-2026-15410)",
+    "url": "https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/",
+    "published_date": "2026-07-14T17:40:10+00:00",
+    "source_type": "news",
+    "summary": "<p>SonicWall has fixed two actively exploited vulnerabilities (CVE-2026-15409, CVE-2026-15410) affecting its Secure Mobile Access (SMA) 1000 Series appliances, and is urging customer organizations to upgrade to a fixed firmare version and search for evidence of potential compromise. If the outlined indicators of compromise are present on the system, the company advises re-imaging (hardware) or re-deploying (virtual) appliances, changing user and administrator passwords, and resetting TOTP tokens. The vulnerabilities SonicWall SMA 1000 series appliances are secure &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/14/sonicwall-sma-attacks-via-cve-2026-15409-cve-2026-15410/\">SonicWall SMA appliances targeted in zero-day attacks (CVE-2026-15409, CVE-2026-15410)</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/"
+  },
+  {
+    "title": "US unseals indictment against alleged operators of Russian bulletproof hosting service",
+    "url": "https://therecord.media/us-unseals-indictment-russians-bulletproof-hosting",
+    "published_date": "2026-07-14T19:26:00+00:00",
+    "source_type": "news",
+    "summary": "The Russians face multiple charges for allegedly providing cybercriminals with infrastructure and tech support through the St. Petersburg-based business Media Land and a sister company, ML Cloud.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "Finland issues wanted notice for hacker behind massive psychotherapy data breach",
+    "url": "https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach",
+    "published_date": "2026-07-14T17:28:00+00:00",
+    "source_type": "news",
+    "summary": "The defendant's lawyer told Finnish media that he does not know where his client is but believes Kivimäki is outside Finland.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "NATO logistics, Ukrainian troops are top subjects of Russian camera hacks, advisory says",
+    "url": "https://therecord.media/russian-intelligence-compromising-cameras-nato-ukraine-netherlands",
+    "published_date": "2026-07-14T13:55:00+00:00",
+    "source_type": "news",
+    "summary": "Dutch intelligence officials report that at least one Russian agency is compromising internet-connected cameras across Europe to spy on military logistics and Ukrainian personnel.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "Hackers steal Lidl customer data from external service provider",
+    "url": "https://therecord.media/hackers-steal-lidl-customer-data",
+    "published_date": "2026-07-13T23:00:00+00:00",
+    "source_type": "news",
+    "summary": "The retailer said the incident did not affect its online shopping platform itself but involved a separately stored customer database maintained by a third-party provider. According to notifications sent to Lidl's German, Belgian and Dutch customers on Friday, the attackers briefly accessed the file and exfiltrated part of its contents.",
+    "feed_source": "https://therecord.media/feed"
+  },
+  {
+    "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
+    "url": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
+    "published_date": "2026-07-15T09:16:13+00:00",
+    "source_type": "news",
+    "summary": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity.\n\nThe affected packages are listed below -\n\n\n  @asyncapi/generator-helpers@1.1.1\n  @asyncapi/generator-components@0.7.1\n  @asyncapi/generator@3.3.1\n  @asyncapi/specs(v6.11.2, v6.11.2-alpha.1)\n\n\"The",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+    "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+    "published_date": "2026-07-15T05:30:21+00:00",
+    "source_type": "news",
+    "summary": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF) vulnerability that a remote unauthenticated attacker could exploit to",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+    "url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+    "published_date": "2026-07-14T20:25:47+00:00",
+    "source_type": "news",
+    "summary": "Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its&nbsp;Security Update Guide&nbsp;count, more than triple&nbsp;June's previous high of around 200.\n\nThose two live bugs are the ones to grab first. Microsoft credits incident responders for both. Both are",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
+    "url": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+    "published_date": "2026-07-14T18:17:57+00:00",
+    "source_type": "news",
+    "summary": "SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP.\n\nThe vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
+    "url": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+    "published_date": "2026-07-14T17:27:23+00:00",
+    "source_type": "news",
+    "summary": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar.\n\nBoth this and ClaudeBleed need a rogue extension that can already run a script on claude.ai; the difference is scope. Anthropic restricted the arbitrary-prompt path in May as part of its response to the&nbsp;",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+    "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+    "published_date": "2026-07-14T16:52:37+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments.\n\n\"LabubaRAT creates a reusable foothold for hands-on activity,\" Blackpoint Cyber researchers Sam Decker and Nevan Beal said in an analysis published today. \"Once deployed, it can profile the host,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+    "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+    "published_date": "2026-07-14T13:48:07+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries.\n\nMiggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
+    "url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+    "published_date": "2026-07-14T12:46:18+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard.\n\n\"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\"",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+    "url": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+    "published_date": "2026-07-14T11:55:00+00:00",
+    "source_type": "news",
+    "summary": "Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them.\n\nThe way these wallets talk to websites and blockchain servers can tie a person's separate addresses together and let outsiders follow them from site to site. And on a site that already holds a name or",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+    "url": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+    "published_date": "2026-07-14T11:30:00+00:00",
+    "source_type": "news",
+    "summary": "AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data.\n\nThat fragmentation matters because attackers do not move through environments one",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+    "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+    "published_date": "2026-07-14T11:21:35+00:00",
+    "source_type": "news",
+    "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry.\n\nThe activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews"
+  },
+  {
+    "title": "White House Launches AI-Driven ‘Gold Eagle’ Vulnerability Coordination Initiative",
+    "url": "https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/",
+    "published_date": "2026-07-15T10:18:25+00:00",
+    "source_type": "news",
+    "summary": "<p>The new program stems from an AI-focused Executive Order signed by President Trump on June 2.</p>\n<p>The post <a href=\"https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/\">White House Launches AI-Driven &#8216;Gold Eagle&#8217; Vulnerability Coordination Initiative</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption",
+    "url": "https://www.securityweek.com/progress-confirms-zero-day-vulnerability-behind-sharefile-disruption/",
+    "published_date": "2026-07-15T09:48:29+00:00",
+    "source_type": "news",
+    "summary": "<p>The company has rolled out a fix and is restoring access for Storage Zones Controller customers who apply it.</p>\n<p>The post <a href=\"https://www.securityweek.com/progress-confirms-zero-day-vulnerability-behind-sharefile-disruption/\">Progress Confirms Zero-Day Vulnerability Behind ShareFile Disruption</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Rockwell",
+    "url": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-rockwell/",
+    "published_date": "2026-07-15T09:19:58+00:00",
+    "source_type": "news",
+    "summary": "<p>The industrial giants fixed dozens of vulnerabilities across their ICS products, with advisories also released by CISA and VDE CERT.</p>\n<p>The post <a href=\"https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-rockwell/\">ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Rockwell</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates",
+    "url": "https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/",
+    "published_date": "2026-07-15T07:24:52+00:00",
+    "source_type": "news",
+    "summary": "<p>Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/\">Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
+    "url": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/",
+    "published_date": "2026-07-15T05:19:42+00:00",
+    "source_type": "news",
+    "summary": "<p>SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/\">SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days",
+    "url": "https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/",
+    "published_date": "2026-07-14T18:50:20+00:00",
+    "source_type": "news",
+    "summary": "<p>Two flaws in Active Directory and SharePoint Server have been exploited as zero-days, and a BitLocker bug was publicly disclosed.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-patches-record-622-vulnerabilities-including-two-exploited-zero-days/\">Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims",
+    "url": "https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/",
+    "published_date": "2026-07-14T18:18:45+00:00",
+    "source_type": "news",
+    "summary": "<p>The D1R cybercrime group claimed to have stolen valuable data from Synopsys and Bosch, threatening to leak it unless a ransom is paid. </p>\n<p>The post <a href=\"https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/\">Synopsys Finds No Evidence of Data Breach Amid Bosch Hack Claims</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Adobe Patches Critical ColdFusion Vulnerabilities",
+    "url": "https://www.securityweek.com/adobe-patches-critical-coldfusion-vulnerabilities/",
+    "published_date": "2026-07-14T17:06:35+00:00",
+    "source_type": "news",
+    "summary": "<p>The ColdFusion security defects could allow attackers to execute arbitrary code or elevate their privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/adobe-patches-critical-coldfusion-vulnerabilities/\">Adobe Patches Critical ColdFusion Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "7 Severe Vulnerabilities Patched in VMware Avi Load Balancer",
+    "url": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/",
+    "published_date": "2026-07-14T13:55:41+00:00",
+    "source_type": "news",
+    "summary": "<p>The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal.</p>\n<p>The post <a href=\"https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/\">7 Severe Vulnerabilities Patched in VMware Avi Load Balancer</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar",
+    "url": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/",
+    "published_date": "2026-07-14T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. </p>\n<p>The post <a href=\"https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/\">Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/"
+  },
+  {
+    "title": "July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days",
+    "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/",
+    "published_date": "2026-07-14T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/"
+  },
+  {
+    "title": "Microsoft’s July 2026 Patch Tuesday Addresses 569 CVEs (CVE-2026-56155, CVE-2026-56164)",
+    "url": "https://www.tenable.com/blog/microsofts-july-2026-patch-tuesday-addresses-569-cves-cve-2026-56155-cve-2026-56164",
+    "published_date": "2026-07-14T18:23:36+00:00",
+    "source_type": "research",
+    "summary": "<ol class=\"blog-severity-badges\"><li class=\"blog-severity-badges critical\"><span class=\"number\">56</span>Critical</li><li class=\"blog-severity-badges important\"><span class=\"number\">510</span>Important</li><li class=\"blog-severity-badges moderate\"><span class=\"number\">3</span>Moderate</li><li class=\"blog-severity-badges low\"><span class=\"number\">0</span>Low</li></ol><p><strong>Microsoft addresses 569 CVEs in the largest Patch Tuesday release yet. This month’s release includes three zero-days, two of which were exploited in the wild.</strong></p><p>Microsoft patched 569 CVEs in its July 2026 Patch Tuesday release, with 56 rated critical, 510 rated as important, and 3 rated as moderate. This marks the largest Patch Tuesday release ever, crushing the previous record of 198 CVEs in <a href=\"https://www.tenable.com/blog/microsofts-june-2026-patch-tuesday-addresses-198-cves-cve-2026-49160-cve-2026-50507\"><u>June</u></a>. Last week, <a href=\"https://blogs.windows.com/windowsexperience/2026/07/09/evolving-windows-vulnerability-management-to-meet-the-speed-of-ai-powered-discovery/\"><u>Microsoft announced</u></a> that its <a href=\"https://www.microsoft.com/en-us/security/blog/2026/05/12/defe",
+    "feed_source": "https://www.tenable.com/blog/feed"
+  },
+  {
+    "title": "OkoBot: new sophisticated malware framework targets cryptocurrency users",
+    "url": "https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/",
+    "published_date": "2026-07-15T10:00:26+00:00",
+    "source_type": "research",
+    "summary": "Kaspersky GReAT experts dissect the new OkoBot campaign targeting cryptocurrency users. This complex framework employs TookPS, exfiltrates seed phrases, monitors Chromium-based browsers, and installs various malware strains, including the Rilide stealer.",
+    "feed_source": "https://securelist.com/feed/"
+  },
+  {
+    "title": "Patch Tuesday - July 2026",
+    "url": "https://www.rapid7.com/blog/post/em-patch-tuesday-july-2026",
+    "published_date": "2026-07-14T22:00:26+00:00",
+    "source_type": "research",
+    "summary": "<p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Microsoft is publishing 622 vulnerabilities on </span><a href=\"https://msrc.microsoft.com/update-guide/releaseNote/2026-Jul\"><span style=\"font-size: undefined;\">July 2026 Patch Tuesday</span></a><span style=\"font-size: undefined;\">, including a record-breaking 416 Windows vulnerabilities. Microsoft is aware of exploitation in the wild for two of the vulnerabilities published today, both of which are listed on CISA KEV, as well as public disclosure for one other. As usual, browser vulns are not included in the Patch Tuesday count above. Rapid7 </span><a href=\"https://www.rapid7.com/blog/post/em-patch-tuesday-june-2026/\"><span style=\"font-size: undefined;\">noted</span></a><span style=\"font-size: undefined;\"> last month that Microsoft no longer enumerates Chromium CVEs in the Security Update Guide. However, Microsoft has now taken the pursuit of minimalism much further, since today’s Security Update Guide no longer lists out even Microsoft vulnerabilities! Instead, we now receive a summary table of vulnerability counts by product family, as well as a new slimline “Notable CVEs” section. All of this only serves to illustrat",
+    "feed_source": "https://www.rapid7.com/blog/rss/"
+  },
+  {
+    "title": "CVE-2026-55040: Microsoft SharePoint JWT Token Authentication Bypass (FIXED)",
+    "url": "https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed",
+    "published_date": "2026-07-14T13:00:00+00:00",
+    "source_type": "research",
+    "summary": "<h2 style=\"direction: ltr;\">Overview</h2><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Rapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated remote code execution (RCE) against a vulnerable SharePoint server. Today, both Rapid7 and Microsoft are disclosing the first vulnerability in this chain, the authentication bypass vulnerability CVE-2026-55040. The RCE component of the exploit chain is expected to be patched by Microsoft in the next update cycle for August 2026. The exploit chain was developed as an entry for the recent </span><a href=\"https://www.zerodayinitiative.com/blog/2026/5/15/pwn2own-berlin-2026-day-two-results\" target=\"_blank\"><span style=\"font-size: undefined;\">Pwn2Own Berlin</span></a><span style=\"font-size: undefined;\"> hacking competition – part of Rapid7 Labs' continued effort to </span><a href=\"/blog/post/ve-rapid7-labs-at-pwn2own-vuln-intel\" target=\"_self\"><span style=\"font-size: undefined;\">raise the bar</span></a><span style=\"font-size: undefined;\"> in Vulnerability Intelligence and our commitment to the preempt",
+    "feed_source": "https://www.rapid7.com/blog/rss/"
+  },
+  {
+    "title": "CVE-2026-15643 - AWS HealthLake MCP Server SSRF via Unvalidated Pagination URL",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-054-aws/",
+    "published_date": "2026-07-14T20:09:02+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-054-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/14/2026 13:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS HealthLake MCP Server (awslabs.healthlake-mcp-server) is a Model Context Protocol server that enables AI assistants to interact with AWS HealthLake FHIR datastores. We identified CVE-2026-15643, a server-side request forgery in the pagination handling component in AWS awslabs.healthlake-mcp-server before 0.0.14 on all platforms might allow a remote authenticated user to exfiltrate AWS temporary security credentials to an arbitrary endpoint via a crafted next_token parameter. The server does not validate that pagination URLs point back to the expected HealthLake endpoint, allowing an actor to redirect subsequent requests to an actor-controlled server.</p> \n<p><b>Impacted versions:</b> &lt; 0.0.14</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/"
+  },
+  {
+    "title": "CVE-2026-15738 - Issue with AWS Load Balancer Controller Cross-Namespace Traffic Interception via HTTPRoute/GRPCRoute Priority Ordering",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-055-aws/",
+    "published_date": "2026-07-14T20:24:29+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-055-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/14/2026 13:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS Load Balancer Controller is an open-source Kubernetes controller that manages AWS Elastic Load Balancing resources for Kubernetes clusters. We identified CVE-2026-15738, an incorrect rule precedence ordering issue in the Gateway API listener rule generation logic. When both an HTTPRoute and a GRPCRoute are attached to the same Application Load Balancer (ALB) HTTPS listener with the same hostname, the controller assigns ALB listener rule priorities based on route kind rather than route specificity. This causes all HTTPRoute-derived rules to receive lower ALB priority numbers, evaluated first by the ALB, than GRPCRoute-derived rules, regardless of which route is more specific. A namespace-scoped user with permission to create HTTPRoute objects in a namespace admitted by a shared Gateway can create a catch-all HTTPRoute that intercepts traffic intended for a more-specific GRPCRoute in another namespace.</p> \n<p><b>Impacted versions:</b> AWS Load Balancer Controller v3.4.1",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/"
+  },
+  {
+    "title": "ICYMI: June 2026 @AWS Security",
+    "url": "https://aws.amazon.com/blogs/security/icymi-june-2026-aws-security/",
+    "published_date": "2026-07-15T00:37:58+00:00",
+    "source_type": "vendor",
+    "summary": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered identity and access management, threat intelligence, network security, AI-powered security tooling, and multi-account […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/"
+  },
+  {
+    "title": "Security Hub adds AI workload protection and multicloud support for Microsoft Azure",
+    "url": "https://aws.amazon.com/blogs/security/security-hub-adds-ai-workload-protection-and-multicloud-support-for-microsoft-azure/",
+    "published_date": "2026-07-14T19:16:57+00:00",
+    "source_type": "vendor",
+    "summary": "Security Hub is our foundation for full-stack enterprise security across clouds. It centralizes your security operations and turns raw signals into prioritized insights, so your team spends its time managing real risk instead of stitching tools together. Today that foundation grows in two directions our customers asked for most. We are adding purpose-built protection for […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/"
+  },
+  {
+    "title": "Authenticate legitimate AI agent traffic with AWS WAF Bot Control",
+    "url": "https://aws.amazon.com/blogs/security/authenticate-legitimate-ai-agent-traffic-with-aws-waf-bot-control/",
+    "published_date": "2026-07-14T15:18:42+00:00",
+    "source_type": "vendor",
+    "summary": "As AI agents and automated tools increasingly access web applications, distinguishing legitimate bot traffic from malicious attempts has become a critical security challenge. Traditional approaches such as IP-based filtering and reverse DNS lookups fail in multi-tenant systems (such as Amazon Bedrock AgentCore) where thousands of distinct workloads share the same IP space. Attackers can easily […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/"
+  },
+  {
+    "title": "Identity Infrastructure: Why Credentials Are the Layer Directories Don't Secure",
+    "url": "https://blog.gitguardian.com/identity-infrastructure/",
+    "published_date": "2026-07-14T14:15:13+00:00",
+    "source_type": "vendor",
+    "summary": "Learn why modern identity infrastructure security depends on credential exposure detection, not just directory management, and how to close the gaps that lead to breaches.",
+    "feed_source": "https://blog.gitguardian.com/rss/"
+  },
+  {
+    "title": "Why Do So Many Rideshare Accidents Happen Before the Trip Really Begins",
+    "url": "https://www.socinvestigation.com/why-do-so-many-rideshare-accidents-happen-before-the-trip-really-begins/",
+    "published_date": "2026-07-15T04:58:29+00:00",
+    "source_type": "detection",
+    "summary": "<p>A rideshare trip does not begin the second a passenger sits inside the vehicle. It often begins while the driver is searching for the pickup point and the passenger is trying to find the right car. Those first few minutes can be full of rushed decisions, unexpected stops, and changing traffic. A simple pickup can [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/why-do-so-many-rideshare-accidents-happen-before-the-trip-really-begins/\">Why Do So Many Rideshare Accidents Happen Before the Trip Really Begins</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/"
   }
 ]
