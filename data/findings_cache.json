@@ -206,16 +206,6 @@
       "Federal, State, Local, Private-Sector"
     ]
   },
-  "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/": {
-    "enriched_at": "2026-07-02T09:17:18.761462+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Federal, State, Local, Private-Sector"
-    ]
-  },
   "https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/": {
     "enriched_at": "2026-07-02T09:17:18.761462+00:00",
     "incidents": [],
@@ -9940,6 +9930,47 @@
         ],
         "source_urls": [
           "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms"
+        ]
+      }
+    ],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html": {
+    "enriched_at": "2026-07-15T16:39:48.011253+00:00",
+    "incidents": [
+      {
+        "headline": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
+        "summary": "A malware framework called OkoBot has been operating since April 2025, targeting hardware wallet owners by injecting seed phrase phishing into Ledger and Trezor apps.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "OkoBot",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Running since April 2025, targeting hardware wallet owners with seed phrase phishing.",
+        "targets": [
+          "Ledger and Trezor hardware wallets"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [
+      {
+        "title": "OkoBot Malware Framework Indicators",
+        "context": "Detecting OkoBot malware framework activities targeting seed phrase phishing on Ledger and Trezor apps.",
+        "indicators": [
+          "Malicious desktop software mimicking the wallet's own software"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html"
         ]
       }
     ],
