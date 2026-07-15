@@ -12,13 +12,21 @@ setlocal enabledelayedexpansion
 set "SCRIPT_DIR=%~dp0.."
 for %%I in ("%SCRIPT_DIR%") do set "SCRIPT_DIR=%%~fI"
 cd /d "%SCRIPT_DIR%"
+if errorlevel 1 (
+    echo ERROR: Cannot enter pipeline directory: %SCRIPT_DIR%
+    exit /b 1
+)
 
 set "LOG_FILE=%SCRIPT_DIR%\data\pipeline.log"
 if not exist "%SCRIPT_DIR%\data" mkdir "%SCRIPT_DIR%\data"
 
-:: Activate venv if present
-if exist "%SCRIPT_DIR%\.venv\Scripts\activate.bat" (
-    call "%SCRIPT_DIR%\.venv\Scripts\activate.bat"
+:: Do not activate the venv: activation scripts contain absolute paths and
+:: commonly break after a repo is moved to another drive/folder. Call its
+:: Python executable directly, falling back to Python on PATH.
+if exist "%SCRIPT_DIR%\.venv\Scripts\python.exe" (
+    set "PYTHON_EXE=%SCRIPT_DIR%\.venv\Scripts\python.exe"
+) else (
+    set "PYTHON_EXE=python"
 )
 
 :: Get current UTC timestamp helper (calls PowerShell, since native batch has no UTC support)
@@ -40,8 +48,22 @@ if errorlevel 1 (
 :: 1. Sync the dashboard repo first, so we never generate the new file on top
 ::    of a stale working tree.
 :: ---------------------------------------------------------------------------
-for /f "usebackq tokens=1,* delims==" %%A in (`python "%~dp0read_config.py"`) do (
+set "CONFIG_DUMP=%SCRIPT_DIR%\data\.daily_config.tmp"
+"!PYTHON_EXE!" "%~dp0read_config.py" > "!CONFIG_DUMP!" 2>&1
+if errorlevel 1 (
+    echo ERROR: config.yaml could not be read. Details:
+    type "!CONFIG_DUMP!"
+    del /q "!CONFIG_DUMP!" >nul 2>&1
+    exit /b 1
+)
+for /f "usebackq tokens=1,* delims==" %%A in ("!CONFIG_DUMP!") do (
     set "%%A=%%B"
+)
+del /q "!CONFIG_DUMP!" >nul 2>&1
+
+if not defined DASHBOARD_REPO (
+    echo ERROR: paths.dashboard_repo is missing from config.yaml.
+    exit /b 1
 )
 
 if /i "!GIT_ENABLED!"=="true" (
@@ -52,28 +74,36 @@ if /i "!GIT_ENABLED!"=="true" (
     )
     echo --- Step 1: syncing dashboard repo ^(!DASHBOARD_REPO!^) ---
     pushd "!DASHBOARD_REPO!"
-
-    :: If there are any local changes already sitting in the working tree
-    :: leftover generated output from a previous run that never got
-    :: pushed, or manual edits - commit them FIRST so `git pull --rebase`
-    :: never fails with unstaged changes. This script is meant to run
-    :: unattended - it should never need a human to fix git state first.
-    git add -A
-    git diff --cached --quiet
     if errorlevel 1 (
-        echo Found pre-existing local changes - committing them before syncing...
-        for /f %%T in ('powershell -NoProfile -Command "[DateTime]::UtcNow.ToString(\"yyyy-MM-dd HH:mm\")"') do set "PRESYNC_TS=%%T UTC"
-        git commit -m "!COMMIT_PREFIX! (pre-sync) !PRESYNC_TS!"
-        if errorlevel 1 (
-            echo ERROR: pre-sync commit failed. Dashboard was NOT updated.
-            popd
-            exit /b 1
-        )
+        echo ERROR: Cannot enter dashboard repo: !DASHBOARD_REPO!
+        exit /b 1
     )
 
-    git pull --rebase "!GIT_REMOTE!" "!GIT_BRANCH!"
+    :: Never auto-commit source edits or conflict markers from a scheduled
+    :: task. A dirty checkout must be reviewed by a human first.
+    if exist ".git\rebase-merge" (
+        echo ERROR: Git rebase is already in progress. Resolve or abort it manually.
+        popd
+        exit /b 1
+    )
+    if exist ".git\rebase-apply" (
+        echo ERROR: Git rebase is already in progress. Resolve or abort it manually.
+        popd
+        exit /b 1
+    )
+    set "WORKTREE_DIRTY="
+    for /f %%S in ('git status --porcelain') do set "WORKTREE_DIRTY=1"
+    if defined WORKTREE_DIRTY (
+        echo ERROR: Working tree has local, staged, or untracked changes.
+        echo Scheduled run will not auto-commit them. Run git status in !DASHBOARD_REPO!
+        echo and commit or discard the changes manually.
+        popd
+        exit /b 1
+    )
+
+    git pull --ff-only "!GIT_REMOTE!" "!GIT_BRANCH!"
     if errorlevel 1 (
-        echo ERROR: initial pull --rebase failed after pre-sync commit. This likely means a real conflict - manual intervention required.
+        echo ERROR: fast-forward sync failed. Manual Git intervention is required.
         popd
         exit /b 1
     )
@@ -84,7 +114,7 @@ if /i "!GIT_ENABLED!"=="true" (
 :: 2. DATA GENERATION: fetch feeds, run local LLM enrichment, write the JSON.
 :: ---------------------------------------------------------------------------
 echo --- Step 2: generating data ---
-python -m src.pipeline --config config.yaml --no-publish
+"!PYTHON_EXE!" -m src.pipeline --config config.yaml --no-publish
 if errorlevel 1 (
     echo ERROR: pipeline run failed. Dashboard was NOT updated.
     exit /b 1
@@ -112,10 +142,9 @@ if /i not "!GIT_ENABLED!"=="true" (
 echo --- Step 3: pushing to GitHub Pages repo ^(!DASHBOARD_REPO!^) ---
 cd /d "!DASHBOARD_REPO!"
 
-:: Stage EVERYTHING changed in the working tree ^(respecting .gitignore^),
-:: not just the two known output files - so any other local edits get
-:: published too, not only data\articles.json and gui\unified_report.json.
-git add -A
+:: Stage only pipeline-generated artifacts. Never publish unrelated source
+:: edits from an unattended scheduled task.
+git add -- "!OUTPUT_REL_PATH!" "!ARTICLES_REL_PATH!" "!FINDINGS_CACHE_REL_PATH!" "!ARCHIVE_REL_PATH!"
 
 git diff --cached --quiet
 if errorlevel 1 (

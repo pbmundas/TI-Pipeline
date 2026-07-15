@@ -76,18 +76,23 @@ var app = createApp({
             var self = this;
             self.loading = true;
             self.error = null;
+            var permalinkMatch = window.location.pathname.match(/\/reports\/(\d{4}-\d{2}-\d{2})\.html$/);
+            var reportUrl = permalinkMatch
+                ? './reports/' + permalinkMatch[1] + '.json'
+                : './gui/unified_report.json';
+            if (permalinkMatch) self.viewingArchivedDate = permalinkMatch[1];
             // Prefer the fully Ollama-enriched report if it's been published.
             // Falls back to the raw article cache (sources only, no AI
             // sections) so the dashboard still works before the first
             // enrichment run.
-            fetch('./gui/unified_report.json')
+            fetch(reportUrl)
                 .then(function (res) {
                     if (!res.ok) throw new Error('no enriched report');
                     return res.json();
                 })
                 .then(function (data) {
                     self.report = data;
-                    self.latestReport = data;
+                    if (!permalinkMatch) self.latestReport = data;
                 })
                 .catch(function () {
                     return self.loadFromRawArticles();
@@ -157,7 +162,7 @@ var app = createApp({
             var self = this;
             self.archiveLoading = true;
             self.archiveError = null;
-            return fetch('./gui/reports/index.json', { cache: 'no-store' })
+            return fetch('./reports/index.json', { cache: 'no-store' })
                 .then(function (res) {
                     if (res.status === 404) return [];
                     if (!res.ok) throw new Error('Archive index request failed: ' + res.status);
@@ -173,32 +178,22 @@ var app = createApp({
                 .finally(function () { self.archiveLoading = false; });
         },
 
-        openArchivedReport: function (entry) {
-            var self = this;
-            self.loading = true;
-            fetch(entry.url, { cache: 'no-store' })
-                .then(function (res) {
-                    if (!res.ok) throw new Error('Archived report request failed: ' + res.status);
-                    return res.json();
-                })
-                .then(function (data) {
-                    self.report = data;
-                    self.viewingArchivedDate = entry.date;
-                    self.activeTab = 'brief';
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                })
-                .catch(function (e) {
-                    console.error(e);
-                    self.archiveError = 'That archived report could not be opened.';
-                    self.activeTab = 'archive';
-                })
-                .finally(function () { self.loading = false; });
+        reportHtmlUrl: function (entry) {
+            // Never trust legacy archive indexes for the public link: older
+            // entries used a JSON URL. Build an absolute HTML permalink from
+            // the stable report date so copy-link/open-in-new-tab is correct.
+            return new URL('reports/' + entry.date + '.html', document.baseURI).href;
         },
 
         returnToLatest: function () {
-            if (this.latestReport) this.report = this.latestReport;
-            this.viewingArchivedDate = null;
-            this.activeTab = 'archive';
+            if (this.latestReport) {
+                this.report = this.latestReport;
+                this.viewingArchivedDate = null;
+                this.activeTab = 'archive';
+                window.history.pushState({}, '', './');
+            } else {
+                window.location.href = './';
+            }
         },
 
         formatDate: function (dateStr) {

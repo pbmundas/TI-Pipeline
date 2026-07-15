@@ -346,7 +346,7 @@
                     <div v-else class="archive-list">
                         <article v-for="entry in archive" :key="entry.date" class="archive-post">
                             <time class="archive-date" :datetime="entry.date">[[ formatDate(entry.date) ]]</time>
-                            <h3><a :href="entry.url" @click.prevent="openArchivedReport(entry)">[[ entry.title ]]</a></h3>
+                            <h3><a :href="reportHtmlUrl(entry)">[[ entry.title ]]</a></h3>
                             <p>[[ entry.description ]]</p>
                             <div class="archive-footer">
                                 <div class="archive-counts">
@@ -356,7 +356,7 @@
                                     <span>[[ entry.counts.vulnerabilities ]] vulnerabilities</span>
                                     <span>[[ entry.counts.hunting_leads ]] hunts</span>
                                 </div>
-                                <a :href="entry.url" @click.prevent="openArchivedReport(entry)" class="archive-link">Read report <i class="bi bi-arrow-right"></i></a>
+                                <a :href="reportHtmlUrl(entry)" class="archive-link">Read report <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </article>
                     </div>
@@ -372,7 +372,7 @@
         </div>
     </footer>
 
-    <script src="./static/js/app.js?v=8"></script>
+    <script src="./static/js/app.js?v=10"></script>
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 </body>
 </html>

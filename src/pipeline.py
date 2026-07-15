@@ -164,7 +164,7 @@ def write_report(report, config):
     # Keep one immutable snapshot per UTC day and a small reverse-
     # chronological index used by the dashboard's Archive tab. Re-running
     # on the same day updates that day's snapshot instead of creating noise.
-    archive_rel_dir = config["paths"].get("archive_relative_dir", "gui/reports")
+    archive_rel_dir = config["paths"].get("archive_relative_dir", "reports")
     archive_dir = os.path.join(dashboard_repo, archive_rel_dir)
     os.makedirs(archive_dir, exist_ok=True)
     generated = datetime.fromisoformat(report["metadata"]["generated_at"])
@@ -173,6 +173,22 @@ def write_report(report, config):
     snapshot_path = os.path.join(archive_dir, snapshot_name)
     with open(snapshot_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
+
+    # Create a real, shareable HTML permalink (domain/reports/YYYY-MM-DD.html).
+    # A base element keeps the copied dashboard's relative assets rooted at
+    # the site root; app.js detects the filename and loads its matching JSON.
+    dashboard_html_path = os.path.join(dashboard_repo, "index.html")
+    permalink_name = f"{report_date}.html"
+    permalink_path = os.path.join(archive_dir, permalink_name)
+    permalink_html = None
+    if os.path.isfile(dashboard_html_path):
+        with open(dashboard_html_path, "r", encoding="utf-8") as f:
+            permalink_html = f.read()
+        permalink_html = permalink_html.replace(
+            "<head>", '<head>\n    <base href="../">', 1
+        )
+        with open(permalink_path, "w", encoding="utf-8") as f:
+            f.write(permalink_html)
 
     index_path = os.path.join(archive_dir, "index.json")
     try:
@@ -183,13 +199,30 @@ def write_report(report, config):
     except (FileNotFoundError, json.JSONDecodeError):
         archive_index = []
 
+    # Migrate entries created by older versions that exposed the JSON file
+    # as their public URL. Also backfill their HTML permalink when the dated
+    # JSON snapshot still exists.
+    public_archive_dir = archive_rel_dir.replace(os.sep, "/")
+    for item in archive_index:
+        archived_date = item.get("date", "")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", archived_date):
+            continue
+        item["url"] = f"./{public_archive_dir}/{archived_date}.html"
+        item["data_url"] = f"./{public_archive_dir}/{archived_date}.json"
+        old_json_path = os.path.join(archive_dir, f"{archived_date}.json")
+        old_html_path = os.path.join(archive_dir, f"{archived_date}.html")
+        if permalink_html and os.path.isfile(old_json_path) and not os.path.isfile(old_html_path):
+            with open(old_html_path, "w", encoding="utf-8") as f:
+                f.write(permalink_html)
+
     description = _plain_text(report.get("executive_brief", ""))[:320]
     entry = {
         "date": report_date,
         "generated_at": report["metadata"]["generated_at"],
         "title": f"Daily Threat Intelligence Report — {generated.strftime('%B %d, %Y')}",
         "description": description or "Daily threat intelligence summary from the collected open-source feeds.",
-        "url": f"./{archive_rel_dir.replace(os.sep, '/')}/{snapshot_name}",
+        "url": f"./{public_archive_dir}/{permalink_name}",
+        "data_url": f"./{public_archive_dir}/{snapshot_name}",
         "counts": {
             "sources": len(report.get("sources", [])),
             "stories": len(report.get("threat_stories", [])),
@@ -215,7 +248,7 @@ def git_publish(config):
     branch = config["git"]["branch"]
     remote = config["git"]["remote"]
     rel_path = config["paths"]["output_relative_path"]
-    archive_rel_dir = config["paths"].get("archive_relative_dir", "gui/reports")
+    archive_rel_dir = config["paths"].get("archive_relative_dir", "reports")
     msg = f"{config['git']['commit_message_prefix']} {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
 
     def run(cmd):

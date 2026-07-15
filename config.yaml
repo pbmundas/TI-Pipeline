@@ -40,7 +40,7 @@ paths:
   dashboard_repo: "."
   output_relative_path: "gui/unified_report.json"
   # Date-stamped reports and the Archive tab's index are written here.
-  archive_relative_dir: "gui/reports"
+  archive_relative_dir: "reports"
 
 git:
   enabled: true
