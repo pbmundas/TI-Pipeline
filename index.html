@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./static/css/dashboard.css?v=7">
+    <link rel="stylesheet" href="./static/css/dashboard.css?v=8">
 </head>
 <body>
     <header class="site-header">
@@ -50,6 +50,10 @@
         </div>
 
         <div v-else class="container">
+            <div v-if="viewingArchivedDate" class="archive-viewing-banner">
+                <span><i class="bi bi-clock-history"></i> Viewing report from [[ formatDate(viewingArchivedDate) ]]</span>
+                <button class="btn btn-sm" @click="returnToLatest">Return to latest</button>
+            </div>
             <section class="report-meta">
                 <div class="meta-row">
                     <div class="meta-date">
@@ -269,7 +273,8 @@
                             <div class="source-id">[[ src.id ]]</div>
                             <div class="source-info">
                                 <span class="source-title">[[ src.title ]]</span>
-                                <span class="source-date">[[ formatDate(src.published_date) ]]</span>
+                                <span class="source-date">[[ src.publisher ? src.publisher + ' · ' : '' ]][[ formatDate(src.published_date) ]]</span>
+                                <span v-if="src.context" class="source-context">[[ src.context ]]</span>
                             </div>
                             <span v-if="src.source_type" class="badge badge-sm badge-neutral">[[ src.source_type ]]</span>
                             <i class="bi bi-box-arrow-up-right source-ext"></i>
@@ -326,6 +331,36 @@
                         <p>[[ report.statistics.key_changes ]]</p>
                     </div>
                 </section>
+
+                <section v-show="activeTab === 'archive'" class="panel">
+                    <div class="panel-header">
+                        <div>
+                            <h2>Daily Report Archive</h2>
+                            <p class="panel-subtitle">A day-by-day record of briefs, stories, actors, vulnerabilities, hunting leads, sources, and statistics.</p>
+                        </div>
+                        <span class="panel-count">[[ archive.length ]] reports</span>
+                    </div>
+                    <div v-if="archiveLoading" class="archive-state">Loading archive…</div>
+                    <div v-else-if="archiveError" class="archive-state archive-state-error">[[ archiveError ]]</div>
+                    <div v-else-if="!archive.length" class="archive-state">The first archived report will appear after the next daily pipeline run.</div>
+                    <div v-else class="archive-list">
+                        <article v-for="entry in archive" :key="entry.date" class="archive-post">
+                            <time class="archive-date" :datetime="entry.date">[[ formatDate(entry.date) ]]</time>
+                            <h3><a :href="entry.url" @click.prevent="openArchivedReport(entry)">[[ entry.title ]]</a></h3>
+                            <p>[[ entry.description ]]</p>
+                            <div class="archive-footer">
+                                <div class="archive-counts">
+                                    <span>[[ entry.counts.sources ]] sources</span>
+                                    <span>[[ entry.counts.stories ]] stories</span>
+                                    <span>[[ entry.counts.actors ]] actors</span>
+                                    <span>[[ entry.counts.vulnerabilities ]] vulnerabilities</span>
+                                    <span>[[ entry.counts.hunting_leads ]] hunts</span>
+                                </div>
+                                <a :href="entry.url" @click.prevent="openArchivedReport(entry)" class="archive-link">Read report <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
             </div>
         </div>
     </main>
@@ -337,7 +372,7 @@
         </div>
     </footer>
 
-    <script src="./static/js/app.js?v=7"></script>
+    <script src="./static/js/app.js?v=8"></script>
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 </body>
 </html>

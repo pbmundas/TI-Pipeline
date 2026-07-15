@@ -107,6 +107,7 @@ def _fetch_feed(feed_cfg, timeout):
 
     url = feed_cfg["url"]
     source_type = feed_cfg.get("source_type", "")
+    source_note = feed_cfg.get("note", "")
 
     articles = []
 
@@ -136,6 +137,7 @@ def _fetch_feed(feed_cfg, timeout):
             return articles
 
         parsed = feedparser.parse(response.content)
+        publisher = (parsed.feed.get("title") or feed_cfg.get("publisher") or "").strip()
 
         if parsed.bozo:
             log.debug(
@@ -170,6 +172,8 @@ def _fetch_feed(feed_cfg, timeout):
                     "source_type": source_type,
                     "summary": summary[:1200],
                     "feed_source": url,
+                    "publisher": publisher,
+                    "source_note": source_note,
                 }
             )
 

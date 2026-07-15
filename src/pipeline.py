@@ -12,7 +12,10 @@ import logging
 import os
 import subprocess
 import sys
+import re
 from datetime import datetime, timedelta, timezone
+from html import unescape
+from urllib.parse import urlparse
 
 import yaml
 
@@ -58,9 +61,20 @@ def build_sources_section(sourced_articles):
             "url": a["url"],
             "published_date": a["published_date"],
             "source_type": a.get("source_type", ""),
+            "publisher": a.get("publisher") or urlparse(a["url"]).netloc.removeprefix("www."),
+            "context": _plain_text(a.get("summary", ""))[:240],
+            "feed_source": a.get("feed_source", ""),
+            "source_note": a.get("source_note", ""),
         }
         for a in sourced_articles
     ]
+
+
+def _plain_text(value):
+    """Turn feed/markdown snippets into safe, compact archive and UI text."""
+    text = re.sub(r"<[^>]+>", " ", value or "")
+    text = re.sub(r"[#*_`>\[\]()]", " ", text)
+    return re.sub(r"\s+", " ", unescape(text)).strip()
 
 
 def run_pipeline(config):
@@ -146,6 +160,50 @@ def write_report(report, config):
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
     log.info("Wrote report to %s", out_path)
+
+    # Keep one immutable snapshot per UTC day and a small reverse-
+    # chronological index used by the dashboard's Archive tab. Re-running
+    # on the same day updates that day's snapshot instead of creating noise.
+    archive_rel_dir = config["paths"].get("archive_relative_dir", "gui/reports")
+    archive_dir = os.path.join(dashboard_repo, archive_rel_dir)
+    os.makedirs(archive_dir, exist_ok=True)
+    generated = datetime.fromisoformat(report["metadata"]["generated_at"])
+    report_date = generated.astimezone(timezone.utc).date().isoformat()
+    snapshot_name = f"{report_date}.json"
+    snapshot_path = os.path.join(archive_dir, snapshot_name)
+    with open(snapshot_path, "w", encoding="utf-8") as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
+
+    index_path = os.path.join(archive_dir, "index.json")
+    try:
+        with open(index_path, "r", encoding="utf-8") as f:
+            archive_index = json.load(f)
+        if not isinstance(archive_index, list):
+            archive_index = []
+    except (FileNotFoundError, json.JSONDecodeError):
+        archive_index = []
+
+    description = _plain_text(report.get("executive_brief", ""))[:320]
+    entry = {
+        "date": report_date,
+        "generated_at": report["metadata"]["generated_at"],
+        "title": f"Daily Threat Intelligence Report — {generated.strftime('%B %d, %Y')}",
+        "description": description or "Daily threat intelligence summary from the collected open-source feeds.",
+        "url": f"./{archive_rel_dir.replace(os.sep, '/')}/{snapshot_name}",
+        "counts": {
+            "sources": len(report.get("sources", [])),
+            "stories": len(report.get("threat_stories", [])),
+            "actors": len(report.get("actor_profiles", [])),
+            "vulnerabilities": len(report.get("critical_vulnerabilities", [])),
+            "hunting_leads": len(report.get("hunting_leads", [])),
+        },
+    }
+    archive_index = [item for item in archive_index if item.get("date") != report_date]
+    archive_index.append(entry)
+    archive_index.sort(key=lambda item: item.get("generated_at", ""), reverse=True)
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(archive_index, f, indent=2, ensure_ascii=False)
+    log.info("Archived daily report to %s", snapshot_path)
     return out_path
 
 
@@ -157,13 +215,14 @@ def git_publish(config):
     branch = config["git"]["branch"]
     remote = config["git"]["remote"]
     rel_path = config["paths"]["output_relative_path"]
+    archive_rel_dir = config["paths"].get("archive_relative_dir", "gui/reports")
     msg = f"{config['git']['commit_message_prefix']} {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
 
     def run(cmd):
         log.info("$ %s", " ".join(cmd))
         subprocess.run(cmd, cwd=repo_dir, check=True)
 
-    run(["git", "add", rel_path])
+    run(["git", "add", rel_path, archive_rel_dir])
     status = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=repo_dir)
     if status.returncode == 0:
         log.info("No changes to commit, dashboard already up to date.")

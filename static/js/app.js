@@ -34,6 +34,11 @@ var app = createApp({
                 hunting_leads: [],
                 statistics: {}
             },
+            latestReport: null,
+            archive: [],
+            archiveLoading: false,
+            archiveError: null,
+            viewingArchivedDate: null,
             activeTab: 'sources',
             tabs: [
                 { id: 'brief', label: 'Brief', icon: 'bi bi-file-earmark-text' },
@@ -42,7 +47,8 @@ var app = createApp({
                 { id: 'vulns', label: 'Vulnerabilities', icon: 'bi bi-shield-exclamation' },
                 { id: 'hunting', label: 'Hunting', icon: 'bi bi-crosshair' },
                 { id: 'sources', label: 'Sources', icon: 'bi bi-link-45deg' },
-                { id: 'statistics', label: 'Statistics', icon: 'bi bi-bar-chart' }
+                { id: 'statistics', label: 'Statistics', icon: 'bi bi-bar-chart' },
+                { id: 'archive', label: 'Archive', icon: 'bi bi-archive' }
             ],
             expandedStories: {},
             sourceSearch: ''
@@ -62,6 +68,7 @@ var app = createApp({
 
     mounted: function () {
         this.loadReport();
+        this.loadArchive();
     },
 
     methods: {
@@ -80,6 +87,7 @@ var app = createApp({
                 })
                 .then(function (data) {
                     self.report = data;
+                    self.latestReport = data;
                 })
                 .catch(function () {
                     return self.loadFromRawArticles();
@@ -141,7 +149,56 @@ var app = createApp({
                             key_changes: ''
                         }
                     };
+                    self.latestReport = self.report;
                 });
+        },
+
+        loadArchive: function () {
+            var self = this;
+            self.archiveLoading = true;
+            self.archiveError = null;
+            return fetch('./gui/reports/index.json', { cache: 'no-store' })
+                .then(function (res) {
+                    if (res.status === 404) return [];
+                    if (!res.ok) throw new Error('Archive index request failed: ' + res.status);
+                    return res.json();
+                })
+                .then(function (items) {
+                    self.archive = Array.isArray(items) ? items : [];
+                })
+                .catch(function (e) {
+                    console.error('Failed to load report archive:', e);
+                    self.archiveError = 'The report archive is temporarily unavailable.';
+                })
+                .finally(function () { self.archiveLoading = false; });
+        },
+
+        openArchivedReport: function (entry) {
+            var self = this;
+            self.loading = true;
+            fetch(entry.url, { cache: 'no-store' })
+                .then(function (res) {
+                    if (!res.ok) throw new Error('Archived report request failed: ' + res.status);
+                    return res.json();
+                })
+                .then(function (data) {
+                    self.report = data;
+                    self.viewingArchivedDate = entry.date;
+                    self.activeTab = 'brief';
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                })
+                .catch(function (e) {
+                    console.error(e);
+                    self.archiveError = 'That archived report could not be opened.';
+                    self.activeTab = 'archive';
+                })
+                .finally(function () { self.loading = false; });
+        },
+
+        returnToLatest: function () {
+            if (this.latestReport) this.report = this.latestReport;
+            this.viewingArchivedDate = null;
+            this.activeTab = 'archive';
         },
 
         formatDate: function (dateStr) {

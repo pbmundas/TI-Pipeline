@@ -371,6 +371,87 @@ code {
     font-weight: 500;
 }
 
+.panel-subtitle {
+    margin-top: 6px;
+    color: var(--text-tertiary);
+    font-size: 0.82rem;
+}
+
+.archive-viewing-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 18px 0;
+    padding: 10px 14px;
+    border: 1px solid var(--purple-border);
+    border-radius: var(--radius-md);
+    background: var(--purple-light);
+    color: var(--text-primary);
+    font-size: 0.82rem;
+}
+
+.archive-viewing-banner i { margin-right: 6px; }
+
+.archive-list { display: grid; gap: 18px; }
+
+.archive-post {
+    padding: 24px 26px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    background: var(--bg-card);
+}
+
+.archive-date {
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.archive-post h3 { margin: 8px 0 10px; font-size: 1.05rem; }
+.archive-post h3 a { color: var(--text-primary); text-decoration: none; }
+.archive-post h3 a:hover { color: var(--accent); }
+.archive-post > p { color: var(--text-secondary); font-size: 0.875rem; line-height: 1.65; }
+
+.archive-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-top: 18px;
+}
+
+.archive-counts { display: flex; flex-wrap: wrap; gap: 6px; }
+.archive-counts span {
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: var(--bg-tertiary);
+    color: var(--text-tertiary);
+    font-size: 0.7rem;
+}
+
+.archive-link { white-space: nowrap; font-size: 0.8rem; font-weight: 600; text-decoration: none; }
+.archive-state { padding: 40px; text-align: center; color: var(--text-tertiary); }
+.archive-state-error { color: var(--red); }
+
+.source-context {
+    display: -webkit-box;
+    margin-top: 5px;
+    overflow: hidden;
+    color: var(--text-secondary);
+    font-size: 0.76rem;
+    line-height: 1.4;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+@media (max-width: 640px) {
+    .archive-footer, .archive-viewing-banner { align-items: flex-start; flex-direction: column; }
+}
+
 .executive-brief {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
