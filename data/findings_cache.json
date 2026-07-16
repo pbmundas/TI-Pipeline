@@ -1,612 +1,4 @@
 {
-  "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html": {
-    "enriched_at": "2026-07-02T09:14:14.004898+00:00",
-    "incidents": [
-      {
-        "headline": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
-        "summary": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at vulnerability researchers.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html": {
-    "enriched_at": "2026-07-02T09:14:14.004898+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-45659",
-        "product": "Microsoft SharePoint Server",
-        "vendor": "Microsoft",
-        "severity": "HIGH",
-        "cvss": 8.8,
-        "description": "A remote code execution flaw arising from the deserialization of untrusted data.",
-        "exploitation_status": "Active exploitation",
-        "remediation": "Not specified",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html": {
-    "enriched_at": "2026-07-02T09:14:14.004898+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html": {
-    "enriched_at": "2026-07-02T09:14:14.004898+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Scattered Spider",
-        "aliases": [],
-        "motivation": "Hacking",
-        "recent_activity": "Extradition of a teenager accused of belonging to the group.",
-        "targets": [
-          "U.S. citizens"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html": {
-    "enriched_at": "2026-07-02T09:14:14.004898+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "SEO-Poisoned Software Sites Abuse ScreenConnect",
-        "context": "Distribution of AsyncRAT via malicious installer archives hosted on spoofed websites.",
-        "indicators": [
-          "ScreenConnect remote access tool",
-          "AsyncRAT"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html"
-        ]
-      }
-    ],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/": {
-    "enriched_at": "2026-07-02T09:16:41.865403+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Scattered Spider",
-        "aliases": [],
-        "motivation": "Unknown from the text provided",
-        "recent_activity": "Extradited to the United States to face charges",
-        "targets": [
-          "Various"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/": {
-    "enriched_at": "2026-07-02T09:16:41.865403+00:00",
-    "incidents": [
-      {
-        "headline": "Medtronic notifies customers impacted by ShinyHunters data breach",
-        "summary": "Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/": {
-    "enriched_at": "2026-07-02T09:16:41.865403+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/": {
-    "enriched_at": "2026-07-02T09:16:41.865403+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/": {
-    "enriched_at": "2026-07-02T09:16:41.865403+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
-        "context": "GitHub-based",
-        "indicators": [
-          "Python-based remote access trojan (RAT)"
-        ],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/"
-        ]
-      }
-    ],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/": {
-    "enriched_at": "2026-07-02T09:17:18.761462+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Federal, State, Local, Private-Sector"
-    ]
-  },
-  "https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us": {
-    "enriched_at": "2026-07-02T09:18:20.423257+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": null,
-        "aliases": [
-          "Scattered Spider"
-        ],
-        "motivation": null,
-        "recent_activity": "Participated in a breach of a luxury-jewelry retailer in 2025.",
-        "targets": [
-          "luxury-jewelry retailer"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "insurance",
-      "brewing",
-      "manufacturing",
-      "telecommunications"
-    ]
-  },
-  "https://hackread.com/non-compliance-ai-governance-enterprise-imperative/": {
-    "enriched_at": "2026-07-02T09:18:49.460949+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://hackread.com/ransomware-proof-backup-strategies-enterprise-it-teams/": {
-    "enriched_at": "2026-07-02T09:18:49.460949+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.csoonline.com/article/4191923/sandbox-bypass-flaws-in-cursor-ide-highlight-prompt-injection-as-an-rce-vector.html": {
-    "enriched_at": "2026-07-02T09:19:28.484756+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-50548",
-        "product": "Cursor AI-enabled IDE",
-        "vendor": "Cato Networks",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Two vulnerabilities allow attackers to break out of Cursor’s command execution sandbox.",
-        "exploitation_status": "DISCOVERED",
-        "remediation": "No details provided in the article",
-        "source_urls": [
-          "https://www.csoonline.com/article/4191923/sandbox-bypass-flaws-in-cursor-ide-highlight-prompt-injection-as-an-rce-vector.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/02/opera-blocks-clickfix-attacks-with-new-clipboard-protection-feature/": {
-    "enriched_at": "2026-07-02T09:21:41.558980+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/02/matthias-haas-igel-endpoint-recovery-gap/": {
-    "enriched_at": "2026-07-02T09:21:41.558980+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/02/review-ctrl-alt-pwn-the-hackers-playbook/": {
-    "enriched_at": "2026-07-02T09:22:36.228385+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/02/shared-storage-ransomware-detection-research/": {
-    "enriched_at": "2026-07-02T09:22:36.228385+00:00",
-    "incidents": [
-      {
-        "headline": "Catching ransomware on the wire before it locks the file server",
-        "summary": "Corporate networks store sensitive files on shared servers, making them a target for ransomware operators who can begin encrypting files that live on these servers through compromised laptops.",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/07/02/shared-storage-ransomware-detection-research/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/02/open-source-ai-patch-gap/": {
-    "enriched_at": "2026-07-02T09:22:36.228385+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Open-source code",
-        "vendor": "Various open-source maintainers",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "AI systems are identifying a large number of vulnerabilities in open-source code, overwhelming human maintainers who struggle to address them.",
-        "exploitation_status": "Potential",
-        "remediation": "Human review and patching of verified findings",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/07/02/open-source-ai-patch-gap/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/02/github-license-compliance-feature/": {
-    "enriched_at": "2026-07-02T09:22:36.228385+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://securityaffairs.com/194613/security/alleged-scattered-spider-hacker-extradited-to-u-s-to-face-cybercrime-charges.html": {
-    "enriched_at": "2026-07-02T09:25:02.562615+00:00",
-    "incidents": [
-      {
-        "headline": "Alleged Scattered Spider Hacker Extradited to U.S.",
-        "summary": "Peter Stokes, an alleged member of the Scattered Spider group, was extradited from Finland to face charges related to hacking, fraud, and extortion.",
-        "source_urls": [
-          "https://securityaffairs.com/194613/security/alleged-scattered-spider-hacker-extradited-to-u-s-to-face-cybercrime-charges.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Scattered Spider",
-        "aliases": [
-          "Bouquet"
-        ],
-        "motivation": "Hacking, fraud, extortion",
-        "recent_activity": "Participation in multiple cyberattacks",
-        "targets": [],
-        "ttps": [],
-        "source_urls": [
-          "https://securityaffairs.com/194613/security/alleged-scattered-spider-hacker-extradited-to-u-s-to-face-cybercrime-charges.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://securityaffairs.com/194599/security/oracle-e-business-suite-flaw-under-active-attack-950-systems-exposed.html": {
-    "enriched_at": "2026-07-02T09:25:02.562615+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-46817",
-        "product": "Oracle E-Business Suite",
-        "vendor": "Oracle",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A critical vulnerability allows unauthenticated attackers to take over vulnerable instances.",
-        "exploitation_status": "ACTIVE",
-        "remediation": "Not specified in the article",
-        "source_urls": [
-          "https://securityaffairs.com/194599/security/oracle-e-business-suite-flaw-under-active-attack-950-systems-exposed.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://securelist.com/compromise-assessment-findings-2025/120542/": {
-    "enriched_at": "2026-07-02T09:26:03.788239+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Insurance"
-    ]
-  },
-  "https://isc.sans.edu/diary/rss/33120": {
-    "enriched_at": "2026-07-02T09:27:56.958737+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.malwarebytes.com/blog/privacy/2026/07/fake-perplexity-chrome-extension-spies-on-your-searches": {
-    "enriched_at": "2026-07-02T09:29:37.097728+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/blogs/security/secure-amazon-container-workloads-using-container-attribute-based-rules-in-aws-network-firewall/": {
-    "enriched_at": "2026-07-02T09:33:16.595790+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/security/security-bulletins/rss/2026-049-aws/": {
-    "enriched_at": "2026-07-02T09:36:41.387419+00:00",
-    "incidents": [
-      {
-        "headline": "Insecure file permissions in AWS CLI",
-        "summary": "AWS identified a security issue in the AWS Command Line Interface (CLI) where credential and configuration files were written with world-readable permissions, allowing other local users to read credentials.",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-049-aws/"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-13769",
-        "product": "AWS CLI",
-        "vendor": "AWS",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Insecure file permissions in AWS CLI on Unix-like systems where the umask has not been configured to restrict file permissions, allowing other local users to read credentials.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to version 1.44.78 (v1) or 2.34.29 (v2).",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-049-aws/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/security/security-bulletins/rss/2026-050-aws/": {
-    "enriched_at": "2026-07-02T09:36:41.387419+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-13760",
-        "product": "aws-cdk-lib NodejsFunction Docker Bundling pipeline",
-        "vendor": "AWS",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "OS command injection issue in the NodejsFunction Docker bundling pipeline that could allow an actor to execute arbitrary commands on the host running the CDK toolchain via injected shell metacharacters.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to version 2.260.0 or later.",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-050-aws/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/security/security-bulletins/rss/2026-051-aws/": {
-    "enriched_at": "2026-07-02T09:36:41.387419+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-14265",
-        "product": "AWS Advanced JDBC Wrapper RemoteQueryCachePlugin",
-        "vendor": "AWS",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Deserialization of untrusted data in the RemoteQueryCachePlugin that could allow an actor with write access to execute arbitrary code on the application server.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to version 4.1.0 or later.",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-051-aws/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://ubuntu.com/security/notices/USN-8467-2": {
-    "enriched_at": "2026-07-02T09:36:41.387419+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-42496, CVE-2026-8376",
-        "product": "Perl Archive::Tar module",
-        "vendor": "Ubuntu",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Vulnerabilities in Perl's Archive::Tar module that could allow an attacker to read or overwrite arbitrary files during extraction and cause a heap buffer overflow when compiling regular expressions.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Update to the latest version of Perl.",
-        "source_urls": [
-          "https://ubuntu.com/security/notices/USN-8467-2"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html": {
-    "enriched_at": "2026-07-02T10:25:43.139217+00:00",
-    "incidents": [
-      {
-        "headline": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
-        "summary": "Sysdig reports the first ransomware attack fully automated by an AI agent, named JADEPUFFER.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "JADEPUFFER",
-        "aliases": [],
-        "motivation": "Automated ransomware attack",
-        "recent_activity": "Exploiting Langflow RCE to automate database ransomware attacks.",
-        "targets": [
-          "Companies with production databases"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html": {
-    "enriched_at": "2026-07-02T10:25:43.139217+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "INC and Lynx ransomware operators",
-        "aliases": [],
-        "motivation": "Financial gain",
-        "recent_activity": "Using FortiBleed campaign credentials for follow-on intrusions.",
-        "targets": [
-          "FortiGate users"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/fleetdm/fleet/releases/tag/v4.88.0": {
-    "enriched_at": "2026-07-02T10:28:01.662075+00:00",
-    "incidents": [
-      {
-        "headline": "v4.88.0: For 4.88 RC: Fix S3 file carve cleanup hang and rework reconciliation",
-        "summary": "This release includes bug fixes for Apple MDM enrollment, Windows MDM enrollment issues, and other minor improvements.",
-        "source_urls": [
-          "https://github.com/fleetdm/fleet/releases/tag/v4.88.0"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.88.0": {
-    "enriched_at": "2026-07-02T10:28:01.662075+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/arkime/arkime/releases/tag/last-commit7": {
-    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/arkime/arkime/releases/tag/last-commit6": {
-    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.socinvestigation.com/best-cloud-aggregators-for-solution-providers/": {
-    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.socinvestigation.com/funded-crypto-trading-accounts-and-the-prop-firm-market/": {
-    "enriched_at": "2026-07-02T10:28:37.804950+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/": {
     "enriched_at": "2026-07-03T10:31:02.874732+00:00",
     "incidents": [
@@ -697,14 +89,6 @@
         ]
       }
     ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/": {
-    "enriched_at": "2026-07-03T10:31:37.882719+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
     "industries": []
@@ -1016,26 +400,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/": {
-    "enriched_at": "2026-07-03T10:34:44.821389+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "BioShocking Attack",
-        "context": "Tricking AI Browsers into Stealing Credentials",
-        "indicators": [
-          "Context manipulation",
-          "Agentic browsers abandoning safety guardrails"
-        ],
-        "source_urls": [
-          "https://www.securityweek.com/bioshocking-attack-tricks-ai-browsers-into-stealing-credentials/"
-        ]
-      }
-    ],
-    "industries": []
-  },
   "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/": {
     "enriched_at": "2026-07-03T10:34:44.821389+00:00",
     "incidents": [],
@@ -1212,14 +576,6 @@
     "industries": []
   },
   "https://github.com/wazuh/wazuh/releases/tag/v5.0.0-beta3": {
-    "enriched_at": "2026-07-03T10:36:34.586730+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/wazuh/wazuh/releases/tag/coverity-w27-4.14.7": {
     "enriched_at": "2026-07-03T10:36:34.586730+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -9903,6 +9259,1407 @@
   },
   "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/": {
     "enriched_at": "2026-07-15T17:35:04.341533+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/": {
+    "enriched_at": "2026-07-16T10:31:36.914516+00:00",
+    "incidents": [
+      {
+        "headline": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
+        "summary": "A financially motivated Russian threat actor is using trojanized software to deploy a new backdoor called Starland RAT.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "UAT-11795",
+        "aliases": [],
+        "motivation": "FINANCIAL",
+        "recent_activity": "Trojanizing WebEx, Zoom apps to deploy Starland RAT",
+        "targets": [
+          "Zoom users"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/": {
+    "enriched_at": "2026-07-16T10:31:36.914516+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/": {
+    "enriched_at": "2026-07-16T10:31:36.914516+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/": {
+    "enriched_at": "2026-07-16T10:31:36.914516+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/": {
+    "enriched_at": "2026-07-16T10:31:36.914516+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog": {
+    "enriched_at": "2026-07-16T10:31:36.914516+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-46817",
+        "product": "Oracle E-Business Suite",
+        "vendor": "Oracle",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Improper Privilege Management Vulnerability.",
+        "exploitation_status": "ACTIVE EXPLOITATION",
+        "remediation": "Prioritized based on risk by federal agencies.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        ]
+      },
+      {
+        "cve": "CVE-2023-4346",
+        "product": "KNX Association KNX Protocol",
+        "vendor": "KNX Association",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability.",
+        "exploitation_status": "ACTIVE EXPLOITATION",
+        "remediation": "Prioritized based on risk by federal agencies.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/romania-ancpi-cyber-attack/": {
+    "enriched_at": "2026-07-16T10:32:23.889043+00:00",
+    "incidents": [
+      {
+        "headline": "Romania’s land registry hit by cyber attack, data allegedly for sale",
+        "summary": "The National Agency for Cadastre and Land Registration (ANCPI) in Romania experienced a cyber attack that disrupted its e-Terra cadastre and land registry app. The agency confirmed the data was not compromised.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/16/romania-ancpi-cyber-attack/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/tenable-expands-one-exposure-management-platform/": {
+    "enriched_at": "2026-07-16T10:32:23.889043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/lineation-ai-zero-trust-control-plane/": {
+    "enriched_at": "2026-07-16T10:32:23.889043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/windows-sso-policy-admin-control/": {
+    "enriched_at": "2026-07-16T10:32:23.889043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/dutch-police-investment-fraud-ring-dismantled/": {
+    "enriched_at": "2026-07-16T10:32:23.889043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Investment fraud network",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Operating a global investment fraud scheme through dozens of fraudulent call centers, generating over €100 million monthly.",
+        "targets": [
+          "Victims in multiple countries"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/16/dutch-police-investment-fraud-ring-dismantled/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/vs-visual-studio-code-agent-host/": {
+    "enriched_at": "2026-07-16T10:32:23.889043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/cyber-insurance-coverage-gap/": {
+    "enriched_at": "2026-07-16T10:33:16.591381+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/open-source-projects-funding-impact/": {
+    "enriched_at": "2026-07-16T10:33:16.591381+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/sophos-state-of-ransomware-2026/": {
+    "enriched_at": "2026-07-16T10:33:16.591381+00:00",
+    "incidents": [
+      {
+        "headline": "Ransom demands are down, email is the top way attackers get in",
+        "summary": "Malicious emails and phishing account for half of all ransomware incidents based on a survey by Sophos.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/16/sophos-state-of-ransomware-2026/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/16/ciso-vulnerability-remediation-gap/": {
+    "enriched_at": "2026-07-16T10:33:16.591381+00:00",
+    "incidents": [
+      {
+        "headline": "Companies keep getting breached by vulnerabilities they already knew about",
+        "summary": "A survey from the security firm Vicarius indicates a gap between discovering vulnerabilities and remediation, leading to breaches.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/16/ciso-vulnerability-remediation-gap/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/": {
+    "enriched_at": "2026-07-16T10:33:16.591381+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "NGINX, BIG-IP",
+        "vendor": "F5",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Attackers could exploit the bugs to modify configurations, terminate or restart processes, cross security boundaries, leak memory, and execute code.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/": {
+    "enriched_at": "2026-07-16T10:33:16.591381+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/": {
+    "enriched_at": "2026-07-16T10:33:54.302990+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "UEFI shim bootloaders",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Signed by Microsoft, the vulnerable UEFI shim bootloaders could be abused on any system, regardless of the OS.",
+        "exploitation_status": "POC available but stripped to prevent immediate exploitation",
+        "remediation": "Patch required",
+        "source_urls": [
+          "https://www.securityweek.com/nightmare-eclipse-drops-legacyhive-windows-zero-day/",
+          "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Retail",
+      "Food Service"
+    ]
+  },
+  "https://www.securityweek.com/nightmare-eclipse-drops-legacyhive-windows-zero-day/": {
+    "enriched_at": "2026-07-16T10:33:54.302990+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "UEFI shim bootloaders",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Signed by Microsoft, the vulnerable UEFI shim bootloaders could be abused on any system, regardless of the OS.",
+        "exploitation_status": "POC available but stripped to prevent immediate exploitation",
+        "remediation": "Patch required",
+        "source_urls": [
+          "https://www.securityweek.com/nightmare-eclipse-drops-legacyhive-windows-zero-day/",
+          "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Retail",
+      "Food Service"
+    ]
+  },
+  "https://www.securityweek.com/trend-micro-tanium-eset-and-tenable-patch-severe-product-vulnerabilities/": {
+    "enriched_at": "2026-07-16T10:33:54.302990+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Retail",
+      "Food Service"
+    ]
+  },
+  "https://therecord.media/cyberattack-japan-nichirei-logistics-impacts-kfc": {
+    "enriched_at": "2026-07-16T10:33:54.302990+00:00",
+    "incidents": [
+      {
+        "headline": "Cyberattack on Japan's largest cold-chain operator disrupts KFC, supermarket supplies",
+        "summary": "A cyberattack on Nichirei Logistics Group has disrupted supply chains for major restaurant and retail companies.",
+        "source_urls": [
+          "https://therecord.media/cyberattack-japan-nichirei-logistics-impacts-kfc"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Retail",
+      "Food Service"
+    ]
+  },
+  "https://therecord.media/gold-eagle-cybersecurity-vulnerabilities-clearinghouse": {
+    "enriched_at": "2026-07-16T10:33:54.302990+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Retail",
+      "Food Service"
+    ]
+  },
+  "https://therecord.media/jay-clayton-odni-nominee-senate-confirmation-hearing": {
+    "enriched_at": "2026-07-16T10:33:54.302990+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Retail",
+      "Food Service"
+    ]
+  },
+  "https://therecord.media/genetic-testing-settlement-data-breach": {
+    "enriched_at": "2026-07-16T10:34:47.385755+00:00",
+    "incidents": [
+      {
+        "headline": "23andMe reaches $18 million settlement with states for massive breach",
+        "summary": "A coalition of 42 state attorneys general reached an $18 million settlement with 23andMe for cybersecurity failings that led to a data breach.",
+        "source_urls": [
+          "https://therecord.media/genetic-testing-settlement-data-breach"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html": {
+    "enriched_at": "2026-07-16T10:34:47.385755+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html": {
+    "enriched_at": "2026-07-16T10:34:47.385755+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-53412",
+        "product": "Zoom Desktop Client, Zoom VDI Client, Zoom Meeting SDK for Windows",
+        "vendor": "Zoom",
+        "severity": "CRITICAL",
+        "cvss": 9.8,
+        "description": "Improper Input Validation in Zoom Desktop Client for Windows, Zoom VDI Client for Windows, and Zoom Meeting SDK for Windows.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html": {
+    "enriched_at": "2026-07-16T10:34:47.385755+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/": {
+    "enriched_at": "2026-07-16T10:34:47.385755+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-444/": {
+    "enriched_at": "2026-07-16T10:34:47.385755+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-14266",
+        "product": "7-Zip",
+        "vendor": "ZDI",
+        "severity": "HIGH",
+        "cvss": 7.0,
+        "description": "Remote attackers can execute arbitrary code on affected installations of 7-Zip through a decompression heap-based buffer overflow.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-444/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-443/": {
+    "enriched_at": "2026-07-16T10:36:31.205540+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Linux Kernel",
+        "vendor": "Various",
+        "severity": "CRITICAL",
+        "cvss": 8.8,
+        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel.",
+        "exploitation_status": "POC available or likely",
+        "remediation": "Update to the latest kernel version",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-443/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-442/": {
+    "enriched_at": "2026-07-16T10:36:31.205540+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Linux Kernel",
+        "vendor": "Various",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel.",
+        "exploitation_status": "POC available or likely",
+        "remediation": "Update to the latest kernel version",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-442/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-441/": {
+    "enriched_at": "2026-07-16T10:36:31.205540+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-2291",
+        "product": "dnsmasq",
+        "vendor": "Various",
+        "severity": "CRITICAL",
+        "cvss": 8.1,
+        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of dnsmasq.",
+        "exploitation_status": "POC available or likely",
+        "remediation": "Update to the latest version and apply security patches",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-441/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-440/": {
+    "enriched_at": "2026-07-16T10:36:31.205540+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-8108",
+        "product": "Fuji Electric Tellus pcid64 Driver",
+        "vendor": "Fuji Electric",
+        "severity": "MEDIUM",
+        "cvss": 5.5,
+        "description": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Fuji Electric Tellus.",
+        "exploitation_status": "POC available or likely",
+        "remediation": "Update the driver to the latest version and apply security patches",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-440/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-439/": {
+    "enriched_at": "2026-07-16T10:36:31.205540+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-8108",
+        "product": "Fuji Electric Tellus pcid64 Driver",
+        "vendor": "Fuji Electric",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Fuji Electric Tellus.",
+        "exploitation_status": "POC available or likely",
+        "remediation": "Update the driver to the latest version and apply security patches",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-439/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-438/": {
+    "enriched_at": "2026-07-16T10:36:31.205540+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-6071",
+        "product": "Rockwell Automation Arena Simulation",
+        "vendor": "Rockwell Automation",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Rockwell Automation Arena Simulation.",
+        "exploitation_status": "POC available or likely",
+        "remediation": "Update the software to the latest version and apply security patches",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-438/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-437/": {
+    "enriched_at": "2026-07-16T10:38:34.902175+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-13308",
+        "product": "Autel MaxiCharger AC Elite Home EV chargers",
+        "vendor": "Autel",
+        "severity": "CRITICAL",
+        "cvss": 8.1,
+        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "No specific remediation mentioned in the text, but typically involves patching or firmware updates.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-437/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-436/": {
+    "enriched_at": "2026-07-16T10:38:34.902175+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-13307",
+        "product": "Autel MaxiCharger AC Elite Home EV chargers",
+        "vendor": "Autel",
+        "severity": "HIGH",
+        "cvss": 6.8,
+        "description": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "No specific remediation mentioned in the text, but typically involves patching or firmware updates.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-436/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-435/": {
+    "enriched_at": "2026-07-16T10:38:34.902175+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-13309",
+        "product": "Autel MaxiCharger AC Elite Home EV chargers",
+        "vendor": "Autel",
+        "severity": "HIGH",
+        "cvss": 6.8,
+        "description": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "No specific remediation mentioned in the text, but typically involves patching or firmware updates.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-435/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-434/": {
+    "enriched_at": "2026-07-16T10:38:34.902175+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-13306",
+        "product": "Autel MaxiCharger AC Elite Home EV chargers",
+        "vendor": "Autel",
+        "severity": "MEDIUM",
+        "cvss": 4.3,
+        "description": "This vulnerability allows physically present attackers to bypass authentication on affected installations of Autel MaxiCharger AC Elite Home EV chargers.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "No specific remediation mentioned in the text, but typically involves patching or firmware updates.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-434/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-433/": {
+    "enriched_at": "2026-07-16T10:38:34.902175+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-13305",
+        "product": "Autel MaxiCharger AC Elite Home EV chargers",
+        "vendor": "Autel",
+        "severity": "HIGH",
+        "cvss": 6.4,
+        "description": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "No specific remediation mentioned in the text, but typically involves patching or firmware updates.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-433/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-432/": {
+    "enriched_at": "2026-07-16T10:38:34.902175+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-13268",
+        "product": "G DATA Total Security",
+        "vendor": "G DATA",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "No specific remediation mentioned in the text, but typically involves patching or firmware updates.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-432/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-431/": {
+    "enriched_at": "2026-07-16T10:40:20.031256+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-8921",
+        "product": "ASUS Business Manager Service Client-Side Authentication",
+        "vendor": "ASUS",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "Local attackers can escalate privileges on affected installations of ASUS Business Manager.",
+        "exploitation_status": "LIKELY",
+        "remediation": "Apply vendor patches or update to the latest version.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-431/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-430/": {
+    "enriched_at": "2026-07-16T10:40:20.031256+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-6102",
+        "product": "MSI Center NTIOLib_X64",
+        "vendor": "MSI",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "Local attackers can escalate privileges on affected installations of MSI Center.",
+        "exploitation_status": "LIKELY",
+        "remediation": "Apply vendor patches or update to the latest version.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-430/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-429/": {
+    "enriched_at": "2026-07-16T10:40:20.031256+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-24157",
+        "product": "NVIDIA NeMo Framework",
+        "vendor": "NVIDIA",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "Remote attackers can execute arbitrary code on affected installations of NVIDIA NeMo Framework.",
+        "exploitation_status": "LIKELY",
+        "remediation": "Apply vendor patches or update to the latest version.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-429/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-428/": {
+    "enriched_at": "2026-07-16T10:40:20.031256+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-8247",
+        "product": "WatchGuard FireWare OS admd",
+        "vendor": "WatchGuard",
+        "severity": "HIGH",
+        "cvss": 7.5,
+        "description": "Network-adjacent attackers can execute arbitrary code on affected installations of WatchGuard FireWare OS.",
+        "exploitation_status": "LIKELY",
+        "remediation": "Apply vendor patches or update to the latest version.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-428/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-427/": {
+    "enriched_at": "2026-07-16T10:40:20.031256+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-13084",
+        "product": "WatchGuard FireWare OS iked ike2_hmac",
+        "vendor": "WatchGuard",
+        "severity": "MEDIUM",
+        "cvss": 5.9,
+        "description": "Remote attackers can create a denial-of-service condition on affected installations of WatchGuard FireWare OS.",
+        "exploitation_status": "LIKELY",
+        "remediation": "Apply vendor patches or update to the latest version.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-427/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-426/": {
+    "enriched_at": "2026-07-16T10:40:20.031256+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-42771",
+        "product": "OpenSSL X.509 Email Validation",
+        "vendor": "OpenSSL",
+        "severity": "MEDIUM",
+        "cvss": 6.5,
+        "description": "Remote attackers can disclose sensitive information on affected installations of OpenSSL.",
+        "exploitation_status": "LIKELY",
+        "remediation": "Apply vendor patches or update to the latest version.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-426/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-425/": {
+    "enriched_at": "2026-07-16T10:42:15.259290+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-35188",
+        "product": "OpenSSL",
+        "vendor": "OpenSSL Project",
+        "severity": "CRITICAL",
+        "cvss": 7.5,
+        "description": "Remote attackers can execute arbitrary code on affected installations of OpenSSL through a double free vulnerability in OCSP stapling verification.",
+        "exploitation_status": null,
+        "remediation": "Update to the latest version of OpenSSL and apply vendor patches.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-425/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-424/": {
+    "enriched_at": "2026-07-16T10:42:15.259290+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-13135",
+        "product": "Synology DiskStation DS925+ MailPlus",
+        "vendor": "Synology Inc.",
+        "severity": "MEDIUM",
+        "cvss": 4.3,
+        "description": "Network-adjacent attackers can access the Redis instance on affected Synology DiskStation DS925+ devices without authentication.",
+        "exploitation_status": null,
+        "remediation": "Update to the latest version of Synology DiskStation and apply vendor patches.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-424/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-423/": {
+    "enriched_at": "2026-07-16T10:42:15.259290+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2025-15660",
+        "product": "Synology DiskStation DS925+ MailPlus",
+        "vendor": "Synology Inc.",
+        "severity": "CRITICAL",
+        "cvss": 8.8,
+        "description": "Network-adjacent attackers can execute arbitrary code on affected Synology DiskStation DS925+ devices due to weak cryptography for passwords in the Redis instance.",
+        "exploitation_status": null,
+        "remediation": "Update to the latest version of Synology DiskStation and apply vendor patches.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-423/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-422/": {
+    "enriched_at": "2026-07-16T10:42:15.259290+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-15551",
+        "product": "Samsung rlottie",
+        "vendor": "Samsung Electronics Co., Ltd.",
+        "severity": "CRITICAL",
+        "cvss": 7.8,
+        "description": "Remote attackers can execute arbitrary code on affected installations of Samsung rlottie through numeric truncation in the library.",
+        "exploitation_status": null,
+        "remediation": "Update to the latest version of Samsung rlottie and apply vendor patches.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-422/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-421/": {
+    "enriched_at": "2026-07-16T10:42:15.259290+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-20146",
+        "product": "Cisco Identity Services Engine",
+        "vendor": "Cisco Systems, Inc.",
+        "severity": "MEDIUM",
+        "cvss": 5.5,
+        "description": "Remote attackers can disclose sensitive information on affected installations of Cisco Identity Services Engine through directory traversal in the validFileNameOrPath parameter.",
+        "exploitation_status": null,
+        "remediation": "Update to the latest version of Cisco Identity Services Engine and apply vendor patches.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-421/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-420/": {
+    "enriched_at": "2026-07-16T10:42:15.259290+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-48344",
+        "product": "Adobe Creative Cloud Desktop Application",
+        "vendor": "Adobe Systems Incorporated",
+        "severity": "CRITICAL",
+        "cvss": 7.8,
+        "description": "Local attackers can escalate privileges on affected installations of Adobe Creative Cloud Desktop Application through incorrect permission assignment in the AGSService.",
+        "exploitation_status": null,
+        "remediation": "Update to the latest version of Adobe Creative Cloud and apply vendor patches.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-420/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-419/": {
+    "enriched_at": "2026-07-16T10:43:43.099634+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-48272",
+        "product": "Adobe Creative Cloud",
+        "vendor": "Adobe",
+        "severity": "HIGH",
+        "cvss": 7.0,
+        "description": "Uncontrolled search path element local privilege escalation vulnerability.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-419/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-418/": {
+    "enriched_at": "2026-07-16T10:43:43.099634+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-55126",
+        "product": "Microsoft SharePoint",
+        "vendor": "Microsoft",
+        "severity": "HIGH",
+        "cvss": 7.3,
+        "description": "Cross-site scripting vulnerability.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-418/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-417/": {
+    "enriched_at": "2026-07-16T10:43:43.099634+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-50311",
+        "product": "Microsoft Windows ServerManager",
+        "vendor": "Microsoft",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "Local privilege escalation vulnerability.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-417/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-416/": {
+    "enriched_at": "2026-07-16T10:43:43.099634+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-54129",
+        "product": "Microsoft Hyper-V netvsc",
+        "vendor": "Microsoft",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "Out-of-bounds read local privilege escalation vulnerability.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-416/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-415/": {
+    "enriched_at": "2026-07-16T10:43:43.099634+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-49805",
+        "product": "Microsoft Windows WMI Providers",
+        "vendor": "Microsoft",
+        "severity": "HIGH",
+        "cvss": 7.0,
+        "description": "Incorrect authorization local privilege escalation vulnerability.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-415/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-414/": {
+    "enriched_at": "2026-07-16T10:43:43.099634+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-40400",
+        "product": "Microsoft PowerShell Help Directory Traversal",
+        "vendor": "Microsoft",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "Remote code execution vulnerability.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-414/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-413/": {
+    "enriched_at": "2026-07-16T10:45:23.516989+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-50522",
+        "product": "Microsoft SharePoint",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": 8.1,
+        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft SharePoint.",
+        "exploitation_status": "REMOTE_CODE_EXECUTION",
+        "remediation": "No authentication is required to exploit this vulnerability; however, no specific remediation steps are provided in the text.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-412/",
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-413/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-412/": {
+    "enriched_at": "2026-07-16T10:45:23.516989+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-50522",
+        "product": "Microsoft SharePoint",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": 8.1,
+        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft SharePoint.",
+        "exploitation_status": "REMOTE_CODE_EXECUTION",
+        "remediation": "No authentication is required to exploit this vulnerability; however, no specific remediation steps are provided in the text.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-412/",
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-413/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-411/": {
+    "enriched_at": "2026-07-16T10:45:23.516989+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-24237",
+        "product": "NVIDIA NVTabular",
+        "vendor": "NVIDIA",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA NVTabular.",
+        "exploitation_status": "REMOTE_CODE_EXECUTION",
+        "remediation": "User interaction is required; the target must visit a malicious page or open a malicious file.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-411/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-410/": {
+    "enriched_at": "2026-07-16T10:45:23.516989+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-24228",
+        "product": "NVIDIA NeMo Framework",
+        "vendor": "NVIDIA",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA NeMo Framework.",
+        "exploitation_status": "REMOTE_CODE_EXECUTION",
+        "remediation": "User interaction is required; the target must visit a malicious page or open a malicious file.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-410/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-409/": {
+    "enriched_at": "2026-07-16T10:45:23.516989+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-55999",
+        "product": "X.Org Server Glamor Font",
+        "vendor": "X.Org Foundation",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server.",
+        "exploitation_status": "PRIVILEGE_ESCALATION",
+        "remediation": "An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-409/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-408/": {
+    "enriched_at": "2026-07-16T10:45:23.516989+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-56003",
+        "product": "X.Org Server ComputeScaledProperties",
+        "vendor": "X.Org Foundation",
+        "severity": "HIGH",
+        "cvss": 7.8,
+        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server.",
+        "exploitation_status": "PRIVILEGE_ESCALATION",
+        "remediation": "An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-408/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-407/": {
+    "enriched_at": "2026-07-16T10:46:35.527874+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-56002",
+        "product": "X.Org Server",
+        "vendor": "ZDI",
+        "severity": "CRITICAL",
+        "cvss": 7.8,
+        "description": "A heap-based buffer overflow vulnerability in the PCF font parsing module of X.Org Server.",
+        "exploitation_status": "POC available",
+        "remediation": "Apply vendor patch",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-407/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-406/": {
+    "enriched_at": "2026-07-16T10:46:35.527874+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-56001",
+        "product": "X.Org Server",
+        "vendor": "ZDI",
+        "severity": "CRITICAL",
+        "cvss": 7.8,
+        "description": "An integer overflow vulnerability in the BitmapScaleBitmaps function of X.Org Server.",
+        "exploitation_status": "POC available",
+        "remediation": "Apply vendor patch",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-406/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://www.zerodayinitiative.com/advisories/ZDI-26-405/": {
+    "enriched_at": "2026-07-16T10:46:35.527874+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-56000",
+        "product": "X.Org Server",
+        "vendor": "ZDI",
+        "severity": "CRITICAL",
+        "cvss": 7.8,
+        "description": "A use-after-free vulnerability in the GLX extension of X.Org Server.",
+        "exploitation_status": "POC available",
+        "remediation": "Apply vendor patch",
+        "source_urls": [
+          "http://www.zerodayinitiative.com/advisories/ZDI-26-405/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.tenable.com/blog/cve-2026-15409-cve-2026-15410-sonicwall-sma-1000-zero-day-vulnerabilities-exploited-in-the": {
+    "enriched_at": "2026-07-16T10:46:35.527874+00:00",
+    "incidents": [
+      {
+        "headline": "SonicWall SMA 1000 zero-day vulnerabilities exploited in the wild",
+        "summary": "SonicWall patched two recently exploited zero-day vulnerabilities in its SMA 1000 Series secure remote access appliances which may have been chained for unauthenticated remote code execution.",
+        "source_urls": [
+          "https://www.tenable.com/blog/cve-2026-15409-cve-2026-15410-sonicwall-sma-1000-zero-day-vulnerabilities-exploited-in-the"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/": {
+    "enriched_at": "2026-07-16T10:46:35.527874+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/": {
+    "enriched_at": "2026-07-16T10:46:35.527874+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/": {
+    "enriched_at": "2026-07-16T10:47:36.144406+00:00",
+    "incidents": [
+      {
+        "headline": "UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially motivated campaign",
+        "summary": "A sophisticated, Russian-speaking adversary named UAT-11795 has been conducting a malicious campaign targeting users in the U.S. and Europe since June 2025.",
+        "source_urls": [
+          "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "UAT-11795",
+        "aliases": [],
+        "motivation": "Financially motivated",
+        "recent_activity": "Deploying Starland RAT and bespoke WLDR C2 implant in a campaign targeting users in the U.S. and Europe since June 2025.",
+        "targets": [
+          "Users in the U.S. and Europe"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-056-aws/": {
+    "enriched_at": "2026-07-16T10:47:36.144406+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-15746",
+        "product": "Strands Agents Tools elasticsearch_memory tool",
+        "vendor": "AWS",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A server-side request forgery (SSRF) issue in the elasticsearch_memory tool exposed its connection parameters as fields the large language model could control, potentially disclosing the operator's Elasticsearch API key.",
+        "exploitation_status": "POC available",
+        "remediation": "Update to version 0.7.0 or later",
+        "source_urls": [
+          "https://aws.amazon.com/security/security-bulletins/rss/2026-056-aws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.gitguardian.com/perimeted-moved-to-laptop/": {
+    "enriched_at": "2026-07-16T10:47:36.144406+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/fleetdm/fleet/releases/tag/v4.89.0": {
+    "enriched_at": "2026-07-16T10:47:36.144406+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.89.0": {
+    "enriched_at": "2026-07-16T10:47:36.144406+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],

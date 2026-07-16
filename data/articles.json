@@ -16982,5 +16982,785 @@
     "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
     "publisher": "Microsoft Security Blog",
     "source_note": ""
+  },
+  {
+    "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
+    "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
+    "published_date": "2026-07-16T10:19:34+00:00",
+    "source_type": "news",
+    "summary": "A financially motivated Russian threat actor tracked as UAT-11795 is using trojanized software to steal credentials and cryptocurrency by deploying a new backdoor called Starland RAT. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New Spirals ransomware encrypts victim network in under 24 hours",
+    "url": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
+    "published_date": "2026-07-16T10:00:00+00:00",
+    "source_type": "news",
+    "summary": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Dutch police bust investment fraud ring stealing over €100 million",
+    "url": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
+    "published_date": "2026-07-15T21:55:50+00:00",
+    "source_type": "news",
+    "summary": "The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have tens of thousands of victims. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Zoom warns of critical account takeover vulnerability",
+    "url": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+    "published_date": "2026-07-15T20:16:02+00:00",
+    "source_type": "news",
+    "summary": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated party to hijack accounts. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
+    "url": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+    "published_date": "2026-07-15T18:33:48+00:00",
+    "source_type": "news",
+    "summary": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "published_date": "2026-07-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2023-4346\" target=\"_blank\">CVE-2023-4346</a> KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-46817\" target=\"_blank\">CVE-2026-46817</a> Oracle E-Business Suite Improper Privilege Management Vulnerability &nbsp;</li>\n</ul>\n<p>These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "StoneFly Storage Concentrator",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-06",
+    "published_date": "2026-06-30T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-06.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow attackers to gain broad unauthorized access, execute arbitrary commands with root privileges, steal sensitive data, and perform actions on behalf of legitimate users across interconnected systems.</strong></p>\n<p>The following versions of StoneFly Storage Concentrator are affected:</p>\n<ul>\n<li>Storage Concentrator &lt;8.0.4.22 (CVE-2026-56415, CVE-2026-55721, CVE-2026-50040)</li>\n<li>Storage Concentrator Virtual Machine &lt;8.0.4.22 (CVE-2026-56415, CVE-2026-55721, CVE-2026-50040)</li>\n<li>Storage Concentrator &lt;8.0.4.26 (CVE-2026-50110)</li>\n<li>Storage Concentrator Virtual Machine &lt;8.0.4.26 (CVE-2026-50110)</li>\n<li>Storage Concentrator &lt;8.0.4.29 (CVE-2026-56413)</li>\n<li>Storage Concentrator Virtual Machine &lt;8.0.4.29 (CVE-2026-56413)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 10</td>\n<td>Ston",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Romania’s land registry hit by cyber attack, data allegedly for sale",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/romania-ancpi-cyber-attack/",
+    "published_date": "2026-07-16T10:21:27+00:00",
+    "source_type": "news",
+    "summary": "<p>Romania&#8217;s National Agency for Cadastre and Land Registration (ANCPI) suffered a major disruption on Tuesday, July 14, when its e-Terra cadastre and land registry app became unavailable to users. What was first declared to be a &#8220;major technical incident&#8221; has now been confirmed as a cyber attack. While the circumstances are still being investigated by the competent state institutions, ANCPI stated that the data administered through its IT systems has not been compromised as a &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/romania-ancpi-cyber-attack/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/romania-ancpi-cyber-attack/\">Romania&#8217;s land registry hit by cyber attack, data allegedly for sale</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Tenable One unifies code risks with enterprise exposure data",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/tenable-expands-one-exposure-management-platform/",
+    "published_date": "2026-07-16T09:24:36+00:00",
+    "source_type": "news",
+    "summary": "<p>Tenable has announced the expansion of the Tenable One Exposure Management Platform, unifying application security risks with all other exposure data. By integrating static code vulnerability data, Tenable One delivers complete, code-to-runtime visibility across the entire attack surface. Security teams have long struggled with a code security problem where vulnerable code reaches production faster than it can be reviewed. This problem is exacerbated by the use of generative AI, which empowers developers to ship code &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/tenable-expands-one-exposure-management-platform/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/tenable-expands-one-exposure-management-platform/\">Tenable One unifies code risks with enterprise exposure data</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Lineation.ai focuses on runtime security for autonomous AI agents",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/lineation-ai-zero-trust-control-plane/",
+    "published_date": "2026-07-16T09:12:21+00:00",
+    "source_type": "news",
+    "summary": "<p>Lineation.ai has announced the public launch of its comprehensive agentic security platform. Delivering a solution at the intersection of genAI application security and runtime defense, lineation introduces a zero trust unified control plane and a lightweight endpoint daemon that secures autonomous AI agents directly at execution. As enterprises adopt autonomous AI agents that read sensitive data, call APIs, and execute workflows, traditional static perimeters and standard LLM gateways fall blind. By assigning a Zero Trust &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/lineation-ai-zero-trust-control-plane/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/lineation-ai-zero-trust-control-plane/\">Lineation.ai focuses on runtime security for autonomous AI agents</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft makes Windows SSO prompts easier to manage",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/windows-sso-policy-admin-control/",
+    "published_date": "2026-07-16T08:47:51+00:00",
+    "source_type": "news",
+    "summary": "<p>Microsoft is introducing a new registry-based policy that lets IT administrators automatically accept Windows SSO permissions on Windows 11 versions 24H2 and 25H2 devices managed with Microsoft Entra ID. Users with personal Microsoft accounts and devices outside policy-managed environments will continue to receive SSO permission prompts. Admin control for SSO prompts in Windows (Source: Microsoft) Why Microsoft introduced it In the European Economic Area (EEA), Microsoft changed the Windows sign-in experience so users can choose &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/windows-sso-policy-admin-control/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/windows-sso-policy-admin-control/\">Microsoft makes Windows SSO prompts easier to manage</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Police take down investment fraud network that stole €100 million a month",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/dutch-police-investment-fraud-ring-dismantled/",
+    "published_date": "2026-07-16T08:30:41+00:00",
+    "source_type": "news",
+    "summary": "<p>Dutch police, working alongside Belgian authorities and Europol, have dismantled a major criminal network accused of operating a global investment fraud scheme through dozens of fraudulent call centers. Investigators estimate the organization generated more than €100 million a month by targeting victims in multiple countries. The group operated around 20 call centers staffed by more than 700 people posing as financial advisers. The main suspect, a 46-year-old man with Israeli and Polish citizenship, was arrested &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/dutch-police-investment-fraud-ring-dismantled/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/dutch-police-investment-fraud-ring-dismantled/\">Police take down investment fraud network that stole €100 million a month</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "VS Code agent host runs Copilot, Claude, and Codex in a dedicated process",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/vs-visual-studio-code-agent-host/",
+    "published_date": "2026-07-16T07:45:47+00:00",
+    "source_type": "news",
+    "summary": "<p>Developers who lean on AI coding agents often keep several editor windows open at once, each tied to its own session. The 1.129 release of Visual Studio Code reworks that setup with a dedicated agent host. A dedicated process for agent sessions The agent host is a separate process that runs agent harnesses such as Copilot, Claude, and Codex, built on the Agent Host Protocol. Because a session lives in its own process, one session &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/vs-visual-studio-code-agent-host/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/vs-visual-studio-code-agent-host/\">VS Code agent host runs Copilot, Claude, and Codex in a dedicated process</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Reading between the lines of a cyber insurance policy",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/cyber-insurance-coverage-gap/",
+    "published_date": "2026-07-16T06:00:55+00:00",
+    "source_type": "news",
+    "summary": "<p>Enterprises in regulated industries often carry cyber insurance policies because contracts require it or boards ask for documented risk transfer. The global market for these policies reached about $16 billion in premiums in 2024. Coverage has become widespread. Payouts have grown less predictable. The gap between exposure and coverage The Global Federation of Insurance Associations, which represents insurers accounting for close to 90 percent of premiums worldwide, quantified the cyber protection gap at about $900 &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/cyber-insurance-coverage-gap/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/cyber-insurance-coverage-gap/\">Reading between the lines of a cyber insurance policy</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "What public money does to open-source projects",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/open-source-projects-funding-impact/",
+    "published_date": "2026-07-16T05:30:58+00:00",
+    "source_type": "news",
+    "summary": "<p>Most of the software running inside a typical company was written by volunteers the company never paid. Open-source code sits under web apps, build pipelines, and the machine learning stacks getting so much attention right now. Roughly 96 percent of codebases carry some of it. That dependence turned visible in December 2021, when the log4j flaw exposed applications from Twitter to Minecraft. The xz utils backdoor of 2024 drove the point home again. Both traced &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/open-source-projects-funding-impact/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/open-source-projects-funding-impact/\">What public money does to open-source projects</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Ransom demands are down, email is the top way attackers get in",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/sophos-state-of-ransomware-2026/",
+    "published_date": "2026-07-16T05:00:58+00:00",
+    "source_type": "news",
+    "summary": "<p>An employee opens an email that looks like any other, clicks a link, and gives up a password without noticing. A stolen login opens a door deeper in the network. Files stop opening a few days later. That chain now sits at the front of most ransomware cases. Malicious email and phishing together account for half of all incidents, based on a survey of 2,158 IT and security leaders whose organizations were hit in the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/sophos-state-of-ransomware-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/sophos-state-of-ransomware-2026/\">Ransom demands are down, email is the top way attackers get in</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Companies keep getting breached by vulnerabilities they already knew about",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/ciso-vulnerability-remediation-gap/",
+    "published_date": "2026-07-16T04:30:01+00:00",
+    "source_type": "news",
+    "summary": "<p>Scanning tools have gotten good at their work. Organizations now find more weaknesses across more of their systems than at any earlier point in the industry&#8217;s history. A survey from the security firm Vicarius points to a gap that opens after that discovery, in the work of assigning, approving, deploying, and confirming a fix. The company surveyed 300 IT and cybersecurity leaders in the United States and the United Kingdom, at organizations with 500 to &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/ciso-vulnerability-remediation-gap/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/ciso-vulnerability-remediation-gap/\">Companies keep getting breached by vulnerabilities they already knew about</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "F5 Patches Multiple NGINX, BIG-IP Vulnerabilities",
+    "url": "https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/",
+    "published_date": "2026-07-16T09:20:10+00:00",
+    "source_type": "news",
+    "summary": "<p>Attackers could exploit the bugs to modify configurations, terminate or restart processes, cross security boundaries, leak memory, and execute code.</p>\n<p>The post <a href=\"https://www.securityweek.com/f5-patches-multiple-nginx-big-ip-vulnerabilities/\">F5 Patches Multiple NGINX, BIG-IP Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans",
+    "url": "https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/",
+    "published_date": "2026-07-16T08:49:27+00:00",
+    "source_type": "news",
+    "summary": "<p>Chinese cybersecurity firms are facing action from the country’s military, but it’s not due to product or technical failures.</p>\n<p>The post <a href=\"https://www.securityweek.com/chinas-top-cybersecurity-firms-hit-by-mounting-military-procurement-bans/\">China&#8217;s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Old UEFI Shims Expose Systems to Secure Boot Bypass",
+    "url": "https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/",
+    "published_date": "2026-07-16T07:59:22+00:00",
+    "source_type": "news",
+    "summary": "<p>Signed by Microsoft, the vulnerable UEFI shim bootloaders could be abused on any system, regardless of the OS.</p>\n<p>The post <a href=\"https://www.securityweek.com/old-uefi-shims-expose-systems-to-secure-boot-bypass/\">Old UEFI Shims Expose Systems to Secure Boot Bypass</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Nightmare Eclipse Drops ‘LegacyHive’ Windows Zero-Day",
+    "url": "https://www.securityweek.com/nightmare-eclipse-drops-legacyhive-windows-zero-day/",
+    "published_date": "2026-07-16T06:48:40+00:00",
+    "source_type": "news",
+    "summary": "<p>The researcher stripped the proof-of-concept (PoC) exploit to prevent immediate exploitation of the vulnerability.</p>\n<p>The post <a href=\"https://www.securityweek.com/nightmare-eclipse-drops-legacyhive-windows-zero-day/\">Nightmare Eclipse Drops &#8216;LegacyHive&#8217; Windows Zero-Day </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities",
+    "url": "https://www.securityweek.com/trend-micro-tanium-eset-and-tenable-patch-severe-product-vulnerabilities/",
+    "published_date": "2026-07-16T06:08:08+00:00",
+    "source_type": "news",
+    "summary": "<p>The cybersecurity companies patched critical and high-severity vulnerabilities in some of their products.</p>\n<p>The post <a href=\"https://www.securityweek.com/trend-micro-tanium-eset-and-tenable-patch-severe-product-vulnerabilities/\">Trend Micro, Tanium, ESET and Tenable Patch Severe Product Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Cyberattack on Japan's largest cold-chain operator disrupts KFC, supermarket supplies",
+    "url": "https://therecord.media/cyberattack-japan-nichirei-logistics-impacts-kfc",
+    "published_date": "2026-07-15T23:00:00+00:00",
+    "source_type": "news",
+    "summary": "Kentucky Fried Chicken restaurants have been left short on ingredients and major restaurant chains struggling to keep up with deliveries following a cyberattack on Nichirei Logistics Group.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Trump administration unveils AI-supported clearinghouse for cyber vulnerabilities",
+    "url": "https://therecord.media/gold-eagle-cybersecurity-vulnerabilities-clearinghouse",
+    "published_date": "2026-07-15T20:00:00+00:00",
+    "source_type": "news",
+    "summary": "The Gold Eagle program will allowe industry, critical infrastructure operators and the government to use artificial intelligence to rapidly detect, prioritize and patch cybersecurity vulnerabilities, officials said.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Trump’s DNI pick grilled about election security, voter fraud",
+    "url": "https://therecord.media/jay-clayton-odni-nominee-senate-confirmation-hearing",
+    "published_date": "2026-07-15T17:50:00+00:00",
+    "source_type": "news",
+    "summary": "Senators pressed director of national intelligence nominee Jay Clayton about his stance on the 2020 election and previous statements about voter fraud. Other issues took a back seat.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "23andMe reaches $18 million settlement with states for massive breach",
+    "url": "https://therecord.media/genetic-testing-settlement-data-breach",
+    "published_date": "2026-07-15T17:45:00+00:00",
+    "source_type": "news",
+    "summary": "A coalition of 42 state attorneys general reached an $18 million settlement with 23andMe for cybersecurity failings that led to a data breach.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
+    "url": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
+    "published_date": "2026-07-16T08:42:31+00:00",
+    "source_type": "news",
+    "summary": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely.\n\n\"GPT‑Red is a strong red-teamer, and our previous models are highly vulnerable to its prompt injection attacks,\" the artificial intelligence (AI) company said. \"We use GPT‑Red to adversarially train",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
+    "url": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
+    "published_date": "2026-07-16T07:22:44+00:00",
+    "source_type": "news",
+    "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover.\n\nThe vulnerability, tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Desktop Client for Windows, Zoom VDI Client for Windows, and Zoom Meeting SDK for Windows.\n\n\"Improper Input Validation in Zoom Desktop Client for Windows, Zoom VDI Client for",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
+    "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
+    "published_date": "2026-07-15T18:43:08+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance from a large language model (LLM), albeit with not so successful results.\n\n\"While the AI complied with their request to generate botnet code, it included a safety disclaimer that the developer failed",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity",
+    "url": "https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/",
+    "publisher": "Blog",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-444: 7-Zip XZ Decompression Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-444/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.0. The following CVEs are assigned: CVE-2026-14266.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-443: Linux Kernel vmwgfx Integer Overflow Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-443/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-442: Linux Kernel CAN ISO-TP Protocol Race Condition Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-442/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-441: dnsmasq DNS Response Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-441/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of dnsmasq. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-2291.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-440: Fuji Electric Tellus pcid64 Driver Untrusted Pointer Dereference Denial of Service Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-440/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Fuji Electric Tellus. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.5. The following CVEs are assigned: CVE-2026-8108.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-439: Fuji Electric Tellus pcid64 Driver Exposed Dangerous Method Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-439/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Fuji Electric Tellus. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-8108.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-438: Rockwell Automation Arena Simulation DOE File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-438/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Rockwell Automation Arena Simulation. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-6071.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-437: (Pwn2Own) Autel MaxiCharger AC Elite Home WebSockets Integer Underflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-437/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-13308.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-436: (Pwn2Own) Autel MaxiCharger AC Elite Home USB Heap-based Buffer Overflow Arbitrary Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-436/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-13307.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-435: (Pwn2Own) Autel MaxiCharger AC Elite Home NFC Stack-based Buffer Overflow Arbitrary Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-435/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8. The following CVEs are assigned: CVE-2026-13309.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-434: (Pwn2Own) Autel MaxiCharger AC Elite Home USB Authentication Bypass Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-434/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows physically present attackers to bypass authentication on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2026-13306.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-433: (Pwn2Own) Autel MaxiCharger AC Elite Home Software Update Improper Verification of Cryptographic Signature Arbitrary Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-433/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Elite Home EV chargers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.4. The following CVEs are assigned: CVE-2026-13305.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-432: G DATA Total Security Backup Service Link Following Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-432/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-13268.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-431: ASUS Business Manager Service Client-Side Authentication Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-431/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of ASUS Business Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-8921.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-430: MSI Center NTIOLib_X64 Origin Validation Error Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-430/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of MSI Center. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-6102.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-429: NVIDIA NeMo Framework Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-429/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA NeMo Framework. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-24157.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-428: WatchGuard FireWare OS admd Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-428/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of WatchGuard FireWare OS. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-8247.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-427: WatchGuard FireWare OS iked ike2_hmac Null Pointer Dereference Denial-of-Service Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-427/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of WatchGuard FireWare OS. Authentication is not required to exploit this vulnerability, but only systems using VPN with IKEv2 are vulnerable. The ZDI has assigned a CVSS rating of 5.9. The following CVEs are assigned: CVE-2026-13084.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-426: OpenSSL X.509 Email Validation Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-426/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of OpenSSL. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5. The following CVEs are assigned: CVE-2026-42771.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-425: OpenSSL OCSP Stapling Verification Double Free Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-425/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenSSL. User interaction is required to exploit this vulnerability in that the target must make a request to a malicious server. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-35188.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-424: Synology DiskStation DS925+ MailPlus Improper Restriction of Communication Channel to Intended Endpoints Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-424/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to access the Redis instance on affected installations of Synology DiskStation DS925+ devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 4.3. The following CVEs are assigned: CVE-2026-13135.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-423: Synology DiskStation DS925+ MailPlus Redis Weak Cryptography for Passwords Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-423/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Synology DiskStation DS925+ devices. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2025-15660.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-422: Samsung rlottie Numeric Truncation Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-422/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung rlottie. Interaction with the rlottie library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-15551.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-421: Cisco Identity Services Engine validFileNameOrPath Directory Traversal Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-421/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.5. The following CVEs are assigned: CVE-2026-20146.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-420: Adobe Creative Cloud AGSService Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-420/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Adobe Creative Cloud Desktop Application. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-48344.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-419: Adobe Creative Cloud AdobeUpdateService Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-419/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Adobe Creative Cloud. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.0. The following CVEs are assigned: CVE-2026-48272.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-418: Microsoft SharePoint SPFieldMultiLineText Cross-Site Scripting Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-418/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute web requests with a target user&#x27;s privileges on affected installations of Microsoft SharePoint. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.3. The following CVEs are assigned: CVE-2026-55126.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-417: Microsoft Windows ServerManager Exposed Dangerous Method Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-417/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-50311.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-416: Microsoft Hyper-V netvsc Out-Of-Bounds Read Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-416/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Hyper-V. An attacker must first obtain the ability to execute low-privileged code within a Windows virtual machine under Hyper-V in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-54129.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-415: Microsoft Windows WMI Providers Incorrect Authorization Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-415/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.0. The following CVEs are assigned: CVE-2026-49805.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-414: Microsoft PowerShell Help Directory Traversal Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-414/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft PowerShell. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-40400.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-413: (Pwn2Own) Microsoft SharePoint Improper Verification of Cryptographic Signature Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-413/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft SharePoint. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-50522.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-412: (Pwn2Own) Microsoft SharePoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-412/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft SharePoint. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-50522.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-411: NVIDIA NVTabular Pickle File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-411/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA NVTabular. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-24237.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-410: NVIDIA NeMo Framework Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-410/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA NeMo Framework. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-24228.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-409: X.Org Server Glamor Font Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-409/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-55999.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-408: X.Org Server ComputeScaledProperties Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-408/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-56003.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-407: X.Org Server PCF Font Parsing Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-407/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-56002.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-406: X.Org Server BitmapScaleBitmaps Integer Overflow Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-406/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-56001.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-405: X.Org Server GLX Extension Use-After-Free Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-405/",
+    "published_date": "2026-07-15T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-56000.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-15409, CVE-2026-15410: SonicWall SMA 1000 zero-day vulnerabilities exploited in the wild",
+    "url": "https://www.tenable.com/blog/cve-2026-15409-cve-2026-15410-sonicwall-sma-1000-zero-day-vulnerabilities-exploited-in-the",
+    "published_date": "2026-07-15T17:14:09+00:00",
+    "source_type": "research",
+    "summary": "<p><strong>SonicWall patched two recently exploited zero-day vulnerabilities in its SMA 1000 Series secure remote access appliances which may have been chained for unauthenticated remote code execution.</strong></p><div class=\"blog-see-also\"><h2>Key takeaways</h2><ol><li>CVE-2026-15409 and CVE-2026-15410 are a pair of exploited vulnerabilities that may have been chained together to allow for code execution on SonicWall SMA1000 series appliances.<br />&nbsp;</li><li>Zero-day exploitation of these vulnerabilities has been observed and confirmed by SonicWall.<br />&nbsp;</li><li>Patches and indicators of compromise are available and urgent patching is recommended.</li></ol></div><h2>Background</h2><p>SonicWall's Secure Mobile Access (SMA) 1000 Series appliances are enterprise-grade SSL VPN gateways which serve as the front door to organizational networks. The SMA series models sit at the edge of the network, internet-facing by design. Because SMA 1000 appliances aggregate remote access credentials and sit directly on the internet, they represent high-value targets for attackers. A compromise at the appliance level can yield administrator credentials, VPN session tokens, and detailed k",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
+    "published_date": "2026-07-16T01:36:21+00:00",
+    "source_type": "research",
+    "summary": "<p>Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/\">Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "The Hunter's Paradox: Is it time to embrace automated threat hunting?",
+    "url": "https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/",
+    "published_date": "2026-07-16T10:00:07+00:00",
+    "source_type": "research",
+    "summary": "Humans can no longer keep up with the volume and velocity of security data on their own, but AI can't be fully trusted. David discusses the merits of both and muses on what the future might look like.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially motivated campaign",
+    "url": "https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/",
+    "published_date": "2026-07-16T10:00:01+00:00",
+    "source_type": "research",
+    "summary": "Cisco Talos is disclosing UAT-11795, a sophisticated, Russian-speaking, financially motivated adversary that has been conducting a malicious campaign targeting users in the U.S. and Europe since at least June 2025.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-15746 - Credential disclosure in Strands Agents Tools elasticsearch_memory tool",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-056-aws/",
+    "published_date": "2026-07-15T18:49:07+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-056-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/15/2026 11:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Strands Agents is an open-source Python SDK for building and running AI agents. The strands-agents-tools package provides pre-built tools for use with the SDK, including the elasticsearch_memory tool for agent memory storage. We identified CVE-2026-15746, a server-side request forgery (SSRF) issue in the elasticsearch_memory tool. The tool exposed its connection parameters (es_url, cloud_id, api_key) as fields the large language model (LLM) could control through the tool schema. When a caller omitted the api_key parameter, the tool fell back to the operator's ELASTICSEARCH_API_KEY environment variable and sent it to whichever host the LLM specified. A crafted prompt could cause the tool to connect to a threat-actor-controlled server and disclose the operator's Elasticsearch API key in the Authorization header.</p> \n<p><b>Impacted versions:</b> &lt; 0.7.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security B",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "The Perimeter Moved to the Laptop: From Network, to Identity, to the Developer Endpoint",
+    "url": "https://blog.gitguardian.com/perimeted-moved-to-laptop/",
+    "published_date": "2026-07-16T08:00:26+00:00",
+    "source_type": "vendor",
+    "summary": "The security perimeter moved from network to identity to the device. Here’s why the developer endpoint is now where credentials concentrate – and the gap it leaves.",
+    "feed_source": "https://blog.gitguardian.com/rss/",
+    "publisher": "GitGuardian Blog - Take Control of Your Secrets Security",
+    "source_note": ""
+  },
+  {
+    "title": "v4.89.0",
+    "url": "https://github.com/fleetdm/fleet/releases/tag/v4.89.0",
+    "published_date": "2026-07-15T17:30:59+00:00",
+    "source_type": "github",
+    "summary": "<p>Adding changes for Fleet v4.89.0 (<a class=\"issue-link js-issue-link\" href=\"https://github.com/fleetdm/fleet/pull/48451\">#48451</a>)</p>",
+    "feed_source": "https://github.com/fleetdm/fleet/releases.atom",
+    "publisher": "Release notes from fleet",
+    "source_note": ""
+  },
+  {
+    "title": "fleet-v4.89.0",
+    "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.89.0",
+    "published_date": "2026-07-15T18:06:10+00:00",
+    "source_type": "github",
+    "summary": "<h2>Fleet 4.89.0 (Jul 15, 2026)</h2>\n<h3>IT Admins</h3>\n<ul>\n<li>Added the ability to target a policy to hosts using a combination of \"include\" and \"exclude\" labels.</li>\n<li>Added the ability to run a policy check before installing Windows and Linux setup experience software. When a team policy's install-software automation points at a setup experience installer, Fleet runs that policy during setup and skips the install when it passes (the software is already installed and up to date), speeding up the end user setup experience. When the policy fails, the software is installed as part of setup experience.</li>\n<li>Changed calendar remediation events to be scheduled on the next business day (skipping weekends) after a policy failure, instead of always being scheduled on the next Tuesday.</li>\n<li>Updated policy details page to show automations and labels as a single property. Also changed the layout of policy properties.</li>\n<li>Added automation runs table to the policy details page, showing per-host automation outcomes with filtering, search, and a reset policy action.</li>\n<li>Added per-host activity log entries when policy automations (webhook, tickets, Google Calendar, and Micr",
+    "feed_source": "https://github.com/fleetdm/fleet/releases.atom",
+    "publisher": "Release notes from fleet",
+    "source_note": ""
   }
 ]
