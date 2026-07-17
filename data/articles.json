@@ -17762,5 +17762,745 @@
     "feed_source": "https://github.com/fleetdm/fleet/releases.atom",
     "publisher": "Release notes from fleet",
     "source_note": ""
+  },
+  {
+    "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-06.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.</strong></p>\n<p>The following versions of Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix are affected:</p>\n<ul>\n<li>CompactLogix 5370 &lt;=V35.015 (CVE-2025-12011, CVE-2025-12012, CVE-2025-11698)</li>\n<li>Compact GuardLogix 5370 &lt;=V35.015 (CVE-2025-12011, CVE-2025-12012, CVE-2025-11698)</li>\n<li>ControlLogix 5570 &lt;=V35.015 (CVE-2025-12011, CVE-2025-12012, CVE-2025-11698)</li>\n<li>GuardLogix 5570 &lt;=V35.015 (CVE-2025-12011, CVE-2025-12012, CVE-2025-11698)</li>\n<li>CompactLogix 5380 &lt;=V34.012 (CVE-2025-12011, CVE-2025-12012, CVE-2025-11698)</li>\n<li>CompactLogix 5380 &lt;=V35.011 (CVE-2025-12011, CVE-2025-12012, CVE-2025-11698)</li>\n<li>Compact GuardLogix 5380 &lt;=V34.012 (CVE-2025-12011, CVE-2025-12012, CVE-2025-11698)</li>\n<li>Compact GuardLogix 5380 &lt;=V35.011 (CVE-2025-12011, CVE-2025-12012, CVE-2025-11698)</li>\n<li>CompactLogix 5480 &lt;=V34.012 (CVE-2025-1",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Siemens SICAM 8",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-05.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Multiple SICAM 8 products are affected by multiple vulnerabilities that could lead to denial of service, namely: - SICAM A8000 Device firmware - CPCI85 for CP-8031/CP-8050 - SICORE for CP-8010/CP-8012 - SICAM EGS Device firmware - CPCI85 - SICAM S8000 - SICORE Siemens has released new versions for the affected products and recommends to update to the latest versions.</strong></p>\n<p>The following versions of Siemens SICAM 8 are affected:</p>\n<ul>\n<li>CPCI85 Central Processing/Communication vers:intdot/&lt;26.20 (CVE-2026-54798, CVE-2026-54799, CVE-2026-54800, CVE-2026-54801)</li>\n<li>SICORE Base system vers:intdot/&lt;26.20.0 (CVE-2026-54798, CVE-2026-54799, CVE-2026-54800, CVE-2026-54801)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.2</td>\n<td>Siemens</td>\n<td>Siemens SICAM 8</td>\n<td>Active Debug Code, Initialization of a Resource with an Insecure Default, Unverifi",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "SALTO ProAccess Space",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-07",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-07.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability allows an authenticated attacker to escalate privileges and access spaces outside their assigned partition, within the same Salto ProAccess Space installation or system. Exploitation requires valid authenticated operator credentials and the partition feature to be enabled; installations without partitioning are not affected.</strong></p>\n<p>The following versions of SALTO ProAccess Space are affected:</p>\n<ul>\n<li>ProAccess Space &lt;6.13 (CVE-2026-11889)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 6.5</td>\n<td>SALTO</td>\n<td>SALTO ProAccess Space</td>\n<td>Authorization Bypass Through User-Controlled Key</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Commercial Facilities, Critical Manufacturing</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Rockwell Automation FactoryTalk DataMosaix",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-09.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an authenticated attacker to inject malicious scripts on the server.</strong></p>\n<p>The following versions of Rockwell Automation FactoryTalk DataMosaix are affected:</p>\n<ul>\n<li>DataMosaix Private Cloud &lt;=8.02 (CVE-2026-9292)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 6.1</td>\n<td>Rockwell Automation</td>\n<td>Rockwell Automation FactoryTalk DataMosaix</td>\n<td>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing, Information Technology</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>United States</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.</strong></p>\n<p>The following versions of Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT are affected:</p>\n<ul>\n<li>1756-EN3 &lt;=V12.001 (CVE-2026-9653)</li>\n<li>1756-EN2 &lt;=V12.001 (CVE-2026-9653)</li>\n<li>1756-ENBT V6.006 (CVE-2026-9653)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.5</td>\n<td>Rockwell Automation</td>\n<td>Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT</td>\n<td>Improper Validation of Integrity Check Value</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>United States</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/07/16/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added three new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-25089\" target=\"_blank\">CVE-2026-25089</a> Fortinet FortiSandbox OS Command Injection Vulnerability &nbsp;</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-39808\" target=\"_blank\">CVE-2026-39808</a> Fortinet FortiSandbox OS Command Injection Vulnerability &nbsp;</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-58644\" target=\"_blank\">CVE-2026-58644</a> Microsoft SharePoint Deserialization of Untrusted Data Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) ag",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Rockwell Automation Arena",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation these vulnerabilities could allow an attacker to execute arbitrary code in the context of the current process.</strong></p>\n<p>The following versions of Rockwell Automation Arena are affected:</p>\n<ul>\n<li>Arena &lt;=V17.00.00 (CVE-2026-8085, CVE-2026-8312, CVE-2026-8313, CVE-2026-8314)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.8</td>\n<td>Rockwell Automation</td>\n<td>Rockwell Automation Arena</td>\n<td>Out-of-bounds Write</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>United States</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"https://www.cisa.gov/\">Expand All +</a",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "AutomationDirect Productivity Suite",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-04.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker with local or physical access to cause memory corruption, unintended information disclosure, application instability, or a denial-of-service condition in the affected product.</strong></p>\n<p>The following versions of AutomationDirect Productivity Suite are affected:</p>\n<ul>\n<li>Productivity Suite &lt;=v4.6.2.2 (CVE-2026-60063, CVE-2026-61389, CVE-2026-60140, CVE-2026-57896, CVE-2026-60073, CVE-2026-61378)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7</td>\n<td>AutomationDirect</td>\n<td>AutomationDirect Productivity Suite</td>\n<td>Out-of-bounds Write, Out-of-bounds Read, Divide By Zero</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><stro",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Rockwell Automation Flex 5000 Adapter",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-08.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product.</strong></p>\n<p>The following versions of Rockwell Automation Flex 5000 Adapter are affected:</p>\n<ul>\n<li>Flex 5000 Adapter 6.011 (CVE-2026-12659)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.5</td>\n<td>Rockwell Automation</td>\n<td>Rockwell Automation Flex 5000 Adapter</td>\n<td>Double Free</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing, Information Technology</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>United States</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"https://www.cisa.gov/\">Expand All +</a><",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.</strong></p>\n<p>The following versions of NASA Core Flight System (cFS) Health &amp; Safety (HS) Application are affected:</p>\n<ul>\n<li>Core Flight System (cFS) Health &amp; Safety (HS) Application</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.5</td>\n<td>NASA</td>\n<td>NASA Core Flight System (cFS) Health &amp; Safety (HS) Application</td>\n<td>NULL Pointer Dereference</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Transportation Systems</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>United States</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"https://www",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Scammers weaponize FaceTime to drain bank accounts",
+    "url": "https://www.helpnetsecurity.com/2026/07/17/apple-facetime-calls-scams/",
+    "published_date": "2026-07-17T10:02:21+00:00",
+    "source_type": "news",
+    "summary": "<p>Apple is warning iPhone and iPad users that scammers are using FaceTime calls to trick them into handing over money and account details. The company says scammers use social engineering, posing as representatives of a trusted company or entity, and contacting people by phone or other means to talk them into giving up sign-in credentials, security codes, and financial information. Apple says a caller can fake its number entirely, a trick known as spoofing, so &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/17/apple-facetime-calls-scams/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/17/apple-facetime-calls-scams/\">Scammers weaponize FaceTime to drain bank accounts</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Claude can now sign into websites with 1Password without exposing your credentials",
+    "url": "https://www.helpnetsecurity.com/2026/07/17/1password-anthropic-claude-integration/",
+    "published_date": "2026-07-17T09:17:44+00:00",
+    "source_type": "news",
+    "summary": "<p>1Password has introduced 1Password for Claude, a beta integration that lets Anthropic&#8217;s AI assistant complete browser tasks requiring authentication without accessing users&#8217; passwords or other secrets. The integration is available to paid Claude subscribers (Pro, Max, Team, and Enterprise) using Claude Desktop on macOS and to 1Password customers on individual, family, and business plans. It requires a Mac, Claude Desktop, Claude in Chrome, the 1Password desktop app, and the 1Password browser extension. For Team and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/17/1password-anthropic-claude-integration/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/17/1password-anthropic-claude-integration/\">Claude can now sign into websites with 1Password without exposing your credentials</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Ransomware attack halts Coca-Cola’s Fairlife US milk production",
+    "url": "https://www.helpnetsecurity.com/2026/07/17/coca-cola-fairlife-ransomware-attack/",
+    "published_date": "2026-07-17T08:04:22+00:00",
+    "source_type": "news",
+    "summary": "<p>A ransomware attack has stopped milk production at Fairlife, the Coca-Cola dairy brand known for its high-protein milk, protein shakes, and nutrition drinks. Coca-Cola disclosed the incident on July 16, 2026, in a Form 8-K filed with the U.S. Securities and Exchange Commission (SEC). &#8220;Product quality and safety have not been impacted. However, as a result of the incident, production operations at fairlife in the United States are temporarily suspended. fairlife&#8217;s Canada production operations are &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/17/coca-cola-fairlife-ransomware-attack/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/17/coca-cola-fairlife-ransomware-attack/\">Ransomware attack halts Coca-Cola&#8217;s Fairlife US milk production</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Prompt injection is becoming the XSS of the web agent era",
+    "url": "https://www.helpnetsecurity.com/2026/07/17/xss-web-agent-prompt-injection/",
+    "published_date": "2026-07-17T06:00:31+00:00",
+    "source_type": "news",
+    "summary": "<p>Autonomous web agents read whatever a page displays, and much of that content comes from strangers. Product reviews, seller listings, and advertisements sit beside trusted site menus on a single page. An agent that reads all of that text as instructions can be steered by any of it. A group at UC Berkeley describe Cross-Site Prompting, or XSP, as the agent-era version of Cross-Site Scripting. Their system, Prismata, sits between a web agent and the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/17/xss-web-agent-prompt-injection/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/17/xss-web-agent-prompt-injection/\">Prompt injection is becoming the XSS of the web agent era</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "The script, not the voice, is what makes AI voice phishing work",
+    "url": "https://www.helpnetsecurity.com/2026/07/17/research-ai-voice-phishing/",
+    "published_date": "2026-07-17T05:30:56+00:00",
+    "source_type": "news",
+    "summary": "<p>The call comes in at 4:40 on a Friday. The voice belongs to a senior manager, or sounds close enough, and she needs a password reset before a flight. She is polite, she is in a hurry, and she has the last four of the badge number. Researchers at Harvard Kennedy School, Meta and elsewhere ran a version of that moment past 4,100 US adults, using six commercial voice systems and human callers as a &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/17/research-ai-voice-phishing/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/17/research-ai-voice-phishing/\">The script, not the voice, is what makes AI voice phishing work</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "The five step plan that cuts security budget waste",
+    "url": "https://www.helpnetsecurity.com/2026/07/17/security-budget-waste-video/",
+    "published_date": "2026-07-17T05:00:51+00:00",
+    "source_type": "news",
+    "summary": "<p>In this Help Net Security video, Viktor Bulanek, CTO of Penetrify, explains where security budget waste comes from. Budgets get built around vendor categories, compliance checkboxes, and last year&#8217;s headlines. Attackers work along attack paths, and that mismatch is where the money goes. He walks through the two big leaks, overlapping tools that flag the same issue three times, and shelfware that covers a third of the estate at 100% of the invoice. The license &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/17/security-budget-waste-video/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/17/security-budget-waste-video/\">The five step plan that cuts security budget waste</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "A hard drive reliability check on 341,263 drives, from 4TB to past 20TB",
+    "url": "https://www.helpnetsecurity.com/2026/07/17/hard-drive-reliability-2026-4tb-20tb/",
+    "published_date": "2026-07-17T04:30:17+00:00",
+    "source_type": "news",
+    "summary": "<p>Large cloud storage operators track their hard drives every day, recording which units keep running and which ones drop off the racks. Backblaze does this at scale, and its Q1 2026 report covers a fleet built for continuous use. The analysis covered 341,263 hard drives, after boot drives and a small group of units that missed the reporting thresholds were set aside. The pool spans capacities from 4TB to past 20TB. The quarterly annualized failure &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/17/hard-drive-reliability-2026-4tb-20tb/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/17/hard-drive-reliability-2026-4tb-20tb/\">A hard drive reliability check on 341,263 drives, from 4TB to past 20TB</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "New infosec products of the week: July 17, 2026",
+    "url": "https://www.helpnetsecurity.com/2026/07/17/new-infosec-products-of-the-week-july-17-2026/",
+    "published_date": "2026-07-17T04:00:15+00:00",
+    "source_type": "news",
+    "summary": "<p>Here’s a look at the most interesting products from the past week, featuring releases from Cloudflare, Lineation.ai, Nudge Security, and Polygraf AI. Polygraf AI Meeting Guard delivers real-time deepfake detection for enterprise meetings Polygraf AI has announced Meeting Guard, a real-time AI fraud detection solution for enterprise meetings built to detect fraud and protect meeting security. It joins virtual meetings as a visible participant and delivers near-real-time security analysis to every attendee. Built for enterprise &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/17/new-infosec-products-of-the-week-july-17-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/17/new-infosec-products-of-the-week-july-17-2026/\">New infosec products of the week: July 17, 2026</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Scattered Spider members jailed over Transport for London hack that cost £29 million",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/ransport-for-london-cyberattack-prison-time/",
+    "published_date": "2026-07-16T13:48:57+00:00",
+    "source_type": "news",
+    "summary": "<p>Two members of the notorious &#8220;Scattered Spider&#8221; hacking collective have been sentenced to five years and six months in prison each for a cyberattack on Transport for London (TfL) that disrupted services for thousands of commuters and cost the transport authority an estimated £29 million. Thalha Jubair, 20, of East London, and Owen Flowers, 18, of Walsall, pleaded guilty last month, on the day their trial was set to start. The National Crime Agency (NCA) &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/ransport-for-london-cyberattack-prison-time/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/ransport-for-london-cyberattack-prison-time/\">Scattered Spider members jailed over Transport for London hack that cost £29 million</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Adaptiva simplifies secure patch management for air-gapped networks",
+    "url": "https://www.helpnetsecurity.com/2026/07/16/adaptiva-airgap-for-onesite-patch/",
+    "published_date": "2026-07-16T13:41:09+00:00",
+    "source_type": "news",
+    "summary": "<p>Adaptiva has announced AirGap for OneSite Patch, a new capability that extends autonomous patch management to air-gapped environments. Developed in response to growing demand from government agencies, critical infrastructure operators, and large enterprises managing highly secure environments, AirGap for OneSite Patch enables organizations to securely patch isolated systems without compromising the physical separation those environments require. &#8220;For years, organizations operating air-gapped environments have had to choose between maintaining strict isolation and keeping critical systems consistently &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/16/adaptiva-airgap-for-onesite-patch/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/16/adaptiva-airgap-for-onesite-patch/\">Adaptiva simplifies secure patch management for air-gapped networks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Windows Server 2022 reach end of mainstream support in 90 days",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
+    "published_date": "2026-07-17T09:10:15+00:00",
+    "source_type": "news",
+    "summary": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "US charges two over laundering $43 million from investment fraud",
+    "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+    "published_date": "2026-07-17T08:13:37+00:00",
+    "source_type": "news",
+    "summary": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "CISA urges immediate action on actively exploited Fortinet flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
+    "published_date": "2026-07-17T07:03:33+00:00",
+    "source_type": "news",
+    "summary": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New ClickLock macOS malware traps users into revealing login password",
+    "url": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+    "published_date": "2026-07-16T21:52:54+00:00",
+    "source_type": "news",
+    "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+    "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+    "published_date": "2026-07-16T21:09:41+00:00",
+    "source_type": "news",
+    "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the United States. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+    "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+    "published_date": "2026-07-16T19:26:07+00:00",
+    "source_type": "news",
+    "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's access to connected services such as Gmail, Google Docs, Google Calendar, and Salesforce. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
+    "url": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
+    "published_date": "2026-07-16T19:09:35+00:00",
+    "source_type": "news",
+    "summary": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
+    "url": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/",
+    "published_date": "2026-07-16T14:00:10+00:00",
+    "source_type": "news",
+    "summary": "Traditional security workflows were built for environments that changed at human speed. Token Security explains why AI agents require a new approach: building on a live identity foundation while giving security teams the flexibility to create workflows tailored to their own environments. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "23andMe to pay $18 million in new genetics data breach settlement",
+    "url": "https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/",
+    "published_date": "2026-07-16T13:47:23+00:00",
+    "source_type": "news",
+    "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Scattered Spider members behind TfL hack get five years in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-behind-transport-for-london-hack-get-five-years-in-prison/",
+    "published_date": "2026-07-16T12:31:29+00:00",
+    "source_type": "news",
+    "summary": "Two leading members of the Scattered Spider cybercrime collective were sentenced to five years and six months in prison each for hacking Transport for London (TfL) in 2024. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Windows 11 24H2 Home and Pro reach end of support in 90 days",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/",
+    "published_date": "2026-07-16T11:59:24+00:00",
+    "source_type": "news",
+    "summary": "Microsoft announced on Wednesday that systems running Windows 10 Enterprise LTSB 2016 and Home and Pro editions of Windows 11 24H2 will stop receiving updates in three months. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
+    "published_date": "2026-07-16T10:56:03+00:00",
+    "source_type": "news",
+    "summary": "CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Business Suite financial application. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Senator calls on Rubio, Blanche to push back against Canadian surveillance legislation",
+    "url": "https://therecord.media/canada-lawful-access-act-surveillance-wyden-letter",
+    "published_date": "2026-07-16T21:00:35+00:00",
+    "source_type": "news",
+    "summary": "Democratic Sen. Ron Wyden says the Trump administration should pressure Canada not to enact a proposal that would \"weaponize American technology infrastructure\" for surveillance purposes.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "UK investigates TikTok for alleged age-verification lapses, exposing kids to online harms",
+    "url": "https://therecord.media/ofcom-investigation-tiktok-age-verification",
+    "published_date": "2026-07-16T16:15:00+00:00",
+    "source_type": "news",
+    "summary": "“Age checks are a cornerstone of the UK’s online safety laws,” said Ofcom’s Chief Executive, Melanie Dawes. “Too many services have no or inadequate age checks in place, which is not good enough.”",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Ukrainians rally against dismissal of tech-minded defense minister Fedorov",
+    "url": "https://therecord.media/ukraine-fedorov-drones-dismissal",
+    "published_date": "2026-07-16T16:00:00+00:00",
+    "source_type": "news",
+    "summary": "Ukraine President Volodymyr Zelensky dismissed Defense Minister Mykhailo Fedorov, who championed the push to integrate drone technology and digital innovation into the military.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Sandworm hackers have a CAPTCHA trick for Ukrainians",
+    "url": "https://therecord.media/ukraine-sandworm-hacks-captcha-powershell",
+    "published_date": "2026-07-16T13:50:00+00:00",
+    "source_type": "news",
+    "summary": "Rather than verifying they are human, the CAPTCHA users are instructed to copy and paste a PowerShell command into their Windows computers.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Scattered Spider hackers sentenced to 5.5 years over £29 million Transport for London hack",
+    "url": "https://therecord.media/scattered-spider-hackers-tfl-sentenced",
+    "published_date": "2026-07-16T12:00:00+00:00",
+    "source_type": "news",
+    "summary": "Two leading members of the Scattered Spider cybercrime collective have been sentenced to more than five years in prison for carrying out the 2024 cyberattack against Transport for London (TfL).",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei",
+    "url": "https://www.securityweek.com/cyberattack-disrupts-operations-of-japanese-frozen-food-giant-nichirei/",
+    "published_date": "2026-07-17T09:06:27+00:00",
+    "source_type": "news",
+    "summary": "<p>The company disconnected its systems on July 13 and is starting to gradually restore operations.</p>\n<p>The post <a href=\"https://www.securityweek.com/cyberattack-disrupts-operations-of-japanese-frozen-food-giant-nichirei/\">Cyberattack Disrupts Operations of Japanese Frozen Food Giant Nichirei</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Risk Ledger Raises $32 Million in Series B Funding",
+    "url": "https://www.securityweek.com/risk-ledger-raises-32-million-in-series-b-funding/",
+    "published_date": "2026-07-17T08:31:00+00:00",
+    "source_type": "news",
+    "summary": "<p>The British firm has built a collaborative platform to help organizations address supply chain security risks.</p>\n<p>The post <a href=\"https://www.securityweek.com/risk-ledger-raises-32-million-in-series-b-funding/\">Risk Ledger Raises $32 Million in Series B Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Fresh SharePoint Vulnerability Exploited Soon After Disclosure",
+    "url": "https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/",
+    "published_date": "2026-07-17T07:15:59+00:00",
+    "source_type": "news",
+    "summary": "<p>The critical-severity security defect allows remote, authenticated attackers to execute arbitrary code on the server.</p>\n<p>The post <a href=\"https://www.securityweek.com/fresh-sharepoint-vulnerability-exploited-soon-after-disclosure/\">Fresh SharePoint Vulnerability Exploited Soon After Disclosure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack",
+    "url": "https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/",
+    "published_date": "2026-07-17T06:23:08+00:00",
+    "source_type": "news",
+    "summary": "<p>The company has yet to determine the full scope, nature, and impact of the incident.</p>\n<p>The post <a href=\"https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/\">Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Legacy Systems, Real-World Impacts: The Reality of OT Security",
+    "url": "https://www.securityweek.com/legacy-systems-real-world-impacts-the-reality-of-ot-security/",
+    "published_date": "2026-07-16T15:15:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Legacy systems, safety concerns, and critical infrastructure risks make OT vulnerability disclosure one of cybersecurity's most challenging balancing acts.</p>\n<p>The post <a href=\"https://www.securityweek.com/legacy-systems-real-world-impacts-the-reality-of-ot-security/\">Legacy Systems, Real-World Impacts: The Reality of OT Security</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Two Scattered Spider Hackers Sentenced to Jail in UK",
+    "url": "https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/",
+    "published_date": "2026-07-16T13:21:12+00:00",
+    "source_type": "news",
+    "summary": "<p>Thalha Jubair and Owen Flowers were prosecuted over a 2024 cyberattack targeting Transport for London (TfL).</p>\n<p>The post <a href=\"https://www.securityweek.com/two-scattered-spider-hackers-sentenced-to-jail-in-uk/\">Two Scattered Spider Hackers Sentenced to Jail in UK</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "AI Data Centers Are Being Built Faster Than They Can Be Secured",
+    "url": "https://www.securityweek.com/ai-data-centers-are-being-built-faster-than-they-can-be-secured/",
+    "published_date": "2026-07-16T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>AI infrastructure introduces new security risks that traditional data center designs were never built to handle.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-data-centers-are-being-built-faster-than-they-can-be-secured/\">AI Data Centers Are Being Built Faster Than They Can Be Secured</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "‘ClickLock Stealer’ Bypasses macOS Security With Social Engineering, Process Killing",
+    "url": "https://www.securityweek.com/clicklock-stealer-bypasses-macos-security-with-social-engineering-process-killing/",
+    "published_date": "2026-07-16T12:43:59+00:00",
+    "source_type": "news",
+    "summary": "<p>The new macOS malware has targeted at least 100 users to steal their passwords and cryptocurrency. </p>\n<p>The post <a href=\"https://www.securityweek.com/clicklock-stealer-bypasses-macos-security-with-social-engineering-process-killing/\">&#8216;ClickLock Stealer&#8217; Bypasses macOS Security With Social Engineering, Process Killing</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Oak Emerges From Stealth Mode With $60 Million in Funding",
+    "url": "https://www.securityweek.com/oak-emerges-from-stealth-mode-with-60-million-in-funding/",
+    "published_date": "2026-07-16T11:23:56+00:00",
+    "source_type": "news",
+    "summary": "<p>The startup has built an AI-powered Identity Operating System that governs all identities across an organization’s environment.</p>\n<p>The post <a href=\"https://www.securityweek.com/oak-emerges-from-stealth-mode-with-60-million-in-funding/\">Oak Emerges From Stealth Mode With $60 Million in Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Splunk, Zoom Patch Critical Vulnerabilities",
+    "url": "https://www.securityweek.com/splunk-zoom-patch-critical-vulnerabilities/",
+    "published_date": "2026-07-16T10:54:34+00:00",
+    "source_type": "news",
+    "summary": "<p>The flaws could allow attackers to access credentials and data, take over accounts, and escalate their privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/splunk-zoom-patch-critical-vulnerabilities/\">Splunk, Zoom Patch Critical Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
+    "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+    "published_date": "2026-07-17T06:42:23+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by July 19, 2026.\n\nThe vulnerability in question is CVE-2026-58644 (CVSS score: 9.8), a critical deserialization",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
+    "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
+    "published_date": "2026-07-16T17:09:25+00:00",
+    "source_type": "news",
+    "summary": "Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London.\n\nThe attack left 148 TfL systems inoperable and forced all 27,000 of the transport authority's employees into an office to get their passwords reset in person. Both the NCA and the CPS put TfL's losses and recovery",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
+    "url": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
+    "published_date": "2026-07-16T15:41:15+00:00",
+    "source_type": "news",
+    "summary": "A lot of this week’s trouble starts with something that looks close enough.\n\nA familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to someone else, and the damage moves faster than the explanation.\n\nOld bugs are back, weak defaults are earning their keep, and some attack paths are so plain they barely feel like research. Here’s the mess.",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
+    "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
+    "published_date": "2026-07-16T13:33:25+00:00",
+    "source_type": "news",
+    "summary": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incoming JWT to a local user on the&nbsp;sub&nbsp;claim alone and ignored&nbsp;iss.\n\nA valid token from issuer A carrying a&nbsp;sub&nbsp;that belongs to someone under issuer B logged you in as them. Their password never",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
+    "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+    "published_date": "2026-07-16T12:50:13+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026.\n\n\"The malware is full-featured, lightweight, and modular,\" Elastic Security Labs researcher Cyril François said in a technical report. \"While the number of C2 [command-and-control] domains is currently small, the daily",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
+    "url": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
+    "published_date": "2026-07-16T12:33:42+00:00",
+    "source_type": "news",
+    "summary": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits.\n\nAt the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "20+ Hijacked Government Websites Became an Attack Channel",
+    "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
+    "published_date": "2026-07-16T11:58:00+00:00",
+    "source_type": "news",
+    "summary": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware analysis and threat intelligence solutions.\n\nThe investigation revealed previously undocumented backdoor behavior, hidden infrastructure relationships, and multiple attack arms behind a campaign",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
+    "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
+    "published_date": "2026-07-16T11:32:28+00:00",
+    "source_type": "news",
+    "summary": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread, and a fake comment can make it run a stranger's command on your computer.\n\nNeither trick hijacks the agent's task. Each one just corrupts the facts it trusts and lets it carry on with the job you",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
+    "url": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
+    "published_date": "2026-07-16T11:17:23+00:00",
+    "source_type": "news",
+    "summary": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor dubbed Stupig.\n\nDaxin (\"srt64.sys\"), as the kernel-mode rootkit is referred to, was first documented by Broadcom-owned Symantec in March 2022, with evidence indicating its use in targeted attacks aimed",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
+    "url": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
+    "published_date": "2026-07-16T10:10:00+00:00",
+    "source_type": "news",
+    "summary": "Artificial intelligence (AI) is changing offensive security, but it has not changed the standard that matters most: a finding has to be proven before it becomes useful. AI-assisted tools can read code quickly, generate payloads, summarize attack surfaces, explain unfamiliar APIs, and run repetitive testing workflows at impressive speed. That is a real advantage for security teams. It also",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide",
+    "url": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
+    "published_date": "2026-07-16T09:23:19+00:00",
+    "source_type": "news",
+    "summary": "Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-Fi password in plaintext.\n\nA researcher publishing under the handle tokay0&nbsp;put the method online&nbsp;on Monday, having tested it only against vacuums he",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-32201, CVE-2026-45659, CVE-2026-56164: Frequently Asked Questions About Active Exploitation of Microsoft SharePoint Server Vulnerabilities",
+    "url": "https://www.tenable.com/blog/cve-2026-32201-cve-2026-45659-cve-2026-56164-faq-sharepoint-server-exploitation",
+    "published_date": "2026-07-16T16:00:26+00:00",
+    "source_type": "research",
+    "summary": "<p><strong>Four Microsoft SharePoint Server vulnerabilities are under active exploitation, prompting CISA to issue a hardening alert. An additional high-severity flaw recently patched adds pressure for organizations running on-premises deployments.</strong></p><h2>Key Takeaways</h2><ol><li>CISA confirmed active exploitation of three on-premises SharePoint Server vulnerabilities (CVE-2026-32201, CVE-2026-45659, CVE-2026-56164), used to gain unauthorized access, establish remote code execution, steal IIS machine keys and deploy malware for persistence.</li><li>Two additional SharePoint Server vulnerabilities disclosed on July 14, 2026, CVE-2026-55040 and CVE-2026-58644, were not yet observed exploited at the time of publication, but Microsoft has flagged CVE-2026-58644 as exploited on July 15.</li><li>Microsoft released patches for all five vulnerabilities and Microsoft Defender Antivirus detection signatures are available to identify exploitation activity for three of the actively exploited flaws.</li></ol><h2>Background</h2><p>Tenable's Research Special Operations (RSO) team has compiled this blog to answer Frequently Asked Questions (FAQ) regarding active exploitation of Microsoft",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "The best defenders build AI agents together: Join Tenable for Swarm at Black Hat ’26",
+    "url": "https://www.tenable.com/blog/black-hat-2026-swarm-event-build-AI-security-agents",
+    "published_date": "2026-07-16T13:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Agentic AI use is exploding, yet most security teams are building agents in isolation. Tenable is hosting Swarm, a build event at Black Hat 2026, for security practitioners to create and collaborate on agentic, open-source tooling to drive collective defense and stop adversaries together.</p><div class=\"blog-see-also\"><div class=\"col-sm-12\"><h2>Key takeaways</h2><ol><li>According to Gartner®, by 2028, an average global Fortune 500 enterprise will have more than 150,000 AI agents in use, up from less than 15 in 2025, generating significant agent sprawl, IT complexity, and management challenges.<sup>1</sup>&nbsp;</li><li>Security practitioners are building their own agentic, open-source tooling to cut out hours of manual phishing email triage, accelerate threat hunts, and uplevel junior talent to consistently perform and output principal-level analyst work.&nbsp;</li><li><a href=\"https://info.tenable.com/2026-BlackHat-Swarm.html\">Join Tenable for Swarm</a>, a hands-on agentic AI build event at Black Hat 2026 sponsored by AWS, where security practitioners will come together to collaborate and build next-generation open-source agents, skills, and MCP servers that will drive collecti",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy",
+    "url": "https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/",
+    "published_date": "2026-07-17T10:00:24+00:00",
+    "source_type": "research",
+    "summary": "<p>A technical analysis of three chained zero-day vulnerabilities in Siemens ROX II OT switches that allow privilege escalation and persistent root access.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/siemens-rox-ii-zero-day-vulnerabilities/\">Three Steps to the Terminal: A Siemens ROX II Zero-Day Trilogy</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/",
+    "publisher": "Unit 42",
+    "source_note": ""
+  },
+  {
+    "title": "AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report",
+    "url": "https://unit42.paloaltonetworks.com/ai-incident-response-report/",
+    "published_date": "2026-07-16T23:00:59+00:00",
+    "source_type": "research",
+    "summary": "<p>Explore Unit 42's perspectives on AI's impact on cybersecurity, including key updates since the 2026 Incident Response Report.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/ai-incident-response-report/\">AI, Automation and Attacks: Unpacking the Unit 42 2026 Global Incident Response Report</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/",
+    "publisher": "Unit 42",
+    "source_note": ""
+  },
+  {
+    "title": "Begun, the Patch Wars have",
+    "url": "https://blog.talosintelligence.com/begun-the-patch-wars-have/",
+    "published_date": "2026-07-16T18:00:50+00:00",
+    "source_type": "research",
+    "summary": "Long foretold, the Great Patching has begun and it’s a doozy. Buckle in as Joe takes you through the story.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "HelloNet campaign — new malicious modules launched through the ViPNet update system",
+    "url": "https://securelist.com/tr/hellonet-vipnet/120700/",
+    "published_date": "2026-07-16T13:05:56+00:00",
+    "source_type": "research",
+    "summary": "We identified targeted infection attempts against large Russian organizations using the ViPNet update system (a software suite for creating secure networks).",
+    "feed_source": "https://securelist.com/feed/",
+    "publisher": "Securelist",
+    "source_note": ""
+  },
+  {
+    "title": "GoSerpent: a persistent threat evolves with sophisticated data collection and exfiltration",
+    "url": "https://securelist.com/goserpent-backdoor-in-southeast-asia/120687/",
+    "published_date": "2026-07-16T12:00:27+00:00",
+    "source_type": "research",
+    "summary": "Two-phase attacks with the GoSerpent backdoor, Stowaway RAT, ThumbcacheService and other tools aim to steal data from government entities in Southeast Asia.",
+    "feed_source": "https://securelist.com/feed/",
+    "publisher": "Securelist",
+    "source_note": ""
+  },
+  {
+    "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
+    "published_date": "2026-07-16T23:12:02+00:00",
+    "source_type": "research",
+    "summary": "<p>From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/\">ACR Stealer: Two observed intrusion chains amid increased threat activity</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Least privilege for AI agents: Identity, access, and tool binding",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
+    "published_date": "2026-07-16T16:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>As AI agents become more autonomous, strong identity, access, and auditing controls are critical to keeping them secure.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/\">Least privilege for AI agents: Identity, access, and tool binding</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Sunsetting the Public AttackerKB Platform",
+    "url": "https://www.rapid7.com/blog/post/ve-sunsetting-public-attackerkb-platform",
+    "published_date": "2026-07-16T13:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p style=\"direction: ltr;\"><span style=\"color: rgb(31, 31, 31); font-size: undefined;\"><em>What’s changing, where AttackerKB-style analysis will live, and how users can continue finding Rapid7 vulnerability intelligence.</em></span></p><p style=\"direction: ltr;\"><span style=\"color: rgb(31, 31, 31); font-size: undefined;\">On August 18, Rapid7 will sunset the standalone public AttackerKB website as part of a broader effort to unify our vulnerability intelligence, exploit analysis, and research resources.</span></p><p style=\"direction: ltr;\"><span style=\"color: rgb(31, 31, 31); font-size: undefined;\">Security practitioners, researchers, vulnerability managers, and current AttackerKB API users will still be able to find Rapid7 vulnerability intelligence through the </span><a href=\"/blog\" target=\"_self\"><span style=\"font-size: undefined;\">Rapid7 blog</span></a><span style=\"color: rgb(31, 31, 31); font-size: undefined;\">, the recently revamped </span><a href=\"/db\" target=\"_self\"><span style=\"font-size: undefined;\">Rapid7 Vulnerability and Exploit Database</span></a><span style=\"color: rgb(31, 31, 31); font-size: undefined;\">, and customer-specific API experiences, where applicable.</span",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-15895: OS command injection in jsii-diff in AWS jsii",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-057-aws/",
+    "published_date": "2026-07-16T17:35:31+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-057-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/15/2026 12:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>jsii-diff is a command line tool to compare the API differences between two jsii assemblies, and report errors if there are backwards-incompatible changes to the API. We identified CVE-2026-15895, an issue where specially formatted command line arguments can be used to execute shell commands via this tool.</p> \n<p><b>Impacted versions:</b> &lt; 1.131.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-15737 - Sensitive content disclosure via OpenTelemetry spans in AgentCore Python SDK",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-058-aws/",
+    "published_date": "2026-07-16T17:09:05+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-058-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 07/16/2026 10:15 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Bedrock AgentCore Python SDK (bedrock-agentcore) is an open-source Python library that provides client tools for building AI agents on the Amazon Bedrock AgentCore platform. We identified CVE-2026-15737 in the OpenTelemetry instrumentation of the SDK. Affected versions wrote raw user prompts and complete agent responses into OpenTelemetry span attributes on every invocation without filtering or masking. These spans flow into the customer's aws/spans CloudWatch log group, where a local authenticated user with CloudWatch Logs read access could access the potentially sensitive content.</p> \n<p><b>Impacted versions:</b> 1.4.8, 1.5.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "Online Color Game Philippines: Understanding the Psychology of Small Bets",
+    "url": "https://www.socinvestigation.com/online-color-game-philippines-understanding-the-psychology-of-small-bets/",
+    "published_date": "2026-07-17T05:08:07+00:00",
+    "source_type": "detection",
+    "summary": "<p>Learn why small bets in online Color Game Philippines feel rewarding and discover the psychology behind player behavior in this GameZone guide.</p>\n<p>The post <a href=\"https://www.socinvestigation.com/online-color-game-philippines-understanding-the-psychology-of-small-bets/\">Online Color Game Philippines: Understanding the Psychology of Small Bets</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/",
+    "publisher": "Security Investigation",
+    "source_note": ""
+  },
+  {
+    "title": "Adding changes for Fleet v4.89.1 (#49423)",
+    "url": "https://github.com/fleetdm/fleet/releases/tag/v4.89.1",
+    "published_date": "2026-07-16T18:12:11+00:00",
+    "source_type": "github",
+    "summary": "<p>Co-authored-by: test <a href=\"mailto:test@test.com\">test@test.com</a></p>",
+    "feed_source": "https://github.com/fleetdm/fleet/releases.atom",
+    "publisher": "Release notes from fleet",
+    "source_note": ""
+  },
+  {
+    "title": "fleet-v4.89.1",
+    "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.89.1",
+    "published_date": "2026-07-16T18:41:31+00:00",
+    "source_type": "github",
+    "summary": "<h3>Bug fixes</h3>\n<ul>\n<li>Fixed a bug where fresh Windows 11 25H2 (and other recent builds) failed MDM enrollment with error<br />\n80180006 because the device's discovery <code>RequestVersion</code> (e.g. \"9.0\") was rejected by an exact-match<br />\nallow-list. Fleet now accepts any MS-MDE2 discovery <code>RequestVersion</code> at or above the minimum supported<br />\nversion (\"4.0\").</li>\n</ul>\n<h3>Upgrading</h3>\n<p>Please visit our <a href=\"https://fleetdm.com/docs/deploying/upgrading-fleet\" rel=\"nofollow\">update guide</a> for upgrade instructions.</p>\n<h3>Documentation</h3>\n<p>Documentation for Fleet is available at <a href=\"https://fleetdm.com/docs\" rel=\"nofollow\">fleetdm.com/docs</a>.</p>\n<h3>Binary Checksum</h3>\n<p><strong>SHA256</strong></p>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\"><pre class=\"notranslate\"><code>72fb53b632048d94a475082050a3fb9ee147c120b90b4bd03407668b0643eb2f  fleet_v4.89.1_linux.tar.gz\n5fdccf39237db3c96fa69468539e22c2cd69cfff5a4b147fdbcb5ca22ea1f2be  fleetctl_v4.89.1_linux_amd64.tar.gz\n7a2316437e9183cfaf1b18047df6245e8a88b338f8879fbe2ebaf06a39a00cda  fleetctl_v4.89.1_linux_amd64.zip\nff6e4225004fb2db43d5f1f178ea780d8",
+    "feed_source": "https://github.com/fleetdm/fleet/releases.atom",
+    "publisher": "Release notes from fleet",
+    "source_note": ""
+  },
+  {
+    "title": "coverity-w29-4.14.7: Merge pull request #37545 from wazuh/fix/887-hp-ux-compilation-error",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/coverity-w29-4.14.7",
+    "published_date": "2026-07-10T08:52:30+00:00",
+    "source_type": "github",
+    "summary": "<p>Compilation error in HP-UX arch</p>",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
+    "publisher": "Release notes from wazuh",
+    "source_note": ""
   }
 ]
