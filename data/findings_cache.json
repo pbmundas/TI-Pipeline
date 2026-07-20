@@ -513,40 +513,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html": {
-    "enriched_at": "2026-07-07T10:39:22.950614+00:00",
-    "incidents": [
-      {
-        "headline": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
-        "summary": "A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams with spear-phishing emails impersonating the Income Tax Department of India.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": null,
-        "aliases": [
-          "China-nexus"
-        ],
-        "motivation": "Steal sensitive data",
-        "recent_activity": "Operation DragonReturn: Spear-phishing emails impersonating the Income Tax Department of India to deliver DcRAT.",
-        "targets": [
-          "Indian taxpayers",
-          "tax professionals",
-          "corporate finance teams"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/": {
     "enriched_at": "2026-07-07T10:39:22.950614+00:00",
     "incidents": [],
@@ -12011,6 +11977,30 @@
   },
   "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0353146366.html": {
     "enriched_at": "2026-07-20T10:38:04.125937+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/20/hugging-face-breached-by-autonomous-ai-agent/": {
+    "enriched_at": "2026-07-20T10:59:24.728212+00:00",
+    "incidents": [
+      {
+        "headline": "Hugging Face breached by autonomous AI agent",
+        "summary": "Hugging Face disclosed a security breach carried out by an autonomous AI agent system, which gained unauthorized access to internal datasets and credentials.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/20/hugging-face-breached-by-autonomous-ai-agent/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/": {
+    "enriched_at": "2026-07-20T10:59:24.728212+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],
