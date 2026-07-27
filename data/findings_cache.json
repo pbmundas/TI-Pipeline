@@ -1,266 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/07/13/fastnetmon-netomics/": {
-    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/13/claude-code-weekly-limits-promotion-extended/": {
-    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/": {
-    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/13/cynative-open-source-deep-research-agent/": {
-    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/13/how-microsoft-windows-updates-work/": {
-    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/13/hardware-security-ai-assistant-hidden-backdoors/": {
-    "enriched_at": "2026-07-13T10:31:06.924876+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/": {
-    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
-    "incidents": [
-      {
-        "headline": "99.9% of fixable AI vulnerabilities remain unpatched",
-        "summary": "Orca Security’s report highlights that despite deploying and operating AI in the cloud, organizations often neglect basic cybersecurity hygiene.",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "AI packages",
-        "vendor": "Various companies running AI",
-        "severity": "MEDIUM",
-        "cvss": null,
-        "description": "81.2% of companies running AI packages have at least one known vulnerability, and 99.9% of these remain unpatched.",
-        "exploitation_status": null,
-        "remediation": "Patch vulnerabilities as they are identified",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/07/13/ai-infrastructure-security-risks-report/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/13/colocation-for-ai-workloads-report/": {
-    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/13/debian-13-6-security-update-released/": {
-    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/": {
-    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": null,
-        "aliases": [],
-        "motivation": "Unknown, but likely state-sponsored due to the nature of the warning.",
-        "recent_activity": "Targeting vulnerable and poorly configured routers to infiltrate critical infrastructure networks.",
-        "targets": [
-          "Critical infrastructure"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/": {
-    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/": {
-    "enriched_at": "2026-07-13T10:32:02.410770+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/": {
-    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Zimbra",
-        "vendor": "Zimbra",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Malicious code embedded in crafted emails is executed when the emails are opened.",
-        "exploitation_status": "EXPLOITED_IN_THE_WILD",
-        "remediation": "Patched by vendor",
-        "source_urls": [
-          "https://www.securityweek.com/zimbra-patches-critical-code-execution-vulnerability/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.securityweek.com/eu-targets-russian-intelligence-officers-accused-of-running-a-yearslong-cyber-spying-campaign/": {
-    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/": {
-    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.securityweek.com/progress-prompts-sharefile-storage-zone-controller-shutdown-amid-security-concerns/": {
-    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/": {
-    "enriched_at": "2026-07-13T10:32:48.322274+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "WorldLeaks extortion group",
-        "aliases": [],
-        "motivation": "Financial gain through data theft and extortion",
-        "recent_activity": "Stole 720 GB of data from a healthcare provider",
-        "targets": [
-          "Healthcare"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html": {
-    "enriched_at": "2026-07-13T10:33:29.671231+00:00",
-    "incidents": [
-      {
-        "headline": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-        "summary": "A misconfiguration led to the exposure of a live Microsoft 365 phishing operation, revealing three Evilginx operations.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Microsoft 365 users"
-    ]
-  },
-  "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html": {
-    "enriched_at": "2026-07-13T10:33:29.671231+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-48939",
-        "product": "iCagenda and Balbooa extensions for Joomla",
-        "vendor": "Not specified in the text",
-        "severity": "CRITICAL",
-        "cvss": 10.0,
-        "description": "A vulnerability rated 10.0 on the CVSS scoring system impacting iCagenda and Balbooa extensions for Joomla.",
-        "exploitation_status": "Reportedly exploited as zero-days in the wild",
-        "remediation": "Not specified in the text",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Microsoft 365 users"
-    ]
-  },
-  "https://blog.gitguardian.com/cisa-github-leak-incident-response-lessons/": {
-    "enriched_at": "2026-07-13T10:33:29.671231+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Microsoft 365 users"
-    ]
-  },
   "https://www.helpnetsecurity.com/2026/07/14/russian-coms-nca-charges-scam-calls/": {
     "enriched_at": "2026-07-14T10:31:24.075708+00:00",
     "incidents": [
@@ -686,28 +424,6 @@
     ],
     "vulnerabilities": [],
     "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package": {
-    "enriched_at": "2026-07-14T10:35:48.768056+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Center 16, the FSB’s signals intelligence arm",
-        "aliases": [],
-        "motivation": "Cyber sabotage targeting Poland's energy sector and water treatment facilities",
-        "recent_activity": "Blamed for acts of attempted cyber sabotage against Poland.",
-        "targets": [
-          "Poland's energy sector and water treatment facilities"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://therecord.media/russia-blamed-for-poland-grid-cyberattack-in-joint-uk-eu-sanctions-package"
-        ]
-      }
-    ],
     "hunting_indicators": [],
     "industries": []
   },
@@ -11673,6 +11389,166 @@
         ]
       }
     ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/27/aws-devops-agent-network-firewall-troubleshooting/": {
+    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
+    "incidents": [
+      {
+        "headline": "AWS gives DevOps teams an AI investigator for firewall incidents",
+        "summary": "AWS DevOps Agent helps administrators inspect logs, review firewall rules and network paths, identify configuration changes that caused AWS Network Firewall to block traffic, and restore connectivity.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/07/27/aws-devops-agent-network-firewall-troubleshooting/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/27/mary-rose-martinez-marathon-petroleum-ot-security-automation/": {
+    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/27/nono-open-source-ai-agent-sandboxing/": {
+    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/27/identity-attack-surface-video/": {
+    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/27/product-showcase-lastpass-authenticator/": {
+    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/27/github-dependabot-cooldown/": {
+    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/27/claude-opus-5-aws-coding-cybersecurity-work/": {
+    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Medical business management"
+    ]
+  },
+  "https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/": {
+    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Medical business management"
+    ]
+  },
+  "https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/": {
+    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
+    "incidents": [
+      {
+        "headline": "DentaQuest Data Breach Potentially Impacts Over 23 Million People",
+        "summary": "In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network.",
+        "source_urls": [
+          "https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Medical business management"
+    ]
+  },
+  "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/": {
+    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
+    "incidents": [
+      {
+        "headline": "MCBS Data Breach Affects 1.2 Million Individuals",
+        "summary": "The PEAR ransomware group claimed to have stolen 3 TB of information from the medical business management company.",
+        "source_urls": [
+          "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Medical business management"
+    ]
+  },
+  "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html": {
+    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "TELESHIM",
+        "aliases": [],
+        "motivation": "Targeting government entities in the Middle East",
+        "recent_activity": "Deployed new malware families (TELESHIM, MIXEDKEY, BINDCLOAK) for intrusions",
+        "targets": [
+          "Middle East governments"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Medical business management"
+    ]
+  },
+  "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html": {
+    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Medical business management"
+    ]
+  },
+  "https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/": {
+    "enriched_at": "2026-07-27T10:32:11.636437+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
     "industries": []
