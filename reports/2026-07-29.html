@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="../">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THL TI DASHBOARD — Threat Intelligence Report by threathuntlabs.com</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./static/css/dashboard.css?v=8">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="brand">
+                    <span class="brand-mark"></span>
+                    <a href="https://intel.threathuntlabs.com"><span class="brand-text">TI DASHBOARD</span></a>
+                    <a href="https://threathuntlabs.com" target="_blank"><span class="brand-tag">THREAT INTELLIGENCE REPORT by THREATHUNTLABS.COM</span></a>
+                </div>
+                <div class="header-actions">
+                    <a href="https://threathuntlabs.com" target="_blank" rel="noopener" class="header-link" aria-label="View on GitHub">
+                        <i class="bi bi-globe"></i>
+                    </a>
+                    <button id="themeToggleBtn" class="theme-toggle" aria-label="Toggle theme">
+                        <i class="bi bi-moon-stars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="app">
+        <div v-if="loading" class="container">
+            <div class="loading-state">
+                <div class="loading-spinner"></div>
+                <p>Loading threat intelligence report...</p>
+            </div>
+        </div>
+
+        <div v-else-if="error" class="container">
+            <div class="error-state">
+                <i class="bi bi-exclamation-triangle"></i>
+                <p>[[ error ]]</p>
+                <button @click="loadReport" class="btn btn-sm">Retry</button>
+            </div>
+        </div>
+
+        <div v-else class="container">
+            <div v-if="viewingArchivedDate" class="archive-viewing-banner">
+                <span><i class="bi bi-clock-history"></i> Viewing report from [[ formatDate(viewingArchivedDate) ]]</span>
+                <button class="btn btn-sm" @click="returnToLatest">Return to latest</button>
+            </div>
+            <section class="report-meta">
+                <div class="meta-row">
+                    <div class="meta-date">
+                        <i class="bi bi-calendar3"></i>
+                        <span>[[ formatDate(report.metadata.generated_at) ]]</span>
+                    </div>
+                    <div class="meta-badges">
+                        <span class="badge badge-neutral">[[ report.metadata.documents_analyzed ]] sources</span>
+                        <span v-if="report.metadata.time_period_days" class="badge badge-neutral">[[ report.metadata.time_period_days ]] day window</span>
+                        <span class="badge badge-neutral">v[[ report.metadata.report_version ]]</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="metrics-strip">
+                <div class="metric">
+                    <span class="metric-value">[[ report.sources.length ]]</span>
+                    <span class="metric-label">Sources</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">[[ report.threat_stories.length ]]</span>
+                    <span class="metric-label">Threat Stories</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">[[ report.actor_profiles.length ]]</span>
+                    <span class="metric-label">Threat Actors</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">[[ report.critical_vulnerabilities.length ]]</span>
+                    <span class="metric-label">Critical Vulns</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-value">[[ report.hunting_leads.length ]]</span>
+                    <span class="metric-label">Hunting Leads</span>
+                </div>
+            </section>
+
+            <nav class="section-nav">
+                <button v-for="tab in tabs" :key="tab.id" class="nav-btn" :class="{ active: activeTab === tab.id }" @click="activeTab = tab.id">
+                    <i :class="tab.icon"></i>
+                    <span>[[ tab.label ]]</span>
+                </button>
+            </nav>
+
+            <div class="tab-content">
+                <section v-show="activeTab === 'brief'" class="panel">
+                    <div class="panel-header">
+                        <h2>Executive Brief</h2>
+                    </div>
+                    <div class="executive-brief" v-html="formatMarkdown(report.executive_brief)"></div>
+                </section>
+
+                <section v-show="activeTab === 'stories'" class="panel">
+                    <div class="panel-header">
+                        <h2>Threat Stories</h2>
+                    </div>
+                    <div class="stories-list">
+                        <article v-for="(story, idx) in report.threat_stories" :key="idx" class="story-card">
+                            <div class="story-header" @click="toggleStory(idx)">
+                                <div class="story-index">[[ String(idx + 1).padStart(2, '0') ]]</div>
+                                <div class="story-title-row">
+                                    <h3>[[ story.headline ]]</h3>
+                                    <div class="story-impact">
+                                        <span class="badge" :class="impactClass(story.impact_assessment)">[[ story.impact_assessment ]]</span>
+                                    </div>
+                                </div>
+                                <i class="bi story-chevron" :class="expandedStories[idx] ? 'bi-chevron-up' : 'bi-chevron-down'"></i>
+                            </div>
+                            <div v-show="expandedStories[idx]" class="story-body">
+                                <div class="story-narrative" v-html="formatMarkdown(story.narrative)"></div>
+                                
+                                <div v-if="story.timeline && story.timeline.length" class="story-section">
+                                    <h4>Timeline</h4>
+                                    <div class="timeline">
+                                        <div v-for="(evt, ei) in story.timeline" :key="ei" class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-content">
+                                                <div class="timeline-date">[[ evt.date ]]</div>
+                                                <div class="timeline-event">[[ evt.event ]]</div>
+                                                <div class="timeline-sig">[[ evt.significance ]]</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="story-section">
+                                    <h4>Action Required</h4>
+                                    <p class="action-text">[[ story.action_required ]]</p>
+                                </div>
+
+                                <div class="story-sources">
+                                    <span class="src-label">Sources:</span>
+                                    <a v-for="srcId in story.sources" :key="srcId" :href="getSourceUrl(srcId)" target="_blank" rel="noopener" class="src-link">[[ srcId ]]</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section v-show="activeTab === 'actors'" class="panel">
+                    <div class="panel-header">
+                        <h2>Threat Actor Profiles</h2>
+                    </div>
+                    <div class="actors-grid">
+                        <div v-for="(actor, idx) in report.actor_profiles" :key="idx" class="actor-card">
+                            <div class="actor-header">
+                                <div class="actor-icon"><i class="bi bi-person-fill"></i></div>
+                                <div>
+                                    <h3>[[ actor.name ]]</h3>
+                                    <span class="badge badge-sm" :class="motivationClass(actor.motivation)">[[ actor.motivation ]]</span>
+                                </div>
+                            </div>
+                            <p class="actor-activity">[[ actor.recent_activity ]]</p>
+                            <div class="actor-details">
+                                <div v-if="actor.aliases && actor.aliases.length" class="actor-detail-row">
+                                    <span class="detail-label">Aliases</span>
+                                    <span class="detail-value">[[ actor.aliases.join(', ') ]]</span>
+                                </div>
+                                <div v-if="actor.targets && actor.targets.length" class="actor-detail-row">
+                                    <span class="detail-label">Targets</span>
+                                    <div class="detail-tags">
+                                        <span v-for="t in actor.targets" :key="t" class="tag">[[ t ]]</span>
+                                    </div>
+                                </div>
+                                <div v-if="actor.ttps && actor.ttps.length" class="actor-detail-row">
+                                    <span class="detail-label">TTPs</span>
+                                    <div class="detail-tags">
+                                        <code v-for="t in actor.ttps" :key="t" class="ttp-code">[[ t ]]</code>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="actor-sources">
+                                <a v-for="srcId in actor.sources" :key="srcId" :href="getSourceUrl(srcId)" target="_blank" rel="noopener" class="src-link">[[ srcId ]]</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section v-show="activeTab === 'vulns'" class="panel">
+                    <div class="panel-header">
+                        <h2>Critical Vulnerabilities</h2>
+                    </div>
+                    <div class="vulns-table-wrap">
+                        <table class="vulns-table">
+                            <thead>
+                                <tr>
+                                    <th>CVE / ID</th>
+                                    <th>Product</th>
+                                    <th>CVSS</th>
+                                    <th>Severity</th>
+                                    <th>Status</th>
+                                    <th>Remediation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="(vuln, idx) in report.critical_vulnerabilities" :key="idx">
+                                    <td><code>[[ vuln.cve ]]</code></td>
+                                    <td>
+                                        <div class="vuln-product">[[ vuln.product ]]</div>
+                                        <div class="vuln-vendor">[[ vuln.vendor ]]</div>
+                                    </td>
+                                    <td>
+                                        <span class="cvss-score" :class="cvssClass(vuln.cvss)">[[ vuln.cvss ]]</span>
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-sm" :class="severityClass(vuln.severity)">[[ vuln.severity ]]</span>
+                                    </td>
+                                    <td>
+                                        <span class="status-label" :class="exploitClass(vuln.exploitation_status)">[[ vuln.exploitation_status ]]</span>
+                                    </td>
+                                    <td class="vuln-remediation">[[ vuln.remediation ]]</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section v-show="activeTab === 'hunting'" class="panel">
+                    <div class="panel-header">
+                        <h2>Hunting Leads</h2>
+                    </div>
+                    <div class="hunting-list">
+                        <div v-for="(lead, idx) in report.hunting_leads" :key="idx" class="hunt-card">
+                            <div class="hunt-header">
+                                <div class="hunt-icon"><i class="bi bi-crosshair"></i></div>
+                                <div>
+                                    <h3>[[ lead.title ]]</h3>
+                                    <p class="hunt-context">[[ lead.context ]]</p>
+                                </div>
+                            </div>
+                            <div class="hunt-query">
+                                <code>[[ lead.query ]]</code>
+                            </div>
+                            <div v-if="lead.indicators && lead.indicators.length" class="hunt-indicators">
+                                <span class="detail-label">Indicators</span>
+                                <div class="detail-tags">
+                                    <span v-for="ind in lead.indicators" :key="ind" class="tag tag-muted">[[ ind ]]</span>
+                                </div>
+                            </div>
+                            <div class="actor-sources">
+                                <a v-for="srcId in lead.sources" :key="srcId" :href="getSourceUrl(srcId)" target="_blank" rel="noopener" class="src-link">[[ srcId ]]</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section v-show="activeTab === 'sources'" class="panel">
+                    <div class="panel-header">
+                        <h2>Source References</h2>
+                        <span class="panel-count">[[ report.sources.length ]] articles</span>
+                    </div>
+                    <div class="sources-list">
+                        <div class="source-search">
+                            <input type="text" v-model="sourceSearch" placeholder="Filter sources..." class="search-input">
+                        </div>
+                        <a v-for="src in filteredSources" :key="src.id" :href="src.url" target="_blank" rel="noopener" class="source-item">
+                            <div class="source-id">[[ src.id ]]</div>
+                            <div class="source-info">
+                                <span class="source-title">[[ src.title ]]</span>
+                                <span class="source-date">[[ src.publisher ? src.publisher + ' · ' : '' ]][[ formatDate(src.published_date) ]]</span>
+                                <span v-if="src.context" class="source-context">[[ src.context ]]</span>
+                            </div>
+                            <span v-if="src.source_type" class="badge badge-sm badge-neutral">[[ src.source_type ]]</span>
+                            <i class="bi bi-box-arrow-up-right source-ext"></i>
+                        </a>
+                    </div>
+                </section>
+
+                <section v-show="activeTab === 'statistics'" class="panel">
+                    <div class="panel-header">
+                        <h2>Statistics</h2>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h4>Top Threat Actors</h4>
+                            <div class="stat-list">
+                                <div v-for="(actor, idx) in report.statistics.top_actors" :key="idx" class="stat-row">
+                                    <span class="stat-rank">[[ idx + 1 ]]</span>
+                                    <span class="stat-name">[[ actor[0] ]]</span>
+                                    <span class="stat-count">[[ actor[1] ]]</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <h4>Targeted Industries</h4>
+                            <div class="stat-list">
+                                <div v-for="(ind, idx) in report.statistics.top_targeted_industries" :key="idx" class="stat-row">
+                                    <span class="stat-rank">[[ idx + 1 ]]</span>
+                                    <span class="stat-name">[[ ind[0] ]]</span>
+                                    <span class="stat-count">[[ ind[1] ]]</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <h4>Emerging Trends</h4>
+                            <div class="stat-list">
+                                <div v-for="(trend, idx) in report.statistics.emerging_trends" :key="idx" class="stat-row trend-row">
+                                    <i class="bi bi-arrow-up-right-circle"></i>
+                                    <span class="stat-name">[[ trend ]]</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <h4>Declining Threats</h4>
+                            <div class="stat-list">
+                                <div v-for="(threat, idx) in report.statistics.declining_threats" :key="idx" class="stat-row trend-row declining">
+                                    <i class="bi bi-arrow-down-right-circle"></i>
+                                    <span class="stat-name">[[ threat ]]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="key-changes" v-if="report.statistics.key_changes">
+                        <h4>Key Changes</h4>
+                        <p>[[ report.statistics.key_changes ]]</p>
+                    </div>
+                </section>
+
+                <section v-show="activeTab === 'archive'" class="panel">
+                    <div class="panel-header">
+                        <div>
+                            <h2>Daily Report Archive</h2>
+                            <p class="panel-subtitle">A day-by-day record of briefs, stories, actors, vulnerabilities, hunting leads, sources, and statistics.</p>
+                        </div>
+                        <span class="panel-count">[[ archive.length ]] reports</span>
+                    </div>
+                    <div v-if="archiveLoading" class="archive-state">Loading archive…</div>
+                    <div v-else-if="archiveError" class="archive-state archive-state-error">[[ archiveError ]]</div>
+                    <div v-else-if="!archive.length" class="archive-state">The first archived report will appear after the next daily pipeline run.</div>
+                    <div v-else class="archive-list">
+                        <article v-for="entry in archive" :key="entry.date" class="archive-post">
+                            <time class="archive-date" :datetime="entry.date">[[ formatDate(entry.date) ]]</time>
+                            <h3><a :href="reportHtmlUrl(entry)">[[ entry.title ]]</a></h3>
+                            <p>[[ entry.description ]]</p>
+                            <div class="archive-footer">
+                                <div class="archive-counts">
+                                    <span>[[ entry.counts.sources ]] sources</span>
+                                    <span>[[ entry.counts.stories ]] stories</span>
+                                    <span>[[ entry.counts.actors ]] actors</span>
+                                    <span>[[ entry.counts.vulnerabilities ]] vulnerabilities</span>
+                                    <span>[[ entry.counts.hunting_leads ]] hunts</span>
+                                </div>
+                                <a :href="reportHtmlUrl(entry)" class="archive-link">Read report <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>AI-generated threat intelligence report and data aggregated from open-source feeds.</p>
+            <a href="https://threathuntlabs.com" target="_blank" rel="noopener">Visit ThreatHuntLabs</a>
+        </div>
+    </footer>
+
+    <script src="./static/js/app.js?v=10"></script>
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+</body>
+</html>
