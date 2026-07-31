@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-31",
+    "generated_at": "2026-07-31T11:03:51.205334+00:00",
+    "title": "Daily Threat Intelligence Report — July 31, 2026",
+    "description": "Executive Brief: Cybersecurity Incidents, Vulnerabilities, and Actor Activity for the Period Key Incidents - 24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login : Over 36,000 BMC management interfaces were found exposed to the public internet, with more than 24,650 disclosing password-derived authen",
+    "url": "./reports/2026-07-31.html",
+    "data_url": "./reports/2026-07-31.json",
+    "counts": {
+      "sources": 393,
+      "stories": 4,
+      "actors": 5,
+      "vulnerabilities": 8,
+      "hunting_leads": 5
+    }
+  },
+  {
     "date": "2026-07-30",
     "generated_at": "2026-07-30T11:42:13.816921+00:00",
     "title": "Daily Threat Intelligence Report — July 30, 2026",
