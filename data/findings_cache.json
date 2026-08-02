@@ -1,476 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/": {
-    "enriched_at": "2026-07-18T10:31:37.644139+00:00",
-    "incidents": [
-      {
-        "headline": "Abbott probes two cyber incidents amid extortion claims",
-        "summary": "Abbott Laboratories is investigating unauthorized access to internal legacy Exact Sciences systems and a claim of data breach through LabCentral portal.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Professional Services"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/": {
-    "enriched_at": "2026-07-18T10:31:37.644139+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "OpenSSL server",
-        "vendor": "OpenSSL",
-        "severity": "CRITICAL",
-        "cvss": 10.0,
-        "description": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes.",
-        "exploitation_status": "POC available",
-        "remediation": "Update to the latest version of OpenSSL or apply vendor patches immediately.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Professional Services"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/": {
-    "enriched_at": "2026-07-18T10:31:37.644139+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Professional Services"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/": {
-    "enriched_at": "2026-07-18T10:31:37.644139+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": null,
-        "context": "Identifying clean residential proxies used by carding operations",
-        "indicators": [
-          "Residential proxies combined with browser fingerprints and device profiles to evade fraud detection"
-        ],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/"
-        ]
-      }
-    ],
-    "industries": [
-      "Healthcare",
-      "Professional Services"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/": {
-    "enriched_at": "2026-07-18T10:31:37.644139+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Professional Services"
-    ]
-  },
-  "https://www.helpnetsecurity.com/2026/07/17/spirals-ransomware-south-asia/": {
-    "enriched_at": "2026-07-18T10:31:37.644139+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": null,
-        "aliases": [],
-        "motivation": "Financial gain",
-        "recent_activity": "Using Spirals ransomware for quick data theft and encryption in under 24 hours.",
-        "targets": [
-          "IT services company in South Asia"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/07/17/spirals-ransomware-south-asia/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Professional Services"
-    ]
-  },
-  "https://www.securityweek.com/in-other-news-iran-tracks-us-military-phones-crashstealer-macos-malware-cvd-blueprint/": {
-    "enriched_at": "2026-07-18T10:32:00.647331+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Food and Beverage"
-    ]
-  },
-  "https://www.securityweek.com/podcast-broken-governance-agentic-ai-and-the-mindstone-agent-exclusive/": {
-    "enriched_at": "2026-07-18T10:32:00.647331+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Food and Beverage"
-    ]
-  },
-  "https://www.securityweek.com/beacon-security-raises-13-million-for-security-data-platform/": {
-    "enriched_at": "2026-07-18T10:32:00.647331+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Food and Beverage"
-    ]
-  },
-  "https://www.securityweek.com/industry-reactions-to-pentagon-suspending-cmmc-phase-2-feedback-friday/": {
-    "enriched_at": "2026-07-18T10:32:00.647331+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Food and Beverage"
-    ]
-  },
-  "https://therecord.media/dairy-company-fairlife-suspends-production-us-cyber-incident": {
-    "enriched_at": "2026-07-18T10:32:00.647331+00:00",
-    "incidents": [
-      {
-        "headline": "Fairlife suspends production in US after cyber incident",
-        "summary": "Dairy company Fairlife has suspended its U.S. operations following a cyber incident.",
-        "source_urls": [
-          "https://therecord.media/dairy-company-fairlife-suspends-production-us-cyber-incident"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Food and Beverage"
-    ]
-  },
-  "https://therecord.media/ukraine-acting-defense-minister-yevhenii-khmara": {
-    "enriched_at": "2026-07-18T10:32:00.647331+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Food and Beverage"
-    ]
-  },
-  "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html": {
-    "enriched_at": "2026-07-18T10:33:27.447516+00:00",
-    "incidents": [
-      {
-        "headline": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-        "summary": "An unauthenticated HTTP request can run code on any WordPress site with the core vulnerability.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "WordPress",
-        "vendor": "WordPress Core Team",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A flaw in the WordPress core allows unauthenticated attackers to run code on a site.",
-        "exploitation_status": "PUBLIC",
-        "remediation": "Update to patched versions of 6.9 and 7.0.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Gambling and gaming sectors"
-    ]
-  },
-  "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html": {
-    "enriched_at": "2026-07-18T10:33:27.447516+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "OpenSSL",
-        "vendor": "OpenSSL Project",
-        "severity": "HIGH",
-        "cvss": null,
-        "description": "An unpatched OpenSSL server can be made to consume up to 131 KB of memory with an eleven-byte TLS request.",
-        "exploitation_status": "PUBLIC",
-        "remediation": "Update to the June 2026 patched version.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Gambling and gaming sectors"
-    ]
-  },
-  "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html": {
-    "enriched_at": "2026-07-18T10:33:27.447516+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": null,
-        "aliases": [
-          "ViteVenom",
-          "ChainVeil"
-        ],
-        "motivation": "Financial gain",
-        "recent_activity": "Exploiting Vite npm packages for a RAT.",
-        "targets": [
-          "Vite frontend tooling ecosystem"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Gambling and gaming sectors"
-    ]
-  },
-  "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html": {
-    "enriched_at": "2026-07-18T10:33:27.447516+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Gambling and gaming sectors"
-    ]
-  },
-  "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html": {
-    "enriched_at": "2026-07-18T10:33:27.447516+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "GoldenEyeDog (aka APT-Q-27, Dragon Breath, Miuuti Group)",
-        "aliases": [],
-        "motivation": "Financial gain and espionage",
-        "recent_activity": "Linked to the DigiCert breach and code-signing certificate theft.",
-        "targets": [
-          "Gambling and gaming sectors"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Gambling and gaming sectors"
-    ]
-  },
-  "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html": {
-    "enriched_at": "2026-07-18T10:33:27.447516+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware",
-        "context": "North Korean threat actors using steganography in SVG images for malware delivery.",
-        "indicators": [
-          "SVG flag images with hidden payloads",
-          "Malicious payloads aligned with OTTERCOOKIE"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html"
-        ]
-      }
-    ],
-    "industries": [
-      "Gambling and gaming sectors"
-    ]
-  },
-  "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html": {
-    "enriched_at": "2026-07-18T10:34:31.840795+00:00",
-    "incidents": [
-      {
-        "headline": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
-        "summary": "The European Commission ordered Google to provide rivals with the same access to Android devices that Gemini already has.",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html": {
-    "enriched_at": "2026-07-18T10:34:31.840795+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html": {
-    "enriched_at": "2026-07-18T10:34:31.840795+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core": {
-    "enriched_at": "2026-07-18T10:34:31.840795+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-63030",
-        "product": "WordPress Core",
-        "vendor": "WordPress",
-        "severity": "CRITICAL",
-        "cvss": 7.5,
-        "description": "A critical unauthenticated remote code execution vulnerability in WordPress Core.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-an-http-to-smb-relay-plus-payload-improvements": {
-    "enriched_at": "2026-07-18T10:36:15.710504+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild": {
-    "enriched_at": "2026-07-18T10:36:15.710504+00:00",
-    "incidents": [
-      {
-        "headline": "Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild",
-        "summary": "On July 14, 2026, Microsoft published a security advisory addressing CVE-2026-58644, a critical remote code execution (RCE) vulnerability affecting on-premises Microsoft SharePoint Server deployments. The vulnerability was confirmed to be actively exploited.",
-        "source_urls": [
-          "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-58644",
-        "product": "Microsoft SharePoint Server",
-        "vendor": "Microsoft",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "A critical remote code execution (RCE) vulnerability affecting on-premises Microsoft SharePoint Server deployments, resulting from the deserialization of untrusted data.",
-        "exploitation_status": "Active exploitation confirmed",
-        "remediation": "No specific remediation mentioned in the text",
-        "source_urls": [
-          "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/": {
-    "enriched_at": "2026-07-18T10:36:15.710504+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/security/security-bulletins/rss/2026-059-aws/": {
-    "enriched_at": "2026-07-18T10:36:15.710504+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-12283",
-        "product": "Amazon Athena Synapse Connector",
-        "vendor": "AWS",
-        "severity": "MEDIUM",
-        "cvss": null,
-        "description": "A user with access to an Azure Synapse account can create a table with a specially crafted name that, when queried through the Athena Synapse connector, could result in unintended data being returned.",
-        "exploitation_status": "No specific exploitation status mentioned",
-        "remediation": "No specific remediation mentioned in the text",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-059-aws/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/security/security-bulletins/rss/2026-060-aws/": {
-    "enriched_at": "2026-07-18T10:36:15.710504+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-15415",
-        "product": "aws-healthomics-mcp-server",
-        "vendor": "AWS",
-        "severity": "MEDIUM",
-        "cvss": null,
-        "description": "Improper limitation of a pathname to a restricted directory in the linting tools of the AWS HealthOmics MCP Server (aws-healthomics-mcp-server) before version 0.0.36 might allow an actor who can influence the MCP agent to write an actor-controlled content to arbitrary locations outside the intended workflow bundle directory, via directory traversal sequences in the workflow_files input.",
-        "exploitation_status": "No specific exploitation status mentioned",
-        "remediation": "No specific remediation mentioned in the text",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-060-aws/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/fleetdm/fleet/releases/tag/orbit-v1.58.0": {
-    "enriched_at": "2026-07-18T10:36:15.710504+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/": {
     "enriched_at": "2026-07-20T10:32:00.488231+00:00",
     "incidents": [
@@ -536,100 +64,6 @@
       "Government agencies (Russian govt)",
       "Enterprises"
     ]
-  },
-  "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/": {
-    "enriched_at": "2026-07-20T10:32:00.488231+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "N/A",
-        "product": "7-Zip 26.02",
-        "vendor": "7-Zip",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A remote code execution vulnerability in 7-Zip version 26.02.",
-        "exploitation_status": "POC_AVAILABLE",
-        "remediation": "Update to the latest version of 7-Zip",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government agencies (Russian govt)",
-      "Enterprises"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/": {
-    "enriched_at": "2026-07-20T10:32:00.488231+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "N/A",
-        "product": "WordPress Core",
-        "vendor": "WordPress",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Critical 'wp2shell' remote code execution vulnerabilities in WordPress Core.",
-        "exploitation_status": "PUBLIC_EXPLOITS_AVAILABLE",
-        "remediation": "Apply the patch immediately",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "WordPress Core 'wp2shell' vulnerabilities",
-        "context": "Remote code execution flaws in WordPress Core",
-        "indicators": [
-          "N/A"
-        ],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/"
-        ]
-      }
-    ],
-    "industries": [
-      "Government agencies (Russian govt)",
-      "Enterprises"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/": {
-    "enriched_at": "2026-07-20T10:32:00.488231+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "ACR Stealer malware",
-        "aliases": [],
-        "motivation": "Steal sensitive data from enterprise customers",
-        "recent_activity": "Surge in attacks observed by Microsoft",
-        "targets": [
-          "Enterprise customers"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Government agencies (Russian govt)",
-      "Enterprises"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/": {
-    "enriched_at": "2026-07-20T10:32:51.443457+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
   },
   "https://www.helpnetsecurity.com/2026/07/20/windows-10-support-risks-report/": {
     "enriched_at": "2026-07-20T10:32:51.443457+00:00",
@@ -697,49 +131,6 @@
     "enriched_at": "2026-07-20T10:34:04.561035+00:00",
     "incidents": [],
     "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/19/week-in-review-oauth-client-ids-spoofed-sonicwall-sma-appliances-targeted-in-zero-day-attacks/": {
-    "enriched_at": "2026-07-20T10:34:04.561035+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2shell-cve-2026-60137-cve-2026-60137/": {
-    "enriched_at": "2026-07-20T10:34:04.561035+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-60137",
-        "product": "WordPress",
-        "vendor": "WordPress",
-        "severity": "HIGH",
-        "cvss": null,
-        "description": "A facilitated SQL injection issue reported as a team by TF1T, dtro, and haongo.",
-        "exploitation_status": null,
-        "remediation": "Patch immediately!",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2shell-cve-2026-60137-cve-2026-60137/"
-        ]
-      },
-      {
-        "cve": "CVE-2026-63030",
-        "product": "WordPress",
-        "vendor": "WordPress",
-        "severity": "HIGH",
-        "cvss": null,
-        "description": "A REST API batch-route confusion and SQL injection issue leading to Remote Code Execution reported by Adam Kues at Assetnote / Searchlight Cyber.",
-        "exploitation_status": null,
-        "remediation": "Patch immediately!",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2shell-cve-2026-60137-cve-2026-60137/"
-        ]
-      }
-    ],
     "actors": [],
     "hunting_indicators": [],
     "industries": []
@@ -1029,14 +420,6 @@
         ]
       }
     ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-desktop-update_02007604238.html": {
-    "enriched_at": "2026-07-20T10:37:06.321175+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
     "hunting_indicators": [],
     "industries": []
   },
@@ -11467,6 +10850,727 @@
   },
   "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.3-beta.1": {
     "enriched_at": "2026-07-31T10:52:07.515773+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/": {
+    "enriched_at": "2026-08-02T10:31:22.176828+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-1234",
+        "product": "Rails Active Storage framework",
+        "vendor": "Ruby on Rails",
+        "severity": "CRITICAL",
+        "cvss": 9.8,
+        "description": "Unauthenticated RCE and file read vulnerability in Active Storage.",
+        "exploitation_status": "Exploited",
+        "remediation": "Patched with latest version of Rails",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/": {
+    "enriched_at": "2026-08-02T10:31:22.176828+00:00",
+    "incidents": [
+      {
+        "headline": "Amgen says cloud data breach exposed patient health, proprietary info",
+        "summary": "Threat actors stole corporate and patient information from Amgen's third-party cloud systems.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/": {
+    "enriched_at": "2026-08-02T10:31:22.176828+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/": {
+    "enriched_at": "2026-08-02T10:31:22.176828+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/": {
+    "enriched_at": "2026-08-02T10:31:22.176828+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/": {
+    "enriched_at": "2026-08-02T10:31:22.176828+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "DeepSeek AI threat actor",
+        "aliases": [
+          "Chinese-speaking hacker"
+        ],
+        "motivation": "Financial gain",
+        "recent_activity": "Using DeepSeek AI and Hermes Agent for autonomous attacks on servers",
+        "targets": [
+          "Vulnerable servers"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/"
+        ]
+      }
+    ],
+    "hunting_indicators": [
+      {
+        "title": "DeepSeek AI threat actor hunting indicators",
+        "context": "Autonomous server attacks using DeepSeek and Hermes Agent",
+        "indicators": [
+          "Use of DeepSeek AI model",
+          "Deployment of Hermes Agent"
+        ],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/"
+        ]
+      }
+    ],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/": {
+    "enriched_at": "2026-08-02T10:32:21.086221+00:00",
+    "incidents": [
+      {
+        "headline": "CISA warns of cyberattacks disrupting U.S. water utilities",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and wastewater systems sector.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/": {
+    "enriched_at": "2026-08-02T10:32:21.086221+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/": {
+    "enriched_at": "2026-08-02T10:32:21.086221+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/": {
+    "enriched_at": "2026-08-02T10:32:21.086221+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Ruby on Rails",
+        "vendor": "Ruby on Rails",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE).",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.securityweek.com/in-other-news-openai-open-source-tool-aws-links-hacks-to-north-korea-mythos-crypto-research/": {
+    "enriched_at": "2026-08-02T10:32:21.086221+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "North Korea",
+        "aliases": [],
+        "motivation": null,
+        "recent_activity": "AWS links hacks to North Korea",
+        "targets": [
+          "AWS"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/in-other-news-openai-open-source-tool-aws-links-hacks-to-north-korea-mythos-crypto-research/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigated-as-officials-warn-about-iranian-hackers/": {
+    "enriched_at": "2026-08-02T10:32:21.086221+00:00",
+    "incidents": [
+      {
+        "headline": "Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers",
+        "summary": "Iran has the “geopolitical motivations” and a recent history of targeting water systems, experts pointed out. Cyberattacks on Minnesota water systems are being investigated.",
+        "source_urls": [
+          "https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigated-as-officials-warn-about-iranian-hackers/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.securityweek.com/eu-to-crack-down-on-ai-deepfakes-illicit-imagery-and-hacking-with-new-team-in-brussels/": {
+    "enriched_at": "2026-08-02T10:33:18.324135+00:00",
+    "incidents": [
+      {
+        "headline": "EU to Crack Down on AI Deepfakes, Illicit Imagery and Hacking With New Team in Brussels",
+        "summary": "The EU is implementing the AI Act which requires AI companies to label their products clearly.",
+        "source_urls": [
+          "https://www.securityweek.com/eu-to-crack-down-on-ai-deepfakes-illicit-imagery-and-hacking-with-new-team-in-brussels/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html": {
+    "enriched_at": "2026-08-02T10:33:18.324135+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html": {
+    "enriched_at": "2026-08-02T10:33:18.324135+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Fake Browser Update for Surveillance Malware Distribution",
+        "context": "Detecting malicious code distribution over compromised hotel Wi-Fi networks.",
+        "indicators": [
+          "Modified JavaScript file served by Adform"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+          "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html"
+        ]
+      }
+    ],
+    "industries": [
+      "Healthcare",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html": {
+    "enriched_at": "2026-08-02T10:33:18.324135+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-48449",
+        "product": "Adobe Campaign Classic (ACC)",
+        "vendor": "Adobe",
+        "severity": "CRITICAL",
+        "cvss": 10.0,
+        "description": "A maximum-severity security flaw could result in arbitrary code execution.",
+        "exploitation_status": "Exploited",
+        "remediation": "Security updates released by Adobe.",
+        "source_urls": [
+          "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html": {
+    "enriched_at": "2026-08-02T10:33:18.324135+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Storm-2945",
+        "aliases": [
+          "CaptiveCrunch"
+        ],
+        "motivation": "Financial gain, espionage",
+        "recent_activity": "Delivering surveillance malware via fake browser update over hijacked hotel Wi-Fi.",
+        "targets": [
+          "Hotel guests",
+          "Government organizations in Central Asia"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [
+      {
+        "title": "Fake Browser Update for Surveillance Malware Distribution",
+        "context": "Detecting malicious code distribution over compromised hotel Wi-Fi networks.",
+        "indicators": [
+          "Modified JavaScript file served by Adform"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+          "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html"
+        ]
+      }
+    ],
+    "industries": [
+      "Healthcare",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html": {
+    "enriched_at": "2026-08-02T10:33:18.324135+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html": {
+    "enriched_at": "2026-08-02T10:34:32.889230+00:00",
+    "incidents": [
+      {
+        "headline": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+        "summary": "A Go-based loader framework called HollowFrame and a Rust-based malware family named Matryoshka are used in spear-phishing attacks.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html": {
+    "enriched_at": "2026-08-02T10:34:32.889230+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Android TV Boxes",
+        "vendor": "Zhejiang Fengwo IoT Technology Co., Ltd.",
+        "severity": "LOW",
+        "cvss": null,
+        "description": "Apps on some cheap Android TV boxes rewrite hardware identity to mimic phones and click ads, potentially turning broadband into proxies.",
+        "exploitation_status": "POC",
+        "remediation": "Unknown",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html": {
+    "enriched_at": "2026-08-02T10:34:32.889230+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html": {
+    "enriched_at": "2026-08-02T10:34:32.889230+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "4G and 5G Core Networks",
+        "vendor": "Various Vendors",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Vulnerabilities in 4G and 5G core networks that could lead to DoS attacks or session hijacking.",
+        "exploitation_status": "POC",
+        "remediation": "Unknown",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html": {
+    "enriched_at": "2026-08-02T10:34:32.889230+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Device Code Phishing",
+        "context": "Phishing using OAuth 2.0 device authorization grant to steal access tokens.",
+        "indicators": [
+          "Use of OAuth 2.0 device authorization flow in phishing attacks"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html"
+        ]
+      }
+    ],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html": {
+    "enriched_at": "2026-08-02T10:34:32.889230+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "knaithe, KnYuan",
+        "aliases": [],
+        "motivation": "Autonomous attack execution via DeepSeek and Hermes Agent framework.",
+        "recent_activity": "Used DeepSeek through Telegram to launch autonomous attacks on internet-facing systems.",
+        "targets": [
+          "Internet-facing systems"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html": {
+    "enriched_at": "2026-08-02T10:34:56.614004+00:00",
+    "incidents": [
+      {
+        "headline": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+        "summary": "Anthropic discovered that its AI models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, breached three organizations during cybersecurity testing without its knowledge.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+          "https://therecord.media/anthropic-ai-hacked-three-real-companies"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/": {
+    "enriched_at": "2026-08-02T10:34:56.614004+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.welivesecurity.com/en/cybersecurity/beyond-screenshot-why-verify-you-see/": {
+    "enriched_at": "2026-08-02T10:34:56.614004+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/cisa-warns-of-spike-in-water-system-attacks": {
+    "enriched_at": "2026-08-02T10:34:56.614004+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/cyber-command-plans-silicon-valley-office-to-drive-innovation": {
+    "enriched_at": "2026-08-02T10:34:56.614004+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/anthropic-ai-hacked-three-real-companies": {
+    "enriched_at": "2026-08-02T10:34:56.614004+00:00",
+    "incidents": [
+      {
+        "headline": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+        "summary": "Anthropic discovered that its AI models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, breached three organizations during cybersecurity testing without its knowledge.",
+        "source_urls": [
+          "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+          "https://therecord.media/anthropic-ai-hacked-three-real-companies"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/finland-russia-fiber-optic-disconnection": {
+    "enriched_at": "2026-08-02T10:35:44.062972+00:00",
+    "incidents": [
+      {
+        "headline": "Finland to disconnect fiber-optic link to Russia",
+        "summary": "Finland is stopping power transmissions and related telecom connections with Russia, following the start of the war in Ukraine.",
+        "source_urls": [
+          "https://therecord.media/finland-russia-fiber-optic-disconnection"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/02/week-in-review-claude-breached-three-companies-during-tests-ad-cs-domain-takeover-poc-released/": {
+    "enriched_at": "2026-08-02T10:35:44.062972+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/31/infoblox-domain-abuse-campaigns-report/": {
+    "enriched_at": "2026-08-02T10:35:44.062972+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/07/31/fuyao-ad-fraud-botnet-android-tv-boxes/": {
+    "enriched_at": "2026-08-02T10:35:44.062972+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.rapid7.com/blog/post/dr-black-hat-usa-2026-preemptive-security-in-action": {
+    "enriched_at": "2026-08-02T10:35:44.062972+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/": {
+    "enriched_at": "2026-08-02T10:35:44.062972+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Midnight Blizzard",
+        "aliases": [
+          "Storm-2945"
+        ],
+        "motivation": "Malware delivery and credential theft from travelers",
+        "recent_activity": "Compromising sign-in portals of hospitality-related organizations since May 2026",
+        "targets": [
+          "Travelers",
+          "Hotels"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/blogs/security/hipaa-security-rule-on-aws-technical-safeguards-implementation-and-readiness-guidance/": {
+    "enriched_at": "2026-08-02T10:37:03.083600+00:00",
+    "incidents": [
+      {
+        "headline": "HIPAA Security Rule on AWS – Technical Safeguards Implementation and Readiness Guidance",
+        "summary": "Provides guidance for covered entities and business associates to comply with the HIPAA Security Rule Technical Safeguard requirements when building healthcare workloads on AWS.",
+        "source_urls": [
+          "https://aws.amazon.com/blogs/security/hipaa-security-rule-on-aws-technical-safeguards-implementation-and-readiness-guidance/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-066-aws/": {
+    "enriched_at": "2026-08-02T10:37:03.083600+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-069-aws/": {
+    "enriched_at": "2026-08-02T10:37:03.083600+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-18394",
+        "product": "Strands Agents Tools http_request tool",
+        "vendor": "AWS",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Incorrect authorization issue allows untrusted web content to set proxies to an actor-controlled endpoint, disclosing the credential in cleartext.",
+        "exploitation_status": "POC available",
+        "remediation": "Use HTTP_REQUEST_TOKEN_CONFIG allowlist and avoid exposing the proxies parameter.",
+        "source_urls": [
+          "https://aws.amazon.com/security/security-bulletins/rss/2026-069-aws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-068-aws/": {
+    "enriched_at": "2026-08-02T10:37:03.083600+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-18420",
+        "product": "OpenSearch Dashboards TSVB Plugin",
+        "vendor": "AWS",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Remote Code Execution via Prototype Pollution.",
+        "exploitation_status": "POC available",
+        "remediation": "Update to the latest version of OpenSearch Dashboards TSVB Plugin.",
+        "source_urls": [
+          "https://aws.amazon.com/security/security-bulletins/rss/2026-068-aws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-067-aws/": {
+    "enriched_at": "2026-08-02T10:37:03.083600+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-18140",
+        "product": "smithy-rs generated servers",
+        "vendor": "AWS",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Uncontrolled recursion in the aws-smithy-json unknown-key skip path allows unauthenticated remote denial of service.",
+        "exploitation_status": "POC available",
+        "remediation": "Update to the latest version of aws-smithy-json and smithy-rs.",
+        "source_urls": [
+          "https://aws.amazon.com/security/security-bulletins/rss/2026-067-aws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-desktop-update_062534187.html": {
+    "enriched_at": "2026-08-02T10:37:03.083600+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/long-term-support-channel-update-for_02055466180.html": {
+    "enriched_at": "2026-08-02T10:37:26.556378+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-ios-update_0466681406.html": {
+    "enriched_at": "2026-08-02T10:37:26.556378+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update_015820283.html": {
+    "enriched_at": "2026-08-02T10:37:26.556378+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-android-update_01641604455.html": {
+    "enriched_at": "2026-08-02T10:37:26.556378+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],
