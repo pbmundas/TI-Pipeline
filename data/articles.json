@@ -26812,5 +26812,925 @@
     "feed_source": "https://github.com/WithSecureLabs/chainsaw/releases.atom",
     "publisher": "Release notes from chainsaw",
     "source_note": ""
+  },
+  {
+    "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+    "published_date": "2026-08-05T21:53:26+00:00",
+    "source_type": "news",
+    "summary": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
+    "published_date": "2026-08-05T19:55:25+00:00",
+    "source_type": "news",
+    "summary": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "COLDCARD security audit phishing attack installs remote access tool",
+    "url": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+    "published_date": "2026-08-05T17:49:41+00:00",
+    "source_type": "news",
+    "summary": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote access software. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+    "published_date": "2026-08-05T15:51:33+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Google Blogger locks hundreds of blogs in malware false positive",
+    "url": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
+    "published_date": "2026-08-05T14:59:29+00:00",
+    "source_type": "news",
+    "summary": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with some sites deleted from the platform. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "How AI-powered phishing killed blocklists for good",
+    "url": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
+    "published_date": "2026-08-05T14:01:11+00:00",
+    "source_type": "news",
+    "summary": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Security explains why browser-level, technique-based detection offers a more durable defense than relying on domains, signatures, and other known-bad indicators. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+    "published_date": "2026-08-04T23:39:59+00:00",
+    "source_type": "news",
+    "summary": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attacks against people outside the intended testing boundaries. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+    "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+    "published_date": "2026-08-04T22:18:20+00:00",
+    "source_type": "news",
+    "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+    "published_date": "2026-08-04T21:45:36+00:00",
+    "source_type": "news",
+    "summary": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-code phishing targeting Microsoft 365 accounts. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+    "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+    "published_date": "2026-08-04T19:03:09+00:00",
+    "source_type": "news",
+    "summary": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "77 Open VSX extensions found harvesting developer info",
+    "url": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+    "published_date": "2026-08-04T18:50:55+00:00",
+    "source_type": "news",
+    "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development environments where they were installed. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Chinese telcos maintain deep US presence despite Salt Typhoon links, House committee says",
+    "url": "https://therecord.media/chinese-hackers-telecoms-house",
+    "published_date": "2026-08-05T20:45:00+00:00",
+    "source_type": "news",
+    "summary": "Three Chinese telecommunications giants continue to have footholds in the U.S. internet ecosystem despite their alleged role in previous Chinese hacking campaigns, a House committee report concluded.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Canadian man pleads guilty to Snowflake hacks that led to 165 breaches",
+    "url": "https://therecord.media/guilty-plea-snowflake-hack-connor-riley-moucka",
+    "published_date": "2026-08-05T20:15:00+00:00",
+    "source_type": "news",
+    "summary": "A 26-year-old from Ontario faces as many as 32 years in prison after pleading guilty to fraud, identity theft and conspiracy charges related to the 2024 hacks of cloud platform Snowflake.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Dutch retailer De Bijenkorf warns customer data may be exposed after cyber incident",
+    "url": "https://therecord.media/de-bijenkorf-luxury-retailer-third-party-cyber-incident",
+    "published_date": "2026-08-05T15:36:00+00:00",
+    "source_type": "news",
+    "summary": "Amsterdam-based luxury goods chain De Bijenkorf is the latest retailer to announce a cyber incident involving a third-party logistics provider.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Cyberattacks on water systems expand to 12 states as South Dakota, Georgia announce incidents",
+    "url": "https://therecord.media/iran-cyberattacks-water-treatment",
+    "published_date": "2026-08-05T14:00:00+00:00",
+    "source_type": "news",
+    "summary": "Water utilities in at least 12 states have reported cyberattacks on their operational technology, as the scope of a campaign allegedly linked to Iranian hackers continues to grow.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Anthropic AI agent faked identities, phished real developers in UK government hacking test",
+    "url": "https://therecord.media/anthropic-ai-hacking-uk",
+    "published_date": "2026-08-05T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "An artificial intelligence agent built by Anthropic independently planted malicious code in a real software project and sent phishing emails to developers during a U.K. government security evaluation, according to Britain’s AI Security Institute.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published_date": "2026-08-05T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation. &nbsp;</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-63077\" target=\"_blank\">CVE-2026-63077 </a>JetBrains TeamCity Deserialization of Untrusted Data Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exp",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+    "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+    "published_date": "2026-08-05T18:44:31+00:00",
+    "source_type": "news",
+    "summary": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks.\n\nThe server-side gate hides the malicious page from crawlers and sandboxes while presenting selected Mac users with a fake software download. Microsoft",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+    "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+    "published_date": "2026-08-05T18:33:47+00:00",
+    "source_type": "news",
+    "summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes.\n\nTo that end, it banned a coordinated network of ChatGPT accounts likely originating from Southeast Asia and operating from the city of Poipet, a region with extensive",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+    "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+    "published_date": "2026-08-05T15:36:03+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms.\n\nOne such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6.\n\n\"Advertisements for Poison Claude",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+    "url": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+    "published_date": "2026-08-05T15:14:05+00:00",
+    "source_type": "news",
+    "summary": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it.\n\nA third flaw could expose sensitive data and control-plane details through application programming interface (API) routes",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+    "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+    "published_date": "2026-08-05T14:27:30+00:00",
+    "source_type": "news",
+    "summary": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django.\n\nThe three most serious:\n\n\n  An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5\n  A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
+    "url": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
+    "published_date": "2026-08-05T13:41:27+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer.\n\nThe new dead drop resolver approach, observed in two trojanized npm packages \"bianira-ui\" and \"fluid-type-ui,\" has been codenamed NullReceiver by",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+    "url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+    "published_date": "2026-08-05T11:43:27+00:00",
+    "source_type": "news",
+    "summary": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds.\n\nThe vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+    "url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+    "published_date": "2026-08-05T11:43:19+00:00",
+    "source_type": "news",
+    "summary": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers may retain access to email, documents, and cloud resources, creating a direct path to data exposure, financial fraud,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+    "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+    "published_date": "2026-08-05T11:04:23+00:00",
+    "source_type": "news",
+    "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1.\n\nThe file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+    "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+    "published_date": "2026-08-05T10:35:29+00:00",
+    "source_type": "news",
+    "summary": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability.\n\nWe scanned public GitHub commits for exposed n8n API tokens and identified 4,576 unique credentials associated with 1,255 hostnames. Of the 896",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+    "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+    "published_date": "2026-08-05T09:23:03+00:00",
+    "source_type": "news",
+    "summary": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed.\n\nThe \"evil twin\" extensions were uploaded to the repository between July 26 and August 1, 2026, according to Manifold Security. The packages have been removed from Open VSX as of",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
+    "url": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
+    "published_date": "2026-08-05T07:53:50+00:00",
+    "source_type": "news",
+    "summary": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute.\n\nWhen a bystander publicly warned that the code was malicious, the agent denied it, force-pushed a rewritten branch history to erase the evidence, and posted from a second account it controlled to vouch for",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+    "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+    "published_date": "2026-08-05T07:40:39+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\n\nThe list of vulnerabilities is as follows -\n\n\n  CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+    "url": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+    "published_date": "2026-08-05T05:47:19+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.\n\nAccording to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones",
+    "url": "https://www.securityweek.com/how-a-50000-exploit-chain-turned-bixby-against-samsung-phones/",
+    "published_date": "2026-08-05T19:40:00+00:00",
+    "source_type": "news",
+    "summary": "<p>The chain involved the exploitation of several vulnerabilities in the Samsung Members and Samsung Account applications.</p>\n<p>The post <a href=\"https://www.securityweek.com/how-a-50000-exploit-chain-turned-bixby-against-samsung-phones/\">How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 3)",
+    "url": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-3/",
+    "published_date": "2026-08-05T14:36:29+00:00",
+    "source_type": "news",
+    "summary": "<p>Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas.</p>\n<p>The post <a href=\"https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-3/\">Black Hat USA 2026 – Summary of Vendor Announcements (Part 3)</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "The Fourth Battlefield: The Growing Role of Cyber Operations in Global Conflict",
+    "url": "https://www.securityweek.com/the-fourth-battlefield-the-growing-role-of-cyber-operations-in-global-conflict/",
+    "published_date": "2026-08-05T13:00:08+00:00",
+    "source_type": "news",
+    "summary": "<p>CrowdStrike co-founder Dmitri Alperovitch discusses how cyber operations support kinetic warfare, signal coming conflicts, and reshape the global battlefield.</p>\n<p>The post <a href=\"https://www.securityweek.com/the-fourth-battlefield-the-growing-role-of-cyber-operations-in-global-conflict/\">The Fourth Battlefield: The Growing Role of Cyber Operations in Global Conflict</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts",
+    "url": "https://www.securityweek.com/new-attack-methods-enable-malware-to-hijack-passkey-protected-accounts/",
+    "published_date": "2026-08-05T12:48:49+00:00",
+    "source_type": "news",
+    "summary": "<p>Palo Alto Networks researchers have demonstrated attacks against Google’s synced passkey implementation.</p>\n<p>The post <a href=\"https://www.securityweek.com/new-attack-methods-enable-malware-to-hijack-passkey-protected-accounts/\">New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "311,000 Impacted by Brown Health Medical Group-MA Data Breach",
+    "url": "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
+    "published_date": "2026-08-05T11:35:23+00:00",
+    "source_type": "news",
+    "summary": "<p>Hackers stole personal information, medical records, and financial information from the organization’s server.</p>\n<p>The post <a href=\"https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/\">311,000 Impacted by Brown Health Medical Group-MA Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data",
+    "url": "https://www.securityweek.com/cybersecurity-alliance-drafts-safe-guidelines-for-sharing-ai-incident-data/",
+    "published_date": "2026-08-05T11:11:29+00:00",
+    "source_type": "news",
+    "summary": "<p>The guidelines are the work of the recently launched Open Secure AI Alliance, which now includes 120 organizations.</p>\n<p>The post <a href=\"https://www.securityweek.com/cybersecurity-alliance-drafts-safe-guidelines-for-sharing-ai-incident-data/\">Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "AI Agents Targeted Real People and Projects During Cybersecurity Tests",
+    "url": "https://www.securityweek.com/ai-security-institute-reports-anthropic-and-openai-models-going-rogue-against-organizations/",
+    "published_date": "2026-08-05T10:33:41+00:00",
+    "source_type": "news",
+    "summary": "<p>AI Security Institute reports Anthropic and OpenAI models going rogue against real people, organizations, and open source projects.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-security-institute-reports-anthropic-and-openai-models-going-rogue-against-organizations/\">AI Agents Targeted Real People and Projects During Cybersecurity Tests</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
+    "url": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
+    "published_date": "2026-08-05T09:44:50+00:00",
+    "source_type": "news",
+    "summary": "<p>The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/\">CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack",
+    "url": "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/",
+    "published_date": "2026-08-05T08:56:58+00:00",
+    "source_type": "news",
+    "summary": "<p>The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials.</p>\n<p>The post <a href=\"https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/\">Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Water Sector Cyberattacks Reportedly Hit at Least 12 States",
+    "url": "https://www.securityweek.com/water-sector-cyberattacks-reportedly-hit-at-least-12-states/",
+    "published_date": "2026-08-05T07:24:52+00:00",
+    "source_type": "news",
+    "summary": "<p>Georgia has been confirmed as one of the attacked states after Clayton County reported a pump station disruption.</p>\n<p>The post <a href=\"https://www.securityweek.com/water-sector-cyberattacks-reportedly-hit-at-least-12-states/\">Water Sector Cyberattacks Reportedly Hit at Least 12 States</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-526: (0Day) PAX Technology Q80 Application Installer Signature Verification Bypass Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-526/",
+    "published_date": "2026-08-05T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-525: (0Day) PAX Technology Q80 AIP File Parsing Link Following Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-525/",
+    "published_date": "2026-08-05T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-524: (0Day) PAX Technology Q80 XCB Daemon Missing Authentication Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-524/",
+    "published_date": "2026-08-05T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to disclose sensitive information and modify configuration on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.1.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Microsoft Edgeに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#1",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "Microsoft Edgeに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Ruby on Railsにリモートコード実行につながる脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#2",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "Ruby on Railsにリモートコード実行につながる脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のAdobe製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#3",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のAdobe製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Cisco Secure Firewall Management Centerソフトウェアに脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#4",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "Cisco Secure Firewall Management Centerソフトウェアに脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Google Chromeに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#5",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "Google Chromeに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: GitLabに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#6",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "GitLabに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Node.jsに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#7",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "Node.jsに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Joomla!向けの拡張機能Balbooa Formsにリモートコード実行につながる脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#8",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "Joomla!向けの拡張機能Balbooa Formsにリモートコード実行につながる脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Sambaに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#9",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "Sambaに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: IBM WebSphere Application Serverに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#10",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "IBM WebSphere Application Serverに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: JFrog Artifactoryに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#11",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "JFrog Artifactoryに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: VeloCloud Orchestratorに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#12",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "VeloCloud Orchestratorに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のApple製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#13",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のApple製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: WordPress用プラグインLoco Translateにクロスサイトリクエストフォージェリの脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#14",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "WordPress用プラグインLoco Translateにクロスサイトリクエストフォージェリの脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: JPCERT/CCが「TSUBAMEレポート Overflow（2026年4-6月）」を公開",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260805.html#15",
+    "published_date": "2026-08-05T00:28:00+00:00",
+    "source_type": "advisory",
+    "summary": "JPCERT/CCが「TSUBAMEレポート Overflow（2026年4-6月）」を公開",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Tenable Hexa AI: Automating exposure remediation with agentic routines",
+    "url": "https://www.tenable.com/blog/tenable-hexa-ai-automating-exposure-remediation-with-agentic-routines",
+    "published_date": "2026-08-05T12:45:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Discover how Tenable Hexa AI closes the gap between exposure management and endpoint patching using intent-driven routines, smart guardrails, and human approval.</p><div class=\"blog-see-also\"><div class=\"col-sm-12\"><h2><strong>Key takeaways</strong></h2><ol><li><strong>The problem:</strong> A slow handoff between security workflows creates a days-long remediation gap.<br />&nbsp;</li><li><strong>The solution:</strong> Tenable Hexa AI bridges this gap using intent-driven Routines that automate scoping, deployment, and verification across integrated platforms like Jamf.<br />&nbsp;</li><li><strong>Safety and control:</strong> Autonomy is governed by the harness built into Tenable One, ensuring the AI operates strictly within defined user permissions and guardrails.</li></ol></div></div><p>Find the exposure. Fix it. Confirm it is gone.</p><p>Those three steps are rarely executed in a single place, by a single team. Exposure management knows which assets are at risk, while endpoint management actually changes the machine and applies the fix.&nbsp;</p><p>Between those two domains of exposure identification and remediation lies a slow, manual handoff and multi-step routine that costs ",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
+    "published_date": "2026-08-05T16:30:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/\">​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
+    "published_date": "2026-08-05T15:48:39+00:00",
+    "source_type": "research",
+    "summary": "<p>A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/\">From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+    "published_date": "2026-08-04T23:46:41+00:00",
+    "source_type": "research",
+    "summary": "<p>A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/\">ChainDrop supply chain compromise: Anatomy of a self-propagating worm</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
+    "published_date": "2026-08-04T18:30:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Microsoft expands its Zero Trust for AI strategy to enhance security for AI and DevSecOps environments with new tools and guidance.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/\">Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
+    "published_date": "2026-08-04T17:54:04+00:00",
+    "source_type": "research",
+    "summary": "<p>Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/\">128 Seconds to disruption: Microsoft Defender stops ransomware at QNET </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Secure Agent Harness Execution: Preventing Escape",
+    "url": "https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/",
+    "published_date": "2026-08-04T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/",
+    "publisher": "Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Pre-auth RCE in enterprise Java hits Bonita and OFBiz servers",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/pre-auth-rce-java-bonita-ofbiz-cve-2026-31986/",
+    "published_date": "2026-08-05T18:45:14+00:00",
+    "source_type": "news",
+    "summary": "<p>An attacker sends a single web request to a Bonita server and lands inside an internal API that assumed nobody could reach it. The request arrives unauthenticated. From there the attacker runs code on the host. Bonita BPM handles loan approvals, insurance claims, and employee onboarding for banks, insurers, and government agencies, and its internal surface answers to strangers. Vulnerability researchers at Novee, found the path. They presented it today at Black Hat USA 2026 &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/05/pre-auth-rce-java-bonita-ofbiz-cve-2026-31986/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/pre-auth-rce-java-bonita-ofbiz-cve-2026-31986/\">Pre-auth RCE in enterprise Java hits Bonita and OFBiz servers</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Top product launches at Black Hat USA 2026",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/black-hat-usa-2026-product-launches/",
+    "published_date": "2026-08-05T15:00:25+00:00",
+    "source_type": "news",
+    "summary": "<p>Black Hat USA 2026 is underway in Las Vegas, and vendors are using the moment to unveil what they hope will define the next year of defense. Here are the announcements drawing the most attention on the ground, and why they matter for teams weighing new budgets. BlackCloak extends deepfake protection to the executive&#8217;s trusted circle Impersonation Protection enables members to authenticate phone calls, video meetings, emails, WhatsApp and Slack messages, texts, and other communications &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/05/black-hat-usa-2026-product-launches/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/black-hat-usa-2026-product-launches/\">Top product launches at Black Hat USA 2026</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Stellar Cyber’s Auto-Triage AI matches human analysts 99.7% of the time",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/stellar-cyber-agentic-auto-triage-study/",
+    "published_date": "2026-08-05T14:30:19+00:00",
+    "source_type": "news",
+    "summary": "<p>Stellar Cyber, the full-cycle AI-native security operations platform company, today released results from an independent study of 124 days of customer trials of its Agentic Auto Triage capability. The independent study based on customer trials evaluated 138,475 real security alerts and reached the same verdict as human analysts 99.7% of the time. The findings, drawn from customer-submitted end-of-trial reports, addressed the central question facing every security team weighing autonomous SOC technology: Can AI actually be &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/05/stellar-cyber-agentic-auto-triage-study/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/stellar-cyber-agentic-auto-triage-study/\">Stellar Cyber&#8217;s Auto-Triage AI matches human analysts 99.7% of the time</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Tenable broadens AI visibility across major LLMs and AI tools",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools/",
+    "published_date": "2026-08-05T13:16:39+00:00",
+    "source_type": "news",
+    "summary": "<p>Tenable has announced enhanced AI security capabilities within the Tenable One Exposure Management Platform. Tenable One AI Exposure now delivers expanded platform coverage with support for Google Gemini, extending its coverage across major LLMs: Google Gemini, Anthropic Claude, OpenAI ChatGPT Enterprise and Microsoft Copilot. The release also extends discovery to all major Model Context Protocol (MCP) deployments and AI-native Integrated Development Environment (IDE) tools. Together, these capabilities give security teams a more complete view of &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools/\">Tenable broadens AI visibility across major LLMs and AI tools</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "ArmorCode enhances attack path analysis with new AI agents and Context Risk Graph",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/armorcode-anya-ai-agents/",
+    "published_date": "2026-08-05T13:07:04+00:00",
+    "source_type": "news",
+    "summary": "<p>ArmorCode has announced a major expansion of its Agentic Control Plane. Four new Anya AI agents help security teams analyze cloud risks, assess vulnerability exploitability, identify mitigation strategies, and coordinate patch orchestration. It also unveiled new Context Risk Graph capabilities for expanded attack path analysis, network reachability and patch management. These enhancements help security teams move beyond vulnerability discovery to accurately and quickly prioritize and remediate the risks that matter most, while reducing duplicate AI &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/05/armorcode-anya-ai-agents/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/armorcode-anya-ai-agents/\">ArmorCode enhances attack path analysis with new AI agents and Context Risk Graph</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Tuskira expands exposure management with Agentic Control Plane",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/tuskira-expands-exposure-management-with-agentic-control-plane/",
+    "published_date": "2026-08-05T12:54:19+00:00",
+    "source_type": "news",
+    "summary": "<p>Tuskira has launched its Agentic Control Plane for Exposure Management, a new capability within the Tuskira platform that governs AI-discovered vulnerabilities from scan to verified closure. The capability extends Tuskira’s existing zero-day and exposure-response capabilities to frontier-model scanning. Tuskira applies enterprise policy to AI and legacy scanner workflows, maps findings to the deployed environment, determines which exposures are reachable and undefended, applies approved compensating controls, routes the durable code fix and re-tests the attack path &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/05/tuskira-expands-exposure-management-with-agentic-control-plane/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/tuskira-expands-exposure-management-with-agentic-control-plane/\">Tuskira expands exposure management with Agentic Control Plane</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Lumu launches live threat intelligence platform for real-time cyber defence",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/lumu-launches-live-threat-intelligence-platform-for-real-time-cyber-defence/",
+    "published_date": "2026-08-05T12:44:42+00:00",
+    "source_type": "news",
+    "summary": "<p>Lumu has announced the release of Lumu Threat Observatory as part of Maltiverse, its threat intelligence solution. Lumu Threat Observatory is Maltiverse&#8217;s live, personalized threat-intelligence experience, providing organizations with a complete, live view of the active threats targeting their specific sector, helping them spot malicious adversaries early, prioritize vulnerabilities, and automatically block them. While threat intelligence is now a foundational piece of an organization&#8217;s security strategy, most IT and security teams have limited visibility into &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/05/lumu-launches-live-threat-intelligence-platform-for-real-time-cyber-defence/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/lumu-launches-live-threat-intelligence-platform-for-real-time-cyber-defence/\">Lumu launches live threat intelligence platform for real-time cyber defence</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "INTERPOL flags AI as the new engine of African cybercrime",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/interpol-africa-cybercrime-trends/",
+    "published_date": "2026-08-05T12:24:24+00:00",
+    "source_type": "news",
+    "summary": "<p>Africa&#8217;s growing digital economy is exposing governments, businesses and internet users to a rising wave of cybercrime. The continent recorded more than 1.1 billion mobile subscriptions and over $1.1 trillion in digital transactions in 2025, while more than 570 million people relied on the internet for banking, government services, healthcare and education.</p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/interpol-africa-cybercrime-trends/\">INTERPOL flags AI as the new engine of African cybercrime</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "AI agent deception moves from theory to reality in UK cyber tests",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/ai-agent-deception-in-cyber-tests/",
+    "published_date": "2026-08-05T12:05:22+00:00",
+    "source_type": "news",
+    "summary": "<p>&#8220;During a routine cyber evaluation, AI agents took sustained, unsanctioned action directed at real people and organisations,&#8221; UK’s AI Security Institute (AISI) disclosed on Tuesday. The agents&#8217; actions included an attempted supply-chain attack that saw them create malicious pull requests and try to socially engineer an open-source maintainer into approving the malicious code (they refused). The agents, powered by Anthropic&#8217;s Mythos 5 and OpenAI&#8217;s GPT-5.6 Sol models, also engaged in prompt injection aimed at making &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/05/ai-agent-deception-in-cyber-tests/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/ai-agent-deception-in-cyber-tests/\">AI agent deception moves from theory to reality in UK cyber tests</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Code review used to be the only way to catch these bugs",
+    "url": "https://www.helpnetsecurity.com/2026/08/05/code-review-ai-vulnerability-discovery/",
+    "published_date": "2026-08-05T11:30:19+00:00",
+    "source_type": "news",
+    "summary": "<p>An automated system called NOVA read the source code of 3,915 open-source projects over two months and came back with 14,090 vulnerabilities, each one confirmed through the system&#8217;s validation pipeline. Vulnerability researchers at Palo Alto Networks&#8217; Unit 42 built the system and checked its output against the public record afterward. Only 85 findings matched anything already documented, and most of those were published two to eight weeks after NOVA had found them. The count is &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/05/code-review-ai-vulnerability-discovery/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/05/code-review-ai-vulnerability-discovery/\">Code review used to be the only way to catch these bugs</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Don't Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed, Aug 5th)",
+    "url": "https://isc.sans.edu/diary/rss/33218",
+    "published_date": "2026-08-05T17:56:15+00:00",
+    "source_type": "operational",
+    "summary": "When you learn that a compromised package executed on one of your build hosts, muscle memory takes over: revoke the npm token, rotate the GitHub PAT, cycle the cloud keys. That reflex has been correct in almost every supply-chain incident I have worked. In the keyv/cacheable compromise that has been unfolding since yesterday, it is the one thing you should not do first &#xe2;&#x20ac;&#x201d; because revoking the stolen token is exactly what arms the payload.&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Wednesday, August 5th, 2026 https://isc.sans.edu/podcastdetail/10038, (Wed, Aug 5th)",
+    "url": "https://isc.sans.edu/diary/rss/33216",
+    "published_date": "2026-08-05T02:00:02+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "AWS partners with Anthropic and OpenAI to bring AWS Continuum into developer workflows",
+    "url": "https://aws.amazon.com/blogs/security/aws-partners-with-anthropic-and-openai-to-bring-aws-continuum-into-developer-workflows/",
+    "published_date": "2026-08-05T21:00:11+00:00",
+    "source_type": "vendor",
+    "summary": "Customers have access to models that are continuously getting better with each new generation bringing larger context windows, stronger reasoning, and lower token costs. Getting the strongest AI-powered security will come from tools that combine the most relevant models with deep knowledge of a customer’s specific environment. AWS Continuum for code vulnerabilities (Preview) is built […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "From 2 weeks to 2 minutes: Amazon Cognito launches Provisioned limits for self-service rate limit management",
+    "url": "https://aws.amazon.com/blogs/security/from-2-weeks-to-2-minutes-amazon-cognito-launches-provisioned-limits-for-self-service-rate-limit-management/",
+    "published_date": "2026-08-05T17:17:47+00:00",
+    "source_type": "vendor",
+    "summary": "Imagine preparing for your biggest sales event of the year, and you want to ensure your customer identity management service can handle the elevated traffic for carrying out application activities. For security teams, business leaders, and technologists managing identity infrastructure at scale, this scenario has been all too familiar. Whether you’re a CISO evaluating security […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-18656 & CVE-2026-18657 - Issue with Kiro IDE and CLI - Executable Resolution from Untrusted Project Directory on Windows",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-074-aws/",
+    "published_date": "2026-08-04T19:43:11+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-074-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/04/2026 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Kiro is an agentic IDE and command-line interface users install on their desktop. We identified CVE-2026-18656 and CVE-2026-18657, an issue where an uncontrolled search path element on Windows might allow an actor to execute arbitrary code via a maliciously crafted project directory containing a planted executable that is resolved before the system PATH when a local user opens the directory.</p> \n<p><b>Impacted versions:</b><br /> - Kiro IDE for Windows between versions 1.0.0 through 1.0.212<br /> - Kiro CLI for Windows prior to v2.10.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-18953 - Improper limitation of a pathname in AWS Transform MCP Server",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-075-aws/",
+    "published_date": "2026-08-05T20:46:20+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-075-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/05/2026 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS Transform MCP Server (awslabs.aws-transform-mcp-server) is an open-source Model Context Protocol (MCP) server that runs locally on a developer's machine and lets AI-powered assistants interact with AWS Transform to run code-transformation jobs and retrieve their artifacts. We identified CVE-2026-18953. Improper limitation of a pathname to a restricted directory in the get_resource tool in awslabs.aws-transform-mcp-server before 0.1.5 might allow a context-dependent actor to write arbitrary files outside the intended working directory via the savePath parameter, which could lead to local code execution.</p> \n<p><b>Impacted versions:</b> &gt;=0.1.0 AND &lt;=0.1.4</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update.html",
+    "published_date": "2026-08-05T20:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;&nbsp;&nbsp;Hi, everyone! We've just released <b>Chrome 151 (151.0.7922.83)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Play</a> over the next few days.&nbsp;</p><p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7922.71..151.0.7922.83?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><div><br /></div><div><div><br /></div><div><div>Harry Souders</div><div><a href=\"https://www.google.com/chrome/\">Google Chrome</a></div></div></div>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for Desktop Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-desktop-update_022334811.html",
+    "published_date": "2026-08-05T16:28:33.195000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>The Beta channel has been updated to 152.0.7977.30 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7977.13..152.0.7977.30?pretty=fuller&amp;n=10000\">Git log</a>. Interested in <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">switching</a> release channels? Find out <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">how</a>. If you find a new issue, please let us know by <a href=\"https://crbug.com/\">filing a bug</a>. The <a href=\"https://productforums.google.com/forum/#!forum/chrome\">community help forum</a> is also a great place to reach out for help or learn about common issues.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for iOS Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-ios-update.html",
+    "published_date": "2026-08-05T14:28:32.542000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 152 (152.0.7977.29) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7977.11..152.0.7977.29?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=iOS%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-android-update.html",
+    "published_date": "2026-08-05T12:58:32.232000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 152 (152.0.7977.30) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7977.8..152.0.7977.30?pretty=fuller&amp;n=10000\">Git log</a>. For details on new features, check out the <a href=\"https://blog.chromium.org\">Chromium blog</a>, and for details on web platform updates, check <a href=\"https://www.chromestatus.com/features#milestone%3D152\">here</a>.</p><p>If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+    "url": "http://chromereleases.googleblog.com/2026/08/beta-channel-update-for-chromeos.html",
+    "published_date": "2026-08-04T22:52:52.089000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span face=\"Arial, sans-serif\" style=\"white-space: pre-wrap;\">The Beta channel is being updated to OS version 16733.40.0 (Browser version 151.0.7922.104) for most ChromeOS devices.</span></p><span id=\"docs-internal-guid-8ea92dd2-7fff-1ae9-6005-a89344475cf2\"><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><span face=\"Arial, sans-serif\" style=\"font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">If you find new issues, please let us know one of the following ways:</span></p><br /><br /><ol style=\"margin-bottom: 0px; margin-top: 0px; padding-inline-start: 48px;\"><li dir=\"ltr\" style=\"color: #222222; font-family: Roboto, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre;\"><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><a href=\"https://bugs.chromium.org/p/chromium/issues/list\" style=\"text-decoration: none;\"><span face=\"Arial, sans-serif\" style=\"color: #4a86e8; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">File a bug</span></a></p></li><li dir=\"ltr\" style=\"color: #222222; font-family: Roboto, sans-serif; font-variant: normal; vertical-align: baseline; white",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Stable Channel Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop.html",
+    "published_date": "2026-08-04T20:20:22.274000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 151.0.7922.75/.76 for Windows and</span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\"> </span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">Mac and </span></span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\"><span style=\"color: #666666;\">151.0.7922.75 for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is available in the </span><a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7922.72..151.0.7922.76?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\">Log</a></span>&nbsp;</p><p><br /></p><div><span style=\"font-size: large;\"><span style=\"color: #666666; font-family: arial;\">Interested in switching release channels? Find out how<span> </span></span><a href=\"https://www.chromium.org/getting-involved/dev-channel\" style=\"color: #4184f3; font-family: arial; text-decoration: none;\">here</a><span style=\"color: #666666; font-family: a",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Stable for iOS Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-stable-for-ios-update.html",
+    "published_date": "2026-08-04T17:43:32.912000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Stable 151 (151.0.7922.105) for iOS; it'll become available on App Store in the next few hours.</p><p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7922.57..151.0.7922.105?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=iOS%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "40 Million Fake Push: When Spam Commits Took Over The Public GitHub",
+    "url": "https://blog.gitguardian.com/40-million-fake-push-when-spam-commits-took-over-the-public-github/",
+    "published_date": "2026-08-05T14:43:49+00:00",
+    "source_type": "vendor",
+    "summary": "Millions of fake commits are flooding GitHub's public feed. We followed the trail to a rebranded gambling site hiding behind a defunct lottery brand.",
+    "feed_source": "https://blog.gitguardian.com/rss/",
+    "publisher": "GitGuardian Blog - Take Control of Your Secrets Security",
+    "source_note": ""
+  },
+  {
+    "title": "Securing Agentic AI Workflows in n8n: From Leaked API Keys to Encryption Key Compromise",
+    "url": "https://blog.gitguardian.com/n8n-security-encryption-key-compromise/",
+    "published_date": "2026-08-05T02:47:26+00:00",
+    "source_type": "vendor",
+    "summary": "A leaked n8n API key is only the start. GitGuardian's research traces the full chain, from exposed tokens and weak keys to CVE-2026-25053 and the N8N_ENCRYPTION_KEY that protects every stored credential, then lays out a hardened configuration to break it.",
+    "feed_source": "https://blog.gitguardian.com/rss/",
+    "publisher": "GitGuardian Blog - Take Control of Your Secrets Security",
+    "source_note": ""
+  },
+  {
+    "title": "3.8.0.0",
+    "url": "https://github.com/opensearch-project/security/releases/tag/3.8.0.0",
+    "published_date": "2026-08-03T20:33:51+00:00",
+    "source_type": "github",
+    "summary": "<p>[Backport 3.8] Add missing -Dopensearch.version and -Dbuild.snapshot …</p>",
+    "feed_source": "https://github.com/opensearch-project/security/releases.atom",
+    "publisher": "Release notes from security",
+    "source_note": ""
   }
 ]
