@@ -15,86 +15,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/": {
-    "enriched_at": "2026-07-26T18:23:59.939596+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/": {
-    "enriched_at": "2026-07-26T18:23:59.939596+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/": {
-    "enriched_at": "2026-07-26T18:23:59.939596+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/26/week-in-review-servicenow-pre-auth-rce-exploited-in-the-wild-hugging-face-breached/": {
-    "enriched_at": "2026-07-26T18:25:16.325557+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html": {
-    "enriched_at": "2026-07-26T18:35:11.624768+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "Malvertising campaign SourTrade",
-        "context": "SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base.",
-        "indicators": [
-          "Legitimate-looking websites impersonating TradingView, Solana, and Luno",
-          "Browsers building executables from JSON requests"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html"
-        ]
-      }
-    ],
-    "industries": [
-      "Cryptocurrency holders",
-      "Energy sector (Origin Energy)"
-    ]
-  },
-  "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html": {
-    "enriched_at": "2026-07-26T18:35:11.624768+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-16723",
-        "product": "Fastjson 1.x",
-        "vendor": "Alibaba",
-        "severity": "CRITICAL",
-        "cvss": 9.0,
-        "description": "A critical flaw in Fastjson, Alibaba's JSON library for Java, allows a malicious JSON request to execute code without authentication and with the privileges of the Java process.",
-        "exploitation_status": "Confirmed chain required",
-        "remediation": "Not available as no patch is currently available",
-        "source_urls": [
-          "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Cryptocurrency holders",
-      "Energy sector (Origin Energy)"
-    ]
-  },
   "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.3-beta.0": {
     "enriched_at": "2026-07-26T18:47:53.134990+00:00",
     "incidents": [
@@ -11870,6 +11790,66 @@
   },
   "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-android-update.html": {
     "enriched_at": "2026-08-08T10:37:09.446863+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/": {
+    "enriched_at": "2026-08-09T10:32:35.248364+00:00",
+    "incidents": [
+      {
+        "headline": "Hackers breach TrueConf to trojanize client installers with backdoors",
+        "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "The Head Mare hacktivist group",
+        "aliases": [],
+        "motivation": "Exploiting vulnerabilities for malicious purposes",
+        "recent_activity": "Breach of TrueConf to trojanize client installers with backdoors",
+        "targets": [
+          "TrueConf video conferencing servers"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/": {
+    "enriched_at": "2026-08-09T10:32:35.248364+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Rovo AI",
+        "vendor": "Atlassian",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A critical one-click vulnerability in Atlassian’s Rovo AI could have been exploited to steal Confluence, Jira and SharePoint data.",
+        "exploitation_status": "EXPLOITED_IN_THE_WILD",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/09/week-in-review-cisco-fixes-imc-bug-patch-tuesday-forecast-black-hat-usa-2026/": {
+    "enriched_at": "2026-08-09T10:32:35.248364+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],
