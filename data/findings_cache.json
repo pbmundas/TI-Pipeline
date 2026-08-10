@@ -1,196 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/": {
-    "enriched_at": "2026-07-26T18:23:59.939596+00:00",
-    "incidents": [
-      {
-        "headline": "GitHub, PyPI add time-absed defenses against supply chain attacks",
-        "summary": "GitHub and PyPI introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.3-beta.0": {
-    "enriched_at": "2026-07-26T18:47:53.134990+00:00",
-    "incidents": [
-      {
-        "headline": "Bumps upstream dependencies and fixes SRUM database parsing bug",
-        "summary": "This release of chainsaw includes updates to its dependencies and a fix for an issue in SRUM database parsing.",
-        "source_urls": [
-          "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.3-beta.0"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/27/aws-devops-agent-network-firewall-troubleshooting/": {
-    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
-    "incidents": [
-      {
-        "headline": "AWS gives DevOps teams an AI investigator for firewall incidents",
-        "summary": "AWS DevOps Agent helps administrators inspect logs, review firewall rules and network paths, identify configuration changes that caused AWS Network Firewall to block traffic, and restore connectivity.",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/07/27/aws-devops-agent-network-firewall-troubleshooting/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/27/mary-rose-martinez-marathon-petroleum-ot-security-automation/": {
-    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/27/nono-open-source-ai-agent-sandboxing/": {
-    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/27/identity-attack-surface-video/": {
-    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/27/product-showcase-lastpass-authenticator/": {
-    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/27/github-dependabot-cooldown/": {
-    "enriched_at": "2026-07-27T10:31:15.447428+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/07/27/claude-opus-5-aws-coding-cybersecurity-work/": {
-    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Medical business management"
-    ]
-  },
-  "https://www.securityweek.com/anthropics-opus-5-nears-mythos-5-on-finding-bugs-but-falls-short-on-exploits/": {
-    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Medical business management"
-    ]
-  },
-  "https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/": {
-    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
-    "incidents": [
-      {
-        "headline": "DentaQuest Data Breach Potentially Impacts Over 23 Million People",
-        "summary": "In May 2026, hackers stole personal and dental health information from DentaQuest’s computer network.",
-        "source_urls": [
-          "https://www.securityweek.com/dentaquest-data-breach-potentially-impacts-over-23-million-people/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Medical business management"
-    ]
-  },
-  "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/": {
-    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
-    "incidents": [
-      {
-        "headline": "MCBS Data Breach Affects 1.2 Million Individuals",
-        "summary": "The PEAR ransomware group claimed to have stolen 3 TB of information from the medical business management company.",
-        "source_urls": [
-          "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Medical business management"
-    ]
-  },
-  "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html": {
-    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "TELESHIM",
-        "aliases": [],
-        "motivation": "Targeting government entities in the Middle East",
-        "recent_activity": "Deployed new malware families (TELESHIM, MIXEDKEY, BINDCLOAK) for intrusions",
-        "targets": [
-          "Middle East governments"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Medical business management"
-    ]
-  },
-  "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html": {
-    "enriched_at": "2026-07-27T10:32:03.952575+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Medical business management"
-    ]
-  },
-  "https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/": {
-    "enriched_at": "2026-07-27T10:32:11.636437+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog": {
     "enriched_at": "2026-07-28T11:07:46.025097+00:00",
     "incidents": [],
@@ -922,17 +730,6 @@
         ]
       }
     ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Logistics",
-      "Food and Beverage"
-    ]
-  },
-  "https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/": {
-    "enriched_at": "2026-07-28T11:13:48.035334+00:00",
-    "incidents": [],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -11850,6 +11647,270 @@
   },
   "https://www.helpnetsecurity.com/2026/08/09/week-in-review-cisco-fixes-imc-bug-patch-tuesday-forecast-black-hat-usa-2026/": {
     "enriched_at": "2026-08-09T10:32:35.248364+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/": {
+    "enriched_at": "2026-08-10T10:32:00.181485+00:00",
+    "incidents": [
+      {
+        "headline": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+        "summary": "A critical-severity Progress Kemp LoadMaster command injection vulnerability is being exploited by hackers.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+          "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Progress Kemp LoadMaster",
+        "vendor": "Progress",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A command injection vulnerability allows unauthenticated, remote attackers to execute arbitrary commands.",
+        "exploitation_status": "ACTIVELY EXPLOITED",
+        "remediation": "Immediate patching is advised by CISA.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+          "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Energy",
+      "Finance"
+    ]
+  },
+  "https://www.securityweek.com/novel-private-apn-pivot-let-hackers-sabotage-second-polish-energy-facility/": {
+    "enriched_at": "2026-08-10T10:32:00.181485+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Energy",
+      "Finance"
+    ]
+  },
+  "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/": {
+    "enriched_at": "2026-08-10T10:32:00.181485+00:00",
+    "incidents": [
+      {
+        "headline": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+        "summary": "A critical-severity Progress Kemp LoadMaster command injection vulnerability is being exploited by hackers.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+          "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Progress Kemp LoadMaster",
+        "vendor": "Progress",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A command injection vulnerability allows unauthenticated, remote attackers to execute arbitrary commands.",
+        "exploitation_status": "ACTIVELY EXPLOITED",
+        "remediation": "Immediate patching is advised by CISA.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+          "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Energy",
+      "Finance"
+    ]
+  },
+  "https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/": {
+    "enriched_at": "2026-08-10T10:32:00.181485+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": null,
+        "aliases": [],
+        "motivation": "Unknown, but likely financial gain or espionage",
+        "recent_activity": "Stolen corporate data from Levi Strauss using social engineering.",
+        "targets": [
+          "Levi Strauss"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Energy",
+      "Finance"
+    ]
+  },
+  "https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/": {
+    "enriched_at": "2026-08-10T10:32:00.181485+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Belgian eID software",
+        "vendor": null,
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Critical flaws affect the software used by eight of Belgium’s ten largest banks and over 60 government agencies.",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Energy",
+      "Finance"
+    ]
+  },
+  "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html": {
+    "enriched_at": "2026-08-10T10:32:00.181485+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Malicious Solidity Pro VS Code Extensions",
+        "context": "Steal crypto wallets, API keys, and credentials.",
+        "indicators": [
+          "helper-beeps.solidity-pro",
+          "web3devtoolsx.solidity-pro"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
+        ]
+      }
+    ],
+    "industries": [
+      "Energy",
+      "Finance"
+    ]
+  },
+  "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html": {
+    "enriched_at": "2026-08-10T10:32:54.079269+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode/": {
+    "enriched_at": "2026-08-10T10:32:54.079269+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/10/openai-astra-critical-cyber-capabilities/": {
+    "enriched_at": "2026-08-10T10:32:54.079269+00:00",
+    "incidents": [
+      {
+        "headline": "OpenAI locks down Astra over potential critical cyber capabilities",
+        "summary": "OpenAI has paused some internal activities involving its upcoming AI model, Astra, after an evaluation found significant advancements in agentic coding and cybersecurity. The company is implementing security controls for higher-capability models.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/10/openai-astra-critical-cyber-capabilities/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/10/github-dependabot-malware-alerts/": {
+    "enriched_at": "2026-08-10T10:32:54.079269+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": null,
+        "vendor": null,
+        "severity": "LOW",
+        "cvss": null,
+        "description": "GitHub's Dependabot now covers eight ecosystems for malware alerts, expanding from just npm to include PyPI, Maven, RubyGems, NuGet, Go, crates.io, and PHP Composer.",
+        "exploitation_status": "Potential",
+        "remediation": "Users should ensure they are using the latest versions of packages from trusted sources and monitor security advisories for their ecosystems.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/10/github-dependabot-malware-alerts/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/10/chainloop-open-source-supply-chain-security/": {
+    "enriched_at": "2026-08-10T10:32:54.079269+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/10/product-showcase-enpass-password-manager/": {
+    "enriched_at": "2026-08-10T10:32:54.079269+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/10/ciso-board-communication-gap-report/": {
+    "enriched_at": "2026-08-10T10:33:10.865912+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/10/eu-ai-act-enforcement-how-to-report-violation/": {
+    "enriched_at": "2026-08-10T10:33:10.865912+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/": {
+    "enriched_at": "2026-08-10T10:33:10.865912+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://securelist.com/malware-report-q2-2026-mobile-statistics/120948/": {
+    "enriched_at": "2026-08-10T10:33:10.865912+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://isc.sans.edu/diary/rss/33228": {
+    "enriched_at": "2026-08-10T10:33:10.865912+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],
