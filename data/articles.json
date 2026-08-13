@@ -29192,5 +29192,1935 @@
     "feed_source": "https://isc.sans.edu/rssfeed.xml",
     "publisher": "SANS Internet Storm Center, InfoCON: green",
     "source_note": ""
+  },
+  {
+    "title": "Black Hat USA 2026: AI is racing ahead of cybersecurity controls",
+    "url": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-ai-racing-cybersecurity-controls/",
+    "published_date": "2026-08-12T13:28:07+00:00",
+    "source_type": "research",
+    "summary": "AI took center stage, but the clearest lesson was less about what AI can do than about who is accountable when something goes wrong",
+    "feed_source": "https://www.welivesecurity.com/en/rss/feed/",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "Are AI tutors safe for your kids?",
+    "url": "https://www.welivesecurity.com/en/kids-online/ai-tutors-safe-kids/",
+    "published_date": "2026-08-10T09:00:00+00:00",
+    "source_type": "research",
+    "summary": "AI tutors can offer useful support, but their quality and safeguards vary widely. Here’s what parents should check before handing one to a child.",
+    "feed_source": "https://www.welivesecurity.com/en/rss/feed/",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "Pulsetto Vagus Nerve Stimulator",
+    "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02",
+    "published_date": "2026-08-11T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-223-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an attacker to use hidden commands to disable electrical safety mechanisms or modify other stimulation output settings.</strong></p>\n<p>The following versions of Pulsetto Vagus Nerve Stimulator are affected:</p>\n<ul>\n<li>Pulsetto Vagus Nerve Stimulator vers:all/* (CVE-2026-18844)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 8.1</td>\n<td>Pulsetto</td>\n<td>Pulsetto Vagus Nerve Stimulator</td>\n<td>Hidden Functionality</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Healthcare and Public Health</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>Lithuania</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"https://www.",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "published_date": "2026-08-11T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added three new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation. &nbsp;</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-20349\" target=\"_blank\">CVE-2026-20349</a> Cisco Secure Firewall Adaptive Security Appliance (ASA) and Firewall Threat Defense (FTD) Heap Inspection Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-68820\" target=\"_blank\">CVE-2026-68820</a> Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-72898\" target=\"_blank\">CVE-2026-72898</a> Metabase SQL Injection Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management require",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Mira Hormone Monitor, Mira Android App",
+    "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
+    "published_date": "2026-08-11T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-223-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to access unauthorized health profile information, make changes to health information, cause a denial-of-service condition, disclose session token information, and obtain control of user accounts.</strong></p>\n<p>The following versions of Mira Hormone Monitor, Mira Android App are affected:</p>\n<ul>\n<li>Mira Monitor Firmware 1.7.1.47 (CVE-2026-66875, CVE-2026-66098, CVE-2026-67558, CVE-2026-67568, CVE-2026-68067, CVE-2026-66340, CVE-2026-64934, CVE-2026-66832)</li>\n<li>Mira Android App 4.5.15.4 (CVE-2026-66875, CVE-2026-66098, CVE-2026-67558, CVE-2026-67568, CVE-2026-68067, CVE-2026-66340, CVE-2026-64934, CVE-2026-66832)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>Quanovate Tech Inc. (operating as Mira / Mira Care)</td>\n<td>Mira Hormone Monitor, Mira Android App</td>\n<td>Missing Aut",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "#StopRansomware: Gunra Ransomware",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
+    "published_date": "2026-08-10T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<h2><strong>Advisory at a Glance</strong></h2>\n<table>\n<tbody>\n<tr>\n<th>Title</th>\n<td>#StopRansomware: Gunra Ransomware</td>\n</tr>\n<tr>\n<th>Original Publication</th>\n<td>August 10, 2026</td>\n</tr>\n<tr>\n<th>Executive Summary</th>\n<td>Gunra is a ransomware-as-a-service (RaaS) used by affiliates to target government, critical infrastructure, and other organizations. The Gunra ransomware variant first appeared in 2025 and expanded to RaaS operations in 2026. The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid. This advisory provides technical details of the activity, as well as tailored detection and mitigation guidance to protect at-risk organizations from Gunra.</td>\n</tr>\n<tr>\n<th>Key Actions</th>\n<td>\n<ul type=\"square\">\n<li><strong>Prioritize patching known exploited vulnerabilities in internet-facing systems</strong>, including virtual private network (VPN) gateways and remote desktop protocol (RDP)-exposed infrastructure.</li>\n<li><strong>Implement and test offline, immutable backups</strong> stored in a physically separate, segmented location to ensure recoverabil",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
+    "url": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+    "published_date": "2026-08-12T23:07:23+00:00",
+    "source_type": "news",
+    "summary": "An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Android malware combo takes out loans and relays victims' credit cards",
+    "url": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+    "published_date": "2026-08-12T22:22:57+00:00",
+    "source_type": "news",
+    "summary": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send it to attackers in real time. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
+    "published_date": "2026-08-12T20:54:59+00:00",
+    "source_type": "news",
+    "summary": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+    "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+    "published_date": "2026-08-12T18:54:57+00:00",
+    "source_type": "news",
+    "summary": "More than 737 browser extensions published on the Chrome Web Store impersonated well-known VPN and proxy services while routing users' traffic through SOCKS5 proxies operated by a single provider. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
+    "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+    "published_date": "2026-08-12T16:05:12+00:00",
+    "source_type": "news",
+    "summary": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+    "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+    "published_date": "2026-08-12T15:38:08+00:00",
+    "source_type": "news",
+    "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "FBI: Hackers target online accounts to steal nude photos",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
+    "published_date": "2026-08-12T14:15:09+00:00",
+    "source_type": "news",
+    "summary": "The FBI warns that cybercriminals are targeting adults' and children's social media and other online accounts to steal sexually explicit images or videos. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
+    "url": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
+    "published_date": "2026-08-12T14:01:11+00:00",
+    "source_type": "news",
+    "summary": "Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification and biometric liveness checks can help organizations confirm that the person receiving access is the legitimate new hire. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
+    "published_date": "2026-08-12T12:25:37+00:00",
+    "source_type": "news",
+    "summary": "Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Signal adds new security feature to thwart man-in-the-middle attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/",
+    "published_date": "2026-08-12T11:21:42+00:00",
+    "source_type": "news",
+    "summary": "​Signal has introduced Automatic Key Verification, a new security feature that gives users a new way to ensure their encrypted chats haven't been intercepted. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
+    "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
+    "published_date": "2026-08-12T10:15:22+00:00",
+    "source_type": "news",
+    "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday security updates. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
+    "url": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
+    "published_date": "2026-08-12T01:15:55+00:00",
+    "source_type": "news",
+    "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
+    "url": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
+    "published_date": "2026-08-11T22:15:22+00:00",
+    "source_type": "news",
+    "summary": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
+    "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
+    "published_date": "2026-08-11T21:07:24+00:00",
+    "source_type": "news",
+    "summary": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
+    "published_date": "2026-08-11T19:45:31+00:00",
+    "source_type": "news",
+    "summary": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devices. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+    "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+    "published_date": "2026-08-13T06:09:48+00:00",
+    "source_type": "news",
+    "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code.\n\nThe vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates.\n\n\"The authentication",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+    "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+    "published_date": "2026-08-12T17:39:27+00:00",
+    "source_type": "news",
+    "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India.\n\nThe activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+    "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+    "published_date": "2026-08-12T14:09:50+00:00",
+    "source_type": "news",
+    "summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure.\n\nThe extensions, published across at least 40 Chrome Web Store developer accounts, racked up 75,486 installs. Of those identified, 274 have been found to impersonate 66",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+    "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+    "published_date": "2026-08-12T11:47:38+00:00",
+    "source_type": "news",
+    "summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords.\n\nThe weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+    "url": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
+    "published_date": "2026-08-12T11:41:34+00:00",
+    "source_type": "news",
+    "summary": "Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none.\n\nAccording to Picus Labs' new Blue Report 2026, which measured more than 338 million real attack simulations across actual client production environments in the first half of 2026, defenses are having one of their strongest years yet. Average prevention effectiveness",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+    "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
+    "published_date": "2026-08-12T11:13:03+00:00",
+    "source_type": "news",
+    "summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.\n\nThe most severe of the flaws are listed below -\n\n\n  CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+    "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+    "published_date": "2026-08-12T09:01:54+00:00",
+    "source_type": "news",
+    "summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+    "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+    "published_date": "2026-08-12T08:04:52+00:00",
+    "source_type": "news",
+    "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them.\n\nThreat intelligence firm CloudSEK now says a dataset it obtained, built from roughly 434,000 files the attackers captured, maps potential exposure to more",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+    "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+    "published_date": "2026-08-12T07:31:40+00:00",
+    "source_type": "news",
+    "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation.\n\n\"SAP Commerce Cloud allows an",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+    "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+    "published_date": "2026-08-12T06:41:38+00:00",
+    "source_type": "news",
+    "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet.\n\nRoguePlanet has been described",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+    "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+    "published_date": "2026-08-12T06:15:58+00:00",
+    "source_type": "news",
+    "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild.\n\nThe high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+    "url": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+    "published_date": "2026-08-11T20:10:55+00:00",
+    "source_type": "news",
+    "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.\n\nThe bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first.\n\nThe flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+    "url": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+    "published_date": "2026-08-11T19:36:37+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.\n\nThe new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026.\n\n\"Kimwolf v7 adds an HTTP/2-based",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+    "url": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+    "published_date": "2026-08-11T19:08:47+00:00",
+    "source_type": "news",
+    "summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's.\n\nThe flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in the meeting. No click, no download, no prompt, and nothing on screen to show it",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+    "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+    "published_date": "2026-08-11T18:36:47+00:00",
+    "source_type": "news",
+    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.\n\nCERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+    "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+    "published_date": "2026-08-11T16:47:44+00:00",
+    "source_type": "news",
+    "summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+    "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+    "published_date": "2026-08-11T16:35:27+00:00",
+    "source_type": "news",
+    "summary": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process,\" the Microsoft Threat",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+    "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+    "published_date": "2026-08-11T13:11:23+00:00",
+    "source_type": "news",
+    "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing exploit chains) and to reduce refusals for certain higher-risk",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
+    "url": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
+    "published_date": "2026-08-11T12:05:03+00:00",
+    "source_type": "news",
+    "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over.\n\nResearchers at the University of Birmingham and the security firm Fuzzware tested 26 phones and cellular modules for the capability, found it",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
+    "url": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
+    "published_date": "2026-08-11T12:04:51+00:00",
+    "source_type": "news",
+    "summary": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories.\n\nThat key is how a user, or a Linux distribution packaging the browser, confirms a downloaded Firefox tarball came from Mozilla and was not tampered with.\n\nThat decision carries a cost for",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+    "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+    "published_date": "2026-08-11T11:35:03+00:00",
+    "source_type": "news",
+    "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the part hiring teams can use. The first hire claimed to live in Pasadena, Texas, then sent a California driver's license and a New York bank account.\n\nThe",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
+    "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
+    "published_date": "2026-08-11T10:48:26+00:00",
+    "source_type": "news",
+    "summary": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine.\n\nThe same PnP path can be triggered over Remote Desktop without physical hardware when supported Plug and Play or low-level USB redirection is enabled; Microsoft says that",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+    "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+    "published_date": "2026-08-11T10:24:00+00:00",
+    "source_type": "news",
+    "summary": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction.\n\nThe trick can work even after a blunt version of the same theft is refused: split the request into fragments that each look routine, place them in channels the assistant already uses, and let",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
+    "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+    "published_date": "2026-08-11T09:16:24+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world.\n\nTargets of these attacks include healthcare and public health, financial services, government services and facilities, and professional and nonprofit services.\n\n\"Gunra is another variant in the ongoing trend of",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+    "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+    "published_date": "2026-08-11T06:55:45+00:00",
+    "source_type": "news",
+    "summary": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment.\n\nThe plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the intruders were still active inside the network, and customers lost neither heat",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+    "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+    "published_date": "2026-08-11T05:48:44+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads.\n\n\"Unlike traditional software supply chain attacks, zero source code files were modified within the official WordPress.org repository,\" Wordfence researcher Paolo Tresso said.",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
+    "url": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+    "published_date": "2026-08-10T17:29:17+00:00",
+    "source_type": "news",
+    "summary": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed.\n\nWhen software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security from becoming the bottleneck, or worse, losing control of what gets shipped.",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+    "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+    "published_date": "2026-08-10T16:38:37+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor.\n\nThe use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said.\n\n\"StormEncryptor is written in C++ and appends the file name extension .encrypted",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+    "url": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+    "published_date": "2026-08-10T15:00:29+00:00",
+    "source_type": "news",
+    "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default.\n\nThat pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place.\n\nThat’s only part of it. Here’s",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+    "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+    "published_date": "2026-08-10T13:19:58+00:00",
+    "source_type": "news",
+    "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware.\n\nSouth Korean security firm Genians says it uncovered the",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
+    "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+    "published_date": "2026-08-10T12:25:04+00:00",
+    "source_type": "news",
+    "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on.\n\nPasskeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a&nbsp;",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+    "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+    "published_date": "2026-08-10T11:33:41+00:00",
+    "source_type": "news",
+    "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors.\n\nRussian cybersecurity vendor Kaspersky said it detected the attacks in July 2026.\n\nThe activity involves exploiting a vulnerability chain",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Cisco fixes vulnerability exploited to DoS its firewalls (CVE-2026-20349)",
+    "url": "https://www.helpnetsecurity.com/2026/08/13/cve-2026-20349-cisco-firewalls-dos/",
+    "published_date": "2026-08-13T07:30:53+00:00",
+    "source_type": "news",
+    "summary": "<p>A high-severity vulnerability (CVE-2026-20349) is being leveraged by attackers to temporarily interrupt the operation of Cisco firewalls, the company has confirmed. The flaw has been added to CISA&#8217;s Known Exploited Vulnerabilities catalog and needs to be remediated by US civilian federal agencies by August 14, 2026. Details about the attacks are currently under wraps. Cisco only shared that its Product Security Incident Response Team (PSIRT) became aware of active exploitation of this vulnerability in August &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/13/cve-2026-20349-cisco-firewalls-dos/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/13/cve-2026-20349-cisco-firewalls-dos/\">Cisco fixes vulnerability exploited to DoS its firewalls (CVE-2026-20349)</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Four corporate investigation mistakes organizations make under pressure",
+    "url": "https://www.helpnetsecurity.com/2026/08/13/corporate-investigation-mistakes-video/",
+    "published_date": "2026-08-13T05:00:13+00:00",
+    "source_type": "news",
+    "summary": "<p>In this Help Net Security video, Christine Gadsby, VP and Chief Security Advisor at BlackBerry, explains why corporate investigations go wrong before the forensic team arrives. The first hours matter more than leaders assume. Access gets granted, conversations start, and decisions get made that later affect chain of custody, privilege, and how regulators judge the process. Gadsby walks through four mistakes. Treating an investigation as a technical problem instead of a business event. Losing track &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/13/corporate-investigation-mistakes-video/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/13/corporate-investigation-mistakes-video/\">Four corporate investigation mistakes organizations make under pressure</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "DDoS attacks hit record scale as 1 Tbps+ campaigns become more common",
+    "url": "https://www.helpnetsecurity.com/2026/08/13/cloudflare-h1-2026-ddos-trends-report/",
+    "published_date": "2026-08-13T04:30:10+00:00",
+    "source_type": "news",
+    "summary": "<p>DDoS attacks grew in scale during the first half of 2026, bringing larger traffic floods, shorter attack durations, and increasingly automated campaigns. Cloudflare&#8217;s H1 2026 DDoS Threat Report shows threat actors relying on multi-vector techniques and large-scale network-layer attacks to disrupt online services across multiple industries. L3/4 attack-size distribution (bitrate), H1 2026 (Source: Cloudflare) Network-layer attacks remained a primary driver of activity as hyper-volumetric campaigns capable of generating traffic measured in terabits per second became &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/13/cloudflare-h1-2026-ddos-trends-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/13/cloudflare-h1-2026-ddos-trends-report/\">DDoS attacks hit record scale as 1 Tbps+ campaigns become more common</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Product showcase: Is this image real? Slop or Not investigates",
+    "url": "https://www.helpnetsecurity.com/2026/08/13/product-showcase-slop-or-not-ai-image-detector/",
+    "published_date": "2026-08-13T04:00:03+00:00",
+    "source_type": "news",
+    "summary": "<p>Slop or Not is an AI text and image detector for iPhone and Mac that runs entirely offline, with no account required. It uses on-device AI models powered by the Apple Neural Engine to detect AI-generated content. According to a recent survey, 85% of people say they struggle to distinguish authentic content from AI-generated material, up from 66% a year earlier. Half of respondents reported encountering AI-driven scams, including deepfakes, voice cloning, fake reviews, and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/13/product-showcase-slop-or-not-ai-image-detector/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/13/product-showcase-slop-or-not-ai-image-detector/\">Product showcase: Is this image real? Slop or Not investigates</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Wireshark 4.6.8 patches 28 security bugs, nine in file parsers",
+    "url": "https://www.helpnetsecurity.com/2026/08/13/wireshark-4-6-8-patches-security-bugs/",
+    "published_date": "2026-08-13T03:53:43+00:00",
+    "source_type": "news",
+    "summary": "<p>Wireshark 4.6.8 fixes 28 security bugs in the protocol analyzer, and nine of them fire when someone opens a saved capture file. Those nine sit in file parsers, the code that reads a capture off disk before any dissection begins: pcapng, Endace ERF, Tektronix K12xx, BUSMASTER, Catapult DCT2000, Gammu DCT3, 3gpp phone logs, TTX Logger, and, on Windows only, Ixia IxVeriWave and Vector Informatik BLF. An attacker never has to touch your network for these. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/13/wireshark-4-6-8-patches-security-bugs/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/13/wireshark-4-6-8-patches-security-bugs/\">Wireshark 4.6.8 patches 28 security bugs, nine in file parsers</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months",
+    "url": "https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/",
+    "published_date": "2026-08-12T13:51:02+00:00",
+    "source_type": "news",
+    "summary": "<p>Most security stories start with something broken. This one starts with everything working as designed. Researchers at Reco have been tracking a campaign they call City-Forum, named after a domain registered in 2002, abandoned, and now resolving to a generic rented server from a German hosting provider. From that server, someone has been pulling records out of Salesforce and ServiceNow portals around the world. The activity has not stopped, and there is more of it &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/\">A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Signal’s new security feature checks if your encrypted chats were tampered with",
+    "url": "https://www.helpnetsecurity.com/2026/08/12/signal-automatic-key-verification-feature/",
+    "published_date": "2026-08-12T13:47:45+00:00",
+    "source_type": "news",
+    "summary": "<p>Signal has introduced a feature called automatic key verification, giving users a new way to confirm that nobody has secretly interfered with their encrypted chats. “Signal is always end-to-end encrypted, and automatic key verification provides an additional, streamlined way to confirm that there&#8217;s no unexpected party between you and the other &#8216;end&#8217; of an end-to-end encrypted session,” Signal engineer Katherine Yen wrote in a blog post. “It works through a system of verifications performed by &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/12/signal-automatic-key-verification-feature/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/12/signal-automatic-key-verification-feature/\">Signal&#8217;s new security feature checks if your encrypted chats were tampered with</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "ScienceLogic delivers secure AI deployment and smarter IT operations with Skylar AI 2.5",
+    "url": "https://www.helpnetsecurity.com/2026/08/12/sciencelogic-skylar-ai-2-5-secure-ai-deployment/",
+    "published_date": "2026-08-12T13:42:41+00:00",
+    "source_type": "news",
+    "summary": "<p>ScienceLogic has announced Skylar AI 2.5, expanding secure deployment options for organizations with stringent security, sovereignty, and compliance requirements, while introducing enhancements that strengthen AI performance, operational intelligence, and enterprise integrations. The release further improves AI accuracy, platform performance, and natural language user experience across the ScienceLogic AI Platform. Serving as the intelligence layer of the ScienceLogic AI Platform, Skylar AI provides always-on guidance across complex IT environments, a critical capability for organizations operationalizing agentic &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/12/sciencelogic-skylar-ai-2-5-secure-ai-deployment/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/12/sciencelogic-skylar-ai-2-5-secure-ai-deployment/\">ScienceLogic delivers secure AI deployment and smarter IT operations with Skylar AI 2.5</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Deloitte strengthens AI governance to support trusted enterprise adoption",
+    "url": "https://www.helpnetsecurity.com/2026/08/12/deloitte-ai-controls-and-assurance-services/",
+    "published_date": "2026-08-12T13:28:05+00:00",
+    "source_type": "news",
+    "summary": "<p>Deloitte has expanded AI Controls and Assurance services and solutions designed to help organizations confidently adopt, scale and govern AI across the enterprise. From early exploration to enterprise deployment, Deloitte&#8217;s enhanced services provide end-to-end support across the AI lifecycle, combining advisory and assurance services across governance frameworks and AI-enabled transformation to help organizations manage risk while unlocking value. While 74% of companies plan to deploy agentic AI within two years, only 21% report having a &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/12/deloitte-ai-controls-and-assurance-services/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/12/deloitte-ai-controls-and-assurance-services/\">Deloitte strengthens AI governance to support trusted enterprise adoption</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Lazarus hackers pair fake job offers with Windows zero-day exploit",
+    "url": "https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/",
+    "published_date": "2026-08-12T11:48:17+00:00",
+    "source_type": "news",
+    "summary": "<p>The North Korea-linked Lazarus group is using fake job offers, trojanized PDF software and a Windows zero-day in attacks aimed primarily at the defense sector, Check Point researchers have found. The activity is part of Operation Dream Job, a long-running campaign in which attackers pose as recruiters and lure targets with job opportunities at well-known companies. One of the decoy documents uncovered during the investigation used a Lockheed Martin job description. Check Point was unable &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/\">Lazarus hackers pair fake job offers with Windows zero-day exploit</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs",
+    "url": "https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/",
+    "published_date": "2026-08-13T09:53:04+00:00",
+    "source_type": "news",
+    "summary": "<p>Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements.</p>\n<p>The post <a href=\"https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/\">White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Critical VMware vCenter Vulnerability in Attackers’ Crosshairs",
+    "url": "https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs/",
+    "published_date": "2026-08-13T09:06:40+00:00",
+    "source_type": "news",
+    "summary": "<p>Tracked as CVE-2026–59310, the directory traversal bug allows remote attackers to execute arbitrary code.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs/\">Critical VMware vCenter Vulnerability in Attackers&#8217; Crosshairs</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’",
+    "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak/",
+    "published_date": "2026-08-13T08:38:03+00:00",
+    "source_type": "news",
+    "summary": "<p>Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak/\">Nightmare Eclipse Drops Windows Zero-Day Exploit &#8216;ShieldBreak&#8217;</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "SharePoint Vulnerability Exploited Shortly After PoC Release",
+    "url": "https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/",
+    "published_date": "2026-08-12T14:47:01+00:00",
+    "source_type": "news",
+    "summary": "<p>The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild.</p>\n<p>The post <a href=\"https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/\">SharePoint Vulnerability Exploited Shortly After PoC Release</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Mindgard Raises $30 Million to Protect AI Systems",
+    "url": "https://www.securityweek.com/mindgard-raises-30-million-to-protect-ai-systems/",
+    "published_date": "2026-08-12T13:24:00+00:00",
+    "source_type": "news",
+    "summary": "<p>The cybersecurity startup will use the fresh investment to scale its product, engineering, sales, and marketing teams.</p>\n<p>The post <a href=\"https://www.securityweek.com/mindgard-raises-30-million-to-protect-ai-systems/\">Mindgard Raises $30 Million to Protect AI Systems</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "WhatsApp Unveils New Scam Alert Feature",
+    "url": "https://www.securityweek.com/whatsapp-unveils-new-scam-alert-feature/",
+    "published_date": "2026-08-12T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Signal has also made a security announcement: an automatic key verification feature to complement its safety number system.</p>\n<p>The post <a href=\"https://www.securityweek.com/whatsapp-unveils-new-scam-alert-feature/\">WhatsApp Unveils New Scam Alert Feature</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset",
+    "url": "https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/",
+    "published_date": "2026-08-12T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms.</p>\n<p>The post <a href=\"https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/\">Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Ceva Logistics Operations Disrupted by Cyberattack",
+    "url": "https://www.securityweek.com/ceva-logistics-operations-disrupted-by-cyberattack/",
+    "published_date": "2026-08-12T11:37:28+00:00",
+    "source_type": "news",
+    "summary": "<p>Affecting European contract logistics operations at eight Ceva warehouses, the incident caused shipment delays for multiple customers.</p>\n<p>The post <a href=\"https://www.securityweek.com/ceva-logistics-operations-disrupted-by-cyberattack/\">Ceva Logistics Operations Disrupted by Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Chipmaker Patch Tuesday: Intel, AMD Fix Over 80 Vulnerabilities Combined",
+    "url": "https://www.securityweek.com/chipmaker-patch-tuesday-intel-amd-fix-over-80-vulnerabilities-combined/",
+    "published_date": "2026-08-12T10:55:04+00:00",
+    "source_type": "news",
+    "summary": "<p>Intel has informed customers about several high-severity vulnerabilities that can lead to privilege escalation and even code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/chipmaker-patch-tuesday-intel-amd-fix-over-80-vulnerabilities-combined/\">Chipmaker Patch Tuesday: Intel, AMD Fix Over 80 Vulnerabilities Combined</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack",
+    "url": "https://www.securityweek.com/over-2500-organizations-impacted-by-litellm-supply-chain-attack/",
+    "published_date": "2026-08-12T09:55:45+00:00",
+    "source_type": "news",
+    "summary": "<p>LiteLLM was compromised through the Trivy hack and abused to distribute information-stealing malware to its users.</p>\n<p>The post <a href=\"https://www.securityweek.com/over-2500-organizations-impacted-by-litellm-supply-chain-attack/\">Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "FBI: Hackers using social engineering to breach accounts and steal explicit content",
+    "url": "https://therecord.media/social-engineering-hackers-explicit-photos-fbi-alert",
+    "published_date": "2026-08-12T17:28:00+00:00",
+    "source_type": "news",
+    "summary": "Leaked passwords, social engineering and spoofed social media sites are among the tools hackers are using to gather individuals' private content and sell it online, the FBI said.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Three intrusions at UK criminal records office went undetected for two years",
+    "url": "https://therecord.media/uk-criminal-records-office-acro-data-breaches",
+    "published_date": "2026-08-12T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "Unread antivirus alerts and an unpatched content management system exposed Britain's ACRO to three separate data breaches, according to a reprimand notice.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft’s massive Patch Tuesday releases continue as AI reshapes bug discovery",
+    "url": "https://therecord.media/microsoft-massive-patch-tuesday-releases-continue-ai",
+    "published_date": "2026-08-12T12:38:00+00:00",
+    "source_type": "news",
+    "summary": "This month’s update features about five times the volume of patches Microsoft was shipping in a typical month before AI-assisted vulnerability discovery took hold.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "CISA gives federal agencies two weeks to patch Microsoft bug exploited in DPRK campaign",
+    "url": "https://therecord.media/cisa-gives-federal-agencies-two-weeks-to-patch-dprk-microsoft-bug",
+    "published_date": "2026-08-12T12:06:00+00:00",
+    "source_type": "news",
+    "summary": "Researchers disclosed the bug to Microsoft after examining a long-running campaign by North Korean hackers to exploit the job application process.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "NSA installs DHS lawyer as new general counsel",
+    "url": "https://therecord.media/kerianne-tobitsch-new-nsa-general-counsel",
+    "published_date": "2026-08-11T20:00:09+00:00",
+    "source_type": "news",
+    "summary": "Kerianne Tobitsch, who most recently served as a senior lawyer at the Homeland Security Department, is the NSA's new general counsel, sources told Recorded Future News.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "[webapps] Apache Gravitino 1.2.1 - SSRF",
+    "url": "https://www.exploit-db.com/exploits/52641",
+    "published_date": "2026-08-11T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Apache Gravitino 1.2.1 - SSRF",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[webapps] Blocksy Companion  2.1.46 - RCE",
+    "url": "https://www.exploit-db.com/exploits/52640",
+    "published_date": "2026-08-11T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Blocksy Companion  2.1.46 - RCE",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[remote] PraisonAI praisonaiagents  1.6.77 - Remote Code Execution",
+    "url": "https://www.exploit-db.com/exploits/52639",
+    "published_date": "2026-08-11T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "PraisonAI praisonaiagents  1.6.77 - Remote Code Execution",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
+    "url": "https://www.exploit-db.com/exploits/52638",
+    "published_date": "2026-08-11T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[dos] LuCI DHCPv6 -  Lease Hostname Stored Cross-Site Scripting",
+    "url": "https://www.exploit-db.com/exploits/52637",
+    "published_date": "2026-08-11T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "LuCI DHCPv6 -  Lease Hostname Stored Cross-Site Scripting",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[webapps] Planyo_Online_Reservation_System  3.0 - Arbitrary File Read via SSRF",
+    "url": "https://www.exploit-db.com/exploits/52636",
+    "published_date": "2026-08-11T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Planyo_Online_Reservation_System  3.0 - Arbitrary File Read via SSRF",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[webapps] Ray 2.56.0 - Directory Traversal & Local File Inclusion",
+    "url": "https://www.exploit-db.com/exploits/52635",
+    "published_date": "2026-08-11T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Ray 2.56.0 - Directory Traversal & Local File Inclusion",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[webapps] OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution",
+    "url": "https://www.exploit-db.com/exploits/52633",
+    "published_date": "2026-08-10T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[local] Microsoft Edge 150.0.4078.48 - RCE",
+    "url": "https://www.exploit-db.com/exploits/52632",
+    "published_date": "2026-08-10T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Microsoft Edge 150.0.4078.48 - RCE",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[webapps] CorgetGpsDget 2_3.2 - OS Command Injection",
+    "url": "https://www.exploit-db.com/exploits/52631",
+    "published_date": "2026-08-10T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "CorgetGpsDget 2_3.2 - OS Command Injection",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "[webapps] Joomla 2.9.99.4 - Unauthenticated Remote Code Execution",
+    "url": "https://www.exploit-db.com/exploits/52630",
+    "published_date": "2026-08-10T00:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "Joomla 2.9.99.4 - Unauthenticated Remote Code Execution",
+    "feed_source": "https://www.exploit-db.com/rss.xml",
+    "publisher": "Exploit-DB.com RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "注意喚起: 2026年8月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (公開)",
+    "url": "https://www.jpcert.or.jp/at/2026/at260022.html",
+    "published_date": "2026-08-12T02:26:00+00:00",
+    "source_type": "advisory",
+    "summary": "",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: macOSの画面共有に不適切な認証の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#1",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "macOSの画面共有に不適切な認証の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のZyxel製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#2",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のZyxel製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Google Chromeに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#3",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "Google Chromeに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: WordPressに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#4",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "WordPressに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: ProgressのMarkLogic Serverに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#5",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "ProgressのMarkLogic Serverに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のCisco製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#6",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のCisco製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Jenkinsおよび複数のJenkins用プラグインに脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#7",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "Jenkinsおよび複数のJenkins用プラグインに脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: NetKids iMarkに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#8",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "NetKids iMarkに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Giteaにパストラバーサルの脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#9",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "Giteaにパストラバーサルの脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Bouncy Castle Javaに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#10",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "Bouncy Castle Javaに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Adobe Campaign Classicに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#11",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "Adobe Campaign Classicに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: サイボウズ Garoonにクロスサイトスクリプティングの脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#12",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "サイボウズ Garoonにクロスサイトスクリプティングの脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: pgAdmin 4に複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#13",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "pgAdmin 4に複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Better Authに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260813.html#14",
+    "published_date": "2026-08-13T00:09:00+00:00",
+    "source_type": "advisory",
+    "summary": "Better Authに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
+    "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/",
+    "publisher": "Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Shattering the Dream – When a Job Offer Becomes a Zero-Day Attack",
+    "url": "https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/",
+    "published_date": "2026-08-11T17:30:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Key Points Introduction Since early 2026, Check Point Research has tracked a wave of the&#160;Operation Dream Job&#160;campaign. This wave primarily targeted the defense sector worldwide, with a particular emphasis on companies operating in the aerospace and aviation industries. We observed the threat actor distributing modified PDF viewers designed to execute malicious payloads embedded within specially [&#8230;]</p>\n<p>The post <a href=\"https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/\">Shattering the Dream &#8211; When a Job Offer Becomes a Zero-Day Attack</a> appeared first on <a href=\"https://research.checkpoint.com\">Check Point Research</a>.</p>",
+    "feed_source": "https://research.checkpoint.com/feed/",
+    "publisher": "Check Point Research",
+    "source_note": ""
+  },
+  {
+    "title": "10th August – Threat Intelligence Report",
+    "url": "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/",
+    "published_date": "2026-08-10T13:53:22+00:00",
+    "source_type": "research",
+    "summary": "<p>For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained [&#8230;]</p>\n<p>The post <a href=\"https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/\">10th August – Threat Intelligence Report</a> appeared first on <a href=\"https://research.checkpoint.com\">Check Point Research</a>.</p>",
+    "feed_source": "https://research.checkpoint.com/feed/",
+    "publisher": "Check Point Research",
+    "source_note": ""
+  },
+  {
+    "title": "Kimwolf v7: An Evolution of the Kimwolf Botnet",
+    "url": "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
+    "published_date": "2026-08-11T10:00:16+00:00",
+    "source_type": "research",
+    "summary": "<p>Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/\">Kimwolf v7: An Evolution of the Kimwolf Botnet</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/",
+    "publisher": "Unit 42",
+    "source_note": ""
+  },
+  {
+    "title": "The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications",
+    "url": "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
+    "published_date": "2026-08-10T22:00:02+00:00",
+    "source_type": "research",
+    "summary": "<p>Analysis of the Aeternum botnet loader, a threat leveraging Polygon blockchain smart contracts for decentralized C2 infrastructure and payload execution.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/\">The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/",
+    "publisher": "Unit 42",
+    "source_note": ""
+  },
+  {
+    "title": "Armored Likho expands its cyber-espionage toolkit",
+    "url": "https://securelist.com/armored-likho-still-toolkit/121033/",
+    "published_date": "2026-08-13T08:00:15+00:00",
+    "source_type": "research",
+    "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
+    "feed_source": "https://securelist.com/feed/",
+    "publisher": "Securelist",
+    "source_note": ""
+  },
+  {
+    "title": "Head Mare APT is exploiting vulnerabilities in an unpatched TrueConf server to deliver PhantomCore and PhantomGraph to video conference participants",
+    "url": "https://securelist.com/tr/head-mare-targets-trueconf-server-with-phantomcore/120988/",
+    "published_date": "2026-08-11T12:00:55+00:00",
+    "source_type": "research",
+    "summary": "Kaspersky experts have discovered malicious TrueConf software installers. The Head Mare APT group uses them to deliver the PhantomCore and PhantomGraph backdoors to target systems by exploiting vulnerabilities in an unpatched TrueConf server.",
+    "feed_source": "https://securelist.com/feed/",
+    "publisher": "Securelist",
+    "source_note": ""
+  },
+  {
+    "title": "Project CAV3RN continues: Google Apps Script as C2 relay and DNS-based C2 channel selection",
+    "url": "https://securelist.com/project-cav3rn-continues/120991/",
+    "published_date": "2026-08-11T10:00:19+00:00",
+    "source_type": "research",
+    "summary": "Project CAV3RN targets Israel with Google Apps Script C2 relays and DNS-based routing. Modular .NET NativeAOT framework blends C2 traffic with legitimate Google services to evade detection.",
+    "feed_source": "https://securelist.com/feed/",
+    "publisher": "Securelist",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft's August 2026 Patch Tuesday Addresses 398 CVEs (CVE-2026-68820)",
+    "url": "https://www.tenable.com/blog/microsofts-august-2026-patch-tuesday-addresses-398-cves-cve-2026-68820",
+    "published_date": "2026-08-11T18:04:04+00:00",
+    "source_type": "research",
+    "summary": "<ol class=\"blog-severity-badges\"><li class=\"blog-severity-badges critical\"><span class=\"number\">42</span>Critical</li><li class=\"blog-severity-badges important\"><span class=\"number\">355</span>Important</li><li class=\"blog-severity-badges moderate\"><span class=\"number\">1</span>Moderate</li><li class=\"blog-severity-badges low\"><span class=\"number\">0</span>Low</li></ol><p><strong>Microsoft addresses 398 CVEs in the eighth Patch Tuesday of 2026, with three zero-days, including one that was exploited in the wild.</strong></p><p>Microsoft patched 398 CVEs in its August 2026 Patch Tuesday release, with 42 rated critical, 355 rated as important and one rated as moderate. Our counts omitted two CVEs assigned by MITRE; CVE-2026-6726 and CVE-2026-6727.</p><img alt=\"A pie chart showing the severity distribution across the Patch Tuesday CVEs patched in August 2026.\" height=\"473\" src=\"https://www.tenable.com/sites/default/files/images/blog/f367a044-9e99-4c9e-a491-1703e2bf186b.png\" width=\"865\" /><p>This month’s update includes patches for:</p><ul><li>.NET</li><li>.NET Core</li><li>.NET Framework</li><li>AMD Zen</li><li>Active Directory Certificate Services (AD CS)</li><li>Application Information ",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
+    "published_date": "2026-08-10T16:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/\">Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
+    "published_date": "2026-08-10T15:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/\">DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-563: (Pwn2Own) Home Assistant Green Simple Service Discovery Protocol Server-Side Request Forgery Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-563/",
+    "published_date": "2026-08-12T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.4.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-562: (Pwn2Own) Home Assistant Green mDNS Server-Side Request Forgery Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-562/",
+    "published_date": "2026-08-12T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.4.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-561: (Pwn2Own) Home Assistant Green go2rtc Command Injection Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-561/",
+    "published_date": "2026-08-12T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Home Assistant Green. An attacker must first obtain the ability to access the device&#x27;s localhost interface. The ZDI has assigned a CVSS rating of 7.5.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-560: (Pwn2Own) Home Assistant Green go2rtc Command Injection Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-560/",
+    "published_date": "2026-08-12T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Home Assistant Green. An attacker must first obtain the ability to access the device&#x27;s localhost interface. The ZDI has assigned a CVSS rating of 7.5.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-559: (Pwn2Own) Amazon Smart Plug OTA Update Process Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-559/",
+    "published_date": "2026-08-12T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Amazon Smart Plug. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.5.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-558: (Pwn2Own) Amazon Smart Plug OTA Update Process Improper Certificate Validation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-558/",
+    "published_date": "2026-08-12T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to bypass certificate validation for OTA updates on affected installations of Amazon Smart Plug. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.8.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-557: (Pwn2Own) Amazon Smart Plug Insecure Fallback Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-557/",
+    "published_date": "2026-08-12T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Amazon Smart Plug. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 4.3.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-556: Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-556/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-18263.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-555: Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-555/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-18262.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-554: Parallels RAS Client RDP Backend Service Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-554/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels RAS Client. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-13121.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-553: OriginLab Origin Viewer OGW File Parsing Memory Corruption Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-553/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-18294.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-552: OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-552/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-18293.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-551: OriginLab OriginPro OGG File Parsing Memory Corruption Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-551/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro . User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-18292.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-550: OriginLab OriginPro OGW File Parsing Memory Corruption Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-550/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-18291.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-549: OriginLab OriginPro OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-549/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-18290.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-548: OriginLab OriginPro OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-548/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-18289.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-547: OriginLab OriginPro OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-547/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab OriginPro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-18288.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-546: Flowise Airtable_Agent Code Injection Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-546/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-69264.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-545: Flowise CSV_Agent customReadCSV Code Injection Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-545/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-69256.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-544: Microsoft Windows Deployment Services Use-After-Free Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-544/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Microsoft Windows Server. Authentication is not required to exploit this vulnerability. However, only systems with Windows Deployment Services enabled are vulnerable. The ZDI has assigned a CVSS rating of 7.5. The following CVEs are assigned: CVE-2026-62893.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-543: Microsoft Windows ICC File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-543/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Windows. Interaction with the Mscms.dll color management library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-54984.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-542: Microsoft Windows UMPDDrvBitBlt Improper Object Management Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-542/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-62712.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-541: (Pwn2Own) Microsoft Windows win32kfull Use-After-Free Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-541/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-65775.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-540: (Pwn2Own) Microsoft Windows win32kfull Use-After-Free Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-540/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.5. The following CVEs are assigned: CVE-2026-65776.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-539: (Pwn2Own) Microsoft Windows ipt.sys Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-539/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-65773.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-538: (Pwn2Own) Microsoft Exchange Improper Authorization Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-538/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft Exchange. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-62911.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-537: (Pwn2Own) Microsoft Windows storport Integer Overflow Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-537/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-65814.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-536: (Pwn2Own) Microsoft Windows http.sys Integer Overflow Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-536/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-62735.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-535: (Pwn2Own) Microsoft Exchange External Control of File Path Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-535/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Exchange. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The ZDI has assigned a CVSS rating of 7.2. The following CVEs are assigned: CVE-2026-62911.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-534: (Pwn2Own) Microsoft Exchange Capture-Replay Authentication Bypass Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-534/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of Microsoft Exchange. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-62911.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-533: Cisco Secure Firewall Management Center login.cgi Authentication Bypass Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-533/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to bypass authentication on affected installations of Cisco Secure Firewall Management Center. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.8. The following CVEs are assigned: CVE-2026-20316.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-532: SonicWall Email Security updateNetIf Command Injection Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-532/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of SonicWall Email Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-66149.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-531: SonicWall GMS Virtual Appliance interface Command Injection Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-531/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of SonicWall GMS Virtual Appliance. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-66148.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-530: SonicWall Email Security snmp Command Injection Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-530/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of SonicWall Email Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-66150.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-529: Samsung Galaxy S25 TIFF File Processing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-529/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung Galaxy S25 devices. User interaction may be required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-21045.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-528: Wazuh Cluster DAPI Protocol Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-528/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wazuh. An attacker must first obtain the ability to execute low-privileged code on a worker node in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.9. The following CVEs are assigned: CVE-2026-28220.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-527: Wazuh Cluster DAPI Protocol Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-527/",
+    "published_date": "2026-08-11T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wazuh. An attacker must first obtain the ability to execute low-privileged code on a worker node in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 9.9. The following CVEs are assigned: CVE-2026-44901.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
+    "url": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
+    "published_date": "2026-08-12T13:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan.</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">And if you survey 500 security professionals on whether that's going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it's helping address staffing shortages.</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there's a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed.</span></p><h2><span style=\"font-size: undefined;\">The confidence gap nobody is talking about</span></h2><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look.</span></p><p s",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Patch Tuesday - August 2026",
+    "url": "https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026",
+    "published_date": "2026-08-11T21:10:55+00:00",
+    "source_type": "research",
+    "summary": "<p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Microsoft is publishing 421 vulnerabilities on </span><a href=\"https://msrc.microsoft.com/update-guide/releaseNote/2026-Aug\"><span style=\"font-size: undefined;\">August 2026 Patch Tuesday</span></a><span style=\"font-size: undefined;\">, including 236 vulnerabilities in Windows. This is lower volume than last month’s record-breaking behemoth, but still one of the largest Patch Tuesday totals ever. There is no reason to suppose that Patch Tuesday will ever return to the lower volumes we saw prior to 2026. Microsoft is aware of exploitation in the wild for one of the vulnerabilities published today, as well as public disclosure for two others, although the Notable CVEs section of the Security Update Guide omits one of these. As usual, browser vulns are not included in the Patch Tuesday count above, but unusually, Microsoft does not appear to have published any desktop browser security patches so far this month.</span></p><h3 style=\"direction: ltr;\"><span style=\"color: rgb(67, 67, 67);\">SharePoint: critical RCE chain by Rapid7</span></h3><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Today sees the publication",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED)",
+    "url": "https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed",
+    "published_date": "2026-08-11T13:00:00+00:00",
+    "source_type": "research",
+    "summary": "<h2 style=\"direction: ltr;\">Overview</h2><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Rapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated remote code execution (RCE) against a vulnerable SharePoint server. Today, both Rapid7 and Microsoft are disclosing the second vulnerability in this chain, the RCE vulnerability CVE-2026-63520. The first vulnerability in the chain, CVE-2026-55040, was </span><a href=\"/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed/\" target=\"_self\"><span style=\"font-size: undefined;\">disclosed</span></a><span style=\"font-size: undefined;\"> by Rapid7 and Microsoft last month.</span></p><p><span style=\"font-size: undefined;\">Our full disclosure timeline for the exploit chain can be seen below in Figure 1.</span></p><p><span style=\"font-size: undefined;\"></span></p><figure style=\"margin: 0;\"><img alt=\"timline.png\" class=\"embedded-asset\" src=\"https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt422a176eb003c86d/6a79a04aa20f987243def87c/timline.png\" style=\"text-align: ",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Rapid7 Analysis: Microsoft SharePoint JWT Token Authentication Bypass (CVE-2026-55040)",
+    "url": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-jwt-token-authentication-bypass-cve-2026-55040",
+    "published_date": "2026-08-11T13:00:00+00:00",
+    "source_type": "research",
+    "summary": "<h2 style=\"direction: ltr;\">Overview</h2><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">On July 14, 2026, Rapid7 and Microsoft </span><a href=\"/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed/\" target=\"_self\"><span style=\"font-size: undefined;\">disclosed</span></a><span style=\"font-size: undefined;\"> CVE-2026-55040, an authentication bypass vulnerability affecting Microsoft SharePoint. Today we are publishing a technical analysis of the vulnerability along with an accompanying proof-of-concept (PoC) </span><a href=\"https://github.com/sfewer-r7/CVE-2026-55040\" target=\"_blank\"><span style=\"font-size: undefined;\">script</span></a><span style=\"font-size: undefined;\">.</span></p><p><span style=\"font-size: undefined;\"></span></p><figure style=\"margin: 0;\"><img alt=\"CVE-2026-55040.png\" class=\"embedded-asset\" src=\"https://images.contentstack.io/v3/assets/blte4f029e766e6b253/blt5767417f98d6189f/6a79966a89eb5ce3acab3aa8/CVE-2026-55040.png\" style=\"text-align: center; width: auto;\" type=\"asset\" /></figure><p style=\"text-align: center;\"><em>Figure 1: The Rapid7 Labs PoC for CVE-2026-55040.</em></p><p>⠀</p><p><span style=\"font-size: undefine",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Dissecting the JWR phishing framework",
+    "url": "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
+    "published_date": "2026-08-13T10:00:35+00:00",
+    "source_type": "research",
+    "summary": "Cisco Talos recently identified an undocumented phishing framework, internally branded \"JWR\" by its developer, built to convincingly impersonate checkout and login pages across major payment and shopping platforms.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+    "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+    "published_date": "2026-08-11T22:21:02+00:00",
+    "source_type": "research",
+    "summary": "Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as \"critical.\"",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050, (Thu, Aug 13th)",
+    "url": "https://isc.sans.edu/diary/rss/33244",
+    "published_date": "2026-08-13T02:00:03+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "Using Gemma4 with Ollama - Testing File Hash Analysis and Recommendations with AI, (Wed, Aug 12th)",
+    "url": "https://isc.sans.edu/diary/rss/33242",
+    "published_date": "2026-08-13T01:26:53+00:00",
+    "source_type": "operational",
+    "summary": "In the past few weeks, I have been using Gemma4 as a Large Language Model (LLM) to see how useful it can be to analyze some of the malware hashes uploaded to the DShield sensor over the past 30 days and figure out how its recommendation can be considered useful about the activity my DShield sensor is collecting and tracking. The model I use for this testing is gemma4:e4b &#x5b;2&#x5d; using two sites to compare the data against VirusTotal and CyberGordon. &#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "Linux Kernel Process Accounting, (Wed, Aug 12th)",
+    "url": "https://isc.sans.edu/diary/rss/33240",
+    "published_date": "2026-08-12T14:21:10+00:00",
+    "source_type": "operational",
+    "summary": "A couple of days ago, Xavier posted about Atuin to gain more insight into the command history. Atuin does a great job of better organizing what is usually handled by \"bash&&#x23&#x3b;x26&#x3b;&#x23&#x3b;x5f&#x3b;history\"&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xa0&#x3b;and collecting meaningful additional data. Our reader David commented that this can also be done quite well with Linux&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s kernel process accounting feature, and I think he is very right. I really like Linux process accounting for a number of reasons, so here is a quick introduction.&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Wednesday, August 12th, 2026 https://isc.sans.edu/podcastdetail/10048, (Wed, Aug 12th)",
+    "url": "https://isc.sans.edu/diary/rss/33238",
+    "published_date": "2026-08-12T02:00:03+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
+    "url": "https://isc.sans.edu/diary/rss/33236",
+    "published_date": "2026-08-11T17:54:49+00:00",
+    "source_type": "operational",
+    "summary": "This month we got patches for 418 vulnerabilities. Of these, 62 are critical, 1 is being exploited in the wild, and 2 were publicly disclosed as zero-days. Notable fixes include Windows privilege escalation, container tampering, and critical QUIC and DNS Server remote code execution bugs. &#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Tuesday, August 11th, 2026 https://isc.sans.edu/podcastdetail/10046, (Tue, Aug 11th)",
+    "url": "https://isc.sans.edu/diary/rss/33232",
+    "published_date": "2026-08-11T02:00:03+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "Scans for Solana (Surfpool&#x3f;) Endpoints, (Mon, Aug 10th)",
+    "url": "https://isc.sans.edu/diary/rss/33230",
+    "published_date": "2026-08-10T16:24:45+00:00",
+    "source_type": "operational",
+    "summary": "Solana is a crypto platform known for speed. Developers like it to develop distributed applications or to implement crypto payments. To interact with the blockchain, APIs are provided for developers. These APIs will either \"speak\" JSON or gRPC. One implementation often used for development is \"surfpool,\" which is used to test programs before deploying them to a Solana network.&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "Vault Coverage Is the Missing Metric in NHI Programs",
+    "url": "https://blog.gitguardian.com/vault-coverage/",
+    "published_date": "2026-08-11T15:14:30+00:00",
+    "source_type": "vendor",
+    "summary": "Most vault programs track a numerator without a denominator. See how vault coverage turns secrets management into a measurable, reportable control.",
+    "feed_source": "https://blog.gitguardian.com/rss/",
+    "publisher": "GitGuardian Blog - Take Control of Your Secrets Security",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-19642 & CVE-2026-19643 - Memory-safety issues in the Base64 decoder in the AWS SDK for C&plus;&plus;",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-080-aws/",
+    "published_date": "2026-08-12T19:52:23+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-080-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/12/2026 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>The AWS SDK for C++ is an open-source library that provides C++ developers with APIs for AWS services. Its core library includes a Base64 codec used by the generated service clients for a variety of features.We identified the following CVEs:<br /> - CVE-2026-19642 - Out-of-bounds write in the Base64 decoder in the AWS SDK for C++<br /> - CVE-2026-19643 - Out-of-bounds read in the Base64 decoder in the AWS SDK for C++</p> \n<p>For CVE-2026-19642, certain inputs to the Base64 decoder might cause the decoder to write past the end of its heap-allocated output buffer, which might crash or corrupt memory in the process performing the decode. Remote code execution has not been demonstrated.</p> \n<p>For CVE-2026-19643, certain inputs to the Base64 decoder, on some platforms, might cause the decoder to read outside the bounds of its decode table, which might crash the process performing the decode.</p> \n<p>For both issues, impact is confined to the process of the application performing ",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-19311- Missing Authorization in OpenSearch Alerting Plugin",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-078-aws/",
+    "published_date": "2026-08-12T18:46:36+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-078-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 08/12/2026 11:30 AM PDT</p> \n<p><b>Description:</b></p> \n<p>OpenSearch is a community-driven, open-source search and analytics suite. We identified CVE-2026-19311, a missing authorization issue in the Execute Monitor API of the OpenSearch Alerting plugin. This issue may allow an authenticated user with the alerting_full_access role to read, modify, or delete arbitrary index data via a crafted inline monitor request with unintentional data source and input index parameters.</p> \n<p><b>Impacted versions:</b></p> \n<p><b>OpenSearch Alerting Plugin (open-source, self-managed):</b><br /> - <b>Affected:</b> 2.4.0 through 2.19.5, 3.0.0 through 3.7.0<br /> - <b>Fixed:</b> 2.19.6, 3.8.0</p> \n<p><b>Amazon OpenSearch Service (AWS Managed):</b><br /> - <b>Affected:</b> All domains running engine versions 2.4 through 3.5<br /> - <b>Fixed:</b> Service software R20260428-P3</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "How AWS IAM role manager rethinks the starting point for IAM roles",
+    "url": "https://aws.amazon.com/blogs/security/how-aws-iam-role-manager-rethinks-the-starting-point-for-iam-roles/",
+    "published_date": "2026-08-12T22:16:55+00:00",
+    "source_type": "vendor",
+    "summary": "When you build a new application or capability on Amazon Web Services (AWS), you want to focus on what you’re building. Getting a service running almost always begins with AWS Identity and Access Management (IAM). Many AWS services that act on your behalf need an IAM role, an identity the service assumes to access your […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Landing Zone Accelerator Independent Assessment Report for C5:2020 now available on AWS Artifact",
+    "url": "https://aws.amazon.com/blogs/security/landing-zone-accelerator-independent-assessment-report-for-c52020-now-available-on-aws-artifact/",
+    "published_date": "2026-08-11T21:50:28+00:00",
+    "source_type": "vendor",
+    "summary": "Organizations operating in Germany and across Europe increasingly need to demonstrate cloud security compliance under the Cloud Computing Compliance Criteria Catalogue (C5:2020), published by Germany’s Federal Office for Information Security (BSI). Last year, we introduced Landing Zone Accelerator on AWS support for digital sovereignty and today we’re announcing the availability of a new independent assessment […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Summer 2026 SOC 1 report is now available with 185 services in scope",
+    "url": "https://aws.amazon.com/blogs/security/summer-2026-soc-1-report-is-now-available-with-185-services-in-scope/",
+    "published_date": "2026-08-11T18:53:08+00:00",
+    "source_type": "vendor",
+    "summary": "Amazon Web Services (AWS) is pleased to announce that the Summer 2026 System and Organization Controls (SOC) 1 report is now available. The reports cover 185 services over the 12-month period from July 1, 2025–June 30, 2026, giving customers a full year of assurance. These reports demonstrate our continuous commitment to adhering to the heightened […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "AWS successfully completed its 2025-26 NHS DSPT assessment",
+    "url": "https://aws.amazon.com/blogs/security/aws-successfully-completed-its-2025-26-nhs-dspt-assessment/",
+    "published_date": "2026-08-11T16:12:04+00:00",
+    "source_type": "vendor",
+    "summary": "Amazon Web Services (AWS) is pleased to announce its successful completion of the 2025-26 NHS Data Security and Protection Toolkit (NHS DSPT) assessment audit and achieving a status of Standards Exceeded. The NHS DSPT is an assessment that allows organizations to measure their performance against the National Data Guardian’s 10 data security standards. All organizations […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "AWS completes the 2026 Police-Assured Secure Facilities (PASF) audit in Europe (London)",
+    "url": "https://aws.amazon.com/blogs/security/aws-completes-the-2026-police-assured-secure-facilities-pasf-audit-in-europe-london/",
+    "published_date": "2026-08-10T20:21:40+00:00",
+    "source_type": "vendor",
+    "summary": "We’re excited to announce that our Europe (London) AWS Region has renewed its accreditation for United Kingdom (UK) Police-Assured Secure Facilities (PASF) for Official-Sensitive data. Since 2017, the Amazon Web Services (AWS) Europe (London) Region has been accredited under the PASF program. This demonstrates our continuous commitment to adhere to the heightened expectations of customers […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "2026 AWS CyberVadis report now available for due diligence on third-party suppliers",
+    "url": "https://aws.amazon.com/blogs/security/2026-aws-cybervadis-report-now-available-for-due-diligence-on-third-party-suppliers/",
+    "published_date": "2026-08-10T17:09:02+00:00",
+    "source_type": "vendor",
+    "summary": "We’re excited to announce that Amazon Web Services (AWS) has completed theCyberVadis assessment of its security posture with the highest score (Mature) in all assessed areas. This demonstrates our continued commitment to meet the heightened expectations for cloud service providers. Customers can now use the 2026 AWS CyberVadis report and scorecard to reduce their supplier […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_0318651269.html",
+    "published_date": "2026-08-12T23:09:21.534000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;Hello Everyone! We've just released Chrome 152 (152.0.7977.42) for Android to a small percentage of users. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Play</a> over the next few days. You can find more details about early Stable releases <a href=\"https://developer.chrome.com/blog/early-stable/\">here</a>.</p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7922.137..152.0.7977.42?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.<br /><br />Krishna Govind<br /><a href=\"https://www.google.com/chrome/\">Google Chrome</a>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Early Stable Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/08/early-stable-update-for-desktop.html",
+    "published_date": "2026-08-12T21:11:35.511000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">152.0.7977.42/.43</span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\"> for Windows and</span><span style=\"background-color: white; color: #666666; font-family: arial; font-size: 17.3333px;\"> </span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">Mac </span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">as part of our early stable release to a <span style=\"background-color: white;\">small percentage of users. </span>A full list of changes in this build is available in the</span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\"> </span><span color=\"rgba(0, 0, 0, 0.87)\"><a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7922.138..152.0.7977.42?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\">log</a></span><span s",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for Desktop Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-desktop-update_0245028336.html",
+    "published_date": "2026-08-12T17:13:33.160000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>The Beta channel has been updated to 152.0.7977.42 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7977.30..152.0.7977.42?pretty=fuller&amp;n=10000\">Git log</a>. Interested in <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">switching</a> release channels? Find out <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">how</a>. If you find a new issue, please let us know by <a href=\"https://crbug.com/\">filing a bug</a>. The <a href=\"https://productforums.google.com/forum/#!forum/chrome\">community help forum</a> is also a great place to reach out for help or learn about common issues.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Stable for iOS Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-stable-for-ios-update_02092083187.html",
+    "published_date": "2026-08-12T16:43:33.205000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Stable 152 (152.0.7977.40) for iOS; it'll become available on App Store in the next few hours.</p><p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7922.112..152.0.7977.40?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=iOS%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-android-update_011723382.html",
+    "published_date": "2026-08-12T16:43:32.127000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 152 (152.0.7977.42) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7977.30..152.0.7977.42?pretty=fuller&amp;n=10000\">Git log</a>. For details on new features, check out the <a href=\"https://blog.chromium.org\">Chromium blog</a>, and for details on web platform updates, check <a href=\"https://www.chromestatus.com/features#milestone%3D152\">here</a>.</p><p>If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for iOS Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-ios-update_0134077563.html",
+    "published_date": "2026-08-12T16:28:32.587000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 152 (152.0.7977.41) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7977.29..152.0.7977.41?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=iOS%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_0633903601.html",
+    "published_date": "2026-08-12T04:05:15.455000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;&nbsp;&nbsp;Hi, everyone! We've just released <b>Chrome 151 (151.0.7922.137)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Play</a> over the next few days.&nbsp;</p><p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7922.108..151.0.7922.137?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><div><br /></div><div>Android releases contain the same security fixes as their corresponding<a href=\"https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01815628406.html\"> Desktop releases</a> (Windows &amp; Mac: 151.0.7922.137/138, Linux: 151.0.7922.137) unless otherwise noted.</div><div><div><br /></div><div><div>Harry Souders</div><div><a href=\"https://www.google.com/chrome/\">Google Chrome</a></div></div></div>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Extended Stable Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/08/extended-stable-update-for-desktop_01657873926.html",
+    "published_date": "2026-08-11T21:39:50.077000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 150.0.7871.230</span><span color=\"rgba(0, 0, 0, 0.87)\">&nbsp;</span><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">for Windows and Mac </span><span style=\"color: #666666; font-family: arial; font-size: large;\">which will roll out over the coming days/weeks.</span><span style=\"color: #666666; font-family: arial; font-size: large;\"> </span></p><div><span style=\"font-size: large;\"><span style=\"font-family: arial;\"><span style=\"vertical-align: baseline;\"><span style=\"color: #666666;\">A full list of changes in this build is available in the </span><a href=\"https://chromium.googlesource.com/chromium/src/+log/150.0.7871.224..150.0.7871.230?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\"><span style=\"color: black;\">log</span></a></span><span style=\"color: #666666; vertical-align: baseline;\">. Interested in switching release channels? Find out how </span><a href=\"https://www.chromium.org/getting-involved/dev-channel\" style=\"color: #4184f3; text-decoration: none;\"><span style=\"",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Stable Channel Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01815628406.html",
+    "published_date": "2026-08-11T21:20:19.929000+00:00",
+    "source_type": "vendor",
+    "summary": "<span style=\"font-size: large;\"><span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\">The Stable channel has been updated to 151.0.7922.137/.138 for Windows and</span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\"> </span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\">Mac and </span></span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\"><span style=\"color: #666666;\">151.0.7922.137 for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is available in the </span><a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7922.109..151.0.7922.138?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\">Log</a></span><span color=\"rgba(0, 0, 0, 0.87)\" face=\"Roboto, sans-serif\">&nbsp;</span></span><div><span style=\"color: #666666; font-family: Arial, sans-serif; font-size: 16pt; white-space: pre-wrap;\"><br /></span></div><div><span style=\"color: #666666; font-family: Arial, sans-serif; font-size: 16pt; white-space: pre-wrap;\">Security Fixes and Rewards</span></div><div><span style=\"color: #666666; font-family: Arial,",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Long Term Support Channel Update for ChromeOS",
+    "url": "http://chromereleases.googleblog.com/2026/08/long-term-support-channel-update-for.html",
+    "published_date": "2026-08-10T21:09:37.998000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span style=\"font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">A new LTS-144&nbsp; version </span><span style=\"background-color: white; font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">144.0.7559.259</span><span style=\"font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">(Platform Version: </span><span style=\"background-color: white; font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">16503.92.0), is being</span><span style=\"font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\"> rolled out for most ChromeOS devices.</span><span style=\"font-family: Arial, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p><span id=\"docs-internal-guid-93d8724b-7fff-d54e-b0ed-729a88047e08\"><br /><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><span style=\"fon",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "backup/38320-pre-rebase3-20260812: fix: keep trusting the Windows certificate store",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/backup%2F38320-pre-rebase3-20260812",
+    "published_date": "2026-08-12T00:33:10+00:00",
+    "source_type": "github",
+    "summary": "<p>Now that the Windows agent's curl is OpenSSL-backed it has no CA bundle at<br />\nall - configure reports \"ca cert bundle: no\" - so every HTTPS request would<br />\nfail verification. Schannel used to read the machine's ROOT and CA stores on<br />\nits own; CURLSSLOPT_NATIVE_CA asks OpenSSL for the same ones through the<br />\nWin32 crypto API.</p>\n<p>Applied where the agent speaks HTTPS on Windows: the https_client transport,<br />\nand wurl_http_request, which is what agentd's uninstall check and the<br />\ngithub, office365 and ms-graph modules go through.</p>\n<p>An explicitly configured  still stands alone - the machine's stores are<br />\nnot added on top of it, or the trust set would silently widen. Looking the<br />\nbundle up is also now skipped for plain HTTP, where it was never used.</p>",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
+    "publisher": "Release notes from wazuh",
+    "source_note": ""
+  },
+  {
+    "title": "backup/38320-pre-rebase-20260811: fix: keep trusting the Windows certificate store",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/backup%2F38320-pre-rebase-20260811",
+    "published_date": "2026-08-11T15:21:42+00:00",
+    "source_type": "github",
+    "summary": "<p>Now that the Windows agent's curl is OpenSSL-backed it has no CA bundle at<br />\nall - configure reports \"ca cert bundle: no\" - so every HTTPS request would<br />\nfail verification. Schannel used to read the machine's ROOT and CA stores on<br />\nits own; CURLSSLOPT_NATIVE_CA asks OpenSSL for the same ones through the<br />\nWin32 crypto API.</p>\n<p>Applied where the agent speaks HTTPS on Windows: the https_client transport,<br />\nand wurl_http_request, which is what agentd's uninstall check and the<br />\ngithub, office365 and ms-graph modules go through.</p>\n<p>An explicitly configured  still stands alone - the machine's stores are<br />\nnot added on top of it, or the trust set would silently widen. Looking the<br />\nbundle up is also now skipped for plain HTTP, where it was never used.</p>",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
+    "publisher": "Release notes from wazuh",
+    "source_note": ""
+  },
+  {
+    "title": "backup/38320-pre-rebase2-20260811: fix: keep trusting the Windows certificate store",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/backup%2F38320-pre-rebase2-20260811",
+    "published_date": "2026-08-11T21:11:53+00:00",
+    "source_type": "github",
+    "summary": "<p>Now that the Windows agent's curl is OpenSSL-backed it has no CA bundle at<br />\nall - configure reports \"ca cert bundle: no\" - so every HTTPS request would<br />\nfail verification. Schannel used to read the machine's ROOT and CA stores on<br />\nits own; CURLSSLOPT_NATIVE_CA asks OpenSSL for the same ones through the<br />\nWin32 crypto API.</p>\n<p>Applied where the agent speaks HTTPS on Windows: the https_client transport,<br />\nand wurl_http_request, which is what agentd's uninstall check and the<br />\ngithub, office365 and ms-graph modules go through.</p>\n<p>An explicitly configured  still stands alone - the machine's stores are<br />\nnot added on top of it, or the trust set would silently widen. Looking the<br />\nbundle up is also now skipped for plain HTTP, where it was never used.</p>",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
+    "publisher": "Release notes from wazuh",
+    "source_note": ""
+  },
+  {
+    "title": "backup/38163-pre-rebase-20260811: fix(https_client): format the module to the astyle rules",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/backup%2F38163-pre-rebase-20260811",
+    "published_date": "2026-08-11T12:31:08+00:00",
+    "source_type": "github",
+    "summary": "<p>The RTR job for client-agent/https_client stops at its AStyle stage, so<br />\ncppcheck is the only check that ever runs on the module. Two files disagree<br />\nwith ci/input/astyle.config: a continuation line in httpsClientFacade.cpp and,<br />\nin statelessStream_test.cpp, another continuation plus a braced initializer<br />\nwhose brace has to sit on its own line under Allman.</p>\n<p>Output of build.py --sformat, so it is whitespace only.</p>",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
+    "publisher": "Release notes from wazuh",
+    "source_note": ""
+  },
+  {
+    "title": "coverity-w33-4.14.8",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/coverity-w33-4.14.8",
+    "published_date": "2026-08-10T14:36:40+00:00",
+    "source_type": "github",
+    "summary": "<p>Merge pull request <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/38271\">#38271</a> from wazuh/fix/38265-remove-stale-ec2-timin…</p>",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
+    "publisher": "Release notes from wazuh",
+    "source_note": ""
+  },
+  {
+    "title": "Why Defensive AI Has a Harder Job Than Offensive AI",
+    "url": "https://www.nextron-systems.com/2026/08/12/why-defensive-ai-has-a-harder-job-than-offensive-ai/",
+    "published_date": "2026-08-12T15:40:36+00:00",
+    "source_type": "detection",
+    "summary": "<p>The post <a href=\"https://www.nextron-systems.com/2026/08/12/why-defensive-ai-has-a-harder-job-than-offensive-ai/\">Why Defensive AI Has a Harder Job Than Offensive AI</a> appeared first on <a href=\"https://www.nextron-systems.com\">Nextron Systems</a>.</p>",
+    "feed_source": "https://www.nextron-systems.com/feed/",
+    "publisher": "Nextron Systems",
+    "source_note": ""
+  },
+  {
+    "title": "New in THOR Cloud: SSO, Granular Permissions, and Account API Keys",
+    "url": "https://www.nextron-systems.com/2026/08/10/new-in-thor-cloud-sso-granular-permissions-and-account-api-keys/",
+    "published_date": "2026-08-10T12:58:02+00:00",
+    "source_type": "detection",
+    "summary": "<p>The post <a href=\"https://www.nextron-systems.com/2026/08/10/new-in-thor-cloud-sso-granular-permissions-and-account-api-keys/\">New in THOR Cloud: SSO, Granular Permissions, and Account API Keys</a> appeared first on <a href=\"https://www.nextron-systems.com\">Nextron Systems</a>.</p>",
+    "feed_source": "https://www.nextron-systems.com/feed/",
+    "publisher": "Nextron Systems",
+    "source_note": ""
+  },
+  {
+    "title": "Release 0.77.2",
+    "url": "https://github.com/Velocidex/velociraptor/releases/tag/v0.77.2",
+    "published_date": "2026-08-10T11:18:05+00:00",
+    "source_type": "github",
+    "summary": "<p>This is a release to address the CVEs published <a href=\"https://docs.velociraptor.app/announcements/advisories/v0-77-2/\" rel=\"nofollow\">in the 0.77.2 release cycle</a>.</p>",
+    "feed_source": "https://github.com/Velocidex/velociraptor/releases.atom",
+    "publisher": "Release notes from velociraptor",
+    "source_note": ""
+  },
+  {
+    "title": "Release 0.76.7",
+    "url": "https://github.com/Velocidex/velociraptor/releases/tag/v0.76.7",
+    "published_date": "2026-08-10T11:16:58+00:00",
+    "source_type": "github",
+    "summary": "<p>This is a back ported release for 0.76 branch to address some of the CVEs published <a href=\"https://docs.velociraptor.app/announcements/advisories/v0-77-2/\" rel=\"nofollow\">in the 0.77.2 release cycle</a>.</p>",
+    "feed_source": "https://github.com/Velocidex/velociraptor/releases.atom",
+    "publisher": "Release notes from velociraptor",
+    "source_note": ""
   }
 ]
