@@ -1,81 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/": {
-    "enriched_at": "2026-08-02T10:31:22.176828+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-1234",
-        "product": "Rails Active Storage framework",
-        "vendor": "Ruby on Rails",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "Unauthenticated RCE and file read vulnerability in Active Storage.",
-        "exploitation_status": "Exploited",
-        "remediation": "Patched with latest version of Rails",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare"
-    ]
-  },
-  "https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/": {
-    "enriched_at": "2026-08-02T10:32:21.086221+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Water and Wastewater Systems"
-    ]
-  },
-  "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/": {
-    "enriched_at": "2026-08-02T10:32:21.086221+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Ruby on Rails",
-        "vendor": "Ruby on Rails",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE).",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Water and Wastewater Systems"
-    ]
-  },
-  "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html": {
-    "enriched_at": "2026-08-02T10:33:18.324135+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Healthcare",
-      "Government"
-    ]
-  },
-  "https://www.helpnetsecurity.com/2026/08/02/week-in-review-claude-breached-three-companies-during-tests-ad-cs-domain-takeover-poc-released/": {
-    "enriched_at": "2026-08-02T10:35:44.062972+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/": {
     "enriched_at": "2026-08-04T18:46:05.356752+00:00",
     "incidents": [
@@ -1252,14 +1175,6 @@
     "industries": []
   },
   "https://isc.sans.edu/diary/rss/33210": {
-    "enriched_at": "2026-08-04T18:58:21.640048+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://isc.sans.edu/diary/rss/33208": {
     "enriched_at": "2026-08-04T18:58:21.640048+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -11177,5 +11092,47 @@
     "actors": [],
     "hunting_indicators": [],
     "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/": {
+    "enriched_at": "2026-08-16T10:31:12.501217+00:00",
+    "incidents": [
+      {
+        "headline": "Salesforce and ServiceNow portals exposed for 17 months, exploited Metabase 0-day",
+        "summary": "Portals of Salesforce and ServiceNow were exposed for 17 months and exploited using a Metabase 0-day.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Metabase",
+        "vendor": null,
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A critical vulnerability in Metabase was exploited to compromise Salesforce and ServiceNow portals.",
+        "exploitation_status": "Exploited",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/": {
+    "enriched_at": "2026-08-16T10:31:12.501217+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
   }
 }

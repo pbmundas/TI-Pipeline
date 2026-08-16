@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-08-16",
+    "generated_at": "2026-08-16T10:41:43.992907+00:00",
+    "title": "Daily Threat Intelligence Report — August 16, 2026",
+    "description": "Executive Brief: Cybersecurity Threat Landscape Overview Recent Incidents and Vulnerabilities Siemens Solid Edge and Simcenter Femap Siemens products, including Solid Edge SE2025 and Simcenter Femap, are affected by critical file parsing vulnerabilities. These flaws could lead to arbitrary code execution or application",
+    "url": "./reports/2026-08-16.html",
+    "data_url": "./reports/2026-08-16.json",
+    "counts": {
+      "sources": 313,
+      "stories": 4,
+      "actors": 5,
+      "vulnerabilities": 8,
+      "hunting_leads": 5
+    }
+  },
+  {
     "date": "2026-08-15",
     "generated_at": "2026-08-15T11:06:14.628349+00:00",
     "title": "Daily Threat Intelligence Report — August 15, 2026",
