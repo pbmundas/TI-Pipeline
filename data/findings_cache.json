@@ -174,36 +174,6 @@
       "Law enforcement"
     ]
   },
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/": {
-    "enriched_at": "2026-08-04T18:46:51.470517+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Law enforcement"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/": {
-    "enriched_at": "2026-08-04T18:46:51.470517+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Law enforcement"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/": {
-    "enriched_at": "2026-08-04T18:46:51.470517+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Law enforcement"
-    ]
-  },
   "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01": {
     "enriched_at": "2026-08-04T18:48:41.748394+00:00",
     "incidents": [
@@ -694,88 +664,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html": {
-    "enriched_at": "2026-08-04T18:53:18.746821+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html": {
-    "enriched_at": "2026-08-04T18:53:18.746821+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-17583",
-        "product": "Applied Biosystems human identification software",
-        "vendor": "Thermo Fisher Scientific",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A flaw could allow nearly undetectable changes to .fsa and .hid outputs if laboratory controls are circumvented.",
-        "exploitation_status": "PATCHED",
-        "remediation": "Patched in July 31 security bulletin.",
-        "source_urls": [
-          "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html": {
-    "enriched_at": "2026-08-04T18:54:03.250818+00:00",
-    "incidents": [
-      {
-        "headline": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-        "summary": "Attackers exploited an authentication bypass in N-central to gain remote administrative access and reach customer systems managed through those servers.",
-        "source_urls": [
-          "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-18577",
-        "product": "N-central",
-        "vendor": "N-able",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Affects N-central builds prior to 2026.3.1.7.",
-        "exploitation_status": "Exploited",
-        "remediation": "Shipped build 2026.3.1.7 as the first unaffected version.",
-        "source_urls": [
-          "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
-        ]
-      }
-    ],
-    "actors": [
-      {
-        "name": null,
-        "aliases": [],
-        "motivation": null,
-        "recent_activity": "Exploiting authentication bypass in N-central",
-        "targets": [
-          "N-able customers"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html": {
-    "enriched_at": "2026-08-04T18:54:03.250818+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://therecord.media/interview-jim-hockenhull-uk-defence-intelligence-russia-ukraine": {
     "enriched_at": "2026-08-04T18:54:03.250818+00:00",
     "incidents": [],
@@ -940,22 +828,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/": {
-    "enriched_at": "2026-08-04T18:55:20.968456+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.tenable.com/blog/testing-claude-mythos-preview-for-code-security-tenable": {
-    "enriched_at": "2026-08-04T18:56:29.519019+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/": {
     "enriched_at": "2026-08-04T18:56:29.519019+00:00",
     "incidents": [
@@ -1012,14 +884,6 @@
         ]
       }
     ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/": {
-    "enriched_at": "2026-08-04T18:56:29.519019+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
     "industries": []
@@ -1115,14 +979,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.rapid7.com/blog/post/c-rapid7-exclusive-networks-expand-uk-ireland-partnership": {
-    "enriched_at": "2026-08-04T18:57:50.705233+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/": {
     "enriched_at": "2026-08-04T18:57:50.705233+00:00",
     "incidents": [],
@@ -1167,14 +1023,6 @@
     "industries": []
   },
   "https://isc.sans.edu/diary/rss/33212": {
-    "enriched_at": "2026-08-04T18:58:21.640048+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://isc.sans.edu/diary/rss/33210": {
     "enriched_at": "2026-08-04T18:58:21.640048+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -1310,22 +1158,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.socinvestigation.com/f1-cricket-and-cyber-risk-for-bangladeshi-sports-fans/": {
-    "enriched_at": "2026-08-04T19:01:58.755678+00:00",
-    "incidents": [
-      {
-        "headline": "F1, Cricket and Cyber Risk for Bangladeshi Sports Fans",
-        "summary": "Bangladeshi sports fans use a mix of live scores, social feeds, short video clips, and mobile alerts to follow matches. Formula 1 has created its own audience.",
-        "source_urls": [
-          "https://www.socinvestigation.com/f1-cricket-and-cyber-risk-for-bangladeshi-sports-fans/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://github.com/Yamato-Security/hayabusa/releases/tag/v4.0.0": {
     "enriched_at": "2026-08-04T19:01:58.755678+00:00",
     "incidents": [],
@@ -1357,14 +1189,6 @@
     "industries": []
   },
   "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.3": {
-    "enriched_at": "2026-08-04T19:01:58.755678+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.3-beta.2": {
     "enriched_at": "2026-08-04T19:01:58.755678+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -11134,5 +10958,378 @@
     "industries": [
       "Enterprise"
     ]
+  },
+  "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/": {
+    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
+    "incidents": [
+      {
+        "headline": "French tax authority data breach affects 678,000 individuals",
+        "summary": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance, Cryptocurrency, Software"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/": {
+    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-69414",
+        "product": "Microsoft Defender",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A zero-day vulnerability called ShieldBreak was disclosed by a security researcher and is being patched by Microsoft.",
+        "exploitation_status": "DISCLOSED",
+        "remediation": "A patch is in development.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Nightmare Eclipse",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Disclosed a zero-day vulnerability and claimed to be selling stolen data from SafePal customers.",
+        "targets": [
+          "SafePal, Microsoft Defender"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+          "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance, Cryptocurrency, Software"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/": {
+    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
+    "incidents": [
+      {
+        "headline": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+        "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Nightmare Eclipse",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Disclosed a zero-day vulnerability and claimed to be selling stolen data from SafePal customers.",
+        "targets": [
+          "SafePal, Microsoft Defender"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+          "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance, Cryptocurrency, Software"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/": {
+    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance, Cryptocurrency, Software"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/": {
+    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance, Cryptocurrency, Software"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/": {
+    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "AmnesiaStealer macOS malware",
+        "context": "Information-stealing malware targeting macOS users via ClickFix attacks.",
+        "indicators": [
+          "streaming module for remote browser control"
+        ],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/"
+        ]
+      }
+    ],
+    "industries": [
+      "Finance, Cryptocurrency, Software"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/": {
+    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
+    "incidents": [
+      {
+        "headline": "Police bust cybercrime ring accused of stealing €30 million in four-day spree",
+        "summary": "German and Brazilian police dismantled an international bank fraud ring blamed for a €30 million cyberattack on a German financial institution, arresting four people in Brazil and pursuing three more suspects in Spain and Bulgaria.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": null,
+        "aliases": [
+          "Klonen"
+        ],
+        "motivation": "Financial gain",
+        "recent_activity": "Executing a four-day cyberattack on a German financial institution, stealing €30 million.",
+        "targets": [
+          "German financial institutions"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/": {
+    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Windows 11",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Researchers found a way to bypass some of the strongest security defenses in Windows 11 without physically opening or modifying the target machine.",
+        "exploitation_status": "RESEARCHED",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/17/hazmat-open-source-ai-coding-agent-containment/": {
+    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/17/product-showcase-scamnet-consumer-security-app/": {
+    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/17/ai-adoption-revenue-growth-research/": {
+    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/": {
+    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": null,
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Exploiting a vulnerability in a plugin to access customer information.",
+        "targets": [
+          "SafePal customers"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/": {
+    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
+    "incidents": [
+      {
+        "headline": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
+        "summary": "Threat actors exploited a recent vulnerability in macOS screen sharing to gain root access and deploy a Monero miner.",
+        "source_urls": [
+          "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Threat actors",
+        "aliases": [],
+        "motivation": "Financial gain (mining Monero)",
+        "recent_activity": "Exploiting macOS screen sharing vulnerability and claiming data theft from Fortune 500 companies.",
+        "targets": [
+          "Fortune 500 companies",
+          "macOS systems"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
+          "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Retail",
+      "Telecommunications"
+    ]
+  },
+  "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/": {
+    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-58231",
+        "product": "SAP Commerce Cloud",
+        "vendor": "SAP",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "The vulnerability can be exploited to execute arbitrary code and compromise internal components.",
+        "exploitation_status": "Exploited 3 days after disclosure",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Retail",
+      "Telecommunications"
+    ]
+  },
+  "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/": {
+    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
+    "incidents": [
+      {
+        "headline": "Fortune 500 Companies Hit in Azure Data Theft Campaign",
+        "summary": "A threat actor claimed the exfiltration of millions of records from Fortune 500 companies including McDonald’s, TCS, and Vodafone.",
+        "source_urls": [
+          "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Threat actors",
+        "aliases": [],
+        "motivation": "Financial gain (mining Monero)",
+        "recent_activity": "Exploiting macOS screen sharing vulnerability and claiming data theft from Fortune 500 companies.",
+        "targets": [
+          "Fortune 500 companies",
+          "macOS systems"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
+          "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Retail",
+      "Telecommunications"
+    ]
+  },
+  "https://isc.sans.edu/diary/rss/33250": {
+    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Retail",
+      "Telecommunications"
+    ]
+  },
+  "https://isc.sans.edu/diary/rss/33248": {
+    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Retail",
+      "Telecommunications"
+    ]
+  },
+  "https://www.rapid7.com/blog/post/c-starlink-distribution-partnership-africa": {
+    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Retail",
+      "Telecommunications"
+    ]
+  },
+  "https://www.socinvestigation.com/how-quantum-key-distribution-stops-silent-data-interception/": {
+    "enriched_at": "2026-08-17T10:34:20.816310+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
   }
 }
