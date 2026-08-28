@@ -35852,5 +35852,695 @@
     "feed_source": "https://github.com/zeek/zeek/releases.atom",
     "publisher": "Release notes from zeek",
     "source_note": ""
+  },
+  {
+    "title": "AI-assisted reconnaissance: Why everyone could be a viable target for fraud",
+    "url": "https://www.welivesecurity.com/en/privacy/ai-powered-osint-why-everyone-viable-target-fraud/",
+    "published_date": "2026-08-27T09:00:00+00:00",
+    "source_type": "research",
+    "summary": "It’s getting cheaper and easier for cybercriminals to research potential victims. Here’s what’s still in your control.",
+    "feed_source": "https://www.welivesecurity.com/en/rss/feed/",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "Rockwell Automation OTTO Fleet Manager",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-03",
+    "published_date": "2026-08-27T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-239-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could reduce the computational cost required for an attacker to perform offline brute-force attacks against stored password hashes.</strong></p>\n<p>The following versions of Rockwell Automation OTTO Fleet Manager are affected:</p>\n<ul>\n<li>OTTO Fleet Manager &lt;=V2.36.2 (CVE-2026-75112)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 6.8</td>\n<td>Rockwell Automation</td>\n<td>Rockwell Automation OTTO Fleet Manager</td>\n<td>Use of Password Hash With Insufficient Computational Effort</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing, Transportation Systems</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>United States</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"c",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Xiiaozet LK100W",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-01",
+    "published_date": "2026-08-27T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-239-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to take control over the device.</strong></p>\n<p>The following versions of Xiiaozet LK100W are affected:</p>\n<ul>\n<li>LK100W &lt;2.1.240 (CVE-2026-78037, CVE-2026-78239, CVE-2026-76943)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>Xiiaozet</td>\n<td>Xiiaozet LK100W</td>\n<td>Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'), Missing Authentication for Critical Function, Authentication Bypass Using an Alternate Path or Channel</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Information Technology</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>China</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-acc",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Mitsubishi Electric CNC Series (Update A)",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05",
+    "published_date": "2026-08-27T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-078-05.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service condition in the affected products.</strong></p>\n<p>The following versions of Mitsubishi Electric CNC Series (Update A) are affected:</p>\n<ul>\n<li>Mitsubishi Electric M800VW (BND-2051W000) &lt;=BB (CVE-2025-2399)</li>\n<li>Mitsubishi Electric M800VS (BND-2052W000) &lt;=BB (CVE-2025-2399)</li>\n<li>Mitsubishi Electric M80V (BND-2053W000) &lt;=BB (CVE-2025-2399)</li>\n<li>Mitsubishi Electric M80VW (BND-2054W000) &lt;=BB (CVE-2025-2399)</li>\n<li>Mitsubishi Electric M800W (BND-2005W000) &lt;=FM (CVE-2025-2399)</li>\n<li>Mitsubishi Electric M800S (BND-2006W000) &lt;=FM (CVE-2025-2399)</li>\n<li>Mitsubishi Electric M80 (BND-2007W000) &lt;=FM (CVE-2025-2399)</li>\n<li>Mitsubishi Electric M80W (BND-2008W000) &lt;=FM (CVE-2025-2399)</li>\n<li>Mitsubishi Electric E80 (BND-2009W000) &lt;=FM (CVE-2025-2399)</li>\n<li>Mitsubishi Electric C80 (BND-2036W000) vers:all/* (CVE-2025-2399)</li>\n<li>Mitsubish",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Mitsubishi Electric Multiple FA Products (Update D)",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03",
+    "published_date": "2026-08-27T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2025/icsa-25-128-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition, a timeout error, or a communication delay by sending a specially crafted UDP packet to the product.</strong></p>\n<p>The following versions of Mitsubishi Electric Multiple FA Products (Update D) are affected:</p>\n<ul>\n<li>Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32D &lt;=09 (CVE-2025-3511)</li>\n<li>Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32T &lt;=09 (CVE-2025-3511)</li>\n<li>Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32TE &lt;=09 (CVE-2025-3511)</li>\n<li>Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32DT &lt;=09 (CVE-2025-3511)</li>\n<li>Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2S1-32DTE &lt;=09 (CVE-2025-3511)</li>\n<li>Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32D &lt;=09 (CVE-2025-3511)</li>\n<li>Mitsubishi Electric CC-Link IE TSN Remote I/O module NZ2GN2B1-32T &lt;=09 (CVE-2025-3511)</li",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+    "published_date": "2026-08-27T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added three new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<div class=\"ListContainerWrapper SCXW183571888 BCX8\">\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2023-49105\" target=\"_blank\">CVE-2023-49105</a> ownCloud Improper Authentication Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-53362\" target=\"_blank\">CVE-2026-53362</a> Linux Kernel Unspecified Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-66384\" target=\"_blank\">CVE-2026-66384</a> JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability&nbsp;</li>\n</ul>\n</div>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirement",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Ebyte NA111-M",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05",
+    "published_date": "2026-08-27T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-239-05.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to fully compromise the device.</strong></p>\n<p>The following versions of Ebyte NA111-M are affected:</p>\n<ul>\n<li>NA111-M Firmware 9013-2-17 (CVE-2026-73125, CVE-2026-76179, CVE-2026-75814, CVE-2026-76940, CVE-2026-77966, CVE-2026-73809, CVE-2026-71187, CVE-2026-75548, CVE-2026-69658, CVE-2026-76133, CVE-2026-73819, CVE-2026-77975, CVE-2026-77977)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>Ebyte</td>\n<td>Ebyte NA111-M</td>\n<td>Missing Authentication for Critical Function, Use of GET Request Method With Sensitive Query Strings, Cross-Site Request Forgery (CSRF), Improper Restriction of Excessive Authentication Attempts, Missing Authorization, Cleartext Transmission of Sensitive Information, Use of Client-Side Authentication, Improper Restriction of Rendered UI Layers or Frames, Use ",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "All-Line Equipment Company Fuel-Boss",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
+    "published_date": "2026-08-27T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-239-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems.</strong></p>\n<p>The following versions of All-Line Equipment Company Fuel-Boss are affected:</p>\n<ul>\n<li>Fuel-Boss V1 Standard &gt;=|&lt;=PHP_7.1.5_7.1.5 (CVE-2018-19518, CVE-2019-11043)</li>\n<li>Fuel-Boss V1 Portal &gt;=|&lt;=PHP_7.1.5_7.1.5 (CVE-2018-19518, CVE-2019-11043)</li>\n<li>Fuel-Boss V1 Master/Slave &gt;=|&lt;=PHP_7.1.5_7.1.5 (CVE-2018-19518, CVE-2019-11043)</li>\n<li>Fuel-Boss V1 Backflush Systems &gt;=|&lt;=PHP_7.1.5_7.1.5 (CVE-2018-19518, CVE-2019-11043)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 8.7</td>\n<td>All-Line Equipment Company</td>\n<td>All-Line Equipment Company Fuel-Boss</td>\n<td>Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'), Buffer Copy without Checking Size of Input ('C",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Applied Systems Engineering ASE2000 V2 Communications Test Set",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-04",
+    "published_date": "2026-08-27T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-239-04.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to read or write arbitrary local files, cause the application to issue outbound network requests, or intercept the connection to impersonate the trusted peer, complete the TLS handshake, and read or modify the protected communications.</strong></p>\n<p>The following versions of Applied Systems Engineering ASE2000 V2 Communications Test Set are affected:</p>\n<ul>\n<li>ASE2000 &gt;=2.25|&lt;=2.37 (CVE-2018-1285, CVE-2026-18717)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>Applied Systems Engineering</td>\n<td>Applied Systems Engineering ASE2000 V2 Communications Test Set</td>\n<td>Improper Restriction of XML External Entity Reference, Improper Certificate Validation</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Chemical, C",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "ServiceNow warns of three max severity security vulnerabilities",
+    "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+    "published_date": "2026-08-28T10:29:42+00:00",
+    "source_type": "news",
+    "summary": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Windows 11 KB5120998 update released with 35 changes and fixes",
+    "url": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
+    "published_date": "2026-08-28T09:10:13+00:00",
+    "source_type": "news",
+    "summary": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
+    "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
+    "published_date": "2026-08-27T21:38:53+00:00",
+    "source_type": "news",
+    "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+    "published_date": "2026-08-27T16:31:53+00:00",
+    "source_type": "news",
+    "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Manchester Airports Group says hackers stole travelers' data",
+    "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
+    "published_date": "2026-08-27T16:12:26+00:00",
+    "source_type": "news",
+    "summary": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
+    "url": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
+    "published_date": "2026-08-27T14:00:10+00:00",
+    "source_type": "news",
+    "summary": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Android 17 adds ECH support to make web browsing harder to track",
+    "url": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
+    "published_date": "2026-08-27T14:00:00+00:00",
+    "source_type": "news",
+    "summary": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+    "published_date": "2026-08-27T13:31:13+00:00",
+    "source_type": "news",
+    "summary": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft rolls out fix for Windows 11 crashes, gaming issues",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues/",
+    "published_date": "2026-08-27T12:16:32+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has started rolling out a permanent fix for a known issue that causes system crashes and gaming issues on Windows 11 devices. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Webinar: How Google Workspace breaches happen and what to do next",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/",
+    "published_date": "2026-08-27T12:16:24+00:00",
+    "source_type": "news",
+    "summary": "Google Workspace breaches can begin with social engineering or forgotten third-party integrations rather than sophisticated exploits. This webinar examines real-world breaches, what happens during the critical first hours, and the security controls that can make the greatest difference. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Carhartt data breach exposes information of 12.9 million accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
+    "published_date": "2026-08-27T11:10:04+00:00",
+    "source_type": "news",
+    "summary": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwned. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "White House bans foreign-made equipment for power generation over cyber backdoor concerns",
+    "url": "https://therecord.media/trump-cyber-electricity-parts",
+    "published_date": "2026-08-27T19:45:00+00:00",
+    "source_type": "news",
+    "summary": "The Trump administration is banning the acquisition of foreign-made components used to manage electricity and power, alleging that “certain foreign actors are increasingly creating and exploiting vulnerabilities” in the technology.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Finland appeals court revives case against Eagle S Officers over cable breaks",
+    "url": "https://therecord.media/finland-appeals-court-revives-case-against-eagle-s",
+    "published_date": "2026-08-27T15:30:00+00:00",
+    "source_type": "news",
+    "summary": "The appeals court sent the case back to the Helsinki District Court to be heard on its merits, although the three men, who had previously been detained in Finland, have since left the country.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Chinese and Russian spies stepping up cyberattacks, German companies report",
+    "url": "https://therecord.media/germany-cyberattacks-china-russia",
+    "published_date": "2026-08-27T14:45:00+00:00",
+    "source_type": "news",
+    "summary": "Foreign intelligence services, particularly those from China and Russia, are increasingly behind cyberattacks on German companies, according to a new survey of the country’s private sector.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Cyberattack on Manchester Airports Group exposes data of 8.7 million customers",
+    "url": "https://therecord.media/cyberattack-on-manchester-airports-group-exposes-millions-customer-info",
+    "published_date": "2026-08-27T13:15:00+00:00",
+    "source_type": "news",
+    "summary": "A spokesperson told The Yorkshire Post that roughly 8.7 million people were impacted, although they did not provide a date range. They added that in the “vast majority” of cases, the only information accessed was an email address.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Australia charges two men for TeamPCP supply-chain hacking spree",
+    "url": "https://therecord.media/australia-teampcp-hackers-arrested",
+    "published_date": "2026-08-27T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "Two men in Australia were charged Wednesday over their alleged membership in TeamPCP, the cybercrime group blamed for one of the most damaging hacking campaigns of the past year.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Android 17 adds new protections against sneaky Wi-Fi tracking and web snooping",
+    "url": "https://www.helpnetsecurity.com/2026/08/28/android-17-network-security-features/",
+    "published_date": "2026-08-28T09:28:39+00:00",
+    "source_type": "news",
+    "summary": "<p>Google introduced a batch of network security changes coming in Android 17, aimed at making it harder for network operators, snoops, and scammers to track what you do on your phone. “When you visit a website or use an app, even if the connection is encrypted by HTTPS, the domain names of the sites you visit are still visible to network operators and eavesdroppers. This unencrypted data can be used to build user profiles or, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/28/android-17-network-security-features/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/28/android-17-network-security-features/\">Android 17 adds new protections against sneaky Wi-Fi tracking and web snooping</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Manchester Airports Group breached, millions of customers’ data stolen",
+    "url": "https://www.helpnetsecurity.com/2026/08/28/manchester-airports-group-data-breach/",
+    "published_date": "2026-08-28T07:56:17+00:00",
+    "source_type": "news",
+    "summary": "<p>Someone broke into the systems of Manchester Airports Group (MAG) and walked away with a &#8220;quantity&#8221; of customer data from three UK airports, the company has confirmed.</p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/28/manchester-airports-group-data-breach/\">Manchester Airports Group breached, millions of customers’ data stolen</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "What 90 days and a small budget can buy in AI agent security",
+    "url": "https://www.helpnetsecurity.com/2026/08/28/prasad-tharippala-versa-securing-ai-agents/",
+    "published_date": "2026-08-28T05:30:40+00:00",
+    "source_type": "news",
+    "summary": "<p>In this interview with Help Net Security, Prasad Tharippala, Field CISO at Versa, explains what organizations miss when they run open-weight models in house. He covers the hidden costs of GPU infrastructure, licensing review and staffing, and why hardening and incident response become the buyer&#8217;s job. He walks through red-teaming AI agents, what counts as a failing result, and the five questions buyers should ask agent platforms. For teams with 90 days and little budget, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/28/prasad-tharippala-versa-securing-ai-agents/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/28/prasad-tharippala-versa-securing-ai-agents/\">What 90 days and a small budget can buy in AI agent security</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "New infosec products of the month: August 2026",
+    "url": "https://www.helpnetsecurity.com/2026/08/28/new-infosec-products-of-the-month-august-2026/",
+    "published_date": "2026-08-28T04:00:52+00:00",
+    "source_type": "news",
+    "summary": "<p>Here’s a look at the most interesting products from the past week, featuring releases from A10 Networks, Abnormal AI, F5 Networks, Intezer, Netscout, ScienceLogic, Searchlight Cyber, SelectHub, ServiceNow, Snyk, Tanium, and Tufin. ServiceNow organizes autonomous security around six solution areas ServiceNow has announced an acceleration of its Autonomous Security vision with six unified solutions that help deliver prevention-first, AI-native cyber defense across unified exposure management, continuous vulnerability detection, cyber-physical security, identity and access security, and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/28/new-infosec-products-of-the-month-august-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/28/new-infosec-products-of-the-month-august-2026/\">New infosec products of the month: August 2026</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Two alleged TeamPCP hackers arrested over global supply chain attacks",
+    "url": "https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/",
+    "published_date": "2026-08-27T13:59:02+00:00",
+    "source_type": "news",
+    "summary": "<p>Two men from Western Australia have been charged after police allege they were part of TeamPCP, a cybercrime group that planted malicious code in open-source software, then used it to break into organizations around the world. The Australian Federal Police (AFP), working with the FBI and Western Australia Police Force (WAPF), arrested a 21-year-old from Cottesloe and a 23-year-old from Mandurah on August 26. The 21-year-old Cottesloe man was charged with eight offences, including possessing &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/\">Two alleged TeamPCP hackers arrested over global supply chain attacks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Cyberattack causes network outage at Boston Scientific, disrupts global operations",
+    "url": "https://www.helpnetsecurity.com/2026/08/27/boston-scientific-cyberattack-network-outage/",
+    "published_date": "2026-08-27T12:00:58+00:00",
+    "source_type": "news",
+    "summary": "<p>Medical technology company Boston Scientific suffered a cyberattack that disrupted its IT systems and caused a network outage, affecting global operations. Boston Scientific makes devices for minimally invasive procedures, including stents, catheters, pacemakers and defibrillators. According to its website, the company employs 59,000 people across 127 countries, treats an estimated 48 million patients a year, and posted more than $20 billion in net sales in 2025. The company said it noticed an incident on August &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/27/boston-scientific-cyberattack-network-outage/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/27/boston-scientific-cyberattack-network-outage/\">Cyberattack causes network outage at Boston Scientific, disrupts global operations</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Unknown PaperCut NG/MF vulnerability is under active attack",
+    "url": "https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/",
+    "published_date": "2026-08-27T11:59:33+00:00",
+    "source_type": "news",
+    "summary": "<p>A yet unspecified vulnerability affecting print management solutions PaperCut NG and PaperCut MF is being exploited by attackers, PaperCut Software warned today. &#8220;We are aware of confirmed customer incidents and are treating this matter with the highest priority,&#8221; the vendor said. What is PaperCut NG/MF? PaperCut NG is print management software for places like offices, schools, and other organizations. PaperCut MF (&#8220;Multi-Function&#8221;) is the upgraded version that works directly with the big all-in-one office copier &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/\">Unknown PaperCut NG/MF vulnerability is under active attack</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "PaperCut Releases Emergency Patch for Exploited Zero-Day",
+    "url": "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
+    "published_date": "2026-08-28T08:40:36+00:00",
+    "source_type": "news",
+    "summary": "<p>A CVE identifier has not yet been assigned, but PaperCut is urging NG/MF users to install patches and implement mitigations.</p>\n<p>The post <a href=\"https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/\">PaperCut Releases Emergency Patch for Exploited Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear",
+    "url": "https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear/",
+    "published_date": "2026-08-27T14:17:26+00:00",
+    "source_type": "news",
+    "summary": "<p>The White House’s new executive order 14420 widens scrutiny of industrial control systems over cyber sabotage concerns.</p>\n<p>The post <a href=\"https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear/\">Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Australia Arrests 2 Alleged TeamPCP Hackers",
+    "url": "https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/",
+    "published_date": "2026-08-27T12:48:03+00:00",
+    "source_type": "news",
+    "summary": "<p>Australian and US authorities collaborated to identify and charge the alleged cybercriminals, who face many years in prison.</p>\n<p>The post <a href=\"https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/\">Australia Arrests 2 Alleged TeamPCP Hackers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack",
+    "url": "https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/",
+    "published_date": "2026-08-27T11:58:01+00:00",
+    "source_type": "news",
+    "summary": "<p>New training environments will teach AI models to distrust instructions arriving from other agents outside sanctioned channels.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-agents-coordinated-via-makeshift-message-board-ahead-of-hugging-face-hack/\">OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security",
+    "url": "https://www.securityweek.com/okta-shares-surge-on-strong-earnings-growing-demand-for-ai-identity-security/",
+    "published_date": "2026-08-27T11:53:10+00:00",
+    "source_type": "news",
+    "summary": "<p>The identity security company beat quarterly expectations and raised its outlook as enterprises face growing pressure to secure AI agents and other non-human identities.</p>\n<p>The post <a href=\"https://www.securityweek.com/okta-shares-surge-on-strong-earnings-growing-demand-for-ai-identity-security/\">Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite",
+    "url": "https://www.securityweek.com/ciso-conversations-chris-wheeler-trust-is-the-job-from-the-navy-to-the-c-suite/",
+    "published_date": "2026-08-27T11:15:00+00:00",
+    "source_type": "news",
+    "summary": "<p>SecurityWeek talks to Chris Wheeler, CISO at Resilience, about his journey from the Navy to becoming a cybersecurity leader.</p>\n<p>The post <a href=\"https://www.securityweek.com/ciso-conversations-chris-wheeler-trust-is-the-job-from-the-navy-to-the-c-suite/\">CISO Conversations: Chris Wheeler – Trust Is the Job, From the Navy to the C-Suite</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+    "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+    "published_date": "2026-08-28T09:45:15+00:00",
+    "source_type": "news",
+    "summary": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-65643, impacts all supported versions of cPanel &amp; WHM.\n\ncPanel described the issue as a critical security vulnerability and said that an",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
+    "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+    "published_date": "2026-08-28T08:25:36+00:00",
+    "source_type": "news",
+    "summary": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks.\n\nThe company has released an emergency patch for v25 and v26 to address the issue. It said it's \"aware of confirmed customer incidents and is treating this matter with the highest priority.\" An",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
+    "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+    "published_date": "2026-08-28T08:20:59+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026.\n\nThese campaigns, per Recorded Future Insikt Group, have led to the deployment of a previously undocumented backdoor dubbed HOOKEDGE, a lightweight Windows batch script that's distributed via",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+    "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+    "published_date": "2026-08-27T18:36:19+00:00",
+    "source_type": "news",
+    "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May.\n\nThe incident, the company said, took place during cybersecurity evaluations of several OpenAI models, and that it was mainly fueled by what it described as a \"highly capable",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+    "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+    "published_date": "2026-08-27T15:13:00+00:00",
+    "source_type": "news",
+    "summary": "Credit:&nbsp;Hacktron\nVercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem.\n\nThe Windows path traversal, tracked as&nbsp;CVE-2026-75604&",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
+    "url": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
+    "published_date": "2026-08-27T15:12:16+00:00",
+    "source_type": "news",
+    "summary": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine.\n\nThe rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waiting before showing their real behavior, exposed systems getting scanned, and exploit windows shrinking again. Different",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+    "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+    "published_date": "2026-08-27T13:39:56+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers.\n\nThe security flaw, which does not have a CVE identifier, works against Kiro IDE 0.7.45 on Windows, according to Mindgard. The latest version of",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+    "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+    "published_date": "2026-08-27T11:56:30+00:00",
+    "source_type": "news",
+    "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.\n\nThe challenge is no longer just finding another vulnerability or",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
+    "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+    "published_date": "2026-08-27T11:56:26+00:00",
+    "source_type": "news",
+    "summary": "The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026 compromise of the open-source security scanners Trivy and Checkmarx KICS and the AI gateway LiteLLM.\n\nLouis Michael Gaebler, 23, and Ruben Ian Thomson, 21, appeared in Perth Magistrates Court on August 27,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "What the Data Says About AI in Security Operations in 2026",
+    "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+    "published_date": "2026-08-27T11:30:00+00:00",
+    "source_type": "news",
+    "summary": "AI is officially mainstream in security operations. According to Prophet Security's State of AI in Security Operations 2026 report (produced from ViB’s survey of 250+ cybersecurity pros), 40% of security teams now use AI daily. Another 56% are currently testing it out, and only 4% have no plans to adopt it.\n\nFor the teams already using AI, what is actually changing? Here are the ten biggest",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
+    "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
+    "published_date": "2026-08-27T11:00:57+00:00",
+    "source_type": "news",
+    "summary": "Individuals and organizations in Cambodia have emerged as the target of a new campaign that delivers an open-source remote access trojan (RAT) called Spark RAT.\n\n\"The samples employ diverse lure themes, suggesting an effort to appeal to a broad range of potential victims. These include government notices, public health materials, real estate-related content, and other topics,\" Acronis Threat",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "How to build an exposure management program the business trusts: Lessons from Tenable’s CSO",
+    "url": "https://www.tenable.com/blog/how-to-build-an-exposure-management-program-the-business-trusts-lessons-from-tenables-cso",
+    "published_date": "2026-08-27T14:30:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Discover how Tenable’s shift to an AI-driven exposure management program helped Tenable’s CSO, Robert Huber, overcome tool sprawl, unify data silos, mitigate the risk of rapid AI adoption, and shift from presenting granular, technical metrics to communicating business risk that the C-suite and the board can understand.</p><div class=\"blog-see-also\"><div class=\"col-sm-12\"><h2><strong>Key takeaways</strong></h2><ol><li>Security tool sprawl and data silos make it difficult for CISOs to holistically and accurately assess their organizations’ cyber risk.</li><li>An exposure management program consolidates fragmented security data into a single unified view of cyber risk across the entire attack surface.&nbsp;</li><li>Aided by exposure management, CISOs can align security metrics with business priorities and quantify risk for key revenue-generating business units, answering the board’s main question: “Are we secure?”</li></ol></div></div><p>What is trust in cybersecurity? And more importantly, how do you earn it? Here’s a hint: It’s not easy, especially in this AI era.&nbsp;</p><p>As the Chief Security Officer at Tenable, my mandate is to ensure our organization operates securely, but",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "​​​​​​What’s new in Microsoft Security: August 2026",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
+    "published_date": "2026-08-27T16:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>This month’s updates provide new capabilities to help organizations gain insights into agent activity, expand security coverage across supported environments, and enhance security management across their environments.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/\">​​​​​​What’s new in Microsoft Security: August 2026</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "“Sorry, I can’t help with that”: How your guardrails might become the attacker’s best friend",
+    "url": "https://blog.talosintelligence.com/sorry-i-cant-help-with-that-how-your-guardrails-might-become-the-attackers-best-friend/",
+    "published_date": "2026-08-27T18:00:24+00:00",
+    "source_type": "research",
+    "summary": "In his first Threat Source newsletter, David Bianco explores the critical need for operational sovereignty in customizing AI guardrails to maintain the defender’s advantage.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Some Malicious PE Stats, (Thu, Aug 27th)",
+    "url": "https://isc.sans.edu/diary/rss/33292",
+    "published_date": "2026-08-28T07:04:13+00:00",
+    "source_type": "operational",
+    "summary": "During my last FOR610 session, a student asked me if I had some statistics in mind about the compilers used to generate malicious PE files&#x3f; A couple of months ago, I shared some stats about the trend in 64bits VS. 32bits malware&#x5b;1&#x5d;. Can we go a bit further&#x3f; I (vibe-)coded a Python script based on the pefile library&#x5b;2&#x5d; to extract some info from the PE headers. Indeed, the PE file format contains a lot of metadata&#x21; They can be accessed using a lot of tools, like Detect It Easy:&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Friday, August 28th, 2026 https://isc.sans.edu/podcastdetail/10072, (Fri, Aug 28th)",
+    "url": "https://isc.sans.edu/diary/rss/33294",
+    "published_date": "2026-08-28T02:00:02+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "PaperCut NG/MF Critical Zero-Day Exploited in the Wild",
+    "url": "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
+    "published_date": "2026-08-28T10:09:12+00:00",
+    "source_type": "research",
+    "summary": "<h2 style=\"direction: ltr;\">Overview\t</h2><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">On August 27, 2026, PaperCut Software published an </span><a href=\"https://www.papercut.com/kb/Main/security-bulletin-27-aug-2026-urgent-security-advisory/\"><span style=\"font-size: undefined;\">urgent security advisory</span></a><span style=\"font-size: undefined;\"> stating that it is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF. PaperCut has confirmed customer incidents and is treating the issue as a security emergency. At the time of writing, the vulnerability has not been assigned a CVE identifier, and PaperCut has not publicly disclosed a CVSS score, vulnerability class, authentication requirements, or the technical details of the exploit path.</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">PaperCut NG and PaperCut MF are print management platforms commonly deployed within enterprise, education, and other organizational environments. Because the PaperCut Application Server provides web-accessible administrative and application functionality, organizations with servers exposed to the public internet should ",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Identity-as-a-Service: Uncovering Dark Web Marketplaces Trading Executive SSNs",
+    "url": "https://www.rapid7.com/blog/post/tr-identity-as-a-service-dark-web-marketplaces-executive-ssn",
+    "published_date": "2026-08-27T13:51:55+00:00",
+    "source_type": "research",
+    "summary": "<h2>Introduction</h2><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Despite modern verification controls, identity theft remains one of the most pervasive threats to both individuals and enterprise organizations. U.S. Federal Trade Commission statistics show over 1 million identity theft reports annually, with related fraud and imposter scams accounting for billions in financial losses each year. While stolen credit cards enable rapid, short-term monetization, Social Security numbers (SSNs) represent a far more permanent and dangerous tier within the cybercrime ecosystem, because unlike payment cards, they cannot simply be deactivated. Once exposed, an SSN can support enabling unauthorized lines of credit, synthetic identity fraud, and sophisticated tax scams.</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">When exposed identity data belongs to corporate executives, board members, and other high-profile employees, the risk can extend beyond the individual. Threat actors target these high-profile individuals not just for their premium credit profiles, but to leverage their compromised identities for executive impersonation, corporate espionag",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Long Term Support Channel Update for ChromeOS",
+    "url": "http://chromereleases.googleblog.com/2026/08/long-term-support-channel-update-for_0697002765.html",
+    "published_date": "2026-08-28T00:46:38.046000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span style=\"font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">A new LTS-144&nbsp; version </span><span style=\"background-color: white; font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">144.0.7559.261</span><span style=\"font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">(Platform Version: </span><span style=\"background-color: white; font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">16503.94.0), is being</span><span style=\"font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\"> rolled out for most ChromeOS devices.</span><span style=\"font-family: Arial, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">&nbsp;</span></p><span id=\"docs-internal-guid-5927012d-7fff-0b52-d974-17849cd8249c\"><br /><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><span style=\"fon",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_0280487438.html",
+    "published_date": "2026-08-27T20:30:00+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp; Hello Everyone! We've just released Chrome 153 (153.0.8010.18) for Android to a small percentage of users. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Play</a> over the next few days. You can find more details about early Stable releases <a href=\"https://developer.chrome.com/blog/early-stable/\">here</a>.</p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7977.64..153.0.8010.18?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.<br /><br />Harry Souders<br /><a href=\"https://www.google.com/chrome/\">Google Chrome</a>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-android-update_01136221689.html",
+    "published_date": "2026-08-27T15:58:32.176000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 153 (153.0.8010.18) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/153.0.8010.11..153.0.8010.18?pretty=fuller&amp;n=10000\">Git log</a>. For details on new features, check out the <a href=\"https://blog.chromium.org\">Chromium blog</a>, and for details on web platform updates, check <a href=\"https://www.chromestatus.com/features#milestone%3D153\">here</a>.</p><p>If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Dev for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-android-update_0673698024.html",
+    "published_date": "2026-08-27T15:28:32.557000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Dev 154 (154.0.8025.0) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/154.0.8013.0..154.0.8025.0?pretty=fuller&amp;n=10000\">Git log</a>. For details on new features, check out the <a href=\"https://blog.chromium.org\">Chromium blog</a>, and for details on web platform updates, check <a href=\"https://www.chromestatus.com/features#milestone%3D154\">here</a>.</p><p>If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Dev for Desktop Update",
+    "url": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-desktop-update_0109060563.html",
+    "published_date": "2026-08-27T14:28:49.390000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>The Dev channel has been updated to 154.0.8025.0 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/154.0.8013.2..154.0.8025.0?pretty=fuller&amp;n=10000\">Git log</a>. Interested in <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">switching</a> release channels? Find out <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">how</a>. If you find a new issue, please let us know by <a href=\"https://crbug.com/\">filing a bug</a>. The <a href=\"https://productforums.google.com/forum/#!forum/chrome\">community help forum</a> is also a great place to reach out for help or learn about common issues.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "AI Agent Threat Response: Why Pre-Runtime Controls Matter More Than Runtime Detection",
+    "url": "https://blog.gitguardian.com/ai-agent-threat-response/",
+    "published_date": "2026-08-27T15:00:16+00:00",
+    "source_type": "vendor",
+    "summary": "AI agent threat response starts before runtime. See why pre-runtime credential controls stop agent misuse that runtime detection can only observe.",
+    "feed_source": "https://blog.gitguardian.com/rss/",
+    "publisher": "GitGuardian Blog - Take Control of Your Secrets Security",
+    "source_note": ""
+  },
+  {
+    "title": "Extend Amazon Bedrock Guardrails to Tool Interactions Using the Strands Agents SDK",
+    "url": "https://aws.amazon.com/blogs/security/extend-amazon-bedrock-guardrails-to-tool-interactions-using-the-strands-agents-sdk/",
+    "published_date": "2026-08-27T16:20:05+00:00",
+    "source_type": "vendor",
+    "summary": "If you’re running AI agents in production, Amazon Bedrock Guardrails protects the model boundary. But your agents also invoke tools, fetch external data, and communicate with other systems. That data flows outside the model boundary, where model-level guardrails can’t reach. You can extend guardrail coverage to those interactions using three validation checkpoints built with the […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "coverity-w35-4.14.8",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/coverity-w35-4.14.8",
+    "published_date": "2026-08-27T10:46:09+00:00",
+    "source_type": "github",
+    "summary": "<p>Merge pull request <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/38254\">#38254</a> from wazuh/fix/38194-aws-it-concurrent-runs…</p>",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
+    "publisher": "Release notes from wazuh",
+    "source_note": ""
+  },
+  {
+    "title": "7 Steps to Take After a Truck Accident in Allentown, PA",
+    "url": "https://www.socinvestigation.com/7-steps-to-take-after-a-truck-accident-in-allentown-pa/",
+    "published_date": "2026-08-28T05:05:29+00:00",
+    "source_type": "detection",
+    "summary": "<p>A truck accident in Allentown, PA can leave you dealing with injuries, vehicle damage, insurance questions, and a long list of follow-up tasks. Because commercial trucks are much larger and heavier than passenger vehicles, these crashes can involve complicated facts and extensive documentation. Taking a careful approach after the collision can help you stay organized [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/7-steps-to-take-after-a-truck-accident-in-allentown-pa/\">7 Steps to Take After a Truck Accident in Allentown, PA</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/",
+    "publisher": "Security Investigation",
+    "source_note": ""
+  },
+  {
+    "title": "From Accident to Settlement: Understanding the Injury Claim Process",
+    "url": "https://www.socinvestigation.com/from-accident-to-settlement-understanding-the-injury-claim-process/",
+    "published_date": "2026-08-28T05:02:23+00:00",
+    "source_type": "detection",
+    "summary": "<p>An injury claim does not end after the ambulance leaves or the medical visit is over. What follows can feel like a maze of reports, bills, records, calls, and decisions. The challenge is keeping the facts fully clear while dealing with everything else an accident can bring. Lawyers for accident injury claims can help navigate [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/from-accident-to-settlement-understanding-the-injury-claim-process/\">From Accident to Settlement: Understanding the Injury Claim Process</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/",
+    "publisher": "Security Investigation",
+    "source_note": ""
+  },
+  {
+    "title": "What Happens After Hiring an Attorney for a Truck Accident Case",
+    "url": "https://www.socinvestigation.com/what-happens-after-hiring-an-attorney-for-a-truck-accident-case/",
+    "published_date": "2026-08-28T04:59:26+00:00",
+    "source_type": "detection",
+    "summary": "<p>A truck accident does not end when the vehicles are moved and the road opens again. A legal case can become a long trail of reports, records, insurance papers, medical bills, and questions about who was responsible. The key change after hiring an attorney is that these loose pieces are brought into one organized process. [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/what-happens-after-hiring-an-attorney-for-a-truck-accident-case/\">What Happens After Hiring an Attorney for a Truck Accident Case</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/",
+    "publisher": "Security Investigation",
+    "source_note": ""
+  },
+  {
+    "title": "How a Lawyer Can Help Employees Facing Workplace Disputes",
+    "url": "https://www.socinvestigation.com/how-a-lawyer-can-help-employees-facing-workplace-disputes/",
+    "published_date": "2026-08-28T04:55:50+00:00",
+    "source_type": "detection",
+    "summary": "<p>A workplace dispute rarely stays limited to one difficult conversation. A disagreement about pay can turn into a larger conflict, while a complaint about treatment may affect a person&#8217;s duties, reputation, or job security. Some problems can be solved through normal workplace communication, but others may involve legal rights that deserve closer attention. A lawyer [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/how-a-lawyer-can-help-employees-facing-workplace-disputes/\">How a Lawyer Can Help Employees Facing Workplace Disputes</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/",
+    "publisher": "Security Investigation",
+    "source_note": ""
+  },
+  {
+    "title": "Navigating the Legal Process After a Truck Crash in Gainesville, FL",
+    "url": "https://www.socinvestigation.com/navigating-the-legal-process-after-a-truck-crash-in-gainesville-fl/",
+    "published_date": "2026-08-28T04:51:29+00:00",
+    "source_type": "detection",
+    "summary": "<p>A truck crash can turn a normal day on Gainesville roads into a long list of problems. Medical bills, vehicle damage, missed work, and insurance calls can arrive together. A truck claim may also involve driver logs, inspection reports, cargo records, and company documents. Knowing the usual steps can make the process much less confusing [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/navigating-the-legal-process-after-a-truck-crash-in-gainesville-fl/\">Navigating the Legal Process After a Truck Crash in Gainesville, FL</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/",
+    "publisher": "Security Investigation",
+    "source_note": ""
   }
 ]
