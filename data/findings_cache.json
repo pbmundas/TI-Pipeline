@@ -1,46 +1,4 @@
 {
-  "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/": {
-    "enriched_at": "2026-08-16T10:31:12.501217+00:00",
-    "incidents": [
-      {
-        "headline": "Salesforce and ServiceNow portals exposed for 17 months, exploited Metabase 0-day",
-        "summary": "Portals of Salesforce and ServiceNow were exposed for 17 months and exploited using a Metabase 0-day.",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Metabase",
-        "vendor": null,
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A critical vulnerability in Metabase was exploited to compromise Salesforce and ServiceNow portals.",
-        "exploitation_status": "Exploited",
-        "remediation": "Not specified in the article",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Enterprise"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/": {
-    "enriched_at": "2026-08-16T10:31:12.501217+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Enterprise"
-    ]
-  },
   "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/": {
     "enriched_at": "2026-08-17T10:31:53.563724+00:00",
     "incidents": [
@@ -7392,5 +7350,103 @@
       "defense",
       "healthcare"
     ]
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/": {
+    "enriched_at": "2026-08-30T10:31:36.654574+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Toys and games"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/": {
+    "enriched_at": "2026-08-30T10:31:36.654574+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Toys and games"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/": {
+    "enriched_at": "2026-08-30T10:31:36.654574+00:00",
+    "incidents": [
+      {
+        "headline": "Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited",
+        "summary": "At least 274 internet-facing Zimbra instances have been compromised by unknown attackers via CVE-2026-73570.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Toys and games"
+    ]
+  },
+  "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html": {
+    "enriched_at": "2026-08-30T10:31:36.654574+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Toys and games"
+    ]
+  },
+  "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html": {
+    "enriched_at": "2026-08-30T10:31:36.654574+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-76581",
+        "product": "WordPress plugins and themes",
+        "vendor": "WPMU DEV, Avada, TranslatePress, Pods, GiveWP",
+        "severity": "CRITICAL",
+        "cvss": 9.8,
+        "description": "An authentication bypass flaw in multiple WordPress plugins and themes that could lead to authentication bypass, account takeover, and arbitrary code execution.",
+        "exploitation_status": "Exploited",
+        "remediation": "Update to the latest versions of the affected plugins and themes.",
+        "source_urls": [
+          "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Toys and games"
+    ]
+  },
+  "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/": {
+    "enriched_at": "2026-08-30T10:31:36.654574+00:00",
+    "incidents": [
+      {
+        "headline": "Hasbro Data Breach Exposed Employee Personal Information",
+        "summary": "A cyberattack caused disruptions at Hasbro and exposed employee personal information.",
+        "source_urls": [
+          "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Toys and games"
+    ]
+  },
+  "https://isc.sans.edu/diary/rss/33288": {
+    "enriched_at": "2026-08-30T10:31:44.591174+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
   }
 }

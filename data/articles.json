@@ -36852,5 +36852,75 @@
     "feed_source": "https://aws.amazon.com/blogs/security/feed/",
     "publisher": "AWS Security Blog",
     "source_note": ""
+  },
+  {
+    "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+    "published_date": "2026-08-29T23:11:51+00:00",
+    "source_type": "news",
+    "summary": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Brave browser adds email aliases to help users evade tracking",
+    "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+    "published_date": "2026-08-29T14:19:23+00:00",
+    "source_type": "news",
+    "summary": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited",
+    "url": "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/",
+    "published_date": "2026-08-30T08:00:48+00:00",
+    "source_type": "news",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Unpatched Zimbra servers are falling to CVE-2026-73570 attacks At least 274 internet-facing Zimbra instances have been compromised by unknown attackers via CVE-2026-73570, the Shadowserver Foundation shared on Monday. AI supply chain risk is showing up in developer workflows first In this Help Net Security interview, Dr. Jaushin Lee, CEO of Zentera Systems, discusses where AI supply chain risk shows up. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/\">Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+    "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+    "published_date": "2026-08-30T07:36:33+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell.\n\n\"While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+    "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+    "published_date": "2026-08-29T16:25:03+00:00",
+    "source_type": "news",
+    "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution.\n\nThe vulnerabilities, according to Wordfence and Patchstack, are listed below -\n\n\n  CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Hasbro Data Breach Exposed Employee Personal Information",
+    "url": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
+    "published_date": "2026-08-29T11:55:00+00:00",
+    "source_type": "news",
+    "summary": "<p>A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach.</p>\n<p>The post <a href=\"https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/\">Hasbro Data Breach Exposed Employee Personal Information</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "YARA-X 1.20.0 Release, (Sun, Aug 30th)",
+    "url": "https://isc.sans.edu/diary/rss/33288",
+    "published_date": "2026-08-30T07:14:49+00:00",
+    "source_type": "operational",
+    "summary": "YARA-X&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s 1.20.0 release brings 14 improvements and 13 bugfixes.&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
   }
 ]
