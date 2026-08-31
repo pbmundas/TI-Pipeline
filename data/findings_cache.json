@@ -1,377 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/": {
-    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
-    "incidents": [
-      {
-        "headline": "French tax authority data breach affects 678,000 individuals",
-        "summary": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance, Cryptocurrency, Software"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/": {
-    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-69414",
-        "product": "Microsoft Defender",
-        "vendor": "Microsoft",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A zero-day vulnerability called ShieldBreak was disclosed by a security researcher and is being patched by Microsoft.",
-        "exploitation_status": "DISCLOSED",
-        "remediation": "A patch is in development.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/"
-        ]
-      }
-    ],
-    "actors": [
-      {
-        "name": "Nightmare Eclipse",
-        "aliases": [],
-        "motivation": "Financial gain",
-        "recent_activity": "Disclosed a zero-day vulnerability and claimed to be selling stolen data from SafePal customers.",
-        "targets": [
-          "SafePal, Microsoft Defender"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-          "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance, Cryptocurrency, Software"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/": {
-    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
-    "incidents": [
-      {
-        "headline": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-        "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Nightmare Eclipse",
-        "aliases": [],
-        "motivation": "Financial gain",
-        "recent_activity": "Disclosed a zero-day vulnerability and claimed to be selling stolen data from SafePal customers.",
-        "targets": [
-          "SafePal, Microsoft Defender"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-          "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance, Cryptocurrency, Software"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/": {
-    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance, Cryptocurrency, Software"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/": {
-    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance, Cryptocurrency, Software"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/": {
-    "enriched_at": "2026-08-17T10:31:53.563724+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "AmnesiaStealer macOS malware",
-        "context": "Information-stealing malware targeting macOS users via ClickFix attacks.",
-        "indicators": [
-          "streaming module for remote browser control"
-        ],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/"
-        ]
-      }
-    ],
-    "industries": [
-      "Finance, Cryptocurrency, Software"
-    ]
-  },
-  "https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/": {
-    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
-    "incidents": [
-      {
-        "headline": "Police bust cybercrime ring accused of stealing €30 million in four-day spree",
-        "summary": "German and Brazilian police dismantled an international bank fraud ring blamed for a €30 million cyberattack on a German financial institution, arresting four people in Brazil and pursuing three more suspects in Spain and Bulgaria.",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": null,
-        "aliases": [
-          "Klonen"
-        ],
-        "motivation": "Financial gain",
-        "recent_activity": "Executing a four-day cyberattack on a German financial institution, stealing €30 million.",
-        "targets": [
-          "German financial institutions"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/": {
-    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Windows 11",
-        "vendor": "Microsoft",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Researchers found a way to bypass some of the strongest security defenses in Windows 11 without physically opening or modifying the target machine.",
-        "exploitation_status": "RESEARCHED",
-        "remediation": "Not specified in the article",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/08/17/hazmat-open-source-ai-coding-agent-containment/": {
-    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/08/17/product-showcase-scamnet-consumer-security-app/": {
-    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/08/17/ai-adoption-revenue-growth-research/": {
-    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/": {
-    "enriched_at": "2026-08-17T10:33:06.955150+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": null,
-        "aliases": [],
-        "motivation": "Financial gain",
-        "recent_activity": "Exploiting a vulnerability in a plugin to access customer information.",
-        "targets": [
-          "SafePal customers"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/": {
-    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
-    "incidents": [
-      {
-        "headline": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
-        "summary": "Threat actors exploited a recent vulnerability in macOS screen sharing to gain root access and deploy a Monero miner.",
-        "source_urls": [
-          "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Threat actors",
-        "aliases": [],
-        "motivation": "Financial gain (mining Monero)",
-        "recent_activity": "Exploiting macOS screen sharing vulnerability and claiming data theft from Fortune 500 companies.",
-        "targets": [
-          "Fortune 500 companies",
-          "macOS systems"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
-          "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Retail",
-      "Telecommunications"
-    ]
-  },
-  "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/": {
-    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-58231",
-        "product": "SAP Commerce Cloud",
-        "vendor": "SAP",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "The vulnerability can be exploited to execute arbitrary code and compromise internal components.",
-        "exploitation_status": "Exploited 3 days after disclosure",
-        "remediation": "Not specified in the article",
-        "source_urls": [
-          "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Retail",
-      "Telecommunications"
-    ]
-  },
-  "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/": {
-    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
-    "incidents": [
-      {
-        "headline": "Fortune 500 Companies Hit in Azure Data Theft Campaign",
-        "summary": "A threat actor claimed the exfiltration of millions of records from Fortune 500 companies including McDonald’s, TCS, and Vodafone.",
-        "source_urls": [
-          "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Threat actors",
-        "aliases": [],
-        "motivation": "Financial gain (mining Monero)",
-        "recent_activity": "Exploiting macOS screen sharing vulnerability and claiming data theft from Fortune 500 companies.",
-        "targets": [
-          "Fortune 500 companies",
-          "macOS systems"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
-          "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Retail",
-      "Telecommunications"
-    ]
-  },
-  "https://isc.sans.edu/diary/rss/33250": {
-    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Retail",
-      "Telecommunications"
-    ]
-  },
-  "https://isc.sans.edu/diary/rss/33248": {
-    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Retail",
-      "Telecommunications"
-    ]
-  },
-  "https://www.rapid7.com/blog/post/c-starlink-distribution-partnership-africa": {
-    "enriched_at": "2026-08-17T10:34:12.199568+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Retail",
-      "Telecommunications"
-    ]
-  },
-  "https://www.socinvestigation.com/how-quantum-key-distribution-stops-silent-data-interception/": {
-    "enriched_at": "2026-08-17T10:34:20.816310+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/": {
     "enriched_at": "2026-08-18T10:31:47.024424+00:00",
     "incidents": [
@@ -543,29 +170,6 @@
       }
     ],
     "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Healthcare",
-      "Retail"
-    ]
-  },
-  "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/": {
-    "enriched_at": "2026-08-18T10:32:51.282879+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "How QR-code phishing can slip past corporate security measures",
-        "context": "Quishing campaign",
-        "indicators": [
-          "QR codes used in phishing attacks"
-        ],
-        "source_urls": [
-          "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/"
-        ]
-      }
-    ],
     "industries": [
       "Technology",
       "Healthcare",
@@ -870,44 +474,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html": {
-    "enriched_at": "2026-08-18T10:36:01.663980+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html": {
-    "enriched_at": "2026-08-18T10:37:32.701426+00:00",
-    "incidents": [
-      {
-        "headline": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-        "summary": "A suspected China-nexus APT exploited a newly patched security flaw in VMware vCenter to deploy ransomware.",
-        "source_urls": [
-          "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-59310",
-        "product": "VMware vCenter",
-        "vendor": "Broadcom",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "A severe directory-traversal vulnerability in the VMware vCenter server that could be weaponized by a malicious actor to execute arbitrary code.",
-        "exploitation_status": "ACTIVE",
-        "remediation": "Patch the system with the latest security updates provided by the vendor.",
-        "source_urls": [
-          "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://therecord.media/financial-info-leak-debt-consolidator": {
     "enriched_at": "2026-08-18T10:39:15.023787+00:00",
     "incidents": [
@@ -1104,258 +670,6 @@
       "Tax Authority"
     ]
   },
-  "https://www.exploit-db.com/exploits/52652": {
-    "enriched_at": "2026-08-18T10:41:06.523971+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "NanaZip 6.5",
-        "vendor": null,
-        "severity": "LOW",
-        "cvss": null,
-        "description": "DoS",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52652"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Tax Authority"
-    ]
-  },
-  "https://www.exploit-db.com/exploits/52651": {
-    "enriched_at": "2026-08-18T10:41:06.523971+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "flyto_core 2.26.7",
-        "vendor": null,
-        "severity": "MEDIUM",
-        "cvss": null,
-        "description": "Server-Side Request Forgery",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52651"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Tax Authority"
-    ]
-  },
-  "https://www.exploit-db.com/exploits/52650": {
-    "enriched_at": "2026-08-18T10:42:19.475697+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Probo",
-        "vendor": null,
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "IDOR vulnerability found in Probo 0.222.2.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52650"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.exploit-db.com/exploits/52649": {
-    "enriched_at": "2026-08-18T10:42:19.475697+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "webpack_devserver",
-        "vendor": null,
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "CSRF vulnerability found in webpack_devserver 5.2.5.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52649"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.exploit-db.com/exploits/52648": {
-    "enriched_at": "2026-08-18T10:42:19.475697+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "phpSysInfo",
-        "vendor": null,
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "IP Allowlist Bypass vulnerability found in phpSysInfo 3.4.5.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52648"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.exploit-db.com/exploits/52647": {
-    "enriched_at": "2026-08-18T10:42:19.475697+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Nmap",
-        "vendor": null,
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Extension Header Integer Underflow vulnerability found in Nmap 7.99.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52647"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.exploit-db.com/exploits/52646": {
-    "enriched_at": "2026-08-18T10:42:19.475697+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Duplicati",
-        "vendor": null,
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "JWT Signing Key Leak vulnerability found in Duplicati 2.2.0.3.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52646"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.exploit-db.com/exploits/52645": {
-    "enriched_at": "2026-08-18T10:42:19.475697+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Joomla JCE",
-        "vendor": null,
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Remote Code Execution vulnerability found in Joomla JCE_2.9.15.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52645"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.exploit-db.com/exploits/52644": {
-    "enriched_at": "2026-08-18T10:43:15.852967+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "ipTIME A3004T",
-        "vendor": "Unknown",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Remote Code Execution",
-        "exploitation_status": "EXPLOITABLE",
-        "remediation": "Not specified in the article",
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52644"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Public Sector"
-    ]
-  },
-  "https://www.exploit-db.com/exploits/52643": {
-    "enriched_at": "2026-08-18T10:43:15.852967+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "D-Link DNS_340L",
-        "vendor": "Unknown",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "OS Command Injection",
-        "exploitation_status": "EXPLOITABLE",
-        "remediation": "Not specified in the article",
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52643"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Public Sector"
-    ]
-  },
-  "https://www.exploit-db.com/exploits/52642": {
-    "enriched_at": "2026-08-18T10:43:15.852967+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "WooCommerce 1.5.0",
-        "vendor": "Unknown",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Unauthenticated Arbitrary File Upload",
-        "exploitation_status": "EXPLOITABLE",
-        "remediation": "Not specified in the article",
-        "source_urls": [
-          "https://www.exploit-db.com/exploits/52642"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Public Sector"
-    ]
-  },
   "https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/": {
     "enriched_at": "2026-08-18T10:43:15.852967+00:00",
     "incidents": [
@@ -1367,16 +681,6 @@
         ]
       }
     ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Public Sector"
-    ]
-  },
-  "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/": {
-    "enriched_at": "2026-08-18T10:43:15.852967+00:00",
-    "incidents": [],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -7443,6 +6747,270 @@
   },
   "https://isc.sans.edu/diary/rss/33288": {
     "enriched_at": "2026-08-30T10:31:44.591174+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/": {
+    "enriched_at": "2026-08-31T10:31:05.590576+00:00",
+    "incidents": [
+      {
+        "headline": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
+        "summary": "Microsoft confirmed that mouse settings are being reverted on Windows 11 systems after installing the KB5120998 August 2026 non-security preview update.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/": {
+    "enriched_at": "2026-08-31T10:31:05.590576+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/": {
+    "enriched_at": "2026-08-31T10:31:05.590576+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/": {
+    "enriched_at": "2026-08-31T10:31:05.590576+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/": {
+    "enriched_at": "2026-08-31T10:31:05.590576+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/": {
+    "enriched_at": "2026-08-31T10:31:05.590576+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/31/russian-hackers-ai-safety-filters-manipulation/": {
+    "enriched_at": "2026-08-31T10:31:54.750678+00:00",
+    "incidents": [
+      {
+        "headline": "Russian hackers plant nuclear weapon prompt in malware to trip AI safety guardrails",
+        "summary": "Russian state hackers are using a technique called GuardBreaker to interfere with AI-assisted malware analysis in Ukraine by setting off AI safety mechanisms.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/31/russian-hackers-ai-safety-filters-manipulation/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "UAC-0099",
+        "aliases": [],
+        "motivation": "Interfering with AI-assisted malware analysis",
+        "recent_activity": "Planting nuclear weapon prompt in malware",
+        "targets": [
+          "Ukraine"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/31/russian-hackers-ai-safety-filters-manipulation/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/31/debian-linux-llm-policy/": {
+    "enriched_at": "2026-08-31T10:31:54.750678+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/31/openclaw-2-0-released/": {
+    "enriched_at": "2026-08-31T10:31:54.750678+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/": {
+    "enriched_at": "2026-08-31T10:31:54.750678+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/31/halo-record-open-source-ai-agent-audit-trail/": {
+    "enriched_at": "2026-08-31T10:31:54.750678+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/31/contrast-security-ai-appsec-tools-security-findings-report/": {
+    "enriched_at": "2026-08-31T10:31:54.750678+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/08/31/chatgpt-ads-privacy-policy/": {
+    "enriched_at": "2026-08-31T10:33:08.796365+00:00",
+    "incidents": [
+      {
+        "headline": "Free ChatGPT users get ads picked from whatever they just asked about",
+        "summary": "ChatGPT may display ads based on the user's recent queries, location, and device type, but not on previous chat history.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/08/31/chatgpt-ads-privacy-policy/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/": {
+    "enriched_at": "2026-08-31T10:33:08.796365+00:00",
+    "incidents": [
+      {
+        "headline": "Extortion Group Claims Manchester Airports Group Data Breach",
+        "summary": "FulcrumSec claims to have stolen over 80 GB of data from Manchester Airports Group and plans to leak it.",
+        "source_urls": [
+          "https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/judge-says-pentagons-measures-against-anthropic-were-illegal-and-baseless/": {
+    "enriched_at": "2026-08-31T10:33:08.796365+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/berlin-wont-pay-extortion-group-claiming-data-theft/": {
+    "enriched_at": "2026-08-31T10:33:08.796365+00:00",
+    "incidents": [
+      {
+        "headline": "Berlin Won’t Pay Extortion Group Claiming Data Theft",
+        "summary": "The Rhysida ransomware group claims to have exfiltrated over 5TB of data from Berlin, but the city refuses to pay.",
+        "source_urls": [
+          "https://www.securityweek.com/berlin-wont-pay-extortion-group-claiming-data-theft/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/": {
+    "enriched_at": "2026-08-31T10:33:08.796365+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-82078, CVE-2026-81578",
+        "product": "PaperCut",
+        "vendor": "PaperCut",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Exploited vulnerabilities in PaperCut, for which a second emergency patch has been released.",
+        "exploitation_status": "Exploited",
+        "remediation": "Apply the emergency patch.",
+        "source_urls": [
+          "https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html": {
+    "enriched_at": "2026-08-31T10:33:08.796365+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Fire Ant",
+        "aliases": [],
+        "motivation": "Cyber espionage",
+        "recent_activity": "Compromised Cisco IOS XR routers, TACACS servers, and Linux management hosts.",
+        "targets": "High-value networks",
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html": {
+    "enriched_at": "2026-08-31T10:33:30.670660+00:00",
+    "incidents": [
+      {
+        "headline": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+        "summary": "The U.S. Department of Justice corrected a previous claim that several of its agencies were victims of attacks by Chinese threat actors, stating that they were actually targeted.",
+        "source_urls": [
+          "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/": {
+    "enriched_at": "2026-08-31T10:33:30.670660+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://securelist.com/valleyrat-backdoor-adware/121175/": {
+    "enriched_at": "2026-08-31T10:33:30.670660+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://isc.sans.edu/diary/rss/33296": {
+    "enriched_at": "2026-08-31T10:33:30.670660+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],
