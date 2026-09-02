@@ -7422,5 +7422,1730 @@
     "actors": [],
     "hunting_indicators": [],
     "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/": {
+    "enriched_at": "2026-09-02T10:31:32.739439+00:00",
+    "incidents": [
+      {
+        "headline": "Microsoft Defender flags legitimate Google search links as malicious",
+        "summary": "Microsoft is investigating an issue causing Defender for Office 365 to mistakenly block legitimate Google search links.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/": {
+    "enriched_at": "2026-09-02T10:31:32.739439+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Russian national",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Phishing campaign infecting freelancers with malware",
+        "targets": [
+          "Freelancers"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/": {
+    "enriched_at": "2026-09-02T10:31:32.739439+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Sality botnet infrastructure dismantled",
+        "context": "Joint global takedown",
+        "indicators": [
+          "Sality malware infrastructure"
+        ],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/"
+        ]
+      }
+    ],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/": {
+    "enriched_at": "2026-09-02T10:31:32.739439+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "SonicWall SMA1000",
+        "vendor": "SonicWall",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Threat actors are exploiting two new zero-day vulnerabilities in SonicWall SMA1000 devices for remote code execution attacks.",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/": {
+    "enriched_at": "2026-09-02T10:31:32.739439+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/": {
+    "enriched_at": "2026-09-02T10:31:32.739439+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/": {
+    "enriched_at": "2026-09-02T10:32:35.748701+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-0768",
+        "product": "Langflow",
+        "vendor": "Open-source framework",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Unauthenticated remote code execution vulnerability in Langflow.",
+        "exploitation_status": "Exploited",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/": {
+    "enriched_at": "2026-09-02T10:32:35.748701+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Hackers",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "BGP hijacking and delivering malicious updates",
+        "targets": [
+          "Virtualizor VPS management software"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/": {
+    "enriched_at": "2026-09-02T10:32:35.748701+00:00",
+    "incidents": [
+      {
+        "headline": "Novocure data breach affects more than 1,400 cancer patients",
+        "summary": "Healthtech company Novocure reports a data breach affecting over 1,400 U.S. cancer patients.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/": {
+    "enriched_at": "2026-09-02T10:32:35.748701+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/": {
+    "enriched_at": "2026-09-02T10:32:35.748701+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Microsoft Exchange",
+        "vendor": "Microsoft",
+        "severity": "HIGH",
+        "cvss": null,
+        "description": "High-severity authentication bypass vulnerability allowing hijack of all user mailboxes.",
+        "exploitation_status": "Unpatched",
+        "remediation": "Patch available",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities/": {
+    "enriched_at": "2026-09-02T10:32:35.748701+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/23-year-old-sality-p2p-botnet-disrupted/": {
+    "enriched_at": "2026-09-02T10:33:35.866185+00:00",
+    "incidents": [
+      {
+        "headline": "23-Year-Old Sality P2P Botnet Disrupted",
+        "summary": "The shutdown operation involved peer list manipulation and Sality payload URL takedown.",
+        "source_urls": [
+          "https://www.securityweek.com/23-year-old-sality-p2p-botnet-disrupted/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/": {
+    "enriched_at": "2026-09-02T10:33:35.866185+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-83549",
+        "product": "SMA1000",
+        "vendor": "SonicWall",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Can be chained with another vulnerability for unauthenticated remote code execution.",
+        "exploitation_status": "EXPLOITED_IN_THE_WILD",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/"
+        ]
+      },
+      {
+        "cve": "CVE-2026-83548",
+        "product": "SMA1000",
+        "vendor": "SonicWall",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Can be chained with another vulnerability for unauthenticated remote code execution.",
+        "exploitation_status": "EXPLOITED_IN_THE_WILD",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/palo-alto-networks-acquires-ai-agent-platform-console/": {
+    "enriched_at": "2026-09-02T10:33:35.866185+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/sevii-targets-ai-speed-attacks-with-preemptive-autonomous-defense/": {
+    "enriched_at": "2026-09-02T10:33:35.866185+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/coast-guard-establishes-office-of-maritime-cybersecurity-policy/": {
+    "enriched_at": "2026-09-02T10:33:35.866185+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/experiment-porting-a-plc-exploit-with-ai-takes-hours-and-hundreds-of-dollars/": {
+    "enriched_at": "2026-09-02T10:33:35.866185+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/": {
+    "enriched_at": "2026-09-02T10:36:40.837477+00:00",
+    "incidents": [
+      {
+        "headline": "Hackers Start Exploiting Critical Langflow Vulnerability",
+        "summary": "Tracked as CVE-2026-0768, the security defect allows unauthenticated attackers to execute arbitrary Python code remotely.",
+        "source_urls": [
+          "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Chemical",
+      "Food and Agriculture",
+      "Healthcare and Public Health",
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.securityweek.com/five-venezuelans-plead-guilty-in-us-court-to-atm-jackpotting/": {
+    "enriched_at": "2026-09-02T10:36:40.837477+00:00",
+    "incidents": [
+      {
+        "headline": "Five Venezuelans Plead Guilty in US Court to ATM Jackpotting",
+        "summary": "The defendants unsuccessfully attempted to physically install malware on ATMs to force them to dispense cash.",
+        "source_urls": [
+          "https://www.securityweek.com/five-venezuelans-plead-guilty-in-us-court-to-atm-jackpotting/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Chemical",
+      "Food and Agriculture",
+      "Healthcare and Public Health",
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.securityweek.com/ransomware-gang-claims-nutex-health-data-breach/": {
+    "enriched_at": "2026-09-02T10:36:40.837477+00:00",
+    "incidents": [
+      {
+        "headline": "Ransomware Gang Claims Nutex Health Data Breach",
+        "summary": "The company has notified the SEC that hackers accessed patient, employee, provider, business, and financial information.",
+        "source_urls": [
+          "https://www.securityweek.com/ransomware-gang-claims-nutex-health-data-breach/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Chemical",
+      "Food and Agriculture",
+      "Healthcare and Public Health",
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01": {
+    "enriched_at": "2026-09-02T10:36:40.837477+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-9621",
+        "product": "Rockwell Automation RSLinx Classic",
+        "vendor": "Rockwell Automation",
+        "severity": "CRITICAL",
+        "cvss": 8.6,
+        "description": "Integer Overflow or Wraparound",
+        "exploitation_status": "POC",
+        "remediation": "Update to the latest version",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01"
+        ]
+      },
+      {
+        "cve": "CVE-2026-9622",
+        "product": "Rockwell Automation RSLinx Classic",
+        "vendor": "Rockwell Automation",
+        "severity": "CRITICAL",
+        "cvss": 8.6,
+        "description": "Integer Underflow (Wrap or Wraparound)",
+        "exploitation_status": "POC",
+        "remediation": "Update to the latest version",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01"
+        ]
+      },
+      {
+        "cve": "CVE-2026-9624",
+        "product": "Rockwell Automation RSLinx Classic",
+        "vendor": "Rockwell Automation",
+        "severity": "CRITICAL",
+        "cvss": 8.6,
+        "description": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
+        "exploitation_status": "POC",
+        "remediation": "Update to the latest version",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01"
+        ]
+      },
+      {
+        "cve": "CVE-2026-9625",
+        "product": "Rockwell Automation RSLinx Classic",
+        "vendor": "Rockwell Automation",
+        "severity": "CRITICAL",
+        "cvss": 8.6,
+        "description": "Integer Overflow or Wraparound",
+        "exploitation_status": "POC",
+        "remediation": "Update to the latest version",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Chemical",
+      "Food and Agriculture",
+      "Healthcare and Public Health",
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06": {
+    "enriched_at": "2026-09-02T10:36:40.837477+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2025-12768",
+        "product": "Rockwell Automation Historian ME",
+        "vendor": "Rockwell Automation",
+        "severity": "HIGH",
+        "cvss": 8,
+        "description": "Out-of-bounds Write",
+        "exploitation_status": "POC",
+        "remediation": "Update to the latest version",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06"
+        ]
+      },
+      {
+        "cve": "CVE-2026-12661",
+        "product": "Rockwell Automation Historian ME",
+        "vendor": "Rockwell Automation",
+        "severity": "HIGH",
+        "cvss": 8,
+        "description": "Stack-based Buffer Overflow",
+        "exploitation_status": "POC",
+        "remediation": "Update to the latest version",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Chemical",
+      "Food and Agriculture",
+      "Healthcare and Public Health",
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05": {
+    "enriched_at": "2026-09-02T10:36:40.837477+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2021-42260",
+        "product": "Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix",
+        "vendor": "Rockwell Automation",
+        "severity": "MEDIUM",
+        "cvss": 7.5,
+        "description": "Integer Overflow or Wraparound",
+        "exploitation_status": "POC",
+        "remediation": "Update to the latest version",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing",
+      "Chemical",
+      "Food and Agriculture",
+      "Healthcare and Public Health",
+      "Water and Wastewater Systems"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03": {
+    "enriched_at": "2026-09-02T10:38:44.042559+00:00",
+    "incidents": [
+      {
+        "headline": "Rockwell Automation Logix Platform",
+        "summary": "Several versions of Rockwell Automation Logix Platform are affected by vulnerabilities, including ControlLogix, CompactLogix, GuardLogix, and Compact GuardLogix.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-9637",
+        "product": "Rockwell Automation Logix Platform",
+        "vendor": "Rockwell Automation",
+        "severity": "CRITICAL",
+        "cvss": 7.5,
+        "description": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
+        "exploitation_status": "Exploitable",
+        "remediation": "Update to the latest version or apply the provided patches.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02": {
+    "enriched_at": "2026-09-02T10:38:44.042559+00:00",
+    "incidents": [
+      {
+        "headline": "Rockwell Automation Redundancy Module Configuration Tool",
+        "summary": "Vulnerabilities in the Redundancy Module Configuration Tool could allow for an attacker to escalate and execute processes with administrator privileges.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-9633",
+        "product": "Rockwell Automation Redundancy Module Configuration Tool",
+        "vendor": "Rockwell Automation",
+        "severity": "CRITICAL",
+        "cvss": 7.3,
+        "description": "Incorrect Default Permissions",
+        "exploitation_status": "Exploitable",
+        "remediation": "Update to the latest version or apply the provided patches.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02"
+        ]
+      },
+      {
+        "cve": "CVE-2026-9634",
+        "product": "Rockwell Automation Redundancy Module Configuration Tool",
+        "vendor": "Rockwell Automation",
+        "severity": "CRITICAL",
+        "cvss": 7.3,
+        "description": "Incorrect Default Permissions",
+        "exploitation_status": "Exploitable",
+        "remediation": "Update to the latest version or apply the provided patches.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04": {
+    "enriched_at": "2026-09-02T10:38:44.042559+00:00",
+    "incidents": [
+      {
+        "headline": "Rockwell Automation FactoryTalk Activation Manager",
+        "summary": "Vulnerabilities in the FactoryTalk Activation Manager could lead to improper restriction of excessive authentication attempts.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-16675",
+        "product": "Rockwell Automation FactoryTalk Activation Manager",
+        "vendor": "Rockwell Automation",
+        "severity": "CRITICAL",
+        "cvss": 7.8,
+        "description": "Improper Restriction of Excessive Authentication Attempts",
+        "exploitation_status": "Exploitable",
+        "remediation": "Update to the latest version or apply the provided patches.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#1": {
+    "enriched_at": "2026-09-02T10:38:44.042559+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#2": {
+    "enriched_at": "2026-09-02T10:38:44.042559+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#3": {
+    "enriched_at": "2026-09-02T10:38:44.042559+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Critical Manufacturing"
+    ]
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#4": {
+    "enriched_at": "2026-09-02T10:39:31.750372+00:00",
+    "incidents": [
+      {
+        "headline": "Weekly Report: OpenSSLに複数の脆弱性",
+        "summary": "OpenSSLに複数の脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#4"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#5": {
+    "enriched_at": "2026-09-02T10:39:31.750372+00:00",
+    "incidents": [
+      {
+        "headline": "Weekly Report: 複数のUniFi製品に脆弱性",
+        "summary": "複数のUniFi製品に脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#5"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#6": {
+    "enriched_at": "2026-09-02T10:39:31.750372+00:00",
+    "incidents": [
+      {
+        "headline": "Weekly Report: GitLabに複数の脆弱性",
+        "summary": "GitLabに複数の脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#6"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#7": {
+    "enriched_at": "2026-09-02T10:39:31.750372+00:00",
+    "incidents": [
+      {
+        "headline": "Weekly Report: 複数のWatchGuard製品に脆弱性",
+        "summary": "複数のWatchGuard製品に脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#7"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#8": {
+    "enriched_at": "2026-09-02T10:39:31.750372+00:00",
+    "incidents": [
+      {
+        "headline": "Weekly Report: Next.jsに複数の脆弱性",
+        "summary": "Next.jsに複数の脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#8"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#9": {
+    "enriched_at": "2026-09-02T10:39:31.750372+00:00",
+    "incidents": [
+      {
+        "headline": "Weekly Report: SonicWall NetExtender Linux Clientに複数の脆弱性",
+        "summary": "SonicWall NetExtender Linux Clientに複数の脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#9"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#10": {
+    "enriched_at": "2026-09-02T10:41:14.127536+00:00",
+    "incidents": [
+      {
+        "headline": "複数のVeeam製品に脆弱性",
+        "summary": "複数のVeeam製品に脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#10"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Veeam products",
+        "vendor": "Veeam",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Veeam products have multiple vulnerabilities",
+        "exploitation_status": "Unspecified",
+        "remediation": "Unspecified",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#10"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#11": {
+    "enriched_at": "2026-09-02T10:41:14.127536+00:00",
+    "incidents": [
+      {
+        "headline": "Google Chromeに複数の脆弱性",
+        "summary": "Google Chromeに複数の脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#11"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Google Chrome",
+        "vendor": "Google",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Google Chrome has multiple vulnerabilities",
+        "exploitation_status": "Unspecified",
+        "remediation": "Unspecified",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#11"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#12": {
+    "enriched_at": "2026-09-02T10:41:14.127536+00:00",
+    "incidents": [
+      {
+        "headline": "Keycloakに複数の脆弱性",
+        "summary": "Keycloakに複数の脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#12"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Keycloak",
+        "vendor": "Red Hat",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Keycloak has multiple vulnerabilities",
+        "exploitation_status": "Unspecified",
+        "remediation": "Unspecified",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#12"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#13": {
+    "enriched_at": "2026-09-02T10:41:14.127536+00:00",
+    "incidents": [
+      {
+        "headline": "SKYSEA Client ViewおよびSKYMEC IT Managerに複数の脆弱性",
+        "summary": "SKYSEA Client ViewおよびSKYMEC IT Managerに複数の脆弱性",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#13"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "SKYSEA Client View and SKYMEC IT Manager",
+        "vendor": "SKYSEA",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "SKYSEA Client View and SKYMEC IT Manager have multiple vulnerabilities",
+        "exploitation_status": "Unspecified",
+        "remediation": "Unspecified",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#13"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#14": {
+    "enriched_at": "2026-09-02T10:41:14.127536+00:00",
+    "incidents": [
+      {
+        "headline": "WordPress用プラグイン「miniOrange SAML Single Sign On」の脆弱性に関する悪用観測状況",
+        "summary": "WordPress用プラグイン「miniOrange SAML Single Sign On」の脆弱性に関する悪用観測状況",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#14"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "miniOrange SAML Single Sign On plugin for WordPress",
+        "vendor": "miniOrange",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "miniOrange SAML Single Sign On plugin for WordPress has vulnerabilities",
+        "exploitation_status": "Observations of exploitation",
+        "remediation": "Unspecified",
+        "source_urls": [
+          "https://www.jpcert.or.jp/wr/2026/wr260902.html#14"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/wr/2026/wr260902.html#15": {
+    "enriched_at": "2026-09-02T10:41:14.127536+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/router-hacks-fire-ant-group-china": {
+    "enriched_at": "2026-09-02T10:42:25.078458+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Fire Ant",
+        "aliases": [],
+        "motivation": "Espionage",
+        "recent_activity": "Compromised Cisco routers",
+        "targets": [
+          "Systems that depend on trust"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://therecord.media/router-hacks-fire-ant-group-china"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Aviation",
+      "Fintech"
+    ]
+  },
+  "https://therecord.media/nutex-health-data-breach": {
+    "enriched_at": "2026-09-02T10:42:25.078458+00:00",
+    "incidents": [
+      {
+        "headline": "Healthcare facilities operator Nutex says patient, employee data stolen in August incident",
+        "summary": "Cybercriminals breached Nutex Health and made an extortion attempt with stolen data.",
+        "source_urls": [
+          "https://therecord.media/nutex-health-data-breach"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Aviation",
+      "Fintech"
+    ]
+  },
+  "https://therecord.media/iranian-cyber-spies-target-aviation-fintech-new-malware": {
+    "enriched_at": "2026-09-02T10:42:25.078458+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Aviation",
+      "Fintech"
+    ]
+  },
+  "https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance": {
+    "enriched_at": "2026-09-02T10:42:25.078458+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Aviation",
+      "Fintech"
+    ]
+  },
+  "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html": {
+    "enriched_at": "2026-09-02T10:42:25.078458+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "GeoNetwork",
+        "vendor": "GeoNetwork",
+        "severity": "CRITICAL",
+        "cvss": 7.5,
+        "description": "Two vulnerabilities can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog.",
+        "exploitation_status": "FIXED",
+        "remediation": "Update to version 4.4.12 or 4.2.17",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "GeoNetwork RCE Vulnerability",
+        "context": "Identify unpatched GeoNetwork instances",
+        "indicators": [
+          "GeoNetwork version < 4.4.12 or < 4.2.17"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html"
+        ]
+      }
+    ],
+    "industries": [
+      "Healthcare",
+      "Aviation",
+      "Fintech"
+    ]
+  },
+  "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html": {
+    "enriched_at": "2026-09-02T10:42:25.078458+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Searzhudin Tamirlanovich Aktulaev",
+        "aliases": [
+          "Extradited Russian Hacker"
+        ],
+        "motivation": "Financial gain",
+        "recent_activity": "Sent malware-laced Excel attachments",
+        "targets": [
+          "Freelance platform users"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare",
+      "Aviation",
+      "Fintech"
+    ]
+  },
+  "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html": {
+    "enriched_at": "2026-09-02T10:44:49.221353+00:00",
+    "incidents": [
+      {
+        "headline": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+        "summary": "Researchers used Anthropic's Claude to port a pre-authentication RCE exploit from one WAGO PLC model to another, executing ARM shellcode on live hardware.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2021-31886",
+        "product": "WAGO programmable logic controller (PLC)",
+        "vendor": "WAGO",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A stack-based buffer overflow in the Nucleus FTP server's handling of the USER command.",
+        "exploitation_status": "Exploited",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Brazilian financial services, retail, e-commerce"
+    ]
+  },
+  "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html": {
+    "enriched_at": "2026-09-02T10:44:49.221353+00:00",
+    "incidents": [
+      {
+        "headline": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+        "summary": "Threat actors are exploiting a severe unauthenticated SQL injection vulnerability in Sangoma Switchvox, allowing remote code execution.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-9586",
+        "product": "Sangoma Switchvox SMB Edition 8.3",
+        "vendor": "Sangoma",
+        "severity": "CRITICAL",
+        "cvss": 9.3,
+        "description": "A critical unauthenticated SQL injection vulnerability allowing remote code execution.",
+        "exploitation_status": "Exploited",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Brazilian financial services, retail, e-commerce"
+    ]
+  },
+  "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html": {
+    "enriched_at": "2026-09-02T10:44:49.221353+00:00",
+    "incidents": [
+      {
+        "headline": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
+        "summary": "The U.S. Department of Justice and international partners took down the Sality P2P botnet, cutting off new malware payloads.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Brazilian financial services, retail, e-commerce"
+    ]
+  },
+  "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html": {
+    "enriched_at": "2026-09-02T10:44:49.221353+00:00",
+    "incidents": [
+      {
+        "headline": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+        "summary": "Threat actors are exploiting a newly patched critical authentication bypass flaw in JFrog Artifactory, gaining administrative access.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-82329",
+        "product": "JFrog Artifactory",
+        "vendor": "JFrog",
+        "severity": "CRITICAL",
+        "cvss": 9.8,
+        "description": "An authentication bypass vulnerability allowing administrative access.",
+        "exploitation_status": "Exploited",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Brazilian financial services, retail, e-commerce"
+    ]
+  },
+  "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html": {
+    "enriched_at": "2026-09-02T10:44:49.221353+00:00",
+    "incidents": [
+      {
+        "headline": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+        "summary": "A financially motivated threat actor, Breeze Comet, has been manipulating payment systems in Brazil to conduct fraudulent transfers.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Breeze Comet",
+        "aliases": [
+          "UNC5669"
+        ],
+        "motivation": "Financially motivated",
+        "recent_activity": "Manipulating payment systems in Brazil to conduct fraudulent transfers",
+        "targets": [
+          "Brazilian financial services, retail, and e-commerce organizations"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Brazilian financial services, retail, e-commerce"
+    ]
+  },
+  "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html": {
+    "enriched_at": "2026-09-02T10:44:49.221353+00:00",
+    "incidents": [
+      {
+        "headline": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+        "summary": "Researchers identified 13 malicious Composer theme packages on Packagist that inject JavaScript into websites to steal crypto wallet seeds from unpatched iOS devices.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Brazilian financial services, retail, e-commerce"
+    ]
+  },
+  "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html": {
+    "enriched_at": "2026-09-02T10:46:21.811405+00:00",
+    "incidents": [
+      {
+        "headline": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+        "summary": "The Iranian Nimbus Manticore hacking group has been using two previously undocumented malware families to infect Linux and Apple macOS systems using cross-platform remote access trojans (RATs) developed using Node.js and JavaScript.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Nimbus Manticore",
+        "aliases": [],
+        "motivation": "Unknown",
+        "recent_activity": "Using two previously undocumented malware families to infect Linux and Apple macOS systems using cross-platform remote access trojans (RATs) developed using Node.js and JavaScript.",
+        "targets": [
+          "Linux and Apple macOS systems"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html": {
+    "enriched_at": "2026-09-02T10:46:21.811405+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.exploit-db.com/exploits/52672": {
+    "enriched_at": "2026-09-02T10:46:21.811405+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Wolf CMS 0.8.3.1",
+        "vendor": null,
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Wolf CMS 0.8.3.1 - Remote Code Execution (RCE)",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.exploit-db.com/exploits/52672"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.exploit-db.com/exploits/52671": {
+    "enriched_at": "2026-09-02T10:46:21.811405+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Payload CMS 3.72.0",
+        "vendor": null,
+        "severity": "MEDIUM",
+        "cvss": null,
+        "description": "Payload CMS 3.72.0 - Blind SQL Injection",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.exploit-db.com/exploits/52671"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.exploit-db.com/exploits/52670": {
+    "enriched_at": "2026-09-02T10:46:21.811405+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Bludit CMS",
+        "vendor": null,
+        "severity": "MEDIUM",
+        "cvss": null,
+        "description": "Bludit CMS - Stored Cross-Site Scripting (XSS)",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.exploit-db.com/exploits/52670"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.exploit-db.com/exploits/52669": {
+    "enriched_at": "2026-09-02T10:46:21.811405+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Grav CMS 2.0.7",
+        "vendor": null,
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Grav CMS 2.0.7 - Remote Code Execution (RCE)",
+        "exploitation_status": null,
+        "remediation": null,
+        "source_urls": [
+          "https://www.exploit-db.com/exploits/52669"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.exploit-db.com/exploits/52668": {
+    "enriched_at": "2026-09-02T10:47:49.538995+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "miniOrange 5.4.3",
+        "vendor": "miniOrange",
+        "severity": "HIGH",
+        "cvss": null,
+        "description": "Unauthenticated authentication bypass.",
+        "exploitation_status": "Exploited",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://www.exploit-db.com/exploits/52668"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "medium to large enterprises",
+      "government agencies",
+      "managed security service providers"
+    ]
+  },
+  "https://www.exploit-db.com/exploits/52667": {
+    "enriched_at": "2026-09-02T10:47:49.538995+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "EasyAppointments 1.5.1",
+        "vendor": "EasyAppointments",
+        "severity": "HIGH",
+        "cvss": null,
+        "description": "Blind SQL Injection.",
+        "exploitation_status": "Exploited",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://www.exploit-db.com/exploits/52667"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "medium to large enterprises",
+      "government agencies",
+      "managed security service providers"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/sonicwall-sma-1000-cve-2026-83548-cve-2026-83549-zero-day-attacks/": {
+    "enriched_at": "2026-09-02T10:47:49.538995+00:00",
+    "incidents": [
+      {
+        "headline": "SonicWall SMA 1000 appliances under attack via zero-day flaws",
+        "summary": "Attackers are exploiting two previously undisclosed vulnerabilities in SonicWall SMA 1000 appliances.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/02/sonicwall-sma-1000-cve-2026-83548-cve-2026-83549-zero-day-attacks/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-83548",
+        "product": "SonicWall SMA 1000",
+        "vendor": "SonicWall",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A pre-authentication server-side request forgery (SSRF) flaw in the Appliance Work Place interface.",
+        "exploitation_status": "Exploited",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/02/sonicwall-sma-1000-cve-2026-83548-cve-2026-83549-zero-day-attacks/"
+        ]
+      },
+      {
+        "cve": "CVE-2026-83549",
+        "product": "SonicWall SMA 1000",
+        "vendor": "SonicWall",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Not specified in the article.",
+        "exploitation_status": "Exploited",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/02/sonicwall-sma-1000-cve-2026-83548-cve-2026-83549-zero-day-attacks/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "medium to large enterprises",
+      "government agencies",
+      "managed security service providers"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/grid-battery-storage-cyberattack/": {
+    "enriched_at": "2026-09-02T10:47:49.538995+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "medium to large enterprises",
+      "government agencies",
+      "managed security service providers"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/sality-botnet-disruption-crowdstrike-law-enforcement/": {
+    "enriched_at": "2026-09-02T10:47:49.538995+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "medium to large enterprises",
+      "government agencies",
+      "managed security service providers"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/keepnet-launches-free-sms-call-reporter-for-ios/": {
+    "enriched_at": "2026-09-02T10:47:49.538995+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "medium to large enterprises",
+      "government agencies",
+      "managed security service providers"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/visa-enhanced-a2a-protect-version/": {
+    "enriched_at": "2026-09-02T10:48:18.171447+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/edge-case-guardian-ai-driven-platform/": {
+    "enriched_at": "2026-09-02T10:48:18.171447+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/duckdb-aws-acquisition-open-source/": {
+    "enriched_at": "2026-09-02T10:48:18.171447+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/f5-waf-anomaly-detection-ai-threats/": {
+    "enriched_at": "2026-09-02T10:48:18.171447+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/vali-cyber-zerolock-5-hypervisor-security/": {
+    "enriched_at": "2026-09-02T10:48:18.171447+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/02/becky-palmer-national-life-group-ai-driven-cyber-threats/": {
+    "enriched_at": "2026-09-02T10:48:18.171447+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/": {
+    "enriched_at": "2026-09-02T10:49:14.796829+00:00",
+    "incidents": [
+      {
+        "headline": "CrowdStrike Falcon Guardian Defines the Next Generation of AI Security",
+        "summary": "CrowdStrike introduces a new AI security solution.",
+        "source_urls": [
+          "https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/": {
+    "enriched_at": "2026-09-02T10:49:14.796829+00:00",
+    "incidents": [
+      {
+        "headline": "Peer Pressure: Inside the Sality Botnet Disruption Operation",
+        "summary": "Details on the disruption of the Sality botnet.",
+        "source_urls": [
+          "https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://research.checkpoint.com/2026/gaming-the-system-how-a-chinese-speaking-actor-turned-brazilian-government-sites-into-an-seo-weapon/": {
+    "enriched_at": "2026-09-02T10:49:14.796829+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Earth Berberoka",
+        "aliases": [],
+        "motivation": "Cybercrime",
+        "recent_activity": "Targeting Brazilian government sites",
+        "targets": [
+          "Brazilian government sites"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://research.checkpoint.com/2026/gaming-the-system-how-a-chinese-speaking-actor-turned-brazilian-government-sites-into-an-seo-weapon/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/": {
+    "enriched_at": "2026-09-02T10:49:14.796829+00:00",
+    "incidents": [
+      {
+        "headline": "An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation",
+        "summary": "An investigation into an AI-assisted cyber attack.",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://isc.sans.edu/diary/rss/33304": {
+    "enriched_at": "2026-09-02T10:49:14.796829+00:00",
+    "incidents": [
+      {
+        "headline": "ISC Stormcast For Wednesday, September 2nd, 2026",
+        "summary": "Operational summary for the day.",
+        "source_urls": [
+          "https://isc.sans.edu/diary/rss/33304"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/": {
+    "enriched_at": "2026-09-02T10:49:14.796829+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
+        "context": "Deceptive software download campaign",
+        "indicators": [
+          "look-alike download pages",
+          "regenerated installer archives"
+        ],
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/"
+        ]
+      }
+    ],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/09/01/cybersecurity-ir-workshop-you-shouldnt-miss/": {
+    "enriched_at": "2026-09-02T10:50:09.099424+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.gitguardian.com/credential-security/": {
+    "enriched_at": "2026-09-02T10:50:09.099424+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-093-aws/": {
+    "enriched_at": "2026-09-02T10:50:09.099424+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-83551",
+        "product": "Amazon SageMaker Python SDK",
+        "vendor": "AWS",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK allows actors with DescribePipeline API permissions to extract the key and achieve code execution in another user's pipeline execution context.",
+        "exploitation_status": "POC",
+        "remediation": "Update to SageMaker Python SDK v3.11.0 or v2.256.0",
+        "source_urls": [
+          "https://aws.amazon.com/security/security-bulletins/rss/2026-093-aws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/09/chrome-for-android.html": {
+    "enriched_at": "2026-09-02T10:50:09.099424+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/09/beta-channel-update-for-chromeos.html": {
+    "enriched_at": "2026-09-02T10:50:09.099424+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop.html": {
+    "enriched_at": "2026-09-02T10:50:09.099424+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/09/chrome-stable-for-ios-update.html": {
+    "enriched_at": "2026-09-02T10:50:29.345259+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Education"
+    ]
+  },
+  "https://github.com/fleetdm/fleet/releases/tag/v4.90.2": {
+    "enriched_at": "2026-09-02T10:50:29.345259+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Education"
+    ]
+  },
+  "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.90.2": {
+    "enriched_at": "2026-09-02T10:50:29.345259+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Education"
+    ]
+  },
+  "https://www.socinvestigation.com/why-schools-benefit-from-specialized-software/": {
+    "enriched_at": "2026-09-02T10:50:29.345259+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Education"
+    ]
   }
 }
