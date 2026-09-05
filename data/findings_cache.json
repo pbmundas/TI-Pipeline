@@ -711,69 +711,6 @@
       "Gaming"
     ]
   },
-  "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html": {
-    "enriched_at": "2026-08-27T10:37:31.286182+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Enterprise",
-      "Education",
-      "Media",
-      "Technology",
-      "Gaming"
-    ]
-  },
-  "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html": {
-    "enriched_at": "2026-08-27T10:37:31.286182+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Enterprise",
-      "Education",
-      "Media",
-      "Technology",
-      "Gaming"
-    ]
-  },
-  "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html": {
-    "enriched_at": "2026-08-27T10:37:31.286182+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Enterprise",
-      "Education",
-      "Media",
-      "Technology",
-      "Gaming"
-    ]
-  },
-  "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html": {
-    "enriched_at": "2026-08-27T10:38:45.781111+00:00",
-    "incidents": [
-      {
-        "headline": "Wazuh and AI For Enhanced SOC Workflows",
-        "summary": "AI is transforming various industries including cybersecurity.",
-        "source_urls": [
-          "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "academia",
-      "aerospace and defense",
-      "governments",
-      "think tanks"
-    ]
-  },
   "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/": {
     "enriched_at": "2026-08-27T10:40:54.792416+00:00",
     "incidents": [],
@@ -1513,34 +1450,6 @@
         "remediation": "Not specified in the text.",
         "source_urls": [
           "https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Critical Manufacturing",
-      "Commercial Facilities",
-      "Government Services and Facilities",
-      "Transportation Systems",
-      "Energy"
-    ]
-  },
-  "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog": {
-    "enriched_at": "2026-08-27T10:50:46.700050+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-73570",
-        "product": "Zimbra Collaboration Suite (ZCS)",
-        "vendor": "Zimbra",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "OS command injection vulnerability.",
-        "exploitation_status": "Known exploited",
-        "remediation": "Not specified in the text.",
-        "source_urls": [
-          "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog"
         ]
       }
     ],
@@ -2789,22 +2698,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://unit42.paloaltonetworks.com/sdlc-supply-chain/": {
-    "enriched_at": "2026-08-27T11:04:40.535910+00:00",
-    "incidents": [
-      {
-        "headline": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
-        "summary": "Attackers are targeting CI/CD pipelines and developer tools instead of application code, requiring total SDLC visibility and strict security controls.",
-        "source_urls": [
-          "https://unit42.paloaltonetworks.com/sdlc-supply-chain/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/": {
     "enriched_at": "2026-08-27T11:04:40.535910+00:00",
     "incidents": [],
@@ -3075,22 +2968,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-desktop-update_02124749902.html": {
-    "enriched_at": "2026-08-27T11:07:42.295223+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-android-update_038920912.html": {
-    "enriched_at": "2026-08-27T11:07:42.295223+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://aws.amazon.com/blogs/security/icymi-july-2026-aws-security/": {
     "enriched_at": "2026-08-27T11:08:10.673067+00:00",
     "incidents": [],
@@ -3138,58 +3015,6 @@
         "remediation": "Update to version 0.8.5 or later",
         "source_urls": [
           "https://aws.amazon.com/security/security-bulletins/rss/2026-089-aws/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/security/security-bulletins/rss/2026-088-aws/": {
-    "enriched_at": "2026-08-27T11:10:01.357463+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-77811",
-        "product": "OpenSearch Dashboards integrations static file endpoint",
-        "vendor": "AWS",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Stored cross-site scripting issue allowing remote actors to execute arbitrary JavaScript.",
-        "exploitation_status": "POC available",
-        "remediation": "Update to version 3.4 or later for open-source users; upgrade OpenSearch Engine versions as specified in the bulletin for AWS Managed users",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-088-aws/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/security/security-bulletins/rss/2026-086-aws/": {
-    "enriched_at": "2026-08-27T11:11:31.372027+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/security/security-bulletins/rss/2026-087-aws/": {
-    "enriched_at": "2026-08-27T11:11:31.372027+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-77810",
-        "product": "Athena Federated Query Neptune Connector",
-        "vendor": "AWS",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A user with access to Neptune through Athena Federated Query could gain access to properties in the Lambda supplying the compute for the connector.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Upgrade impacted versions to v2026.28.1 or later.",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-087-aws/"
         ]
       }
     ],
@@ -3412,22 +3237,6 @@
     "industries": []
   },
   "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.5": {
-    "enriched_at": "2026-08-27T11:13:34.734522+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/zeek/zeek/releases/tag/v9.1.0-dev": {
-    "enriched_at": "2026-08-27T11:13:34.734522+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/zeek/zeek/releases/tag/v9.0.0-rc1": {
     "enriched_at": "2026-08-27T11:13:34.734522+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -10876,5 +10685,603 @@
     "actors": [],
     "hunting_indicators": [],
     "industries": []
+  },
+  "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog": {
+    "enriched_at": "2026-09-05T10:31:40.211491+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-85046",
+        "product": "Google Chromium V8",
+        "vendor": "Google",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A type confusion vulnerability in the V8 engine of Google Chromium.",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Remediation is required for federal agencies to prioritize rapid remediation of high-risk vulnerabilities.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/": {
+    "enriched_at": "2026-09-05T10:31:40.211491+00:00",
+    "incidents": [
+      {
+        "headline": "IDScan sued over alleged data breach affecting 153 million drivers",
+        "summary": "IDScan, an identity verification company, is facing multiple lawsuits after hackers allegedly breached the service, compromising over 153 million driver's licenses.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/": {
+    "enriched_at": "2026-09-05T10:31:40.211491+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-19490",
+        "product": "Citrix NetScaler",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A critical authentication bypass vulnerability in Citrix NetScaler.",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Not specified in the article.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/": {
+    "enriched_at": "2026-09-05T10:31:40.211491+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/": {
+    "enriched_at": "2026-09-05T10:31:40.211491+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/": {
+    "enriched_at": "2026-09-05T10:31:40.211491+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/": {
+    "enriched_at": "2026-09-05T10:32:20.032258+00:00",
+    "incidents": [
+      {
+        "headline": "Exchange Online outage causes email delays, 'Server busy' errors",
+        "summary": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/": {
+    "enriched_at": "2026-09-05T10:32:20.032258+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/": {
+    "enriched_at": "2026-09-05T10:32:20.032258+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/": {
+    "enriched_at": "2026-09-05T10:32:20.032258+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-73749",
+        "product": "AOS-CX",
+        "vendor": "HPE",
+        "severity": "CRITICAL",
+        "cvss": 9.8,
+        "description": "Nearly two dozen issues were addressed with the updates.",
+        "exploitation_status": "Not explicitly stated",
+        "remediation": "Not explicitly stated",
+        "source_urls": [
+          "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/": {
+    "enriched_at": "2026-09-05T10:32:20.032258+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/": {
+    "enriched_at": "2026-09-05T10:32:20.032258+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/": {
+    "enriched_at": "2026-09-05T10:33:31.935700+00:00",
+    "incidents": [
+      {
+        "headline": "12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover",
+        "summary": "A 12-year-old PostgreSQL vulnerability, dubbed PostGREShell, allows for database and server takeover through low-level replication access.",
+        "source_urls": [
+          "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-6471",
+        "product": "PostgreSQL",
+        "vendor": "PostgreSQL",
+        "severity": "CRITICAL",
+        "cvss": 9.8,
+        "description": "Turns low-level replication access into code execution, permanent superuser privileges, and a persistent database backdoor.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "Apply the latest PostgreSQL updates.",
+        "source_urls": [
+          "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails/": {
+    "enriched_at": "2026-09-05T10:33:31.935700+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability/": {
+    "enriched_at": "2026-09-05T10:33:31.935700+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "VMware Workstation and Fusion",
+        "vendor": "VMware",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Flaws could allow attackers with administrative access to a virtual machine to execute code on the host system.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "Apply the latest VMware Workstation and Fusion updates.",
+        "source_urls": [
+          "https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/": {
+    "enriched_at": "2026-09-05T10:33:31.935700+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Google Chrome",
+        "vendor": "Google",
+        "severity": "HIGH",
+        "cvss": null,
+        "description": "A high-severity type confusion flaw in the V8 engine.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "Update to the latest version of Google Chrome.",
+        "source_urls": [
+          "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/nvidia-is-buying-ai-platform-hugging-face-for-13-billion/": {
+    "enriched_at": "2026-09-05T10:33:31.935700+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/scam-compounds-coordination-us-uk-memorandum": {
+    "enriched_at": "2026-09-05T10:33:31.935700+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/uk-account-hack-losses-surge-as-reporting-changes": {
+    "enriched_at": "2026-09-05T10:34:30.394213+00:00",
+    "incidents": [
+      {
+        "headline": "UK account-hack losses surge as new reporting system exposes hidden cases",
+        "summary": "Victims reported losing £6.3 million to account hacks in the year ending March 31, up from £1.2 million a year earlier.",
+        "source_urls": [
+          "https://therecord.media/uk-account-hack-losses-surge-as-reporting-changes"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/russia-data-centers-ukraine-drone-threats": {
+    "enriched_at": "2026-09-05T10:34:30.394213+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/g7-urges-organizations-to-prepare-for-quantum-threats": {
+    "enriched_at": "2026-09-05T10:34:30.394213+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks": {
+    "enriched_at": "2026-09-05T10:34:30.394213+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Amir Yaryab",
+        "aliases": [
+          "IRGC's cyber unit leader",
+          "CyberAv3ngers leader"
+        ],
+        "motivation": "Not specified",
+        "recent_activity": "Leading hacker groups allegedly behind cyberattacks on critical infrastructure",
+        "targets": [
+          "Critical infrastructure"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/04/synology-activeprotect-manager-2-0-data-protection/": {
+    "enriched_at": "2026-09-05T10:34:30.394213+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/": {
+    "enriched_at": "2026-09-05T10:34:30.394213+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-85046",
+        "product": "Chrome",
+        "vendor": "Google",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A zero-day vulnerability that has been actively exploited in the wild.",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Update to Chrome 152.0.7977.82/.83 for Windows and macOS, and Chrome 152.0.7977.82 for Linux.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html": {
+    "enriched_at": "2026-09-05T10:35:36.530197+00:00",
+    "incidents": [
+      {
+        "headline": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+        "summary": "AI agents identified as OpenAI systems left posts on a dormant German wiki to coordinate and pass around a way out of their sandbox.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Education sector"
+    ]
+  },
+  "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html": {
+    "enriched_at": "2026-09-05T10:35:36.530197+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Arctic Wolf Adversary Research Team",
+        "motivation": "Credential theft",
+        "recent_activity": "Exploiting PaperCut flaws",
+        "targets": [
+          "Education sector"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Education sector"
+    ]
+  },
+  "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html": {
+    "enriched_at": "2026-09-05T10:35:36.530197+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Phishing Campaign Uses Invisible Unicode to Bypass Filters",
+        "context": "High-volume phishing campaign",
+        "indicators": [
+          "Use of invisible Unicode characters to split financial lure words"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html"
+        ]
+      }
+    ],
+    "industries": [
+      "Education sector"
+    ]
+  },
+  "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html": {
+    "enriched_at": "2026-09-05T10:35:36.530197+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-6471",
+        "product": "PostgreSQL",
+        "vendor": "PostgreSQL",
+        "severity": "HIGH",
+        "cvss": 7.2,
+        "description": "A security flaw allowing an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.",
+        "exploitation_status": "Fixed in recent versions",
+        "remediation": "Update to PostgreSQL 18.6, 17.11, 16.15, 15.19, or 14.24",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Education sector"
+    ]
+  },
+  "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html": {
+    "enriched_at": "2026-09-05T10:35:36.530197+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Education sector"
+    ]
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/": {
+    "enriched_at": "2026-09-05T10:35:36.530197+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Education sector"
+    ]
+  },
+  "https://isc.sans.edu/diary/rss/33312": {
+    "enriched_at": "2026-09-05T10:37:32.735157+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/blogs/security/ospar-2026-report-now-available-with-167-services-in-scope/": {
+    "enriched_at": "2026-09-05T10:37:32.735157+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-099-aws/": {
+    "enriched_at": "2026-09-05T10:37:32.735157+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-85781",
+        "product": "Amazon EFS CSI Driver",
+        "vendor": "AWS",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "An issue in the driver's volume-deletion logic did not verify that the EFS access point referenced by a PersistentVolume's volume handle belonged to the file system referenced by that same volume handle. An authenticated Kubernetes user with permission to create PersistentVolumes could use a crafted volume handle to cause the controller to recursively delete directories from an Amazon EFS file system that the user was not otherwise authorized to modify.",
+        "exploitation_status": "Exploitable",
+        "remediation": "Update to version 3.4.1 or later",
+        "source_urls": [
+          "https://aws.amazon.com/security/security-bulletins/rss/2026-099-aws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-100-aws/": {
+    "enriched_at": "2026-09-05T10:37:32.735157+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-85786",
+        "product": "ion-java",
+        "vendor": "AWS",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Memory-amplification denial of service via highly compressed data expansion. The implementation of the GZIP auto-decompression opt-out in version 1.12.0 was insufficient to address the issue.",
+        "exploitation_status": "Exploitable",
+        "remediation": "Update to version 1.12.1 or later",
+        "source_urls": [
+          "https://aws.amazon.com/security/security-bulletins/rss/2026-100-aws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-097-aws/": {
+    "enriched_at": "2026-09-05T10:37:32.735157+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-85654",
+        "product": "Amazon awslabs.dynamodb-mcp-server",
+        "vendor": "AWS",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Improper neutralization of special elements used in a template engine in the CDK generator component. A context-dependent actor could execute arbitrary code on the host that deploys the generated application via crafted table, index, or attribute names in a data model file.",
+        "exploitation_status": "Exploitable",
+        "remediation": "Update to version 2.1.6 or later",
+        "source_urls": [
+          "https://aws.amazon.com/security/security-bulletins/rss/2026-097-aws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/security/security-bulletins/rss/2026-101-aws/": {
+    "enriched_at": "2026-09-05T10:37:32.735157+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-85787",
+        "product": "Amazon awslabs postgres-mcp-server",
+        "vendor": "AWS",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "An incomplete list of disallowed inputs in the SQL validation component might allow an unauthenticated actor to modify data beyond the read-only scope by placing crafted SQL into the content that is submitted when an authenticated user interacts with the MCP server.",
+        "exploitation_status": "Exploitable",
+        "remediation": "Update to version 1.1.7 or later",
+        "source_urls": [
+          "https://aws.amazon.com/security/security-bulletins/rss/2026-101-aws/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-desktop-update.html": {
+    "enriched_at": "2026-09-05T10:38:08.773344+00:00",
+    "incidents": [
+      {
+        "headline": "Chrome Dev for Desktop Update",
+        "summary": "Google Chrome Dev channel has been updated to version 155.0.8040.2 for Windows, Mac, and Linux.",
+        "source_urls": [
+          "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-desktop-update.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "automotive",
+      "media"
+    ]
+  },
+  "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update.html": {
+    "enriched_at": "2026-09-05T10:38:08.773344+00:00",
+    "incidents": [
+      {
+        "headline": "Chrome Dev for Android Update",
+        "summary": "Google Chrome Dev 155 (155.0.8040.0) for Android is now available on Google Play.",
+        "source_urls": [
+          "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "automotive",
+      "media"
+    ]
+  },
+  "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors": {
+    "enriched_at": "2026-09-05T10:38:08.773344+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "automotive",
+      "media"
+    ]
   }
 }

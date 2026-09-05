@@ -40092,5 +40092,395 @@
     "feed_source": "https://www.socinvestigation.com/feed/",
     "publisher": "Security Investigation",
     "source_note": ""
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published_date": "2026-09-04T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation. &nbsp;</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-85046\" target=\"_blank\">CVE-2026-85046</a> Google Chromium V8 Type Confusion Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while de",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+    "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+    "published_date": "2026-09-04T16:56:45+00:00",
+    "source_type": "news",
+    "summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+    "published_date": "2026-09-04T15:25:59+00:00",
+    "source_type": "news",
+    "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft says some users can’t open the Teams desktop client",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+    "published_date": "2026-09-04T14:30:15+00:00",
+    "source_type": "news",
+    "summary": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "39 New Methods That Compromise Passkey Authentication",
+    "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+    "published_date": "2026-09-04T14:01:11+00:00",
+    "source_type": "news",
+    "summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other trust boundaries without breaking FIDO2 cryptography. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+    "url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+    "published_date": "2026-09-04T13:22:01+00:00",
+    "source_type": "news",
+    "summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Windows systems. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Exchange Online outage causes email delays, 'Server busy' errors",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
+    "published_date": "2026-09-04T12:22:30+00:00",
+    "source_type": "news",
+    "summary": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
+    "published_date": "2026-09-04T11:48:17+00:00",
+    "source_type": "news",
+    "summary": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation",
+    "url": "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/",
+    "published_date": "2026-09-04T16:18:30+00:00",
+    "source_type": "news",
+    "summary": "<p>Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion. </p>\n<p>The post <a href=\"https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/\">In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
+    "url": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
+    "published_date": "2026-09-04T16:11:06+00:00",
+    "source_type": "news",
+    "summary": "<p>Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates.</p>\n<p>The post <a href=\"https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/\">HPE Patches Critical RCE Vulnerabilities in AOS-CX</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders",
+    "url": "https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/",
+    "published_date": "2026-09-04T16:07:22+00:00",
+    "source_type": "news",
+    "summary": "<p>The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/\">OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
+    "url": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
+    "published_date": "2026-09-04T13:23:12+00:00",
+    "source_type": "news",
+    "summary": "<p>Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/\">Sangoma Switchvox Vulnerabilities Exploited in the Wild</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover",
+    "url": "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/",
+    "published_date": "2026-09-04T12:06:13+00:00",
+    "source_type": "news",
+    "summary": "<p>Dubbed PostGREShell, CVE-2026-6471 turns low-level replication access into code execution, permanent superuser privileges and a persistent database backdoor.</p>\n<p>The post <a href=\"https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/\">12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Catch Raises $5 Million for AI Executive Assistant With Guardrails",
+    "url": "https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails/",
+    "published_date": "2026-09-04T11:55:17+00:00",
+    "source_type": "news",
+    "summary": "<p>Catch promises the capabilities of a trusted executive assistant, with built-in controls governing what data and systems it can access.</p>\n<p>The post <a href=\"https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails/\">Catch Raises $5 Million for AI Executive Assistant With Guardrails</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "VMware Workstation and Fusion Updates Patch Critical Vulnerability",
+    "url": "https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability/",
+    "published_date": "2026-09-04T11:42:55+00:00",
+    "source_type": "news",
+    "summary": "<p>The flaws could allow attackers with administrative access to a virtual machine to execute code on the host system.</p>\n<p>The post <a href=\"https://www.securityweek.com/vmware-workstation-and-fusion-updates-patch-critical-vulnerability/\">VMware Workstation and Fusion Updates Patch Critical Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Google Patches 6th Chrome Zero-Day of 2026",
+    "url": "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/",
+    "published_date": "2026-09-04T11:31:52+00:00",
+    "source_type": "news",
+    "summary": "<p>Google’s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/\">Google Patches 6th Chrome Zero-Day of 2026</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Nvidia Is Buying AI Platform Hugging Face for $13 Billion",
+    "url": "https://www.securityweek.com/nvidia-is-buying-ai-platform-hugging-face-for-13-billion/",
+    "published_date": "2026-09-04T10:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>The deal highlights Nvidia’s push to champion increasingly popular open-source AI models.</p>\n<p>The post <a href=\"https://www.securityweek.com/nvidia-is-buying-ai-platform-hugging-face-for-13-billion/\">Nvidia Is Buying AI Platform Hugging Face for $13 Billion</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "US, Britain to coordinate on scam center takedowns",
+    "url": "https://therecord.media/scam-compounds-coordination-us-uk-memorandum",
+    "published_date": "2026-09-04T15:42:00+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Department of Justice and the U.K.'s National Crime Agency and Crown Prosecutor signed a memorandum to cooperate on cases involving Southeast Asian scam operations.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "UK account-hack losses surge as new reporting system exposes hidden cases",
+    "url": "https://therecord.media/uk-account-hack-losses-surge-as-reporting-changes",
+    "published_date": "2026-09-04T14:45:00+00:00",
+    "source_type": "news",
+    "summary": "In its first annual assessment, published Friday, the City of London Police said victims reported losing £6.3 million ($8.5 million) to account hacks in the year ending March 31, up from £1.2 million ($1.6 million) a year earlier.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Russian data centers face new security requirements amid Ukraine's drone threats",
+    "url": "https://therecord.media/russia-data-centers-ukraine-drone-threats",
+    "published_date": "2026-09-04T13:39:00+00:00",
+    "source_type": "news",
+    "summary": "Russia's data centers are concentrated in areas increasingly exposed to Ukrainian drone attacks. The Kremlin wants them to stiffen their physical defenses.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "G7 urges organizations to prepare for quantum cyber threats",
+    "url": "https://therecord.media/g7-urges-organizations-to-prepare-for-quantum-threats",
+    "published_date": "2026-09-04T12:34:00+00:00",
+    "source_type": "news",
+    "summary": "In a joint advisory released Thursday, the G7 Cyber Security Working Group and the U.S. Cybersecurity and Infrastructure Security Agency, CISA, said organizations should begin moving to post-quantum cryptography now.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure",
+    "url": "https://therecord.media/us-reward-amir-yaryab-iran-irgc-cyberattacks",
+    "published_date": "2026-09-04T04:00:00+00:00",
+    "source_type": "news",
+    "summary": "Amir Yaryab is the leader of the IRGC's cyber unit and oversees hacker groups such as the CyberAv3ngers, the State Department said in posting a reward for information about him.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Synology ActiveProtect Manager 2.0 improves AI-driven security",
+    "url": "https://www.helpnetsecurity.com/2026/09/04/synology-activeprotect-manager-2-0-data-protection/",
+    "published_date": "2026-09-04T12:19:50+00:00",
+    "source_type": "news",
+    "summary": "<p>Synology launched ActiveProtect Manager 2.0 (APM 2.0), the latest software update for its ActiveProtect data protection appliances. This release introduces expanded platform coverage, cross-platform recovery, and enhanced security, with future updates bringing AI-driven threat mitigation. &#8220;Managing fragmented backup infrastructure drives up costs and slows recovery. The ActiveProtect appliance unites purpose-built storage with powerful data management software into a single, predictable investment,&#8221; said Jia-Yu Liu, EVP of the Synology Data Protection Group. &#8220;APM 2.0 builds on &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/04/synology-activeprotect-manager-2-0-data-protection/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/04/synology-activeprotect-manager-2-0-data-protection/\">Synology ActiveProtect Manager 2.0 improves AI-driven security</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Google patches actively exploited Chrome zero-day (CVE-2026-85046)",
+    "url": "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
+    "published_date": "2026-09-04T12:09:13+00:00",
+    "source_type": "news",
+    "summary": "<p>Google has patched 12 vulnerabilities affecting its popular Chrome browser, among them CVE-2026-85046, which has been exploited in the wild. &#8220;Google is aware that an exploit for CVE-2026-85046 exists in the wild,&#8221; the company said in a Thursday security advisory. The fix has been shipped in Chrome 152.0.7977.82/.83 for Windows and macOS and Chrome 152.0.7977.82 for Linux, with the update rolling out to users over the coming days and weeks. About CVE-2026-85046 CVE-2026-85046 (CVSS score: &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/\">Google patches actively exploited Chrome zero-day (CVE-2026-85046)</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+    "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+    "published_date": "2026-09-05T07:55:10+00:00",
+    "source_type": "news",
+    "summary": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox.\n\nThe activity was concentrated on DSEwiki, a German software developer wiki that runs",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+    "published_date": "2026-09-05T07:31:53+00:00",
+    "source_type": "news",
+    "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+    "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+    "published_date": "2026-09-04T15:57:15+00:00",
+    "source_type": "news",
+    "summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as 'funding' to prevent email filters from parsing them,\" the Microsoft Security Research team said.\n\nThe",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+    "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+    "published_date": "2026-09-04T15:20:19+00:00",
+    "source_type": "news",
+    "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+    "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+    "published_date": "2026-09-04T14:51:13+00:00",
+    "source_type": "news",
+    "summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors.\n\nThe attackers named the implant ted in debug strings left in the binary. It is not a HAProxy vulnerability, and installing it requires code execution on the host and",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "How to secure edge AI in customer-owned environments",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
+    "published_date": "2026-09-04T19:10:10+00:00",
+    "source_type": "research",
+    "summary": "<p>As AI moves into customer-owned environments, organizations need new ways to verify the systems, software, and AI assets they trust before releasing sensitive data, credentials, and models.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/\">How to secure edge AI in customer-owned environments</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "numbat - AI agent observability, (Fri, Sep 4th)",
+    "url": "https://isc.sans.edu/diary/rss/33312",
+    "published_date": "2026-09-05T03:39:52+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "OSPAR 2026 report now available with 167 services in scope",
+    "url": "https://aws.amazon.com/blogs/security/ospar-2026-report-now-available-with-167-services-in-scope/",
+    "published_date": "2026-09-04T18:13:04+00:00",
+    "source_type": "vendor",
+    "summary": "We’re pleased to confirm the successful completion of our annual Amazon Web Services (AWS) Outsourced Service Provider’s Audit Report (OSPAR) assessment on July 29, 2026, in line with the OSPAR version 2.0 framework. The Association of Banks in Singapore (ABS) established the Guidelines on Control Objectives and Procedures for Outsourced Service Providers (ABS Guidelines) to […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-85781 - Unverified access point ownership in Amazon EFS CSI Driver",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-099-aws/",
+    "published_date": "2026-09-04T19:03:02+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-099-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/04/2026 11:45 AM PDT</p> \n<p><b>Description:</b></p> \n<p>The Amazon EFS CSI Driver is an open-source Kubernetes Container Storage Interface (CSI) driver that lets Kubernetes workloads use Amazon EFS file systems. We identified CVE-2026-85781, an issue in the driver's volume-deletion logic. When the controller is configured with the non-default --delete-access-point-root-dir=true option, it did not verify that the EFS access point referenced by a PersistentVolume's volume handle belonged to the file system referenced by that same volume handle. An authenticated Kubernetes user with permission to create PersistentVolumes could use a crafted volume handle to cause the controller to recursively delete directories from an Amazon EFS file system that the user was not otherwise authorized to modify. This issue does not affect Amazon EFS itself; Amazon EFS access controls operated as designed.</p> \n<p><b>Impacted versions:</b> &lt;=3.4.0</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-85786 - Incomplete fix for CVE-2026-75936 memory-amplification denial of service in Amazon ion-java",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-100-aws/",
+    "published_date": "2026-09-04T19:24:10+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-100-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/04/2026 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>ion-java is a Java library that implements the Amazon Ion data format specification. We identified CVE-2026-85786, memory-amplification denial of service via highly compressed data expansion. ion-java 1.12.0 added a GZIP auto-decompression opt-out for CVE-2026-75936, but the implementation of the opt-out in 1.12.0 was insufficient to address the issue.</p> \n<p><b>Impacted versions:</b> &lt; 1.12.1</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-85654 - Code injection in the CDK generator in Amazon awslabs.dynamodb-mcp-server",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-097-aws/",
+    "published_date": "2026-09-04T19:47:32+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-097-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/04/2026 10:00 AM PDT</p> \n<p><b>Description:</b></p> \n<p>Amazon awslabs.dynamodb-mcp-server is an open-source Model Context Protocol (MCP) server that enables AI coding assistants to interact with Amazon DynamoDB, including table design, data modeling, and CDK infrastructure generation. We identified CVE-2026-85654, an improper neutralization of special elements used in a template engine in the CDK generator component. Under certain circumstances, a context-dependent actor could execute arbitrary code on the host that deploys the generated application via crafted table, index, or attribute names in a data model file.</p> \n<p><b>Impacted versions:</b> &gt;= 2.0.10 AND &lt;= 2.1.5</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-85787 - An incomplete list of disallowed inputs in the SQL validation component in Amazon awslabs postgres-mcp-server to modify data beyond the read-only scope",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-101-aws/",
+    "published_date": "2026-09-04T20:08:08+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-101-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/04/2026 13:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>We have identified CVE-2026-85787, an incomplete list of disallowed inputs in the SQL validation component in Amazon awslabs postgres-mcp-server before version 1.1.7 might allow an unauthenticated actor to modify data beyond the read-only scope by placing crafted SQL into the content that is submitted when an authenticated user interacts with the MCP server.</p> \n<p><b>Impacted versions:</b> any pypi package version &lt; 1.1.7</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Dev for Desktop Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-desktop-update.html",
+    "published_date": "2026-09-04T16:58:33.335000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>The Dev channel has been updated to 155.0.8040.2 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/154.0.8025.0..155.0.8040.2?pretty=fuller&amp;n=10000\">Git log</a>. Interested in <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">switching</a> release channels? Find out <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">how</a>. If you find a new issue, please let us know by <a href=\"https://crbug.com/\">filing a bug</a>. The <a href=\"https://productforums.google.com/forum/#!forum/chrome\">community help forum</a> is also a great place to reach out for help or learn about common issues.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Dev for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update.html",
+    "published_date": "2026-09-04T13:28:32.892000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Dev 155 (155.0.8040.0) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/154.0.8025.0..155.0.8040.0?pretty=fuller&amp;n=10000\">Git log</a>. For details on new features, check out the <a href=\"https://blog.chromium.org\">Chromium blog</a>, and for details on web platform updates, check <a href=\"https://www.chromestatus.com/features#milestone%3D155\">here</a>.</p><p>If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
+    "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors",
+    "published_date": "2026-09-04T12:00:00+00:00",
+    "source_type": "research",
+    "summary": "<h2><span style=\"font-size: undefined;\">Overview</span></h2><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">A new Linux toolkit, identified by Rapid7 Labs, has been targeting organizations across South Korea’s automotive and media industries with minimal detection. The campaign made use of a HAProxy instance named “ted backdoor”, alongside trojanized versions of crond, agetty, atd, sshd, and polkitd. This previously undocumented framework enabled threat actors to execute remote commands on compromised servers, inject malicious scripts into web traffic, perform credential harvesting, and engage in long-term surveillance.</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">The standout feature of this toolkit is its depth of integration with the target environment. The ted backdoor is compiled as part of the victim’s existing HAProxy version 2.8.12. It uses its native filter API, internal memory pools, event scheduler, and process management infrastructure to intercept traffic and hide from monitoring, while genuine load balancing traffic operates as expected.</span></p><p><span style=\"font-size: undefined;\">Operating alongside this are an SSH keyl",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
   }
 ]
