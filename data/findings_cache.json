@@ -666,37 +666,6 @@
       "Gaming"
     ]
   },
-  "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html": {
-    "enriched_at": "2026-08-27T10:37:31.286182+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "UAT-10147",
-        "aliases": [],
-        "motivation": "Financial gain or disruption",
-        "recent_activity": "Deploying AI-assisted attacks and rootkits on web servers.",
-        "targets": [
-          "Education",
-          "Media",
-          "Technology",
-          "Gaming"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Enterprise",
-      "Education",
-      "Media",
-      "Technology",
-      "Gaming"
-    ]
-  },
   "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/": {
     "enriched_at": "2026-08-27T10:40:54.792416+00:00",
     "incidents": [],
@@ -2078,586 +2047,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-610/": {
-    "enriched_at": "2026-08-27T10:57:05.934161+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-64715",
-        "product": "Apple Safari",
-        "vendor": "Apple",
-        "severity": "CRITICAL",
-        "cvss": 8.8,
-        "description": "JavaScriptCore B3 ReduceStrength Phase Use-After-Free Remote Code Execution Vulnerability.",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "Update to the latest version of Apple Safari.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-610/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-609/": {
-    "enriched_at": "2026-08-27T10:57:05.934161+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Linux Kernel Net Scheduler Packet Classifier",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 7.8,
-        "description": "Use-After-Free Local Privilege Escalation Vulnerability.",
-        "exploitation_status": "LOCAL_PRIVILEGE_ESCALATION",
-        "remediation": "Update to the latest version of Linux Kernel Net Scheduler Packet Classifier.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-609/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-608/": {
-    "enriched_at": "2026-08-27T10:57:05.934161+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Linux Kernel KVM IOAPIC",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 8.2,
-        "description": "Use-After-Free Local Privilege Escalation Vulnerability.",
-        "exploitation_status": "LOCAL_PRIVILEGE_ESCALATION",
-        "remediation": "Update to the latest version of Linux Kernel KVM IOAPIC.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-608/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-607/": {
-    "enriched_at": "2026-08-27T10:57:05.934161+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Microsoft Office",
-        "vendor": "Microsoft",
-        "severity": "MEDIUM",
-        "cvss": 7.6,
-        "description": "HTML Injection Information Disclosure Vulnerability.",
-        "exploitation_status": "INFORMATION_DISCLOSURE",
-        "remediation": "Update to the latest version of Microsoft Office.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-607/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-606/": {
-    "enriched_at": "2026-08-27T10:58:45.028335+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Microsoft Windows",
-        "vendor": "Microsoft",
-        "severity": "CRITICAL",
-        "cvss": 7.0,
-        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-606/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-605/": {
-    "enriched_at": "2026-08-27T10:58:45.028335+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-50508",
-        "product": "Microsoft Windows",
-        "vendor": "Microsoft",
-        "severity": "LOW",
-        "cvss": 3.3,
-        "description": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Microsoft Windows.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-605/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-604/": {
-    "enriched_at": "2026-08-27T10:58:45.028335+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-13126",
-        "product": "Foxit PDF Reader",
-        "vendor": "Foxit Software Inc.",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-604/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-603/": {
-    "enriched_at": "2026-08-27T10:58:45.028335+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-13127",
-        "product": "Foxit PDF Reader",
-        "vendor": "Foxit Software Inc.",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-603/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-602/": {
-    "enriched_at": "2026-08-27T10:58:45.028335+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-13128",
-        "product": "Foxit PDF Reader",
-        "vendor": "Foxit Software Inc.",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-602/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-601/": {
-    "enriched_at": "2026-08-27T10:58:45.028335+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-13129",
-        "product": "Foxit PDF Reader",
-        "vendor": "Foxit Software Inc.",
-        "severity": "LOW",
-        "cvss": 3.3,
-        "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-601/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-600/": {
-    "enriched_at": "2026-08-27T11:00:23.092269+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-57237",
-        "product": "Foxit PDF Reader",
-        "vendor": "ZDI",
-        "severity": "MEDIUM",
-        "cvss": 3.3,
-        "description": "Use-After-Free Information Disclosure Vulnerability",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "Update to the latest version of Foxit PDF Reader.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-600/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-599/": {
-    "enriched_at": "2026-08-27T11:00:23.092269+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-57238",
-        "product": "Foxit PDF Reader",
-        "vendor": "ZDI",
-        "severity": "MEDIUM",
-        "cvss": 3.3,
-        "description": "Use-After-Free Information Disclosure Vulnerability",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "Update to the latest version of Foxit PDF Reader.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-599/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-598/": {
-    "enriched_at": "2026-08-27T11:00:23.092269+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-57242",
-        "product": "Foxit PDF Reader",
-        "vendor": "ZDI",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "AcroForm Use-After-Free Remote Code Execution Vulnerability",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "Update to the latest version of Foxit PDF Reader.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-598/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-597/": {
-    "enriched_at": "2026-08-27T11:00:23.092269+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-57252",
-        "product": "Foxit PDF Reader",
-        "vendor": "ZDI",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "AcroForm Use-After-Free Remote Code Execution Vulnerability",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "Update to the latest version of Foxit PDF Reader.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-597/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-596/": {
-    "enriched_at": "2026-08-27T11:00:23.092269+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-57253",
-        "product": "Foxit PDF Reader",
-        "vendor": "ZDI",
-        "severity": "MEDIUM",
-        "cvss": 3.3,
-        "description": "PDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "Update to the latest version of Foxit PDF Reader.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-596/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-595/": {
-    "enriched_at": "2026-08-27T11:00:23.092269+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-57254",
-        "product": "Foxit PDF Reader",
-        "vendor": "ZDI",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "Annotation Use-After-Free Remote Code Execution Vulnerability",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "Update to the latest version of Foxit PDF Reader.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-595/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-594/": {
-    "enriched_at": "2026-08-27T11:02:22.205843+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-24251",
-        "product": "NVIDIA Megatron Bridge",
-        "vendor": "NVIDIA",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge.",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-594/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-593/": {
-    "enriched_at": "2026-08-27T11:02:22.205843+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-24268",
-        "product": "NVIDIA TensorRT",
-        "vendor": "NVIDIA",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA TensorRT.",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-593/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-592/": {
-    "enriched_at": "2026-08-27T11:02:22.205843+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-24238",
-        "product": "NVIDIA TensorRT",
-        "vendor": "NVIDIA",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA TensorRT.",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-592/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-591/": {
-    "enriched_at": "2026-08-27T11:02:22.205843+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-24272",
-        "product": "NVIDIA TensorRT",
-        "vendor": "NVIDIA",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA TensorRT.",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-591/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-590/": {
-    "enriched_at": "2026-08-27T11:02:22.205843+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-19773",
-        "product": "libwebsockets",
-        "vendor": null,
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets.",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "No authentication is required to exploit this vulnerability.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-590/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-589/": {
-    "enriched_at": "2026-08-27T11:02:22.205843+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-19774",
-        "product": "BlueZ A2DP",
-        "vendor": null,
-        "severity": "HIGH",
-        "cvss": 7.1,
-        "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of BlueZ.",
-        "exploitation_status": "REMOTE_CODE_EXECUTION",
-        "remediation": "An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-589/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-588/": {
-    "enriched_at": "2026-08-27T11:04:15.842955+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-19504",
-        "product": "Fabric.js",
-        "vendor": "",
-        "severity": "MEDIUM",
-        "cvss": 4.0,
-        "description": "Server-Side Request Forgery vulnerability that allows remote attackers to disclose sensitive information.",
-        "exploitation_status": "POC available or likely",
-        "remediation": "Update to the latest version of Fabric.js",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-588/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Critical infrastructure sectors"
-    ]
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-587/": {
-    "enriched_at": "2026-08-27T11:04:15.842955+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-19781",
-        "product": "Ashlar-Vellum Cobalt VS",
-        "vendor": "",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "Heap-based Buffer Overflow vulnerability that allows remote attackers to execute arbitrary code.",
-        "exploitation_status": "POC available or likely",
-        "remediation": "Update to the latest version of Ashlar-Vellum Cobalt VS",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-587/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Critical infrastructure sectors"
-    ]
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-586/": {
-    "enriched_at": "2026-08-27T11:04:15.842955+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-19886",
-        "product": "OriginLab Origin Viewer OGM",
-        "vendor": "",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "Memory Corruption vulnerability that allows remote attackers to execute arbitrary code.",
-        "exploitation_status": "POC available or likely",
-        "remediation": "Update to the latest version of OriginLab Origin Viewer OGM",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-586/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Critical infrastructure sectors"
-    ]
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-585/": {
-    "enriched_at": "2026-08-27T11:04:15.842955+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-19885",
-        "product": "OriginLab Origin Viewer OGWU",
-        "vendor": "",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "Out-of-Bounds Write vulnerability that allows remote attackers to execute arbitrary code.",
-        "exploitation_status": "POC available or likely",
-        "remediation": "Update to the latest version of OriginLab Origin Viewer OGWU",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-585/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Critical infrastructure sectors"
-    ]
-  },
   "https://www.tenable.com/blog/edge-infrastructure-under-siege": {
     "enriched_at": "2026-08-27T11:04:15.842955+00:00",
     "incidents": [
@@ -2813,40 +2202,6 @@
   "https://isc.sans.edu/diary/rss/33278": {
     "enriched_at": "2026-08-27T11:05:53.044688+00:00",
     "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://isc.sans.edu/diary/rss/33274": {
-    "enriched_at": "2026-08-27T11:06:31.788699+00:00",
-    "incidents": [
-      {
-        "headline": "DOUBLECUP's PNG Payload",
-        "summary": "A new malware that uses steganography was reported but did not use real steganography.",
-        "source_urls": [
-          "https://isc.sans.edu/diary/rss/33274",
-          "https://isc.sans.edu/diary/rss/33276"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://isc.sans.edu/diary/rss/33276": {
-    "enriched_at": "2026-08-27T11:06:31.788699+00:00",
-    "incidents": [
-      {
-        "headline": "DOUBLECUP's PNG Payload",
-        "summary": "A new malware that uses steganography was reported but did not use real steganography.",
-        "source_urls": [
-          "https://isc.sans.edu/diary/rss/33274",
-          "https://isc.sans.edu/diary/rss/33276"
-        ]
-      }
-    ],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -11528,5 +10883,218 @@
       "Software Development",
       "Web Development"
     ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/07/connectwise-screenconnect-file-transfer-flaw/": {
+    "enriched_at": "2026-09-07T10:32:00.970425+00:00",
+    "incidents": [
+      {
+        "headline": "Attackers spread malware through ScreenConnect file transfers",
+        "summary": "A file transfer flaw in ScreenConnect Remote Access Support and Access sessions affects both Cloud and On-Premise deployments. ConnectWise confirmed the flaw and stated that a CVE identifier and an official fix will be issued within the week.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+          "https://www.helpnetsecurity.com/2026/09/07/connectwise-screenconnect-file-transfer-flaw/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "ScreenConnect",
+        "vendor": "ConnectWise",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A file transfer flaw in ScreenConnect Remote Access Support and Access sessions affects both Cloud and On-Premise deployments.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "A CVE identifier and an official fix will be issued within the week.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+          "https://www.helpnetsecurity.com/2026/09/07/connectwise-screenconnect-file-transfer-flaw/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/": {
+    "enriched_at": "2026-09-07T10:32:00.970425+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/07/toolhive-open-source-mcp-server-security/": {
+    "enriched_at": "2026-09-07T10:32:00.970425+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/07/chris-webber-teleport-zero-trust-ai-agents/": {
+    "enriched_at": "2026-09-07T10:32:00.970425+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/07/etsi-ai-data-quality-metrics/": {
+    "enriched_at": "2026-09-07T10:32:00.970425+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/": {
+    "enriched_at": "2026-09-07T10:32:00.970425+00:00",
+    "incidents": [
+      {
+        "headline": "Attackers spread malware through ScreenConnect file transfers",
+        "summary": "A file transfer flaw in ScreenConnect Remote Access Support and Access sessions affects both Cloud and On-Premise deployments. ConnectWise confirmed the flaw and stated that a CVE identifier and an official fix will be issued within the week.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+          "https://www.helpnetsecurity.com/2026/09/07/connectwise-screenconnect-file-transfer-flaw/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "ScreenConnect",
+        "vendor": "ConnectWise",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A file transfer flaw in ScreenConnect Remote Access Support and Access sessions affects both Cloud and On-Premise deployments.",
+        "exploitation_status": "EXPLOITABLE",
+        "remediation": "A CVE identifier and an official fix will be issued within the week.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+          "https://www.helpnetsecurity.com/2026/09/07/connectwise-screenconnect-file-transfer-flaw/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/": {
+    "enriched_at": "2026-09-07T10:33:03.692697+00:00",
+    "incidents": [
+      {
+        "headline": "N-able patches max severity N-central flaw amid ongoing attacks",
+        "summary": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+          "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "N-central",
+        "vendor": "N-able",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A maximum-severity remote code execution (RCE) flaw affecting the N-central remote monitoring and management (RMM) platform.",
+        "exploitation_status": "Exploited in the wild",
+        "remediation": "Apply the latest hotfix",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+          "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/": {
+    "enriched_at": "2026-09-07T10:33:03.692697+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/": {
+    "enriched_at": "2026-09-07T10:33:03.692697+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": null,
+        "aliases": [],
+        "motivation": "Unknown",
+        "recent_activity": "Using ASCII smuggling technique in phishing campaigns",
+        "targets": [
+          "Email users"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html": {
+    "enriched_at": "2026-09-07T10:33:03.692697+00:00",
+    "incidents": [
+      {
+        "headline": "N-able patches max severity N-central flaw amid ongoing attacks",
+        "summary": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+          "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/"
+        ]
+      },
+      {
+        "headline": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+        "summary": "N-able has released its fourth hotfix in five weeks for the N-central remote monitoring and management (RMM) platform, this time for a flaw that has been exploited in the wild.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "N-central",
+        "vendor": "N-able",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A maximum-severity remote code execution (RCE) flaw affecting the N-central remote monitoring and management (RMM) platform.",
+        "exploitation_status": "Exploited in the wild",
+        "remediation": "Apply the latest hotfix",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+          "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html": {
+    "enriched_at": "2026-09-07T10:33:03.692697+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://isc.sans.edu/diary/rss/33314": {
+    "enriched_at": "2026-09-07T10:33:03.692697+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
   }
 }

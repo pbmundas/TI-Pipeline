@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-09-07",
+    "generated_at": "2026-09-07T10:44:18.298062+00:00",
+    "title": "Daily Threat Intelligence Report — September 07, 2026",
+    "description": "In the past year, the cybersecurity landscape has been marked by significant incidents, vulnerabilities, and actor activities. Notable among these are the rapid exploitation of IAM keys found in a public S3 bucket, which led to unauthorized admin access in just eight minutes. Additionally, the disruption of the Sality ",
+    "url": "./reports/2026-09-07.html",
+    "data_url": "./reports/2026-09-07.json",
+    "counts": {
+      "sources": 339,
+      "stories": 4,
+      "actors": 5,
+      "vulnerabilities": 8,
+      "hunting_leads": 5
+    }
+  },
+  {
     "date": "2026-09-06",
     "generated_at": "2026-09-06T10:44:50.965200+00:00",
     "title": "Daily Threat Intelligence Report — September 06, 2026",
