@@ -43782,5 +43782,905 @@
     "feed_source": "https://googleprojectzero.blogspot.com/feeds/posts/default",
     "publisher": "Project Zero",
     "source_note": ""
+  },
+  {
+    "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
+    "url": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
+    "published_date": "2026-09-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>Developed by the National Institute of Standards and Technology (NIST) and CISA, this <a href=\"https://csrc.nist.gov/pubs/ir/8587/final\" target=\"_blank\">interagency report</a> provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access tokens, and cryptographic mechanisms that support modern authentication and authorization. As agencies adopt hybrid and multi-cloud environments, single sign-on, federation, and application programming interface (API)-based access increasingly depend on signed tokens and assertions that adversaries may target for forgery, theft, and misuse to move laterally across enterprise networks and access sensitive data.</p>\n<p>This final report updates the initial public draft and incorporates feedback on token validation, secrets management, and detection at scale, as well as input from government and industry experts that CISA gathered through its Joint Cyber Defense Collaborative. The report expands on NIST Special Publication <a href=\"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final\" target=\"_blank\">Security and Privacy Controls for Information Systems</a> and Organizations and supports <a href=\"htt",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Digital Watchdog VMAX DVR and NVR Product Lineups",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-01",
+    "published_date": "2026-09-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillance, alter device configurations, and use the device as a network pivot point.</strong></p>\n<p>The following versions of Digital Watchdog VMAX DVR and NVR Product Lineups are affected:</p>\n<ul>\n<li>VMAX A1 G4 DVRs vers:all/* (CVE-2026-68953, CVE-2026-66890, CVE-2026-68070, CVE-2026-68950, CVE-2026-66887, CVE-2026-66372)</li>\n<li>VMAX IP G4 NVRs vers:all/* (CVE-2026-68953, CVE-2026-66890, CVE-2026-68070, CVE-2026-68950, CVE-2026-66887, CVE-2026-66372)</li>\n<li>VMAX A1 PLUS vers:all/* (CVE-2026-68953, CVE-2026-66890, CVE-2026-68070, CVE-2026-68950, CVE-2026-66887, CVE-2026-66372)</li>\n<li>VA1G4 Recorder vers:all/* (CVE-2026-68953, CVE-2026-66890, CVE-2026-68070, CVE-2026-68950, CVE-2026-66887, CVE-2026-66372)</li>\n<li>VG4 Recorder vers:all/* (CVE-2026-68953, CVE-2026-66890, CVE-2026-68070, CVE-2026-68950, CVE-2026-66887, CVE-2026-66372)</li>\n</ul>\n<div class=\"csaf",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "mySCADA myPRO Manager",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03",
+    "published_date": "2026-09-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the connected GSM modem.</strong></p>\n<p>The following versions of mySCADA myPRO Manager are affected:</p>\n<ul>\n<li>mySCADA myPRO Manager &lt;=2.1 (CVE-2026-73807, CVE-2026-82567)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>mySCADA Technologies</td>\n<td>mySCADA myPRO Manager</td>\n<td>Missing Authorization, Missing Authentication for Critical Function</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing, Energy, Food and Agriculture, Transportation Systems, Water and Wastewater</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>Czechia</li>\n</ul>\n<hr />\n<",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Schneider Electric SCADAPack x70 Products",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04",
+    "published_date": "2026-09-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-04.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Schneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x products are Remote Terminal Units that provide communication capabilities for remote monitoring and control. Failure to apply the mitigations provided below may increase the risk of unauthorized access to RTU configuration through the Secure Lock functionality, potentially resulting in a loss of confidentiality.</strong></p>\n<p>The following versions of Schneider Electric SCADAPack x70 Products are affected:</p>\n<ul>\n<li>SCADAPack 47x vers:all/* (CVE-2026-81861)</li>\n<li>SCADAPack 47xi vers:all/* (CVE-2026-81861)</li>\n<li>SCADAPack 47xd vers:all/* (CVE-2026-81861)</li>\n<li>SCADAPack 470R vers:all/* (CVE-2026-81861)</li>\n<li>SCADAPack 57x vers:all/* (CVE-2026-81861)</li>\n<li>SCADAPack 3xx vers:all/* (CVE-2026-81861)</li>\n<li>SCADAPack 32 vers:all/* (CVE-2026-81861)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVS",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Siemens Teamcenter",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07",
+    "published_date": "2026-09-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-07.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's session by crafting a malicious URL. Successful exploitation may enable the attacker to read data or perform actions within the victim's Teamcenter session. Siemens has released new versions for the affected products and recommends to update to the latest versions.</strong></p>\n<p>The following versions of Siemens Teamcenter are affected:</p>\n<ul>\n<li>Teamcenter V2412 vers:intdot/&lt;2412.0013 (CVE-2026-58113)</li>\n<li>Teamcenter V2506 vers:intdot/&lt;2506.0010 (CVE-2026-58113)</li>\n<li>Teamcenter V2512 vers:intdot/&lt;2512.2607 (CVE-2026-58113)</li>\n<li>Teamcenter V2606 vers:intdot/&lt;2606.2607 (CVE-2026-58113)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 6.1</td>\n<td>Siem",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Siemens Mendix SAML",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06",
+    "published_date": "2026-09-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-06.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Mendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends to update to the latest version.</strong></p>\n<p>The following versions of Siemens Mendix SAML are affected:</p>\n<ul>\n<li>Mendix SAML (Mendix 10 compatible) vers:intdot/&lt;4.2.3 (CVE-2026-80465)</li>\n<li>Mendix SAML (Mendix 11 compatible) vers:intdot/&lt;4.2.3 (CVE-2026-80465)</li>\n<li>Mendix SAML (Mendix 9.24 compatible) vers:intdot/&lt;3.6.27 (CVE-2026-80465)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 8.7</td>\n<td>Siemens</td>\n<td>Siemens Mendix SAML</td>\n<td>Improper Verification of Cryptographic Signature</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing, In",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Wärtsilä FOS-Onboard",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02",
+    "published_date": "2026-09-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the attacker to impersonate a privileged client.</strong></p>\n<p>The following versions of Wärtsilä FOS-Onboard are affected:</p>\n<ul>\n<li>FOS-Onboard 5.07.0923.01 (CVE-2026-78225, CVE-2026-81855)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.1</td>\n<td>Wärtsilä</td>\n<td>Wärtsilä FOS-Onboard</td>\n<td>Use of Hard-coded Cryptographic Key</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Transportation Systems</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>Finland</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"https",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Siemens Reyrolle 7SR5",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
+    "published_date": "2026-09-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-05.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Siemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version.</strong></p>\n<p>The following versions of Siemens Reyrolle 7SR5 are affected:</p>\n<ul>\n<li>Reyrolle 7SR5 vers:intdot/&lt;2.70 (CVE-2024-42384, CVE-2024-42385, CVE-2024-42386, CVE-2024-42391, CVE-2024-42392, CVE-2026-62645, CVE-2026-62646, CVE-2026-62647, CVE-2026-62648, CVE-2026-62649, CVE-2026-62650, CVE-2026-62652, CVE-2026-62653, CVE-2026-62654)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.8</td>\n<td>Siemens</td>\n<td>Siemens Reyrolle 7SR5</td>\n<td>Integer Overflow or Wraparound, Improper Neutralization of Delimiters, Use of Out-of-range Pointer Offset, Missing Authentication for Critical Function, Insufficient Entropy, Improper Input Validation, Out-of-bounds Write, Allocation of Resources ",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CareCam CM2507",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
+    "published_date": "2026-09-15T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-08.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, execute arbitrary code, modify device operation, and recover stored credentials.</strong></p>\n<p>The following versions of CareCam CM2507 are affected:</p>\n<ul>\n<li>HMT.CM2507 Firmware v251211.1507 (CVE-2026-88259, CVE-2026-84398, CVE-2026-84400, CVE-2026-81305, CVE-2026-85478, CVE-2026-85497, CVE-2026-81321)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.5</td>\n<td>CareCam</td>\n<td>CareCam CM2507</td>\n<td>Missing Authentication for Critical Function, Empty Password in Configuration File, Inclusion of Functionality from Untrusted Control Sphere, Use of Password Hash With Insufficient Computational Effort, Cleartext Storage of Sensitive Information</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><s",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Windows Server 2022 reaches end of mainstream support next month",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
+    "published_date": "2026-09-16T09:10:20+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has reminded customers that Windows Server 2022 will reach the end of mainstream support next month and enter extended support until October 2031. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Google fixes actively exploited Android zero-day on Pixel devices",
+    "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+    "published_date": "2026-09-16T07:00:19+00:00",
+    "source_type": "news",
+    "summary": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+    "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+    "published_date": "2026-09-15T21:37:35+00:00",
+    "source_type": "news",
+    "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
+    "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
+    "published_date": "2026-09-15T20:34:15+00:00",
+    "source_type": "news",
+    "summary": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden user account. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
+    "url": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+    "published_date": "2026-09-15T16:40:14+00:00",
+    "source_type": "news",
+    "summary": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "BambooToken malware controls Windows and Linux systems via MQTT",
+    "url": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+    "published_date": "2026-09-15T15:00:00+00:00",
+    "source_type": "news",
+    "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+    "published_date": "2026-09-15T14:45:10+00:00",
+    "source_type": "news",
+    "summary": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
+    "url": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+    "published_date": "2026-09-15T13:45:54+00:00",
+    "source_type": "news",
+    "summary": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control testing, and autonomous pentesting can help teams close exposure gaps before attackers arrive. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+    "published_date": "2026-09-15T12:16:32+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Nozomi Compass helps industrial teams manage OT assets and vulnerabilities",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/nozomi-networks-compass/",
+    "published_date": "2026-09-16T10:27:44+00:00",
+    "source_type": "news",
+    "summary": "<p>Nozomi Networks announced Nozomi Compass, an OT asset and service management platform designed to help organizations manage industrial assets, vulnerabilities, and exposures. The platform brings asset data, remediation workflows, and operational processes together, reducing reliance on spreadsheets, IT ticketing systems, and manual workflows that may not account for OT requirements. &#8220;Nozomi Compass underpins our vision to provide a single source of truth for visibility, threat detection, governed workflows, compliance evidence, and trusted AI-enabled operational decision-making,&#8221; &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/nozomi-networks-compass/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/nozomi-networks-compass/\">Nozomi Compass helps industrial teams manage OT assets and vulnerabilities</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Citrix adds AI-powered browser activity analysis to SecurAccess",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/citrix-session-insights-capability/",
+    "published_date": "2026-09-16T10:14:29+00:00",
+    "source_type": "news",
+    "summary": "<p>Citrix has announced Citrix Session Insights, a new AI-powered capability for Citrix SecurAccess with Chrome Enterprise that helps organizations capture, analyze and understand browser activity from users and autonomous agents. By combining visual session evidence, AI-powered risk analysis and recommendations, Citrix helps organizations investigate incidents faster, create an auditable record of sensitive activity, and establish accountability for AI-driven workflows without sacrificing productivity. The browser has become a primary workspace for both employees and AI agents, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/citrix-session-insights-capability/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/citrix-session-insights-capability/\">Citrix adds AI-powered browser activity analysis to SecurAccess</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "One runaway AI agent racked up a $50,000 cloud bill",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/google-mandiant-enterprise-ai-security-risks-report/",
+    "published_date": "2026-09-16T09:45:43+00:00",
+    "source_type": "news",
+    "summary": "<p>Organizations are deploying autonomous AI systems that execute API calls, optimize production configurations, and analyze telemetry across hybrid cloud environments. At the same time, attacks are expanding from direct prompts to indirect prompt injection and AI supply chain compromises, blurring security boundaries. Mandiant’s latest AI Risk and Resilience report, which draws on observations from Mandiant and Google Threat Intelligence Group (GTIG), warns that a poisoned data source, model dependency, or extension hook can turn a &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/google-mandiant-enterprise-ai-security-risks-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/google-mandiant-enterprise-ai-security-risks-report/\">One runaway AI agent racked up a $50,000 cloud bill</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886)",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/",
+    "published_date": "2026-09-16T09:33:34+00:00",
+    "source_type": "news",
+    "summary": "<p>A Linux privilege escalation vulnerability (CVE-2026-87886) affecting Acronis&#8217; backup extensions for cPanel, WebHost Manager (WHM), and Plesk, is being leveraged by attackers, the backup and recovery company warns. &#8220;Exploitation of this vulnerability has been detected in the wild in limited, targeted attacks against Acronis Backup plugin for cPanel &#038; WHM deployments,&#8221; Acronis said in the security advisory published on Tuesday. There&#8217;s currently no signs of its active exploitation on Plesk deployments. What the backup plugins &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/\">Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886)</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Iranian hackers use CHOSEN BRICK data-stealing malware to spy on dissidents and journalists",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/iranian-hackers-chosen-brick-malware-dissidents-journalists/",
+    "published_date": "2026-09-16T09:06:54+00:00",
+    "source_type": "news",
+    "summary": "<p>Iranian state cyber actors are deploying malware called CHOSEN BRICK against individuals they see as a threat to the regime, reaching victims through social messaging apps and infecting their Windows devices, three Western intelligence agencies warned. The UK&#8217;s National Cyber Security Centre, the FBI and the Netherlands&#8217; AIVD said the campaign has targeted dissidents, activists and journalists in the UK, US and the Netherlands since at least 2025. &#8220;CHOSEN BRICK enables Iranian state cyber actors &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/iranian-hackers-chosen-brick-malware-dissidents-journalists/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/iranian-hackers-chosen-brick-malware-dissidents-journalists/\">Iranian hackers use CHOSEN BRICK data-stealing malware to spy on dissidents and journalists</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "NIST and CISA finalize playbook to stop token theft and forgery",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/nist-cisa-cloud-token-security-guidance/",
+    "published_date": "2026-09-16T07:40:01+00:00",
+    "source_type": "news",
+    "summary": "<p>NIST and CISA have finalized guidelines to help federal agencies and cloud service providers (CSPs) protect identity and access tokens from forgery, theft, and misuse. The guidance, Protecting Tokens and Assertions from Forgery, Theft, and Misuse (NIST IR 8587), explains how agencies and cloud providers can strengthen key management, token verification, and token lifecycle controls. It also covers how identity providers and authorization servers should be designed and managed. “This publication provides implementation considerations for &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/nist-cisa-cloud-token-security-guidance/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/nist-cisa-cloud-token-security-guidance/\">NIST and CISA finalize playbook to stop token theft and forgery</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "What happens when AI agent governance is missing at scale",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/gourab-basu-meshiq-ai-agent-governance/",
+    "published_date": "2026-09-16T06:00:44+00:00",
+    "source_type": "news",
+    "summary": "<p>In this interview with Help Net Security, Gourab Basu, Global Head of Engineering at meshIQ, discusses governance in AI agent systems. He argues that instructions written into a prompt are not enough to control what an agent does, since agents can change their own path as they work. Real control means checking proposed actions before they reach production systems, such as pausing a large refund for human approval. He also covers what breaks when a &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/gourab-basu-meshiq-ai-agent-governance/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/gourab-basu-meshiq-ai-agent-governance/\">What happens when AI agent governance is missing at scale</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "DeepZero: Open-source hunting for vulnerable Windows drivers",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/vulnerable-windows-drivers-deepzero-open-source/",
+    "published_date": "2026-09-16T05:30:38+00:00",
+    "source_type": "news",
+    "summary": "<p>DeepZero is an open-source engine that automates the search for exploitable Windows kernel drivers. You point it at a folder of binaries and it parses them, pulls them apart, scans them, throws most of them away, and asks a language model whether what survives can be attacked. Pipelines are written in YAML, the code is Python 3.11 and up. Rehman Ahmadzai, who maintains the project, said DeepZero has &#8220;found multiple verified vulnerabilities in a subset &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/vulnerable-windows-drivers-deepzero-open-source/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/vulnerable-windows-drivers-deepzero-open-source/\">DeepZero: Open-source hunting for vulnerable Windows drivers</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "The modern attack chain: Rethinking Google Workspace security in the age of AI",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/material-google-workspace-attack-chains/",
+    "published_date": "2026-09-16T05:00:49+00:00",
+    "source_type": "news",
+    "summary": "<p>Over the past two months, I&#8217;ve written about the Vercel breach and the Composio breach separately. Both offer lessons to learn on their own. But reading them together, I keep coming back to the same observation: these aren&#8217;t isolated incidents. They&#8217;re the same attack, run twice, against different targets, where email was not the entry point into the workspace. And once you see the pattern clearly, it changes what you think you need to defend. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/material-google-workspace-attack-chains/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/material-google-workspace-attack-chains/\">The modern attack chain: Rethinking Google Workspace security in the age of AI</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "MSPs say nearly half their customers rely on them for CISO services",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/msp-ciso-services-compliance/",
+    "published_date": "2026-09-16T04:30:20+00:00",
+    "source_type": "news",
+    "summary": "<p>MSPs estimate that 46% of their customers, on average, look to them to act as CISOs, according to Sophos. Most of those providers do that job without the full set of compliance services, and many spread the work across several tools. Most providers expect this work to grow. For many of those customers, the MSP is the closest thing they have to a security leader. Most compliance offerings are partial Nearly every provider does some &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/16/msp-ciso-services-compliance/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/16/msp-ciso-services-compliance/\">MSPs say nearly half their customers rely on them for CISO services</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome, Firefox Updates Patch 115 Vulnerabilities",
+    "url": "https://www.securityweek.com/chrome-firefox-updates-patch-115-vulnerabilities/",
+    "published_date": "2026-09-16T10:28:36+00:00",
+    "source_type": "news",
+    "summary": "<p>Google resolved 42 security defects in Chrome, and Mozilla fixed 73 bugs in Firefox.</p>\n<p>The post <a href=\"https://www.securityweek.com/chrome-firefox-updates-patch-115-vulnerabilities/\">Chrome, Firefox Updates Patch 115 Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Acronis Patches Exploited Vulnerability in cPanel Backup Plugin",
+    "url": "https://www.securityweek.com/acronis-patches-exploited-vulnerability-in-cpanel-backup-plugin/",
+    "published_date": "2026-09-16T09:52:31+00:00",
+    "source_type": "news",
+    "summary": "<p>CVE-2026-87886 is a high-severity insecure file permissions flaw that can lead to local privilege escalation.</p>\n<p>The post <a href=\"https://www.securityweek.com/acronis-patches-exploited-vulnerability-in-cpanel-backup-plugin/\">Acronis Patches Exploited Vulnerability in cPanel Backup Plugin</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Enterprises Warned of Attacks Exploiting WSO2 Vulnerability",
+    "url": "https://www.securityweek.com/enterprises-warned-of-attacks-exploiting-wso2-vulnerability/",
+    "published_date": "2026-09-16T08:39:05+00:00",
+    "source_type": "news",
+    "summary": "<p>The vulnerability, tracked as CVE-2026-5430, can be exploited to gain access to valuable enterprise data.</p>\n<p>The post <a href=\"https://www.securityweek.com/enterprises-warned-of-attacks-exploiting-wso2-vulnerability/\">Enterprises Warned of Attacks Exploiting WSO2 Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Oracle Patches 800+ Vulnerabilities in September 2026 Security Update",
+    "url": "https://www.securityweek.com/oracle-patches-800-vulnerabilities-in-september-2026-security-update/",
+    "published_date": "2026-09-16T08:06:33+00:00",
+    "source_type": "news",
+    "summary": "<p>The security updates resolve over 800 vulnerabilities across 17 product families, including over 100 critical-severity flaws.</p>\n<p>The post <a href=\"https://www.securityweek.com/oracle-patches-800-vulnerabilities-in-september-2026-security-update/\">Oracle Patches 800+ Vulnerabilities in September 2026 Security Update</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow?",
+    "url": "https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow/",
+    "published_date": "2026-09-15T20:24:51+00:00",
+    "source_type": "news",
+    "summary": "<p>Microsoft agreed to adopt guardrails and privacy standards for its AI in schools, as negotiated with the American Federation of Teachers.</p>\n<p>The post <a href=\"https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow/\">Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow?</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "“We Think the Security Control Is Working” Is No Longer Good Enough",
+    "url": "https://www.securityweek.com/we-think-the-security-control-is-working-is-no-longer-good-enough/",
+    "published_date": "2026-09-15T19:30:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Point-in-time audits and sampled assessments offer only snapshots; continuous control monitoring provides evidence that security controls are working today.</p>\n<p>The post <a href=\"https://www.securityweek.com/we-think-the-security-control-is-working-is-no-longer-good-enough/\">“We Think the Security Control Is Working” Is No Longer Good Enough</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "$1 Million Sandbox Challenge Uncovers Linux Kernel Flaws",
+    "url": "https://www.securityweek.com/1-million-sandbox-challenge-uncovers-linux-kernel-flaws/",
+    "published_date": "2026-09-15T16:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>AI-assisted researchers flooded Vercel with reports, forcing the company to automate vulnerability triage.</p>\n<p>The post <a href=\"https://www.securityweek.com/1-million-sandbox-challenge-uncovers-linux-kernel-flaws/\">$1 Million Sandbox Challenge Uncovers Linux Kernel Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Exein Secures $270M at $1.7B Valuation for Physical AI Security",
+    "url": "https://www.securityweek.com/exein-secures-270m-at-1-7b-valuation-for-physical-ai-security/",
+    "published_date": "2026-09-15T15:45:13+00:00",
+    "source_type": "news",
+    "summary": "<p>The cybersecurity startup is building a proprietary foundation model and plans to accelerate global expansion.</p>\n<p>The post <a href=\"https://www.securityweek.com/exein-secures-270m-at-1-7b-valuation-for-physical-ai-security/\">Exein Secures $270M at $1.7B Valuation for Physical AI Security</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data",
+    "url": "https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/",
+    "published_date": "2026-09-15T15:30:24+00:00",
+    "source_type": "news",
+    "summary": "<p>A hacker claims to have stolen 7.5 million customer records after breaching the company’s systems.</p>\n<p>The post <a href=\"https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/\">Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Thai Broadband Provider Hacked via Fortinet Vulnerability",
+    "url": "https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/",
+    "published_date": "2026-09-15T13:33:58+00:00",
+    "source_type": "news",
+    "summary": "<p>The hackers staged numerous scripts for reconnaissance and CVE probing, along with brute-force utilities and privilege escalation tools.</p>\n<p>The post <a href=\"https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/\">Thai Broadband Provider Hacked via Fortinet Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+    "published_date": "2026-09-16T05:48:28+00:00",
+    "source_type": "news",
+    "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\" Wordfence said.\n\nThe WordPress security company said it has blocked over",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+    "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+    "published_date": "2026-09-16T05:18:06+00:00",
+    "source_type": "news",
+    "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.\n\n\"JWT authentication",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+    "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+    "published_date": "2026-09-15T18:54:14+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN.\n\nElastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian banks and install a malicious browser extension on Google Chrome and",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+    "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+    "published_date": "2026-09-15T16:29:51+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around the world.\n\nThe malware is controlled via the Telegram messaging app and can copy a target's emails and chat messages, take screenshots, and activate the microphone to record",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+    "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+    "published_date": "2026-09-15T15:23:19+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.\n\nThe emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and put to use in attacks targeting organizations across Asia and South America.",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+    "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+    "published_date": "2026-09-15T11:52:28+00:00",
+    "source_type": "news",
+    "summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access.\n\nIn one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+    "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
+    "published_date": "2026-09-15T11:26:36+00:00",
+    "source_type": "news",
+    "summary": "Introduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as a one-off exercise.\n\nBut no matter how much you validate against these",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+    "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+    "published_date": "2026-09-15T11:12:32+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data.\n\nThe first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and Microsoft Azure instances, and infrastructure state files, per F5 Labs.\n\nThe",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Norway announces investigations into telecom Telenor’s work with Myanmar junta",
+    "url": "https://therecord.media/norway-investigations-telenor-telecom-myanmar-regime",
+    "published_date": "2026-09-15T20:01:00+00:00",
+    "source_type": "news",
+    "summary": "Oslo-based Telenor potentially enabled crimes against humanity and violated sanctions in its dealings with the military regime that took over Myanmar in 2021, Norwegian authorities said.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Iranian cyber spies used fake MRI scan results to hack ‘enemy of regime’",
+    "url": "https://therecord.media/iran-cyber-spies-use-fake-mri-scans-as-lure",
+    "published_date": "2026-09-15T16:28:00+00:00",
+    "source_type": "news",
+    "summary": "According to the United Kingdom’s National Cyber Security Centre (NCSC), Iran has used this and similar cyber activity to “support the repression of individuals who are seen as a threat to the regime, such as dissidents, activists and journalists.”",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Zelensky appoints former police chief to lead Ukraine’s cyber coordination center",
+    "url": "https://therecord.media/ukraine-cyber-coordination-center-ihor-klymenko",
+    "published_date": "2026-09-15T15:09:23+00:00",
+    "source_type": "news",
+    "summary": "Ihor Klymenko, who has experience in law enforcement and as interior minister, will run Ukraine's National Cybersecurity Coordination Center.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Electric and gas utility CenterPoint Energy warns of data breach after dark web post",
+    "url": "https://therecord.media/centerpoint-energy-data-breach",
+    "published_date": "2026-09-15T14:22:00+00:00",
+    "source_type": "news",
+    "summary": "Houston-based CenterPoint Energy notified federal regulators about an incident that exposed some customer data on the dark web.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "China spy chief points at US AI models in cyber threat warning",
+    "url": "https://therecord.media/china-spy-chief-warns-of-us-ai-models",
+    "published_date": "2026-09-15T12:54:00+00:00",
+    "source_type": "news",
+    "summary": "China's spy chief identified Anthropic’s Claude Mythos and OpenAI’s GPT-5.5-Cyber as signs of what he called a “disruptive upgrade” in cyber capabilities, increasing the speed and potential weaponization of vulnerability discovery and malware development.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: a-blog cmsにパストラバーサルの脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#1",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "a-blog cmsにパストラバーサルの脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: AWS Systems Manager Agentにサーバーサイドリクエストフォージェリの脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#2",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "AWS Systems Manager Agentにサーバーサイドリクエストフォージェリの脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Apache Camelに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#3",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "Apache Camelに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: PleskのBackup Managerに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#4",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "PleskのBackup Managerに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: MongoDBに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#5",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "MongoDBに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: GitLabに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#6",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "GitLabに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のCheck Point製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#7",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のCheck Point製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Plex Media Serverに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#8",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "Plex Media Serverに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のPalo Alto Networks製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#9",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のPalo Alto Networks製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Androidに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#10",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "Androidに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Google Chromeに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#11",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "Google Chromeに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のFortinet製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#12",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のFortinet製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のIvanti製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#13",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のIvanti製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Cisco UCSおよびUCSベースのアプライアンスにUEFI Secure Boot回避の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#14",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "Cisco UCSおよびUCSベースのアプライアンスにUEFI Secure Boot回避の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のSAP製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#15",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のSAP製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のAdobe製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#16",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のAdobe製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: FreeIPAに重要な機能に対する認証の欠如の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#17",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "FreeIPAに重要な機能に対する認証の欠如の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: Roundcube Webmailに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#18",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "Roundcube Webmailに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: MikroTik RouterOSに複数の脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#19",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "MikroTik RouterOSに複数の脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 警察庁が「令和８年上半期におけるサイバー空間をめぐる脅威の情勢等について」を公開",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#20",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "警察庁が「令和８年上半期におけるサイバー空間をめぐる脅威の情勢等について」を公開",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 独立行政法人情報処理推進機構（IPA）が「ランサムウェア被害から学ぶ教訓集 経営者のためのランサムウェア対策ハンドブック」を公開",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#21",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "独立行政法人情報処理推進機構（IPA）が「ランサムウェア被害から学ぶ教訓集 経営者のためのランサムウェア対策ハンドブック」を公開",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Weekly Report: 複数のマイクロソフト製品に脆弱性",
+    "url": "https://www.jpcert.or.jp/wr/2026/wr260916.html#22",
+    "published_date": "2026-09-16T00:06:00+00:00",
+    "source_type": "advisory",
+    "summary": "複数のマイクロソフト製品に脆弱性",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "Atomic macOS (AMOS) Stealer Activity",
+    "url": "https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/",
+    "published_date": "2026-09-16T10:00:06+00:00",
+    "source_type": "research",
+    "summary": "<p>Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/\">Atomic macOS (AMOS) Stealer Activity</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/",
+    "publisher": "Unit 42",
+    "source_note": ""
+  },
+  {
+    "title": "PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting",
+    "url": "https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/",
+    "published_date": "2026-09-15T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/",
+    "publisher": "Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Oracle September 2026 Critical Security Patch Update addresses 672 CVEs",
+    "url": "https://www.tenable.com/blog/oracle-september-2026-critical-security-patch-update-addresses-672-cves",
+    "published_date": "2026-09-15T21:00:28+00:00",
+    "source_type": "research",
+    "summary": "<p><strong>Oracle addresses 672 CVEs in its September 2026 Critical Security Patch Update with 673 patches, including 104 critical updates.</strong></p><h2>Key Takeaways</h2><ol><li>The September 2026 Critical Security Patch Update (CSPU) contains fixes for 672 unique CVEs in 673 security updates</li><li>104 issues (15.5% of all patches) were assigned a critical severity rating</li><li>Oracle E-Business Suite received the highest number of patches at 159, accounting for 23.6% of all patches</li></ol><h2>Background</h2><p>On September 15, Oracle released its <a href=\"https://www.oracle.com/security-alerts/cspusep2026.html\"><u>Critical Security Patch Update (CSPU) for September 2026</u></a>. Beginning in May 2026, Oracle introduced CSPUs as a monthly release cycle that sits between the larger quarterly Critical Patch Updates (CPUs), addressing a focused set of high-severity issues on a faster cadence. This CSPU contains fixes for 672 unique CVEs in 673 security updates across 17 Oracle product families. Out of the 673 security updates published, 15.5% of patches were assigned a critical severity. High severity patches accounted for the bulk of security patches at 74.7%, followed by c",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Australia is replacing the Essential Eight with a new cyber framework. Here’s how exposure management can help you get ahead of it.",
+    "url": "https://www.tenable.com/blog/australia-essential-eight-replacement-compliance-exposure-management",
+    "published_date": "2026-09-15T13:32:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Australia’s move from the Essential Eight to an outcomes-based cybersecurity model will push organizations from conducting periodic point-in-time, checklist compliance assessments to having continuous evidence of a solid security posture.</p><h2><strong>Key takeaways</strong></h2><ol><li>The Australian Signals Directorate (ASD) is moving from the Essential Eight cybersecurity framework to a new outcomes-focused Essentials series covering enterprise IT, cloud, operational technology (OT), and potentially agentic AI.</li><li>The Essential Eight itself only ever covered on-premises enterprise IT, built around eight named technical controls, such as application control and patching. It never extended to the security of cloud, identity, or OT.</li><li>The shift challenges the traditional checklist approach to cybersecurity, where organizations demonstrate compliance through periodic assessments and point-in-time reports.</li><li>In dynamic environments spanning IT, cloud, identity, and OT, security posture can change quickly and repeatedly between assessments.</li><li>Exposure management can help organizations continuously understand where they are exposed, prioritize the most critic",
+    "feed_source": "https://www.tenable.com/blog/feed",
+    "publisher": "Tenable Blog",
+    "source_note": ""
+  },
+  {
+    "title": "NightEagle targets Russian companies",
+    "url": "https://securelist.com/tr/nighteagle-apt-ghostcontainer-and-tunneling/121323/",
+    "published_date": "2026-09-16T10:00:11+00:00",
+    "source_type": "research",
+    "summary": "Kaspersky GERT experts have uncovered a new campaign by the NightEagle APT, featuring the GhostContainer backdoor and tools hosted on GitHub. The group is also exploiting vulnerabilities in Active Directory and RDP.",
+    "feed_source": "https://securelist.com/feed/",
+    "publisher": "Securelist",
+    "source_note": ""
+  },
+  {
+    "title": "Securing the unpatchable in an age of AI-driven vulnerabilities",
+    "url": "https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/",
+    "published_date": "2026-09-16T10:00:36+00:00",
+    "source_type": "research",
+    "summary": "Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensatory layer.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Wednesday, September 16th, 2026 https://isc.sans.edu/podcastdetail/10096, (Wed, Sep 16th)",
+    "url": "https://isc.sans.edu/diary/rss/33342",
+    "published_date": "2026-09-16T02:00:02+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "MacOS 27 - First Boot, (Tue, Sep 15th)",
+    "url": "https://isc.sans.edu/diary/rss/33340",
+    "published_date": "2026-09-15T15:23:45+00:00",
+    "source_type": "operational",
+    "summary": "I have not done this type of diary in a while: What traffic will you see from a system on boot, before a user logs in&#x3f; I just took a quick look at macOS 27 \"Golden Gate\" to see what traffic you should expect. Here are some of the highlights:&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-76461: Critical Cisco Secure Email Gateway Vulnerability Exploited in the Wild",
+    "url": "https://www.rapid7.com/blog/post/etr-cve-2026-76461-critical-cisco-secure-email-gateway-vulnerability-exploited-in-the-wild",
+    "published_date": "2026-09-15T12:22:50+00:00",
+    "source_type": "research",
+    "summary": "<h2 style=\"direction: ltr;\">Overview</h2><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">On September 14, 2026, Cisco published a security </span><a href=\"https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX\"><span style=\"font-size: undefined;\">advisory</span></a><span style=\"font-size: undefined;\"> for </span><a href=\"https://www.rapid7.com/db/vulnerabilities/cve-2026-76461/\"><span style=\"font-size: undefined;\">CVE-2026-76461</span></a><span style=\"font-size: undefined;\">, a critical SQL injection vulnerability affecting Cisco AsyncOS Software for Cisco Secure Email Gateway. The vulnerability has a reported CVSS v3.1 base score of </span><a href=\"https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\"><span style=\"font-size: undefined;\">9.8</span></a><span style=\"font-size: undefined;\"> and could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on an affected appliance.</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Cisco Secure Email Gateway, formerly known as IronPort Email Security Appliance, is an enterprise ema",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
+    "url": "https://aws.amazon.com/blogs/security/aws-sts-simplifies-session-token-size-limits-and-adds-session-token-size-monitoring/",
+    "published_date": "2026-09-15T22:21:59+00:00",
+    "source_type": "vendor",
+    "summary": "AWS Security Token Service (AWS STS) has simplified session token size limits, giving you more room for your session policies and session tags. STS has replaced the packed policy size and the overall session token size limits with a single token size limit of 4,096 bytes. STS now reports session token size in API responses, […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Architecting resilient authentication with Amazon Cognito multi-Region replication",
+    "url": "https://aws.amazon.com/blogs/security/architecting-resilient-authentication-with-amazon-cognito-multi-region-replication/",
+    "published_date": "2026-09-15T19:00:52+00:00",
+    "source_type": "vendor",
+    "summary": "Your consumer identity and access management (CIAM) system is the foundation of your customer experience. It’s how users sign in, access services, and engage with your applications. As your business scales across geographies, ensuring authentication is always available becomes a core architectural requirement. However, building multi-Region authentication has traditionally required complex custom replication solutions that […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Operationalizing least privilege: Automate IAM remediation through your CI/CD pipeline",
+    "url": "https://aws.amazon.com/blogs/security/operationalizing-least-privilege-automate-iam-remediation-through-your-ci-cd-pipeline/",
+    "published_date": "2026-09-15T15:53:51+00:00",
+    "source_type": "vendor",
+    "summary": "The principle of least privilege is straightforward to articulate but challenging to maintain at scale. When teams first deploy applications to AWS, they often grant broader permissions than strictly necessary; it’s faster to get things working, and the plan is always to tighten permissions later. But later rarely comes. Permissions accumulate, AWS Identity and Access […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "AI Autonomy: How to Find the Autonomy Your Agents Already Have",
+    "url": "https://blog.gitguardian.com/ai-autonomy/",
+    "published_date": "2026-09-15T15:00:39+00:00",
+    "source_type": "vendor",
+    "summary": "AI agents are only as autonomous as the credentials behind them. This article talks about the Cloud Security Alliance's autonomy framework, why an agent's intended boundaries rarely match its actual access, and how GitGuardian helps close that gap through detection, remediation, and prevention.",
+    "feed_source": "https://blog.gitguardian.com/rss/",
+    "publisher": "GitGuardian Blog - Take Control of Your Secrets Security",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01709282447.html",
+    "published_date": "2026-09-16T00:30:00+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp; &nbsp; Hi, everyone! We've just released <b>Chrome 153 (153.0.8010.47)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Play</a> over the next few days.&nbsp;</p><p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/153.0.8010.36..153.0.8010.47?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><div><br /></div><div>Android releases contain the same security fixes as their corresponding<a href=\"https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0541751186.html\"> Desktop releases</a> (Windows &amp; Mac: 153.0.8010.47/.48 Linux: 153.0.8010.47) unless otherwise noted.</div><div><div><br /></div><div><div>Harry Souders</div><div><a href=\"https://www.google.com/chrome/\">Google Chrome</a></div></div></div>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Extended Stable Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/09/extended-stable-update-for-desktop_01936140552.html",
+    "published_date": "2026-09-15T20:29:39.145000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;<span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 152.0.7977.130</span><span color=\"rgba(0, 0, 0, 0.87)\"> </span><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">for Windows and Mac </span><span style=\"color: #666666; font-family: arial; font-size: large;\">which will roll out over the coming days/weeks.</span><span style=\"color: #666666; font-family: arial; font-size: large;\"> </span></p><div><span style=\"font-size: large;\"><span style=\"font-family: arial;\"><span style=\"vertical-align: baseline;\"><span style=\"color: #666666;\">A full list of changes in this build is available in the </span><a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7977.120..152.0.7977.130?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\"><span style=\"color: black;\">log</span></a></span><span style=\"color: #666666; vertical-align: baseline;\">. Interested in switching release channels? Find out how </span><a href=\"https://www.chromium.org/getting-involved/dev-channel\" style=\"color: #4184f3; text-decoration: none;\"><span style=",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Stable Channel Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0541751186.html",
+    "published_date": "2026-09-15T20:13:26.036000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666; font-size: large;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\">The Stable channel has been updated to 153.0.8010.47/.48 for Windows and</span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\"> </span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\">Mac and&nbsp;</span></span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\"><span style=\"color: #666666;\">153.0.8010.47</span><span style=\"color: #666666;\">&nbsp;for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is available in the </span><a href=\"https://chromium.googlesource.com/chromium/src/+log/153.0.8010.36..153.0.8010.47?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\">Log</a></span><span color=\"rgba(0, 0, 0, 0.87)\" face=\"Roboto, sans-serif\" style=\"font-size: large;\">&nbsp;</span></p><p><span style=\"color: #666666; font-family: Arial, sans-serif; font-size: 16pt; white-space: pre-wrap;\">Security Fixes and Rewards</span></p><p><i style=\"color: #666666; font-family: Arial, sans-serif; font-size: 13pt; white-space: pre-wrap;\">Note: Acc",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Stable for iOS Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-stable-for-ios-update_0403227505.html",
+    "published_date": "2026-09-15T15:58:33.135000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Stable 154 (154.0.8037.41) for iOS; it'll become available on App Store in the next few hours.</p><p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/153.0.8010.24..154.0.8037.41?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=iOS%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
   }
 ]
