@@ -44682,5 +44682,735 @@
     "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
     "publisher": "Google Chrome Releases",
     "source_note": ""
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published_date": "2026-09-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-58704\" target=\"_blank\" title=\"https://www.cve.org/cverecord?id=cve-2026-58704\">CVE-2026-58704</a> Google Pixel Improper Authorization Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant tot",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "published_date": "2026-09-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-76460\" target=\"_blank\">CVE-2026-76460</a> Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-87886\" target=\"_blank\">CVE-2026-87886</a> Acronis Backup Incorrect Default Permissions Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, sp",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Using Cyber Decoys to Strengthen Detection and Response",
+    "url": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
+    "published_date": "2026-09-16T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<div class=\"OutlineElement Ltr SCXW53093809 BCX8\">\n<p>CISA developed this guidance to help defensive teams at varying levels of cybersecurity maturity plan and implement cyber decoy strategies that strengthen their detection and response capabilities. Many organizations struggle to detect adversaries who use legitimate credentials, native tools, and <a class=\"Hyperlink SCXW53093809 BCX8\" href=\"https://www.cisa.gov/resources-tools/resources/identifying-and-mitigating-living-land-techniques\" rel=\"noreferrer noopener\" target=\"_blank\"><u>living off the land</u></a> (LOTL) techniques to conduct discovery, move laterally, and access data. Cyber decoys are assets that appear to be legitimate systems, accounts, or data, but are designed to distract adversaries, detect their presence, or facilitate collection of cyber threat intelligence (CTI). As organizations adopt <a class=\"Hyperlink SCXW53093809 BCX8\" href=\"https://www.cisa.gov/topics/cybersecurity-best-practices/zero-trust\" rel=\"noreferrer noopener\" target=\"_blank\"><u>Zero Trust</u></a> models, they should assume that a malicious threat actor may gain some level of access to their environment and plan accordingly.&nbsp;&nbsp;</p>\n</div",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Unauthenticated attackers are bypassing Cisco ISE’s management interface (CVE-2026-76460)",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/cisco-ise-vulnerability-exploited-cve-2026-76460/",
+    "published_date": "2026-09-17T10:24:08+00:00",
+    "source_type": "news",
+    "summary": "<p>Two days after it warned customers about an actively exploited email gateway zero-day, Cisco confirmed one more flaw is being targeted: CVE-2026-76460, an authentication bypass bug in an API of Cisco Identity Services Engine (ISE). About CVE-2026-76460 Cisco ISE is an identity-based network access control and policy platform. It checks connecting users&#8217; identity, profiles devices and checks their security posture, grants users the right type of access, and logs it all. &#8220;[CVE-2026-76460] is due to &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/cisco-ise-vulnerability-exploited-cve-2026-76460/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/cisco-ise-vulnerability-exploited-cve-2026-76460/\">Unauthenticated attackers are bypassing Cisco ISE&#8217;s management interface (CVE-2026-76460)</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Scammers leave AI fingerprints all over fake antivirus renewal page",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/ai-antivirus-renewal-scam-fake-pages/",
+    "published_date": "2026-09-17T10:10:31+00:00",
+    "source_type": "news",
+    "summary": "<p>AI appears to be helping scammers with little web development skill build convincing fake antivirus-renewal pages, Malwarebytes found. The researchers came across a scam page impersonating Avast, aimed at users in Belgium, that was more polished than most sites of its kind. The page told visitors their Avast Premium Security subscription had renewed for €129.99, covered five devices, and would renew again in February. A green checkmark sat beside a badge reading &#8220;Active,&#8221; and a &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/ai-antivirus-renewal-scam-fake-pages/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/ai-antivirus-renewal-scam-fake-pages/\">Scammers leave AI fingerprints all over fake antivirus renewal page</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Spain reports first data breach involving autonomous AI agent",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/spain-ai-agent-data-breach/",
+    "published_date": "2026-09-17T08:39:44+00:00",
+    "source_type": "news",
+    "summary": "<p>Spain&#8217;s data protection authority (AEPD) has reported its first data breach blamed on an AI agent acting on its own, after the system reportedly logged into a company&#8217;s network, found a way to alter personal records, and pulled invoice data. “Before drawing any conclusions, it should be noted that the available information comes from the notification submitted by the affected organization and will require further analysis,” said Francisco Pérez Bes, deputy director of the AEPD. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/spain-ai-agent-data-breach/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/spain-ai-agent-data-breach/\">Spain reports first data breach involving autonomous AI agent</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Fake AI trading agent steals crypto wallet passwords",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/fake-ai-trading-agent-research/",
+    "published_date": "2026-09-17T08:00:09+00:00",
+    "source_type": "news",
+    "summary": "<p>Attackers built a website for a fake AI crypto trading agent and used it to install Needle Stealer, malware that replaces a victim&#8217;s browser wallet with a copy that sends the wallet password to the attacker. HP caught the campaign between April and June 2026. The Needle campaign targets people who download AI agents from search results or ads, and users of seven browser wallet extensions, among them MetaMask, Coinbase Wallet and Phantom. HP also &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/fake-ai-trading-agent-research/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/fake-ai-trading-agent-research/\">Fake AI trading agent steals crypto wallet passwords</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Riverbed NPM 360 uses AI to predict and prevent network disruptions",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/riverbed-network-360-observability-solutions/",
+    "published_date": "2026-09-17T06:13:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Riverbed has announced new Riverbed intelligent network observability solutions that combine 360-degree network visibility with agentic AI to help network operations teams accelerate troubleshooting, identify root causes, predict emerging issues and increasingly prevent disruptions before they impact users. The new Riverbed Network 360 offerings natively integrate the powerful agentic AI capabilities of Riverbed IQ and Q into Riverbed’s AppResponse and NetProfiler solutions while extending network visibility across remote users, zero trust and public cloud environments &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/riverbed-network-360-observability-solutions/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/riverbed-network-360-observability-solutions/\">Riverbed NPM 360 uses AI to predict and prevent network disruptions</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Tuskira Vector brings autonomous red teaming to attack surface validation",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/tuskira-vector-autonomous-red-teaming/",
+    "published_date": "2026-09-17T06:01:47+00:00",
+    "source_type": "news",
+    "summary": "<p>Tuskira has announced Vector, its autonomous red teaming agentic capability, which identifies an organization&#8217;s exploitable attack surface by simulating what an attacker can do from outside it. Tuskira validates every external finding against the organization&#8217;s deployed compensating controls, the internal risks already reported by its security tools, and the architecture of its application and infrastructure topologies. The result is autonomous adversarial exposure validation across vulnerabilities, identities, and control configurations, so security teams act only on &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/tuskira-vector-autonomous-red-teaming/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/tuskira-vector-autonomous-red-teaming/\">Tuskira Vector brings autonomous red teaming to attack surface validation</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "The AI security question leaders should be asking instead",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/frederic-bull-gremlin-ai-in-cybersecurity-gap/",
+    "published_date": "2026-09-17T05:30:48+00:00",
+    "source_type": "news",
+    "summary": "<p>In this Help Net Security interview, Frederic Bull, Security Officer at Gremlin, talks about what AI means for security teams. The conversation covers why asking what data a model was trained on is only part of the picture, and why least privilege and access controls still matter for AI agents. It also looks at how AI has narrowed the skill gap between attackers and defenders, how the team handled about nine times as many vulnerabilities &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/frederic-bull-gremlin-ai-in-cybersecurity-gap/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/frederic-bull-gremlin-ai-in-cybersecurity-gap/\">The AI security question leaders should be asking instead</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "A flat cybersecurity budget doesn’t have to mean weaker coverage",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/flat-cybersecurity-budget-video/",
+    "published_date": "2026-09-17T05:00:57+00:00",
+    "source_type": "news",
+    "summary": "<p>Cheri Hotman, Managing Partner of Hotman Group, works as a vCISO and vGRC leader. In this Help Net Security video, she talks about holding coverage steady when the CFO asks for a flat budget or a 12% cut. Her advice is to stop trimming every line by the same percentage. Instead, sort each security expense into four buckets: what works and protects something the business cares about, what could add value but was never operationalized, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/flat-cybersecurity-budget-video/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/flat-cybersecurity-budget-video/\">A flat cybersecurity budget doesn&#8217;t have to mean weaker coverage</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "AWS’s new sign-up gives accounts spend caps, email invites, and agent-set permissions",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/aws-spend-limit-agent-set-permissions/",
+    "published_date": "2026-09-17T04:51:04+00:00",
+    "source_type": "news",
+    "summary": "<p>New AWS customers can now sign up with a Google, GitHub, or Apple login, start with $100 in Free Tier credits, and build inside a &#8220;project&#8221; where AWS and coding agents set up permissions automatically. Paid projects get a monthly spend limit, starting at $20, and a project that reaches its limit is halted instead of running up more charges. Owners who later need multiple Regions or central governance can turn on the full AWS &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/aws-spend-limit-agent-set-permissions/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/aws-spend-limit-agent-set-permissions/\">AWS&#8217;s new sign-up gives accounts spend caps, email invites, and agent-set permissions</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "GNOME 51 adds passkey logins, offline maps and drawn PDF signatures",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/gnome-51-new-features/",
+    "published_date": "2026-09-17T04:36:56+00:00",
+    "source_type": "news",
+    "summary": "<p>GNOME 51, the new version of the Linux desktop, came out on September 16 under the codename A Coruña. The release adds offline maps and live transit information to Maps, new login options at the login screen, hand-drawn signatures in the Papers document viewer, and smoother animations when the system is under load. Fedora 45 and Ubuntu 26.10 will ship it. The update also takes something away. Owners of older NVIDIA graphics cards, such as &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/gnome-51-new-features/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/gnome-51-new-features/\">GNOME 51 adds passkey logins, offline maps and drawn PDF signatures</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
+    "published_date": "2026-09-17T09:00:00+00:00",
+    "source_type": "news",
+    "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft shares workaround for Windows domain login issues",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
+    "published_date": "2026-09-17T08:24:48+00:00",
+    "source_type": "news",
+    "summary": "Microsoft shared a temporary fix on Wednesday for a known issue that prevents Windows 11 users from logging in with valid domain credentials after installing the September 2026 security updates. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
+    "published_date": "2026-09-17T07:20:54+00:00",
+    "source_type": "news",
+    "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Anthropic wants Claude to analyze your bank account and financial data",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
+    "published_date": "2026-09-17T00:35:48+00:00",
+    "source_type": "news",
+    "summary": "Anthropic is testing a new personal finance feature called \"Claude Money\" that will allow you to connect your bank accounts directly to Claude and \"understand your money.\" [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Windows 11 KB5124008 update breaks domain trust for some users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
+    "published_date": "2026-09-16T20:39:29+00:00",
+    "source_type": "news",
+    "summary": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems, preventing users from logging in with valid domain credentials. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+    "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
+    "published_date": "2026-09-16T20:24:55+00:00",
+    "source_type": "news",
+    "summary": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
+    "url": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
+    "published_date": "2026-09-16T18:50:53+00:00",
+    "source_type": "news",
+    "summary": "A banking malware operation active since mid-2025 has been using a toolkit named KREMLIN to install malicious Chrome and Edge extensions that steal credentials, session tokens, and sensitive data. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Spain's data agency gets first report of AI-powered data breach",
+    "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
+    "published_date": "2026-09-16T17:26:41+00:00",
+    "source_type": "news",
+    "summary": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "The true cost of a ransomware attack, with and without BCDR",
+    "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
+    "published_date": "2026-09-16T14:00:10+00:00",
+    "source_type": "news",
+    "summary": "The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature BCDR strategy can reduce downtime and provide a faster, more predictable path to recovery. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft says Copilot buttons still missing in classic Outlook",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/",
+    "published_date": "2026-09-16T12:16:32+00:00",
+    "source_type": "news",
+    "summary": "Microsoft says it's still investigating a known issue that causes the Copilot and Copilot Chat buttons in Classic Outlook to disappear for some Windows users. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Webinar: What happens in the first hours of a Google Workspace breach",
+    "url": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
+    "published_date": "2026-09-16T12:11:19+00:00",
+    "source_type": "news",
+    "summary": "The first hours after discovering a Google Workspace breach can determine how an incident unfolds. This webinar examines real-world breaches to show which early response decisions can limit the impact and which can make matters worse. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Critical ScreenConnect flaw now actively exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+    "published_date": "2026-09-16T11:14:28+00:00",
+    "source_type": "news",
+    "summary": "Attackers now exploit a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+    "published_date": "2026-09-16T15:50:59+00:00",
+    "source_type": "news",
+    "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation.\n\nThe vulnerability in question is CVE-2026-89026 (CVSS v3.1 score: 9.8/CVSS v4.0 score: 9.3), which can allow an unauthenticated remote attacker to execute arbitrary operating system (OS) commands by taking advantage of a hard-coded",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+    "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+    "published_date": "2026-09-16T15:27:49+00:00",
+    "source_type": "news",
+    "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.\n\nThe cybersecurity vendor said it has identified attacks mounted by NightEagle (aka APT-Q-95), a threat actor known to be active since at least 2023, that involve new techniques for persistence and lateral movement.",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+    "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+    "published_date": "2026-09-16T14:36:44+00:00",
+    "source_type": "news",
+    "summary": "Security researchers at&nbsp;Forever Security&nbsp;have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live in Chrome, Perplexity Comet, Microsoft Edge, Opera Neon and the Claude in Chrome extension.\n\nOnce the extension was installed, it could access each product's built-in AI with a single click. On Comet, Edge,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+    "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+    "published_date": "2026-09-16T13:37:07+00:00",
+    "source_type": "news",
+    "summary": "Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread&nbsp;Shai-Hulud&nbsp;across about 100 internal code repositories.\n\nBefore the repository spread, the assistant recommended software that the attacker had poisoned, and the recommendation was accepted. The worm stole repository secrets and source code for the",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+    "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+    "published_date": "2026-09-16T13:14:05+00:00",
+    "source_type": "news",
+    "summary": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week.\n\nThe attack needs code already running on the machine as a normal user, so it does not work over the network. JFrog says the fix is in Parallels Desktop 27, a version that Intel Macs cannot install.\n\nYuval Moravchick, who leads",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+    "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+    "published_date": "2026-09-16T11:58:00+00:00",
+    "source_type": "news",
+    "summary": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to valid accounts without relying on obvious malware activity.\n\nFrom there, a single compromised identity can open the door to sensitive data, business systems, and additional cloud",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+    "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+    "published_date": "2026-09-16T11:15:58+00:00",
+    "source_type": "news",
+    "summary": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privilege escalation flaw.\n\n\"In Cellular Modem, there is a possible permission bypass due to a logic error in the code,\" according to a description of the bug in the NIST National Vulnerability Database",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+    "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+    "published_date": "2026-09-16T11:15:48+00:00",
+    "source_type": "news",
+    "summary": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers are combining that kind of intelligence with AI-assisted exploitation to accelerate the path from exposure to breach faster than most security programs are built to react.",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+    "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+    "published_date": "2026-09-16T11:08:54+00:00",
+    "source_type": "news",
+    "summary": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions -\n\n\n  Acronis Backup plugin for cPanel &amp; WHM (Linux",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Key lawmaker suggests action on AI safety legislation will wait until 2027",
+    "url": "https://therecord.media/frontier-act-ai-bill-house-brett-guthrie",
+    "published_date": "2026-09-16T21:07:00+00:00",
+    "source_type": "news",
+    "summary": "“It's really complicated, and I wouldn't want to do something in a lame duck session to do it quickly and not get it right,” said House Energy and Commerce Chairman Brett Guthrie about the FRONTIER Act.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Coast Guard, FBI boarded tanker after attack by ‘foreign cyber actors’",
+    "url": "https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi",
+    "published_date": "2026-09-16T18:46:00+00:00",
+    "source_type": "news",
+    "summary": "U.S. personnel boarded an oil tanker in the Gulf of Mexico to “ensure integrity of the vessel’s operational and information technology systems,\" after an apparent cyberattack, the U.S. Coast Guard said.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "House passes bill to equip local law enforcement with scam-fighting tools",
+    "url": "https://therecord.media/house-passes-bill-to-equip-local-law-enforcement-scams",
+    "published_date": "2026-09-16T18:28:00+00:00",
+    "source_type": "news",
+    "summary": "The Guarding Unprotected Aging Retirees from Deception Act (GUARD) attempts to address a common complaint from the victims of online scams like pig butchering — that such cases typically do not rise to the level of a federal investigation but local law enforcement is unequipped to properly investigate them.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "International Meteor Organization says cyberattack dealt ‘critical blow’ to website",
+    "url": "https://therecord.media/international-meteor-organization-cyberattack",
+    "published_date": "2026-09-16T15:47:00+00:00",
+    "source_type": "news",
+    "summary": "A website used around the world for reporting meteors faces weeks of downtime as the organization moves away from systems that were hacked recently.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Three Ukrainians to face charges for alleged hack of 610,000 Roblox accounts",
+    "url": "https://therecord.media/ukraine-roblox-hacker-arrested",
+    "published_date": "2026-09-16T14:30:00+00:00",
+    "source_type": "news",
+    "summary": "Three Ukrainians are set to stand trial for allegedly stealing access to more than 610,000 Roblox accounts and selling them to buyers in Russia,  authorities said.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "CISA Releases Guidance on Deploying Cyber Decoys",
+    "url": "https://www.securityweek.com/cisa-releases-guidance-on-deploying-cyber-decoys/",
+    "published_date": "2026-09-17T07:53:43+00:00",
+    "source_type": "news",
+    "summary": "<p>Complementing Zero Trust models, decoys enable organizations to detect, observe, and block malicious activity in their environments.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-releases-guidance-on-deploying-cyber-decoys/\">CISA Releases Guidance on Deploying Cyber Decoys</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "AI Agents Can Retrain Own Models Mid-Task, Leaking Secrets and Erasing Refusals",
+    "url": "https://www.securityweek.com/ai-agents-can-retrain-own-models-mid-task-leaking-secrets-and-erasing-refusals/",
+    "published_date": "2026-09-17T07:41:29+00:00",
+    "source_type": "news",
+    "summary": "<p>New research from Irregular shows AI agents can retrain and redeploy their own underlying models during routine maintenance tasks.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-agents-can-retrain-own-models-mid-task-leaking-secrets-and-erasing-refusals/\">AI Agents Can Retrain Own Models Mid-Task, Leaking Secrets and Erasing Refusals</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Active Exploitation Triggers Emergency Patch for Cisco ISE Zero-Day",
+    "url": "https://www.securityweek.com/active-exploitation-triggers-emergency-patch-for-cisco-ise-zero-day/",
+    "published_date": "2026-09-17T06:19:52+00:00",
+    "source_type": "news",
+    "summary": "<p>Remote, unauthenticated attackers can exploit the vulnerability to bypass authentication via crafted requests.</p>\n<p>The post <a href=\"https://www.securityweek.com/active-exploitation-triggers-emergency-patch-for-cisco-ise-zero-day/\">Active Exploitation Triggers Emergency Patch for Cisco ISE Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "First Agentic AI Data Breach Reported to Spanish Regulator",
+    "url": "https://www.securityweek.com/first-agentic-ai-data-breach-reported-to-spanish-regulator/",
+    "published_date": "2026-09-16T16:39:19+00:00",
+    "source_type": "news",
+    "summary": "<p>Spanish regulators say an AI agent chained together a successful login, vulnerability discovery, and access to personal data in a potential milestone for autonomous cyberattacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/first-agentic-ai-data-breach-reported-to-spanish-regulator/\">First Agentic AI Data Breach Reported to Spanish Regulator</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Virtual Event Today: Attack Surface Management Summit",
+    "url": "https://www.securityweek.com/virtual-event-today-attack-surface-management-summit-2/",
+    "published_date": "2026-09-16T14:35:04+00:00",
+    "source_type": "news",
+    "summary": "<p>Join SecurityWeek today for a virtual summit exploring the strategies and tools organizations need to discover, prioritize, and defend their expanding attack surfaces.</p>\n<p>The post <a href=\"https://www.securityweek.com/virtual-event-today-attack-surface-management-summit-2/\">Virtual Event Today: Attack Surface Management Summit</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "EU Chief Warns of AI-Powered Hacking, Moves to Rein In Social Media",
+    "url": "https://www.securityweek.com/eu-chief-warns-of-ai-powered-hacking-moves-to-rein-in-social-media/",
+    "published_date": "2026-09-16T14:15:18+00:00",
+    "source_type": "news",
+    "summary": "<p>Ursula von der Leyen warns that advanced AI could unleash hacking on an unprecedented scale as Europe prepares new protections against social media’s “capture” of children.</p>\n<p>The post <a href=\"https://www.securityweek.com/eu-chief-warns-of-ai-powered-hacking-moves-to-rein-in-social-media/\">EU Chief Warns of AI-Powered Hacking, Moves to Rein In Social Media</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "AIUC Raises $40 Million to Certify Enterprise AI Agents",
+    "url": "https://www.securityweek.com/aiuc-raises-40-million-to-certify-enterprise-ai-agents/",
+    "published_date": "2026-09-16T13:38:36+00:00",
+    "source_type": "news",
+    "summary": "<p>The company provides a standard for AI systems, testing them against risks such as jailbreaks, prompt injections, and unauthorized actions.</p>\n<p>The post <a href=\"https://www.securityweek.com/aiuc-raises-40-million-to-certify-enterprise-ai-agents/\">AIUC Raises $40 Million to Certify Enterprise AI Agents</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Pixel Modem Zero-Day Exploited in Targeted Attacks",
+    "url": "https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/",
+    "published_date": "2026-09-16T13:10:54+00:00",
+    "source_type": "news",
+    "summary": "<p>Google announced patches for the exploited privilege escalation vulnerability (CVE-2026-58704) on September 15. </p>\n<p>The post <a href=\"https://www.securityweek.com/pixel-modem-zero-day-exploited-in-targeted-attacks/\">Pixel Modem Zero-Day Exploited in Targeted Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "US, UK, Dutch Agencies Expose Iranian ‘Chosen Brick’ Surveillance Malware",
+    "url": "https://www.securityweek.com/us-uk-dutch-agencies-expose-iranian-chosen-brick-surveillance-malware/",
+    "published_date": "2026-09-16T12:00:14+00:00",
+    "source_type": "news",
+    "summary": "<p>US, UK, and Dutch government agencies published a report detailing the malware, and the FBI described the abuse of Telegram for C&#038;C.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-uk-dutch-agencies-expose-iranian-chosen-brick-surveillance-malware/\">US, UK, Dutch Agencies Expose Iranian &#8216;Chosen Brick&#8217; Surveillance Malware</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover",
+    "url": "https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/",
+    "published_date": "2026-09-16T11:32:53+00:00",
+    "source_type": "news",
+    "summary": "<p>Vulnerabilities in The Events Calendar can provide attackers with remote code execution capabilities.</p>\n<p>The post <a href=\"https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/\">Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "CrowdStrike Accelerates Real-Time Data Classification with On-Device AI",
+    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/",
+    "publisher": "Blog",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-713: GIMP APNG File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-713/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-92183.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-712: NoMachine nxhtd Server-Side Request Forgery Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-712/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of NoMachine. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.2. The following CVEs are assigned: CVE-2026-92210.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-711: NoMachine Redis Improper Authentication Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-711/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-92209.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-710: NoMachine mDNS Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-710/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NoMachine. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92208.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-709: Cisco Secure Firewall Management Center CommandSinkRmi Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-709/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Secure Firewall Management Center. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.1. The following CVEs are assigned: CVE-2026-20242.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-708: (0Day) Microsoft Windows HTTP Proxy Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-708/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.3.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-707: (0Day) MindsDB OpenBBtable Code Injection Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-707/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MindsDB. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92207.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-706: (0Day) CrewAI crewAI Framework Agent Loading Unsafe Reflection Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-706/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of CrewAI crewAI. User interaction is required to exploit this vulnerability in that the target must load a malicious agent configuration from the repository. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2026-92206.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-705: (0Day) BusyBox libarchive Symlink Directory Traversal Arbitrary File Creation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-705/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to create arbitrary files on affected installations of BusyBox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 6.1. The following CVEs are assigned: CVE-2026-92205.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-704: (0Day) Airbyte OneDrive Connector _get_shared_drive_object Server-Side Request Forgery Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-704/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Airbyte. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.7. The following CVEs are assigned: CVE-2026-92204.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-703: (0Day) Airbyte SharePoint Connector _get_shared_drive_object Server-Side Request Forgery Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-703/",
+    "published_date": "2026-09-16T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Airbyte. Authentication is required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.7. The following CVEs are assigned: CVE-2026-92203.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use",
+    "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/",
+    "published_date": "2026-09-17T10:00:43+00:00",
+    "source_type": "research",
+    "summary": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Thursday, September 17th, 2026 https://isc.sans.edu/podcastdetail/10098, (Thu, Sep 17th)",
+    "url": "https://isc.sans.edu/diary/rss/33346",
+    "published_date": "2026-09-17T02:00:03+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
+    "url": "https://isc.sans.edu/diary/rss/33344",
+    "published_date": "2026-09-16T18:44:04+00:00",
+    "source_type": "operational",
+    "summary": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "Architecting a secure landing zone in the AWS European Sovereign Cloud",
+    "url": "https://aws.amazon.com/blogs/security/architecting-a-secure-landing-zone-in-the-aws-european-sovereign-cloud/",
+    "published_date": "2026-09-16T21:20:48+00:00",
+    "source_type": "vendor",
+    "summary": "The AWS European Sovereign Cloud is a new, independent cloud for Europe, physically and logically separate from existing AWS Regions and operated within the European Union (EU). It provides the same services, features, and APIs as AWS commercial Regions, but runs as a distinct AWS partition (aws-eusc), with its own control plane, AWS Identity and […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-86831: Improper validation of pod identifier uniqueness in aws-network-policy-agent in Amazon EKS",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-113-aws/",
+    "published_date": "2026-09-16T20:16:23+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-113-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/16/2026 12:30 PM PDT</p> \n<p><b>Description:</b></p> \n<p>Network Policy Agent is an EKS Policy management feature. We identified CVE-2026-86831, a cross-namespace NetworkPolicy bypass in Amazon EKS Network Policy Agent (aws-network-policy-agent) before v1.4.0. Pod identifiers are constructed by concatenating the pod name and namespace with a hyphen delimiter, which is a legal character in both Kubernetes pod names and namespace names. This ambiguity can produce identical identifiers for pods across different namespaces, potentially allowing NetworkPolicy enforcement to be bypassed.</p> \n<p><b>Impacted versions:</b><br /> - 1.14.0&lt;1.22.3 Amazon VPC CNI Managed Add-on<br /> - &lt; v1.4.0 Network Policy Agent</p> \n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "Early Stable Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/09/early-stable-update-for-desktop_096324202.html",
+    "published_date": "2026-09-16T23:09:00.151000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">154.0.8037.44/.45</span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\"> for Windows.  </span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\"> </span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">as part of our early stable release to a <span style=\"background-color: white;\">small percentage of users. </span>A full list of changes in this build is available in the</span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\"> </span><span color=\"rgba(0, 0, 0, 0.87)\"><a href=\"https://chromium.googlesource.com/chromium/src/+log/154.0.8037.17..154.0.8037.44?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\">log</a></span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">.</span></p><div class=\"",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-android-update_0279595226.html",
+    "published_date": "2026-09-16T18:28:32.396000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 155 (155.0.8059.4) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/154.0.8037.21..155.0.8059.4?pretty=fuller&amp;n=10000\">Git log</a>. For details on new features, check out the <a href=\"https://blog.chromium.org\">Chromium blog</a>, and for details on web platform updates, check <a href=\"https://www.chromestatus.com/features#milestone%3D155\">here</a>.</p><p>If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01800800102.html",
+    "published_date": "2026-09-16T17:28:14.921000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;Hello Everyone! We've just released Chrome 154 (154.0.8037.49) for Android to a small percentage of users. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Play</a> over the next few days. You can find more details about early Stable releases <a href=\"https://developer.chrome.com/blog/early-stable/\">here</a>.</p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/153.0.8010.47..154.0.8037.49?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.<br /><br />Krishna Govind<br /><a href=\"https://www.google.com/chrome/\">Google Chrome</a>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for Desktop Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-desktop-update_01695577434.html",
+    "published_date": "2026-09-16T16:58:33.057000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>The Chrome team is excited to announce the promotion of Chrome 155 to the Beta channel for Windows, Mac and Linux. Chrome 155.0.8059.5 contains our usual under-the-hood performance and stability tweaks, but there are also some cool new features to explore - please head to the <a href=\"https://blog.chromium.org/\">Chromium blog</a> to learn more!</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/154.0.8037.17..155.0.8059.5?pretty=fuller&amp;n=10000\">Git log</a>. Interested in <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">switching</a> release channels? Find out <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">how</a>. If you find a new issue, please let us know by <a href=\"https://crbug.com/\">filing a bug</a>. The <a href=\"https://productforums.google.com/forum/#!forum/chrome\">community help forum</a> is also a great place to reach out for help or learn about common issues.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for iOS Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-ios-update_01806830578.html",
+    "published_date": "2026-09-16T16:28:32.621000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 155 (155.0.8059.2) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/154.0.8037.16..155.0.8059.2?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=iOS%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "The Risks Behind AI",
+    "url": "https://www.emsisoft.com/en/blog/47875/the-risks-behind-ai/",
+    "published_date": "2026-09-16T11:24:22+00:00",
+    "source_type": "malware",
+    "summary": "<p>AI can deliver remarkable benefits for businesses, but before rushing to adopt it, organizations should consider the less obvious costs and risks, from unexpected behavior and inaccurate outputs to privacy concerns and insider threats.</p>\n<p>The post <a href=\"https://www.emsisoft.com/en/blog/47875/the-risks-behind-ai/\">The Risks Behind AI</a> appeared first on <a href=\"https://www.emsisoft.com/en/blog\">Emsisoft | Cybersecurity Blog</a>.</p>",
+    "feed_source": "https://blog.emsisoft.com/en/feed/",
+    "publisher": "Emsisoft | Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "coverity-w38-4.14.9",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/coverity-w38-4.14.9",
+    "published_date": "2026-09-15T20:44:59+00:00",
+    "source_type": "github",
+    "summary": "<p>Merge pull request <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/39313\">#39313</a> from wazuh/fix/39170-macos-logged-in-users-…</p>",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
+    "publisher": "Release notes from wazuh",
+    "source_note": ""
   }
 ]
