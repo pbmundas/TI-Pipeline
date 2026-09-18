@@ -45412,5 +45412,815 @@
     "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
     "publisher": "Release notes from wazuh",
     "source_note": ""
+  },
+  {
+    "title": "Beware the SparroWock: The backdoor that bites, the commands that catch",
+    "url": "https://www.welivesecurity.com/en/eset-research/beware-sparrowock-backdoor-bites-commands-catch/",
+    "published_date": "2026-09-17T08:50:00+00:00",
+    "source_type": "research",
+    "summary": "ESET researchers document SparroWocky, the new flagship backdoor of the FamousSparrow APT group",
+    "feed_source": "https://www.welivesecurity.com/en/rss/feed/",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "Cyberthreats are moving faster than SMBs: Readiness must accelerate",
+    "url": "https://www.welivesecurity.com/en/business-security/cyberthreats-moving-faster-smbs-readiness-must-accelerate/",
+    "published_date": "2026-09-16T09:00:00+00:00",
+    "source_type": "research",
+    "summary": "As AI adoption expands the attack surface and adds to the security workload, businesses need automation backed by experts",
+    "feed_source": "https://www.welivesecurity.com/en/rss/feed/",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "European Commission set to push social media restrictions, safety requirements into law",
+    "url": "https://therecord.media/european-commission-set-to-push-social-media-kids-restrictions-into-law",
+    "published_date": "2026-09-17T20:36:00+00:00",
+    "source_type": "news",
+    "summary": "The proposal, known as the EU KIDS Act, would block social media platforms from offering accounts to children younger than 13 and establish a bloc-wide minimum age of 15 for account creation.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "China’s FamousSparrow hackers target Latin America with new backdoor",
+    "url": "https://therecord.media/china-hackers-latin-america-espionage",
+    "published_date": "2026-09-17T16:30:00+00:00",
+    "source_type": "news",
+    "summary": "Alleged Chinese hackers are breaking into government agencies across Latin America using a new backdoor that researchers are calling “SparroWocky.”",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers claim breach of Russian election systems days before parliamentary vote",
+    "url": "https://therecord.media/russia-election-hackers-breach",
+    "published_date": "2026-09-17T13:45:00+00:00",
+    "source_type": "news",
+    "summary": "An anonymous hacking group claimed to have broken into computer systems connected to Russia’s election infrastructure just days before the country begins voting for a new parliament.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Congress eyes new support for Cyber Command after recent suicide deaths",
+    "url": "https://therecord.media/congress-eyes-support-for-cyber-command-suicide-deaths",
+    "published_date": "2026-09-17T13:32:00+00:00",
+    "source_type": "news",
+    "summary": "Congressional sources say they view the deaths of U.S. Cyber Command personnel as an inflection point, especially as the Pentagon’s appetite for cyber capabilities grows following successful contributions to high-profile missions against Iran and Venezuela.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Israeli contractor BlackCore trained Angolan officials in online influence operations",
+    "url": "https://therecord.media/angola-israel-influence-operations-blackcore",
+    "published_date": "2026-09-17T12:15:00+00:00",
+    "source_type": "news",
+    "summary": "An Israeli influence-for-hire company trained Angolan government officials to run online influence operations, including by creating fake social media personas and media outlets,  researchers found.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
+    "published_date": "2026-09-17T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memory, and thereby allows the attacker to view, tamper with, destroy, or delete control programs.</strong></p>\n<p>The following versions of Mitsubishi Electric GX Works3 and Motion Control Settings are affected:</p>\n<ul>\n<li>Mitsubishi Electric GX Works3 vers:all/* (CVE-2026-15688)</li>\n<li>Mitsubishi Electric Motion Control Settings (Software packaged with GX Works3) vers:all/* (CVE-2026-15688)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 8.8</td>\n<td>Mitsubishi Electric</td>\n<td>Mitsubishi Electric GX Works3 and Motion Control Settings</td>\n<td>Incorrect Implementation of Authentication Algorithm</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Hitachi Energy FACTS Control Platform (FCP)",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
+    "published_date": "2026-09-17T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Hitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and availability of the product. Following FACTS Control systems with GWS component deployed from year 2020 onwards are likely affected by the above vulnerabilities. Product deployments without GWS component are not affected. • SVC Light (STATCOM) • Fixed Series Capacitor • Thyristor Controlled Series Capacitor • Static Var Compensator • Static Watt Compensator • Hybrid Synchronous Condensers Please refer to the Recommended Immediate Actions for information about the mitigation/remediation. The affected FCP versions are only applicable if GWS component is present.</strong></p>\n<p>The following versions of Hitachi Energy FACTS Control Platform (FCP) are affected:</p>\n<ul>\n<li>FACTS Control Platform (FCP) 3.4.0, 3.7.0, 3.8.0, 3.10.0, 3.12.0, 3.14.0, 3.15.0, 4.0.0, 4.0.1, 4.1.0, 4.1.1 (CVE-2024-4872, CVE-2024",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Bransys ELD",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
+    "published_date": "2026-09-17T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware.</strong></p>\n<p>The following versions of Bransys ELD are affected:</p>\n<ul>\n<li>Android &lt;11.00.00 (CVE-2026-86520, CVE-2026-86689, CVE-2026-77960)</li>\n<li>iOS &lt;1.1.54 (CVE-2026-86520, CVE-2026-86689, CVE-2026-77960)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.5</td>\n<td>Bransys</td>\n<td>Bransys ELD</td>\n<td>Use of Hard-coded Credentials, Cleartext Transmission of Sensitive Information</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Transportation Systems</li>\n<li><strong>Countries/Areas Deployed: </strong>United States</li>\n<li><strong>Company Headquarters Location: </strong>United States</li>\n</ul>\n<hr />\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-acco",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Schneider Electric NetBotz 5 750/755",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
+    "published_date": "2026-09-17T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-05.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Schneider Electric is aware of multiple vulnerabilities in its NetBotz 5 – 750/755 products.The NetBotz 5 – 750/755 products are security and environmental monitors providing temperature, humidity, leak, smoke, vibration, door contact, and video monitoring capabilities. Failure to apply the remediation provided below may risk arbitrary or remote code execution over the local network, which could result in device manipulation and unauthorized data access.</strong></p>\n<p>The following versions of Schneider Electric NetBotz 5 750/755 are affected:</p>\n<ul>\n<li>NetBotz 5 750 vers:intdot/&lt;=5.5.2 (CVE-2026-13336, CVE-2026-13337)</li>\n<li>NetBotz 5 755 vers:intdot/&lt;=5.5.2 (CVE-2026-13336, CVE-2026-13337)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 6.4</td>\n<td>Schneider Electric</td>\n<td>Schneider Electric NetBotz 5 750/755</td>\n<td>Improper Neutralization of Special ",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
+    "published_date": "2026-09-17T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-04.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Schneider Electric is aware of a vulnerability in its Modicon M340</strong><a href=\"https://www.cisa.gov//www.se.com/ww/en/product-range/1468-modicon-m340-pac/\"><strong> https://www.se.com/ww/en/product-range/1468-modicon-m340-pac/</strong></a><strong>, BMXNOR0200H </strong><a href=\"https://www.se.com/us/en/product/bmxnor0200h/communication-module-modicon-m340-iec-608705101-104-dnp3-for-severe-environments/\"><strong>https://www.se.com/us/en/product/BMXNOR0200H/communication-module-modicon-m340-iec-608705101-104-dnp3-for-severe-environments/</strong></a><strong>: Modicon M340 X80 Ethernet Communication Modules, BMXNGD0100 </strong><a href=\"https://www.se.com/us/en/product/bmxngd0100/communication-module-modicon-m580-global-data-service/\"><strong>https://www.se.com/us/en/product/BMXNGD0100/communication-module-modicon-m580-global-data-service/</strong></a><strong>: M580 Global Data module, BMXNOC0401 </strong><a href=\"https://www.se.com/us/en/product/bmxnoc0401/network-module-modicon-m340-ethernet-ip-and-modbus-tcp-4-x-r",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Schneider Electric PowerChute Serial Shutdown",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
+    "published_date": "2026-09-17T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-07.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Schneider Electric is aware of vulnerabilities in its PowerChute Serial Shutdown product. The PowerChute Serial Shutdown product is a UPS management software enabling graceful system shutdown and energy management capabilities for desktops, servers and workstations. Failure to apply the remediation provided below may risk improper authentication validation which could result in disruption of operations and access to system data.</strong></p>\n<p>The following versions of Schneider Electric PowerChute Serial Shutdown are affected:</p>\n<ul>\n<li>PowerChute Serial Shutdown vers:intdot/&lt;=1.5, 1.6 (CVE-2026-13348)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 5.3</td>\n<td>Schneider Electric</td>\n<td>Schneider Electric PowerChute Serial Shutdown</td>\n<td>Improper Restriction of Excessive Authentication Attempts</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "ABB Ability Edgenius",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
+    "published_date": "2026-09-17T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-06.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑31431 (Copy Fail) is a Linux kernel vulnerability that may allow a locally authenticated user or compromised container workload to gain elevated (root) privileges on affected systems. Once root access is obtained, the attacker can effectively gain complete control of the system</strong></p>\n<p>The following versions of ABB Ability Edgenius are affected:</p>\n<ul>\n<li>Ability Edgenius &gt;=3.2.0.0|&lt;3.2.4.1, 3.2.4.1 (CVE-2026-31431)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 7.8</td>\n<td>ABB</td>\n<td>ABB Ability Edgenius</td>\n<td>Incorrect Resource Transfer Between Spheres</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "New Check Point flaw lets hackers execute code with root privileges",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+    "published_date": "2026-09-18T09:34:33+00:00",
+    "source_type": "news",
+    "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+    "published_date": "2026-09-18T07:35:31+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New RatHat Android malware uses AI to automate device control",
+    "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+    "published_date": "2026-09-17T21:50:26+00:00",
+    "source_type": "news",
+    "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI details more cases of AI agents taking unauthorized actions",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+    "published_date": "2026-09-17T18:55:12+00:00",
+    "source_type": "news",
+    "summary": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and leveraging exposed API keys. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
+    "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+    "published_date": "2026-09-17T17:11:34+00:00",
+    "source_type": "news",
+    "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
+    "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
+    "published_date": "2026-09-17T14:01:11+00:00",
+    "source_type": "news",
+    "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful authentication by verifying that both the user and the device requesting access can be trusted. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Windows 11 24H2 Home and Pro reach end of support in October",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
+    "published_date": "2026-09-17T13:09:09+00:00",
+    "source_type": "news",
+    "summary": "Microsoft reminded customers this week that devices running Windows 11 24H2 Home and Pro editions will stop receiving updates next month. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "US takes down NightmareStresser DDoS-for-hire platform",
+    "url": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
+    "published_date": "2026-09-17T11:33:35+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Federal Bureau of Investigation (FBI) seized the domains used by NightmareStresser, one of the world's longest-running distributed denial-of-service (DDoS) platforms. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+    "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+    "published_date": "2026-09-18T09:18:03+00:00",
+    "source_type": "news",
+    "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a large language model (LLM), an assessment made with high confidence based on verbose comments, placeholder code, and statistical token-analysis patterns,\"",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+    "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+    "published_date": "2026-09-18T06:17:25+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n\n\n\"Distributed primarily via targeted smishing (SMS/text phishing) and malvertising campaigns leading to deceptive third-party download portals, RatHat uses",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+    "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+    "published_date": "2026-09-17T18:08:28+00:00",
+    "source_type": "news",
+    "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.\n\nThe Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix through its LivePatch update channel and says it has no indication that the flaw",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+    "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+    "published_date": "2026-09-17T17:32:22+00:00",
+    "source_type": "news",
+    "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work often enough.\n\nSo the threat landscape is not getting cleaner. It is just",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+    "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+    "published_date": "2026-09-17T15:37:56+00:00",
+    "source_type": "news",
+    "summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;security announcement&nbsp;on September 15.\n\nThe escape runs with the rights of the host account that runs the virtual machine. The flaw,&nbsp;CVE-2026-77179, is rated Critical, affects versions",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+    "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+    "published_date": "2026-09-17T14:03:13+00:00",
+    "source_type": "news",
+    "summary": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE.\n\n\"HEAVYGRAM offers builtin commands supporting remote command execution, system, network and process information discovery, data and Telegram session files exfiltration, screenshot capture, DLL sideloading,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+    "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+    "published_date": "2026-09-17T12:30:00+00:00",
+    "source_type": "news",
+    "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday.\n\nAn attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution.\n\nUnbound 1.26.1, released the same day, fixes the bug, tracked as&nbsp;CVE-2026-81642, along with",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+    "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+    "published_date": "2026-09-17T11:50:00+00:00",
+    "source_type": "news",
+    "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+    "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+    "published_date": "2026-09-17T10:50:53+00:00",
+    "source_type": "news",
+    "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production.\n\nTL;DR\n\nExploitation is now the front door. It starts 31% of breaches (Verizon DBIR",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+    "url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+    "published_date": "2026-09-17T10:05:45+00:00",
+    "source_type": "news",
+    "summary": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025.\n\n\"SparroWocky is a modular, C++ backdoor,\" ESET security researchers Alexandre Côté Cyr and Romain Dumont said in a technical report shared with The Hacker News",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+    "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+    "published_date": "2026-09-17T09:53:38+00:00",
+    "source_type": "news",
+    "summary": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency.\n\n\"As AI systems grow more advanced and more widely deployed, we need to build a broader and better-informed consensus on the",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+    "url": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+    "published_date": "2026-09-17T08:00:29+00:00",
+    "source_type": "news",
+    "summary": "The Internet Systems Consortium (ISC) has released&nbsp;BIND 9.20.29 and 9.21.26&nbsp;to fix fourteen security flaws it&nbsp;disclosed&nbsp;on 16 September in BIND 9, its open-source DNS server software. One of them affects any BIND server that answers DNS-over-HTTPS (DoH).\n\nA sender with no credentials can crash the server process,&nbsp;named, with a single request that carries an invalid SIG",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+    "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+    "published_date": "2026-09-17T07:30:01+00:00",
+    "source_type": "news",
+    "summary": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in a&nbsp;notice&nbsp;published Wednesday.\n\nIt also exposed about 490 million image metadata records, mostly for images from January 2019 or earlier, including the IDs that make up Gyazo image links.\n\nHelpfeel said",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+    "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+    "published_date": "2026-09-17T06:39:40+00:00",
+    "source_type": "news",
+    "summary": "Cisco has warned of a fresh maximum-severity security flaw impacting Identity Services Engine (ISE) that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-76460 (CVSS score: 10.0), could allow an unauthenticated, remote attacker to bypass authentication.\n\n\"This vulnerability is due to insufficient authentication control on an API endpoint,\" Cisco said. \"An attacker",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+    "url": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+    "published_date": "2026-09-17T05:13:46+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the court-authorized seizure of internet domains associated with a distributed denial-of-service (DDoS)-for-hire service known as NightmareStresser.\n\nThe domains in question are: nightmare-stresser[.]com and nightmarestresser[.]org. Visitors to the site are now greeted by a seizure banner that states -\n\n\"This domain has been seized by the",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Bots with good manners are better at fooling people on social media",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/social-media-bot-detection-study/",
+    "published_date": "2026-09-18T10:15:12+00:00",
+    "source_type": "news",
+    "summary": "<p>Most people can&#8217;t tell a bot from a human online, and the bots most likely to fool them are the polite ones, according to a new Surfshark study. The company analyzed 1,722 participants worldwide, testing their ability to separate human comments from AI-generated ones in a social media setting. Overall, people caught just 40% of the bots placed in front of them. (Source: Surfshark) The bots that slipped by most often weren&#8217;t loud or aggressive. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/18/social-media-bot-detection-study/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/18/social-media-bot-detection-study/\">Bots with good manners are better at fooling people on social media</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Arcjet brings security controls and audit trails to AI agents",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/arcjet-agent-runtime-security/",
+    "published_date": "2026-09-18T08:55:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Arcjet has launched agent runtime security, a new product that helps engineering teams secure the AI agents they are building while giving security teams the governance and compliance evidence they need. Arcjet brings observability, enforcement, and audit capabilities across agent workflows so teams can discover which agents are running, control what they can do, and understand what happened and why. AI agents are moving beyond chat interfaces and into production workflows, where they can read &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/18/arcjet-agent-runtime-security/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/18/arcjet-agent-runtime-security/\">Arcjet brings security controls and audit trails to AI agents</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
+    "published_date": "2026-09-18T08:49:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Four major AI coding agents, Claude Code, Codex, GitHub Copilot and Gemini CLI, all share the same zero-click RCE vulnerability, one that could give an attacker the same reach into a company&#8217;s systems and data as the employee running the agent, according to AIR. &#8220;It is the first supply chain vulnerability of the AI agent ecosystem,&#8221; the researchers said. &#8220;Anyone running a major coding agent that installs plugins from a marketplace is exposed. The exposure &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/\">Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Android apps can now check security patches down to individual device components",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/google-androidx-security-state-libraries/",
+    "published_date": "2026-09-18T08:38:42+00:00",
+    "source_type": "news",
+    "summary": "<p>New AndroidX Security State libraries provide a more granular way to determine how securely patched an Android device is. The stable Security State v1.1.0 and Security State Provider v1.0.0 libraries allow developers to check the security status of individual device components and determine whether security updates are ready to be downloaded and installed on a specific device. For phone manufacturers and developers who build over-the-air (OTA) update systems, the androidx.security.state.provider library provides a standard way &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/18/google-androidx-security-state-libraries/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/18/google-androidx-security-state-libraries/\">Android apps can now check security patches down to individual device components</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Abandoned IoT apps keep sending sensitive data to broken servers",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/abandoned-iot-apps-data-security-risks/",
+    "published_date": "2026-09-18T06:00:45+00:00",
+    "source_type": "news",
+    "summary": "<p>Millions of people still run smart home and IoT companion apps, the apps used to control devices like smart plugs, cameras, and thermostats, that stopped receiving updates years ago. Researchers at the University of Massachusetts Amherst analyzed 61,500 abandoned Android IoT apps and found that nearly three in four contained software dependencies associated with documented vulnerabilities. The team built its dataset from AndroZoo, a large archive of Android apps, then filtered for companion apps tied &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/18/abandoned-iot-apps-data-security-risks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/18/abandoned-iot-apps-data-security-risks/\">Abandoned IoT apps keep sending sensitive data to broken servers</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Hardcoded MCP credentials found in public GitHub files",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/hush-security-mcp-credential-exposure-report/",
+    "published_date": "2026-09-18T05:30:26+00:00",
+    "source_type": "news",
+    "summary": "<p>Hardcoded API keys, access tokens and other credentials used by AI coding tools have been found in publicly accessible MCP configuration files on GitHub, according to research from Hush Security’s The State of MCP Configuration: The Identity Security Gaps report. The company analyzed around 82,000 configuration files and found that 12% of credential slots contained a hardcoded credential literal, potentially exposing credentials for connected services and systems. How the exposed credentials were identified Researchers searched &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/18/hush-security-mcp-credential-exposure-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/18/hush-security-mcp-credential-exposure-report/\">Hardcoded MCP credentials found in public GitHub files</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "98% of fraudulent hires have company credentials by the time they’re caught",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/hypr-hiring-fraud-detection-report/",
+    "published_date": "2026-09-18T05:00:51+00:00",
+    "source_type": "news",
+    "summary": "<p>A 90-day period between hiring and onboarding is creating a blind spot in enterprise identity security, according to HYPR’s State of HR Identity Fraud Detection report. “Adversaries no longer need to breach a network when they can pass a remote interview and receive authentic credentials directly from IT,” said Bojan Simic, CEO of HYPR. “Human intuition is not a security control. Sceptics might point to low reported numbers, but the lack of purpose-built verification technology &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/18/hypr-hiring-fraud-detection-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/18/hypr-hiring-fraud-detection-report/\">98% of fraudulent hires have company credentials by the time they’re caught</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Most WordPress pros still lack a breach recovery plan",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/wordpress-security-survey-recovery-plan/",
+    "published_date": "2026-09-18T04:30:56+00:00",
+    "source_type": "news",
+    "summary": "<p>Melapress, a maker of WordPress security plugins, surveyed 319 WordPress professionals and found that most had dealt with at least one known security incident. The respondents build and run WordPress sites for a living: agency staff, developers, designers, site owners and administrators. Across the whole group, fewer than three in ten have a breach recovery plan. A recovery plan settles in advance who responds, where the clean backups are, and who needs to be told. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/18/wordpress-security-survey-recovery-plan/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/18/wordpress-security-survey-recovery-plan/\">Most WordPress pros still lack a breach recovery plan</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "New infosec products of the week: September 18, 2026",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/new-infosec-products-of-the-week-september-18-2026/",
+    "published_date": "2026-09-18T04:00:53+00:00",
+    "source_type": "news",
+    "summary": "<p>Here’s a look at the most interesting products from the past week, featuring releases from Akuity, Bitsight, Cohesity, Dataminr, Nozomi Networks, and Tuskira. Dataminr uses agentic AI to predict and verify security threats Dataminr has announced Dataminr Advanced for Corporate Security, delivering agentic AI capabilities that give corporate security teams the confidence to protect their people, sites, and operations before risk escalates. With Agentic Corroboration, Agentic Context, and Near-Term Predictive Intelligence, corporate security teams know &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/18/new-infosec-products-of-the-week-september-18-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/18/new-infosec-products-of-the-week-september-18-2026/\">New infosec products of the week: September 18, 2026</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Iranian strikes on AWS facilities left customer data beyond recovery in Bahrain, UAE",
+    "url": "https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/",
+    "published_date": "2026-09-17T13:12:47+00:00",
+    "source_type": "news",
+    "summary": "<p>Six months after Iranian drone strikes tore through its Middle East infrastructure, Amazon Web Services (AWS) has acknowledged the permanent loss of customer data in Bahrain and the UAE. In two updates posted September 15, AWS said it can no longer recover customer data and resources stored in its Middle East (Bahrain) region, known as me-south-1, or in one availability zone of its Middle East (UAE) region, known as me-central-1. For the UAE, the loss &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/17/aws-middle-east-outage-permanent-data-loss-bahrain-uae/\">Iranian strikes on AWS facilities left customer data beyond recovery in Bahrain, UAE</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "NightmareStresser DDoS Service Disrupted in International Operation",
+    "url": "https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/",
+    "published_date": "2026-09-18T10:12:33+00:00",
+    "source_type": "news",
+    "summary": "<p>Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world.</p>\n<p>The post <a href=\"https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/\">NightmareStresser DDoS Service Disrupted in International Operation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
+    "url": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
+    "published_date": "2026-09-18T09:46:57+00:00",
+    "source_type": "news",
+    "summary": "<p>Hackers used a compromised API key to deploy a Cloudflare worker that injected malicious scripts.</p>\n<p>The post <a href=\"https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/\">Brevo Supply Chain Attack Injects Malware Into 100,000 Websites</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Critical Orkes Conductor Vulnerability Exploited in Attacks",
+    "url": "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/",
+    "published_date": "2026-09-18T08:42:18+00:00",
+    "source_type": "news",
+    "summary": "<p>CVE-2026-58138 is an unauthenticated remote code execution vulnerability that attackers can exploit via inline workflow definitions.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/\">Critical Orkes Conductor Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "MIND Secures $72 Million for AI-Powered DLP",
+    "url": "https://www.securityweek.com/mind-secures-72-million-for-ai-powered-dlp/",
+    "published_date": "2026-09-18T07:25:27+00:00",
+    "source_type": "news",
+    "summary": "<p>The company will use the funding to accelerate platform development and expand its presence in key enterprise markets.</p>\n<p>The post <a href=\"https://www.securityweek.com/mind-secures-72-million-for-ai-powered-dlp/\">MIND Secures $72 Million for AI-Powered DLP</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Check Point, Kaspersky, Tanium Patch Product Vulnerabilities",
+    "url": "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/",
+    "published_date": "2026-09-18T07:14:04+00:00",
+    "source_type": "news",
+    "summary": "<p>Check Point Security Management and Log Servers are affected by a critical vulnerability that can allow remote code execution with root privileges.</p>\n<p>The post <a href=\"https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/\">Check Point, Kaspersky, Tanium Patch Product Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels",
+    "url": "https://www.securityweek.com/cyberattacks-on-two-oil-tankers-prompt-coast-guard-fbi-to-board-vessels/",
+    "published_date": "2026-09-17T17:09:40+00:00",
+    "source_type": "news",
+    "summary": "<p>The Coast Guard confirmed evidence of malicious cyber activity on the VL Prosperity, but has not attributed the attack to Iran.</p>\n<p>The post <a href=\"https://www.securityweek.com/cyberattacks-on-two-oil-tankers-prompt-coast-guard-fbi-to-board-vessels/\">Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training",
+    "url": "https://www.securityweek.com/openai-says-its-models-hunted-github-for-leaked-api-keys-during-training/",
+    "published_date": "2026-09-17T15:45:29+00:00",
+    "source_type": "news",
+    "summary": "<p>OpenAI published a framework for disclosing model misalignment alongside six reports describing problematic behavior.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-says-its-models-hunted-github-for-leaked-api-keys-during-training/\">OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot",
+    "url": "https://www.securityweek.com/cisa-retires-weekly-vulnerability-bulletin-in-risk-based-pivot/",
+    "published_date": "2026-09-17T14:28:00+00:00",
+    "source_type": "news",
+    "summary": "<p>The decision follows BOD 26-04, which directs federal organizations to prioritize vulnerabilities based on real-world risk.</p>\n<p>The post <a href=\"https://www.securityweek.com/cisa-retires-weekly-vulnerability-bulletin-in-risk-based-pivot/\">CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom",
+    "url": "https://www.securityweek.com/revolut-data-breach-5-months-680-high-profile-accounts-3m-ransom/",
+    "published_date": "2026-09-17T13:57:41+00:00",
+    "source_type": "news",
+    "summary": "<p>Revolut allegedly fed customer information to hackers impersonating an Italian government agency for five months.</p>\n<p>The post <a href=\"https://www.securityweek.com/revolut-data-breach-5-months-680-high-profile-accounts-3m-ransom/\">Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Comp AI Raises $34 Million for AI-Native Compliance and Security",
+    "url": "https://www.securityweek.com/comp-ai-raises-34-million-for-ai-native-compliance-and-security/",
+    "published_date": "2026-09-17T13:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>The company plans to expand into continuous cybersecurity, offering security testing across applications and infrastructure.</p>\n<p>The post <a href=\"https://www.securityweek.com/comp-ai-raises-34-million-for-ai-native-compliance-and-security/\">Comp AI Raises $34 Million for AI-Native Compliance and Security</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity",
+    "url": "https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/",
+    "published_date": "2026-09-18T10:00:36+00:00",
+    "source_type": "research",
+    "summary": "<p>Analysis of how default configurations in AWS AgentCore Harness allow prompt injection to exfiltrate credentials, and key steps to secure your agents.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/securing-aws-agentcore-harness-credentials/\">A Vault with a Heap-View: The Uncomfortable Space Between AgentCore Harness and Identity</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/",
+    "publisher": "Unit 42",
+    "source_note": ""
+  },
+  {
+    "title": "Inside the Modern SOC: Defending the Cross-Environment Pivot",
+    "url": "https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/",
+    "published_date": "2026-09-17T22:00:33+00:00",
+    "source_type": "research",
+    "summary": "<p>Cross-environment attacks demand a new approach to security operations. Learn how Unit 42 Managed XSIAM helps SOC teams investigate complete attack paths.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/soc-cross-environment-pivot/\">Inside the Modern SOC: Defending the Cross-Environment Pivot</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/",
+    "publisher": "Unit 42",
+    "source_note": ""
+  },
+  {
+    "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: External Threat Intelligence Service Providers, Q3 2026",
+    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/",
+    "published_date": "2026-09-17T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/",
+    "publisher": "Blog",
+    "source_note": ""
+  },
+  {
+    "title": "CrowdStrike SafeMind: When the Best Offense Builds the Best Defense",
+    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/",
+    "published_date": "2026-09-17T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/",
+    "publisher": "Blog",
+    "source_note": ""
+  },
+  {
+    "title": "AI Threat Landscape Digest: July–August 2026",
+    "url": "https://research.checkpoint.com/2026/ai-threat-landscape-digest-july-august-2026/",
+    "published_date": "2026-09-17T14:41:15+00:00",
+    "source_type": "research",
+    "summary": "<p>The defining development of the period came not from attackers but from the AI labs themselves, whose models broke out of controlled evaluations and reached real systems. In the wild, the criminal and state use of AI continued to mature along the lines tracked in earlier editions: models now act as attack operators, an underground [&#8230;]</p>\n<p>The post <a href=\"https://research.checkpoint.com/2026/ai-threat-landscape-digest-july-august-2026/\">AI Threat Landscape Digest: July–August 2026</a> appeared first on <a href=\"https://research.checkpoint.com\">Check Point Research</a>.</p>",
+    "feed_source": "https://research.checkpoint.com/feed/",
+    "publisher": "Check Point Research",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-714: Samsung rlottie Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-714/",
+    "published_date": "2026-09-17T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung rlottie. Interaction with the rlottie library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91826.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
+    "url": "https://securelist.com/moviereaper-malware-torrent-odyssey-solana/121344/",
+    "published_date": "2026-09-17T13:00:53+00:00",
+    "source_type": "research",
+    "summary": "Kaspersky experts have discovered a new MovieReaper campaign. The multi-stage Trojan spreads through movie torrents, such as \"The Odyssey,\" and uses the Solana blockchain to hide its C2 infrastructure.",
+    "feed_source": "https://securelist.com/feed/",
+    "publisher": "Securelist",
+    "source_note": ""
+  },
+  {
+    "title": "Should you care about an “AI slowdown?”",
+    "url": "https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown/",
+    "published_date": "2026-09-17T18:00:23+00:00",
+    "source_type": "research",
+    "summary": "In this week's Threat Source, David talks about why focusing on your security basics is still your best bet, even in a world with rapid AI advancements.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
+    "url": "https://isc.sans.edu/diary/rss/33352",
+    "published_date": "2026-09-18T06:05:26+00:00",
+    "source_type": "operational",
+    "summary": "In June 2026 the IETF published RFC 10008&#x5b;1&#x5d;, defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it&#x27s the first new standard HTTP verb since \"PATCH\" in 2010&#x21;&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)",
+    "url": "https://isc.sans.edu/diary/rss/33350",
+    "published_date": "2026-09-18T02:00:02+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
+    "url": "https://isc.sans.edu/diary/rss/33348",
+    "published_date": "2026-09-17T15:06:44+00:00",
+    "source_type": "operational",
+    "summary": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable &#xe2;&#x20ac;&#x201c; it asked the recipient to review some attached requirements and provide a price quotation for a fiber optic system and appeared to impersonate an employee of a legitimate company.&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "From guidance to action: Security fundamentals that materially reduce risk",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/",
+    "published_date": "2026-09-17T17:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>AI has made fundamental changes to the operating environment for cybersecurity. Explore exposure management guidance on recommended controls and take action and stay ahead of cyberthreats.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/\">From guidance to action: Security fundamentals that materially reduce risk </a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Improving email security outcomes with real-world Microsoft Defender insights",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/",
+    "published_date": "2026-09-17T16:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>The latest email security benchmarking reports show strong Microsoft Defender performance across pre-delivery and post-delivery scenarios and reveal where threats and defenses continue to evolve.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/\">Improving email security outcomes with real-world Microsoft Defender insights</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Run open weight models on Amazon Bedrock in AWS European Sovereign Cloud",
+    "url": "https://aws.amazon.com/blogs/security/run-open-weight-models-on-aws-bedrock-in-aws-european-sovereign-cloud/",
+    "published_date": "2026-09-17T21:19:20+00:00",
+    "source_type": "vendor",
+    "summary": "European organizations can run AI workloads on Amazon Web Services (AWS) while keeping data within the European Union (EU) and meeting regulatory requirements. You can now run generative AI workloads on open weight models on Amazon Bedrock in the AWS European Sovereign Cloud. We’re excited to announce the general availability of the first open weight […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-92943 - Improper validation of certificate with host mismatch in AWS IoT Device SDK for Python",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-114-aws/",
+    "published_date": "2026-09-17T19:18:01+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-115-AWS<br /> <b>Scope:</b> AWS<br /> <b>Content Type:</b> Important (requires attention)<br /> <b>Publication Date:</b> 09/17/2026 12:00 PM PDT</p> \n<p><b>Description:</b></p> \n<p>AWS IoT Device SDK for Python (AWSIoTPythonSDK) is an open source SDK that lets IoT devices and gateways connect to AWS IoT Core over MQTT. We identified CVE-2026-92943 in the MQTT client TLS connection layer, where the client did not validate that the server certificate matched the AWS IoT Core endpoint hostname. On Python 3.7 and later, an adversary-in-the-middle positioned on the network could present a certificate issued for an unrelated hostname by any certificate authority in the device trust store, impersonate the AWS IoT Core endpoint, read device telemetry, and inject arbitrary MQTT messages that the device processes as authentic. Both SDK default connection paths were affected: X.509 mutual authentication on port 8883 and WebSocket with SigV4 on port 443. The port 443 ALPN path was not affected.</p> \n<p><b>Impacted versions:</b> &gt;=1.5.3 AND &lt;=1.6.0 (on Python 3.7 and later)</p> \n<p><b>Please refer to the article below for the most up-to-date and complete inform",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01970946217.html",
+    "published_date": "2026-09-17T23:25:23.998000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp; &nbsp; Hi, everyone! We've just released <b>Chrome 153 (153.0.8010.52)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Play</a> over the next few days.&nbsp;</p><p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/153.0.8010.47..153.0.8010.52?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><div><br /></div><div>Android releases contain the same security fixes as their corresponding<a href=\"https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0194356994.html\"> Desktop releases</a> (Windows 153.0.8010.52/.53) unless otherwise noted.</div><div><div><br /></div><div><div>Harry Souders</div><div><a href=\"https://www.google.com/chrome/\">Google Chrome</a></div></div></div>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
+    "url": "http://chromereleases.googleblog.com/2026/09/dev-channel-update-for-chromeos.html",
+    "published_date": "2026-09-17T22:34:54.546000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span style=\"font-family: Arial, sans-serif; white-space: pre-wrap;\">The Dev channel is being updated to OS version 16820.2.0 (Browser version 155.0.8059.0) for most ChromeOS devices.&nbsp;</span></p><span id=\"docs-internal-guid-f5da48a3-7fff-7433-758d-2d2ad1bdbb94\"><br /><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><span style=\"font-family: Arial, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">If you find new issues, please let us know one of the following ways</span></p><ol style=\"margin-bottom: 0; margin-top: 0; padding-inline-start: 48px;\"><li dir=\"ltr\" style=\"font-family: Arial, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre;\"><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><a href=\"https://bugs.chromium.org/p/chromium/issues/list\" style=\"text-decoration: none;\"><span style=\"color: #1155cc; font-variant: normal; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;\">File a bug</span></a></p></li><li dir=\"ltr\" style=\"font-family: Arial, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre;\"><p dir=\"ltr\"",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Extended Stable Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/09/extended-stable-update-for-desktop_0130771745.html",
+    "published_date": "2026-09-17T20:03:37.365000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;<span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 152.0.7977.134</span><span color=\"rgba(0, 0, 0, 0.87)\">&nbsp;</span><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">for Windows and Mac </span><span style=\"color: #666666; font-family: arial; font-size: large;\">which will roll out over the coming days/weeks.</span><span style=\"color: #666666; font-family: arial; font-size: large;\"> </span></p><div><span style=\"font-size: large;\"><span style=\"font-family: arial;\"><span style=\"vertical-align: baseline;\"><span style=\"color: #666666;\">A full list of changes in this build is available in the </span><a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7977.130..152.0.7977.134?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\"><span style=\"color: black;\">log</span></a></span><span style=\"color: #666666; vertical-align: baseline;\">. Interested in switching release channels? Find out how </span><a href=\"https://www.chromium.org/getting-involved/dev-channel\" style=\"color: #4184f3; text-decoration: none;\"><span s",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Stable Channel Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0194356994.html",
+    "published_date": "2026-09-17T20:03:34.440000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;<span face=\"Roboto, sans-serif\" style=\"color: #666666; font-size: large;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\">The Stable channel has been updated to 153.0.8010.52/.53 for Windows and</span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\"> </span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial;\">Mac and&nbsp;</span></span><span style=\"color: #666666; font-family: arial; font-size: x-large;\">153.0.8010.52 to&nbsp;</span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\"><span style=\"color: #666666;\">Linux which will roll out over the coming days/weeks. A full list of changes in this build is available in the </span><a href=\"https://chromium.googlesource.com/chromium/src/+log/153.0.8010.47..153.0.8010.53?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\">Log</a></span><span color=\"rgba(0, 0, 0, 0.87)\" face=\"Roboto, sans-serif\" style=\"font-size: large;\">&nbsp;</span></p><p><span face=\"Arial, sans-serif\" style=\"color: #666666; font-size: 16pt; font-weight: 700; white-space: pre-wrap;\">Security Fixes and Rewards</span></p><div style=\"line-height: 1.38; margin-bottom: 6pt; margi",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+    "url": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-chromeos_01216216096.html",
+    "published_date": "2026-09-17T04:52:16.365000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span style=\"font-family: Arial, sans-serif;\">The Stable channel is being updated to OS version 16765.49.0 (Browser version </span><span style=\"font-family: Arial, sans-serif;\">152.0.7977.129</span><span style=\"font-family: Arial, sans-serif;\">) for most ChromeOS devices.</span></p><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><span style=\"font-family: Arial, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">If you find new issues, please let us know one of the following ways:</span></p><p><span id=\"docs-internal-guid-c1ba22c3-7fff-ee9a-d166-2f57ca700f9e\"><br /></span></p><ol style=\"margin: 0px; padding-inline-start: 48px; padding: 0px 48px;\"><li dir=\"ltr\" style=\"color: #222222; font-variant: normal; line-height: 32px; margin: 0px 0px 0.25em; padding: 0px; vertical-align: baseline; white-space: pre;\"><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><a href=\"https://bugs.chromium.org/p/chromium/issues/list\" style=\"color: #4184f3; text-decoration: none;\"><span style=\"color: #4a86e8; font-family: Arial, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">File",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "What a Supply Chain Attack Is Really After: Your Credentials",
+    "url": "https://blog.gitguardian.com/supply-chain-attack-targets-credentials/",
+    "published_date": "2026-09-17T15:00:37+00:00",
+    "source_type": "vendor",
+    "summary": "Recent campaigns show a consistent pattern: a supply chain attack compromises trusted software to reach the credentials held by developer machines and CI/CD pipelines.",
+    "feed_source": "https://blog.gitguardian.com/rss/",
+    "publisher": "GitGuardian Blog - Take Control of Your Secrets Security",
+    "source_note": ""
+  },
+  {
+    "title": "Wazuh v4.14.8 RC 2",
+    "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.8-rc2",
+    "published_date": "2026-09-18T09:54:15+00:00",
+    "source_type": "github",
+    "summary": "<h2>What's Changed</h2>\n<ul>\n<li>Bump 4.14.8 branch by <a class=\"user-mention notranslate\" href=\"https://github.com/wazuhci\">@wazuhci</a> in <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/37404\">#37404</a></li>\n<li>Multi SCA, Decoder and Rule fixes by <a class=\"user-mention notranslate\" href=\"https://github.com/Johnng007\">@Johnng007</a> in <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/37434\">#37434</a></li>\n<li>Maintain crypto_method on keystore rebuild by <a class=\"user-mention notranslate\" href=\"https://github.com/jpcerrone\">@jpcerrone</a> in <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/37524\">#37524</a></li>\n<li>Merge 4.14.7 into 4.14.8 by <a class=\"user-mention notranslate\" href=\"https://github.com/vikman90\">@vikman90</a> in <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/37679\">#37679</a></li>\n<li>Fix RBAC permission bypass in GET /security/actions and /security/resources by <a class=\"user-mention notranslate\" href=\"https://github.com/vikman90\">@vikman90</a> in <a class=\"issue-link js-issue-link\" href=\"https://github.com/wazuh/wazuh/pull/37678\">#37678</",
+    "feed_source": "https://github.com/wazuh/wazuh/releases.atom",
+    "publisher": "Release notes from wazuh",
+    "source_note": ""
+  },
+  {
+    "title": "0.45.0-rc4",
+    "url": "https://github.com/falcosecurity/falco/releases/tag/0.45.0-rc4",
+    "published_date": "2026-09-18T10:09:46+00:00",
+    "source_type": "github",
+    "summary": "<p>feat(falco): expose reload status and Unix socket control</p>\n\n<p>Add process identity, reload generations, and readiness observation through\n<br />GET /reload for Falco Operator integration. Publish readiness after all\n<br />enabled sources start and distinguish rejected validation from application.</p>\n\n<p>Add an opt-in Linux Unix socket listener. POST /reload queues a request and\n<br />returns 202 with a generation baseline; clients poll GET /reload for the\n<br />outcome. Keep POST exclusive to the Unix socket and document TCP observation\n<br />independently of reload_control.</p>\n\n<p>Protect the socket with directory ownership, permissions, path checks, and\n<br />exclusive listener ownership. Validate its directory during dry-run before\n<br />stopping the active runtime, repeat checks at startup, and reject multipart\n<br />bodies. Cover status semantics, HTTP behavior, credential isolation, cleanup,\n<br />invalid directories, and real reloads with the existing C++ test suite.</p>\n\n<p>Signed-off-by: c2ndev &lt;cannarella.dev@gmail.com&gt;</p>",
+    "feed_source": "https://github.com/falcosecurity/falco/releases.atom",
+    "publisher": "Release notes from falco",
+    "source_note": ""
+  },
+  {
+    "title": "5 Hobbies to Try When You Want to Disengage Your Mind",
+    "url": "https://www.socinvestigation.com/5-hobbies-to-try-when-you-want-to-disengage-your-mind/",
+    "published_date": "2026-09-18T05:35:46+00:00",
+    "source_type": "detection",
+    "summary": "<p>When stress from work or personal obligations builds up, stepping away from these demands and engaging in a hobby can ease mental strain. This lets you shift your attention to a fun activity and gives your mind a chance to reset, so you can return to your responsibilities with a clearer mind. However, not all [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/5-hobbies-to-try-when-you-want-to-disengage-your-mind/\">5 Hobbies to Try When You Want to Disengage Your Mind</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/",
+    "publisher": "Security Investigation",
+    "source_note": ""
   }
 ]
