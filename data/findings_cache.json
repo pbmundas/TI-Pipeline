@@ -1,263 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/": {
-    "enriched_at": "2026-09-06T10:32:19.149613+00:00",
-    "incidents": [
-      {
-        "headline": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
-        "summary": "A cybercriminal operation is using thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC).",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Cybercriminals",
-        "aliases": [],
-        "motivation": "Financial gain",
-        "recent_activity": "Hijacking websites to deliver ClickFix payloads",
-        "targets": [
-          "Small-business websites"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "E-commerce"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/": {
-    "enriched_at": "2026-09-06T10:32:19.149613+00:00",
-    "incidents": [
-      {
-        "headline": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-        "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, creating 18,000 posts, sharing answers, and bypassing restrictions.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "E-commerce"
-    ]
-  },
-  "https://www.helpnetsecurity.com/2026/09/06/week-in-review-claude-accounts-compromised-through-infostealer-patch-tuesday-forecast/": {
-    "enriched_at": "2026-09-06T10:32:19.149613+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "E-commerce"
-    ]
-  },
-  "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html": {
-    "enriched_at": "2026-09-06T10:32:19.149613+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "MikroTik Routers",
-        "vendor": "MikroTik",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication.",
-        "exploitation_status": "Ongoing",
-        "remediation": "No specific remediation mentioned",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "E-commerce"
-    ]
-  },
-  "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html": {
-    "enriched_at": "2026-09-06T10:32:19.149613+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "E-commerce"
-    ]
-  },
-  "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html": {
-    "enriched_at": "2026-09-06T10:32:19.149613+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Magento Open Source and Adobe Commerce",
-        "vendor": "Magento and Adobe",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in.",
-        "exploitation_status": "Ongoing",
-        "remediation": "Patch the vulnerability",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "Attackers exploit unpatched Magento and Adobe Commerce vulnerabilities",
-        "context": "Detect unpatched Magento and Adobe Commerce servers",
-        "indicators": [
-          "Unpatched Magento Open Source and Adobe Commerce servers"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html"
-        ]
-      }
-    ],
-    "industries": [
-      "E-commerce"
-    ]
-  },
-  "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html": {
-    "enriched_at": "2026-09-06T10:33:39.510501+00:00",
-    "incidents": [
-      {
-        "headline": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-        "summary": "Unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach JetBrains Cadence environment, prompting users to revoke and rotate credentials.",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Unidentified threat actors",
-        "motivation": "Exploitation of vulnerabilities",
-        "recent_activity": "Exploiting vulnerabilities in TeamCity and Elementor Pro",
-        "targets": [
-          "JetBrains Cadence",
-          "Elementor Pro WordPress Plugin"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-          "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Software Development",
-      "Web Development"
-    ]
-  },
-  "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html": {
-    "enriched_at": "2026-09-06T10:33:39.510501+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-59346",
-        "product": "VMware Workstation and Fusion",
-        "vendor": "VMware",
-        "severity": "CRITICAL",
-        "cvss": 9.3,
-        "description": "Integer-overflow vulnerability that allows local attackers with elevated privileges to execute arbitrary code.",
-        "exploitation_status": "Exploited",
-        "remediation": "Apply security updates",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "VMware Workstation and Fusion Arbitrary Code Execution",
-        "context": "Local privilege escalation",
-        "indicators": [
-          "Integer-overflow vulnerability"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html"
-        ]
-      }
-    ],
-    "industries": [
-      "Software Development",
-      "Web Development"
-    ]
-  },
-  "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html": {
-    "enriched_at": "2026-09-06T10:33:39.510501+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Software Development",
-      "Web Development"
-    ]
-  },
-  "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/": {
-    "enriched_at": "2026-09-06T10:33:39.510501+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-32475",
-        "product": "Elementor Pro WordPress Plugin",
-        "vendor": "Elementor",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "Arbitrary file upload issue in the function that handles form submissions.",
-        "exploitation_status": "Exploited",
-        "remediation": "Update to the latest version",
-        "source_urls": [
-          "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/"
-        ]
-      }
-    ],
-    "actors": [
-      {
-        "name": "Unidentified threat actors",
-        "motivation": "Exploitation of vulnerabilities",
-        "recent_activity": "Exploiting vulnerabilities in TeamCity and Elementor Pro",
-        "targets": [
-          "JetBrains Cadence",
-          "Elementor Pro WordPress Plugin"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-          "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/"
-        ]
-      }
-    ],
-    "hunting_indicators": [
-      {
-        "title": "Elementor Pro Arbitrary File Upload",
-        "context": "Remote code execution",
-        "indicators": [
-          "Arbitrary file upload issue"
-        ],
-        "source_urls": [
-          "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/"
-        ]
-      }
-    ],
-    "industries": [
-      "Software Development",
-      "Web Development"
-    ]
-  },
   "https://www.helpnetsecurity.com/2026/09/07/connectwise-screenconnect-file-transfer-flaw/": {
     "enriched_at": "2026-09-07T10:32:00.970425+00:00",
     "incidents": [
@@ -10055,6 +9796,160 @@
     "enriched_at": "2026-09-19T10:37:43.977392+00:00",
     "incidents": [],
     "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/": {
+    "enriched_at": "2026-09-20T10:31:48.050757+00:00",
+    "incidents": [
+      {
+        "headline": "BragJack attacks hijack AI browser agents through malicious extensions",
+        "summary": "BragJack, a proof-of-concept attack, hijacks AI assistants in several browsers using one malicious extension.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-1234",
+        "product": "AI browser agents",
+        "vendor": "Various",
+        "severity": "CRITICAL",
+        "cvss": 9.8,
+        "description": "BragJack hijacks AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension.",
+        "exploitation_status": "Exploited",
+        "remediation": "Update to the latest browser version or disable AI assistant features.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/": {
+    "enriched_at": "2026-09-20T10:31:48.050757+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "WaterPlum",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Compromised 30,000 devices worldwide and stole over $10.7 million in cryptocurrency.",
+        "targets": [
+          "Individuals",
+          "Organizations"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/": {
+    "enriched_at": "2026-09-20T10:31:48.050757+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/": {
+    "enriched_at": "2026-09-20T10:31:48.050757+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "DeepZero: Open-source hunting for vulnerable Windows drivers",
+        "context": "Automated search for exploitable Windows kernel drivers",
+        "indicators": [
+          "vulnerable Windows kernel drivers"
+        ],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/"
+        ]
+      }
+    ],
+    "industries": [
+      "Finance"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/20/week-in-review-cisco-patches-exploited-email-gateway-0-day-revolut-breach/": {
+    "enriched_at": "2026-09-20T10:31:48.050757+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance"
+    ]
+  },
+  "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/": {
+    "enriched_at": "2026-09-20T10:31:48.050757+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Finance"
+    ]
+  },
+  "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html": {
+    "enriched_at": "2026-09-20T10:32:26.422621+00:00",
+    "incidents": [
+      {
+        "headline": "Researchers Exploit Flaws to Take Over OpenAI Staff Accounts",
+        "summary": "Hacktron researchers used Anthropic's Claude Opus 5 to chain two flaws and gain access to OpenAI staff accounts and internal repositories.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html": {
+    "enriched_at": "2026-09-20T10:32:26.422621+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html": {
+    "enriched_at": "2026-09-20T10:32:26.422621+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-28326",
+        "product": "Access Rights Manager",
+        "vendor": "SolarWinds",
+        "severity": "CRITICAL",
+        "cvss": 8.8,
+        "description": "A high-severity flaw in Access Rights Manager (ARM) that could lead to unauthenticated remote code execution.",
+        "exploitation_status": "PATCHED",
+        "remediation": "Update to Access Rights Manager 2026.2 or later.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html"
+        ]
+      }
+    ],
     "actors": [],
     "hunting_indicators": [],
     "industries": []
