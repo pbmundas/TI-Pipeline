@@ -46642,5 +46642,205 @@
     "feed_source": "https://feeds.feedburner.com/TheHackersNews",
     "publisher": "The Hacker News",
     "source_note": ""
+  },
+  {
+    "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+    "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+    "published_date": "2026-09-21T08:39:38+00:00",
+    "source_type": "news",
+    "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.\n\n\"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG)",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+    "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+    "published_date": "2026-09-21T06:06:44+00:00",
+    "source_type": "news",
+    "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks.\n\nCybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems",
+    "url": "https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/",
+    "published_date": "2026-09-21T10:03:44+00:00",
+    "source_type": "news",
+    "summary": "<p>The hackers changed equipment settings, disabled remote access and alarms, and altered pumping cycles, officials said. </p>\n<p>The post <a href=\"https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/\">Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities",
+    "url": "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/",
+    "published_date": "2026-09-21T09:31:12+00:00",
+    "source_type": "news",
+    "summary": "<p>Attackers could exploit the flaws to cause denial-of-service conditions, disclose memory, or modify memory.</p>\n<p>The post <a href=\"https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/\">Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Google Confirms Gemini AI Breached Three Firms",
+    "url": "https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/",
+    "published_date": "2026-09-21T07:20:46+00:00",
+    "source_type": "news",
+    "summary": "<p>Google is the latest AI giant to confirm that its models escaped a testing environment and hacked real companies.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/\">Google Confirms Gemini AI Breached Three Firms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Siemba brings continuous IDOR testing to production APIs",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/siemba-idor-automated-testing/",
+    "published_date": "2026-09-21T09:39:44+00:00",
+    "source_type": "news",
+    "summary": "<p>Siemba has announced automated testing for insecure direct object reference (IDOR) as part of its API Security Testing capability, which tests REST, GraphQL and SOAP APIs for the vulnerability classes most likely to expose customer data. A 200-endpoint API collection can be tested for IDOR in under an hour. The same coverage has typically taken a human tester days or weeks, working endpoint by endpoint, and produced a written report days after that. Siemba compresses &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/siemba-idor-automated-testing/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/siemba-idor-automated-testing/\">Siemba brings continuous IDOR testing to production APIs</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers exploit Gyazo server flaw to steal 23.6 million user records",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/helpfeel-gyazo-data-breach/",
+    "published_date": "2026-09-21T08:57:26+00:00",
+    "source_type": "news",
+    "summary": "<p>Japanese software company Helpfeel has confirmed a data breach on its screenshot-sharing platform Gyazo, in which attackers exploited a vulnerability in its image upload server, stealing approximately 23.62 million user records and metadata tied to hundreds of millions of images. Gyazo is a cloud-based screenshot and screen-recording service that uploads users&#8217; captures automatically and generates a shareable link they can post in chats, forums, or social media. According to the company, an attacker exploited the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/helpfeel-gyazo-data-breach/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/helpfeel-gyazo-data-breach/\">Hackers exploit Gyazo server flaw to steal 23.6 million user records</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Know what was tested before your SAP ECC migration goes live",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/guilherme-joventino-mignow-sap-ecc-migration/",
+    "published_date": "2026-09-21T06:00:31+00:00",
+    "source_type": "news",
+    "summary": "<p>In this Help Net Security interview, Guilherme Joventino, COO of MIGNOW, explains why some large companies plan to stay on ECC past the 2027 deadline and pay SAP for extended support until 2030. The interview covers what that choice may cost, why fear of disruption stalls projects more often than budget, and what the first ninety days of a phased migration involve. It also looks at staff who hold years of knowledge about the old &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/guilherme-joventino-mignow-sap-ecc-migration/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/guilherme-joventino-mignow-sap-ecc-migration/\">Know what was tested before your SAP ECC migration goes live</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Product showcase: Helmit alerts parents when online conversations show signs of trouble",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/product-showcase-helmit-parental-controls/",
+    "published_date": "2026-09-21T05:30:34+00:00",
+    "source_type": "news",
+    "summary": "<p>Helmit is a parental control app that combines AI-powered social media monitoring with screen time management, web filtering, location tracking, and safety alerts. It identifies potentially concerning interactions and surface the messages associated with an alert. Helmit is available on iOS, Android, macOS, and Windows. Parents can create profiles for their children and connect supported services from the Family dashboard. The current integrations include WhatsApp, Instagram, Telegram, Discord, Signal, YouTube, Gmail, and Outlook, with Helmit &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/product-showcase-helmit-parental-controls/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/product-showcase-helmit-parental-controls/\">Product showcase: Helmit alerts parents when online conversations show signs of trouble</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Gopass: Open-source command-line password manager for teams",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/gopass-open-source-password-manager/",
+    "published_date": "2026-09-21T05:00:32+00:00",
+    "source_type": "news",
+    "summary": "<p>Gopass is a free, open-source password manager that stores credentials in an encrypted store and runs from the command line. Its maintainers built it as a drop-in replacement for pass, the standard Unix password manager. Out of the box, Gopass encrypts each secret with GPG and keeps the store in a git repository. Git gives a team a record of every change and a way to sync one store across laptops and servers. Users who &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/gopass-open-source-password-manager/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/gopass-open-source-password-manager/\">Gopass: Open-source command-line password manager for teams</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Intent injection attacks are a new worry for AI-native 6G networks",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/6g-intent-injection-attacks/",
+    "published_date": "2026-09-21T04:30:55+00:00",
+    "source_type": "news",
+    "summary": "<p>Intent-based networking (IBN) lets operators state the outcome they want and leaves its translation into network policy to software, an approach AI-native 6G designs have moved to the forefront. Researchers at the University of Ottawa and Nokia Bell Labs argue that this abstraction gives attackers new openings, and it tests two machine-learning detectors against one of them. Threat model−Malicious intent injection through vulnerable API (Source: Research paper) The authors call that threat adversarial intent injection: &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/6g-intent-injection-attacks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/6g-intent-injection-attacks/\">Intent injection attacks are a new worry for AI-native 6G networks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "AI compliance issues hit 2 in 5 large companies, and legacy workflows are a big factor",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research/",
+    "published_date": "2026-09-21T04:00:31+00:00",
+    "source_type": "news",
+    "summary": "<p>Forty percent of large companies had an AI-related compliance or governance issue in the past 12 months, according to 1,000 senior IT, operations, and transformation leaders surveyed by Sapio Research. Those leaders said process-related problems contributed to 84 percent of the incidents. The researchers trace the exposure to workflows designed around people. Approvals, handoffs, and manual exceptions exist because a person was expected to handle each step. When a company drops AI into that design, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research/\">AI compliance issues hit 2 in 5 large companies, and legacy workflows are a big factor</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials through Managed Policies",
+    "url": "https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials/",
+    "published_date": "2026-09-21T10:00:13+00:00",
+    "source_type": "research",
+    "summary": "<p>We explore how AWS neutralizes exposed IAM credentials using managed policies, detailing GitHub secret scanning and CloudTrail monitoring strategies.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials/\">From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials through Managed Policies</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "feed_source": "https://unit42.paloaltonetworks.com/feed/",
+    "publisher": "Unit 42",
+    "source_note": ""
+  },
+  {
+    "title": "Group Policy hijacked: PAYLOAD ransomware weaponizes Active Directory GPO",
+    "url": "https://securelist.com/tr/payload-ransomware-via-group-policy/121335/",
+    "published_date": "2026-09-21T10:00:40+00:00",
+    "source_type": "research",
+    "summary": "Kaspersky GERT experts dive into the technical incident analysis of PAYLOAD ransomware: an encryptionless, binary-less operation that abused Active Directory mechanisms for managing Group Policy Objects.",
+    "feed_source": "https://securelist.com/feed/",
+    "publisher": "Securelist",
+    "source_note": ""
+  },
+  {
+    "title": "Malicious npm packages evade install-script defenses at runtime",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+    "published_date": "2026-09-20T14:11:21+00:00",
+    "source_type": "news",
+    "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+    "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+    "published_date": "2026-09-20T12:00:00+00:00",
+    "source_type": "news",
+    "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
+    "url": "https://isc.sans.edu/diary/rss/33318",
+    "published_date": "2026-09-21T10:25:05+00:00",
+    "source_type": "operational",
+    "summary": "Microsoft Security Research published an interesting blog post \"TerminalFix campaign deploys a reverse tunnel through multistage intrusion\" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG files with steganography. I reached out to the researchers and they kindly shared the IOCs for the PNG files with me.&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Monday, September 21st, 2026 https://isc.sans.edu/podcastdetail/10102, (Mon, Sep 21st)",
+    "url": "https://isc.sans.edu/diary/rss/33354",
+    "published_date": "2026-09-21T05:15:12+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "Modernizing Commercial Building Security: Why Cloud Access Control Outperforms Legacy Keycards",
+    "url": "https://www.socinvestigation.com/modernizing-commercial-building-security-why-cloud-access-control-outperforms-legacy-keycards/",
+    "published_date": "2026-09-21T05:20:08+00:00",
+    "source_type": "detection",
+    "summary": "<p>For decades, physical security in commercial facilities followed a predictable, hardware-bound formula: plastic proximity keycards, local on-premises servers installed in dedicated IT closets, and manual audit logs. While this model served property managers and enterprise operators adequately in earlier computing eras, modern commercial real estate and corporate facilities face an entirely different operational landscape. Distributed [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/modernizing-commercial-building-security-why-cloud-access-control-outperforms-legacy-keycards/\">Modernizing Commercial Building Security: Why Cloud Access Control Outperforms Legacy Keycards</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/",
+    "publisher": "Security Investigation",
+    "source_note": ""
+  },
+  {
+    "title": "How Implementing AI Compliance Standards Enhances Data Security",
+    "url": "https://www.socinvestigation.com/how-implementing-ai-compliance-standards-enhances-data-security/",
+    "published_date": "2026-09-21T05:13:40+00:00",
+    "source_type": "detection",
+    "summary": "<p>As the integration of artificial intelligence (AI) becomes increasingly prevalent across various sectors, data security emerges as a paramount concern. Organizations must ensure their AI systems adhere to rigorous compliance standards to protect sensitive information from breaches and unauthorized access. This article explores the significance of implementing AI Compliance Standards, detailing how they contribute to [&#8230;]</p>\n<p>The post <a href=\"https://www.socinvestigation.com/how-implementing-ai-compliance-standards-enhances-data-security/\">How Implementing AI Compliance Standards Enhances Data Security</a> first appeared on <a href=\"https://www.socinvestigation.com\">Security Investigation</a>.</p>",
+    "feed_source": "https://www.socinvestigation.com/feed/",
+    "publisher": "Security Investigation",
+    "source_note": ""
   }
 ]
