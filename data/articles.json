@@ -46842,5 +46842,575 @@
     "feed_source": "https://www.socinvestigation.com/feed/",
     "publisher": "Security Investigation",
     "source_note": ""
+  },
+  {
+    "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+    "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+    "published_date": "2026-09-22T09:55:11+00:00",
+    "source_type": "news",
+    "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+    "published_date": "2026-09-22T08:53:09+00:00",
+    "source_type": "news",
+    "summary": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+    "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+    "published_date": "2026-09-21T21:18:49+00:00",
+    "source_type": "news",
+    "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+    "published_date": "2026-09-21T20:12:17+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+    "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+    "published_date": "2026-09-21T18:23:11+00:00",
+    "source_type": "news",
+    "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+    "published_date": "2026-09-21T17:54:49+00:00",
+    "source_type": "news",
+    "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Google fined €403 million over location data privacy violations",
+    "url": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+    "published_date": "2026-09-21T15:41:22+00:00",
+    "source_type": "news",
+    "summary": "Ireland's Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft fixes broken Excel copy and paste for all Office users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+    "published_date": "2026-09-21T14:42:37+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+    "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+    "published_date": "2026-09-21T14:02:12+00:00",
+    "source_type": "news",
+    "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as they prepare for upcoming audits. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+    "published_date": "2026-09-21T13:16:20+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft: September updates break File History backup feature",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+    "published_date": "2026-09-21T11:45:54+00:00",
+    "source_type": "news",
+    "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive",
+    "url": "https://www.welivesecurity.com/en/business-security/smb-cybersecurity-squeeze-ai-agents-work-old-attacks-overdrive/",
+    "published_date": "2026-09-21T09:00:00+00:00",
+    "source_type": "research",
+    "summary": "As AI opens new paths to company data while making familiar attacks faster and cheaper, SMBs need protection designed around the time and expertise available to operate it",
+    "feed_source": "https://www.welivesecurity.com/en/rss/feed/",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "Scammers use genuine Google sign-ins to sell costly, unverified AI subscriptions",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/fake-ai-subscription-sites-google-sign-in/",
+    "published_date": "2026-09-22T08:54:30+00:00",
+    "source_type": "news",
+    "summary": "<p>Scammers are using a $249 website toolkit to sell unverified AI subscriptions worth up to $2,000 a year, and a genuine Google sign-in screen is what makes the sites convincing. Malwarebytes found more than 100 websites built this way, all tied to the same toolkit and closely related developer details. The network includes sites that copy the names of existing products, among them GPT-6 Astra, DaVinci Resolve, PixAI, and OpenCut. One site uses the name &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/22/fake-ai-subscription-sites-google-sign-in/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/22/fake-ai-subscription-sites-google-sign-in/\">Scammers use genuine Google sign-ins to sell costly, unverified AI subscriptions</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "A cheap fake base station can still track 5G subscribers",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/5g-subscriber-tracking-research/",
+    "published_date": "2026-09-22T06:30:21+00:00",
+    "source_type": "news",
+    "summary": "<p>Researchers from the i2CAT Foundation, the University of Murcia, and NEC Laboratories Europe built a low-cost tool called 5G-Shark that lures a target phone onto a fake base station and questions it, then used it to audit commercial 5G networks. On the standalone-5G networks they tested, operators concealed the phone&#8217;s permanent identity correctly in every case but one. The same networks still handed out temporary IDs in a pattern predictable enough that an observer can &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/22/5g-subscriber-tracking-research/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/22/5g-subscriber-tracking-research/\">A cheap fake base station can still track 5G subscribers</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Passwork NIS2 efficiency guide: Save your team hours before the 2026 audit",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/passwork-nis2-compliance-guide/",
+    "published_date": "2026-09-22T05:00:49+00:00",
+    "source_type": "news",
+    "summary": "<p>By the second half of 2026, national competent authorities across the EU are actively reviewing NIS2 compliance documentation. Under Article 20(1) of the directive, senior management at essential and important entities can be held personally liable for infringements — a detail that tends to concentrate executive attention. ENISA&#8217;s 2025 NIS Investments report found that 34% of EU organizations report severe skills shortages specifically in identity and access management (IAM) implementation. You need to get compliant &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/22/passwork-nis2-compliance-guide/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/22/passwork-nis2-compliance-guide/\">Passwork NIS2 efficiency guide: Save your team hours before the 2026 audit</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "European AI spending is on track to reach nearly $470 billion by 2030",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/idc-european-ai-spending/",
+    "published_date": "2026-09-22T04:30:28+00:00",
+    "source_type": "news",
+    "summary": "<p>European organizations will spend nearly $470 billion on AI in 2030, IDC forecasts, with spending growing at a compound annual rate of 35% from 2025. At that rate, the market more than quadruples in five years. Generative AI will account for 55.4% of the total by 2030. agentic AI is the main driver. Companies are moving from single-purpose copilots to several agents working together, and they are doing it under the EU AI Act, whose &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/22/idc-european-ai-spending/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/22/idc-european-ai-spending/\">European AI spending is on track to reach nearly $470 billion by 2030</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Cybersecurity jobs available right now: September 22, 2026",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/cybersecurity-jobs-available-right-now-september-22-2026/",
+    "published_date": "2026-09-22T04:00:23+00:00",
+    "source_type": "news",
+    "summary": "<p>Analyst Threat Intelligence Optimum &#124; USA &#124; On-site &#8211; View job details As an Analyst Threat Intelligence, you will collect and analyze intelligence to identify threats, threat actors, malware campaigns, and relevant TTPs. You will map adversary behavior to MITRE ATT&#038;CK, produce actionable reports and alerts, support incident response and threat hunting, and maintain threat intelligence platforms. Application Security Specialist SMBC Group &#124; Ireland &#124; Hybrid &#8211; View job details As an Application Security Specialist, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/22/cybersecurity-jobs-available-right-now-september-22-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/22/cybersecurity-jobs-available-right-now-september-22-2026/\">Cybersecurity jobs available right now: September 22, 2026</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "DavMail 7.0.0 puts most of its work into Microsoft Graph",
+    "url": "https://www.helpnetsecurity.com/2026/09/22/davmail-7-0-0-microsoft-graph/",
+    "published_date": "2026-09-22T03:48:17+00:00",
+    "source_type": "news",
+    "summary": "<p>Anyone who wants to leave Outlook but still has a mailbox on Exchange needs a translator. DavMail is one: a Java gateway that converts the open protocols most mail, calendar and contact apps speak (IMAP, SMTP, CalDAV, CardDAV and LDAP) into requests Exchange and Office 365 accept. &#8220;Ever wanted to get rid of Outlook?&#8221; the project page asks. DavMail 7.0.0 removes the davmail.caldavImpersonate option, turns on a new sync method by default, requests an extra &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/22/davmail-7-0-0-microsoft-graph/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/22/davmail-7-0-0-microsoft-graph/\">DavMail 7.0.0 puts most of its work into Microsoft Graph</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "The TASK#STOMP Windows backdoor takes Wi-Fi passwords, screenshots, and business files",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/taskstomp-windows-backdoor/",
+    "published_date": "2026-09-21T14:00:18+00:00",
+    "source_type": "news",
+    "summary": "<p>Researchers have taken apart TASK#STOMP, a Windows backdoor that searches a victim&#8217;s drives for business documents, uploads them to attacker servers, and then stays put to grab each new or edited document. The same malware steals saved Wi-Fi passwords and clipboard text, takes screenshots, and runs whatever command its operators send. Akshay Gaikwad and Aaron Beardslee of Securonix Threat Research built their analysis from one infected machine, so Securonix cannot say how many organizations are &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/taskstomp-windows-backdoor/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/taskstomp-windows-backdoor/\">The TASK#STOMP Windows backdoor takes Wi-Fi passwords, screenshots, and business files</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Fastly gives enterprises real-time control over AI models and agents",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/fastly-ai-runtime-control/",
+    "published_date": "2026-09-21T12:49:01+00:00",
+    "source_type": "news",
+    "summary": "<p>Fastly has announced AI Runtime Control, AI Firewall, and new API Security capabilities designed to give organizations real-time visibility and control across their AI systems. Expanding the Fastly for AI portfolio, these new capabilities help organizations govern AI model access and usage, protect the AI applications powering their business, and control how AI agents access enterprise APIs, all on the same Fastly platform already delivering the speed, security, and resiliency businesses depend on at global &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/fastly-ai-runtime-control/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/fastly-ai-runtime-control/\">Fastly gives enterprises real-time control over AI models and agents</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "North Korea’s job interview scam runs both ways",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/north-korean-hackers-contagious-interview-defenses/",
+    "published_date": "2026-09-21T12:27:05+00:00",
+    "source_type": "news",
+    "summary": "<p>Attackers are targeting members of the Rust Project and maintainers of widely used crates (Rust code libraries), dangling attractive opportunities to compromise their devices and accounts and, ultimately, publish malware. The warning came last week from the Rust Project&#8217;s crates.io team and security response working group, and described a recurring pattern: a target is invited to a video call framed as a job, contract, or collaboration opportunity, then nudged into installing something or running an &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/north-korean-hackers-contagious-interview-defenses/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/north-korean-hackers-contagious-interview-defenses/\">North Korea&#8217;s job interview scam runs both ways</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Google hit with €403 million GDPR fine over location tracking",
+    "url": "https://www.helpnetsecurity.com/2026/09/21/ireland-google-users-location-data-processing-fine/",
+    "published_date": "2026-09-21T12:23:19+00:00",
+    "source_type": "news",
+    "summary": "<p>Ireland’s Data Protection Commission (DPC) has fined Google €403 million (about $463 million) over its processing of users’ location data and ordered the company to bring that processing into compliance within six months. The inquiry examined Google’s practices from May 25, 2018, to February 4, 2020. The DPC launched it on its own initiative in February 2020 after receiving complaints from several European consumer-rights organizations, including the European Consumer Organisation (BEUC). The regulator found GDPR &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/21/ireland-google-users-location-data-processing-fine/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/21/ireland-google-users-location-data-processing-fine/\">Google hit with €403 million GDPR fine over location tracking</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/21/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "published_date": "2026-09-21T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-7273\" target=\"_blank\">CVE-2026-7273</a> Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability</li>\n</ul>\n<p>This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-ex",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "WordPress Patches ‘Click2Shell’ Vulnerability",
+    "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
+    "published_date": "2026-09-22T10:22:27+00:00",
+    "source_type": "news",
+    "summary": "<p>The bug lets attackers automatically install and preview themes and could lead to remote code execution.</p>\n<p>The post <a href=\"https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/\">WordPress Patches &#8216;Click2Shell&#8217; Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
+    "url": "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/",
+    "published_date": "2026-09-22T08:37:06+00:00",
+    "source_type": "news",
+    "summary": "<p>The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea’s WaterPlum campaign.</p>\n<p>The post <a href=\"https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/\">Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
+    "url": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
+    "published_date": "2026-09-22T02:01:24+00:00",
+    "source_type": "news",
+    "summary": "<p>Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/\">US Proposes AI Incident Alert System in Talks With China, Bessent Says</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Google Hit With $463 Million Fine for EU Location Data Rule Breach",
+    "url": "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/",
+    "published_date": "2026-09-21T17:19:53+00:00",
+    "source_type": "news",
+    "summary": "<p>Google has been fined 403 million euros ($463 million) for breaching the European Union’s strict privacy rules because it mishandled users’ location data.</p>\n<p>The post <a href=\"https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/\">Google Hit With $463 Million Fine for EU Location Data Rule Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer",
+    "url": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
+    "published_date": "2026-09-21T15:46:58+00:00",
+    "source_type": "news",
+    "summary": "<p>The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware.</p>\n<p>The post <a href=\"https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/\">Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "CISO Conversations: Noopur Davis – The Accidental Global CISO at Comcast",
+    "url": "https://www.securityweek.com/ciso-conversations-noopur-davis-the-accidental-global-ciso-at-comcast/",
+    "published_date": "2026-09-21T14:30:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Noopur Davis never planned a career in cybersecurity. She was a developer at Intergraph, and for many years that was all she wanted to be.</p>\n<p>The post <a href=\"https://www.securityweek.com/ciso-conversations-noopur-davis-the-accidental-global-ciso-at-comcast/\">CISO Conversations: Noopur Davis – The Accidental Global CISO at Comcast</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal",
+    "url": "https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/",
+    "published_date": "2026-09-21T14:00:13+00:00",
+    "source_type": "news",
+    "summary": "<p>The transaction is part of the $4.1 billion deal in which Accenture acquired a majority stake in Dragos in an OT cybersecurity push.</p>\n<p>The post <a href=\"https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/\">Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "RatHat Android Trojan Uses AI for Automation",
+    "url": "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/",
+    "published_date": "2026-09-21T12:51:41+00:00",
+    "source_type": "news",
+    "summary": "<p>The malware relies on AI for real-time device navigation and control, increasing adaptability and evasion.</p>\n<p>The post <a href=\"https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/\">RatHat Android Trojan Uses AI for Automation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Rust Team Members and Popular Crate Owners Targeted via Video Calls",
+    "url": "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/",
+    "published_date": "2026-09-21T11:57:35+00:00",
+    "source_type": "news",
+    "summary": "<p>It’s unclear if the attacks are part of previous campaigns against Rust, but the techniques used by the attackers match those used by North Korea.</p>\n<p>The post <a href=\"https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/\">Rust Team Members and Popular Crate Owners Targeted via Video Calls</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "CrowdSec Confirms Source Code Stolen in Supply Chain Attack",
+    "url": "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
+    "published_date": "2026-09-21T10:55:46+00:00",
+    "source_type": "news",
+    "summary": "<p>The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack.</p>\n<p>The post <a href=\"https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/\">CrowdSec Confirms Source Code Stolen in Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "EU data regulator fines Google more than $460 million for location data violations",
+    "url": "https://therecord.media/google-europe-location-data-fine",
+    "published_date": "2026-09-21T19:15:00+00:00",
+    "source_type": "news",
+    "summary": "Ireland’s Data Protection Commission will fine Google more than €403 million ($462 million) over the tech giant’s processing of location data, concluding an inquiry into the company that began in early 2020.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Belgian table tennis, gymnastics federations hit by cyberattacks",
+    "url": "https://therecord.media/belgium-table-tennis-cyberattack",
+    "published_date": "2026-09-21T15:00:00+00:00",
+    "source_type": "news",
+    "summary": "Belgium’s national table tennis federation is investigating a cyberattack after a hacker claimed to have stolen data on tens of thousands of members.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Cyberattack hits University of Munich, potentially exposing student financial data",
+    "url": "https://therecord.media/cyberattack-hits-university-of-munich-potentially-exposing-data",
+    "published_date": "2026-09-21T14:01:00+00:00",
+    "source_type": "news",
+    "summary": "The university, commonly known as LMU Munich, said Saturday that an attacker accessed enrollment data stored on one of its IT systems.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "ShinyHunters cybercrime gang takes over Cl0p ransomware site, demands extortion payment",
+    "url": "https://therecord.media/shinyhunters-clop-cyberattack-website",
+    "published_date": "2026-09-21T14:00:00+00:00",
+    "source_type": "news",
+    "summary": "The ShinyHunters extortion group hijacked the dark web leak site of the prolific Cl0p ransomware gang, according to material posted on the site over the weekend.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "LinkedIn wins court order blocking mass scraping of user data",
+    "url": "https://therecord.media/linkedin-wins-court-order-blocking-mass-scraping",
+    "published_date": "2026-09-21T12:55:00+00:00",
+    "source_type": "news",
+    "summary": "The agreement between LinkedIn, ProAPIs and joint business operator Netswift also requires the firms to stop selling and transferring the data, no longer access LinkedIn through fake accounts and delete the data that was scraped, according to a senior LinkedIn executive.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+    "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+    "published_date": "2026-09-22T07:52:03+00:00",
+    "source_type": "news",
+    "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.\n\n\"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+    "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+    "published_date": "2026-09-22T06:33:57+00:00",
+    "source_type": "news",
+    "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21.\n\nIt works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.\n\nThe flaw is in",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+    "published_date": "2026-09-22T06:03:14+00:00",
+    "source_type": "news",
+    "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.\n\nWordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. The",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+    "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+    "published_date": "2026-09-22T05:31:59+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+    "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+    "published_date": "2026-09-21T17:31:01+00:00",
+    "source_type": "news",
+    "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.\n\nMicrosoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+    "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+    "published_date": "2026-09-21T17:19:00+00:00",
+    "source_type": "news",
+    "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory.\n\nThe primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+    "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+    "published_date": "2026-09-21T16:57:31+00:00",
+    "source_type": "news",
+    "summary": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020.\n\nIreland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+    "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+    "published_date": "2026-09-21T14:24:13+00:00",
+    "source_type": "news",
+    "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week.\n\nThe trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+    "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+    "published_date": "2026-09-21T14:15:40+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.\n\nThe backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "21st September – Threat Intelligence Report",
+    "url": "https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/",
+    "published_date": "2026-09-21T23:13:07+00:00",
+    "source_type": "research",
+    "summary": "<p>For the latest discoveries in cyber research for the week of 21st Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Service used by multiple ministries, has confirmed a data breach after attackers exploited a vulnerability in a VPN appliance. Approximately 246,000 records were exposed, [&#8230;]</p>\n<p>The post <a href=\"https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/\">21st September – Threat Intelligence Report</a> appeared first on <a href=\"https://research.checkpoint.com\">Check Point Research</a>.</p>",
+    "feed_source": "https://research.checkpoint.com/feed/",
+    "publisher": "Check Point Research",
+    "source_note": ""
+  },
+  {
+    "title": "The Closed Quorum: Inside the first reported autonomous AI C2 implant",
+    "url": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
+    "published_date": "2026-09-22T10:00:58+00:00",
+    "source_type": "research",
+    "summary": "CLOSEDQUORUM, a malware binary discovered through Cisco Talos’ CAIRN project, exhibits fully autonomous command and control (C2). It represents a shift in effort displacement for attackers, in which expanding portions of the attack chain can be executed without operator involvement.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Introducing CAIRN: Frontier tracking for AI-integrated malware",
+    "url": "https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/",
+    "published_date": "2026-09-22T10:00:25+00:00",
+    "source_type": "research",
+    "summary": "Talos is releasing CAIRN, a research toolkit for hunting, classifying, and tracking emerging AI-integrated malware.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Tuesday, September 22nd, 2026 https://isc.sans.edu/podcastdetail/10104, (Tue, Sep 22nd)",
+    "url": "https://isc.sans.edu/diary/rss/33356",
+    "published_date": "2026-09-22T03:50:10+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "Transforming Bedrock Guardrails events into OCSF with CloudWatch",
+    "url": "https://aws.amazon.com/blogs/security/transforming-bedrock-guardrails-events-into-ocsf-with-cloudwatch/",
+    "published_date": "2026-09-21T15:33:25+00:00",
+    "source_type": "vendor",
+    "summary": "Security teams investigating possible AI-related security events need guardrail intervention data alongside their existing security telemetry. When a guardrail identifies or blocks a prompt injection attempt or redacts sensitive data, that intervention carries additional investigative value comparable to a failed sign-in or a network intrusion alert. AWS Bedrock publishes this telemetry to AWS CloudWatch metrics […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Long Term Support Channel Update for ChromeOS",
+    "url": "http://chromereleases.googleblog.com/2026/09/long-term-support-channel-update-for_01751285105.html",
+    "published_date": "2026-09-22T04:42:58.413000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span style=\"font-family: Roboto, sans-serif; font-size: 13pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">A new LTC&nbsp; version </span><span style=\"background-color: white; font-family: Roboto, sans-serif; font-size: 13pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">150.0.7871.255 </span><span style=\"font-family: Roboto, sans-serif; font-size: 13pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">(Platform Version: 16700.65.0</span><span style=\"background-color: white; font-family: Roboto, sans-serif; font-size: 13pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">), is being</span><span style=\"font-family: Roboto, sans-serif; font-size: 13pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\"> rolled out for most ChromeOS devices.&nbsp;</span></p><span id=\"docs-internal-guid-2a890a27-7fff-9694-3b75-24c553cc5c75\"><p dir=\"ltr\" style=\"line-height: 1.656; margin-bottom: 0pt; margin-top: 0pt;\"><span style=\"font-family: Roboto, sans-serif; font-size: 13pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">If you have devices in the LTC",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "v4.92.0",
+    "url": "https://github.com/fleetdm/fleet/releases/tag/v4.92.0",
+    "published_date": "2026-09-18T22:38:22+00:00",
+    "source_type": "github",
+    "summary": "<p>Adding changes for Fleet v4.92.0 (<a class=\"issue-link js-issue-link\" href=\"https://github.com/fleetdm/fleet/pull/52270\">#52270</a>)</p>",
+    "feed_source": "https://github.com/fleetdm/fleet/releases.atom",
+    "publisher": "Release notes from fleet",
+    "source_note": ""
+  },
+  {
+    "title": "fleet-v4.92.0",
+    "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.92.0",
+    "published_date": "2026-09-21T17:10:32+00:00",
+    "source_type": "github",
+    "summary": "<h2>Fleet 4.92.0 (Sep 21, 2026)</h2>\n<h3>IT Admins</h3>\n<ul>\n<li>Added support for running custom Android MDM commands via the Fleet API.</li>\n<li>Added support for listing and viewing results of Android custom MDM commands via the API and fleetctl CLI.</li>\n<li>Added support for automatically installing in-house apps (<code>.ipa</code>) on iOS and iPadOS hosts when they enroll into Fleet.</li>\n<li>Added Windows devices registered in a connected Microsoft Entra tenant's Autopilot registry to Fleet as pending hosts before they enroll; they become regular hosts on enrollment without creating a duplicate.</li>\n<li>Added support for resending a configuration profile on policy failure as part of a policy automation.</li>\n<li>Added collection of additional Android host vitals from AMAPI status reports (USB debugging, passcode set, Google Play Protect, encryption status, manufacturer, security update version, kernel and bootloader version, software update status, API level, security posture, and per-SIM phone numbers), returned by the get host endpoints for Android hosts.</li>\n<li>Added a QR code for the enrollment link on the Android and iOS/iPadOS tabs of the <strong>Add hosts</strong> ",
+    "feed_source": "https://github.com/fleetdm/fleet/releases.atom",
+    "publisher": "Release notes from fleet",
+    "source_note": ""
+  },
+  {
+    "title": "0.45.0",
+    "url": "https://github.com/falcosecurity/falco/releases/tag/0.45.0",
+    "published_date": "2026-09-21T13:10:41+00:00",
+    "source_type": "github",
+    "summary": "<p><a href=\"https://github.com/falcosecurity/libs/releases/tag/0.26.0\"><img alt=\"LIBS\" src=\"https://camo.githubusercontent.com/1bc41a6f5f47392790b33f071bd6846e3ca02680d63e6209cac9ff1b02311fbe/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c4942532d302e32362e302d79656c6c6f77\" /></a><br />\n<a href=\"https://github.com/falcosecurity/libs/releases/tag/11.0.0+driver\"><img alt=\"DRIVER\" src=\"https://camo.githubusercontent.com/f38091657e9335aaf0cfbe7385579e276771fb61d8cfc1565ab8327a7e50bbe6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4452495645522d31312e302e302b6472697665722d79656c6c6f77\" /></a></p>\n<table>\n<thead>\n<tr>\n<th>Packages</th>\n<th>Download</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>rpm-x86_64</td>\n<td><a href=\"https://download.falco.org/packages/rpm/falco-0.45.0-x86_64.rpm\" rel=\"nofollow\"><img alt=\"rpm\" src=\"https://camo.githubusercontent.com/74435263090adbff5a1b5fa0028512c76f98a792a6fbca0153fa0a885442f3e6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f46616c636f2d302e34352e302d2532333030616563373f7374796c653d666c61742d737175617265\" /></a></td>\n</tr>\n<tr>\n<td>deb-x86_64</td>\n<td><a href=\"https://download.falco.org/packages/deb/stable/falco-0.45.0-x8",
+    "feed_source": "https://github.com/falcosecurity/falco/releases.atom",
+    "publisher": "Release notes from falco",
+    "source_note": ""
+  },
+  {
+    "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+    "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
+    "published_date": "2026-09-21T07:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}. A COM registration typically needs two parts: a server executable, which for in-process components is a DLL and a CLSID entry under the HKEY_CLASSES_ROOT registry key which points to that DLL.",
+    "feed_source": "https://googleprojectzero.blogspot.com/feeds/posts/default",
+    "publisher": "Project Zero",
+    "source_note": ""
   }
 ]
