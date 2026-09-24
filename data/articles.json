@@ -48202,5 +48202,905 @@
     "feed_source": "https://www.socinvestigation.com/feed/",
     "publisher": "Security Investigation",
     "source_note": ""
+  },
+  {
+    "title": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
+    "url": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
+    "published_date": "2026-09-23T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<h2><strong>Introduction</strong></h2>\n<p>The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published this fact sheet to highlight considerations for critical infrastructure entities to reduce risk and minimize vulnerabilities when working with third-party industrial control system (ICS) integrators.</p>\n<p>ICS is an umbrella term referring to integrated networks of hardware and software designed to monitor and automate physical processes, encompassing specialized control systems and devices, such as supervisory control and data acquisition (SCADA) systems and programmable logic controllers. Third-party integrators provide varying types of services for ICS, such as control system design, installation, operational data analysis, device support and service, and daily operational control.</p>\n<p>Critical infrastructure owners and operators should maintain caution when granting third-party ICS integrators high levels of access or control over industrial processes, ensuring the&nbsp;principle of least privilege (PoLP), is applied. PoLP<strong>&nbsp;</strong>within OT environments l",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+    "published_date": "2026-09-24T09:38:53+00:00",
+    "source_type": "news",
+    "summary": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft fixes bug that broke Windows File History backup feature",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+    "published_date": "2026-09-24T08:14:47+00:00",
+    "source_type": "news",
+    "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+    "published_date": "2026-09-23T22:46:01+00:00",
+    "source_type": "news",
+    "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New RemControl Android banking malware targets users in Europe and Canada",
+    "url": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+    "published_date": "2026-09-23T21:25:13+00:00",
+    "source_type": "news",
+    "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+    "published_date": "2026-09-23T19:53:54+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers start exploiting critical WordPress flaw for code execution",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+    "published_date": "2026-09-23T18:31:22+00:00",
+    "source_type": "news",
+    "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+    "url": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+    "published_date": "2026-09-23T16:20:54+00:00",
+    "source_type": "news",
+    "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "InfraTrust report warns network management systems under attack",
+    "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+    "published_date": "2026-09-23T14:35:26+00:00",
+    "source_type": "news",
+    "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+    "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+    "published_date": "2026-09-23T14:01:11+00:00",
+    "source_type": "news",
+    "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+    "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+    "published_date": "2026-09-23T12:29:53+00:00",
+    "source_type": "news",
+    "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Microsoft: September Windows updates break Always On VPN connections",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+    "published_date": "2026-09-23T11:18:13+00:00",
+    "source_type": "news",
+    "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New Android malware RemControl steals banking PINs and blocks removal attempts",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/remcontrol-android-banking-trojan-fake-tv-app/",
+    "published_date": "2026-09-24T09:40:43+00:00",
+    "source_type": "news",
+    "summary": "<p>A new Android banking trojan called RemControl tricks victims into installing a fake TV app, then takes control of their phones to steal banking PINs, Group-IB has found. Researchers confirmed that the malware targets customers of more than 30 banks in Italy, France, Spain, Poland, Portugal, Canada and some Gulf states. The first samples were submitted to VirusTotal on July 19, 2026. The domain used for its command and control (C2) server was registered on &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/remcontrol-android-banking-trojan-fake-tv-app/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/remcontrol-android-banking-trojan-fake-tv-app/\">New Android malware RemControl steals banking PINs and blocks removal attempts</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Google plans to give Private AI Compute a memory that follows users across devices",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/google-private-ai-compute-server-side-memory/",
+    "published_date": "2026-09-24T09:32:29+00:00",
+    "source_type": "news",
+    "summary": "<p>Google plans to add private, server-side memory to Private AI Compute, enabling AI assistants to maintain continuity across devices while providing privacy protections normally associated with on-device processing. Private AI Compute is Google’s cloud platform for processing sensitive data with Gemini models in a hardware-isolated environment. It gives AI features access to greater computing power and is designed to prevent anyone other than the user, including Google, from accessing the data being processed. Until now, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/google-private-ai-compute-server-side-memory/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/google-private-ai-compute-server-side-memory/\">Google plans to give Private AI Compute a memory that follows users across devices</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "GNOME 50.5 security fixes patch a gvfs CVE and Epiphany code injection",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/gnome-50-5-security-fixes/",
+    "published_date": "2026-09-24T08:17:04+00:00",
+    "source_type": "news",
+    "summary": "<p>GNOME 50.5, which the GNOME Release Team shipped on September 24, patches a CVE in the gvfs file system layer, a JavaScript injection flaw in the Epiphany web browser and a use-after-free bug in the librsvg image library. The release updates 22 modules. Users who browse with Epiphany, view SVG images through librsvg or reach files through gvfs keep these flaws until their distribution ships the new packages. &#8220;All operating systems shipping GNOME 50 are &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/gnome-50-5-security-fixes/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/gnome-50-5-security-fixes/\">GNOME 50.5 security fixes patch a gvfs CVE and Epiphany code injection</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Apple’s new iOS 27 feature looks for signs you’re being scammed",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/apple-ios-27-impersonation-risk-detection/",
+    "published_date": "2026-09-24T08:02:31+00:00",
+    "source_type": "news",
+    "summary": "<p>Apple introduced a scam-prevention feature called Impersonation Risk Detection with iOS 27 and iPadOS 27. The feature allows supported apps to request a risk assessment when a user takes an action that could be connected to an active social engineering scam. “Impersonation Risk Detection helps protect against active social engineering scams. In these scams, an attacker might pose as a bank, government agency, or someone you trust to pressure or guide you into making a &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/apple-ios-27-impersonation-risk-detection/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/apple-ios-27-impersonation-risk-detection/\">Apple’s new iOS 27 feature looks for signs you’re being scammed</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Claude.ai is about 3x faster after 3,000+ changes",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/anthropic-claude-ai-faster/",
+    "published_date": "2026-09-24T08:01:04+00:00",
+    "source_type": "news",
+    "summary": "<p>Anthropic engineers made claude.ai and the Claude desktop app roughly three times faster during a two-week sprint in August, with Claude finding the bottlenecks and writing the fixes. The team merged more than 3,000 changes and says none of them caused a customer-facing incident or rollback. The engineers ran the whole thing out of one Slack channel, using an internal research model roughly comparable to Opus 5.5 through the Claude Tag beta. Claude built benchmarks, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/anthropic-claude-ai-faster/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/anthropic-claude-ai-faster/\">Claude.ai is about 3x faster after 3,000+ changes</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "What to do first when you get 90 days to secure AI agent data",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/kelly-herrell-nol8-ai-agent-data-security/",
+    "published_date": "2026-09-24T05:00:41+00:00",
+    "source_type": "news",
+    "summary": "<p>In this interview with Help Net Security, Kelly Herrell, CEO at Nol8, explains where AI agents create exposure inside organizations. The first thing to examine is the data path: what an agent can reach, what enters its context, and where results go. Ticketing systems, CRM platforms and shared drives hold years of sensitive context that agents can pull together in seconds. The conversation covers a 90-day plan for data access limits, the tension between business &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/kelly-herrell-nol8-ai-agent-data-security/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/kelly-herrell-nol8-ai-agent-data-security/\">What to do first when you get 90 days to secure AI agent data</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Your security program knows about the firewall, but does it know about the elevator?",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/ot-asset-visibility-challenges/",
+    "published_date": "2026-09-24T04:30:14+00:00",
+    "source_type": "news",
+    "summary": "<p>By early August, attackers had hit water systems in at least seven U.S. states. The FBI and EPA said the intruders remotely accessed internet-facing programmable logic controllers, the small industrial computers that run pumps and valves. Operators lost monitoring or control, and in some cases water operations degraded. Federal investigators are examining possible links to Iran-backed hackers. Operational technology (OT) security programs were built to protect controllers like those. Chillers, fire panels, badge readers, elevators &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/ot-asset-visibility-challenges/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/ot-asset-visibility-challenges/\">Your security program knows about the firewall, but does it know about the elevator?</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Ubuntu kernel CVE fixes are moving to a weekly release schedule",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/ubuntu-kernel-cve-fixes-release-schedule/",
+    "published_date": "2026-09-24T04:27:02+00:00",
+    "source_type": "news",
+    "summary": "<p>Ubuntu kernels will ship every week under a new release schedule from Canonical, which is merging its four-week cycle for regular Stable Release Updates (SRUs) and its two-week cycle for security fixes into a single two-week cycle. The cycles overlap, each starting a week after the one before, which is what produces a weekly release. Admins who need a kernel CVE fix sooner than the full cycle allows now have a sanctioned way to get &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/ubuntu-kernel-cve-fixes-release-schedule/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/ubuntu-kernel-cve-fixes-release-schedule/\">Ubuntu kernel CVE fixes are moving to a weekly release schedule</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Europe’s technology backbone is becoming a cyber target",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/enisa-eu-cyber-threats-report/",
+    "published_date": "2026-09-24T04:00:02+00:00",
+    "source_type": "news",
+    "summary": "<p>Disruptive attacks on public-facing services, financially motivated cybercrime and compromises of shared technology providers are increasing cybersecurity risks across Europe. ENISA’s Threat Landscape 2026 identifies cybercrime, state-linked activity, foreign information manipulation and interference, hacktivism and vulnerability exploitation as key threats. Geopolitical developments influence attackers’ targets, and interconnected digital systems allow disruption to spread across organizations. Breakdown of incident types impacting the EU (Source: ENISA) ENISA analyzed 8,257 incidents recorded between January 1 and December 31, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/enisa-eu-cyber-threats-report/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/enisa-eu-cyber-threats-report/\">Europe’s technology backbone is becoming a cyber target</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Americans’ views on data centers have turned more negative",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/americans-views-on-data-centers/",
+    "published_date": "2026-09-23T22:15:08+00:00",
+    "source_type": "news",
+    "summary": "<p>American attitudes toward data centers have turned noticeably more negative over the course of 2026, according to a new Pew Research Center survey. 54% of U.S. adults now say data centers are mostly bad for the environment, up from 39% in January. Half say they hurt home energy costs (up from 38%), and 49% say they harm quality of life for people living nearby (up from 30%). Only 4% see a mostly positive impact in &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/24/americans-views-on-data-centers/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/24/americans-views-on-data-centers/\">Americans&#8217; views on data centers have turned more negative</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "注意喚起: F5 BIG-IP Access Policy Managerにおけるヒープベースのバッファオーバーフローの脆弱性（CVE-2026-94127）に関する注意喚起  (公開)",
+    "url": "https://www.jpcert.or.jp/at/2026/at260028.html",
+    "published_date": "2026-09-24T07:14:00+00:00",
+    "source_type": "advisory",
+    "summary": "",
+    "feed_source": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "publisher": "JPCERT/CC RSS Feed",
+    "source_note": ""
+  },
+  {
+    "title": "UK regulator to investigate Pornhub parent company for alleged age verification failings",
+    "url": "https://therecord.media/uk-regulator-to-investigate-pornhub-parent-company-privacy",
+    "published_date": "2026-09-23T20:07:00+00:00",
+    "source_type": "news",
+    "summary": "In May, Pornhub began using a new age assurance process to verify some users’ ages, according to an Ofcom press release. The new method relies on signals from Apple that suggest under 18s in the UK “may have completed Apple’s age checks,” the press release said.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "No evidence of successful foreign meddling in 2024 election, spy agencies found",
+    "url": "https://therecord.media/trump-harris-election-meddling-russia",
+    "published_date": "2026-09-23T19:30:00+00:00",
+    "source_type": "news",
+    "summary": "U.S. intelligence officials found no evidence that any foreign adversary successfully interfered in the 2024 presidential election, according to sources familiar with the findings of a classified assessment.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Ryuk ransomware operator gets 2-year sentence after extorting victims for $1.2 million",
+    "url": "https://therecord.media/ransomware-ryuk-sentenced-doj",
+    "published_date": "2026-09-23T15:30:00+00:00",
+    "source_type": "news",
+    "summary": "An Armenian national and member of the Ryuk ransomware gang was sentenced to two years in federal prison for his role in launching attacks.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "FBI investigating alleged ShinyHunters breach of its jobs site",
+    "url": "https://therecord.media/fbi-investigating-alleged-shinyhunters-job-site-breach",
+    "published_date": "2026-09-23T14:22:00+00:00",
+    "source_type": "news",
+    "summary": "The ShinyHunters cybercriminal organization on Tuesday replaced agency images on the FBIjobs.gov site with a photo of a Pokemon that has become the group’s defacto mascot.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Latvia arrests suspected hacker for electronics repair company breach",
+    "url": "https://therecord.media/latvia-hacker-arrest-cyberattack",
+    "published_date": "2026-09-23T12:45:00+00:00",
+    "source_type": "news",
+    "summary": "Latvian police arrested a 23-year-old man suspected of hacking at least two companies, stealing personal information and attempting to extort money from the victims.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+    "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+    "published_date": "2026-09-24T07:07:25+00:00",
+    "source_type": "news",
+    "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&nbsp;Anthony Albanese said.\n\nThe portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+    "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+    "published_date": "2026-09-24T06:32:03+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.\n\nAccording to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses.\n\n\"The campaign compromised 7 accounts –",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+    "published_date": "2026-09-24T05:36:18+00:00",
+    "source_type": "news",
+    "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).\n\n\"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+    "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+    "published_date": "2026-09-23T18:06:30+00:00",
+    "source_type": "news",
+    "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.\n\nAccording to Aikido, the list of Terraform providers and Go modules is below -\n\n\n  gocommunity-io/dockerd (222 downloads)\n  kreuzwenker/",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+    "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+    "published_date": "2026-09-23T16:53:10+00:00",
+    "source_type": "news",
+    "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.\n\nGitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+    "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+    "published_date": "2026-09-23T16:06:41+00:00",
+    "source_type": "news",
+    "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+    "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+    "published_date": "2026-09-23T14:17:58+00:00",
+    "source_type": "news",
+    "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+    "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+    "published_date": "2026-09-23T13:52:46+00:00",
+    "source_type": "news",
+    "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.\n\nAccording to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below -\n\n\n  @memtensor/memos-cloud-openclaw-plugin versions",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+    "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+    "published_date": "2026-09-23T12:16:00+00:00",
+    "source_type": "news",
+    "summary": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22.\n\nA&nbsp;second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account holder to change databases that belong to other accounts.\n\ncPanel has released fixed versions for both,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+    "url": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+    "published_date": "2026-09-23T11:47:19+00:00",
+    "source_type": "news",
+    "summary": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+    "url": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+    "published_date": "2026-09-23T11:47:13+00:00",
+    "source_type": "news",
+    "summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior.\n\nOpus 5.5, per Anthropic, is a \"major step up from Opus 5,\" and \"achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+    "url": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+    "published_date": "2026-09-23T11:12:18+00:00",
+    "source_type": "news",
+    "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst&nbsp;said in research published September 22.\n\nThe flaw, tracked as&nbsp;CVE-2026-80521&nbsp;(CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst&nbsp;",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Astrana Health Data Breach Impacts Private, Confidential Information",
+    "url": "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/",
+    "published_date": "2026-09-24T09:56:04+00:00",
+    "source_type": "news",
+    "summary": "<p>Hackers impersonated the company’s personnel and contacted its employees to gain access to Astrana Health’s servers.</p>\n<p>The post <a href=\"https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/\">Astrana Health Data Breach Impacts Private, Confidential Information</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks",
+    "url": "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/",
+    "published_date": "2026-09-24T08:38:29+00:00",
+    "source_type": "news",
+    "summary": "<p>Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims.</p>\n<p>The post <a href=\"https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/\">US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Critical WordPress Vulnerability Exploited Immediately After Disclosure",
+    "url": "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/",
+    "published_date": "2026-09-24T07:12:26+00:00",
+    "source_type": "news",
+    "summary": "<p>Tracked as CVE-2026-87902, the path traversal flaw allows remote, unauthenticated attackers to execute arbitrary code.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/\">Critical WordPress Vulnerability Exploited Immediately After Disclosure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU Decoder",
+    "url": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
+    "published_date": "2026-09-23T19:32:49+00:00",
+    "source_type": "news",
+    "summary": "<p>IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction.</p>\n<p>The post <a href=\"https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/\">IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU Decoder</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios",
+    "url": "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/",
+    "published_date": "2026-09-23T18:05:58+00:00",
+    "source_type": "news",
+    "summary": "<p>The idea that AI could break away and work toward its own agenda is looking increasingly plausible to researchers and experts.</p>\n<p>The post <a href=\"https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/\">Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare",
+    "url": "https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/",
+    "published_date": "2026-09-23T12:17:28+00:00",
+    "source_type": "news",
+    "summary": "<p>Only 21% of industrial security leaders report a complete OT asset inventory, even as 88% call their programs mature.</p>\n<p>The post <a href=\"https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/\">Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Adobe Patches Critical Flaws in Connect, AEM Forms",
+    "url": "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/",
+    "published_date": "2026-09-23T11:40:59+00:00",
+    "source_type": "news",
+    "summary": "<p>The nine critical security defects could be exploited for arbitrary code execution and privilege escalation.</p>\n<p>The post <a href=\"https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/\">Adobe Patches Critical Flaws in Connect, AEM Forms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft",
+    "url": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/",
+    "published_date": "2026-09-23T11:23:30+00:00",
+    "source_type": "news",
+    "summary": "<p>The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/\">AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome 154 Patches 108 Vulnerabilities",
+    "url": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
+    "published_date": "2026-09-23T10:36:07+00:00",
+    "source_type": "news",
+    "summary": "<p>The browser update resolves several critical-severity memory safety and memory corruption flaws.</p>\n<p>The post <a href=\"https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/\">Chrome 154 Patches 108 Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-748: Luxion KeyShot BIP File Parsing Uncontrolled Search Path Element Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-748/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Luxion KeyShot. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-92202.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-747: Wireshark RF4CE Packet Parsing Buffer Overflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-747/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wireshark. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-96417.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-746: Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-746/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91818.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-745: Foxit PDF Reader AcroForm Out-of-Bounds Read Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-745/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91817.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-744: Foxit PDF Reader AcroForm Use-After-Free Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-744/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91816.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-743: Foxit PDF Reader JPEG2000 Parsing Memory Corruption Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-743/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91815.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-742: Foxit PDF Reader FoxitUpdater Race Condition Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-742/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows local attackers to escalate privileges on affected installations of Foxit PDF Reader. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91813.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-741: Foxit PDF Reader FoxitUpdater Improper Certificate Validation Local Privilege Escalation Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-741/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.1. The following CVEs are assigned: CVE-2026-91812.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-740: Foxit PDF Reader PRC Stream Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-740/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91811.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-739: Foxit PDF Reader Doc Object Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-739/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-91810.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-738: Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-738/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-91809.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-737: Foxit PDF Reader JPEG File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-737/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-91808.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-736: Foxit PDF Reader PDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-736/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-91807.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-735: Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-735/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-91806.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-734: Foxit PDF Reader RichMedia Annotation Directory Traversal Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-734/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91801.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-733: Foxit PDF Reader Portfolio Directory Traversal Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-733/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91797.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-732: Foxit PDF Reader importIcon NTLM Response Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-732/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-91796.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-731: Foxit PDF Reader FileOpen Uninitialized Variable Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-731/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91795.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-730: Foxit PDF Reader DeviceN Colorspace Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-730/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91794.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-729: Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-729/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-91793.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-728: Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-728/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-57238.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-727: Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-727/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-13128.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-726: Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-726/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-13129.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-725: Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-725/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-57256.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-724: Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-724/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91792.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-723: Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-723/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 3.3. The following CVEs are assigned: CVE-2026-91790.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-722: Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-722/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91791.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-721: Foxit PDF Reader U3D File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-721/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-91789.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "ZDI-26-720: Foxit PDF Reader activeDocs Missing Authorization Information Disclosure Vulnerability",
+    "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-720/",
+    "published_date": "2026-09-23T05:00:00+00:00",
+    "source_type": "vulnerability",
+    "summary": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 4.7. The following CVEs are assigned: CVE-2026-91788.",
+    "feed_source": "https://www.zerodayinitiative.com/rss/published/",
+    "publisher": "ZDI: Published Advisories",
+    "source_note": ""
+  },
+  {
+    "title": "MacSync under the microscope: new delivery methods and a new payload",
+    "url": "https://securelist.com/macsync-new-version/121383/",
+    "published_date": "2026-09-24T10:00:21+00:00",
+    "source_type": "research",
+    "summary": "We look at a new version of the MacSync macOS stealer with a backdoor module that targets crypto enthusiasts and developers.",
+    "feed_source": "https://securelist.com/feed/",
+    "publisher": "Securelist",
+    "source_note": ""
+  },
+  {
+    "title": "One URL, Three Different Tricks, (Thu, Sep 24th)",
+    "url": "https://isc.sans.edu/diary/rss/33366",
+    "published_date": "2026-09-24T06:25:06+00:00",
+    "source_type": "operational",
+    "summary": "Yesterday, we received a phishing email with an interesting link. At first sight, it looks like garbage, but every piece of it has been carefully crafted to confuse basic security controls. Here is the defanged link:&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Thursday, September 24th, 2026 https://isc.sans.edu/podcastdetail/10108, (Thu, Sep 24th)",
+    "url": "https://isc.sans.edu/diary/rss/33364",
+    "published_date": "2026-09-24T03:50:11+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "ICYMI: August 2026 @AWS Security",
+    "url": "https://aws.amazon.com/blogs/security/icymi-august-2026-aws-security/",
+    "published_date": "2026-09-23T23:07:36+00:00",
+    "source_type": "vendor",
+    "summary": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts August brought 20 AWS Security Blog posts organized across seven categories. Identity and access management led the month with five posts […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Supporting ASD’s multi-factor authentication campaign: Why MFA matters more than ever",
+    "url": "https://aws.amazon.com/blogs/security/supporting-asds-multi-factor-authentication-campaign-why-mfa-matters-more-than-ever/",
+    "published_date": "2026-09-23T14:45:44+00:00",
+    "source_type": "vendor",
+    "summary": "The Australian Signals Directorate (ASD) has this month issued a clear call to action through its Multi-factor authentication: Switch it on campaign, urging businesses, organisations, and individuals to enable multi-factor authentication (MFA) across their online accounts. At AWS, we strongly support this message. As threat actors continue to target credentials through phishing, credential stuffing, and […]",
+    "feed_source": "https://aws.amazon.com/blogs/security/feed/",
+    "publisher": "AWS Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Reimagining the SOC for the agentic era in Microsoft Defender",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
+    "published_date": "2026-09-23T16:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/\">Reimagining the SOC for the agentic era in Microsoft Defender</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_02110293064.html",
+    "published_date": "2026-09-23T21:00:00+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;Hello Everyone! We've just released Chrome 155 (155.0.8059.16) for Android to a small percentage of users. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Play</a> over the next few days. You can find more details about early Stable releases <a href=\"https://developer.chrome.com/blog/early-stable/\">here</a>.</p>This release includes stability and performance improvements. You can see a full list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/154.0.8037.58..155.0.8059.16?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.<br /><br />Harry Souders<br /><a href=\"https://www.google.com/chrome/\">Google Chrome</a>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Early Stable Update for Desktop",
+    "url": "http://chromereleases.googleblog.com/2026/09/early-stable-update-for-desktop_01050350268.html",
+    "published_date": "2026-09-23T19:07:25.028000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>&nbsp;<span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">155.0.8059.12/.13</span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\"> for Windows and Mac a</span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">s part of our early stable release to a <span style=\"background-color: white;\">small percentage of users. </span>A full list of changes in this build is available in the</span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\"> </span><span color=\"rgba(0, 0, 0, 0.87)\"><a href=\"https://chromium.googlesource.com/chromium/src/+log/153.0.8010.53..155.0.8059.12?pretty=fuller&amp;n=10000\" style=\"color: #4184f3; text-decoration: none;\">log</a></span><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">.</span></p><div class=\"post-body\"><div class=\"post-content post-original\" style=\"font-size: 17px; line-height: 3",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for Android Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-android-update_01711682124.html",
+    "published_date": "2026-09-23T17:43:32.216000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 155 (155.0.8059.16) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/155.0.8059.4..155.0.8059.16?pretty=fuller&amp;n=10000\">Git log</a>. For details on new features, check out the <a href=\"https://blog.chromium.org\">Chromium blog</a>, and for details on web platform updates, check <a href=\"https://www.chromestatus.com/features#milestone%3D155\">here</a>.</p><p>If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=Android%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for iOS Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-ios-update_0141601202.html",
+    "published_date": "2026-09-23T17:28:32.925000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>Hi everyone! We've just released Chrome Beta 155 (155.0.8059.16) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/155.0.8059.2..155.0.8059.16?pretty=fuller&amp;n=10000\">Git log</a>. If you find a new issue, please let us know by <a href=\"https://code.google.com/p/chromium/issues/entry?template=iOS%20Issue\">filing a bug</a>.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "Chrome Beta for Desktop Update",
+    "url": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-desktop-update_0318459087.html",
+    "published_date": "2026-09-23T16:43:32.828000+00:00",
+    "source_type": "vendor",
+    "summary": "<p>The Beta channel has been updated to 155.0.8059.12 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/155.0.8059.5..155.0.8059.12?pretty=fuller&amp;n=10000\">Git log</a>. Interested in <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">switching</a> release channels? Find out <a href=\"https://www.chromium.org/getting-involved/dev-channel/\">how</a>. If you find a new issue, please let us know by <a href=\"https://crbug.com/\">filing a bug</a>. The <a href=\"https://productforums.google.com/forum/#!forum/chrome\">community help forum</a> is also a great place to reach out for help or learn about common issues.</p><p>Chrome Release Team<br /><a href=\"https://www.google.com/chrome\"></a><a href=\"https://www.google.com/chrome\">Google Chrome</a></p>",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "How dynamic application security testing validates risk at runtime",
+    "url": "https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape",
+    "published_date": "2026-09-23T13:49:39+00:00",
+    "source_type": "research",
+    "summary": "<p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it?</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">Dynamic application security testing (DAST) helps answer those questions by testing applications as an attacker encounters them. The </span><span style=\"font-size: undefined;\"><em>IDC MarketScape: Worldwide Dynamic Application Security Testing 2026 Vendor Assessment</em></span><span style=\"font-size: undefined;\"> (Doc #US54119126, September 2026). The IDC MarketScape evaluated 16 vendors and named Rapid7 a Leader.</span></p><p style=\"direction: ltr;\"><span style=\"font-size: undefined;\">We believe the result reflects the strength of Rapid7’s DAST capabilities, but the IDC MarketScape also offers a useful view of where the category is heading. DAST has developed beyond traditional web scanning into a source of runtime evidence that can help organizations validate risk across the application layer.</s",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
   }
 ]
