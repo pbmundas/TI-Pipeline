@@ -49102,5 +49102,575 @@
     "feed_source": "https://www.rapid7.com/blog/rss/",
     "publisher": "Rapid7 Cybersecurity Blog",
     "source_note": ""
+  },
+  {
+    "title": "Been told to pay at a Bitcoin ATM? Read this first",
+    "url": "https://www.welivesecurity.com/en/scams/been-told-pay-bitcoin-atm-read-first/",
+    "published_date": "2026-09-24T09:00:00+00:00",
+    "source_type": "research",
+    "summary": "Crypto ATM scams often follow a predictable script – here’s how to recognize it and what to do if you’ve already been caught out",
+    "feed_source": "https://www.welivesecurity.com/en/rss/feed/",
+    "publisher": "WeLiveSecurity",
+    "source_note": ""
+  },
+  {
+    "title": "Eufy Omni C20, Omni X10 Pro",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02",
+    "published_date": "2026-09-24T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-267-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code.</strong></p>\n<p>The following versions of Eufy Omni C20, Omni X10 Pro are affected:</p>\n<ul>\n<li>Omni C20 &lt;1.6.4 (CVE-2026-93289, CVE-2026-93290, CVE-2026-93291)</li>\n<li>Omni X10 Pro &lt;1.6.4 (CVE-2026-93289)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.4</td>\n<td>Eufy</td>\n<td>Eufy Omni C20, Omni X10 Pro</td>\n<td>Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'), Use of Hard-coded Credentials, Improper Certificate Validation</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Information Technology</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>China</li>\n</ul>\n",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "Botslab G980H Dashcams",
+    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01",
+    "published_date": "2026-09-24T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-267-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication controls, gain unauthorized access to sensitive data and privileged device functionality, modify device configuration, disrupt device operation.</strong></p>\n<p>The following versions of Botslab G980H Dashcams are affected:</p>\n<ul>\n<li>G980H dash cam series 30010_QHG980HN5294SysFW+ (CVE-2026-84399, CVE-2026-82566, CVE-2026-85496, CVE-2026-77967, CVE-2026-88761, CVE-2026-82716, CVE-2026-84403, CVE-2026-75558, CVE-2026-81630, CVE-2026-87118, CVE-2026-82708, CVE-2026-79959, CVE-2026-82585)</li>\n<li>G980H dash cam series 58_QHG980HMCN5291SysFW+ (CVE-2026-84399, CVE-2026-82566, CVE-2026-85496, CVE-2026-77967, CVE-2026-88761, CVE-2026-88956, CVE-2026-82716, CVE-2026-84403, CVE-2026-75558, CVE-2026-81630, CVE-2026-87118, CVE-2026-82708, CVE-2026-82585)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\">\n<thead>\n<tr>\n<th>CVSS</th>\n<th>Vendor</th>\n<th>Equipment</th>\n<th>Vulnerabilities</th>\n</tr>\n</thead>\n<",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "url": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "published_date": "2026-09-24T12:00:00+00:00",
+    "source_type": "advisory",
+    "summary": "<p>&nbsp;CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-5430\" target=\"_blank\">CVE-2026-5430</a> WSO2 Multiple Products Path Traversal Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-71362\" target=\"_blank\">CVE-2026-71362</a> Adobe Commerce and Magento Incorrect Authorization Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;</p>\n<p><a href=\"https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk\">Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk</a> establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those",
+    "feed_source": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+    "publisher": "All CISA Advisories",
+    "source_note": "Primary-source US government cybersecurity advisories."
+  },
+  {
+    "title": "MacSync info-stealing malware hides malicious commands in an iCloud calendar",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/macsync-info-stealing-malware-for-macos/",
+    "published_date": "2026-09-25T09:22:45+00:00",
+    "source_type": "news",
+    "summary": "<p>A new MacSync variant targets Mac users with an infostealer and persistent backdoor designed to steal credentials, crypto wallet data, and files, according to Kaspersky. Researchers found the malware spreading through a crypto wallet app called Toria, which had its own website and was promoted on X and Telegram. MacSync is a family of Mac malware that emerged in 2025 as Mac.c and was later renamed. Early versions used AppleScripts that closely resembled the AMOS &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/macsync-info-stealing-malware-for-macos/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/macsync-info-stealing-malware-for-macos/\">MacSync info-stealing malware hides malicious commands in an iCloud calendar</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Docker introduces OCI-based Kits to package agents and their guardrails",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes/",
+    "published_date": "2026-09-25T07:57:50+00:00",
+    "source_type": "news",
+    "summary": "<p>Docker has announced Docker Cloud Sandboxes, a new solution for secure, isolated AI agent execution that enables complex agentic workflows to continue running in the cloud long after a developer’s laptop shuts down. Launched at WeAreDevelopers North America, Docker Cloud Sandboxes let organizations run agentic workloads at scale without tying up developers&#8217; hardware, provisioning their own infrastructure, or paying for unused capacity. Docker Cloud Sandboxes give developers a straightforward path to move their agentic workflows &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/docker-launches-cloud-sandboxes/\">Docker introduces OCI-based Kits to package agents and their guardrails</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Fake payroll desktop apps hand attackers a route to company paychecks",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/fake-payroll-desktop-apps-screenconnect/",
+    "published_date": "2026-09-25T07:52:51+00:00",
+    "source_type": "news",
+    "summary": "<p>An attacker has been offering &#8220;desktop apps&#8221; for three large US payroll and HR platforms that have never released one, Allure Security have found. Anyone who runs the installer gets a copy of ScreenConnect, a legitimate remote access tool, configured to let the attacker control the computer without the user knowing. According to Ryan Merritt, Director of Security Research at Allure Security, all three providers deliver their products as web applications accessed through a browser, &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/fake-payroll-desktop-apps-screenconnect/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/fake-payroll-desktop-apps-screenconnect/\">Fake payroll desktop apps hand attackers a route to company paychecks</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Abnormal AI brings governance, cloud security, and threat investigation into one suite",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/abnormal-ai-governance/",
+    "published_date": "2026-09-25T07:46:25+00:00",
+    "source_type": "news",
+    "summary": "<p>Abnormal AI has unveiled the newest additions to its AI Security suite, designed to help enterprises adopt AI securely while protecting against new threats created or accelerated by AI. The suite brings together Abnormal AI Governance, which is generally available, and AI Cloud Security, previously announced in private preview, with three newly announced products: AI Employee Guardrails, AI Agent Security, and AI Security Workbench. Enterprises are adopting AI across nearly every part of the business &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/abnormal-ai-governance/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/abnormal-ai-governance/\">Abnormal AI brings governance, cloud security, and threat investigation into one suite</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "SentinelOne extends Wayfinder coverage across endpoints, identities, and cloud workloads",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting/",
+    "published_date": "2026-09-25T07:36:24+00:00",
+    "source_type": "news",
+    "summary": "<p>SentinelOne has announced the expansion of Wayfinder Threat Hunting to the major public cloud services: AWS, Azure, and Google Cloud. It’s the latest offering from SentinelOne&#8217;s Wayfinder team and combines the power of SentinelOne&#8217;s AI-powered Singularity Platform telemetry with expert human-led hunting to protect the attack surface across AI, endpoints, identities, and cloud workloads. The cloud has become an even more attractive attack surface with the rapid adoption of AI. A threat actor who compromises &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/sentinelone-extends-wayfinder-threat-hunting/\">SentinelOne extends Wayfinder coverage across endpoints, identities, and cloud workloads</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Dataiku Agent Management reveals unmonitored AI agents",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/",
+    "published_date": "2026-09-25T07:30:11+00:00",
+    "source_type": "news",
+    "summary": "<p>Dataiku has announced the launch of Agent Management, a standalone product that finds every AI agent an enterprise is running, regardless of which platform built it, measures the business and technical performance, and flags agents that pose the greatest risk. The launch addresses a disconnect between how fast agents are being created and adopted and organizations&#8217; ability to observe and manage them. Every large company already keeps an account of the software it runs: who &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/\">Dataiku Agent Management reveals unmonitored AI agents</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Stop watching what AI agents say and start watching what they do",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/ariel-assaraf-coralogix-ai-agent-guardrails/",
+    "published_date": "2026-09-25T05:30:02+00:00",
+    "source_type": "news",
+    "summary": "<p>In this interview with Help Net Security, Ariel Assaraf, CEO of Coralogix, explains why a system prompt can describe a boundary for an AI agent but cannot enforce one. Assaraf covers how his team builds AI agent guardrails at the execution layer, limits context without expanding authority, and tunes controls by risk so agents stay useful during incidents. He describes how he tracks the consequences of agent actions, since an agent can return 200s and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/ariel-assaraf-coralogix-ai-agent-guardrails/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/ariel-assaraf-coralogix-ai-agent-guardrails/\">Stop watching what AI agents say and start watching what they do</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Half of threat hunters say bad data is their biggest problem",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/sans-threat-hunting-data-quality/",
+    "published_date": "2026-09-25T05:00:56+00:00",
+    "source_type": "news",
+    "summary": "<p>Half of security professionals name data quality or quantity as their biggest barrier to effective threat hunting, according to the SANS 2026 Threat Hunting Survey. Teams with working playbooks describe the logs as their ceiling, and gaps in cloud logging and identity telemetry come up most often. Gaps in the logs hurt most against the attackers respondents see most often, the ones who blend in with legitimate activity. Catching them means spotting behavior that looks &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/sans-threat-hunting-data-quality/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/sans-threat-hunting-data-quality/\">Half of threat hunters say bad data is their biggest problem</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Your incident count is missing a few incidents",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/eu-usa-retail-chain-cyberattacks/",
+    "published_date": "2026-09-25T04:30:26+00:00",
+    "source_type": "news",
+    "summary": "<p>If you run security for a brand with hundreds or thousands of locations, the tools you&#8217;ve bought may have little to do with whether an attack stays at one store. A new VikingCloud survey asked 200 security and IT leaders at U.S. and European chains about the past year. None of the 13 security technologies it measured was tied to less spread between sites, and neither was real-time visibility. One policy decision was. The sections &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/eu-usa-retail-chain-cyberattacks/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/eu-usa-retail-chain-cyberattacks/\">Your incident count is missing a few incidents</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "New infosec products of the month: September 2026",
+    "url": "https://www.helpnetsecurity.com/2026/09/25/new-infosec-products-of-the-month-september-2026/",
+    "published_date": "2026-09-25T04:00:28+00:00",
+    "source_type": "news",
+    "summary": "<p>Here’s a look at the most interesting products from the past week, featuring releases from Akeyless, Akuity, Bitsight, BugBase, Cloud Range, Cohesity, Dataminr, Gurucul, Nozomi Networks, Orchid Security, Ping Identity, Scytale, Securin, Superna, and Tuskira. Ping Identity introduces enterprise security for personal AI agents Ping Identity announced an end-to-end approach that combines discovery, secretless privileged access and runtime control for personal AI agents. With Ping Identity’s Enterprise Personal Agent Access, companies can see which AI &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/25/new-infosec-products-of-the-month-september-2026/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/25/new-infosec-products-of-the-month-september-2026/\">New infosec products of the month: September 2026</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>",
+    "feed_source": "https://www.helpnetsecurity.com/feed/",
+    "publisher": "Help Net Security",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+    "published_date": "2026-09-25T08:33:44+00:00",
+    "source_type": "news",
+    "summary": "​Cryptocurrency exchange Bitget disclosed today that suspected North Korean hackers have stolen $351.6 million from its hot and warm wallets. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+    "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+    "published_date": "2026-09-24T20:53:35+00:00",
+    "source_type": "news",
+    "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+    "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+    "published_date": "2026-09-24T20:10:48+00:00",
+    "source_type": "news",
+    "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Exposed GitLab project email addresses let attackers push code",
+    "url": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+    "published_date": "2026-09-24T17:47:44+00:00",
+    "source_type": "news",
+    "summary": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
+    "url": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
+    "published_date": "2026-09-24T14:02:12+00:00",
+    "source_type": "news",
+    "summary": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous, automated compliance validation. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
+    "published_date": "2026-09-24T13:27:57+00:00",
+    "source_type": "news",
+    "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
+    "published_date": "2026-09-24T12:16:32+00:00",
+    "source_type": "news",
+    "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+    "published_date": "2026-09-24T10:42:37+00:00",
+    "source_type": "news",
+    "summary": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
+    "feed_source": "https://www.bleepingcomputer.com/feed/",
+    "publisher": "BleepingComputer",
+    "source_note": ""
+  },
+  {
+    "title": "‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
+    "url": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+    "published_date": "2026-09-25T09:27:51+00:00",
+    "source_type": "news",
+    "summary": "<p>Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/\">&#8216;SalesBleed&#8217; Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Roundcube Webmail Vulnerability in Attackers’ Crosshairs",
+    "url": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
+    "published_date": "2026-09-25T06:57:40+00:00",
+    "source_type": "news",
+    "summary": "<p>Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication.</p>\n<p>The post <a href=\"https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/\">Roundcube Webmail Vulnerability in Attackers’ Crosshairs</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Autonomous AI Hacks Raise Thorny Questions of Legal Accountability",
+    "url": "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/",
+    "published_date": "2026-09-24T20:35:21+00:00",
+    "source_type": "news",
+    "summary": "<p>The prospect of legal accountability is unclear. Lawsuits are a possibility, but some legal experts believe any criminal investigations would face an extremely high burden.</p>\n<p>The post <a href=\"https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/\">Autonomous AI Hacks Raise Thorny Questions of Legal Accountability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Kontext Security Emerges With $4 Million for AI Agent Runtime Controls",
+    "url": "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/",
+    "published_date": "2026-09-24T15:52:00+00:00",
+    "source_type": "news",
+    "summary": "<p>The startup’s runtime enforcement platform evaluates AI agents in real time to provide visibility and control over their actions.</p>\n<p>The post <a href=\"https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/\">Kontext Security Emerges With $4 Million for AI Agent Runtime Controls</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data",
+    "url": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
+    "published_date": "2026-09-24T14:43:13+00:00",
+    "source_type": "news",
+    "summary": "<p>Australia disclosed that an OpenAI agent gained unauthorized access to non-public government information.</p>\n<p>The post <a href=\"https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/\">OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "AI-Powered Campaign Targets Hundreds of Online Retailers",
+    "url": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
+    "published_date": "2026-09-24T12:48:14+00:00",
+    "source_type": "news",
+    "summary": "<p>A threat actor is using three AI harnesses for vulnerability research, exploitation, and attack orchestration.</p>\n<p>The post <a href=\"https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/\">AI-Powered Campaign Targets Hundreds of Online Retailers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Island Raises $400 Million at $6.4 Billion Valuation",
+    "url": "https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/",
+    "published_date": "2026-09-24T11:39:09+00:00",
+    "source_type": "news",
+    "summary": "<p>The enterprise security firm has raised more than $1 billion since its launch in 2020; Evolution Equity Partners led the latest funding round. </p>\n<p>The post <a href=\"https://www.securityweek.com/island-raises-400-million-at-6-4-billion-valuation/\">Island Raises $400 Million at $6.4 Billion Valuation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators",
+    "url": "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/",
+    "published_date": "2026-09-24T11:05:16+00:00",
+    "source_type": "news",
+    "summary": "<p>Revision 4 of NIST’s operational technology security guide is open for public comments until November 30.</p>\n<p>The post <a href=\"https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/\">OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Begin at the End: How to Enable Agentic Remediation",
+    "url": "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/",
+    "published_date": "2026-09-24T11:00:00+00:00",
+    "source_type": "news",
+    "summary": "<p>Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk. </p>\n<p>The post <a href=\"https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/\">Begin at the End: How to Enable Agentic Remediation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted",
+    "url": "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
+    "published_date": "2026-09-24T10:40:40+00:00",
+    "source_type": "news",
+    "summary": "<p>The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication.</p>\n<p>The post <a href=\"https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/\">SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "feed_source": "https://www.securityweek.com/feed/",
+    "publisher": "SecurityWeek",
+    "source_note": ""
+  },
+  {
+    "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+    "published_date": "2026-09-25T10:14:02+00:00",
+    "source_type": "news",
+    "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild.\n\nThe vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1.\n\nThe issue stems from a preg_replace() backslash",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+    "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+    "published_date": "2026-09-25T04:49:22+00:00",
+    "source_type": "news",
+    "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.\n\nThe data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker could not choose whose data they got,&nbsp;according to Cloudflare. The company",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+    "published_date": "2026-09-25T04:46:34+00:00",
+    "source_type": "news",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in&nbsp; WSO2 API Control Plane,",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+    "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+    "published_date": "2026-09-24T18:10:18+00:00",
+    "source_type": "news",
+    "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus's own software&nbsp;to gain root access, the highest level of control over an Android phone.\n\nOnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+    "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+    "published_date": "2026-09-24T17:52:43+00:00",
+    "source_type": "news",
+    "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.\n\nThat is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+    "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+    "published_date": "2026-09-24T15:27:32+00:00",
+    "source_type": "news",
+    "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.\n\n\"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,\" Manifold Security's Head of Research, Ax Sharma, said. \"Unlike 'example[.]com,' third-party[.]com",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+    "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+    "published_date": "2026-09-24T14:29:06+00:00",
+    "source_type": "news",
+    "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic.\n\n\"When a visitor interacts with the page, the lure copies a Windows Installer command to the clipboard and instructs the visitor to paste it into the",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+    "url": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+    "published_date": "2026-09-24T12:05:27+00:00",
+    "source_type": "news",
+    "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM.\n\nAccording to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that's dressed up as a system service. The delivered app has the package name \"com.corp.mdm\"\n\nCorp MDM",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+    "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+    "published_date": "2026-09-24T11:00:00+00:00",
+    "source_type": "news",
+    "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the rate of human-written ones. Most of the fastest-growing categories of leaked credentials are now connected to AI",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+    "url": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
+    "published_date": "2026-09-24T09:14:21+00:00",
+    "source_type": "news",
+    "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructure and a state-sponsored user base, and explains why blocking malicious domains is no longer a useful defense.\n\nRead",
+    "feed_source": "https://feeds.feedburner.com/TheHackersNews",
+    "publisher": "The Hacker News",
+    "source_note": ""
+  },
+  {
+    "title": "Digital forensics firm with US federal contracts covered up ties to Russia, DOJ alleges",
+    "url": "https://therecord.media/russia-forensics-technology-doj",
+    "published_date": "2026-09-24T20:30:00+00:00",
+    "source_type": "news",
+    "summary": "Two executives at a data extraction and digital forensics company that sold several U.S. agencies its software were arrested for allegedly lying about the fact that its technology is made in Russia.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks",
+    "url": "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules",
+    "published_date": "2026-09-24T20:15:00+00:00",
+    "source_type": "news",
+    "summary": "U.S. Sens. Mark Warner (D-VA) and Ted Cruz (R-TX) introduced the Telecommunications Cybersecurity and Resilience Act on Thursday, arguing that the new effort was necessary in light of the Salt Typhoon attacks which saw Chinese hackers breach nearly all of the major telecommunications giants in the U.S.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Rydox cybercriminal marketplace operator pleads guilty following co-conspirator brothers’s deportation",
+    "url": "https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty",
+    "published_date": "2026-09-24T18:57:00+00:00",
+    "source_type": "news",
+    "summary": "Ardit Kutleshi, 28, was extradited from his home country of Kosovo last year after prosecutors accused him and his older brother of running Rydox — an illicit platform used by cybercriminals to sell stolen personal information, illegal access to devices and other tools for carrying out fraud.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Kyiv internet providers report major outages after Russian attacks damage data centers",
+    "url": "https://therecord.media/kyiv-internet-providers-report-outages-after-russian-strikes",
+    "published_date": "2026-09-24T13:30:00+00:00",
+    "source_type": "news",
+    "summary": "At least four internet providers serving Kyiv and other parts of Ukraine suffered partial connectivity losses following Wednesday’s drone attack, according to internet monitoring group NetBlocks.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "Astrana latest healthcare tech firm to report data breach to SEC",
+    "url": "https://therecord.media/astrana-cyberattack-sec-ransomware",
+    "published_date": "2026-09-24T13:15:00+00:00",
+    "source_type": "news",
+    "summary": "The healthcare firm Astrana warned regulators that hackers accessed confidential information by impersonating company personnel.",
+    "feed_source": "https://therecord.media/feed",
+    "publisher": "The Record from Recorded Future News",
+    "source_note": ""
+  },
+  {
+    "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: Proactive Security Platforms, Q3 2026",
+    "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/",
+    "published_date": "2026-09-24T05:00:00+00:00",
+    "source_type": "research",
+    "summary": "",
+    "feed_source": "https://www.crowdstrike.com/blog/feed/",
+    "publisher": "Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Trust and the enticing consultancy offer",
+    "url": "https://blog.talosintelligence.com/trust-and-the-enticing-consultancy-offer/",
+    "published_date": "2026-09-24T18:00:37+00:00",
+    "source_type": "research",
+    "summary": "In this week’s newsletter Martin muses over a very suspicious elicitation over social media and the true value of trust within the cyber ecosystem. Hubris might be the real vulnerability that the cyber industry must worry about.",
+    "feed_source": "https://blog.talosintelligence.com/rss/",
+    "publisher": "Cisco Talos Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+    "published_date": "2026-09-24T16:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/\">Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "​​​​​​​​What’s new in Microsoft Security: September 2026​​",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
+    "published_date": "2026-09-24T16:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p>This month's updates help you discover and control local AI agents, extend Zero Trust to agent traffic, and strengthen SOC foundations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/\">​​​​​​​​What’s new in Microsoft Security: September 2026​​</a> appeared first on <a href=\"https://www.microsoft.com/en-us/security/blog\">Microsoft Security Blog</a>.</p>",
+    "feed_source": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "publisher": "Microsoft Security Blog",
+    "source_note": ""
+  },
+  {
+    "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
+    "url": "https://isc.sans.edu/diary/rss/33368",
+    "published_date": "2026-09-25T06:45:47+00:00",
+    "source_type": "operational",
+    "summary": "Introduction&#xd;",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "ISC Stormcast For Friday, September 25th, 2026 https://isc.sans.edu/podcastdetail/10110, (Fri, Sep 25th)",
+    "url": "https://isc.sans.edu/diary/rss/33370",
+    "published_date": "2026-09-25T03:45:12+00:00",
+    "source_type": "operational",
+    "summary": "",
+    "feed_source": "https://isc.sans.edu/rssfeed.xml",
+    "publisher": "SANS Internet Storm Center, InfoCON: green",
+    "source_note": ""
+  },
+  {
+    "title": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-118-aws/",
+    "published_date": "2026-09-24T19:17:16+00:00",
+    "source_type": "vendor",
+    "summary": "<p><b>Bulletin ID:</b> 2026-118-AWS\n <br />\n <b>Scope:</b> AWS\n <br />\n <b>Content Type:</b> Important (requires attention)\n <br />\n <b>Publication Date:</b> 09/24/2026 12:00 PM PDT</p>\n<p><b>Description:</b></p>\n<p>pgcollection is an open source extension to PostgreSQL. We identified CVE-2026-96883, an issue in pgcollection's type coercion logic. When requesting a stored icollection value as a type incompatible with how it was actually stored causes the extension to misinterprets the datum's representation, allowing an authenticated database user to crash the PostgreSQL backend or execute arbitrary code.</p>\n<p><b>Impacted versions:</b> pgcollection v2.0.0 through v2.1.1</p>\n<p><b>Please refer to the article below for the most up-to-date and complete information related to this AWS Security Bulletin.</b></p>\n<p><a href=\"https://aws.amazon.com/security/security-bulletins/2026-118-aws/\">View article</a></p>",
+    "feed_source": "https://aws.amazon.com/security/security-bulletins/feed/",
+    "publisher": "Latest Bulletins",
+    "source_note": ""
+  },
+  {
+    "title": "When Business Email Compromise Starts Rewriting Reality",
+    "url": "https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve",
+    "published_date": "2026-09-24T13:00:00+00:00",
+    "source_type": "research",
+    "summary": "<p><span style=\"color: rgb(29, 28, 29); font-size: undefined;\">Business Email Compromise (BEC) operates on a familiar playbook. Threat actors breach a mailbox, silently monitor operations, map approval chains, and ultimately exploit that access to divert funds or exfiltrate sensitive assets.</span></p><p style=\"direction: ltr;\"><span style=\"color: rgb(29, 28, 29); font-size: undefined;\">This dynamic is central to our analysis as we kick off a series around Rapid7's collaborative research with Zimbra; upcoming installments will explore technical details and broader findings based within the Zimbra Collaboration Suite. Our investigation disrupted the traditional BEC model in unexpected ways. We uncovered over 50 vulnerabilities, and found that several allow attackers not just to observe environments, but to actively rewrite them by impersonating senders without credentials, controlling inbox visibility, and altering shared documents and calendars.</span></p><h2><span style=\"color: rgb(29, 28, 29); font-size: undefined;\">Business Email Compromise in action: Digital abuse of trust</span></h2><p style=\"direction: ltr;\"><span style=\"color: rgb(29, 28, 29); font-size: undefined;\">None of ",
+    "feed_source": "https://www.rapid7.com/blog/rss/",
+    "publisher": "Rapid7 Cybersecurity Blog",
+    "source_note": ""
+  },
+  {
+    "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+    "url": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-chromeos_01638908712.html",
+    "published_date": "2026-09-24T23:11:16.171000+00:00",
+    "source_type": "vendor",
+    "summary": "<p><span>The Stable channel is being updated to OS version 16765.51.0 (Browser version </span><span>152.0.7977.132</span><span>) for most ChromeOS devices.</span></p><p dir=\"ltr\"><span style=\"font-family: Arial, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">If you find new issues, please let us know one of the following ways:</span></p><p><span id=\"docs-internal-guid-c1ba22c3-7fff-ee9a-d166-2f57ca700f9e\"><br /></span></p><ol><li dir=\"ltr\" style=\"color: #222222; font-variant: normal; line-height: 32px; margin: 0px 0px 0.25em; padding: 0px; vertical-align: baseline; white-space: pre;\"><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><a href=\"https://bugs.chromium.org/p/chromium/issues/list\" style=\"color: #4184f3; text-decoration: none;\"><span style=\"color: #4a86e8; font-family: Arial, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">File a bug</span></a></p></li><li dir=\"ltr\" style=\"color: #222222; font-variant: normal; line-height: 32px; margin: 0px 0px 0.25em; padding: 0px; vertical-align: baseline; white-space: pre;\"><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin",
+    "feed_source": "https://chromereleases.googleblog.com/feeds/posts/default",
+    "publisher": "Google Chrome Releases",
+    "source_note": ""
+  },
+  {
+    "title": "How the GitGuardian Mixin Kit Extends Docker Sandboxes for Safer AI Coding",
+    "url": "https://blog.gitguardian.com/gitguardian-docker-sandbox-mixin-kit/",
+    "published_date": "2026-09-24T15:00:05+00:00",
+    "source_type": "vendor",
+    "summary": "Docker Sandboxes isolate AI coding agents from the host. The GitGuardian Mixin Kit adds ggshield and AI hooks to scan prompts, tool actions, and outputs for secrets, giving developers a safer, repeatable path for agentic coding.",
+    "feed_source": "https://blog.gitguardian.com/rss/",
+    "publisher": "GitGuardian Blog - Take Control of Your Secrets Security",
+    "source_note": ""
   }
 ]
