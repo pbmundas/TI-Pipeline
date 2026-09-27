@@ -757,56 +757,6 @@
       "Finance"
     ]
   },
-  "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html": {
-    "enriched_at": "2026-09-15T10:46:04.570491+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Not specified",
-        "aliases": [],
-        "motivation": "Financial fraud",
-        "recent_activity": "Using passkey phishing to hijack Microsoft cloud accounts",
-        "targets": [
-          "Microsoft cloud users"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Finance"
-    ]
-  },
-  "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html": {
-    "enriched_at": "2026-09-15T10:46:04.570491+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-42016",
-        "product": "JFrog Artifactory",
-        "vendor": "JFrog",
-        "severity": "HIGH",
-        "cvss": 8.1,
-        "description": "An incorrect authorization vulnerability",
-        "exploitation_status": "ACTIVELY EXPLOITED",
-        "remediation": "Not specified",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Finance"
-    ]
-  },
   "https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities/": {
     "enriched_at": "2026-09-15T10:52:36.935381+00:00",
     "incidents": [],
@@ -1461,14 +1411,6 @@
   },
   "https://github.com/fleetdm/fleet/releases/tag/orbit-v1.61.0": {
     "enriched_at": "2026-09-15T11:32:11.652193+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/Yamato-Security/hayabusa/releases/tag/v4.1.0": {
-    "enriched_at": "2026-09-15T11:32:55.520591+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],
@@ -11846,6 +11788,238 @@
     "enriched_at": "2026-09-26T10:36:31.366337+00:00",
     "incidents": [],
     "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/": {
+    "enriched_at": "2026-09-27T10:31:36.865497+00:00",
+    "incidents": [
+      {
+        "headline": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+        "summary": "ShinyHunters is exploiting a flaw in Oracle PeopleSoft using a URL-encoding trick to bypass web application firewall rules.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-35273",
+        "product": "Oracle PeopleSoft",
+        "vendor": "Oracle",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A flaw in Oracle PeopleSoft that is being exploited by ShinyHunters using a URL-encoding trick to bypass web application firewall rules.",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "ShinyHunters",
+        "aliases": [],
+        "motivation": "Extortion",
+        "recent_activity": "Exploiting Oracle PeopleSoft flaw using WAF bypass trick",
+        "targets": [
+          "Oracle PeopleSoft servers"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/": {
+    "enriched_at": "2026-09-27T10:31:36.865497+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/": {
+    "enriched_at": "2026-09-27T10:31:36.865497+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/": {
+    "enriched_at": "2026-09-27T10:31:36.865497+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/": {
+    "enriched_at": "2026-09-27T10:31:36.865497+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html": {
+    "enriched_at": "2026-09-27T10:31:36.865497+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise"
+    ]
+  },
+  "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html": {
+    "enriched_at": "2026-09-27T10:32:46.799492+00:00",
+    "incidents": [
+      {
+        "headline": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+        "summary": "Ontinue described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users, involving a fake CAPTCHA page and the use of the Lunex malware.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html": {
+    "enriched_at": "2026-09-27T10:32:46.799492+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-35273",
+        "product": "Oracle PeopleSoft",
+        "vendor": "Oracle",
+        "severity": "CRITICAL",
+        "cvss": 9.8,
+        "description": "A critical security flaw that could result in unauthenticated remote code execution.",
+        "exploitation_status": "RENEWED",
+        "remediation": "Patch the vulnerability",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "ShinyHunters",
+        "aliases": [],
+        "motivation": "Exploitation of known vulnerabilities",
+        "recent_activity": "Exploiting CVE-2026-35273",
+        "targets": [
+          "Multiple sectors globally"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html": {
+    "enriched_at": "2026-09-27T10:32:46.799492+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/27/week-in-review-gyazo-breach-exposes-23-6m-user-data-taskstomp-steals-documents/": {
+    "enriched_at": "2026-09-27T10:32:46.799492+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/": {
+    "enriched_at": "2026-09-27T10:32:46.799492+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-65660",
+        "product": "Microsoft SharePoint",
+        "vendor": "Microsoft",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A flaw that is now exploited in attacks.",
+        "exploitation_status": "RENEWED",
+        "remediation": "Patch the vulnerability",
+        "source_urls": [
+          "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/": {
+    "enriched_at": "2026-09-27T10:32:46.799492+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/": {
+    "enriched_at": "2026-09-27T10:33:24.287059+00:00",
+    "incidents": [
+      {
+        "headline": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
+        "summary": "A new Windows botnet, x47.c, uses AI to maintain persistence through xAI Grok.",
+        "source_urls": [
+          "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.tenable.com/blog/frequently-asked-questions-about-reported-citrix-netscaler-zero-day-vulnerabilities": {
+    "enriched_at": "2026-09-27T10:33:24.287059+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Citrix NetScaler",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Two unpatched zero-day vulnerabilities in Citrix NetScaler that enable remote code execution have been actively exploited.",
+        "exploitation_status": "ACTIVELY EXPLOITED",
+        "remediation": "No patches available at this time.",
+        "source_urls": [
+          "https://www.tenable.com/blog/frequently-asked-questions-about-reported-citrix-netscaler-zero-day-vulnerabilities"
+        ]
+      }
+    ],
     "actors": [],
     "hunting_indicators": [],
     "industries": []
