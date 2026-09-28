@@ -161,46 +161,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/": {
-    "enriched_at": "2026-09-15T10:32:17.304472+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/": {
-    "enriched_at": "2026-09-15T10:32:52.888127+00:00",
-    "incidents": [
-      {
-        "headline": "Revolut discloses data breach exposing financial info, passports",
-        "summary": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/": {
-    "enriched_at": "2026-09-15T10:32:52.888127+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/": {
-    "enriched_at": "2026-09-15T10:32:52.888127+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog": {
     "enriched_at": "2026-09-15T10:32:52.888127+00:00",
     "incidents": [],
@@ -274,14 +234,6 @@
     "industries": []
   },
   "https://therecord.media/revolut-scam-crypto-impersonation": {
-    "enriched_at": "2026-09-15T10:39:03.454799+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://therecord.media/nsa-reorganization-five-mission-centers": {
     "enriched_at": "2026-09-15T10:39:03.454799+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -540,31 +492,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://www.securityweek.com/cisos-race-to-control-ai-agents-without-destroying-their-value/": {
-    "enriched_at": "2026-09-15T10:44:22.779011+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/telus-warns-customers-of-account-breaches/": {
-    "enriched_at": "2026-09-15T10:44:22.779011+00:00",
-    "incidents": [
-      {
-        "headline": "Telus Warns Customers of Account Breaches",
-        "summary": "Stolen credentials were used in a multi-month campaign to access subscriber personal data and billing records.",
-        "source_urls": [
-          "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
-          "https://www.securityweek.com/the-race-to-control-ai-and-protect-what-makes-us-human/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html": {
     "enriched_at": "2026-09-15T10:44:22.779011+00:00",
     "incidents": [],
@@ -735,36 +662,6 @@
       "Finance"
     ]
   },
-  "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html": {
-    "enriched_at": "2026-09-15T10:46:04.570491+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens",
-        "context": "Leaked OAuth tokens from Twitch users",
-        "indicators": [
-          "Twitch Enhanced Viewer | JeetBot"
-        ],
-        "source_urls": [
-          "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
-        ]
-      }
-    ],
-    "industries": [
-      "Technology",
-      "Finance"
-    ]
-  },
-  "https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities/": {
-    "enriched_at": "2026-09-15T10:52:36.935381+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/": {
     "enriched_at": "2026-09-15T10:52:36.935381+00:00",
     "incidents": [
@@ -777,518 +674,6 @@
       }
     ],
     "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-702/": {
-    "enriched_at": "2026-09-15T10:55:01.957263+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2025-22050",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 7.1,
-        "description": "This vulnerability allows physically present attackers to escalate privileges on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-702/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-701/": {
-    "enriched_at": "2026-09-15T10:55:01.957263+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-64046",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "MEDIUM",
-        "cvss": 6.7,
-        "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-701/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-700/": {
-    "enriched_at": "2026-09-15T10:55:01.957263+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-22999",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "CRITICAL",
-        "cvss": 7.8,
-        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-700/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-699/": {
-    "enriched_at": "2026-09-15T10:55:01.957263+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "None",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "LOW",
-        "cvss": 5.2,
-        "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-697/",
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-698/",
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-699/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-698/": {
-    "enriched_at": "2026-09-15T10:55:01.957263+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "None",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "LOW",
-        "cvss": 5.2,
-        "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-697/",
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-698/",
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-699/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-697/": {
-    "enriched_at": "2026-09-15T10:55:01.957263+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "None",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "LOW",
-        "cvss": 5.2,
-        "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-697/",
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-698/",
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-699/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-696/": {
-    "enriched_at": "2026-09-15T10:57:07.803723+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-72196",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "CRITICAL",
-        "cvss": 8.8,
-        "description": "This vulnerability allows local attackers to execute arbitrary code on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-696/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-695/": {
-    "enriched_at": "2026-09-15T10:57:07.803723+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-89688",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "CRITICAL",
-        "cvss": 8.5,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel. Authentication is required to exploit this vulnerability. Furthermore, only systems with nfsd enabled are vulnerable.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel and ensure nfsd is not enabled if not necessary.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-695/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-694/": {
-    "enriched_at": "2026-09-15T10:57:07.803723+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-23413",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "CRITICAL",
-        "cvss": 8.2,
-        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-694/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-693/": {
-    "enriched_at": "2026-09-15T10:57:07.803723+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-89688",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "CRITICAL",
-        "cvss": 8.5,
-        "description": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel. Authentication is required to exploit this vulnerability. Furthermore, only systems with ksmbd enabled are vulnerable.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel and ensure ksmbd is not enabled if not necessary.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-693/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-692/": {
-    "enriched_at": "2026-09-15T10:57:07.803723+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-31583",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 7.1,
-        "description": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-692/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-691/": {
-    "enriched_at": "2026-09-15T10:57:07.803723+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-53182",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "CRITICAL",
-        "cvss": 8.2,
-        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "POC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-691/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-690/": {
-    "enriched_at": "2026-09-15T10:59:04.270495+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-45930",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "MEDIUM",
-        "cvss": 6.0,
-        "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "",
-        "remediation": "",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-690/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-689/": {
-    "enriched_at": "2026-09-15T10:59:04.270495+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-46227",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "MEDIUM",
-        "cvss": 6.4,
-        "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "",
-        "remediation": "",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-689/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-688/": {
-    "enriched_at": "2026-09-15T10:59:04.270495+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-74465",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 7.8,
-        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "",
-        "remediation": "",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-688/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-687/": {
-    "enriched_at": "2026-09-15T10:59:04.270495+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-80994",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "MEDIUM",
-        "cvss": 6.4,
-        "description": "This vulnerability allows local attackers to disclose sensitive information on affected installations of the Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "",
-        "remediation": "",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-687/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-686/": {
-    "enriched_at": "2026-09-15T10:59:04.270495+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-74565",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 7.8,
-        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "",
-        "remediation": "",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-686/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-685/": {
-    "enriched_at": "2026-09-15T10:59:04.270495+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2025-38416",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 8.8,
-        "description": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.",
-        "exploitation_status": "",
-        "remediation": "",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-685/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-684/": {
-    "enriched_at": "2026-09-15T11:00:40.865981+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-64397",
-        "product": "Linux Kernel KSMBD",
-        "vendor": "Linux",
-        "severity": "CRITICAL",
-        "cvss": 9.0,
-        "description": "Remote attackers can execute arbitrary code on affected installations of Linux Kernel KSMBD.",
-        "exploitation_status": "PUBLIC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-684/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-683/": {
-    "enriched_at": "2026-09-15T11:00:40.865981+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-72463",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 7.5,
-        "description": "Local attackers can escalate privileges on affected installations of Linux Kernel.",
-        "exploitation_status": "PUBLIC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-683/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-682/": {
-    "enriched_at": "2026-09-15T11:00:40.865981+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-43040",
-        "product": "Linux Kernel",
-        "vendor": "Linux",
-        "severity": "MEDIUM",
-        "cvss": 6.0,
-        "description": "Local attackers can disclose sensitive information on affected installations of Linux Kernel.",
-        "exploitation_status": "PUBLIC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-682/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-681/": {
-    "enriched_at": "2026-09-15T11:00:40.865981+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-64265",
-        "product": "Linux Kernel FUSE Subsystem",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 7.8,
-        "description": "Local attackers can escalate privileges on affected installations of Linux Kernel.",
-        "exploitation_status": "PUBLIC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-681/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://www.zerodayinitiative.com/advisories/ZDI-26-680/": {
-    "enriched_at": "2026-09-15T11:00:40.865981+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-31719",
-        "product": "Linux Kernel Crypto Subsystem",
-        "vendor": "Linux",
-        "severity": "HIGH",
-        "cvss": 8.8,
-        "description": "Local attackers can escalate privileges on affected installations of Linux Kernel.",
-        "exploitation_status": "PUBLIC",
-        "remediation": "Update to a patched version of the Linux Kernel.",
-        "source_urls": [
-          "http://www.zerodayinitiative.com/advisories/ZDI-26-680/"
-        ]
-      }
-    ],
     "actors": [],
     "hunting_indicators": [],
     "industries": []
@@ -1331,14 +716,6 @@
     "hunting_indicators": [],
     "industries": []
   },
-  "https://isc.sans.edu/diary/rss/33334": {
-    "enriched_at": "2026-09-15T11:20:21.545867+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://aws.amazon.com/security/security-bulletins/rss/2026-112-aws/": {
     "enriched_at": "2026-09-15T11:27:11.378264+00:00",
     "incidents": [
@@ -1372,22 +749,6 @@
   "https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive": {
     "enriched_at": "2026-09-15T11:29:11.983297+00:00",
     "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.rapid7.com/blog/post/etr-cve-2026-85706-critical-gitlab-path-traversal-exploited-in-the-wild": {
-    "enriched_at": "2026-09-15T11:29:11.983297+00:00",
-    "incidents": [
-      {
-        "headline": "CVE-2026-85706: Critical GitLab Path Traversal Exploited in the Wild",
-        "summary": "GitLab released a critical patch for CVE-2026-85706, a path traversal vulnerability in the repository commits API, with a CVSSv3.1 score of 10.0.",
-        "source_urls": [
-          "https://www.rapid7.com/blog/post/etr-cve-2026-85706-critical-gitlab-path-traversal-exploited-in-the-wild"
-        ]
-      }
-    ],
     "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
@@ -12020,6 +11381,542 @@
         ]
       }
     ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/": {
+    "enriched_at": "2026-09-28T10:31:40.477929+00:00",
+    "incidents": [
+      {
+        "headline": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+        "summary": "Bitget, a cryptocurrency exchange, resumed Bitcoin withdrawals after a suspected North Korean hack resulted in a $350 million theft.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Telecommunications"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/": {
+    "enriched_at": "2026-09-28T10:31:40.477929+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Former U.S. Army soldier",
+        "motivation": "Extortion",
+        "recent_activity": "Hacking and extorting at least 10 U.S. technology and telecom companies between April 2023 and December 2024",
+        "targets": [
+          "Tech and telecom firms"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Telecommunications"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/": {
+    "enriched_at": "2026-09-28T10:31:40.477929+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Telecommunications"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/": {
+    "enriched_at": "2026-09-28T10:31:40.477929+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Telecommunications"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/": {
+    "enriched_at": "2026-09-28T10:31:40.477929+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771, CVE-2026-88772",
+        "product": "Citrix NetScaler",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Two critical remote code execution vulnerabilities are being exploited in attacks.",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Security updates have been released to fix the flaws.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Telecommunications"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/": {
+    "enriched_at": "2026-09-28T10:31:40.477929+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Telecommunications"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/": {
+    "enriched_at": "2026-09-28T10:32:51.416908+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Cloud Storage"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/": {
+    "enriched_at": "2026-09-28T10:32:51.416908+00:00",
+    "incidents": [
+      {
+        "headline": "Citrix NetScaler RCE zero-days exploited globally for weeks",
+        "summary": "Citrix NetScaler ADC and NetScaler Gateway were exploited for weeks due to two zero-day vulnerabilities (CVE-2026-88771, CVE-2026-88772) that were actively exploited to plant webshells.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771",
+        "product": "Citrix NetScaler ADC",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "description": "A critical vulnerability in Citrix NetScaler ADC that was exploited in zero-day attacks.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/"
+        ]
+      },
+      {
+        "cve": "CVE-2026-88772",
+        "product": "Citrix NetScaler Gateway",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "description": "A critical vulnerability in Citrix NetScaler Gateway that was exploited in zero-day attacks.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Unknown",
+        "motivation": "Financial gain",
+        "recent_activity": "Exploiting zero-day vulnerabilities in Citrix NetScaler products",
+        "targets": [
+          "Citrix NetScaler ADC and Gateway users"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/28/citrix-netscaler-rce-zero-days-exploited-for-weeks-cve-2026-88771-cve-2026-88772/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Cloud Storage"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/28/us-army-soldier-snowflake-breaches-extortion/": {
+    "enriched_at": "2026-09-28T10:32:51.416908+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Cloud Storage"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/28/linkedin-profile-verification-features/": {
+    "enriched_at": "2026-09-28T10:32:51.416908+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Cloud Storage"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/28/chris-latimer-vectorize-agent-memory-security/": {
+    "enriched_at": "2026-09-28T10:32:51.416908+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Cloud Storage"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/28/authorizer-open-source-authentication-server/": {
+    "enriched_at": "2026-09-28T10:32:51.416908+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Cloud Storage"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/": {
+    "enriched_at": "2026-09-28T10:33:53.304477+00:00",
+    "incidents": [
+      {
+        "headline": "AI tests the limits of enterprise security governance",
+        "summary": "Enterprises are rethinking security governance and human accountability due to AI deployments. Organizations need to build governance into their systems and keep humans accountable for outcomes.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/28/product-showcase-verdict/": {
+    "enriched_at": "2026-09-28T10:33:53.304477+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/28/quantum-random-number-generator-qrng-guidance/": {
+    "enriched_at": "2026-09-28T10:33:53.304477+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/nvidia-unveils-ai-agent-safety-platform-with-hardware-based-watchdog/": {
+    "enriched_at": "2026-09-28T10:33:53.304477+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/kiteworks-urges-server-shutdown-finds-advanced-forms-vulnerability/": {
+    "enriched_at": "2026-09-28T10:33:53.304477+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/": {
+    "enriched_at": "2026-09-28T10:33:53.304477+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771",
+        "product": "NetScaler",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A critical vulnerability in NetScaler has been confirmed by Citrix.",
+        "exploitation_status": "Not specified",
+        "remediation": "Patches are available.",
+        "source_urls": [
+          "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/"
+        ]
+      },
+      {
+        "cve": "CVE-2026-88772",
+        "product": "NetScaler",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A critical vulnerability in NetScaler has been confirmed by Citrix.",
+        "exploitation_status": "Not specified",
+        "remediation": "Patches are available.",
+        "source_urls": [
+          "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway": {
+    "enriched_at": "2026-09-28T10:35:17.977681+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771",
+        "product": "Citrix NetScaler ADC and Gateway",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": 9.5,
+        "description": "An improper input validation vulnerability that could allow an unauthenticated attacker to",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Updating affected software and running a compromise assessment on those exposed on the internet.",
+        "source_urls": [
+          "https://cert.europa.eu/publications/security-advisories/2026-014/",
+          "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway"
+        ]
+      },
+      {
+        "cve": "CVE-2026-88772",
+        "product": "Citrix NetScaler ADC and Gateway",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "An improper restriction of operations within the bounds of a memory buffer vulnerability",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Updating affected software and running a compromise assessment on those exposed on the internet.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog": {
+    "enriched_at": "2026-09-28T10:35:17.977681+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771",
+        "product": "Citrix NetScaler ADC and Gateway",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": 9.5,
+        "description": "An improper input validation vulnerability that could allow an unauthenticated attacker to",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Updating affected software and running a compromise assessment on those exposed on the internet.",
+        "source_urls": [
+          "https://cert.europa.eu/publications/security-advisories/2026-014/",
+          "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway"
+        ]
+      },
+      {
+        "cve": "CVE-2026-88772",
+        "product": "Citrix NetScaler ADC and Gateway",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "An improper restriction of operations within the bounds of a memory buffer vulnerability",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Updating affected software and running a compromise assessment on those exposed on the internet.",
+        "source_urls": [
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html": {
+    "enriched_at": "2026-09-28T10:35:17.977681+00:00",
+    "incidents": [
+      {
+        "headline": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+        "summary": "The threat actor known as JADEPUFFER, tracked by Microsoft as Storm-3168, used compromised service principals to delete Azure resources in a destructive attack.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "JADEPUFFER",
+        "aliases": [],
+        "motivation": "Unknown",
+        "recent_activity": "Used compromised service principals to delete Azure resources in a destructive attack.",
+        "targets": [
+          "Microsoft Azure"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html": {
+    "enriched_at": "2026-09-28T10:35:17.977681+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771",
+        "product": "Citrix NetScaler ADC and Gateway",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": 9.5,
+        "description": "An improper input validation vulnerability that could allow an unauthenticated attacker to",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Updating affected software and running a compromise assessment on those exposed on the internet.",
+        "source_urls": [
+          "https://cert.europa.eu/publications/security-advisories/2026-014/",
+          "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.jpcert.or.jp/at/2026/at260029.html": {
+    "enriched_at": "2026-09-28T10:35:17.977681+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://cert.europa.eu/publications/security-advisories/2026-014/": {
+    "enriched_at": "2026-09-28T10:35:17.977681+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771",
+        "product": "Citrix NetScaler ADC and Gateway",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": 9.5,
+        "description": "An improper input validation vulnerability that could allow an unauthenticated attacker to",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Updating affected software and running a compromise assessment on those exposed on the internet.",
+        "source_urls": [
+          "https://cert.europa.eu/publications/security-advisories/2026-014/",
+          "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://isc.sans.edu/diary/rss/33374": {
+    "enriched_at": "2026-09-28T10:36:09.153956+00:00",
+    "incidents": [
+      {
+        "headline": "ISC Stormcast For Monday, September 28th, 2026",
+        "summary": "ISC Stormcast for Monday, September 28th, 2026, discusses various cybersecurity topics.",
+        "source_urls": [
+          "https://isc.sans.edu/diary/rss/33374"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://isc.sans.edu/diary/rss/33372": {
+    "enriched_at": "2026-09-28T10:36:09.153956+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.rapid7.com/blog/post/etr-zero-day-exploitation-of-citrix-netscaler-adc-and-gateway-cve-2026-88771-and-cve-2026-88772": {
+    "enriched_at": "2026-09-28T10:36:09.153956+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771, CVE-2026-88772",
+        "product": "Citrix NetScaler ADC and Gateway",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": 9.5,
+        "description": "Two critical remote code execution (RCE) vulnerabilities affecting NetScaler ADC and NetScaler Gateway, both actively exploited in the wild.",
+        "exploitation_status": "ACTIVELY EXPLOITED",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.rapid7.com/blog/post/etr-zero-day-exploitation-of-citrix-netscaler-adc-and-gateway-cve-2026-88771-and-cve-2026-88772"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/common-reasons-behind-will-and-trust-disputes-in-san-diego-estates/": {
+    "enriched_at": "2026-09-28T10:36:09.153956+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/5-ways-a-car-accident-lawyer-in-colorado-can-protect-your-claim/": {
+    "enriched_at": "2026-09-28T10:36:09.153956+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/how-driver-negligence-can-shape-bicycle-accident-claims-in-new-york-city-ny/": {
+    "enriched_at": "2026-09-28T10:36:09.153956+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.socinvestigation.com/7-questions-an-experienced-criminal-defense-attorney-may-ask-about-your-case/": {
+    "enriched_at": "2026-09-28T10:36:14.386068+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
     "actors": [],
     "hunting_indicators": [],
     "industries": []
