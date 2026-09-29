@@ -1,815 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/": {
-    "enriched_at": "2026-09-15T10:31:58.702447+00:00",
-    "incidents": [
-      {
-        "headline": "Suspected Black Axe gang leaders face cybercrime charges in the US",
-        "summary": "Five alleged leaders of the Black Axe cybercrime syndicate have been extradited to the US to face charges related to wire fraud and money laundering.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Black Axe",
-        "aliases": [],
-        "motivation": "Financial gain",
-        "recent_activity": "Global-scale cyber-enabled financial fraud",
-        "targets": [
-          "Global",
-          "Financial institutions"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance",
-      "Government"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/": {
-    "enriched_at": "2026-09-15T10:31:58.702447+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Microsoft Excel",
-        "vendor": "Microsoft",
-        "severity": "MEDIUM",
-        "cvss": null,
-        "description": "A security update (KB5002914) may cause copy and paste to fail for some users.",
-        "exploitation_status": null,
-        "remediation": "Install the security update.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance",
-      "Government"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/": {
-    "enriched_at": "2026-09-15T10:31:58.702447+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [
-      {
-        "title": "Cisco Secure Email Gateway zero-day",
-        "context": "Exploited in attacks",
-        "indicators": [
-          "Exploitation of Secure Email Gateway zero-day"
-        ],
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
-        ]
-      }
-    ],
-    "industries": [
-      "Finance",
-      "Government"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/": {
-    "enriched_at": "2026-09-15T10:31:58.702447+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance",
-      "Government"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/": {
-    "enriched_at": "2026-09-15T10:31:58.702447+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance",
-      "Government"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/": {
-    "enriched_at": "2026-09-15T10:31:58.702447+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Finance",
-      "Government"
-    ]
-  },
-  "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/": {
-    "enriched_at": "2026-09-15T10:32:17.304472+00:00",
-    "incidents": [
-      {
-        "headline": "Twitch extension with 30K installs exposes users’ OAuth tokens",
-        "summary": "A browser extension sends users' Twitch OAuth session tokens to a commercial bot service.",
-        "source_urls": [
-          "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/": {
-    "enriched_at": "2026-09-15T10:32:17.304472+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/": {
-    "enriched_at": "2026-09-15T10:32:17.304472+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/": {
-    "enriched_at": "2026-09-15T10:32:17.304472+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/": {
-    "enriched_at": "2026-09-15T10:32:17.304472+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog": {
-    "enriched_at": "2026-09-15T10:32:52.888127+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-76461",
-        "product": "Cisco Secure Email Gateway",
-        "vendor": "Cisco",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "SQL Injection Vulnerability",
-        "exploitation_status": "ACTIVE",
-        "remediation": "Prioritize rapid remediation based on BOD 26-04",
-        "source_urls": [
-          "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://therecord.media/members-of-black-axe-cybercrime-group-extradited-south-africa": {
-    "enriched_at": "2026-09-15T10:38:37.928778+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Black Axe",
-        "aliases": [],
-        "motivation": "Financial gain",
-        "recent_activity": "Extradition of members from South Africa",
-        "targets": [
-          "Individuals"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://therecord.media/members-of-black-axe-cybercrime-group-extradited-south-africa"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Commercial Facilities"
-    ]
-  },
-  "https://therecord.media/ukraine-malware-russia-ransomware": {
-    "enriched_at": "2026-09-15T10:38:37.928778+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Commercial Facilities"
-    ]
-  },
-  "https://therecord.media/hundreds-of-fake-gov-websites-central-asia-scam": {
-    "enriched_at": "2026-09-15T10:39:03.454799+00:00",
-    "incidents": [
-      {
-        "headline": "Hundreds of fake government websites target users in Central Asia",
-        "summary": "Fake government websites are designed to collect victims’ contact details for subsequent scams.",
-        "source_urls": [
-          "https://therecord.media/hundreds-of-fake-gov-websites-central-asia-scam"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://therecord.media/revolut-scam-crypto-impersonation": {
-    "enriched_at": "2026-09-15T10:39:03.454799+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/15/hbo-max-reddit-account-clickfix-infostealer-malware/": {
-    "enriched_at": "2026-09-15T10:39:03.454799+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/15/akuity-agentic-control-plane/": {
-    "enriched_at": "2026-09-15T10:39:03.454799+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/15/traefik-labs-sovereign-trust-plane/": {
-    "enriched_at": "2026-09-15T10:39:03.454799+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/15/product-showcase-msecure-password-manager/": {
-    "enriched_at": "2026-09-15T10:39:47.456150+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/15/onetrust-enterprise-ai-governance-trends-report/": {
-    "enriched_at": "2026-09-15T10:39:47.456150+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/15/gartner-ai-in-internal-audit/": {
-    "enriched_at": "2026-09-15T10:39:47.456150+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/15/homebrew-7-0-0-security-open-source/": {
-    "enriched_at": "2026-09-15T10:39:47.456150+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Homebrew",
-        "vendor": "Homebrew",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A vulnerability in Homebrew 6.9.9 allowed unsigned removal metadata for a cask to execute commands with sudo.",
-        "exploitation_status": "EXPLOITABLE",
-        "remediation": "Updated to Homebrew 7.0.0.",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/09/15/homebrew-7-0-0-security-open-source/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/15/apple-parental-controls-ios-27/": {
-    "enriched_at": "2026-09-15T10:39:47.456150+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/15/cybersecurity-jobs-available-right-now-september-15-2026/": {
-    "enriched_at": "2026-09-15T10:39:47.456150+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.helpnetsecurity.com/2026/09/14/entrust-cbom-capabilities/": {
-    "enriched_at": "2026-09-15T10:41:08.004280+00:00",
-    "incidents": [
-      {
-        "headline": "Entrust turns cryptographic inventory data into security action",
-        "summary": "Entrust has unveiled new capabilities for its Cryptographic Security Platform (CSP) that help organizations turn Cryptographic Bill of Materials (CBOMs) data into action.",
-        "source_urls": [
-          "https://www.helpnetsecurity.com/2026/09/14/entrust-cbom-capabilities/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government agencies",
-      "Financial institutions",
-      "Healthcare organizations",
-      "Critical infrastructure operators"
-    ]
-  },
-  "https://www.jpcert.or.jp/at/2026/at260027.html": {
-    "enriched_at": "2026-09-15T10:41:08.004280+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-76461",
-        "product": "Cisco Secure Email Gateway",
-        "vendor": "Cisco",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "SQL Injection vulnerability",
-        "exploitation_status": "Not specified",
-        "remediation": "Not specified",
-        "source_urls": [
-          "https://www.jpcert.or.jp/at/2026/at260027.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Government agencies",
-      "Financial institutions",
-      "Healthcare organizations",
-      "Critical infrastructure operators"
-    ]
-  },
-  "https://www.securityweek.com/microsoft-ai-code-of-conduct-sets-cyberattack-boundaries-chain-of-command-safety-constraints/": {
-    "enriched_at": "2026-09-15T10:43:20.942268+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/hacked-hbo-reddit-account-used-for-malware-delivery-via-clickfix-attack/": {
-    "enriched_at": "2026-09-15T10:43:20.942268+00:00",
-    "incidents": [
-      {
-        "headline": "Hacked HBO Max Reddit Account Used for Malware Delivery via ClickFix Attack",
-        "summary": "Ads led to a ClickFix page designed to trick macOS and Windows users into installing malware.",
-        "source_urls": [
-          "https://www.securityweek.com/hacked-hbo-reddit-account-used-for-malware-delivery-via-clickfix-attack/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/": {
-    "enriched_at": "2026-09-15T10:43:20.942268+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-76461",
-        "product": "Cisco Secure Email Gateway",
-        "vendor": "Cisco",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "An unauthenticated attacker can exploit this vulnerability to execute arbitrary commands on the underlying OS with root privileges.",
-        "exploitation_status": "ACTIVE",
-        "remediation": "Not specified in the article",
-        "source_urls": [
-          "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/beijing-hits-back-at-anthropic-ceos-call-to-curb-chinas-ai-development/": {
-    "enriched_at": "2026-09-15T10:43:20.942268+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/": {
-    "enriched_at": "2026-09-15T10:43:20.942268+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/": {
-    "enriched_at": "2026-09-15T10:43:20.942268+00:00",
-    "incidents": [
-      {
-        "headline": "Personal, Financial Info Exposed in Revolut Data Breach",
-        "summary": "The company unintentionally disclosed users’ information to a third party impersonating a government agency.",
-        "source_urls": [
-          "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/the-race-to-control-ai-and-protect-what-makes-us-human/": {
-    "enriched_at": "2026-09-15T10:44:22.779011+00:00",
-    "incidents": [
-      {
-        "headline": "Telus Warns Customers of Account Breaches",
-        "summary": "Stolen credentials were used in a multi-month campaign to access subscriber personal data and billing records.",
-        "source_urls": [
-          "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
-          "https://www.securityweek.com/the-race-to-control-ai-and-protect-what-makes-us-human/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/": {
-    "enriched_at": "2026-09-15T10:44:22.779011+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [
-      {
-        "name": "Chinese Hackers",
-        "aliases": [],
-        "motivation": "Exploitation of critical software flaws",
-        "recent_activity": "Exploiting a critical flaw in a Chinese-language input method editor for Windows",
-        "targets": [
-          "Windows users"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html": {
-    "enriched_at": "2026-09-15T10:44:22.779011+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "LiteSpeed Web Server Enterprise",
-        "vendor": "LiteSpeed Technologies",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server.",
-        "exploitation_status": "POSSIBLE",
-        "remediation": "Not specified",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html": {
-    "enriched_at": "2026-09-15T10:44:22.779011+00:00",
-    "incidents": [],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-76461",
-        "product": "Cisco Secure Email Gateway",
-        "vendor": "Cisco",
-        "severity": "CRITICAL",
-        "cvss": 9.8,
-        "description": "A critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability carries a CVSS score of 9.8 out of a maximum of 10.0.",
-        "exploitation_status": "ACTIVE",
-        "remediation": "Not specified",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html": {
-    "enriched_at": "2026-09-15T10:45:11.347302+00:00",
-    "incidents": [
-      {
-        "headline": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
-        "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Google Chrome, Microsoft Windows",
-        "vendor": "Google, Microsoft",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "Recently patched security flaws in Google Chrome and Microsoft Windows are exploited to deliver a malicious JavaScript backdoor.",
-        "exploitation_status": "Exploited in the wild",
-        "remediation": "Patched",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html"
-        ]
-      }
-    ],
-    "actors": [
-      {
-        "name": "UTA0560",
-        "aliases": [],
-        "motivation": "Espionage",
-        "recent_activity": "Exploiting Chrome-Windows zero-day chain to deploy GRIMWEDGE",
-        "targets": [
-          "Non-governmental organizations"
-        ],
-        "ttps": [],
-        "source_urls": [
-          "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html"
-        ]
-      }
-    ],
-    "hunting_indicators": [],
-    "industries": [
-      "Non-governmental organizations"
-    ]
-  },
-  "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html": {
-    "enriched_at": "2026-09-15T10:45:11.347302+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Non-governmental organizations"
-    ]
-  },
-  "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html": {
-    "enriched_at": "2026-09-15T10:45:11.347302+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Non-governmental organizations"
-    ]
-  },
-  "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html": {
-    "enriched_at": "2026-09-15T10:45:11.347302+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Non-governmental organizations"
-    ]
-  },
-  "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html": {
-    "enriched_at": "2026-09-15T10:45:11.347302+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Non-governmental organizations"
-    ]
-  },
-  "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html": {
-    "enriched_at": "2026-09-15T10:45:11.347302+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Non-governmental organizations"
-    ]
-  },
-  "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html": {
-    "enriched_at": "2026-09-15T10:46:04.570491+00:00",
-    "incidents": [
-      {
-        "headline": "Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
-        "summary": "Attackers are using AI to speed up exploits, test defenses, and automate more of the job. Old bugs and weak defaults are still being exploited.",
-        "source_urls": [
-          "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Finance"
-    ]
-  },
-  "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html": {
-    "enriched_at": "2026-09-15T10:46:04.570491+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Technology",
-      "Finance"
-    ]
-  },
-  "https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/": {
-    "enriched_at": "2026-09-15T10:52:36.935381+00:00",
-    "incidents": [
-      {
-        "headline": "IDScan.net Data Breach",
-        "summary": "IDScan.net, a US identity verification provider, disclosed a data breach after detecting unauthorized access on September 1. Exposed data included names and government identification numbers.",
-        "source_urls": [
-          "https://research.checkpoint.com/2026/14th-september-threat-intelligence-report/"
-        ]
-      }
-    ],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://isc.sans.edu/diary/rss/33338": {
-    "enriched_at": "2026-09-15T11:20:21.545867+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://isc.sans.edu/diary/rss/33336": {
-    "enriched_at": "2026-09-15T11:20:21.545867+00:00",
-    "incidents": [
-      {
-        "headline": "Apple Updates Everything",
-        "summary": "Apple released updates for all its operating systems, patching 261 vulnerabilities.",
-        "source_urls": [
-          "https://isc.sans.edu/diary/rss/33336"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": null,
-        "product": "Apple products",
-        "vendor": "Apple",
-        "severity": "CRITICAL",
-        "cvss": null,
-        "description": "261 vulnerabilities were patched by Apple.",
-        "exploitation_status": null,
-        "remediation": null,
-        "source_urls": [
-          "https://isc.sans.edu/diary/rss/33336"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/security/security-bulletins/rss/2026-112-aws/": {
-    "enriched_at": "2026-09-15T11:27:11.378264+00:00",
-    "incidents": [
-      {
-        "headline": "Incorrect privilege assignment in Temporary Elevated Access Management (TEAM) for AWS IAM Identity Center",
-        "summary": "An authenticated user with application-level access could gain unintended temporary elevated access to AWS accounts managed by TEAM.",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-112-aws/"
-        ]
-      }
-    ],
-    "vulnerabilities": [
-      {
-        "cve": "CVE-2026-86830",
-        "product": "Temporary Elevated Access Management (TEAM) for AWS IAM Identity Center",
-        "vendor": "AWS",
-        "severity": "MEDIUM",
-        "cvss": null,
-        "description": "An authenticated user with application-level access could gain unintended temporary elevated access to AWS accounts managed by TEAM.",
-        "exploitation_status": "POC",
-        "remediation": "Upgrade to version 1.5.1 or later.",
-        "source_urls": [
-          "https://aws.amazon.com/security/security-bulletins/rss/2026-112-aws/"
-        ]
-      }
-    ],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive": {
-    "enriched_at": "2026-09-15T11:29:11.983297+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://aws.amazon.com/blogs/security/aws-security-reference-architecture-a-deep-dive-into-pci-dss-compliance/": {
-    "enriched_at": "2026-09-15T11:30:28.122525+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update_0255795644.html": {
-    "enriched_at": "2026-09-15T11:30:58.041051+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/fleetdm/fleet/releases/tag/orbit-v1.61.0": {
-    "enriched_at": "2026-09-15T11:32:11.652193+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/wazuh/wazuh/releases/tag/v4.10.5": {
-    "enriched_at": "2026-09-15T11:32:55.520591+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/falcosecurity/falco/releases/tag/0.45.0-rc3": {
-    "enriched_at": "2026-09-15T11:33:19.698898+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/zeek/zeek/releases/tag/v9.0.0": {
-    "enriched_at": "2026-09-15T11:33:19.698898+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
-  "https://github.com/OISF/suricata/releases/tag/suricata-8.0.7": {
-    "enriched_at": "2026-09-15T11:33:19.698898+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": []
-  },
   "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies": {
     "enriched_at": "2026-09-16T10:33:24.876267+00:00",
     "incidents": [
@@ -2121,16 +1310,6 @@
     ]
   },
   "https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/": {
-    "enriched_at": "2026-09-16T10:55:19.929731+00:00",
-    "incidents": [],
-    "vulnerabilities": [],
-    "actors": [],
-    "hunting_indicators": [],
-    "industries": [
-      "Russian companies"
-    ]
-  },
-  "https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/": {
     "enriched_at": "2026-09-16T10:55:19.929731+00:00",
     "incidents": [],
     "vulnerabilities": [],
@@ -11915,6 +11094,1016 @@
   },
   "https://www.socinvestigation.com/7-questions-an-experienced-criminal-defense-attorney-may-ask-about-your-case/": {
     "enriched_at": "2026-09-28T10:36:14.386068+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/": {
+    "enriched_at": "2026-09-29T10:31:56.786615+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Kiteworks systems",
+        "vendor": "Kiteworks",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Kiteworks patched a critical vulnerability that required customers to shut down systems.",
+        "exploitation_status": null,
+        "remediation": "Patched",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Transportation",
+      "Automotive"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/": {
+    "enriched_at": "2026-09-29T10:31:56.786615+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "iOS devices",
+        "vendor": "Apple",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Apple released security updates to fix a zero-day vulnerability exploited in 'extremely sophisticated' targeted attacks on iOS devices.",
+        "exploitation_status": "EXPLOITED_IN_THE_WILD",
+        "remediation": "Security updates released",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Transportation",
+      "Automotive"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/": {
+    "enriched_at": "2026-09-29T10:31:56.786615+00:00",
+    "incidents": [
+      {
+        "headline": "Japan's Keio confirms ransomware attack disrupted business systems",
+        "summary": "Keio Corporation, a major private railway operator in Japan, confirmed that its network was hit by a ransomware attack over the weekend, disrupting some of its business systems.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Transportation",
+      "Automotive"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/": {
+    "enriched_at": "2026-09-29T10:31:56.786615+00:00",
+    "incidents": [
+      {
+        "headline": "Times Car confirms data breach affecting 6.6 million user accounts",
+        "summary": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late last week.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Transportation",
+      "Automotive"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/": {
+    "enriched_at": "2026-09-29T10:31:56.786615+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "ShinyHunters",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Hacking investigation",
+        "targets": [
+          "Various",
+          "Supabase databases"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Transportation",
+      "Automotive"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/": {
+    "enriched_at": "2026-09-29T10:31:56.786615+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Misconfigured Supabase databases",
+        "context": "Exposing PII, passwords, auth tokens",
+        "indicators": [
+          "Over 16,000 Supabase databases exposed PII, passwords, auth tokens"
+        ],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/"
+        ]
+      }
+    ],
+    "industries": [
+      "Transportation",
+      "Automotive"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/": {
+    "enriched_at": "2026-09-29T10:32:44.171820+00:00",
+    "incidents": [
+      {
+        "headline": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+        "summary": "JadePuffer ransomware operator targets Azure tenants with agent-driven attacks.",
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "JadePuffer",
+        "aliases": [],
+        "motivation": "Financial gain",
+        "recent_activity": "Targeting Azure tenants with agent-driven attacks.",
+        "targets": [
+          "Azure tenants"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Finance",
+      "Government"
+    ]
+  },
+  "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/": {
+    "enriched_at": "2026-09-29T10:32:44.171820+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Stolen AI Logins",
+        "context": "Infostealer logs exposed AI account credentials and sessions.",
+        "indicators": [
+          "AI account credentials",
+          "Stolen AI logins"
+        ],
+        "source_urls": [
+          "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/"
+        ]
+      }
+    ],
+    "industries": [
+      "Technology",
+      "Finance",
+      "Government"
+    ]
+  },
+  "https://www.welivesecurity.com/en/business-security/devil-email-wearing-new-mask/": {
+    "enriched_at": "2026-09-29T10:32:44.171820+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Finance",
+      "Government"
+    ]
+  },
+  "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant": {
+    "enriched_at": "2026-09-29T10:32:44.171820+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Oracle PeopleSoft",
+        "vendor": "Oracle",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A vulnerability is being exploited by the ShinyHunters hacking group.",
+        "exploitation_status": "In use by ShinyHunters",
+        "remediation": "Not specified",
+        "source_urls": [
+          "https://therecord.media/shinyhunters-cyberattacks-oracle-mandiant"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Finance",
+      "Government"
+    ]
+  },
+  "https://therecord.media/facebook-new-mexico-privacy": {
+    "enriched_at": "2026-09-29T10:32:44.171820+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Finance",
+      "Government"
+    ]
+  },
+  "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug": {
+    "enriched_at": "2026-09-29T10:32:44.171820+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Technology",
+      "Finance",
+      "Government"
+    ]
+  },
+  "https://therecord.media/poland-cyberattack-medical-medyc": {
+    "enriched_at": "2026-09-29T10:33:44.599011+00:00",
+    "incidents": [
+      {
+        "headline": "Cyberattack on Polish medical software provider exposes patient data",
+        "summary": "Hackers stole personal data from a Polish healthcare software provider.",
+        "source_urls": [
+          "https://therecord.media/poland-cyberattack-medical-medyc"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "healthcare"
+    ]
+  },
+  "https://therecord.media/hacker-telecom-army-sentenced": {
+    "enriched_at": "2026-09-29T10:33:44.599011+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Former US soldier",
+        "motivation": "hacking, extorting",
+        "recent_activity": "hacking into several telecommunications companies and leaking sensitive records",
+        "targets": [
+          "telecommunications companies"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://therecord.media/hacker-telecom-army-sentenced"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "healthcare"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/29/palo-alto-networks-nvidia-ai-agent-security/": {
+    "enriched_at": "2026-09-29T10:33:44.599011+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "healthcare"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/29/apple-core-graphics-zero-day-cve-2026-86950-fixed/": {
+    "enriched_at": "2026-09-29T10:33:44.599011+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-86950",
+        "product": "iOS",
+        "vendor": "Apple",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "An actively exploited zero-day vulnerability in the Core Graphics framework of iOS and macOS.",
+        "exploitation_status": "actively exploited",
+        "remediation": "Apple has shipped security updates to fix the issue.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/29/apple-core-graphics-zero-day-cve-2026-86950-fixed/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "healthcare"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/29/qbusoft-medyc-data-breach-poland/": {
+    "enriched_at": "2026-09-29T10:33:44.599011+00:00",
+    "incidents": [
+      {
+        "headline": "Hackers exploit SQL injection flaw to steal patient data from Polish medical software provider",
+        "summary": "Hackers stole patient data from Qbusoft, a Polish medical software maker, using an SQL injection flaw.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/29/qbusoft-medyc-data-breach-poland/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "healthcare"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/29/cloudflare-emdash-plugin-security/": {
+    "enriched_at": "2026-09-29T10:33:44.599011+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "healthcare"
+    ]
+  },
+  "https://www.helpnetsecurity.com/2026/09/29/anthropic-claude-sonnet-5-5/": {
+    "enriched_at": "2026-09-29T10:34:52.987551+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/29/github-ai-android-app-vulnerabilities/": {
+    "enriched_at": "2026-09-29T10:34:52.987551+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/29/vendor-concentration-risk-video/": {
+    "enriched_at": "2026-09-29T10:34:52.987551+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/29/hottest-cybersecurity-open-source-tools-of-the-month-september-2026/": {
+    "enriched_at": "2026-09-29T10:34:52.987551+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/29/cybersecurity-jobs-available-right-now-september-29-2026/": {
+    "enriched_at": "2026-09-29T10:34:52.987551+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/": {
+    "enriched_at": "2026-09-29T10:34:52.987551+00:00",
+    "incidents": [
+      {
+        "headline": "FBI job portals remain offline after ShinyHunters claims breach via PeopleSoft zero-day",
+        "summary": "The FBI's online portals for job applicants and special agent applicants are still unavailable following a compromise by the ShinyHunters cyber extortion group, who claimed to have used a PeopleSoft zero-day vulnerability.",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": null,
+        "product": "Oracle PeopleSoft",
+        "vendor": "Oracle",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A zero-day vulnerability in Oracle PeopleSoft was exploited by the ShinyHunters group to breach the FBI's job portals.",
+        "exploitation_status": "Exploited in the wild",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "ShinyHunters",
+        "aliases": [],
+        "motivation": "Cyber extortion",
+        "recent_activity": "Claimed to have breached the FBI's job portals using a PeopleSoft zero-day vulnerability.",
+        "targets": [
+          "FBI job portals"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.helpnetsecurity.com/2026/09/28/fbi-job-portals-offline-shinyhunters-breach/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.securityweek.com/daemon-tools-hackers-needymantis-malware-dissected-by-microsoft/": {
+    "enriched_at": "2026-09-29T10:35:40.001043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/": {
+    "enriched_at": "2026-09-29T10:35:40.001043+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-86950",
+        "product": "iOS and macOS",
+        "vendor": "Apple",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Apple patched a zero-day vulnerability.",
+        "exploitation_status": "PATCHED",
+        "remediation": "Apple released updates to patch the vulnerability.",
+        "source_urls": [
+          "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/modulate-raises-25-million-to-advance-deepfake-detection/": {
+    "enriched_at": "2026-09-29T10:35:40.001043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/call-for-presentations-open-for-2026-ciso-forum-virtual-summit/": {
+    "enriched_at": "2026-09-29T10:35:40.001043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/": {
+    "enriched_at": "2026-09-29T10:35:40.001043+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "Cameron John Wagenius",
+        "aliases": [],
+        "motivation": "Stealing information from wireless carriers",
+        "recent_activity": "Sentenced to 70 months in prison",
+        "targets": [
+          "AT&T",
+          "Verizon"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/": {
+    "enriched_at": "2026-09-29T10:35:40.001043+00:00",
+    "incidents": [
+      {
+        "headline": "DC Health Agency Exposes 400,000 Beneficiary Records",
+        "summary": "The Medicaid IDs and other information of Medicaid and DC Healthcare Alliance beneficiaries were exposed.",
+        "source_urls": [
+          "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Healthcare"
+    ]
+  },
+  "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/": {
+    "enriched_at": "2026-09-29T10:36:33.902947+00:00",
+    "incidents": [
+      {
+        "headline": "Google Warns of ShinyHunters’ Fresh Oracle PeopleSoft Campaign",
+        "summary": "Google warns of a new campaign by the ShinyHunters group targeting a PeopleSoft vulnerability (CVE-2026-35273).",
+        "source_urls": [
+          "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-35273",
+        "product": "PeopleSoft",
+        "vendor": "Oracle",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A vulnerability exploited by the ShinyHunters group in new attacks.",
+        "exploitation_status": "ACTIVE",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "ShinyHunters",
+        "aliases": [],
+        "motivation": "Extortion",
+        "recent_activity": "Exploiting a PeopleSoft vulnerability (CVE-2026-35273) in new attacks.",
+        "targets": [
+          "PeopleSoft users"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise software users"
+    ]
+  },
+  "https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/": {
+    "enriched_at": "2026-09-29T10:36:33.902947+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise software users"
+    ]
+  },
+  "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html": {
+    "enriched_at": "2026-09-29T10:36:33.902947+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise software users"
+    ]
+  },
+  "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html": {
+    "enriched_at": "2026-09-29T10:36:33.902947+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise software users"
+    ]
+  },
+  "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html": {
+    "enriched_at": "2026-09-29T10:36:33.902947+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise software users"
+    ]
+  },
+  "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html": {
+    "enriched_at": "2026-09-29T10:36:33.902947+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Enterprise software users"
+    ]
+  },
+  "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html": {
+    "enriched_at": "2026-09-29T10:37:33.617366+00:00",
+    "incidents": [
+      {
+        "headline": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+        "summary": "Apple released security updates to address a vulnerability in CoreGraphics that could lead to arbitrary code execution.",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html"
+        ]
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-86950",
+        "product": "iOS, iPadOS, macOS",
+        "vendor": "Apple",
+        "severity": "CRITICAL",
+        "cvss": 7.5,
+        "description": "Out-of-bounds write in CoreGraphics component",
+        "exploitation_status": "POSSIBLY EXPLOITED",
+        "remediation": "Update to the latest version",
+        "source_urls": [
+          "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Education",
+      "Healthcare",
+      "Nonprofit",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html": {
+    "enriched_at": "2026-09-29T10:37:33.617366+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "NeedyMantis",
+        "aliases": [],
+        "motivation": "Maintain long-term access in breached networks",
+        "recent_activity": "Targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors",
+        "targets": [
+          "Telecommunications organizations",
+          "Universities",
+          "Medical nonprofits",
+          "Intergovernmental organizations",
+          "Government contractors"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Education",
+      "Healthcare",
+      "Nonprofit",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/09/iam-for-ai-agent.html": {
+    "enriched_at": "2026-09-29T10:37:33.617366+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Education",
+      "Healthcare",
+      "Nonprofit",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html": {
+    "enriched_at": "2026-09-29T10:37:33.617366+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [
+      {
+        "title": "Bitget Attack Details",
+        "context": "Third-party security product flaw exploited",
+        "indicators": [
+          "High-level internal credentials",
+          "Fraudulent withdrawal commands"
+        ],
+        "source_urls": [
+          "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html"
+        ]
+      }
+    ],
+    "industries": [
+      "Telecommunications",
+      "Education",
+      "Healthcare",
+      "Nonprofit",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html": {
+    "enriched_at": "2026-09-29T10:37:33.617366+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Education",
+      "Healthcare",
+      "Nonprofit",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html": {
+    "enriched_at": "2026-09-29T10:37:33.617366+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Telecommunications",
+      "Education",
+      "Healthcare",
+      "Nonprofit",
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html": {
+    "enriched_at": "2026-09-29T10:38:51.280309+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html": {
+    "enriched_at": "2026-09-29T10:38:51.280309+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/": {
+    "enriched_at": "2026-09-29T10:38:51.280309+00:00",
+    "incidents": [
+      {
+        "headline": "OperTraitors: How Kubernetes Operators Betray Your Security Posture",
+        "summary": "A tool called OperTraitor is introduced to audit privileges of Kubernetes operators, identify excessive RBAC risks, and secure non-human identities.",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/": {
+    "enriched_at": "2026-09-29T10:38:51.280309+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771",
+        "product": "NetScaler",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A zero-day vulnerability has been exploited in the wild against NetScaler devices.",
+        "exploitation_status": "EXPLOITED_IN_THE_WILD",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/"
+        ]
+      },
+      {
+        "cve": "CVE-2026-88772",
+        "product": "NetScaler",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "A zero-day vulnerability has been exploited in the wild against NetScaler devices.",
+        "exploitation_status": "EXPLOITED_IN_THE_WILD",
+        "remediation": "Not specified in the article",
+        "source_urls": [
+          "https://unit42.paloaltonetworks.com/netscaler-zero-days-exploited/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/": {
+    "enriched_at": "2026-09-29T10:38:51.280309+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://research.checkpoint.com/2026/28th-september-threat-intelligence-report/": {
+    "enriched_at": "2026-09-29T10:38:51.280309+00:00",
+    "incidents": [
+      {
+        "headline": "28th September – Threat Intelligence Report",
+        "summary": "The FBI confirmed unauthorized activity on FBIjobs.gov after the ShinyHunters group defaced the website and claimed to have stolen employee and applicant information.",
+        "source_urls": [
+          "https://research.checkpoint.com/2026/28th-september-threat-intelligence-report/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [
+      {
+        "name": "ShinyHunters",
+        "aliases": [],
+        "motivation": "Steal sensitive information",
+        "recent_activity": "Defaced FBIjobs.gov and claimed to have stolen employee and applicant information.",
+        "targets": [
+          "FBIjobs.gov"
+        ],
+        "ttps": [],
+        "source_urls": [
+          "https://research.checkpoint.com/2026/28th-september-threat-intelligence-report/"
+        ]
+      }
+    ],
+    "hunting_indicators": [],
+    "industries": [
+      "Government"
+    ]
+  },
+  "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/": {
+    "enriched_at": "2026-09-29T10:39:42.499367+00:00",
+    "incidents": [
+      {
+        "headline": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+        "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations.",
+        "source_urls": [
+          "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/"
+        ]
+      }
+    ],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://blog.talosintelligence.com/securing-the-keys-to-the-kingdom-announcing-executive-threat-detection/": {
+    "enriched_at": "2026-09-29T10:39:42.499367+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://isc.sans.edu/diary/rss/33378": {
+    "enriched_at": "2026-09-29T10:39:42.499367+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://isc.sans.edu/diary/rss/33376": {
+    "enriched_at": "2026-09-29T10:39:42.499367+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-86950",
+        "product": "iOS 26, macOS 26, macOS 15",
+        "vendor": "Apple",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "Apple released emergency patches for iOS 26, macOS 26, and macOS 15 to address a vulnerability that is already being exploited.",
+        "exploitation_status": "ALREADY_EXPLOITATED",
+        "remediation": "Apply the emergency patches.",
+        "source_urls": [
+          "https://isc.sans.edu/diary/rss/33376"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://aws.amazon.com/blogs/security/aws-european-sovereign-cloud-demonstrating-an-independent-operation/": {
+    "enriched_at": "2026-09-29T10:39:42.499367+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "http://chromereleases.googleblog.com/2026/09/long-term-support-channel-update-for_0425600799.html": {
+    "enriched_at": "2026-09-29T10:39:42.499367+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://github.com/fleetdm/fleet/releases/tag/fleet-desktop-macos-v1.5.1": {
+    "enriched_at": "2026-09-29T10:40:23.162190+00:00",
+    "incidents": [],
+    "vulnerabilities": [],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.nextron-systems.com/2026/09/29/new-thor-detection-coverage-for-citrix-netscaler-cve-2026-88771-and-cve-2026-88772/": {
+    "enriched_at": "2026-09-29T10:40:23.162190+00:00",
+    "incidents": [],
+    "vulnerabilities": [
+      {
+        "cve": "CVE-2026-88771",
+        "product": "Citrix NetScaler",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "No detailed description provided in the text.",
+        "exploitation_status": "No information provided",
+        "remediation": "No information provided",
+        "source_urls": [
+          "https://www.nextron-systems.com/2026/09/29/new-thor-detection-coverage-for-citrix-netscaler-cve-2026-88771-and-cve-2026-88772/"
+        ]
+      },
+      {
+        "cve": "CVE-2026-88772",
+        "product": "Citrix NetScaler",
+        "vendor": "Citrix",
+        "severity": "CRITICAL",
+        "cvss": null,
+        "description": "No detailed description provided in the text.",
+        "exploitation_status": "No information provided",
+        "remediation": "No information provided",
+        "source_urls": [
+          "https://www.nextron-systems.com/2026/09/29/new-thor-detection-coverage-for-citrix-netscaler-cve-2026-88771-and-cve-2026-88772/"
+        ]
+      }
+    ],
+    "actors": [],
+    "hunting_indicators": [],
+    "industries": []
+  },
+  "https://www.nextron-systems.com/2026/09/28/management-center-4-2-enterprise-sso/": {
+    "enriched_at": "2026-09-29T10:40:23.162190+00:00",
     "incidents": [],
     "vulnerabilities": [],
     "actors": [],
